@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>To do</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Conclusion</value>
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="btnAutoSetRealAttendUserResource1.Text" xml:space="preserve">
+    <value>Import planned participant</value>
+  </data>
+  <data name="btnAutoSetRealAttendUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLiveMeetingResource1.Text" xml:space="preserve">
+    <value>Online meeting</value>
+  </data>
+  <data name="cbLiveMeetingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="createTimeResource1.HeaderText" xml:space="preserve">
+    <value>Maintenance time</value>
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Participants cannot be blank</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>{0}({1}) had been booked.</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Booking time should be in the time period between Meeting time</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter start time</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Cannot create new meeting</value>
+  </data>
+  <data name="CustomValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator6Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter end time</value>
+  </data>
+  <data name="CustomValidator6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>End time must be later than start time</value>
+  </data>
+  <data name="CustomValidator7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator9Resource1.ErrorMessage" xml:space="preserve">
+    <value>Meeting Recorder should be Chairman or Participant</value>
+  </data>
+  <data name="cvCheckChairResource1.ErrorMessage" xml:space="preserve">
+    <value>Chairman is required</value>
+  </data>
+  <data name="cvCheckChairResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvReadAuthorityResource1.ErrorMessage" xml:space="preserve">
+    <value>Since you are no longer the meeting member, data will not be shown</value>
+  </data>
+  <data name="cvReadAuthorityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvReadAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DescriptionTemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DevolveRmpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridAllScheduleResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridRecordResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridRecordResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridRecordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridRecordResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridRecordResource2.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridRecordResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Participate</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Not participate</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>No reply yet</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Reply content</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>Person(s)</value>
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>Person(s)</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Planned participant</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>Person(s)</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>Notified member</value>
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>Manually input the E-mail address and separated by ","</value>
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>Manually input the E-mail address and separated by ","</value>
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>Time of Notice</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Reminder time</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbBtn2Resource1.Text" xml:space="preserve">
+    <value>Edit meeting minutes and to do list</value>
+  </data>
+  <data name="lbBtn2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>Confirm to delete?</value>
+  </data>
+  <data name="lbConfirmDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbConfirmJoinResource1.Text" xml:space="preserve">
+    <value>Confirm to reply</value>
+  </data>
+  <data name="lbConfirmJoinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbConfirmResource1.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="lbCreateUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCreateUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbDeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbJoinCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbJoinCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbJoinResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbJoinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddMeetingErrorResource1.Text" xml:space="preserve">
+    <value>Create new meeting failure</value>
+  </data>
+  <data name="lblAddMeetingErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthErrMsgResource1.Text" xml:space="preserve">
+    <value>You have not authorized to booking {0}, please select others.&lt;br /&gt;</value>
+  </data>
+  <data name="lblChairResource1.Text" xml:space="preserve">
+    <value>Chair</value>
+  </data>
+  <data name="lblChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckConnectionResource1.Text" xml:space="preserve">
+    <value>Check the setting of Meeting Server, including URL, Account and Password!(Account cannot be suspended )</value>
+  </data>
+  <data name="lblCheckConnectionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmSyncResource1.Text" xml:space="preserve">
+    <value>Meeting time has been changed, click [OK] to synchronize facilities booking time or click [Cancel].</value>
+  </data>
+  <data name="lblConfirmSyncResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactResource1.Text" xml:space="preserve">
+    <value>Meeting contact person</value>
+  </data>
+  <data name="lblContactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteMeetingErrorResource1.Text" xml:space="preserve">
+    <value>Delete meeting failure</value>
+  </data>
+  <data name="lblDeleteMeetingErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditJoinResource1.Text" xml:space="preserve">
+    <value>Edit Reply</value>
+  </data>
+  <data name="lblErrResource1.Text" xml:space="preserve">
+    <value>{0}({1}) had been booked.</value>
+  </data>
+  <data name="lblErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileResource1.Text" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="lblFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquiryGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquiryGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLimitMsgResource1.Text" xml:space="preserve">
+    <value>{0} is available until {1}.</value>
+  </data>
+  <data name="lblLiveMeetingResource1.Text" xml:space="preserve">
+    <value>Online meeting</value>
+  </data>
+  <data name="lblLiveMeetingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoginAlertResource1.Text" xml:space="preserve">
+    <value>Log in member is not meeting participant, cannot reply!</value>
+  </data>
+  <data name="lblLoginAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoginAlertResource2.Text" xml:space="preserve">
+    <value>Log in member is not meeting participant, cannot reply!</value>
+  </data>
+  <data name="lblLoginAlertResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMeetingConnectionErrorResource1.Text" xml:space="preserve">
+    <value>Check the setting of Meeting Server, including URL, Account and Password!(Account cannot be suspended )</value>
+  </data>
+  <data name="lblMeetingConnectionErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMeetingLocationURLErrorResource1.Text" xml:space="preserve">
+    <value>Meeting Server URL is incorrect or illegal!</value>
+  </data>
+  <data name="lblMeetingLocationURLErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmeetingRecorderResource1.Text" xml:space="preserve">
+    <value>Meeting Recorder</value>
+  </data>
+  <data name="lblModifyMeetingErrorResource1.Text" xml:space="preserve">
+    <value>Modify meeting failure</value>
+  </data>
+  <data name="lblModifyMeetingErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoEmptyMsgResource1.Text" xml:space="preserve">
+    <value>Blank not allowed</value>
+  </data>
+  <data name="lblNoEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoMeetRoomMsgResource1.Text" xml:space="preserve">
+    <value>Not Book Meeting Room yet</value>
+  </data>
+  <data name="lblNoMeetRoomMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotReplyMsgResource1.Text" xml:space="preserve">
+    <value>Meeting already in progress, cannot be replied</value>
+  </data>
+  <data name="lblNotReplyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreMsgResource1.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="lblPreMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRangeLimitMsgResource1.Text" xml:space="preserve">
+    <value>{0}{1}~{2} is unavailable.</value>
+  </data>
+  <data name="lblRealAttendUserResource1.Text" xml:space="preserve">
+    <value>Actual participant</value>
+  </data>
+  <data name="lblRealAttendUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSampleShowLimitMsgResource1.Text" xml:space="preserve">
+    <value>The {0} booking is available in {1} days. (End of booking date is {2})</value>
+  </data>
+  <data name="lblSampleShowLimitMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScheduleResource1.Text" xml:space="preserve">
+    <value>Other Schedules in Meeting time</value>
+  </data>
+  <data name="lblSelChairGUIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairGUIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendSuccessResource1.Text" xml:space="preserve">
+    <value>Successfully sent</value>
+  </data>
+  <data name="lblSendSuccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViewScheduleResource1.Text" xml:space="preserve">
+    <value>Check Schedule</value>
+  </data>
+  <data name="lbMeetingGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMeetingGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbNotReplyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbNotReplyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbOwnerGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbOwnerGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnEnableBCCResource1.Text" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="lbtnQueryResultResource1.Text" xml:space="preserve">
+    <value>Query inquiry result</value>
+  </data>
+  <data name="lbtnQueryResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnViewMemberScheduleResource1.Text" xml:space="preserve">
+    <value>Check Schedule</value>
+  </data>
+  <data name="lbUnBackCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUnBackCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUnJoinCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUnJoinCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUnJoinResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUnJoinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Book meeting room</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Other rooms</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="msgSendMinuteResource1.Text" xml:space="preserve">
+    <value>No meeting minutes selected</value>
+  </data>
+  <data name="msgSendMinuteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoticeTimeListItem1Resource1.Text" xml:space="preserve">
+    <value>10 minutes</value>
+  </data>
+  <data name="NoticeTimeListItem2Resource1.Text" xml:space="preserve">
+    <value>30 minutes</value>
+  </data>
+  <data name="NoticeTimeListItem3Resource1.Text" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="NoticeTimeListItem4Resource1.Text" xml:space="preserve">
+    <value>2 hours</value>
+  </data>
+  <data name="NoticeTimeListItem5Resource1.Text" xml:space="preserve">
+    <value>1 day</value>
+  </data>
+  <data name="NoticeTimeListItem6Resource1.Text" xml:space="preserve">
+    <value>3 days</value>
+  </data>
+  <data name="NoticeTimeListItem7Resource1.Text" xml:space="preserve">
+    <value>1 week</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>New meeting</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPane2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>Meeting contents</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>Meeting minutes</value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>To do item</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>Devolve</value>
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>s1</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>s2</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>s3</value>
+  </data>
+  <data name="rbBorrowRoomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbJoinResource1.Text" xml:space="preserve">
+    <value>Reply to participate in the meeting and add into my schedule</value>
+  </data>
+  <data name="rbJoinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNoticeBeforeResource1.Text" xml:space="preserve">
+    <value>Before start</value>
+  </data>
+  <data name="rbNoticeRightNowResource1.Text" xml:space="preserve">
+    <value>Notify immediately</value>
+  </data>
+  <data name="rbUnJoinResource1.Text" xml:space="preserve">
+    <value>Reply not to participate</value>
+  </data>
+  <data name="rbUnJoinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Blank not allowed</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Blank not allowed</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmp1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvDevolveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvDevolveResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvRecordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>New record</value>
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>Delete selected items</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>Meeting minutes sent</value>
+  </data>
+  <data name="TBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Value" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="toolbarPaneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbReturnDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbReturnDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="userWithDepResource3.HeaderText" xml:space="preserve">
+    <value>Maintenance member</value>
+  </data>
+  <data name="WebDateChooser1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooser2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

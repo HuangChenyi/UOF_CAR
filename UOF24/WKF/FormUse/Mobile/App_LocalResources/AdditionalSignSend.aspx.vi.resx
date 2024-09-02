@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbBackToSelfResource1.Text" xml:space="preserve">
+    <value>Trở lại trang web này sau quá trình ký kết
+</value>
+  </data>
+  <data name="cbBackToSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorAdditionalSiteResource1.ErrorMessage" xml:space="preserve">
+    <value>Một trang web đăng xuất yêu cầu ít nhất một nhân viên đăng xuất!</value>
+  </data>
+  <data name="CustomValidatorAdditionalSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorAdditionalSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorCustSiteResource1.ErrorMessage" xml:space="preserve">
+    <value>Trạm tiếp theo là quy trình tùy chỉnh, vui lòng xác định một quy trình tùy chỉnh trước</value>
+  </data>
+  <data name="CustomValidatorCustSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorCustSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.ErrorMessage" xml:space="preserve">
+    <value>Trạm tiếp theo là quy trình tùy chỉnh, vui lòng xác định một quy trình tùy chỉnh trước</value>
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Tần số nhắc nhở ký duyệt</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Tự động gửi đến trạm tiếp theo</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Thông tin trạm trước</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>[0  Biểu thị chưa thiết lập]</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>[0  Biểu thị chưa thiết lập]</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>[0  Biểu thị chưa thiết lập]</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalSignResource1.Text" xml:space="preserve">
+    <value>Đã thêm ký</value>
+  </data>
+  <data name="lblAgentListResource1.Text" xml:space="preserve">
+    <value>&lt;br&gt;</value>
+  </data>
+  <data name="lblAgentListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSendByExceptResource1.Text" xml:space="preserve">
+    <value>Nếu bạn chọn gửi theo ngoại lệ, biểu mẫu sẽ được gửi đến người quản lý phê duyệt điện tử, người này sẽ chuyển đổi biểu mẫu thành quy trình miễn phí và gửi nó đi. Bạn có chắc chắn không?</value>
+  </data>
+  <data name="lblAlertSendByExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAttentionResource1.Text" xml:space="preserve">
+    <value>Tất cả người kí duyệt trên hệ thống này sau khi hoàn thành, biểu mẫu mới được gửi đến cho người thêm vào kí duyệt</value>
+  </data>
+  <data name="lblCustomAutoNumberCreateFailedResource1.Text" xml:space="preserve">
+    <value>Lỗi ID tùy chỉnh:</value>
+  </data>
+  <data name="lblCustomWordsResource1.Text" xml:space="preserve">
+    <value>Từ ngữ ký duyệt</value>
+  </data>
+  <data name="lblEndAlertResource1.Text" xml:space="preserve">
+    <value>Biểu mẫu này sẽ được đóng，chắc chắn không ?</value>
+  </data>
+  <data name="lblEndAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionSendResource1.Text" xml:space="preserve">
+    <value>Gửi bất thường</value>
+  </data>
+  <data name="lblExceptionSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionStopSendMsgResource1.Text" xml:space="preserve">
+    <value>Biểu mẫu bất thường, vui lòng thông báo với ban quản trị</value>
+  </data>
+  <data name="lblExceptionStopSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptResource1.Text" xml:space="preserve">
+    <value>Biểu mẫu bất thường</value>
+  </data>
+  <data name="lblExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowBaseResource1.Text" xml:space="preserve">
+    <value>Nhân viên khởi động quy trình</value>
+  </data>
+  <data name="lblFlowBaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowControlResource1.Text" xml:space="preserve">
+    <value>Chuyển đổi quy trình</value>
+  </data>
+  <data name="lblFlowControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNumResource1.Text" xml:space="preserve">
+    <value>Mã số biểu mẫu là:</value>
+  </data>
+  <data name="lblFormNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJobTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJobTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJumpResource1.Text" xml:space="preserve">
+    <value>Bỏ qua kí </value>
+  </data>
+  <data name="lblJumpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMasterFlowResource1.Text" xml:space="preserve">
+    <value>Lưu trình chính</value>
+  </data>
+  <data name="lblMasterFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgAgentExceptResource1.Text" xml:space="preserve">
+    <value>Người sau đã kích hoạt cài đặt người thay thế nhưng hệ thống không thể tìm thấy người thay thế của anh ta, biểu mẫu sẽ được gửi cho người kí ban đầu!</value>
+  </data>
+  <data name="lblMsgAgentExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgApExceptResource1.Text" xml:space="preserve">
+    <value>Hệ thống không thể lấy thông tin lưu trình tổ chức một cách chính xác, vui lòng chọn gửi bất thường, do nhân viên quản trị tiến hành xử lý theo dõi!</value>
+  </data>
+  <data name="lblMsgApExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgApNoSendExceptResource1.Text" xml:space="preserve">
+    <value>Hệ thống không thể lấy thông tin lưu trình tổ chức một cách chính xác! Vui lòng liên hệ quản trị viên!</value>
+  </data>
+  <data name="lblMsgApNoSendExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgAssignSiteResource1.Text" xml:space="preserve">
+    <value>Trang web tiếp theo là [Trang web được chỉ định], vui lòng đặt thông tin trang web và gửi đi!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgAssignSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgConditionExceptResource1.Text" xml:space="preserve">
+    <value>Nếu điều kiện quy trình không bình thường, vui lòng sửa biểu mẫu hoặc liên hệ với người quản lý để sửa đổi quy trình. Nếu bạn chọn gửi bất thường, biểu mẫu sẽ được người quản lý xử lý!</value>
+  </data>
+  <data name="lblMsgConditionExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgConditionNoSendExceptResource1.Text" xml:space="preserve">
+    <value>Nếu điều kiện quy trình không bình thường, vui lòng sửa biểu mẫu hoặc liên hệ với người quản lý để sửa đổi quy trình. Nếu bạn chọn gửi bất thường, biểu mẫu sẽ được người quản lý xử lý!</value>
+  </data>
+  <data name="lblMsgConditionNoSendExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgDisapproveResource1.Text" xml:space="preserve">
+    <value>Bạn đã chọn từ chối biểu mẫu này, biểu mẫu sẽ được đóng lại ở đây, bạn có chắc chắn không?</value>
+  </data>
+  <data name="lblMsgDisapproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgEndMasterByChoiceResource1.Text" xml:space="preserve">
+    <value>Đã chọn kết thúc, bạn chắc chắn muốn kết thúc không?&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgEndMasterByChoiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgEndSubByChoiceResource1.Text" xml:space="preserve">
+    <value>Tùy chọn kết thúc lưu trình phụ được chọn và lưu trình phụ sẽ kết thúc tại đây</value>
+  </data>
+  <data name="lblMsgEndSubByChoiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgFlowBaseExceptResource1.Text" xml:space="preserve">
+    <value>Quá trình của trang tiếp theo dựa trên một bất thường, vui lòng chọn nhóm bắt đầu và xếp hạng, nếu bạn chọn gửi bất thường, biểu mẫu sẽ được xử lý bởi quản trị viên!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgFlowBaseExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgFlowBaseNoSendExceptResource1.Text" xml:space="preserve">
+    <value>Cơ sở bắt đầu quá trình của trạm tiếp theo là bất thường, vui lòng chọn nhóm bắt đầu và xếp hạng, vui lòng liên hệ với quản trị viên!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgFlowBaseNoSendExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgFreeSiteResource1.Text" xml:space="preserve">
+    <value>Trang web tiếp theo là [Trang web quy trình tự do], vui lòng đặt thông tin trang web và gửi đi!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgFreeSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgLastSiteResource1.Text" xml:space="preserve">
+    <value>Trạm điểm hiện tại là trạm điểm cuối cùng có thể ký duyệt trong quy trình, bạn có chắc chắn muốn đóng không?</value>
+  </data>
+  <data name="lblMsgLastSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgLastSubSiteResource1.Text" xml:space="preserve">
+    <value>Trạm điểm hiện tại là trạm điểm cuối cùng của quy trình phụ!</value>
+  </data>
+  <data name="lblMsgLastSubSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgMutiSignersExceptResource1.Text" xml:space="preserve">
+    <value>Trang web chung không cho phép nhiều người kí, vui lòng liên hệ với nhân viên quản lý để sửa đổi quy trình, nếu bạn chọn gửi bất thường thì biểu mẫu sẽ do quản trị viên tiến hành xử lý!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgMutiSignersExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgMutiSignersNoSendExceptResource1.Text" xml:space="preserve">
+    <value>Trang web chung không cho phép nhiều người kí, vui lòng liên hệ với nhân viên quản lý để sửa đổi quy trình!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgMutiSignersNoSendExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgNextSiteAtMasterResource1.Text" xml:space="preserve">
+    <value>Trang web này thuộc về trang quy trình chính</value>
+  </data>
+  <data name="lblMsgNextSiteAtMasterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgNextSiteAtSubResource1.Text" xml:space="preserve">
+    <value>Trang web này thuộc về trang quy trình chính</value>
+  </data>
+  <data name="lblMsgNextSiteAtSubResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgNonFoundNextSiteResource1.Text" xml:space="preserve">
+    <value>Trong quá trình chính, không có thứ hạng nào phù hợp hơn để đăng xuất! Bạn có chắc là bạn sẽ đóng hồ sơ ở đây không?&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgNonFoundNextSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgNonFoundNextSubSiteResource1.Text" xml:space="preserve">
+    <value>Vị trí công việc  trong lưu trình phụ không đăng xuất phù hợp!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgNonFoundNextSubSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgNonResultResource1.Text" xml:space="preserve">
+    <value>Hiện tại trạng thái ký vẫn chưa được đồng thuận phê duyệt, vui lòng chọn gửi đi, và đợi người khác ký duyệt!</value>
+  </data>
+  <data name="lblMsgNonResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgNoSignersExceptResource1.Text" xml:space="preserve">
+    <value>Không có nhân viên kí, vui lòng sửa thông tin trạm tiếp theo hoặc liên lạc quản trị viên để sửa lưu trình, nếu bạn chọn gửi bất thường, biểu mẫu sẽ do quản trị viên xử lý sau khi thực hiện!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgNoSignersExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgNoSignersNoSendExceptResource1.Text" xml:space="preserve">
+    <value>Không có nhân viên kí, vui lòng sửa thông tin trạm tiếp theo hoặc liên lạc quản trị viên để sửa lưu trình!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgNoSignersNoSendExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgSubFlowNotSupportAndSiteResource1.Text" xml:space="preserve">
+    <value>Trạm điểm tái ký hợp đồng không hỗ trợ bộ phận và cấp bậc của người phê duyệt từ trạm điểm trước đó!</value>
+  </data>
+  <data name="lblMsgSubFlowNotSupportAndSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMultiAndApprovalTipResource1.Text" xml:space="preserve">
+    <value>Người kí duyệt khác trên trang này đã dựa vào trình tự để thêm vào nhân viên dưới đây</value>
+  </data>
+  <data name="lblNextSiteAlerterResource1.Text" xml:space="preserve">
+    <value>Thông báo cho nhân viên</value>
+  </data>
+  <data name="lblNextSiteAlerterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNextSiteSetResource1.Text" xml:space="preserve">
+    <value>Loại phê duyệt</value>
+  </data>
+  <data name="lblNextSiteSignerResource1.Text" xml:space="preserve">
+    <value>Người ký duyệt</value>
+  </data>
+  <data name="lblNoAllowApply.Text" xml:space="preserve">
+    <value>Biểu mẫu này hiện không được phép áp dụng</value>
+  </data>
+  <data name="lblNoAuthResource1.Text" xml:space="preserve">
+    <value>Không có quyền hạn điền vào</value>
+  </data>
+  <data name="lblNotifyAdminResource1.Text" xml:space="preserve">
+    <value>Người quản lí thông báo</value>
+  </data>
+  <data name="lblNotifyAdminResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoTitleResource1.Text" xml:space="preserve">
+    <value>Không tìm thấy chức cấp của người kí, trạm tiếp theo là quy trình phụ và thực hiện dựa vào bộ phận và chức cấp của người kí ở trạm trước đó!&lt;br&gt;</value>
+  </data>
+  <data name="lblNoTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrevPageResource1.Text" xml:space="preserve">
+    <value>Phản hồi</value>
+  </data>
+  <data name="lblReturnTxtResource1.Text" xml:space="preserve">
+    <value>Phản hồi</value>
+  </data>
+  <data name="lblReturnTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendContinueResource1.Text" xml:space="preserve">
+    <value>Tiếp tục sau khi xác nhận</value>
+  </data>
+  <data name="lblSendContinueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendMsgResource1.Text" xml:space="preserve">
+    <value>Biểu mẫu đã gửi và số biểu mẫu là {0}</value>
+  </data>
+  <data name="lblSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendResource1.Text" xml:space="preserve">
+    <value>Gửi </value>
+  </data>
+  <data name="lblSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignFailResource1.Text" xml:space="preserve">
+    <value>Phê duyệt không thành công, có thể ai đó đã thay đổi trạng thái biểu mẫu cùng một lúc </value>
+  </data>
+  <data name="lblSignFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartGroupExceptResource1.Text" xml:space="preserve">
+    <value>Nhóm bất thường</value>
+  </data>
+  <data name="lblStartGroupExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartGroupResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartJobTitleExceptResource1.Text" xml:space="preserve">
+    <value>Cấp bậc bất thường </value>
+  </data>
+  <data name="lblStartJobTitleExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubFlowNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubFlowNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubmitTxtResource1.Text" xml:space="preserve">
+    <value>Chắc chắn</value>
+  </data>
+  <data name="lblSubmitTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSysMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSysMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeOutCommentResource1.Text" xml:space="preserve">
+    <value>[0 Biểu thị không có thời gian đợi ]</value>
+  </data>
+  <data name="lblTimeOutCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeoutTitleResource1.Text" xml:space="preserve">
+    <value>Thiết lập thời gian quá hạn</value>
+  </data>
+  <data name="lblTimeoutTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnAlreadyAdditionalSignResource1.Text" xml:space="preserve">
+    <value>Đã thêm dữ liệu ký</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Đồng ý</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Kí và phê duyệt</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Phủ quyết</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>DisApprove</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Không có quyền hạn điền vào</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Thông thường</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Ký đồng thời</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="lobSubFlowResource1.Text" xml:space="preserve">
+    <value>Lưu trình phụ</value>
+  </data>
+  <data name="lobSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelAgentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelMasterSelectResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelMasterSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelNextSiteBelongSubFlowResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelNextSiteBelongSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelNextSiteResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelNextSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelSubSelectResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelSubSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>Button 1</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>SeparatorC</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value>Button 2</value>
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>SeparatorD</value>
+  </data>
+  <data name="RangeValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Số nguyên này phải từ 0-1000</value>
+  </data>
+  <data name="RangeValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblMasterFlowItem1Resource.Text" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="rblMasterFlowItem1Resource.Value" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="rblMasterFlowItem2Resource.Text" xml:space="preserve">
+    <value>Trạm tiếp theo</value>
+  </data>
+  <data name="rblMasterFlowItem2Resource.Value" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="rblMasterFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblSignResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblSignTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblSubFlowItem1Resource.Text" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="rblSubFlowItem1Resource.Value" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="rblSubFlowItem2Resource.Text" xml:space="preserve">
+    <value>Trạm tiếp theo</value>
+  </data>
+  <data name="rblSubFlowItem2Resource.Value" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="rblSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>Lưu trình biểu đơn quan sát</value>
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>ShowFlow</value>
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>Quá trình ký kết tiếp theo</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>CustSite</value>
+  </data>
+  <data name="tbTimeoutCountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbTimeoutCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTimeoutCountResource2.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTimeoutCountResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAutoSignResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAutoSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleAlertResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebToolbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

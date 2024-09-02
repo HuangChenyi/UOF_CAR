@@ -1,0 +1,434 @@
+﻿/* menu */
+
+.RadMenu_Default, .RadMenu_Default a.rmLink {
+    font-size: 100% !important;
+}
+
+.rmText {
+    font-size: 100% !important;
+}
+
+.RadSiteMap {
+    font-size: 100% !important;
+}
+
+.RadSiteMap .rsmTwoLevels .rsmItem {
+    font-size: 108% !important;
+}
+
+.RadSiteMap .rsmTwoLevels .rsmLevel1 .rsmItem {
+    font-size: 90% !important;
+}
+
+
+.RadSiteMap_Default .rsmLink {
+    background-image: inherit !important;
+}
+
+
+    .RadSiteMap_Default .rsmLink span:hover {
+        text-decoration: none;
+    }
+
+    .RadSiteMap_Default .rsmOneLevel .rsmLink:hover, .RadSiteMap_Default .rsmTwoLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Default .rsmThreeLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Default .rsmManyLevels .rsmLevel2 .rsmLink:hover {
+      background-color: transparent !important;
+   }
+
+.rsmLevel1 .rsmItem {
+    margin-right: 10px !important;
+}
+
+    .rsmLevel1 .rsmItem:hover {
+        background-color: #EAEAEA !important;
+    }
+
+.RadMenu_Default .rmVertical .rmText {
+    background: transparent !important;
+}
+
+.RadMenu .rmGroup .rmText {
+    padding: 0 10px 0 28px !important;
+}
+
+.rsmLevel > .rsmItem > .rsmLink {
+    color: #218100 !important;
+    cursor: default;
+    padding: 2px 3px 2px 10px;
+    margin: 3px !important;
+    background: #f1ecdc;
+}
+
+.rsmLevel .rsmLevel1 .rsmLink {
+    text-indent: -0.85em;
+    margin-left: 0.85em;
+    color: #000000 !important;
+    font-weight: normal !important;
+     display: inline-block;
+    width: 98%;
+}
+
+.RadSiteMap .rsmItem .rsmItem {
+    padding-left: 0px !important;
+}
+
+.RadSiteMap .rsmLink {
+    border: 0px !important;
+    padding: 1px 1px 1px 7px !important;
+}
+
+@-webkit-keyframes rsmPointerwobble {
+
+    10%, 30%, 50% {
+        -webkit-transform: translateX(-4px);
+        -ms-transform: translateX(-4px);
+        transform: translateX(-4px);
+    }
+
+    0%, 20%, 40%, 50%, 100% {
+        -webkit-transform: translateX(4px);
+        -ms-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+}
+
+@keyframes rsmPointerwobble {
+    10%, 30%, 50% {
+        -webkit-transform: translateX(-4px);
+        -ms-transform: translateX(-4px);
+        transform: translateX(-4px);
+    }
+
+    0%, 20%, 40%, 50%, 100% {
+        -webkit-transform: translateX(4px);
+        -ms-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+}
+
+
+.rsmLevel .rsmLevel1 .rsmLink span {
+    color: #218100;
+    font-size: 127% !important;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.rsmLevel1 .rsmItem:hover span {
+    margin-left: 9px;
+    display: inline-block;
+    color: #900000 !important;
+    font-size: 127% !important;
+    -webkit-animation-name: rsmPointerwobble;
+    animation-name: rsmPointerwobble;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.rmScrollWrap {
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+.rmTopArrow, .rmBottomArrow {
+    display: none !important;
+}
+
+/*web part*/
+.RadDock .rdTitleBar em {
+    font-size: 100% !important;
+}
+
+.RadDock .rdContent {
+    font-size: 100% !important;
+}
+
+/* Tree */
+
+.RadTreeView_Metro {
+    font-size: 100% !important;
+}
+
+    .RadTreeView_Metro_disabled .rtIn, .RadTreeView_Metro .rtDisabled .rtIn {
+        color: #7d7d7d !important;
+    }
+
+.rtDisabled .rtImg, .rtDisabled .rtIn {
+    cursor: default;
+}
+
+.rtImg, .rtIn {
+    cursor: pointer;
+}
+.RadTreeView .rtIn {
+    display: inline !important;
+}
+/*Toolbar */
+.RadToolBar_Metro .rtbOuter {
+    /*background-color: #efefef !important;*/
+}
+.RadToolBar_Metro {
+    font-size: 100% !important;
+}
+.RadToolBar_Metro .rtbWrap, .RadToolBar_Metro .rtbTemplate {
+    font-size: 100% !important;
+}
+
+.RadToolBar_Metro_Horizontal li.rtbSeparator {
+    background-color: #cccccc !important;
+}
+
+.RadToolBar_Metro .rtbWrap {
+    font-size: 100% !important;
+    color: #000000 !important;
+}
+
+.RadToolBar_Metro .rtbTemplate {
+    color: #000000 !important;
+}
+
+.RadToolBar_Metro .rtbItemHovered .rtbWrap {
+    color: #ffffff !important;
+}
+
+.RadToolBar_Metro .rtbTemplate, .RadToolBarDropDown_Metro .rtbWrap {
+    font-size: 100% !important;
+}
+
+.RadToolBar_Metro .rtbItemHovered .rtbWrap {
+    background-color: #249fd9 !important;
+}
+
+.RadToolBar_Metro .rtbItemFocused .rtbWrap {
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.RadToolBar .rtbDisabled {
+    -webkit-opacity: .4 !important;
+    -moz-opacity: .4 !important;
+    opacity: .4 !important;
+}
+
+.RadToolBar td {
+    vertical-align: middle !important;
+}
+
+.rtbSeparator {
+    margin-left: 5px !important;
+    margin-right: 2px !important;
+}
+
+.RadToolBarDropDown_Metro .rtbWrap, .RadToolBarDropDown_Metro .rtbTemplate {
+    text-transform: none !important;
+    color: #000000 !important;
+}
+
+.RadToolBarDropDown_Metro .rtbDisabled .rtbWrap {
+    -webkit-opacity: .4 !important;
+    -moz-opacity: .4 !important;
+    opacity: .4 !important;
+}
+
+/*Calendar */
+.RadCalendar_Default .rcMainTable {
+    font-size: 100% !important;
+}
+
+table.RadCalendar_Default {
+    font-size: 100% !important;
+}
+
+.RadCalendar_Default .rcTitlebar table {
+    font-size: 100% !important;
+}
+
+.RadCalendarPopup.RadCalendarPopupShadows{
+    z-index: 8500 !important;
+} 
+.RadCalendarFastNavPopup.RadCalendarPopupShadows{
+    z-index: 8800 !important;
+} 
+
+/*RadPicker*/
+
+.RadPicker {
+    height: inherit !important;
+}
+
+/* Input */
+.RadInput_Default .riTextBox {
+    font-size: 100% !important;
+}
+
+.RadInput_Default {
+    font-size: 100% !important;
+}
+
+.RadPanelBar_Default a.rpLink {
+    font-size: 100% !important;
+}
+
+.RadSplitter_Default {
+    font-size: 100% !important;
+}
+
+.RadInput_Metro, .RadInputMgr_Metro {
+    font-size: 100% !important;
+}
+
+    .RadInput_Metro .riTextBox {
+        font-size: 100% !important;
+    }
+
+/* tab */
+.RadTabStrip_Outlook {
+    font-size: 100% !important;
+}
+
+    .RadTabStrip_Outlook .rtsLI {
+        font-size: 100% !important;
+    }
+
+    .RadTabStrip_Outlook .rtsLink {
+        font-size: 100% !important;
+    }
+
+.RadTabStrip .rtsTxt, .RadTabStripVertical .rtsTxt {
+    vertical-align: top;
+}
+
+/* button */
+
+.RadButton {
+    box-sizing: content-box !important;
+    font-size: 100% !important;
+}
+
+.RadButton_Office2010Blue .rbDecorated {
+    font-size: 100% !important;
+}
+
+.RadButton_Sunset .rbDecorated {
+    font-size: 100% !important;
+}
+
+.RadButton_Hay .rbDecorated {
+    font-size: 100% !important;
+}
+
+
+.UofRadButton , html span.RadButton.UofRadButton.rbImageButton.rbDisabled {
+    background-size: 100% 100%;
+    padding: 2px 10px 2px 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0px #666;
+    margin: 2px;
+    height: 20px;
+}
+span.RadButton_Silk.rbHovered{
+    color:black !important;
+}
+
+.UofRadButtonHovered {
+    box-shadow: 1px 1px 1px 1px #666;
+}
+
+/*RadListBox*/
+.RadListBox_Hay .rlbGroup {
+    font-size: 100% !important;
+}
+
+/*Grid*/
+.RadGrid > table > tbody > tr:hover {
+    background-color: #fffacd;
+}
+
+/*window*/
+.RadWindow_Default a.rwIcon {
+    background-image: url('../images/uoflogo.gif') !important;
+    background-position-y: 0px !important;
+}
+
+.RadWindow_Default a.rwCloseButton {
+    background-image: url('../images/icon/RadWindowClose.gif') !important;
+}
+/*.rwLoading {
+    background-image: none !important;
+}*/
+
+.UofRadNumericTextBox {
+    text-align: right;
+}
+
+/*webpart*/
+.RadDockZone {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.RadDockZone:nth-child(1) {
+    padding-left: 3px !important;
+}
+.RadDockZone:last-child {
+    padding-right: 3px !important;
+}
+
+
+.RadDock {
+    border: 0;
+    min-height: 80px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-collapse: separate;
+    
+}
+
+    .RadDock .rdCommands {
+        padding-right: 0px !important;
+    }
+
+    .RadDock .innerWrp {
+        margin: 0 !important;
+        padding: 10px !important;
+    }
+
+    .RadDock .rdContent {
+        line-height: inherit !important;
+        padding: 6px 0 2px 0;
+    }
+
+.rdTable {
+    border-collapse: separate !important;
+    border-spacing: 0;
+     border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+
+.RadDropDownList {
+    font-size: 100% !important;
+    width: auto !important;
+    min-width: 134px !important;
+}
+
+.RadDropDownList_Metro {
+    font-size: 100% !important;
+}
+
+.rddlPopup_Metro {
+    font-size: 100% !important;
+    width:inherit !important;
+}
+
+.rddlSlide{
+    width:auto !important;
+}

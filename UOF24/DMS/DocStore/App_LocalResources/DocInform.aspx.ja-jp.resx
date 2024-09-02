@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authDepResource1.Text" xml:space="preserve">
+    <value>責任を持つ部門</value>
+  </data>
+  <data name="authDepResource1.Value" xml:space="preserve">
+    <value>authDep</value>
+  </data>
+  <data name="btnQueryFlowResource1.Text" xml:space="preserve">
+    <value>審査結果を見る</value>
+  </data>
+  <data name="ChartGradeResource1.ChartTitle.TextBlock.Text" xml:space="preserve">
+    <value>Chart Title</value>
+  </data>
+  <data name="ChartGradeResource2.ChartTitle.TextBlock.Text" xml:space="preserve">
+    <value>Chart Title</value>
+  </data>
+  <data name="custodyUserResource1.Text" xml:space="preserve">
+    <value>保管者</value>
+  </data>
+  <data name="custodyUserResource1.Value" xml:space="preserve">
+    <value>custodyUser</value>
+  </data>
+  <data name="GroupResource1.Text" xml:space="preserve">
+    <value>作成者の機能</value>
+  </data>
+  <data name="GroupResource2.Text" xml:space="preserve">
+    <value>ディレクトリ管理者権限</value>
+  </data>
+  <data name="GroupResource3.Text" xml:space="preserve">
+    <value>閲覧者機能</value>
+  </data>
+  <data name="ItemResource1.Text" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="ItemResource10.Text" xml:space="preserve">
+    <value>棚上げする</value>
+  </data>
+  <data name="ItemResource11.Text" xml:space="preserve">
+    <value>フォームの権限設定</value>
+  </data>
+  <data name="ItemResource12.Text" xml:space="preserve">
+    <value>バージョン履歴</value>
+  </data>
+  <data name="ItemResource13.Text" xml:space="preserve">
+    <value>スコアに対してコメント表</value>
+  </data>
+  <data name="ItemResource14.Text" xml:space="preserve">
+    <value>チェック履歴</value>
+  </data>
+  <data name="ItemResource15.Text" xml:space="preserve">
+    <value>参考書類</value>
+  </data>
+  <data name="ItemResource2.Text" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="ItemResource3.Text" xml:space="preserve">
+    <value>取り出す</value>
+  </data>
+  <data name="ItemResource4.Text" xml:space="preserve">
+    <value>取り出す</value>
+  </data>
+  <data name="ItemResource5.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ItemResource6.Text" xml:space="preserve">
+    <value>フォーム属性の修正</value>
+  </data>
+  <data name="ItemResource7.Text" xml:space="preserve">
+    <value>廃止する</value>
+  </data>
+  <data name="ItemResource8.Text" xml:space="preserve">
+    <value>廃止する</value>
+  </data>
+  <data name="ItemResource9.Text" xml:space="preserve">
+    <value>オフシェルフ</value>
+  </data>
+  <data name="LabApproveResource.Text" xml:space="preserve">
+    <value>審査担当者</value>
+  </data>
+  <data name="labChartTitleResource1.Text" xml:space="preserve">
+    <value>発表した文章ランキング</value>
+  </data>
+  <data name="labDocDenyResource1.Text" xml:space="preserve">
+    <value>頒布不能</value>
+  </data>
+  <data name="labDocIsDeleteResource1.Text" xml:space="preserve">
+    <value>フォームがアップデートする前に既に廃止されました</value>
+  </data>
+  <data name="labDocNoApproveResource.Text" xml:space="preserve">
+    <value>審査しなくても良いです</value>
+  </data>
+  <data name="labDocStoreResource1.Text" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Byte</value>
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>秘</value>
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>システムのバージョン</value>
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>リリース審査</value>
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>作成日</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>ファイルサイズ</value>
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>あらすじ</value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>リリース/変更のお知らせ</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>発行単位</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>保管者</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>ドキュメント情報</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>ドキュメント番号：</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>フォームのタイプ</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>グループで編集することをできます</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>作成者</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>有効になる日</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>フォームの時間切れ日</value>
+  </data>
+  <data name="LabelKeyWordResource1.Text" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="labNoActiveResource1.Text" xml:space="preserve">
+    <value>まだ有効になっていません</value>
+  </data>
+  <data name="labNormalResource1.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="lblActiveResource1.Text" xml:space="preserve">
+    <value>有効になる</value>
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>審査中</value>
+  </data>
+  <data name="lblAuthDepTextResource1.Text" xml:space="preserve">
+    <value>担当部門</value>
+  </data>
+  <data name="lblAutoSerialResource1.Text" xml:space="preserve">
+    <value>＊自動的に番号を作成する</value>
+  </data>
+  <data name="lblCancelErrorResource1.Text" xml:space="preserve">
+    <value>取り出すをキャンセルする時エラーが発生しました</value>
+  </data>
+  <data name="lblCheckinErrorResource1.Text" xml:space="preserve">
+    <value>保存する際にエラーが発生しました</value>
+  </data>
+  <data name="lblCheckinResource1.Text" xml:space="preserve">
+    <value>保存済み</value>
+  </data>
+  <data name="lblCheckoutErrorResource1.Text" xml:space="preserve">
+    <value>取り出し際にエラーが発生しました</value>
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>ファイルを取り出し済み</value>
+  </data>
+  <data name="lblConfirmCancelcheckoutResource1.Text" xml:space="preserve">
+    <value>取り出すことをキャンセルしてもよろしいでしょうか</value>
+  </data>
+  <data name="lblConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>ファイルを廃止してもよろしいでしょうか</value>
+  </data>
+  <data name="lblConfirmReactResource1.Text" xml:space="preserve">
+    <value>このファイルを再リリースことを確認しますか</value>
+  </data>
+  <data name="lblConfirmTempInactResource1.Text" xml:space="preserve">
+    <value>しばらくオフシェルフしてもよろしいでしょうか</value>
+  </data>
+  <data name="lblConfirmVoidResource1.Text" xml:space="preserve">
+    <value>ファイルを廃止してもよろしいでしょうか</value>
+  </data>
+  <data name="lblCopyDocHrefResource1.Text" xml:space="preserve">
+    <value>フォームのリンクをコピーしました</value>
+  </data>
+  <data name="lblCopyVerHrefResource1.Text" xml:space="preserve">
+    <value>バージョンリンクをコピー済み</value>
+  </data>
+  <data name="lblDeleteErrorResource1.Text" xml:space="preserve">
+    <value>ファイルが廃止している時にエラーが発生しました</value>
+  </data>
+  <data name="lblDeletingApprovalResource1.Text" xml:space="preserve">
+    <value>リリース中（廃止審査中）</value>
+  </data>
+  <data name="lblDeletingResource1.Text" xml:space="preserve">
+    <value>（廃止申請を審査中）</value>
+  </data>
+  <data name="lblDialogErrorResource1.Text" xml:space="preserve">
+    <value>画面を閉じてください</value>
+  </data>
+  <data name="lblDMSStatusResource1.Text" xml:space="preserve">
+    <value>簡単なフロー</value>
+  </data>
+  <data name="lblDocLinkResource1.Text" xml:space="preserve">
+    <value>書類に接続</value>
+  </data>
+  <data name="lblFileResource1.Text" xml:space="preserve">
+    <value>デジタルファイル</value>
+  </data>
+  <data name="lblHistoryResource1.Text" xml:space="preserve">
+    <value>バージョン履歴を閲覧</value>
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>無効になる</value>
+  </data>
+  <data name="lblInfoResource1.Text" xml:space="preserve">
+    <value>ドキュメント情報</value>
+  </data>
+  <data name="lblNeverOverdueResource1.Text" xml:space="preserve">
+    <value>期限切れがない</value>
+  </data>
+  <data name="lblNoPrivilegeResource1.Text" xml:space="preserve">
+    <value>閲覧権限が持っていません</value>
+  </data>
+  <data name="lblNoResource1.Text" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="lblNoSendApproveResource1.Text" xml:space="preserve">
+    <value>まだ審査してないので、審査結果を閲覧できません</value>
+  </data>
+  <data name="lblNoSendDeleteResource1.Text" xml:space="preserve">
+    <value>資料はまだ破棄してないので、審査結果が見えない</value>
+  </data>
+  <data name="lblNoSendVoidResource1.Text" xml:space="preserve">
+    <value>まだ審査してないので、審査結果を閲覧できません</value>
+  </data>
+  <data name="lblOldVerResource1.Text" xml:space="preserve">
+    <value>旧バージョン</value>
+  </data>
+  <data name="lblPaperResource1.Text" xml:space="preserve">
+    <value>紙</value>
+  </data>
+  <data name="lblPublishDatetextResource1.Text" xml:space="preserve">
+    <value>リリース日</value>
+  </data>
+  <data name="lblPublishErrorResource1.Text" xml:space="preserve">
+    <value>文章がアップデートしている際にエラーが発生しました</value>
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>リリース済み</value>
+  </data>
+  <data name="lblqrInfo2Resource2.Text" xml:space="preserve">
+    <value>（ボタンを押したらダウンロードできます）</value>
+  </data>
+  <data name="lblqrInfoResource2.Text" xml:space="preserve">
+    <value>書類QR Code</value>
+  </data>
+  <data name="lblReactErrorResource1.Text" xml:space="preserve">
+    <value>リリースする際にエラーが発生しました</value>
+  </data>
+  <data name="lblReActResource1.Text" xml:space="preserve">
+    <value>棚上げ済み</value>
+  </data>
+  <data name="lblRefResource1.Text" xml:space="preserve">
+    <value>参考資料を見る</value>
+  </data>
+  <data name="lblSecretmResource1.Text" xml:space="preserve">
+    <value>秘密情報</value>
+  </data>
+  <data name="lblSuitableDepTextResource1.Text" xml:space="preserve">
+    <value>適用されてる部門</value>
+  </data>
+  <data name="lblTempInactErrorResource1.Text" xml:space="preserve">
+    <value>取り出すをキャンセルする時エラーが発生しました</value>
+  </data>
+  <data name="lblTempInactResource1.Text" xml:space="preserve">
+    <value>削除された</value>
+  </data>
+  <data name="lblTopSecretResource1.Text" xml:space="preserve">
+    <value>極秘</value>
+  </data>
+  <data name="lblUpdatingResource1.Text" xml:space="preserve">
+    <value>バージョンがアップデートする</value>
+  </data>
+  <data name="lblUrgencyExHighResource1.Text" xml:space="preserve">
+    <value>大至急</value>
+  </data>
+  <data name="lblUrgencyHighResource1.Text" xml:space="preserve">
+    <value>至急</value>
+  </data>
+  <data name="lblUrgencyNormalResource1.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="lblUrgencyTextResource1.Text" xml:space="preserve">
+    <value>プライオリティ</value>
+  </data>
+  <data name="lblVoidApprovalResource1.Text" xml:space="preserve">
+    <value>リリース済み（廃止申請中）</value>
+  </data>
+  <data name="lblVoidErrorResource1.Text" xml:space="preserve">
+    <value>エラーが発生しました</value>
+  </data>
+  <data name="lblVoidResource1.Text" xml:space="preserve">
+    <value>廃止済み</value>
+  </data>
+  <data name="lblWKFStatusResource1.Text" xml:space="preserve">
+    <value>電子サイン</value>
+  </data>
+  <data name="lblXSecretResource1.Text" xml:space="preserve">
+    <value>秘</value>
+  </data>
+  <data name="lblXXSecretResource1.Text" xml:space="preserve">
+    <value>極秘</value>
+  </data>
+  <data name="lblYesResource1.Text" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>ドキュメント情報</value>
+  </data>
+  <data name="publishUnitResource1.Text" xml:space="preserve">
+    <value>発行単位</value>
+  </data>
+  <data name="publishUnitResource1.Value" xml:space="preserve">
+    <value>publishUnit</value>
+  </data>
+  <data name="RadPanelItemResource1.Text" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="RadPanelItemResource1.Value" xml:space="preserve">
+    <value>DocOutPublish</value>
+  </data>
+  <data name="RadPanelItemResource10.Text" xml:space="preserve">
+    <value>廃止する</value>
+  </data>
+  <data name="RadPanelItemResource10.Value" xml:space="preserve">
+    <value>DocVoid</value>
+  </data>
+  <data name="RadPanelItemResource11.Text" xml:space="preserve">
+    <value>オフシェルフ</value>
+  </data>
+  <data name="RadPanelItemResource11.Value" xml:space="preserve">
+    <value>DocDisable</value>
+  </data>
+  <data name="RadPanelItemResource12.Text" xml:space="preserve">
+    <value>棚上げする</value>
+  </data>
+  <data name="RadPanelItemResource12.Value" xml:space="preserve">
+    <value>DocEnable</value>
+  </data>
+  <data name="RadPanelItemResource13.Text" xml:space="preserve">
+    <value>フォームの権限設定</value>
+  </data>
+  <data name="RadPanelItemResource13.Value" xml:space="preserve">
+    <value>DocPermission</value>
+  </data>
+  <data name="RadPanelItemResource14.Text" xml:space="preserve">
+    <value>ディレクトリ管理者権限</value>
+  </data>
+  <data name="RadPanelItemResource14.Value" xml:space="preserve">
+    <value>GrpManager</value>
+  </data>
+  <data name="RadPanelItemResource15.Text" xml:space="preserve">
+    <value>バージョン履歴</value>
+  </data>
+  <data name="RadPanelItemResource15.Value" xml:space="preserve">
+    <value>DocHistory</value>
+  </data>
+  <data name="RadPanelItemResource16.Text" xml:space="preserve">
+    <value>スコアに対してコメント表</value>
+  </data>
+  <data name="RadPanelItemResource16.Value" xml:space="preserve">
+    <value>DocGradeList</value>
+  </data>
+  <data name="RadPanelItemResource17.Text" xml:space="preserve">
+    <value>参考書類</value>
+  </data>
+  <data name="RadPanelItemResource17.Value" xml:space="preserve">
+    <value>DocRefLink</value>
+  </data>
+  <data name="RadPanelItemResource18.Text" xml:space="preserve">
+    <value>閲覧者機能</value>
+  </data>
+  <data name="RadPanelItemResource18.Value" xml:space="preserve">
+    <value>GrpReader</value>
+  </data>
+  <data name="RadPanelItemResource19.Text" xml:space="preserve">
+    <value>OCRの結果</value>
+  </data>
+  <data name="RadPanelItemResource19.Value" xml:space="preserve">
+    <value>RecognizeResult</value>
+  </data>
+  <data name="RadPanelItemResource2.Text" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="RadPanelItemResource2.Value" xml:space="preserve">
+    <value>DocInPublish</value>
+  </data>
+  <data name="RadPanelItemResource20.Text" xml:space="preserve">
+    <value>再読み込み</value>
+  </data>
+  <data name="RadPanelItemResource20.Value" xml:space="preserve">
+    <value>ReRecognize</value>
+  </data>
+  <data name="RadPanelItemResource21.Text" xml:space="preserve">
+    <value>OCRの結果</value>
+  </data>
+  <data name="RadPanelItemResource21.Value" xml:space="preserve">
+    <value>RecognizeResult</value>
+  </data>
+  <data name="RadPanelItemResource22.Text" xml:space="preserve">
+    <value>再読み込み</value>
+  </data>
+  <data name="RadPanelItemResource22.Value" xml:space="preserve">
+    <value>ReRecognize</value>
+  </data>
+  <data name="RadPanelItemResource23.Text" xml:space="preserve">
+    <value>審査フローの履歴</value>
+  </data>
+  <data name="RadPanelItemResource23.Value" xml:space="preserve">
+    <value>DocApproveLog</value>
+  </data>
+  <data name="RadPanelItemResource24.Text" xml:space="preserve">
+    <value>ドキュメントを移動する</value>
+  </data>
+  <data name="RadPanelItemResource24.Value" xml:space="preserve">
+    <value>AuthorChangeDoc</value>
+  </data>
+  <data name="RadPanelItemResource25.Text" xml:space="preserve">
+    <value>ドキュメントを移動する</value>
+  </data>
+  <data name="RadPanelItemResource25.Value" xml:space="preserve">
+    <value>AdminChangeDoc</value>
+  </data>
+  <data name="RadPanelItemResource3.Text" xml:space="preserve">
+    <value>取り出すことをキャンセルする</value>
+  </data>
+  <data name="RadPanelItemResource3.Value" xml:space="preserve">
+    <value>CancelCheckout</value>
+  </data>
+  <data name="RadPanelItemResource4.Text" xml:space="preserve">
+    <value>取り出す</value>
+  </data>
+  <data name="RadPanelItemResource4.Value" xml:space="preserve">
+    <value>DocCheckout</value>
+  </data>
+  <data name="RadPanelItemResource5.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="RadPanelItemResource5.Value" xml:space="preserve">
+    <value>DocCheckin</value>
+  </data>
+  <data name="RadPanelItemResource6.Text" xml:space="preserve">
+    <value>フォーム属性の修正</value>
+  </data>
+  <data name="RadPanelItemResource6.Value" xml:space="preserve">
+    <value>DocProperty</value>
+  </data>
+  <data name="RadPanelItemResource7.Text" xml:space="preserve">
+    <value>チェック履歴</value>
+  </data>
+  <data name="RadPanelItemResource7.Value" xml:space="preserve">
+    <value>DocLendLog</value>
+  </data>
+  <data name="RadPanelItemResource8.Text" xml:space="preserve">
+    <value>作成者の機能</value>
+  </data>
+  <data name="RadPanelItemResource8.Value" xml:space="preserve">
+    <value>GrpAuthor</value>
+  </data>
+  <data name="RadPanelItemResource9.Text" xml:space="preserve">
+    <value>廃止する</value>
+  </data>
+  <data name="RadPanelItemResource9.Value" xml:space="preserve">
+    <value>DocDelete</value>
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>s1</value>
+  </data>
+  <data name="rbtnQueryDeleteFlowResource1.Text" xml:space="preserve">
+    <value>審査結果を見る</value>
+  </data>
+  <data name="suitableDepResource1.Text" xml:space="preserve">
+    <value>適用されてる部門</value>
+  </data>
+  <data name="suitableDepResource1.Value" xml:space="preserve">
+    <value>suitableDep</value>
+  </data>
+  <data name="TabDeleteResource1.Text" xml:space="preserve">
+    <value>審査お願いを破棄</value>
+  </data>
+  <data name="TabResource1.Text" xml:space="preserve">
+    <value>あらすじ</value>
+  </data>
+  <data name="TabResource2.Text" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="TabVoidResource1.Text" xml:space="preserve">
+    <value>廃止審査</value>
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>フォームのリンクをコピーする</value>
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>CopyDocLink</value>
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>バージョンリンクをコピー</value>
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>CopyVerLink</value>
+  </data>
+  <data name="lblVoidingResource1.Text" xml:space="preserve">
+    <value>（廃止申請を審査中）</value>
+  </data>
+  <data name="lblDraftResource1.Text" xml:space="preserve">
+    <value>下書き</value>
+  </data>
+  <data name="lblChangeReasonResource1.Text" xml:space="preserve">
+    <value>リリース/変更原因</value>
+  </data>
+  <data name="lblDocChangeReasonResource1.Text" xml:space="preserve">
+    <value>変更理由</value>
+  </data>
+</root>

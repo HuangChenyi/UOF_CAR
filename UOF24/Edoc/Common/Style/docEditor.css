@@ -1,0 +1,2791 @@
+﻿.doceditor_p p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+ol {
+    list-style: none;
+}
+
+    /* Level 1 */
+    ol > li:nth-child(1):before {
+        content: "一、";
+    }
+
+    ol > li:nth-child(2):before {
+        content: "二、";
+    }
+
+    ol > li:nth-child(3):before {
+        content: "三、";
+    }
+
+    ol > li:nth-child(4):before {
+        content: "四、";
+    }
+
+    ol > li:nth-child(5):before {
+        content: "五、";
+    }
+
+    ol > li:nth-child(6):before {
+        content: "六、";
+    }
+
+    ol > li:nth-child(7):before {
+        content: "七、";
+    }
+
+    ol > li:nth-child(8):before {
+        content: "八、";
+    }
+
+    ol > li:nth-child(9):before {
+        content: "九、";
+    }
+
+    ol > li:nth-child(10):before {
+        content: "十、";
+    }
+
+    ol > li:nth-child(11):before {
+        content: "十一、";
+    }
+
+    ol > li:nth-child(12):before {
+        content: "十二、";
+    }
+
+    ol > li:nth-child(13):before {
+        content: "十三、";
+    }
+
+    ol > li:nth-child(14):before {
+        content: "十四、";
+    }
+
+    ol > li:nth-child(15):before {
+        content: "十五、";
+    }
+
+    ol > li:nth-child(16):before {
+        content: "十六、";
+    }
+
+    ol > li:nth-child(17):before {
+        content: "十七、";
+    }
+
+    ol > li:nth-child(18):before {
+        content: "十八、";
+    }
+
+    ol > li:nth-child(19):before {
+        content: "十九、";
+    }
+
+    ol > li:nth-child(20):before {
+        content: "二十、";
+    }
+
+    ol > li:nth-child(21):before {
+        content: "二十一、";
+    }
+
+    ol > li:nth-child(22):before {
+        content: "二十二、";
+    }
+
+    ol > li:nth-child(23):before {
+        content: "二十三、";
+    }
+
+    ol > li:nth-child(24):before {
+        content: "二十四、";
+    }
+
+    ol > li:nth-child(25):before {
+        content: "二十五、";
+    }
+
+    ol > li:nth-child(26):before {
+        content: "二十六、";
+    }
+
+    ol > li:nth-child(27):before {
+        content: "二十七、";
+    }
+
+    ol > li:nth-child(28):before {
+        content: "二十八、";
+    }
+
+    ol > li:nth-child(29):before {
+        content: "二十九、";
+    }
+
+    ol > li:nth-child(30):before {
+        content: "三十、";
+    }
+
+    ol > li:nth-child(31):before {
+        content: "三十一、";
+    }
+
+    ol > li:nth-child(32):before {
+        content: "三十二、";
+    }
+
+    ol > li:nth-child(33):before {
+        content: "三十三、";
+    }
+
+    ol > li:nth-child(34):before {
+        content: "三十四、";
+    }
+
+    ol > li:nth-child(35):before {
+        content: "三十五、";
+    }
+
+    ol > li:nth-child(36):before {
+        content: "三十六、";
+    }
+
+    ol > li:nth-child(37):before {
+        content: "三十七、";
+    }
+
+    ol > li:nth-child(38):before {
+        content: "三十八、";
+    }
+
+    ol > li:nth-child(39):before {
+        content: "三十九、";
+    }
+
+    ol > li:nth-child(40):before {
+        content: "四十、";
+    }
+
+    ol > li:nth-child(41):before {
+        content: "四十一、";
+    }
+
+    ol > li:nth-child(42):before {
+        content: "四十二、";
+    }
+
+    ol > li:nth-child(43):before {
+        content: "四十三、";
+    }
+
+    ol > li:nth-child(44):before {
+        content: "四十四、";
+    }
+
+    ol > li:nth-child(45):before {
+        content: "四十五、";
+    }
+
+    ol > li:nth-child(46):before {
+        content: "四十六、";
+    }
+
+    ol > li:nth-child(47):before {
+        content: "四十七、";
+    }
+
+    ol > li:nth-child(48):before {
+        content: "四十八、";
+    }
+
+    ol > li:nth-child(49):before {
+        content: "四十九、";
+    }
+
+    ol > li:nth-child(50):before {
+        content: "五十、";
+    }
+
+    ol > li:nth-child(51):before {
+        content: "五十一、";
+    }
+
+    ol > li:nth-child(52):before {
+        content: "五十二、";
+    }
+
+    ol > li:nth-child(53):before {
+        content: "五十三、";
+    }
+
+    ol > li:nth-child(54):before {
+        content: "五十四、";
+    }
+
+    ol > li:nth-child(55):before {
+        content: "五十五、";
+    }
+
+    ol > li:nth-child(56):before {
+        content: "五十六、";
+    }
+
+    ol > li:nth-child(57):before {
+        content: "五十七、";
+    }
+
+    ol > li:nth-child(58):before {
+        content: "五十八、";
+    }
+
+    ol > li:nth-child(59):before {
+        content: "五十九、";
+    }
+
+    ol > li:nth-child(60):before {
+        content: "六十、";
+    }
+
+    ol > li:nth-child(61):before {
+        content: "六十一、";
+    }
+
+    ol > li:nth-child(62):before {
+        content: "六十二、";
+    }
+
+    ol > li:nth-child(63):before {
+        content: "六十三、";
+    }
+
+    ol > li:nth-child(64):before {
+        content: "六十四、";
+    }
+
+    ol > li:nth-child(65):before {
+        content: "六十五、";
+    }
+
+    ol > li:nth-child(66):before {
+        content: "六十六、";
+    }
+
+    ol > li:nth-child(67):before {
+        content: "六十七、";
+    }
+
+    ol > li:nth-child(68):before {
+        content: "六十八、";
+    }
+
+    ol > li:nth-child(69):before {
+        content: "六十九、";
+    }
+
+    ol > li:nth-child(70):before {
+        content: "七十、";
+    }
+
+    ol > li:nth-child(71):before {
+        content: "七十一、";
+    }
+
+    ol > li:nth-child(72):before {
+        content: "七十二、";
+    }
+
+    ol > li:nth-child(73):before {
+        content: "七十三、";
+    }
+
+    ol > li:nth-child(74):before {
+        content: "七十四、";
+    }
+
+    ol > li:nth-child(75):before {
+        content: "七十五、";
+    }
+
+    ol > li:nth-child(76):before {
+        content: "七十六、";
+    }
+
+    ol > li:nth-child(77):before {
+        content: "七十七、";
+    }
+
+    ol > li:nth-child(78):before {
+        content: "七十八、";
+    }
+
+    ol > li:nth-child(79):before {
+        content: "七十九、";
+    }
+
+    ol > li:nth-child(80):before {
+        content: "八十、";
+    }
+
+    ol > li:nth-child(81):before {
+        content: "八十一、";
+    }
+
+    ol > li:nth-child(82):before {
+        content: "八十二、";
+    }
+
+    ol > li:nth-child(83):before {
+        content: "八十三、";
+    }
+
+    ol > li:nth-child(84):before {
+        content: "八十四、";
+    }
+
+    ol > li:nth-child(85):before {
+        content: "八十五、";
+    }
+
+    ol > li:nth-child(86):before {
+        content: "八十六、";
+    }
+
+    ol > li:nth-child(87):before {
+        content: "八十七、";
+    }
+
+    ol > li:nth-child(88):before {
+        content: "八十八、";
+    }
+
+    ol > li:nth-child(89):before {
+        content: "八十九、";
+    }
+
+    ol > li:nth-child(90):before {
+        content: "九十、";
+    }
+
+    ol > li:nth-child(91):before {
+        content: "九十一、";
+    }
+
+    ol > li:nth-child(92):before {
+        content: "九十二、";
+    }
+
+    ol > li:nth-child(93):before {
+        content: "九十三、";
+    }
+
+    ol > li:nth-child(94):before {
+        content: "九十四、";
+    }
+
+    ol > li:nth-child(95):before {
+        content: "九十五、";
+    }
+
+    ol > li:nth-child(96):before {
+        content: "九十六、";
+    }
+
+    ol > li:nth-child(97):before {
+        content: "九十七、";
+    }
+
+    ol > li:nth-child(98):before {
+        content: "九十八、";
+    }
+
+    ol > li:nth-child(99):before {
+        content: "九十九、";
+    }
+
+    /* Level 2 */
+    ol > li > ol > li:nth-child(1):before {
+        content: "(一)";
+    }
+
+    ol > li > ol > li:nth-child(2):before {
+        content: "(二)";
+    }
+
+    ol > li > ol > li:nth-child(3):before {
+        content: "(三)";
+    }
+
+    ol > li > ol > li:nth-child(4):before {
+        content: "(四)";
+    }
+
+    ol > li > ol > li:nth-child(5):before {
+        content: "(五)";
+    }
+
+    ol > li > ol > li:nth-child(6):before {
+        content: "(六)";
+    }
+
+    ol > li > ol > li:nth-child(7):before {
+        content: "(七)";
+    }
+
+    ol > li > ol > li:nth-child(8):before {
+        content: "(八)";
+    }
+
+    ol > li > ol > li:nth-child(9):before {
+        content: "(九)";
+    }
+
+    ol > li > ol > li:nth-child(10):before {
+        content: "(十)";
+    }
+
+    ol > li > ol > li:nth-child(11):before {
+        content: "(十一)";
+    }
+
+    ol > li > ol > li:nth-child(12):before {
+        content: "(十二)";
+    }
+
+    ol > li > ol > li:nth-child(13):before {
+        content: "(十三)";
+    }
+
+    ol > li > ol > li:nth-child(14):before {
+        content: "(十四)";
+    }
+
+    ol > li > ol > li:nth-child(15):before {
+        content: "(十五)";
+    }
+
+    ol > li > ol > li:nth-child(16):before {
+        content: "(十六)";
+    }
+
+    ol > li > ol > li:nth-child(17):before {
+        content: "(十七)";
+    }
+
+    ol > li > ol > li:nth-child(18):before {
+        content: "(十八)";
+    }
+
+    ol > li > ol > li:nth-child(19):before {
+        content: "(十九)";
+    }
+
+    ol > li > ol > li:nth-child(20):before {
+        content: "(二十)";
+    }
+
+    ol > li > ol > li:nth-child(21):before {
+        content: "(二十一)";
+    }
+
+    ol > li > ol > li:nth-child(22):before {
+        content: "(二十二)";
+    }
+
+    ol > li > ol > li:nth-child(23):before {
+        content: "(二十三)";
+    }
+
+    ol > li > ol > li:nth-child(24):before {
+        content: "(二十四)";
+    }
+
+    ol > li > ol > li:nth-child(25):before {
+        content: "(二十五)";
+    }
+
+    ol > li > ol > li:nth-child(26):before {
+        content: "(二十六)";
+    }
+
+    ol > li > ol > li:nth-child(27):before {
+        content: "(二十七)";
+    }
+
+    ol > li > ol > li:nth-child(28):before {
+        content: "(二十八)";
+    }
+
+    ol > li > ol > li:nth-child(29):before {
+        content: "(二十九)";
+    }
+
+    ol > li > ol > li:nth-child(30):before {
+        content: "(三十)";
+    }
+
+    ol > li > ol > li:nth-child(31):before {
+        content: "(三十一)";
+    }
+
+    ol > li > ol > li:nth-child(32):before {
+        content: "(三十二)";
+    }
+
+    ol > li > ol > li:nth-child(33):before {
+        content: "(三十三)";
+    }
+
+    ol > li > ol > li:nth-child(34):before {
+        content: "(三十四)";
+    }
+
+    ol > li > ol > li:nth-child(35):before {
+        content: "(三十五)";
+    }
+
+    ol > li > ol > li:nth-child(36):before {
+        content: "(三十六)";
+    }
+
+    ol > li > ol > li:nth-child(37):before {
+        content: "(三十七)";
+    }
+
+    ol > li > ol > li:nth-child(38):before {
+        content: "(三十八)";
+    }
+
+    ol > li > ol > li:nth-child(39):before {
+        content: "(三十九)";
+    }
+
+    ol > li > ol > li:nth-child(40):before {
+        content: "(四十)";
+    }
+
+    ol > li > ol > li:nth-child(41):before {
+        content: "(四十一)";
+    }
+
+    ol > li > ol > li:nth-child(42):before {
+        content: "(四十二)";
+    }
+
+    ol > li > ol > li:nth-child(43):before {
+        content: "(四十三)";
+    }
+
+    ol > li > ol > li:nth-child(44):before {
+        content: "(四十四)";
+    }
+
+    ol > li > ol > li:nth-child(45):before {
+        content: "(四十五)";
+    }
+
+    ol > li > ol > li:nth-child(46):before {
+        content: "(四十六)";
+    }
+
+    ol > li > ol > li:nth-child(47):before {
+        content: "(四十七)";
+    }
+
+    ol > li > ol > li:nth-child(48):before {
+        content: "(四十八)";
+    }
+
+    ol > li > ol > li:nth-child(49):before {
+        content: "(四十九)";
+    }
+
+    ol > li > ol > li:nth-child(50):before {
+        content: "(五十)";
+    }
+
+    ol > li > ol > li:nth-child(51):before {
+        content: "(五十一)";
+    }
+
+    ol > li > ol > li:nth-child(52):before {
+        content: "(五十二)";
+    }
+
+    ol > li > ol > li:nth-child(53):before {
+        content: "(五十三)";
+    }
+
+    ol > li > ol > li:nth-child(54):before {
+        content: "(五十四)";
+    }
+
+    ol > li > ol > li:nth-child(55):before {
+        content: "(五十五)";
+    }
+
+    ol > li > ol > li:nth-child(56):before {
+        content: "(五十六)";
+    }
+
+    ol > li > ol > li:nth-child(57):before {
+        content: "(五十七)";
+    }
+
+    ol > li > ol > li:nth-child(58):before {
+        content: "(五十八)";
+    }
+
+    ol > li > ol > li:nth-child(59):before {
+        content: "(五十九)";
+    }
+
+    ol > li > ol > li:nth-child(60):before {
+        content: "(六十)";
+    }
+
+    ol > li > ol > li:nth-child(61):before {
+        content: "(六十一)";
+    }
+
+    ol > li > ol > li:nth-child(62):before {
+        content: "(六十二)";
+    }
+
+    ol > li > ol > li:nth-child(63):before {
+        content: "(六十三)";
+    }
+
+    ol > li > ol > li:nth-child(64):before {
+        content: "(六十四)";
+    }
+
+    ol > li > ol > li:nth-child(65):before {
+        content: "(六十五)";
+    }
+
+    ol > li > ol > li:nth-child(66):before {
+        content: "(六十六)";
+    }
+
+    ol > li > ol > li:nth-child(67):before {
+        content: "(六十七)";
+    }
+
+    ol > li > ol > li:nth-child(68):before {
+        content: "(六十八)";
+    }
+
+    ol > li > ol > li:nth-child(69):before {
+        content: "(六十九)";
+    }
+
+    ol > li > ol > li:nth-child(70):before {
+        content: "(七十)";
+    }
+
+    ol > li > ol > li:nth-child(71):before {
+        content: "(七十一)";
+    }
+
+    ol > li > ol > li:nth-child(72):before {
+        content: "(七十二)";
+    }
+
+    ol > li > ol > li:nth-child(73):before {
+        content: "(七十三)";
+    }
+
+    ol > li > ol > li:nth-child(74):before {
+        content: "(七十四)";
+    }
+
+    ol > li > ol > li:nth-child(75):before {
+        content: "(七十五)";
+    }
+
+    ol > li > ol > li:nth-child(76):before {
+        content: "(七十六)";
+    }
+
+    ol > li > ol > li:nth-child(77):before {
+        content: "(七十七)";
+    }
+
+    ol > li > ol > li:nth-child(78):before {
+        content: "(七十八)";
+    }
+
+    ol > li > ol > li:nth-child(79):before {
+        content: "(七十九)";
+    }
+
+    ol > li > ol > li:nth-child(80):before {
+        content: "(八十)";
+    }
+
+    ol > li > ol > li:nth-child(81):before {
+        content: "(八十一)";
+    }
+
+    ol > li > ol > li:nth-child(82):before {
+        content: "(八十二)";
+    }
+
+    ol > li > ol > li:nth-child(83):before {
+        content: "(八十三)";
+    }
+
+    ol > li > ol > li:nth-child(84):before {
+        content: "(八十四)";
+    }
+
+    ol > li > ol > li:nth-child(85):before {
+        content: "(八十五)";
+    }
+
+    ol > li > ol > li:nth-child(86):before {
+        content: "(八十六)";
+    }
+
+    ol > li > ol > li:nth-child(87):before {
+        content: "(八十七)";
+    }
+
+    ol > li > ol > li:nth-child(88):before {
+        content: "(八十八)";
+    }
+
+    ol > li > ol > li:nth-child(89):before {
+        content: "(八十九)";
+    }
+
+    ol > li > ol > li:nth-child(90):before {
+        content: "(九十)";
+    }
+
+    ol > li > ol > li:nth-child(91):before {
+        content: "(九十一)";
+    }
+
+    ol > li > ol > li:nth-child(92):before {
+        content: "(九十二)";
+    }
+
+    ol > li > ol > li:nth-child(93):before {
+        content: "(九十三)";
+    }
+
+    ol > li > ol > li:nth-child(94):before {
+        content: "(九十四)";
+    }
+
+    ol > li > ol > li:nth-child(95):before {
+        content: "(九十五)";
+    }
+
+    ol > li > ol > li:nth-child(96):before {
+        content: "(九十六)";
+    }
+
+    ol > li > ol > li:nth-child(97):before {
+        content: "(九十七)";
+    }
+
+    ol > li > ol > li:nth-child(98):before {
+        content: "(九十八)";
+    }
+
+    ol > li > ol > li:nth-child(99):before {
+        content: "(九十九)";
+    }
+
+    /* Level 3 */
+    ol > li > ol > li > ol > li:nth-child(1):before {
+        content: "１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(2):before {
+        content: "２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(3):before {
+        content: "３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(4):before {
+        content: "４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(5):before {
+        content: "５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(6):before {
+        content: "６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(7):before {
+        content: "７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(8):before {
+        content: "８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(9):before {
+        content: "９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(10):before {
+        content: "１０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(11):before {
+        content: "１１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(12):before {
+        content: "１２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(13):before {
+        content: "１３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(14):before {
+        content: "１４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(15):before {
+        content: "１５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(16):before {
+        content: "１６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(17):before {
+        content: "１７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(18):before {
+        content: "１８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(19):before {
+        content: "１９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(20):before {
+        content: "２０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(21):before {
+        content: "２１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(22):before {
+        content: "２２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(23):before {
+        content: "２３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(24):before {
+        content: "２４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(25):before {
+        content: "２５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(26):before {
+        content: "２６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(27):before {
+        content: "２７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(28):before {
+        content: "２８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(29):before {
+        content: "２９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(30):before {
+        content: "３０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(31):before {
+        content: "３１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(32):before {
+        content: "３２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(33):before {
+        content: "３３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(34):before {
+        content: "３４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(35):before {
+        content: "３５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(36):before {
+        content: "３６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(37):before {
+        content: "３７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(38):before {
+        content: "３８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(39):before {
+        content: "３９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(40):before {
+        content: "４０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(41):before {
+        content: "４１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(42):before {
+        content: "４２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(43):before {
+        content: "４３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(44):before {
+        content: "４４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(45):before {
+        content: "４５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(46):before {
+        content: "４６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(47):before {
+        content: "４７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(48):before {
+        content: "４８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(49):before {
+        content: "４９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(50):before {
+        content: "５０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(51):before {
+        content: "５１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(52):before {
+        content: "５２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(53):before {
+        content: "５３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(54):before {
+        content: "５４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(55):before {
+        content: "５５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(56):before {
+        content: "５６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(57):before {
+        content: "５７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(58):before {
+        content: "５８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(59):before {
+        content: "５９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(60):before {
+        content: "６０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(61):before {
+        content: "６１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(62):before {
+        content: "６２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(63):before {
+        content: "６３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(64):before {
+        content: "６４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(65):before {
+        content: "６５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(66):before {
+        content: "６６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(67):before {
+        content: "６７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(68):before {
+        content: "６８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(69):before {
+        content: "６９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(70):before {
+        content: "７０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(71):before {
+        content: "７１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(72):before {
+        content: "７２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(73):before {
+        content: "７３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(74):before {
+        content: "７４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(75):before {
+        content: "７５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(76):before {
+        content: "７６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(77):before {
+        content: "７７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(78):before {
+        content: "７８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(79):before {
+        content: "７９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(80):before {
+        content: "８０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(81):before {
+        content: "８１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(82):before {
+        content: "８２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(83):before {
+        content: "８３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(84):before {
+        content: "８４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(85):before {
+        content: "８５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(86):before {
+        content: "８６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(87):before {
+        content: "８７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(88):before {
+        content: "８８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(89):before {
+        content: "８９、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(90):before {
+        content: "９０、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(91):before {
+        content: "９１、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(92):before {
+        content: "９２、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(93):before {
+        content: "９３、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(94):before {
+        content: "９４、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(95):before {
+        content: "９５、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(96):before {
+        content: "９６、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(97):before {
+        content: "９７、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(98):before {
+        content: "９８、";
+    }
+
+    ol > li > ol > li > ol > li:nth-child(99):before {
+        content: "９９、";
+    }
+
+    /* Level 4 */
+    ol > li > ol > li > ol > li > ol > li:nth-child(1):before {
+        content: "(１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(2):before {
+        content: "(２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(3):before {
+        content: "(３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(4):before {
+        content: "(４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(5):before {
+        content: "(５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(6):before {
+        content: "(６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(7):before {
+        content: "(７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(8):before {
+        content: "(８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(9):before {
+        content: "(９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(10):before {
+        content: "(１０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(11):before {
+        content: "(１１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(12):before {
+        content: "(１２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(13):before {
+        content: "(１３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(14):before {
+        content: "(１４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(15):before {
+        content: "(１５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(16):before {
+        content: "(１６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(17):before {
+        content: "(１７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(18):before {
+        content: "(１８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(19):before {
+        content: "(１９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(20):before {
+        content: "(２０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(21):before {
+        content: "(２１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(22):before {
+        content: "(２２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(23):before {
+        content: "(２３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(24):before {
+        content: "(２４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(25):before {
+        content: "(２５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(26):before {
+        content: "(２６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(27):before {
+        content: "(２７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(28):before {
+        content: "(２８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(29):before {
+        content: "(２９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(30):before {
+        content: "(３０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(31):before {
+        content: "(３１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(32):before {
+        content: "(３２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(33):before {
+        content: "(３３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(34):before {
+        content: "(３４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(35):before {
+        content: "(３５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(36):before {
+        content: "(３６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(37):before {
+        content: "(３７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(38):before {
+        content: "(３８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(39):before {
+        content: "(３９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(40):before {
+        content: "(４０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(41):before {
+        content: "(４１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(42):before {
+        content: "(４２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(43):before {
+        content: "(４３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(44):before {
+        content: "(４４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(45):before {
+        content: "(４５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(46):before {
+        content: "(４６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(47):before {
+        content: "(４７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(48):before {
+        content: "(４８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(49):before {
+        content: "(４９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(50):before {
+        content: "(５０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(51):before {
+        content: "(５１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(52):before {
+        content: "(５２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(53):before {
+        content: "(５３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(54):before {
+        content: "(５４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(55):before {
+        content: "(５５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(56):before {
+        content: "(５６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(57):before {
+        content: "(５７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(58):before {
+        content: "(５８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(59):before {
+        content: "(５９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(60):before {
+        content: "(６０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(61):before {
+        content: "(６１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(62):before {
+        content: "(６２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(63):before {
+        content: "(６３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(64):before {
+        content: "(６４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(65):before {
+        content: "(６５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(66):before {
+        content: "(６６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(67):before {
+        content: "(６７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(68):before {
+        content: "(６８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(69):before {
+        content: "(６９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(70):before {
+        content: "(７０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(71):before {
+        content: "(７１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(72):before {
+        content: "(７２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(73):before {
+        content: "(７３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(74):before {
+        content: "(７４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(75):before {
+        content: "(７５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(76):before {
+        content: "(７６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(77):before {
+        content: "(７７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(78):before {
+        content: "(７８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(79):before {
+        content: "(７９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(80):before {
+        content: "(８０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(81):before {
+        content: "(８１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(82):before {
+        content: "(８２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(83):before {
+        content: "(８３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(84):before {
+        content: "(８４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(85):before {
+        content: "(８５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(86):before {
+        content: "(８６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(87):before {
+        content: "(８７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(88):before {
+        content: "(８８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(89):before {
+        content: "(８９)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(90):before {
+        content: "(９０)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(91):before {
+        content: "(９１)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(92):before {
+        content: "(９２)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(93):before {
+        content: "(９３)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(94):before {
+        content: "(９４)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(95):before {
+        content: "(９５)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(96):before {
+        content: "(９６)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(97):before {
+        content: "(９７)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(98):before {
+        content: "(９８)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li:nth-child(99):before {
+        content: "(９９)";
+    }
+
+    /* Level 5 */
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(1):before {
+        content: "甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(2):before {
+        content: "乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(3):before {
+        content: "丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(4):before {
+        content: "丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(5):before {
+        content: "戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(6):before {
+        content: "己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(7):before {
+        content: "庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(8):before {
+        content: "辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(9):before {
+        content: "壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(10):before {
+        content: "甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(11):before {
+        content: "甲甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(12):before {
+        content: "甲乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(13):before {
+        content: "甲丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(14):before {
+        content: "甲丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(15):before {
+        content: "甲戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(16):before {
+        content: "甲己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(17):before {
+        content: "甲庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(18):before {
+        content: "甲辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(19):before {
+        content: "甲壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(20):before {
+        content: "乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(21):before {
+        content: "乙甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(22):before {
+        content: "乙乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(23):before {
+        content: "乙丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(24):before {
+        content: "乙丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(25):before {
+        content: "乙戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(26):before {
+        content: "乙己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(27):before {
+        content: "乙庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(28):before {
+        content: "乙辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(29):before {
+        content: "乙壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(30):before {
+        content: "丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(31):before {
+        content: "丙甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(32):before {
+        content: "丙乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(33):before {
+        content: "丙丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(34):before {
+        content: "丙丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(35):before {
+        content: "丙戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(36):before {
+        content: "丙己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(37):before {
+        content: "丙庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(38):before {
+        content: "丙辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(39):before {
+        content: "丙壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(40):before {
+        content: "丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(41):before {
+        content: "丁甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(42):before {
+        content: "丁乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(43):before {
+        content: "丁丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(44):before {
+        content: "丁丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(45):before {
+        content: "丁戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(46):before {
+        content: "丁己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(47):before {
+        content: "丁庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(48):before {
+        content: "丁辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(49):before {
+        content: "丁壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(50):before {
+        content: "戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(51):before {
+        content: "戊甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(52):before {
+        content: "戊乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(53):before {
+        content: "戊丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(54):before {
+        content: "戊丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(55):before {
+        content: "戊戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(56):before {
+        content: "戊己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(57):before {
+        content: "戊庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(58):before {
+        content: "戊辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(59):before {
+        content: "戊壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(60):before {
+        content: "己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(61):before {
+        content: "己甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(62):before {
+        content: "己乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(63):before {
+        content: "己丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(64):before {
+        content: "己丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(65):before {
+        content: "己戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(66):before {
+        content: "己己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(67):before {
+        content: "己庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(68):before {
+        content: "己辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(69):before {
+        content: "己壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(70):before {
+        content: "庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(71):before {
+        content: "庚甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(72):before {
+        content: "庚乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(73):before {
+        content: "庚丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(74):before {
+        content: "庚丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(75):before {
+        content: "庚戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(76):before {
+        content: "庚己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(77):before {
+        content: "庚庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(78):before {
+        content: "庚辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(79):before {
+        content: "庚壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(80):before {
+        content: "辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(81):before {
+        content: "辛甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(82):before {
+        content: "辛乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(83):before {
+        content: "辛丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(84):before {
+        content: "辛丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(85):before {
+        content: "辛戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(86):before {
+        content: "辛己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(87):before {
+        content: "辛庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(88):before {
+        content: "辛辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(89):before {
+        content: "辛壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(90):before {
+        content: "壬、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(91):before {
+        content: "壬甲、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(92):before {
+        content: "壬乙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(93):before {
+        content: "壬丙、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(94):before {
+        content: "壬丁、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(95):before {
+        content: "壬戊、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(96):before {
+        content: "壬己、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(97):before {
+        content: "壬庚、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(98):before {
+        content: "壬辛、";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(99):before {
+        content: "壬壬、";
+    }
+
+    /* Level 6 */
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(1):before {
+        content: "(甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(2):before {
+        content: "(乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(3):before {
+        content: "(丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(4):before {
+        content: "(丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(5):before {
+        content: "(戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(6):before {
+        content: "(己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(7):before {
+        content: "(庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(8):before {
+        content: "(辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(9):before {
+        content: "(壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(10):before {
+        content: "(甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(11):before {
+        content: "(甲甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(12):before {
+        content: "(甲乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(13):before {
+        content: "(甲丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(14):before {
+        content: "(甲丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(15):before {
+        content: "(甲戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(16):before {
+        content: "(甲己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(17):before {
+        content: "(甲庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(18):before {
+        content: "(甲辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(19):before {
+        content: "(甲壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(20):before {
+        content: "(乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(21):before {
+        content: "(乙甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(22):before {
+        content: "(乙乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(23):before {
+        content: "(乙丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(24):before {
+        content: "(乙丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(25):before {
+        content: "(乙戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(26):before {
+        content: "(乙己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(27):before {
+        content: "(乙庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(28):before {
+        content: "(乙辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(29):before {
+        content: "(乙壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(30):before {
+        content: "(丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(31):before {
+        content: "(丙甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(32):before {
+        content: "(丙乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(33):before {
+        content: "(丙丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(34):before {
+        content: "(丙丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(35):before {
+        content: "(丙戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(36):before {
+        content: "(丙己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(37):before {
+        content: "(丙庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(38):before {
+        content: "(丙辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(39):before {
+        content: "(丙壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(40):before {
+        content: "(丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(41):before {
+        content: "(丁甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(42):before {
+        content: "(丁乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(43):before {
+        content: "(丁丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(44):before {
+        content: "(丁丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(45):before {
+        content: "(丁戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(46):before {
+        content: "(丁己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(47):before {
+        content: "(丁庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(48):before {
+        content: "(丁辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(49):before {
+        content: "(丁壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(50):before {
+        content: "(戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(51):before {
+        content: "(戊甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(52):before {
+        content: "(戊乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(53):before {
+        content: "(戊丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(54):before {
+        content: "(戊丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(55):before {
+        content: "(戊戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(56):before {
+        content: "(戊己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(57):before {
+        content: "(戊庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(58):before {
+        content: "(戊辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(59):before {
+        content: "(戊壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(60):before {
+        content: "(己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(61):before {
+        content: "(己甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(62):before {
+        content: "(己乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(63):before {
+        content: "(己丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(64):before {
+        content: "(己丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(65):before {
+        content: "(己戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(66):before {
+        content: "(己己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(67):before {
+        content: "(己庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(68):before {
+        content: "(己辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(69):before {
+        content: "(己壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(70):before {
+        content: "(庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(71):before {
+        content: "(庚甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(72):before {
+        content: "(庚乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(73):before {
+        content: "(庚丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(74):before {
+        content: "(庚丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(75):before {
+        content: "(庚戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(76):before {
+        content: "(庚己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(77):before {
+        content: "(庚庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(78):before {
+        content: "(庚辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(79):before {
+        content: "(庚壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(80):before {
+        content: "(辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(81):before {
+        content: "(辛甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(82):before {
+        content: "(辛乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(83):before {
+        content: "(辛丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(84):before {
+        content: "(辛丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(85):before {
+        content: "(辛戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(86):before {
+        content: "(辛己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(87):before {
+        content: "(辛庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(88):before {
+        content: "(辛辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(89):before {
+        content: "(辛壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(90):before {
+        content: "(壬)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(91):before {
+        content: "(壬甲)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(92):before {
+        content: "(壬乙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(93):before {
+        content: "(壬丙)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(94):before {
+        content: "(壬丁)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(95):before {
+        content: "(壬戊)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(96):before {
+        content: "(壬己)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(97):before {
+        content: "(壬庚)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(98):before {
+        content: "(壬辛)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(99):before {
+        content: "(壬壬)";
+    }
+
+    /* Level 7 */
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(1):before {
+        content: "(子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(2):before {
+        content: "(丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(3):before {
+        content: "(寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(4):before {
+        content: "(卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(5):before {
+        content: "(辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(6):before {
+        content: "(巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(7):before {
+        content: "(午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(8):before {
+        content: "(未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(9):before {
+        content: "(申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(10):before {
+        content: "(子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(11):before {
+        content: "(子子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(12):before {
+        content: "(子丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(13):before {
+        content: "(子寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(14):before {
+        content: "(子卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(15):before {
+        content: "(子辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(16):before {
+        content: "(子巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(17):before {
+        content: "(子午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(18):before {
+        content: "(子未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(19):before {
+        content: "(子申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(20):before {
+        content: "(丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(21):before {
+        content: "(丑子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(22):before {
+        content: "(丑丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(23):before {
+        content: "(丑寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(24):before {
+        content: "(丑卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(25):before {
+        content: "(丑辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(26):before {
+        content: "(丑巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(27):before {
+        content: "(丑午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(28):before {
+        content: "(丑未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(29):before {
+        content: "(丑申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(30):before {
+        content: "(寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(31):before {
+        content: "(寅子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(32):before {
+        content: "(寅丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(33):before {
+        content: "(寅寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(34):before {
+        content: "(寅卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(35):before {
+        content: "(寅辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(36):before {
+        content: "(寅巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(37):before {
+        content: "(寅午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(38):before {
+        content: "(寅未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(39):before {
+        content: "(寅申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(40):before {
+        content: "(卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(41):before {
+        content: "(卯子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(42):before {
+        content: "(卯丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(43):before {
+        content: "(卯寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(44):before {
+        content: "(卯卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(45):before {
+        content: "(卯辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(46):before {
+        content: "(卯巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(47):before {
+        content: "(卯午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(48):before {
+        content: "(卯未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(49):before {
+        content: "(卯申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(50):before {
+        content: "(辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(51):before {
+        content: "(辰子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(52):before {
+        content: "(辰丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(53):before {
+        content: "(辰寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(54):before {
+        content: "(辰卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(55):before {
+        content: "(辰辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(56):before {
+        content: "(辰巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(57):before {
+        content: "(辰午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(58):before {
+        content: "(辰未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(59):before {
+        content: "(辰申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(60):before {
+        content: "(巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(61):before {
+        content: "(巳子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(62):before {
+        content: "(巳丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(63):before {
+        content: "(巳寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(64):before {
+        content: "(巳卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(65):before {
+        content: "(巳辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(66):before {
+        content: "(巳巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(67):before {
+        content: "(巳午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(68):before {
+        content: "(巳未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(69):before {
+        content: "(巳申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(70):before {
+        content: "(午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(71):before {
+        content: "(午子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(72):before {
+        content: "(午丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(73):before {
+        content: "(午寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(74):before {
+        content: "(午卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(75):before {
+        content: "(午辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(76):before {
+        content: "(午巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(77):before {
+        content: "(午午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(78):before {
+        content: "(午未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(79):before {
+        content: "(午申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(80):before {
+        content: "(未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(81):before {
+        content: "(未子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(82):before {
+        content: "(未丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(83):before {
+        content: "(未寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(84):before {
+        content: "(未卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(85):before {
+        content: "(未辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(86):before {
+        content: "(未巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(87):before {
+        content: "(未午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(88):before {
+        content: "(未未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(89):before {
+        content: "(未申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(90):before {
+        content: "(申)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(91):before {
+        content: "(申子)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(92):before {
+        content: "(申丑)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(93):before {
+        content: "(申寅)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(94):before {
+        content: "(申卯)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(95):before {
+        content: "(申辰)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(96):before {
+        content: "(申巳)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(97):before {
+        content: "(申午)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(98):before {
+        content: "(申未)";
+    }
+
+    ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li:nth-child(99):before {
+        content: "(申申)";
+    }

@@ -1,0 +1,156 @@
+﻿
+.normal_height
+{
+	height: 16pt;	
+}
+
+.large_height
+{
+	height: 18pt;
+}
+
+.normal_button 
+{
+	font-size: 12pt; height: 35px;
+}
+
+.large_button 
+{
+	font-size: 16pt; height: 45px;
+}
+
+.half_label
+{
+    font-size: 6pt;
+}
+
+.small_label {
+    font-size: 10pt;
+}
+
+.normal_label
+{
+	font-size: 12pt;
+}
+
+.normal_label_row
+{
+    line-height: 16pt;
+}
+
+.large_label
+{
+	font-size: 16pt;
+}
+
+.normal_textbox
+{
+	font-size:12pt; height: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.large_textbox
+{
+	font-size:16pt; height: 45px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.large_line
+{
+	height: 50px;
+}
+
+.titlebar_title
+{
+	font-size: 16pt;	
+}
+
+.text_shadow
+{
+	/*text-shadow: #4C4C4C 0px -1px 1px;*/
+}
+
+.background_fullscale
+{
+	background-repeat: no-repeat; 
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Data List CSS Setting */
+.row_3
+{
+    width: 100%;
+    height: 52pt;
+    overflow: hidden;
+    border-bottom: 1px solid #DCDCDC;
+    padding-top:1pt;
+}
+
+.row_2
+{
+    width: 100%;
+    height: 42pt;
+    overflow: hidden;
+    border-bottom: 1px solid #DCDCDC;
+    padding-top:0pt;
+}
+
+
+.row_text_1
+{
+    padding-left: 3pt;
+    font-size: 12pt;
+    height: 18pt;        
+    line-height: 135%;
+    word-wrap: break-word;
+    word-break: break-all;    
+}
+
+/* Special Design Font */
+.font_7pt { font-size: 7pt;}
+.font_8pt { font-size: 8pt;}
+.font_9pt { font-size: 9pt;}
+.font_10pt { font-size: 10pt;}
+.font_11pt { font-size: 11pt;}
+.font_12pt { font-size: 12pt;}
+
+/* Special Design Size */
+.width_20 { width: 20px; }
+.width_32 { width: 32px; }
+.width_36 { width: 36px; }
+.width_50 { width: 50px; }
+.width_50p { width: 160px; }
+
+.height_26 { height: 26px; }
+.height_32 { height: 32px; }
+.height_42 { height: 42px; }
+.height_48 { height: 48px; }
+.height_50 { height: 50px; }
+.height_150 { height: 150px; }
+
+
+.alpha_30 {
+    filter: alpha(Opacity=30, Style=0);
+    -moz-opacity: 0.3; 
+    opacity: 0.3;
+}
+
+.alpha_50 {
+    filter: alpha(Opacity=50, Style=0);
+    -moz-opacity: 0.5; 
+    opacity: 0.5;
+}
+
+.alpha_70 {
+    filter: alpha(Opacity=70, Style=0);
+    -moz-opacity: 0.7; 
+    opacity: 0.7;
+}

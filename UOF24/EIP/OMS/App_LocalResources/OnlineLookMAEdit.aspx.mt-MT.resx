@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>No authority to Maintain video</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>No upload file</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Close date cannot be blank</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Open Date should be earlier than Close Date</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Video file</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Brief</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Open date</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Video URL</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLimitFileResource1.Text" xml:space="preserve">
+    <value>Upload only .wmv file </value>
+  </data>
+  <data name="lblLimitFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMp4LimitResource1.Text" xml:space="preserve">
+    <value>備註：MP4編碼Code須為H.264才能正常播放</value>
+  </data>
+  <data name="lblMp4LimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReminderMsgResource1.Text" xml:space="preserve">
+    <value>Video Format Supported：</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Maintain Video</value>
+  </data>
+  <data name="rbOpenLimitResource1.Text" xml:space="preserve">
+    <value>Close date</value>
+  </data>
+  <data name="rbOpenLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbOpenNoLimitResource1.Text" xml:space="preserve">
+    <value>Open forever</value>
+  </data>
+  <data name="rbOpenNoLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdpFromResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdpFromResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpFromResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdpFromResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdpFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpFromResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdpFromResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdpToResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdpToResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdpToResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpToResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdpToResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdpToResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdpToResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdpToResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdpToResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdpToResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdpToResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdpToResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdpToResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdpToResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpToResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdpToResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdpToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpToResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdpToResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rfOpenDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Open date cannot be blank</value>
+  </data>
+  <data name="rfOpenDateResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfOpenDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfTopicResource1.ErrorMessage" xml:space="preserve">
+    <value>File name cannot be blank</value>
+  </data>
+  <data name="rfTopicResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfTopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMovieLinkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMovieLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTopicResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationSummary1Resource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationSummary1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

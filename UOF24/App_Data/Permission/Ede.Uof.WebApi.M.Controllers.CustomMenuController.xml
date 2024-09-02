@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetFirstUserMenu" AllowAll="True" />
+<Action Name="GetUserMenu" AllowAll="True" />
+
+</Actions>

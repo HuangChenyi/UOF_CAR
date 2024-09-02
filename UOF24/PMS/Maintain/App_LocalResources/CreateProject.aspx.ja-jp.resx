@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cboxCopyUserResource1.Text" xml:space="preserve">
+    <value>担当者の設定を保存します</value>
+  </data>
+  <data name="hlDownLoadDemoResource1.Text" xml:space="preserve">
+    <value>エクセルのサンプルをダウンロードする</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>情報源</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>情報源を選択する：</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>プロジェクト状態</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>プロジェク名称</value>
+  </data>
+  <data name="lblAuditorGUIDEmptyMsgResource1.Text" xml:space="preserve">
+    <value>審査メンバーのアカウントが正しくない</value>
+  </data>
+  <data name="lblDirectorEmptyMsgResource1.Text" xml:space="preserve">
+    <value>メンバーのアカウントが正しくない</value>
+  </data>
+  <data name="lblDirectorNotOuterMsgResource1.Text" xml:space="preserve">
+    <value>外部メンバーを指定することができません</value>
+  </data>
+  <data name="lblDomainErrorResource1.Text" xml:space="preserve">
+    <value>存在していない</value>
+  </data>
+  <data name="lblExcelDateErrMsgResource1.Text" xml:space="preserve">
+    <value>時間を確認して修正をお願いします</value>
+  </data>
+  <data name="lblExcelDirectorEmptyMsgResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="lblExcelEndDateErrMsgResource1.Text" xml:space="preserve">
+    <value>”終了日”のフォーマットが正しくない</value>
+  </data>
+  <data name="lblExcelExpDateErrMsgResource1.Text" xml:space="preserve">
+    <value>修正してください</value>
+  </data>
+  <data name="lblExcelExpEndDateEmptyMsgResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="lblExcelExpEndDateErrMsgResource1.Text" xml:space="preserve">
+    <value>”完成予定日”のフォーマットが正しくない</value>
+  </data>
+  <data name="lblExcelExpStartDateEmptyMsgResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="lblExcelExpStartDateErrMsgResource1.Text" xml:space="preserve">
+    <value>”開始予定日”のフォーマットが正しくない</value>
+  </data>
+  <data name="lblExcelFilesEmptyMsgResource1.Text" xml:space="preserve">
+    <value>エクセルをアップロードしてください</value>
+  </data>
+  <data name="lblExcelMsg1Resource1.Text" xml:space="preserve">
+    <value>ファイルの中で第</value>
+  </data>
+  <data name="lblExcelMsg2Resource1.Text" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="lblExcelNameEmptyMsgResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="lblExcelPMGUIDEmptyMsgResource1.Text" xml:space="preserve">
+    <value>”プロジェクター”は何も記入してない</value>
+  </data>
+  <data name="lblExcelProjNameEmptyMsgResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="lblExcelProjNameisOverResource1.Text" xml:space="preserve">
+    <value>”プロジェクト名称”が制限に超えた</value>
+  </data>
+  <data name="lblExcelSeriesOrTaskMsgResource1.Text" xml:space="preserve">
+    <value>修正してください</value>
+  </data>
+  <data name="lblExcelStartDateErrMsgResource1.Text" xml:space="preserve">
+    <value>”開始日”のフォーマットが正しくない</value>
+  </data>
+  <data name="lblExcelXhEmptyMsgResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="lblFileNotFoundMsgResource1.Text" xml:space="preserve">
+    <value>ダウンロードできません！</value>
+  </data>
+  <data name="lblFileOpenErrorMsgResource1.Text" xml:space="preserve">
+    <value>ファイルが使用できません！</value>
+  </data>
+  <data name="lblMSGResource1.Text" xml:space="preserve">
+    <value>説明：外部メンバーはプロジェクトのメンバーにはなれません</value>
+  </data>
+  <data name="lblNextMsgResource1.Text" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="lblNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>追加する権限が持っていない</value>
+  </data>
+  <data name="lblPMGUIDEmptyMsgResource1.Text" xml:space="preserve">
+    <value>プロジェクターのアカウントは正しくない</value>
+  </data>
+  <data name="lblPMGUIDNotOuterMsgResource1.Text" xml:space="preserve">
+    <value>プロジェクターは外部メンバーにはいけません</value>
+  </data>
+  <data name="lblProjGUIDEmptyMsgResource1.Text" xml:space="preserve">
+    <value>現在あるプロジェクターを選択してください</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>ブランクプロジェクト</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>エクセルをインポートする</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>他のプロジェクトからコピーする</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>プロジェクを追加する</value>
+  </data>
+  <data name="RadButton1Resource1.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="lblFileNotParseResource1.Text" xml:space="preserve">
+    <value>インポートした資料の読み取りが出来ない</value>
+  </data>
+</root>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetFolderRecentDoc" AllowAll="True" />
+  <Action Name="GetDocContent" AllowAll="True" />
+  <Action Name="GetFolders" AllowAll="True" />
+  <Action Name="GetFolderDocument" AllowAll="True" />
+  <Action Name="GetDocPageInfo" AllowAll="True" />
+  <Action Name="AddDocCollection" AllowAll="True" />
+  <Action Name="AddFolderCollection" AllowAll="True" />
+  <Action Name="CancelCollection" AllowAll="True" />
+  <Action Name="GetDocPermission" AllowAll="True" />
+  <Action Name="StatisticsDocDownloadCount" AllowAll="True" />
+  <Action Name="StatisticsDocViewCount" AllowAll="True" />
+</Actions>

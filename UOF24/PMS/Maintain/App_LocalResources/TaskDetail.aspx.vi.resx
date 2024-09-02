@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cvMessageResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0} Các dự án có trạng thái không thể thêm nhiệm vụ!</value>
+  </data>
+  <data name="lblAddNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditResource1.Text" xml:space="preserve">
+    <value>Xét duyệt</value>
+  </data>
+  <data name="lblAuditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditStatusResource1.Text" xml:space="preserve">
+    <value>Đang xét duyệt</value>
+  </data>
+  <data name="lblAuditStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTrackResource1.Text" xml:space="preserve">
+    <value>Qúa trình xét duyệt</value>
+  </data>
+  <data name="lblAuditTrackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChoiceListEmptyMsgResource1.Text" xml:space="preserve">
+    <value>Vui lòng chọn chủ sở hữu nhiệm vụ</value>
+  </data>
+  <data name="lblChoiceListEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseStatusResource1.Text" xml:space="preserve">
+    <value>Đã kết thúc</value>
+  </data>
+  <data name="lblCloseStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateChildNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>Chỉ có thể thêm các nhiệm vụ con vào các giai đoạn có trạng thái "Chưa bắt đầu, đang xử lý"</value>
+  </data>
+  <data name="lblCreateChildNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDataSetNoRowsMsgResource1.Text" xml:space="preserve">
+    <value>Nhiệm vụ không tồn tại hoặc đã bị xóa</value>
+  </data>
+  <data name="lblDataSetNoRowsMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateErrMsgResource1.Text" xml:space="preserve">
+    <value>Dự kiến thời gian bắt đầu muộn hơn thời gian kết thúc ước tính, vui lòng nhập lại</value>
+  </data>
+  <data name="lblDateErrMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelConfirmMsgResource1.Text" xml:space="preserve">
+    <value>Chắc chắn muốn xóa không?</value>
+  </data>
+  <data name="lblDelConfirmMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelMsgResource1.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="lblDelMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>Chưa bao giờ đăng nhập </value>
+  </data>
+  <data name="lblDelNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}nhiệm vụ ở trạng thái không thể xóa</value>
+  </data>
+  <data name="lblDelNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDraftStatusResource1.Text" xml:space="preserve">
+    <value>Bản nháp </value>
+  </data>
+  <data name="lblDraftStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmptyMsgResource1.Text" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="lblEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>Ngài không có quyền hạn thao tác</value>
+  </data>
+  <data name="lblNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotYetBeginStatusResource1.Text" xml:space="preserve">
+    <value>Chưa bắt đầu</value>
+  </data>
+  <data name="lblNotYetBeginStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPredEndEmptyMsgResource1.Text" xml:space="preserve">
+    <value>Vui lòng chọn ngày hoàn thành ước tính</value>
+  </data>
+  <data name="lblPredEndEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPredStartEmptyMsgResource1.Text" xml:space="preserve">
+    <value>Vui lòng chọn ngày hoàn thành ước tính</value>
+  </data>
+  <data name="lblPredStartEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProceedingStatusResource1.Text" xml:space="preserve">
+    <value>Đang tiến hành</value>
+  </data>
+  <data name="lblProceedingStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectNotSetMsgResource1.Text" xml:space="preserve">
+    <value>Nhiệm vụ thuộc về dự án không tồn tại hoặc đã bị hủy</value>
+  </data>
+  <data name="lblProjectNotSetMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemindConfirmMsgResource1.Text" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn nhắc nhở?</value>
+  </data>
+  <data name="lblRemindConfirmMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemindMsgResource1.Text" xml:space="preserve">
+    <value>Nhắc nhở</value>
+  </data>
+  <data name="lblRemindMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportTrackResource1.Text" xml:space="preserve">
+    <value>Lịch trình báo cáo</value>
+  </data>
+  <data name="lblReportTrackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendStatusResource1.Text" xml:space="preserve">
+    <value>Đã dừng lại</value>
+  </data>
+  <data name="lblSuspendStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaskNameEmptyMsgResource1.Text" xml:space="preserve">
+    <value>Vui lòng nhập tên thư mục</value>
+  </data>
+  <data name="lblTaskNameEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdateNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}nhiệm vụ ở trạng thái không thể sửa đổi</value>
+  </data>
+  <data name="lblUpdateNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrgeConfirmMsgResource1.Text" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn gửi đi phê duyệt không?</value>
+  </data>
+  <data name="lblUrgeConfirmMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrgeMsgResource1.Text" xml:space="preserve">
+    <value>Thúc giục</value>
+  </data>
+  <data name="lblUrgeMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Cài đặt nhiệm vụ</value>
+  </data>
+</root>

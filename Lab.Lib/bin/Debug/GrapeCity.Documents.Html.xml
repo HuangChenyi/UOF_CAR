@@ -1,0 +1,716 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GrapeCity.Documents.Html</name>
+    </assembly>
+    <members>
+        <member name="T:GrapeCity.Documents.Drawing.GcBitmapGraphicsExt">
+            <summary>
+            Provides extension methods that allow rendering HTML on a <see cref="T:GrapeCity.Documents.Imaging.GcBitmapGraphics"/>.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Drawing.GcBitmapGraphicsExt.DrawHtml(GrapeCity.Documents.Imaging.GcBitmapGraphics,System.String,System.Single,System.Single,GrapeCity.Documents.Drawing.HtmlToImageFormat,System.Drawing.SizeF@,System.Int32,System.String,System.String)">
+            <summary>
+            Draws an HTML string on this <see cref="T:GrapeCity.Documents.Imaging.GcBitmapGraphics"/> at a specified position.
+            </summary>
+            <param name="graphics">The target <see cref="T:GrapeCity.Documents.Imaging.GcBitmapGraphics"/> object.</param>
+            <param name="html">The HTML string to draw.</param>
+            <param name="x">The x-coordinate at which to draw the HTML block.</param>
+            <param name="y">The y-coordinate at which to draw the HTML block.</param>
+            <param name="format">The formatting attributes.</param>
+            <param name="size">OUT: the size of the rendered HTML block.</param>
+            <param name="virtualTimeBudget">The number of milliseconds to wait before deeming the page to be ready.</param>
+            <param name="authServerWhitelist">A whitelist for Negotiate Auth servers, such as "*example.com".</param>
+            <param name="proxyServer">A proxy server, such as "https://proxy-ip:proxy-port".</param>
+            <returns>True if the drawn block is not empty, false otherwise.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Drawing.GcBitmapGraphicsExt.DrawHtml(GrapeCity.Documents.Imaging.GcBitmapGraphics,System.Uri,System.Single,System.Single,GrapeCity.Documents.Drawing.HtmlToImageFormat,System.Drawing.SizeF@,System.Int32,System.String,System.String)">
+            <summary>
+            Draws an HTML page provided by an URI on this <see cref="T:GrapeCity.Documents.Imaging.GcBitmapGraphics"/> at a specified position.
+            </summary>
+            <param name="graphics">The target <see cref="T:GrapeCity.Documents.Imaging.GcBitmapGraphics"/> object.</param>
+            <param name="htmlUri">The URI specifying the source HTML page.</param>
+            <param name="x">The x-coordinate at which to draw the HTML block.</param>
+            <param name="y">The y-coordinate at which to draw the HTML block.</param>
+            <param name="format">The formatting attributes.</param>
+            <param name="size">OUT: the size of the rendered HTML block.</param>
+            <param name="virtualTimeBudget">The number of milliseconds to wait before deeming the page to be ready.</param>
+            <param name="authServerWhitelist">A whitelist for Negotiate Auth servers, such as "*example.com".</param>
+            <param name="proxyServer">A proxy server, such as "https://proxy-ip:proxy-port".</param>
+            <returns>True if the drawn block is not empty, false otherwise.</returns>
+        </member>
+        <member name="T:GrapeCity.Documents.Drawing.HtmlToImageFormat">
+            <summary>
+            Represents the formatting attributes for rendering HTML to <see cref="T:GrapeCity.Documents.Drawing.GcGraphics"/>.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Drawing.HtmlToImageFormat.#ctor(System.Boolean,System.Boolean)">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Drawing.HtmlToImageFormat"/>.
+            <para>
+            If <paramref name="fullPage"/> is true, the resulting image size will be calculated automatically
+            to include all page content. The minimal size will be determined by <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.WindowSize"/>.
+            </para>
+            <para>
+            If <paramref name="fullPage"/> is false, the maximum resulting image size will be determined
+            by <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowWidth"/> and <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowHeight"/> (possibly clipping some content).
+            </para>
+            </summary>
+            <param name="fullPage">Specifies whether to render the whole page.</param>
+            <param name="trimMargins">Specifies whether to trim image margins.</param>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.FullPage"/>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxTopMargin"/>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxBottomMargin"/>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxLeftMargin"/>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxRightMargin"/>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxTopMargin">
+            <summary>
+            Gets or sets the maximum height of the top margin, in pixels.
+            Negative value prevents trimming the top margin.
+            Defaults to 0 (no top margin).
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxBottomMargin">
+            <summary>
+            Gets or sets the maximum height of the bottom margin, in pixels.
+            Negative value prevents trimming the bottom margin.
+            Defaults to 0 (no bottom margin).
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxLeftMargin">
+            <summary>
+            Gets or sets the maximum width of the left margin, in pixels.
+            Negative value prevents trimming the left margin.
+            Defaults to 0 (no left margin).
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxRightMargin">
+            <summary>
+            Gets or sets the maximum width of the right margin, in pixels.
+            Negative value prevents trimming the right margin.
+            Defaults to 0 (no right margin).
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.DefaultBackgroundColor">
+            <summary>
+            Gets or sets the background color to be used if the HTML page doesn't specify one. Defaults to White color.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.FullPage">
+            <summary>
+            Gets or sets a value indicating whether the full HTML page should be captured.
+            <para>
+            Note that if this property is true, <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowWidth"/>, <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowHeight"/>
+            and <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.Clip"/> are ignored.
+            </para>
+            <para>
+            Conversely, if this property is false, <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.WindowSize"/> is ignored.
+            </para>
+            </summary>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowWidth"/>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowHeight"/>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.Clip"/>
+            <seealso cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.WindowSize"/>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.WindowSize">
+            <summary>
+            Gets or sets the minimal window size before trimming margins, in pixels. Defaults to 800 x 600.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.FullPage"/> is false.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowWidth">
+            <summary>
+            Gets or sets the maximum window width, in pixels. Defaults to 1200.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.MaxWindowHeight">
+            <summary>
+            Gets or sets the maximum window height, in pixels. Defaults to 1600.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.Clip">
+            <summary>
+            If set, captures the specified rectangular region only (in pixels).
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Drawing.HtmlToImageFormat.Scale">
+            <summary>
+            Gets or sets the scale factor. Defaults to 1.0.
+            </summary>
+        </member>
+        <member name="T:GrapeCity.Documents.Html.GcHtmlRenderer">
+            <summary>
+            Provides methods for converting HTML to PDF and images.
+            </summary>
+        </member>
+        <member name="F:GrapeCity.Documents.Html.GcHtmlRenderer.LastLogMessage">
+            <summary>
+            Gets the last log message from the headless Chromium shell.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.GcHtmlRenderer.PathToGcHtmlToPdf">
+            <summary>
+            Gets or sets path to the headless Chromium shell.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.GcHtmlRenderer.WaitDuration">
+            <summary>
+            Gets or sets the amount of time, in milliseconds, to wait for the browser process to exit.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.SetGcPdfLicenseKey(System.String)">
+            <summary>
+            Sets a GcPdf license key to use by all instances of <see cref="T:GrapeCity.Documents.Html.GcHtmlRenderer"/>.
+            <para>Up to five PDFs can be created without a license.</para>
+            </summary>
+            <param name="key">The GcPdf license key to set.</param>
+            <seealso cref="M:GrapeCity.Documents.Html.GcHtmlRenderer.ApplyGcPdfLicenseKey(System.String)"/>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.ApplyGcPdfLicenseKey(System.String)">
+            <summary>
+            Applies a GcPdf license key to use by the current instance of <see cref="T:GrapeCity.Documents.Html.GcHtmlRenderer"/>.
+            <para>Up to five PDFs can be created without a license.</para>
+            </summary>
+            <param name="key">The GcPdf license key to apply.</param>
+            <seealso cref="M:GrapeCity.Documents.Html.GcHtmlRenderer.SetGcPdfLicenseKey(System.String)"/>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.SetGcImagingLicenseKey(System.String)">
+            <summary>
+            Sets a GcImaging license key to use by all instances of <see cref="T:GrapeCity.Documents.Html.GcHtmlRenderer"/>.
+            <para>Up to five images can be created without a license.</para>
+            </summary>
+            <param name="key">The GcImaging license key to set.</param>
+            <seealso cref="M:GrapeCity.Documents.Html.GcHtmlRenderer.ApplyGcImagingLicenseKey(System.String)"/>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.ApplyGcImagingLicenseKey(System.String)">
+            <summary>
+            Applies a GcImaging license key to use by the current instance of <see cref="T:GrapeCity.Documents.Html.GcHtmlRenderer"/>.
+            <para>Up to five images can be created without a license.</para>
+            </summary>
+            <param name="key">The GcImaging license key to apply.</param>
+            <seealso cref="M:GrapeCity.Documents.Html.GcHtmlRenderer.SetGcImagingLicenseKey(System.String)"/>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.#ctor(System.Uri)">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Html.GcHtmlRenderer"/> from <see cref="T:System.Uri"/>.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Html.GcHtmlRenderer"/> from HTML string.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.Dispose">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.Finalize">
+            <summary>
+            Performs cleanup operations on unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.Dispose(System.Boolean)">
+            <summary>
+            Performs cleanup operations on managed and unmanaged resources.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.GcHtmlRenderer.IsDisposed">
+            <summary>
+            Gets a value indicating whether the <see cref="T:GrapeCity.Documents.Html.GcHtmlRenderer"/> has been disposed of.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.GcHtmlRenderer.VirtualTimeBudget">
+            <summary>
+            Gets or sets the number of milliseconds to wait before deeming the page to be ready.
+            </summary>
+            <remarks>
+            For determinism virtual time does not advance while there are pending
+            network fetches (i.e no timers will fire). Once all network fetches have
+            completed, timers fire and if the system runs out of virtual time is
+            fastforwarded so the next timer fires immediately, until the specified
+            virtual time budget is exhausted.
+            </remarks>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.GcHtmlRenderer.AuthServerWhitelist">
+            <summary>
+            Gets or sets a whitelist to passthrough Windows authentication for the specified domains.
+            <para>
+            For example: "*example.com,*foobar.com,*baz".
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.GcHtmlRenderer.ProxyServer">
+            <summary>
+            Gets or sets a proxy server, overrides system settings. Affects HTTP and HTTPS requests only.
+            <para>
+            For example: "https://proxy-ip:proxy-port" or "socks5://127.0.0.1:1080".
+            </para>
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.RenderToGcBitmap(GrapeCity.Documents.Imaging.GcBitmap,GrapeCity.Documents.Drawing.HtmlToImageFormat)">
+            <summary>
+            Renders the source HTML to an existing <see cref="T:GrapeCity.Documents.Imaging.GcBitmap"/>.
+            </summary>
+            <param name="bitmap">The destination <see cref="T:GrapeCity.Documents.Imaging.GcBitmap"/>.Note that its current content will be lost.</param>
+            <param name="format">The formatting attributes.</param>
+            <returns>True if HTML was successfully rendered; otherwise, false.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.RenderToPng(System.IO.Stream,GrapeCity.Documents.Html.PngSettings)">
+            <summary>
+            Creates a PNG image from the source HTML and saves it to a specified stream.
+            </summary>
+            <param name="outputStream">The destination stream.</param>
+            <param name="settings">The set of parameters for the output image.</param>
+            <returns>True if PNG was successfully saved; otherwise, false.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.RenderToPng(System.String,GrapeCity.Documents.Html.PngSettings)">
+            <summary>
+            Creates a PNG image file from the source HTML.
+            </summary>
+            <param name="outputFilePath">The destination file path.</param>
+            <param name="settings">The set of parameters for the output image.</param>
+            <returns>True if the browser process has exited; otherwise, false.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.RenderToJpeg(System.IO.Stream,GrapeCity.Documents.Html.JpegSettings)">
+            <summary>
+            Creates a JPEG image from the source HTML and saves it to a specified stream.
+            </summary>
+            <param name="outputStream">The destination stream.</param>
+            <param name="settings">The set of parameters for the output image.</param>
+            <returns>True if JPEG was successfully saved; otherwise, false.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.RenderToJpeg(System.String,GrapeCity.Documents.Html.JpegSettings)">
+            <summary>
+            Creates a JPEG image file from the source HTML.
+            </summary>
+            <param name="outputFilePath">The destination file path.</param>
+            <param name="settings">The set of parameters for the output image.</param>
+            <returns>True if the browser process has exited; otherwise, false.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.RenderToPdf(System.IO.Stream,GrapeCity.Documents.Html.PdfSettings)">
+            <summary>
+            Creates a PDF document from the source HTML and saves it to a specified stream.
+            </summary>
+            <param name="outputStream">The destination stream.</param>
+            <param name="settings">The set of parameters for the output PDF.</param>
+            <returns>True if PDF was successfully saved; otherwise, false.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.GcHtmlRenderer.RenderToPdf(System.String,GrapeCity.Documents.Html.PdfSettings)">
+            <summary>
+            Creates a PDF file from the source HTML.
+            </summary>
+            <param name="outputFilePath">The destination file path.</param>
+            <param name="settings">The set of parameters for the output PDF file.</param>
+            <returns>True if the browser process has exited; otherwise, false.</returns>
+        </member>
+        <member name="T:GrapeCity.Documents.Html.ImageSettings">
+            <summary>
+            The abstract base class for <see cref="T:GrapeCity.Documents.Html.PngSettings"/> and <see cref="T:GrapeCity.Documents.Html.JpegSettings"/> classes.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.ImageSettings.DefaultBackgroundColor">
+            <summary>
+            Gets or sets the background color to be used if the HTML page doesn't specify one. Defaults to White color.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.ImageSettings.FullPage">
+            <summary>
+            Gets or sets a value indicating whether the full HTML page should be captured. Defaults to false.
+            <para>
+            Note that if this property is true, <see cref="P:GrapeCity.Documents.Html.ImageSettings.Clip"/> is ignored.
+            </para>
+            </summary>
+            <seealso cref="P:GrapeCity.Documents.Html.ImageSettings.WindowSize"/>
+            <seealso cref="P:GrapeCity.Documents.Html.ImageSettings.Clip"/>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.ImageSettings.WindowSize">
+            <summary>
+            Gets or sets the virtual window size, in pixels. Defaults to 800 x 600.
+            <para>
+            Note that if <see cref="P:GrapeCity.Documents.Html.ImageSettings.FullPage"/> is true, this property defines the minimal window size.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.ImageSettings.Clip">
+            <summary>
+            If set, captures the specified rectangular region only (in pixels).
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.ImageSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.ImageSettings.Scale">
+            <summary>
+            Gets or sets the scale factor. Defaults to 1.0.
+            </summary>
+        </member>
+        <member name="T:GrapeCity.Documents.Html.PngSettings">
+            <summary>
+            Represents output image settings for rendering HTML to PNG.
+            </summary>
+        </member>
+        <member name="T:GrapeCity.Documents.Html.JpegSettings">
+            <summary>
+            Represents output image settings for rendering HTML to JPEG.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.JpegSettings.CompressionQuality">
+            <summary>
+            Gets or sets the compression quality (from 0 to 100). Defaults to 80.
+            </summary>
+        </member>
+        <member name="T:GrapeCity.Documents.Html.PdfSettings">
+            <summary>
+            Represents output settings for rendering HTML to PDF.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.TaggedPdf">
+            <summary>
+            Gets or sets a value indicating whether a tagged (accessible) PDF is generated. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.DefaultBackgroundColor">
+            <summary>
+            Gets or sets the background color to be used if the HTML page doesn't specify one. Defaults to White color.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.DisplayBackgroundGraphics">
+            <summary>
+            Gets or sets a value indicating whether the background graphics should be rendered. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.WindowSize">
+            <summary>
+            Gets or sets the virtual window size, in pixels. Defaults to 800 x 600.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.Scale">
+            <summary>
+            Gets or sets the scale factor, from 0.1 to 2.0. Defaults to 1.0.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.FullPage">
+            <summary>
+            Gets or sets a value indicating whether the whole HTML page should be rendered as a single PDF page. Defaults to false.
+            <para>
+            Note that if this property is true, the following properties are ignored:
+            <see cref="P:GrapeCity.Documents.Html.PdfSettings.Landscape"/>, <see cref="P:GrapeCity.Documents.Html.PdfSettings.PageWidth"/>, <see cref="P:GrapeCity.Documents.Html.PdfSettings.PageHeight"/>,
+            <see cref="P:GrapeCity.Documents.Html.PdfSettings.IgnoreCSSPageSize"/>, <see cref="P:GrapeCity.Documents.Html.PdfSettings.Margins"/>, <see cref="P:GrapeCity.Documents.Html.PdfSettings.PageRanges"/>,
+            <see cref="P:GrapeCity.Documents.Html.PdfSettings.DisplayHeaderFooter"/>, <see cref="P:GrapeCity.Documents.Html.PdfSettings.HeaderTemplate"/> and <see cref="P:GrapeCity.Documents.Html.PdfSettings.FooterTemplate"/>.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.Landscape">
+            <summary>
+            Gets or sets a value indicating whether the paper orientation is Landscape. Defaults to false.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.PdfSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.PageWidth">
+            <summary>
+            Gets or sets the page width, in inches. If unspecified, 8.5 inches is used.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.PdfSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.PageHeight">
+            <summary>
+            Gets or sets the page height, in inches. If unspecified, 11 inches is used.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.PdfSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.IgnoreCSSPageSize">
+            <summary>
+            Gets or sets a value indicating whether the CSS-defined page size should be ignored. Defaults to false.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.PdfSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.Margins">
+            <summary>
+            Gets or sets page margins, in inches. Defaults to no margins.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.PdfSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.PageRanges">
+            <summary>
+            Gets or sets the range of pages to render, e.g., '1-5, 8, 11-13'. Defaults to all pages.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.PdfSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.DisplayHeaderFooter">
+            <summary>
+            Gets or sets a value indicating whether the header and footer are rendered. Defaults to false.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Html.PdfSettings.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.HeaderTemplate">
+            <summary>
+            Gets or sets the HTML template for the page header.
+            <para>
+            This should be a valid HTML markup that may include the following special classes
+            used to inject print values:
+            </para>
+            <list type="bullet">
+            <item>
+            <term>'date'</term>
+            <description>formatted print date</description>
+            </item>
+            <item>
+            <term>'title'</term>
+            <description>document title</description>
+            </item>
+            <item>
+            <term>'url'</term><description>document location</description>
+            </item>
+            <item>
+            <term>'pageNumber'</term>
+            <description>current page number</description>
+            </item>
+            <item>
+            <term>'totalPages'</term>
+            <description>total pages in the document</description>
+            </item>
+            </list>
+            <para>
+            For example, "&lt;span class='title'&gt;&lt;/span&gt;" would generate a span containing the document title.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.PdfSettings.FooterTemplate">
+            <summary>
+            Gets or sets the HTML template for the page footer.
+            <para>
+            This should be a valid HTML markup that may include the following special classes
+            used to inject print values:
+            </para>
+            <list type="bullet">
+            <item>
+            <term>'date'</term>
+            <description>formatted print date</description>
+            </item>
+            <item>
+            <term>'title'</term>
+            <description>document title</description>
+            </item>
+            <item>
+            <term>'url'</term><description>document location</description>
+            </item>
+            <item>
+            <term>'pageNumber'</term>
+            <description>current page number</description>
+            </item>
+            <item>
+            <term>'totalPages'</term>
+            <description>total pages in the document</description>
+            </item>
+            </list>
+            <para>
+            For example, "&lt;span class='title'&gt;&lt;/span&gt;" would generate a span containing the document title.
+            </para>
+            </summary>
+        </member>
+        <member name="T:GrapeCity.Documents.Html.Margins">
+            <summary>
+            Represents page margins.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.Margins.#ctor">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Html.Margins"/>.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.Margins.#ctor(System.Single)">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Html.Margins"/>.
+            </summary>
+            <param name="uniformMargin">The uniform margin applied to left, top, right, and bottom, in inches.</param>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.Margins.#ctor(System.Single,System.Single)">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Html.Margins"/>.
+            </summary>
+            <param name="leftRight">Left and right margins, in inches.</param>
+            <param name="topBottom">Top and bottom margins, in inches.</param>
+        </member>
+        <member name="M:GrapeCity.Documents.Html.Margins.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Html.Margins"/>.
+            </summary>
+            <param name="left">Left margin, in inches.</param>
+            <param name="top">Top margin, in inches.</param>
+            <param name="right">Right margin, in inches.</param>
+            <param name="bottom">Bottom margin, in inches.</param>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.Margins.Left">
+            <summary>
+            Gets or sets the left margin, in inches.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.Margins.Top">
+            <summary>
+            Gets or sets the top margin, in inches.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.Margins.Right">
+            <summary>
+            Gets or sets the right margin, in inches.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Html.Margins.Bottom">
+            <summary>
+            Gets or sets the bottom margin, in inches.
+            </summary>
+        </member>
+        <member name="T:GrapeCity.Documents.Pdf.GcPdfGraphicsExt">
+            <summary>
+            Provides the extension methods for rendering HTML to <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/>.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Pdf.GcPdfGraphicsExt.DrawHtml(GrapeCity.Documents.Pdf.GcPdfGraphics,System.String,System.Single,System.Single,GrapeCity.Documents.Pdf.HtmlToPdfFormat,System.Drawing.SizeF@,System.Int32,System.String,System.String)">
+            <summary>
+            Draws an HTML string on this <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/> at a specified position.
+            </summary>
+            <param name="graphics">The target <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/> object.</param>
+            <param name="html">The HTML string to draw.</param>
+            <param name="x">The x-coordinate at which to draw the HTML block.</param>
+            <param name="y">The y-coordinate at which to draw the HTML block.</param>
+            <param name="format">The formatting attributes.</param>
+            <param name="size">OUT: the size of the rendered HTML block.</param>
+            <param name="virtualTimeBudget">The number of milliseconds to wait before deeming the page to be ready.</param>
+            <param name="authServerWhitelist">A whitelist for Negotiate Auth servers, such as "*example.com".</param>
+            <param name="proxyServer">A proxy server, such as "https://proxy-ip:proxy-port".</param>
+            <returns>True if the drawn block is not empty, false otherwise.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Pdf.GcPdfGraphicsExt.DrawHtml(GrapeCity.Documents.Pdf.GcPdfGraphics,System.Uri,System.Single,System.Single,GrapeCity.Documents.Pdf.HtmlToPdfFormat,System.Drawing.SizeF@,System.Int32,System.String,System.String)">
+            <summary>
+            Draws an HTML page provided by an URI on this <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/> at a specified position.
+            </summary>
+            <param name="graphics">The target <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/> object.</param>
+            <param name="htmlUri">The URI specifying the source HTML page.</param>
+            <param name="x">The x-coordinate at which to draw the HTML block.</param>
+            <param name="y">The y-coordinate at which to draw the HTML block.</param>
+            <param name="format">The formatting attributes.</param>
+            <param name="size">OUT: the size of the rendered HTML block.</param>
+            <param name="virtualTimeBudget">The number of milliseconds to wait before deeming the page to be ready.</param>
+            <param name="authServerWhitelist">A whitelist for Negotiate Auth servers, such as "*example.com".</param>
+            <param name="proxyServer">A proxy server, such as "https://proxy-ip:proxy-port".</param>
+            <returns>True if the drawn block is not empty, false otherwise.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Pdf.GcPdfGraphicsExt.MeasureHtml(GrapeCity.Documents.Pdf.GcPdfGraphics,System.String,GrapeCity.Documents.Pdf.HtmlToPdfFormat,System.Int32,System.String,System.String)">
+            <summary>
+            Measures an HTML string for rendering on this <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/>
+            </summary>
+            <param name="graphics">The target <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/> object.</param>
+            <param name="html">The HTML string to draw.</param>
+            <param name="format">The formatting attributes.</param>
+            <param name="virtualTimeBudget">The number of milliseconds to wait before deeming the page to be ready.</param>
+            <param name="authServerWhitelist">A whitelist for Negotiate Auth servers, such as "*example.com".</param>
+            <param name="proxyServer">A proxy server, such as "https://proxy-ip:proxy-port".</param>
+            <returns>The size of the HTML block if rendered on this graphics.</returns>
+        </member>
+        <member name="M:GrapeCity.Documents.Pdf.GcPdfGraphicsExt.MeasureHtml(GrapeCity.Documents.Pdf.GcPdfGraphics,System.Uri,GrapeCity.Documents.Pdf.HtmlToPdfFormat,System.Int32,System.String,System.String)">
+            <summary>
+            Measures an HTML page provided by an URI for rendering on this <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/>.
+            </summary>
+            <param name="graphics">The target <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/> object.</param>
+            <param name="htmlUri">The URI specifying the source HTML page.</param>
+            <param name="format">The formatting attributes.</param>
+            <param name="virtualTimeBudget">The number of milliseconds to wait before deeming the page to be ready.</param>
+            <param name="authServerWhitelist">A whitelist for Negotiate Auth servers, such as "*example.com".</param>
+            <param name="proxyServer">A proxy server, such as "https://proxy-ip:proxy-port".</param>
+            <returns>The size of the HTML block if rendered on this graphics.</returns>
+        </member>
+        <member name="T:GrapeCity.Documents.Pdf.HtmlToPdfFormat">
+            <summary>
+            Represents the formatting attributes for rendering HTML to <see cref="T:GrapeCity.Documents.Pdf.GcPdfGraphics"/>.
+            </summary>
+        </member>
+        <member name="M:GrapeCity.Documents.Pdf.HtmlToPdfFormat.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of <see cref="T:GrapeCity.Documents.Pdf.HtmlToPdfFormat"/>.
+            <para>
+            If <paramref name="fullPage"/> is true, the resulting size will be calculated automatically
+            to include all page content.
+            </para>
+            <para>
+            If <paramref name="fullPage"/> is false, the maximum resulting size will be determined
+            by <see cref="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.MaxPageWidth"/> and <see cref="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.MaxPageHeight"/> (possibly clipping some content).
+            </para>
+            </summary>
+            <param name="fullPage">Specifies whether to render the whole page.</param>
+        </member>
+        <member name="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.DefaultBackgroundColor">
+            <summary>
+            Gets or sets the background color to be used if the HTML page doesn't specify one. Defaults to White color.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.DisplayBackgroundGraphics">
+            <summary>
+            Gets or sets a value indicating whether the background graphics should be rendered. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.WindowSize">
+            <summary>
+            Gets or sets the virtual window size, in pixels. Defaults to 800 x 600.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.Scale">
+            <summary>
+            Gets or sets the scale factor, between 0.1 and 2.0. Defaults to 1.0.
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.FullPage">
+            <summary>
+            Gets or sets a value indicating whether the full HTML page should be rendered.
+            <para>
+            Note that if this property is true, 
+            <see cref="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.MaxPageWidth"/> and <see cref="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.MaxPageHeight"/> are ignored.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.MaxPageWidth">
+            <summary>
+            Gets or sets the maximum page width, in inches.
+            If unspecified, 200 inches is used.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+        <member name="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.MaxPageHeight">
+            <summary>
+            Gets or sets the maximum page height, in inches.
+            If unspecified, 200 inches is used.
+            <para>
+            Note that this property is ignored if <see cref="P:GrapeCity.Documents.Pdf.HtmlToPdfFormat.FullPage"/> is true.
+            </para>
+            </summary>
+        </member>
+    </members>
+</doc>

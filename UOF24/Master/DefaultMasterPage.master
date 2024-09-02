@@ -1,0 +1,530 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Master_DefaultMasterPage" Codebehind="DefaultMasterPage.master.cs" %>
+
+<%@ Register Src="UC_Menu.ascx" TagName="UC_Menu" TagPrefix="uc3" %>
+<%@ Register Src="UC_SiteMap.ascx" TagName="UC_SiteMap" TagPrefix="uc2" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <link rel="icon" href="" type="image/x-icon" runat="server" id="Icon" EnableViewState="False"/>
+    <link rel="home" id="ApplicationRoot" href="" runat="server" enableviewstate="False" clientidmode="Static" />
+    <link href="~/Common/Style/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <meta content="text/html; charset=utf-8"/>
+    <meta name="referrer" content="no-referrer" />
+    <title></title>
+    <style>
+        .SeledtedFontSize {
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<body runat="server" id="Body">
+    
+       
+    <form id="form1" runat="server">
+        <style>
+            #MasterContent {                
+                height: calc(100% - <%= TickerContenter.Visible ? "160" :　"140"  %>px);
+            }
+            #MasterFooter{
+                background-image: url(<%=themePath %>/images/down_bg.gif);
+            }
+        </style>
+         <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server" EnableStyleSheetCombine="True">
+            <StyleSheets>
+                  <telerik:StyleSheetReference Path="~/Common/Style/cssReset.css" />
+                <telerik:StyleSheetReference Path="~/Common/Style/uof-fixed.css" />
+                <telerik:StyleSheetReference Path="~/Common/Style/telerik.css" />
+            </StyleSheets>
+        </telerik:RadStyleSheetManager>
+        <telerik:RadScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True" AsyncPostBackTimeout="36000">
+            <Scripts>
+	            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+                <asp:ScriptReference Path="~/Common/javascript/json2.min.js" ScriptMode="Release" />
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/jquery-ui.min.js" ScriptMode="Release" />
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/jquery.blockUI.js" ScriptMode="Release" />
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/ticker.js?v=11.40.0421" ScriptMode="Release" />
+                <asp:ScriptReference Path="~/Common/javascript/uofScript.js?v=18.5" ScriptMode="Release" />
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/jquery.cookie.js" ScriptMode="Release" />
+                <asp:ScriptReference Path="~/Common/javascript/plustek-smartoffice-sdk.js" />
+                <asp:ScriptReference Path="~/Common/javascript/signature_pad.min.js" ScriptMode="Release"/>
+            </Scripts>
+        </telerik:RadScriptManager>
+        <telerik:RadWindowManager ID="RadWindowManager1" runat="server" Modal="True"
+            ReloadOnShow="true" DestroyOnClose="True" ShowOnTopWhenMaximized="False"
+            EnableShadow="True" ShowContentDuringLoad="false"
+            OnClientCommand="$uof.telerikFix.windowManager.onClientCommand"
+            Style="z-index: 9001" Behaviors="Resize, Maximize, Move, Close" VisibleStatusbar="False">
+        </telerik:RadWindowManager>
+        <div id="MasterContainer" style="min-width: 1000px;">
+            <div id="MasterHeader" runat="server" clientidmode="Static">
+                <div>
+                    <table style="border-width: 0px; height: 100%; width: 100%;">
+                        <tr>
+                            <td>
+                                <table style="background-image: url(<%=themePath %>/images/up_bg.jpg); border-width: 0px; width: 100%; height: 100%;">
+                                    <tr>
+                                        <td style="width: 30px">&nbsp;</td>
+                                        <td style="vertical-align: top; width: 240px">
+                                            <asp:ImageButton ID="btnFake" runat="server" OnClientClick="return false;" style="display: none;" />
+                                            <asp:Image ID="imgLogo" style="max-height:47px;height:auto" runat="server" meta:resourcekey="imgLogoResource3" />
+                                        </td>
+                                        <td style="vertical-align: top">
+                                            <table style="border-width: 1px; width: 100%;">
+                                                <tr>
+                                                    <td style="height: 40px; vertical-align: middle; white-space: nowrap">
+                                                        <div align="center" class="masterpage_AccountName">
+                                                            <asp:Label ID="lblAccount" runat="server" meta:resourcekey="lblAccountResource1"></asp:Label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="masterpage_OnlineUser" style="vertical-align: middle; white-space: nowrap">
+                                                        <asp:LinkButton ID="lnbOnlineUser" runat="server" meta:resourcekey="Label1Resource1"
+                                                            Text="線上人數:" CssClass="white"></asp:LinkButton>
+                                                        <asp:Label ID="lblOnlineUser" runat="server" Text="線上人數:" Visible="false" meta:resourcekey="Label1Resource1"
+                                                            CssClass="h"></asp:Label>
+                                                        <asp:Label ID="lbOnlineUser" runat="server" meta:resourcekey="lbOnlineUserResource1"
+                                                            CssClass="h"></asp:Label>
+                                                    </td>
+                                                    <td style="height: 40px; width: 50px; text-align: center; white-space: nowrap;">
+                                                        <asp:LinkButton ID="lbtnLogout" runat="server" OnClick="lbtnLogout_Click" CausesValidation="False" OnClientClick="logoutClick()">
+                                                            <asp:Panel ID="Panel2" runat="server" Width="50px">
+                                                                <img src="<%=themePath %>/images/logout.gif" alt="Logout" />
+                                                            </asp:Panel>
+                                                        </asp:LinkButton>
+                                                    </td>
+                                                    <td style="width: 100px;"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td style="width: 320px; text-align: right" id="tdMasterToolbar" runat="server">
+                                            <div style="width: 320px" class="MasterToolbar" id="dvMasterToolbar" runat="server">
+                                                <div id="gHomepage">
+                                                    <a href="<%=homePageURl %>" title="<%=lbHome.Text %>"></a>
+                                                </div>
+                                                <div id="gPersonal">
+                                                    <a href='<%=ResolveUrl("~/Basic/Personal/Information/Default.aspx")%>' title="<%=lbPersonalSetting.Text %>"></a>
+                                                </div>
+                                                <% if (hfMessageVisible.Value == "True") { %>
+                                                <div id="gMessage">
+                                                    <asp:LinkButton runat="server" ID="hyPM" OnClick="hyPM_Click"></asp:LinkButton>
+                                                </div>
+                                                <% } %>
+                                                <% if (Ede.Uof.EIP.SystemInfo.Current.UserType == Ede.Uof.EIP.Organization.Util.UserType.Employee)
+                                                   {
+                                                %>
+                                                <% if (hfCalendarVisible.Value == "True") { %>
+                                                <div id="gCalendar">
+                                                    <a href='<%=ResolveUrl("~/EIP/Calendar/Default.aspx")%>' title="<%=lbCalendar.Text %>"></a>
+                                                </div>
+                                                <% } %>
+                                                <% if (hfBriefcaseVisible.Value == "True") { %>
+                                                <div id="gBriefcase">
+                                                    <a href='<%=ResolveUrl("~/EIP/Personal/Briefcase/Default.aspx")%>' title="<%=lbBriefcase.Text %>"></a>
+                                                </div>
+                                                <% } %>
+                                                <% if (hfAddressBookVisible.Value == "True") { %>
+                                                <div id="gAddressBook">
+                                                    <a href='<%=ResolveUrl("~/Basic/Personal/AddressBook/Default.aspx")%>' title="<%=lbAddressBook.Text %>"></a>
+                                                </div>
+                                                <% } %>
+                                                <%
+                                                       }
+                                                %>
+                                            </div>
+                                        </td>
+                                        <td style="width: 60px;">
+                                            <div id="divUofTime">
+                                                <asp:Image ID="imgUofClock" runat="server" ImageUrl="~/App_Themes/DefaultTheme/images/icon_m196.png" />
+                                                <asp:Label ID="lblUserTimeZoneName" runat="server"></asp:Label><br />
+                                                <asp:Label ID="lblUofClockTime" runat="server"></asp:Label>
+                                            </div>
+                                        </td>
+                                        <td width="30">&nbsp;
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" style="background: url(<%=themePath %>/images/netup_eb.gif)">
+                                    <tr>
+                                        <td style="vertical-align: top">
+                                            <table style="background-color: aqua">
+                                                <tr>
+                                                    <td>
+                                                        <uc3:UC_Menu ID="UC_Menu1" runat="server"/>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="87">
+                                            <img src="<%=themePath %>/images/netup.gif" alt="LOGO" /></td>
+                                        <td width="35">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="height: 1em;">
+                                <table width="100%" style="background-image: url(<%=themePath %>/images/map_bg.gif); height: 100%">
+                                    <tr>
+                                        <td width="77%">
+                                            <div style="padding-top:0.3em;">
+                                            <uc2:UC_SiteMap ID="UC_SiteMap1" runat="server" />
+                                            </div>
+                                        </td>
+                                        <td width="23%" style="text-align: right">
+                                            <table>
+                                                <tr>
+                                                    <td style="white-space: nowrap;">
+                                                        <telerik:RadButton ID="btnLarge" AutoPostBack="true" runat="server" ButtonType="LinkButton" Text="大" OnClientClicking="ChangeFontSize"  size="large" meta:resourcekey="btnLargeResource1"></telerik:RadButton>
+                                                        <telerik:RadButton ID="btnMedium" AutoPostBack="true" runat="server" Text="中" ButtonType="LinkButton" OnClientClicking="ChangeFontSize"  size="medium"  meta:resourcekey="btnMResource1"></telerik:RadButton>
+                                                        <telerik:RadButton ID="btnSmall" AutoPostBack="true" runat="server" Text="小" ButtonType="LinkButton" OnClientClicking="ChangeFontSize" size="small"  meta:resourcekey="btnSmallResource1"></telerik:RadButton>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td style="white-space: nowrap;">
+                                                          <div style="padding-top:0.3em;">
+                                                        <asp:Label ID="Label1" runat="server" Text="站內搜尋(三個月內):" Visible="false" meta:resourcekey="Label1Resource3"></asp:Label>
+                                                        <asp:Label ID="lblSearch" runat="server" Text="站內搜尋" Visible="true" meta:resourcekey="lblSearchResource1"></asp:Label>
+                                                   </div>
+                                                               </td>
+                                                    <td>
+                                                        <div style="padding:0.2em 0 0 5px">
+                                                            <asp:TextBox ID="txtKeyword" runat="server"  onkeydown="return OnKeyEnterPress(event)" Columns="10" CssClass="searchTextBox"
+                                                                MaxLength="50" meta:resourcekey="txtKeywordResource3"></asp:TextBox>
+                                                            <div style="display:none">
+                                                                <telerik:RadButton ID="btnSearchClick" runat="server" Text="查詢" OnClick="lbSearch_Click"></telerik:RadButton>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div style="padding:0.2em 0 ">
+                                                        <asp:LinkButton ID="lbSearch" runat="server" OnClick="lbSearch_Click" OnClientClick="return btnSearchClick_ButtonClicking();" Width="25px" >
+                                                            <asp:Panel ID="Panel1" runat="server">
+                                                                <img src='<%=ResolveUrl("~/Common/Images/SearchBtn.gif")%>' style="border-color: #808080; border-style: solid; border-width: 1px 1px 0px 0px; margin: 1px 0px 0px 0px;"
+                                                                    alt="Search" />
+                                                            </asp:Panel>
+                                                        </asp:LinkButton>
+                                                             </div>
+                                                    </td>
+                                                    <td style="white-space: nowrap;">
+                                                         <div style="padding:0.3em 0 0 5px;">
+                                                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" meta:resourcekey="LinkButton1Resource1"
+                                                            Text="進階"></asp:LinkButton>
+                                                             </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td1" style="width: 100%;" runat="server">
+                                <div id="TickerContenter" runat="server" style="width: 100%;" >
+                                    <ul id="ticker" runat="server" EnableViewState="False" ClientIDMode="Static">
+                                        <asp:Literal ID="litTicker" runat="server"></asp:Literal>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="MasterContent">
+                <div style="height: 100%;width:100%"  class="tbbg01">
+                   
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="MasterFooter" runat="server" clientidmode="Static">
+                <div>
+                    <table style="height: 100%; width: 100%; padding: 0px; ">
+                        <tr>
+                           
+                           
+                            <td class="grayB" style="height: 24px; white-space: nowrap;">
+                                <asp:Label ID="lblCopyRight" runat="server" style="font-size: 12px; margin-left: 10px" meta:resourcekey="lblCopyRightResource4"></asp:Label>
+                            </td>
+                            <td class="grayB" style="height: 24px; white-space: nowrap; text-align: right">
+                                <asp:UpdatePanel ID="UpdatePanel1" runat="server" RenderMode="Inline">
+                                    <ContentTemplate>
+                                        <asp:Label ID="lbExpire" runat="server" meta:resourcekey="lbExpireResource4"></asp:Label>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            <td class="grayB" style="height: 24px; white-space: nowrap; text-align: right">
+                                <asp:Label ID="lblVersion" runat="server" meta:resourcekey="lblVersionResource1"></asp:Label>&nbsp;&nbsp;&nbsp;
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div style="display: none">
+            <asp:Label ID="lbHome" runat="server" Text="我的首頁" Visible="False" meta:resourcekey="lbHomeResource1"></asp:Label>
+            <asp:Label ID="lbPersonalSetting" runat="server" Text="個人設定" Visible="False" meta:resourcekey="lbPersonalSettingResource1"></asp:Label>
+            <asp:Label ID="lbPrivateMsg" runat="server" Text="私人訊息" Visible="False" meta:resourcekey="lbPrivateMsgResource1"></asp:Label>
+            <asp:Label ID="lbCalendar" runat="server" Text="行事曆" Visible="False" meta:resourcekey="lbCalendarResource1"></asp:Label>
+            <asp:Label ID="lbBriefcase" runat="server" Text="公事包" Visible="False" meta:resourcekey="lbBriefcaseResource1"></asp:Label>
+            <asp:Label ID="lbAddressBook" runat="server" Text="通訊錄" Visible="False" meta:resourcekey="lbAddressBookResource1"></asp:Label>
+            <asp:Label ID="lblErrmsg" runat="server" Text="關鍵字請勿輸入符號或指令" Visible="false" meta:resourcekey="lblErrmsgResource1"></asp:Label>
+        </div>
+          
+        <input type="hidden" id="FASTReturnValue" name="FASTReturnValue" value="[DefaultNullValue]" />
+        <asp:HiddenField ID="hidFontNumber" runat="server" />
+        <asp:HiddenField ID="hfMessageVisible" runat="server" Value="True" />
+        <asp:HiddenField ID="hfCalendarVisible" runat="server" Value="True" />
+        <asp:HiddenField ID="hfBriefcaseVisible" runat="server" Value="True" />
+        <asp:HiddenField ID="hfAddressBookVisible" runat="server" Value="True" />
+        <script type="text/javascript">
+        
+            Sys.Application.add_init(function () {
+
+                if ('WebForms' in Sys) {
+                    Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequestHandler);
+                    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+                }
+                
+            });
+
+            function BeginRequestHandler(sender, args) {
+                $uof.tool.showBlockLoading();
+            }
+
+            function EndRequestHandler(sender, args) {
+                if (args.get_error()) {                    
+                    var message = args.get_error().message;
+                    if (message.match(/: 0$|: 12031$/) != -1) {
+                        args.set_errorHandled(true);
+                    }
+                    else {
+                        alert(args.get_error().message);
+                    }
+                }
+                //                  
+                if ($get('FASTReturnValue') != null) {
+                    $get('FASTReturnValue').value = "[DefaultNullValue]";
+                }
+                if ($get('DialogReturnValue') != null) {
+                    $get('DialogReturnValue').value = "[DefaultNullValue]";
+                }
+
+                $uof.tool.hidnBlockLoading();
+            }
+
+            function OpenMasterPMDialog() {
+              
+                $uof.dialog.open2("~/Basic/Personal/PrivateMessage/ViewUnReadMsg.aspx", "", "", 1024, 768, OpenDialogResultPM);
+
+                return false;
+
+            
+            }
+
+            function OpenDialogResultPM(returnValue) {
+
+                if (typeof (returnValue) == "undefined")
+                    return false;
+                else
+                {
+                 
+                    <%--// 沒有私人訊息了  --%> 
+                    if (returnValue== "NONE") {
+                        $(".PmActive").removeClass("PmActive").off("click");
+                    }
+                    else if (returnValue == "showList") {
+                        $uof.tool.showBlockLoading();
+                        setTimeout(function() {
+                            window.location.href = '<%=ResolveUrl("~/Basic/Personal/PrivateMessage/Default.aspx")%>';
+                        }, 500);
+                        
+                    }
+                }
+            }
+
+
+
+
+            function OpenBulletionDialog(bulletinGuid) {        
+                $uof.dialog.open2("~/EIP/Bulletin/ViewBulletin.aspx", "", "", 1024, 768, function (retutnValue) { return false;}, { "BULLETINID": bulletinGuid });
+            }
+
+            function ChangeFontSize(button, args) {
+                //args.set_cancel(true);
+                var elem = button.get_element();
+                var size = $(elem).attr("size");
+
+                $("#<%=hidFontNumber.ClientID%>").val(size);
+
+            }
+
+            function logoutClick() {
+                $uof.tool.showBlockLoading();
+            }
+
+            <%-- //設定右上角圈圈按下去之後會出現blockui --%>
+            Sys.Application.add_load(function () {
+                $("#gHomepage a, #gPersonal a, #gCalendar a, #gBriefcase a, #gAddressBook a").on("click", function () {
+                    $uof.tool.showBlockLoading();
+                });
+
+            });
+
+            $(window).on('beforeunload', function(e) {
+                var oManager = GetRadWindowManager();
+                var windows = oManager.get_windows();
+                if (windows.length > 0) {
+                    return '<asp:Literal runat="server" Text="注意!!您即將要關閉整個UOF系統!不僅是您正在使用的頁面"></asp:Literal>';
+                }
+            });
+
+           
+        </script>
+        <script>
+        <%-- //時區名稱(不含UTC) --%>
+        var timezonename = '<%= Ede.Uof.EIP.Location.LocationUCO.GetTimeZoneShortNameByID(Ede.Uof.EIP.SystemInfo.Current.Culture, Ede.Uof.EIP.Organization.Util.UserTime.GetTimeZone(Ede.Uof.EIP.SystemInfo.Current.UserGUID).Id) %>';
+        $("#<%=lblUserTimeZoneName.ClientID%>").text(timezonename);
+        <%-- //取得目前使用者時區的offset(有日光節約) --%>
+        var _master_offsetHours = <%= Ede.Uof.EIP.Organization.Util.UserTime.SetZone(Ede.Uof.EIP.SystemInfo.Current.UserGUID).GetNowForUi().Offset.Hours %>;
+        var _master_offsetMinutes = <%= Ede.Uof.EIP.Organization.Util.UserTime.SetZone(Ede.Uof.EIP.SystemInfo.Current.UserGUID).GetNowForUi().Offset.Minutes %>;
+        var _master_timezoneoffset = _master_offsetHours + (_master_offsetMinutes / 60);
+        var _master_date ='<%= Ede.Uof.EIP.Location.LocationTime.GetSystemNowForUi().ToString("yyyy-MM-ddTHH:mm:sszzz") %>';
+        var _master_startTime = new Date();
+        var _master_last_time = new Date();
+        settimeOfMasterPage();
+        setInterval("settimeOfMasterPage()", 500);
+
+        function settimeOfMasterPage() {            
+            <%-- //先new一個時間轉成UTC millseconds --%>
+            //IE 不支援new Date帶參數的寫法,使用Date.parse() 並setTime來取得時間
+            var _master_tick = Date.parse(_master_date);
+            var _master_today = new Date();
+            var _master_time = new Date();
+
+            var _master_dt = _master_time.getTime() - _master_startTime.getTime(); 
+            _master_today.setTime(_master_tick + _master_dt);
+            _master_utc = _master_today.getTime() + (_master_today.getTimezoneOffset() * 60000);
+
+            <%-- //把utc加上目前使用者時區offset的差距, 就是使用者的時間 --%>
+            var _master_nd = new Date(_master_utc + (_master_timezoneoffset * 3600000));
+            <%-- //時間格式化, 只取需要的部分 --%>
+            var _master_utctime
+                = (_master_nd.getHours().toString().length > 1 ? _master_nd.getHours() : '0' + _master_nd.getHours()) + ':' + 
+                (_master_nd.getMinutes().toString().length > 1 ? _master_nd.getMinutes() : '0' + _master_nd.getMinutes()) + ':' + 
+                (_master_nd.getSeconds().toString().length > 1 ? _master_nd.getSeconds() : '0' + _master_nd.getSeconds());
+
+            $("#<%=lblUofClockTime.ClientID%>").text(_master_utctime);
+            
+            _master_last_time = new Date(); // 更新最後時間
+        }
+
+            function OnKeyEnterPress(event) {
+                var keyword = $("#<%=txtKeyword.ClientID%>").val().trim();
+                if (typeof (keyword) !== 'undefined' && keyword != "" && keyword.length > 0 && event.keyCode == 13) {
+                    var msg = checkStrPass(keyword, "Normal");
+                    if (msg == "PASS") {
+                        $("#<%=btnSearchClick.ClientID%>").click();
+                        return false;
+                    } else {
+                        alert('<%=lblErrmsg.Text %>' + msg);
+                        return false;
+                    }
+                }
+                else if (event.keyCode == 13) {
+                    //單純按enter
+                    return false;
+                }
+            }
+
+            function btnSearchClick_ButtonClicking() {
+                var keyword = $("#<%=txtKeyword.ClientID%>").val().trim();
+                if (typeof (keyword) !== 'undefined' && keyword != "" && keyword.length > 0){
+                var msg = checkStrPass(keyword, "Normal");
+                if (msg != "PASS") {
+                    alert('<%=lblErrmsg.Text %>' + msg);
+                    return false;
+                 }
+               }
+            }
+
+            /// <summary> 
+            /// 檢查是否有特殊字元
+            /// </summary> 
+            function checkStrPass(str, source) {
+                var illegalch;
+                if (source == "Normal")
+                    illegalCh = new Array("\'", "\''\'", "\"\"", ">", "<", ";", "+", "--", "/\"", ":", "/", "\\"); // 特殊字元
+                else {
+
+                    illegalCh = new Array("\'", "\''\'", "\"\"", ">", "<", ";", "+", "--", "*", "/\"", "?", "|", "\"", "*", ":", "/", "\\", "&"); // 特殊字元
+                }
+                var sqlCmd = new Array("select", "update", "insert", "union", "delete", "drop"); // sql指令
+                var msg = "";
+
+                if (typeof (str) !== 'undefined' && str != "" && str.length > 0) {
+                    for (var key in illegalCh) { // 先檢查特殊字元
+                        if (str.indexOf(illegalCh[key]) != -1) {
+                            if (msg == "") {
+                                msg += illegalCh[key];
+                            } else {
+                                msg += (" " + illegalCh[key]);
+                            } // end else
+
+                        } // end if
+                    } // end for()
+
+                    str = str.toLowerCase(); // 統一轉小寫比較
+                    for (var key in sqlCmd) { // 再檢查sql指令
+                        var address = str.indexOf(sqlCmd[key]);
+                        if (address == 0) { // 在起始位置發現，檢查下個字元是否為空白
+                            if (str.charAt(sqlCmd[key].length) == " ") { // 是空白
+                                if (msg == "") {
+                                    msg += sqlCmd[key];
+                                } else {
+                                    msg += (" " + sqlCmd[key]);
+                                } // end else
+                            } // end if
+                        } else if (address > 0) { // 在中間發現，分別檢查上下字元是否為空白
+                            if (str.charAt(address - 1) == " ") { // 上個字元是空白
+                                if (str.length == address + sqlCmd[key].length) { // 他在字串最末端，後面不用檢查了
+                                    if (msg == "") {
+                                        msg += sqlCmd[key];
+                                    } else {
+                                        msg += (" " + sqlCmd[key]);
+                                    } // end else
+                                } else { // 在字串中間，要檢查下一個
+                                    if (str.charAt(address + sqlCmd[key].length) == " ") { // 前後都空白-->非法
+                                        if (msg == "") {
+                                            msg += sqlCmd[key];
+                                        } else {
+                                            msg += (" " + sqlCmd[key]);
+                                        } // end else
+                                    } // end if
+                                } // end else
+                            } // end if
+                        } // end else if
+                    } // end for()
+
+                    // 有找到可疑輸入回傳msg，否則回傳true
+                    if (msg != "") {
+                        return msg;
+                    } else {
+                        return "PASS";
+                    } // end else
+                } else {
+                    return "PASS";
+                } // end else
+
+            } // end checkStrPass()
+</script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<ThirdLogin>
+  <app name="HRMS" key="!@#$%^" iv="@&*()" expiredSeconds="300" defaultCulture="zh-TW" failUrlFormat="" />
+  <app name="EHR" key="&&^^%%$$$$$$" iv="@#!$%RFDER%^&" expiredSeconds="100" defaultCulture="zh-TW" failUrlFormat="" />
+</ThirdLogin>
+
+EM與Mobile目前為系統專用字，請勿使用當name
+name: 自訂字串(識別用)
+key: 加密KEY
+iv: 加密IV
+expiredSeconds: 連線過期秒數
+defaultCulture: 預設登入語系
+failUrlFormat: 登入失敗時導頁網址字串(http://x.x.x/?Exception={0}) 會傳入Exception
+
+-->
+
+<ThirdLogin>
+
+</ThirdLogin>

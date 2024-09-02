@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CustomControls>
+  <CustomControl ControlType="EIP_Duty_Report_UC_MonthStatistics" ControlPath="~/EIP/Duty/Report/UC_MonthStatistics.ascx" DefaultTitle="當月出缺勤統計" TitleStyle="h" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="本月出缺勤统计" />
+    <Resource Name="zh-TW" Value="本月出缺勤統計" />
+    <Resource Name="en-US" Value="Attendance of this month" />
+    <Resource Name="vi" Value="Thông kê có mặt trong tháng" />
+    <Resource Name="id" Value="statistik absensi bulan ini" />
+    <Resource Name="mt-MT" Value="本月出缺勤統計" />
+    <Resource Name="ja-JP" Value="本月タイムカードに集計" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Duty_Report_UC_DayRecord" ControlPath="~/EIP/Duty/Report/UC_DayRecord.ascx" DefaultTitle="當日出缺勤記錄" TitleStyle="h" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="本日出缺勤记录" />
+    <Resource Name="zh-TW" Value="本日出缺勤記錄" />
+    <Resource Name="en-US" Value="Attendance of today" />
+    <Resource Name="vi" Value="Có mặt trong ngày" />
+    <Resource Name="id" Value="statistik absensi hari ini" />
+    <Resource Name="mt-MT" Value="本日出缺勤記錄" />
+    <Resource Name="ja-JP" Value="本日勤怠の履歴" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Duty_Punch_UC_Punch" ControlPath="~/EIP/Duty/Punch/UC_Punch.ascx" DefaultTitle="線上刷卡" TitleStyle="h" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="线上刷卡" />
+    <Resource Name="zh-TW" Value="線上刷卡" />
+    <Resource Name="en-US" Value="Online Punch" />
+    <Resource Name="vi" Value="Quẹt thẻ trực tuyến" />
+    <Resource Name="id" Value="absensi swipe kartu" />
+    <Resource Name="mt-MT" Value="線上刷卡" />
+    <Resource Name="ja-JP" Value="オンラインでタイムカードを押す" />
+  </CustomControl>
+  <CustomControl ControlType="PMS_Common_UC_HOMETaskReportBack" ControlPath="~/PMS/Common/UC_HOMETaskReportBack.ascx" DefaultTitle="任務管理-任務回報" TitleStyle="m" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="任务管理-任务回报" />
+    <Resource Name="zh-TW" Value="任務管理-任務回報" />
+    <Resource Name="en-US" Value="Teamwork-Task Reply" />
+    <Resource Name="vi" Value="Quản lý nhiệm vụ- Hồi đáp nhiệm vụ" />
+    <Resource Name="id" Value="Kerjatim-" />
+    <Resource Name="mt-MT" Value="任務管理-任務回報" />
+    <Resource Name="ja-JP" Value="タスク管理-タスクに返事" />
+  </CustomControl>
+  <CustomControl ControlType="PMS_Common_UC_HOMEAudit" ControlPath="~/PMS/Common/UC_HOMEAudit.ascx" DefaultTitle="任務管理-審核" TitleStyle="l" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="任务管理-审核" />
+    <Resource Name="zh-TW" Value="任務管理-審核" />
+    <Resource Name="en-US" Value="Teamwork-Audit" />
+    <Resource Name="vi" Value="Quản lý nhiệm vụ- Xét duyệt" />
+    <Resource Name="id" Value="Kerjatim-Audit" />
+    <Resource Name="mt-MT" Value="任務管理-審核" />
+    <Resource Name="ja-JP" Value="タスク管理-許可" />
+  </CustomControl>
+  <CustomControl ControlType="WKF_FormUse_FormHandle_UC_ToBeSignForm_Self" ControlPath="~/WKF/FormUse/FormHandle/UC_ToBeSignForm_Self.ascx" DefaultTitle="待簽表單" TitleStyle="k" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="待签表单" />
+    <Resource Name="zh-TW" Value="待簽表單" />
+    <Resource Name="en-US" Value="Form Approving" />
+    <Resource Name="vi" Value="Form chờ xác nhận" />
+    <Resource Name="id" Value="form yang sedang menunggu ditandatanganin" />
+    <Resource Name="mt-MT" Value="လျှောက်လွာပုံစံ ခွင့်ပြုချက်" />
+    <Resource Name="ja-JP" Value="返事待ちのシート" />
+  </CustomControl>
+  <CustomControl ControlType="WKF_FormUse_FormHandle_UC_ToBeSignForm_OnlyAlert" ControlPath="~/WKF/FormUse/FormHandle/UC_ToBeSignForm_OnlyAlert.ascx" DefaultTitle="一個月內被知會的表單" TitleStyle="k" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="一个月内被知会的表单" />
+    <Resource Name="zh-TW" Value="一個月內被知會的表單" />
+    <Resource Name="en-US" Value="Notified form" />
+    <Resource Name="vi" Value="Biểu đơn được thông báo trong 1 tháng gần nhất" />
+    <Resource Name="id" Value="Format pemberitahuan" />
+    <Resource Name="mt-MT" Value="一個月內被知會的表單" />
+    <Resource Name="ja-JP" Value="一が月内にお知らせしたフォーム" />
+  </CustomControl>
+  <CustomControl ControlType="DMS_UC_WaitApproveList" ControlPath="~/DMS/UC_WaitApproveList.ascx" DefaultTitle="待審核文件" TitleStyle="k" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="文件管理-待审核文件" />
+    <Resource Name="zh-TW" Value="文件管理-待審核文件" />
+    <Resource Name="en-US" Value="DMS-Doc. Approval" />
+    <Resource Name="vi" Value="DMS-Doc.chờ xác nhận" />
+    <Resource Name="id" Value="Manajemen berkas–Berkas yang sedang diperiksa" />
+    <Resource Name="mt-MT" Value="DMS-စာရွက်စာတမ်း ခွင့်ပြုချက်" />
+    <Resource Name="ja-JP" Value="書類管理-返事待ちの書類" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Calendar_UC_UnRelyMeetingList" ControlPath="~/EIP/Calendar/UC_UnRelyMeetingList.ascx" DefaultTitle="未回覆會議" TitleStyle="f" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="未回复会议" />
+    <Resource Name="zh-TW" Value="未回覆會議" />
+    <Resource Name="en-US" Value="Un-replied Meeting" />
+    <Resource Name="vi" Value="Cuộc họp chưa phản hồi" />
+    <Resource Name="id" Value="meeting tidak ada balasan" />
+    <Resource Name="mt-MT" Value="ပြန်ကြားမှုမရှိသော အစည်းအဝေး" />
+    <Resource Name="ja-JP" Value="未返答会議" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Calendar_UC_UnCompleteDevolveList" ControlPath="~/EIP/Calendar/UC_UnCompleteDevolveList.ascx" DefaultTitle="交辦事項" TitleStyle="g" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="交办事项" />
+    <Resource Name="zh-TW" Value="交辦事項" />
+    <Resource Name="en-US" Value="Assignment" />
+    <Resource Name="vi" Value="Việc bàn giao" />
+    <Resource Name="id" Value="item perpindahan tugas" />
+    <Resource Name="mt-MT" Value="လုပ်ငန်းတာဝန်ပေးအပ်ခြင်း" />
+    <Resource Name="ja-JP" Value="交代事項" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Calendar_UC_UnCompleteWorkList" ControlPath="~/EIP/Calendar/UC_UnCompleteWorkList.ascx" DefaultTitle="逾時工作" TitleStyle="h" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="超时工作" />
+    <Resource Name="zh-TW" Value="逾時工作" />
+    <Resource Name="en-US" Value="Overdue Work" />
+    <Resource Name="vi" Value="Công việc quá hạn" />
+    <Resource Name="id" Value="pekerjaan lewat waktu" />
+    <Resource Name="mt-MT" Value="သတ်မှတ်ချိန်ထက်ကျော်လွန်သော အလုပ်" />
+    <Resource Name="ja-JP" Value="タイムアウト" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Calendar_UC_AllScheduleList" ControlPath="~/EIP/Calendar/UC_AllScheduleList.ascx" DefaultTitle="今日行程" TitleStyle="i" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="今日行程" />
+    <Resource Name="zh-TW" Value="今日行程" />
+    <Resource Name="en-US" Value="Today Schedule" />
+    <Resource Name="vi" Value="Lịch trình hôm nay" />
+    <Resource Name="id" Value="jadwal hari ini" />
+    <Resource Name="mt-MT" Value="ဒီနေ့ အချိန်ဇယား" />
+    <Resource Name="ja-JP" Value="本日スケジュール" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Calendar_UC_FutureWorkList" ControlPath="~/EIP/Calendar/UC_FutureWorkList.ascx" DefaultTitle="未來行程" TitleStyle="j" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="未来行程" />
+    <Resource Name="zh-TW" Value="未來行程" />
+    <Resource Name="en-US" Value="Future Schedule" />
+    <Resource Name="vi" Value="Lịch trình tương lai" />
+    <Resource Name="id" Value="jadwal dimasa depan" />
+    <Resource Name="mt-MT" Value="အနာဂတ် အချိန်ဇယား" />
+    <Resource Name="ja-JP" Value="予定スケジュール" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Bulletin_UC_NewBulletinList" ControlPath="~/EIP/Bulletin/UC_NewBulletinList.ascx" DefaultTitle="最新公告" TitleStyle="b" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="最新公告" />
+    <Resource Name="zh-TW" Value="最新公告" />
+    <Resource Name="en-US" Value="New Notification" />
+    <Resource Name="vi" Value="Thông cáo mới nhất" />
+    <Resource Name="id" Value="berita terbaru" />
+    <Resource Name="mt-MT" Value="အသစ် သတင်းပေးချက်" />
+    <Resource Name="ja-JP" Value="お知らせ" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Forum_UC_NewTopicList" ControlPath="~/EIP/Forum/UC_NewTopicList.ascx" DefaultTitle="最新討論" TitleStyle="a" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="最新讨论" />
+    <Resource Name="zh-TW" Value="最新討論" />
+    <Resource Name="en-US" Value="The latest Discuss" />
+    <Resource Name="vi" Value="Thảo luận mới nhất" />
+    <Resource Name="id" Value="diskusi terbaru" />
+    <Resource Name="mt-MT" Value="နောက်ဆုံး ဆွေးနွေးချက်" />
+    <Resource Name="ja-JP" Value="新着情報" />
+  </CustomControl>
+  <CustomControl ControlType="DMS_UC_NewDocList" ControlPath="~/DMS/UC_NewDocList.ascx" DefaultTitle="最新發佈文件" TitleStyle="a" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="文件管理-最新发布文件" />
+    <Resource Name="zh-TW" Value="文件管理-最新發佈文件" />
+    <Resource Name="en-US" Value="DMS-The Latest Released Doc." />
+    <Resource Name="vi" Value="DMS-Tài liệu phát hành mới nhất" />
+    <Resource Name="id" Value="manajemen dokumen - dokumen terbaru" />
+    <Resource Name="mt-MT" Value="DMS-နောက်ဆုံးစာရွက်စာတမ်း" />
+    <Resource Name="ja-JP" Value="書類管理-新着情報" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Polling_UserPollingSubject" ControlPath="~/EIP/Polling/UserPollingSubject.ascx" DefaultTitle="最新投票" TitleStyle="c" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="最新投票" />
+    <Resource Name="zh-TW" Value="最新投票" />
+    <Resource Name="en-US" Value="The latest Vote" />
+    <Resource Name="vi" Value="Bỏ phiếu mới nhất" />
+    <Resource Name="id" Value="suara terbaru" />
+    <Resource Name="mt-MT" Value="နောက်ဆုံး ဆန္ဒပြုချက်" />
+    <Resource Name="ja-JP" Value="新着のネット投票" />
+  </CustomControl>
+  <CustomControl ControlType="System_Organization_Employee_UC_BirthdayList" ControlPath="~/System/Organization/Employee/UC_BirthdayList.ascx" DefaultTitle="七天內壽星" TitleStyle="e" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="七天内寿星" />
+    <Resource Name="zh-TW" Value="七天內壽星" />
+    <Resource Name="en-US" Value="Birthday in 7 days" />
+    <Resource Name="vi" Value="Những người có sinh nhật trong vòng 7 ngày" />
+    <Resource Name="id" Value="yang ulang tahun dalam 7hari" />
+    <Resource Name="mt-MT" Value="မွေးနေ့" />
+    <Resource Name="ja-JP" Value="今週誕生日リスト" />
+  </CustomControl>
+  <CustomControl ControlType="System_Organization_Employee_UC_NewEmployeeList" ControlPath="~/System/Organization/Employee/UC_NewEmployeeList.ascx" DefaultTitle="新進員工" TitleStyle="d" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="新进员工" />
+    <Resource Name="zh-TW" Value="新進員工" />
+    <Resource Name="en-US" Value="Newcomer" />
+    <Resource Name="vi" Value="Nhân viên mới" />
+    <Resource Name="id" Value="karyawan baru" />
+    <Resource Name="mt-MT" Value="လူသစ်" />
+    <Resource Name="ja-JP" Value="新入社員" />
+  </CustomControl>
+  <CustomControl ControlType="QUE_Common_UserFillOutQue" ControlPath="~/QUE/Common/UserFillOutQue.ascx" DefaultTitle="最新問卷" TitleStyle="n" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="最新问卷" />
+    <Resource Name="zh-TW" Value="最新問卷" />
+    <Resource Name="en-US" Value="The latest Survey" />
+    <Resource Name="vi" Value="Bảng hỏi mới nhất" />
+    <Resource Name="id" Value="daftar pertanyaan terbaru" />
+    <Resource Name="mt-MT" Value="နောက်ဆုံး စစ်တမ်းကောက်ယူမှု" />
+    <Resource Name="ja-JP" Value="新着アンケート" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Slogan_UC_Slogan" ControlPath="~/EIP/Slogan/UC_Slogan.ascx" DefaultTitle="公司語錄" TitleStyle="p" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="公司语录" />
+    <Resource Name="zh-TW" Value="公司語錄" />
+    <Resource Name="en-US" Value="Motto" />
+    <Resource Name="vi" Value="Phương châm" />
+    <Resource Name="id" Value="Kutipan perusahaan" />
+    <Resource Name="mt-MT" Value="ဆောင်ပုဒ်" />
+    <Resource Name="ja-JP" Value="社是" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Album_WebPart_UC_Album" ControlPath="~/EIP/Album/WebPart/UC_Album.ascx" DefaultTitle="相片簿" TitleStyle="q" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="相片簿" />
+    <Resource Name="zh-TW" Value="相片簿" />
+    <Resource Name="en-US" Value="Album" />
+    <Resource Name="vi" Value="Tập ảnh" />
+    <Resource Name="id" Value="Album" />
+    <Resource Name="mt-MT" Value="မှတ်တမ်း" />
+    <Resource Name="ja-JP" Value="アルバム" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_OnlineService_UC_LymaOnlineService" ControlPath="~/EIP/OnlineService/UC_LymaOnlineService.ascx" DefaultTitle="線上服務" TitleStyle="q" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="在线服务" />
+    <Resource Name="zh-TW" Value="線上服務" />
+    <Resource Name="en-US" Value="Online Service" />
+    <Resource Name="vi" Value="Dịch vụ trực tuyến" />
+    <Resource Name="id" Value="Layanan Online" />
+    <Resource Name="mt-MT" Value="အွန်လိုင်းဝန်ဆောင်မှု" />
+    <Resource Name="ja-JP" Value="オンラインサービス" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Forecast_UC_DailyForecast" ControlPath="~/EIP/Forecast/UC_DailyForecast.ascx" DefaultTitle="今日天氣 (資料來源：台灣中央氣象局)" TitleStyle="i" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="今日天气 (数据源：台湾中央气象局)" />
+    <Resource Name="zh-TW" Value="今日天氣 (資料來源：台灣中央氣象局)" />
+    <Resource Name="en-US" Value="Today Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="vi" Value="Today Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="id" Value="Today Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="mt-MT" Value="Today Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="ja-JP" Value="本日天気（データ：台湾気象庁）" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Forecast_UC_WeeklyForecast" ControlPath="~/EIP/Forecast/UC_WeeklyForecast.ascx" DefaultTitle="未來一周天氣 (資料來源：台灣中央氣象局)" TitleStyle="j" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="未来一周天气 (数据源：台湾中央气象局)" />
+    <Resource Name="zh-TW" Value="未來一周天氣 (資料來源：台灣中央氣象局)" />
+    <Resource Name="en-US" Value="Weekly Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="vi" Value="Weekly Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="id" Value="Weekly Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="mt-MT" Value="Weekly Weather Forecast (From：Taiwan CWB)" />
+    <Resource Name="ja-JP" Value="一週間天気（データ：台湾気象庁）" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Duty_Report_UC_AllLeaDetailByUser" ControlPath="~/EIP/Duty/Report/UC_AllLeaDetailByUser.ascx" DefaultTitle="個人可休假" TitleStyle="j" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="个人可休假" />
+    <Resource Name="zh-TW" Value="個人可休假" />
+    <Resource Name="en-US" Value="Available Leave" />
+    <Resource Name="vi" Value="Available Leave" />
+    <Resource Name="id" Value="Available Leave" />
+    <Resource Name="mt-MT" Value="Available Leave" />
+    <Resource Name="ja-JP" Value="個人休暇状況" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Bulletin_UC_BulletinByExamine" ControlPath="~/EIP/Bulletin/UC_BulletinByExamine.ascx" DefaultTitle="待審核公告" TitleStyle="k" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="待审核公告" />
+    <Resource Name="zh-TW" Value="待審核公告" />
+    <Resource Name="en-US" Value="Bulletin Approval" />
+    <Resource Name="vi" Value="Bulletin Approval" />
+    <Resource Name="id" Value="Bulletin Approval" />
+    <Resource Name="mt-MT" Value="ပြန်တမ်းစာ ခွင့်ပြုချက်" />
+    <Resource Name="ja-JP" Value="審査待ちの記事" />
+  </CustomControl>
+  <CustomControl ControlType="System_Organization_Employee_UC_ThisMonthBirthday" ControlPath="~/System/Organization/Employee/UC_ThisMonthBirthdayList.ascx" DefaultTitle="本月壽星" TitleStyle="e" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="本月寿星" />
+    <Resource Name="zh-TW" Value="本月壽星" />
+    <Resource Name="en-US" Value="Birthday in this Month" />
+    <Resource Name="vi" Value="Ngày sinh nhật trong tháng này" />
+    <Resource Name="id" Value="Ulang tahun di bulan ini" />
+    <Resource Name="mt-MT" Value="မွေးလ" />
+    <Resource Name="ja-JP" Value="本月社員誕生日リスト" />
+  </CustomControl>
+  <CustomControl ControlType="DMS_UC_PopularDocList" ControlPath="~/DMS/UC_PopularDocList.ascx" DefaultTitle="熱門文件" TitleStyle="r" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="文件管理-热门文件" />
+    <Resource Name="zh-TW" Value="文件管理-熱門文件" />
+    <Resource Name="en-US" Value="DMS-The Popular Doc." />
+    <Resource Name="vi" Value="Quản lý văn kiện-văn kiện phổ biến" />
+    <Resource Name="id" Value="DMS-document populer" />
+    <Resource Name="mt-MT" Value="DMS-ထင်ရှားသော စာရွက်စာတမ်း" />
+    <Resource Name="ja-JP" Value="書類管理-よく使える書類" />
+  </CustomControl>
+  <CustomControl ControlType="QUE_Common_UC_QusByExamine" ControlPath="~/QUE/Common/UC_QusByExamine.ascx" DefaultTitle="問卷審核" TitleStyle="r" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="待审核问卷" />
+    <Resource Name="zh-TW" Value="待審核問卷" />
+    <Resource Name="en-US" Value="Survey Approval" />
+    <Resource Name="vi" Value="Bảng khảo sát chờ xét duyệt" />
+    <Resource Name="id" Value="Persetujuan pemeriksaan" />
+    <Resource Name="mt-MT" Value="စစ်တမ်းကောက်မှု ခွင့်ပြုချက်" />
+    <Resource Name="ja-JP" Value="審査待ちのアンケート" />
+  </CustomControl>
+  <CustomControl ControlType="UC_WorldClock" ControlPath="~/Basic/Personal/WorldClock/UC_WorldClock.ascx" DefaultTitle="各地時間" TitleStyle="h" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="各地时间" />
+    <Resource Name="zh-TW" Value="各地時間" />
+    <Resource Name="en-US" Value="Time" />
+    <Resource Name="vi" Value="Thời gian" />
+    <Resource Name="id" Value="Waktu" />
+    <Resource Name="mt-MT" Value="各地時間" />
+    <Resource Name="ja-JP" Value="各地の時間" />
+  </CustomControl>
+  <CustomControl ControlType="UC_AttendanceInfo" ControlPath="~/EIP/Duty/Report/UC_AttendanceInfo.ascx" DefaultTitle="本日請假/出差人員" TitleStyle="h" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="本日请假/出差人员" />
+    <Resource Name="zh-TW" Value="本日請假/出差人員" />
+    <Resource Name="en-US" Value="Leave/Business Tarvel members in today" />
+    <Resource Name="vi" Value="Xin phép/ Nhân viên công tác trong hôm nay" />
+    <Resource Name="id" Value="Cuti/Anggota perjalanan bisnis hari ini" />
+    <Resource Name="mt-MT" Value="本日請假/出差人員" />
+    <Resource Name="ja-JP" Value="本日休み/出張社員" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Plant_UC_BorrowMeetingRoom" ControlPath="~/EIP/Plant/UC_BorrowMeetingRoom.ascx" DefaultTitle="本日會議室借用" TitleStyle="h" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="本日会议室借用" />
+    <Resource Name="zh-TW" Value="本日會議室借用" />
+    <Resource Name="en-US" Value="Meeting room today" />
+    <Resource Name="vi" Value="Mượn dùng phòng họp hôm nay" />
+    <Resource Name="id" Value="Pada hari ini ruang meeting telah dipesan" />
+    <Resource Name="mt-MT" Value="本日會議室借用" />
+    <Resource Name="ja-JP" Value="会議室の利用状況" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_Bulletin_UC_BulletinCategory" ControlPath="~/EIP/Bulletin/UC_BulletinCategory.ascx" DefaultTitle="分類公告" TitleStyle="b" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="分类公告" />
+    <Resource Name="zh-TW" Value="分類公告" />
+    <Resource Name="en-US" Value="Bulletin by Category" />
+    <Resource Name="vi" Value="phân loại thông báo" />
+    <Resource Name="id" Value="分類公告" />
+    <Resource Name="mt-MT" Value="分類公告" />
+    <Resource Name="ja-JP" Value="カテゴリー" />
+  </CustomControl>
+  <CustomControl ControlType="EIP_EventsBoard_UC_EventsBoard" ControlPath="~/EIP/EventsBoard/UC_EventsBoard.ascx" DefaultTitle="活動看板" TitleStyle="p" ZoneIndex="1">
+    <Resource Name="zh-CN" Value="活动看板" />
+    <Resource Name="zh-TW" Value="活動看板" />
+    <Resource Name="en-US" Value="Activity" />
+    <Resource Name="vi" Value="Dấu hiệu hoạt động" />
+    <Resource Name="id" Value="活動看板" />
+    <Resource Name="mt-MT" Value="活動看板" />
+    <Resource Name="ja-JP" Value="イベント看板" />
+  </CustomControl>
+</CustomControls>

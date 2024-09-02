@@ -1,0 +1,192 @@
+﻿<%@ Master Language="C#" MasterPageFile="DefaultMasterPage.master" AutoEventWireup="true" Inherits="Master_TwoColumn" CodeBehind="TwoColumn.master.cs" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <asp:ContentPlaceHolder ID="ScriptContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+    <style>
+        body {
+            overflow: hidden;
+        }     
+    </style>
+    <script type="text/javascript">
+
+
+
+        function TwoColumnRadsplitter3_onLoad() {
+            if ("<%=OnLeftClientResize%>" != "" && typeof window["<%=OnLeftClientResize%>"] == "function") {
+                Radsplitter3LeftDownResized();
+                var splitter3 = $find("<%= Radsplitter3.ClientID %>");
+                splitter3.add_resized(Radsplitter3LeftDownResized);
+            }
+
+        }
+
+        function Radsplitter3LeftDownResized() {
+            var splitter = $find("<%= Radsplitter3.ClientID %>");
+            var pane = splitter.getPaneById('<%=leftDownPane.ClientID%>');
+            var Radsplitter2 = $find("<%= Radsplitter2.ClientID %>");
+            var leftPane = Radsplitter2.getPaneById("<%=leftPane.ClientID %>");
+            leftPane.set_width(splitter * 0.15);            
+            leftPane.expand();
+
+            <%=OnLeftClientResize%>(pane.get_width(), pane.get_height());
+
+        }
+
+
+        function TwoColumnRadsplitter1_onLoad(sender) {
+            FontSizeButtonResize();
+            Radsplitter3LeftDownResized();
+            var Radsplitter2 = $find("<%= Radsplitter2.ClientID %>");
+            Radsplitter2.add_resized(ResizeRightPane);
+        }
+
+        function FontSizeButtonResize(sender, args) {
+            var splitter = $find("<%= Radsplitter1.ClientID %>");
+            var pane = splitter.getPaneById('<%=toolbarPane.ClientID%>');
+            if (pane) {
+                pane.set_height(1);  <%-- 將高度設定為1才能在變換自行大小時正確的抓到實際的高度(scrollHeight) --%>
+                splitter.set_height(1);  <%-- 如果不先將高度變動卻直接設定計算後的高度，可能會有高度相同導致不會真的Resize --%>
+                var height = pane.getContentElement().scrollHeight;
+
+                if (height != 1)  <%-- 如果實際高度(scrollHeight)為1表示toolbarPane裡面沒有放東西，將高度設為0 --%>
+                    pane.set_height(height);
+                else
+                    pane.set_height(0);
+            }
+            splitter.set_height($('#MasterContent').height());
+        }
+
+        <%--隱藏TreePane--%>
+        function HideTreePane() {
+            var Radsplitter2 = $find("<%= Radsplitter2.ClientID %>");
+            var leftPane = Radsplitter2.getPaneById("<%=leftPane.ClientID %>");
+            var rightPane = Radsplitter2.getPaneById("<%=Radpane2.ClientID %>");
+            var splitbarWrapper = $("#<%=RadSplitbar1.ClientID %>");
+            var leftPaneJ = $("#<%=leftPane.ClientID %>");
+            var leftWidth = leftPane.get_width();
+            var hfIsHideTree = $('#<%=hfIsHideTree.ClientID%>');
+            var screenWidth = $(document).width();
+            var brower = '<%=Request.Browser.Browser%>';
+
+            leftPaneJ.css('display', 'none');
+
+            leftPane.resize(-leftWidth);
+
+            if (brower == 'IE') {
+                rightPane.resize(screenWidth - rightPane.get_width() - 19);
+            }
+            else {
+                rightPane.resize(screenWidth - rightPane.get_width() - 1);
+            }
+        }
+
+        <%--顯示TreePane--%>
+        function ShowTreePane() {
+            var Radsplitter2 = $find("<%= Radsplitter2.ClientID %>");            
+            var leftPane = Radsplitter2.getPaneById("<%=leftPane.ClientID %>");
+            var leftPaneJ = $("#<%=leftPane.ClientID %>");
+            var splitbarWrapper = $("#<%=RadSplitbar1.ClientID %>");
+            var Radsplitter2Width = Radsplitter2.get_width();
+            var rightPane = Radsplitter2.getPaneById("<%=Radpane2.ClientID %>");
+            var screenWidth = $(document).width();
+            var Radsplitter2Height = Radsplitter2.get_height();
+            
+            splitbarWrapper.show();
+            leftPaneJ.show();
+            leftPane.set_height(Radsplitter2Height + 3);
+            leftPane.set_width(Radsplitter2Width * 0.15);            
+            leftPane.expand();
+            rightPane.set_width(screenWidth - leftPane.get_width() - 5);
+        }
+
+        <%--微調RightPane的寬度--%>
+        function ResizeRightPane() {
+            var Radsplitter2 = $find("<%= Radsplitter2.ClientID %>");
+            var leftPane = Radsplitter2.getPaneById("<%=leftPane.ClientID %>");
+            var splitbarWrapper = $("#<%=RadSplitbar1.ClientID %>");
+            var Radsplitter2Width = Radsplitter2.get_width();
+            var rightPane = Radsplitter2.getPaneById("<%=Radpane2.ClientID %>");
+            var screenWidth = $(document).width();
+            var leftPaneJ = $("#<%=leftPane.ClientID %>");
+            var splitter = $find("<%= Radsplitter1.ClientID %>");            
+
+            if (leftPaneJ.css('display') == 'none') {
+                HideTreePane();
+            }
+            else {
+
+                splitbarWrapper.show();
+                leftPaneJ.show();
+
+                leftPane.set_width(splitter * 0.15);                
+                leftPane.expand();
+
+                rightPane.set_width(splitter.get_width() - leftPane.get_width() - 5);
+            }
+
+            <%--ie有時在放大縮小視窗的時候會造成spliter高度不正確，加上此段程式可正常顯示--%>
+            if ('<%= Request.Browser.Browser.ToLower()%>' == 'ie' && $('#MasterContent').height() != splitter.get_height()) {
+                splitter.set_height($('#MasterContent').height() - 1);//要-1不然SpliterBar會凸出去
+            }
+        }
+
+       <%-- //可以給使用MasterPage的頁面呼叫用--%>
+        function ResizeToolBarPane() {
+            FontSizeButtonResize();
+        }
+
+    </script>
+
+    <telerik:RadSplitter ID="Radsplitter1" runat="server" Orientation="Horizontal" 
+        PanesBorderSize="0" Width="100%" Height="100%" 
+        BorderSize="0" LiveResize="True" ResizeWithParentPane="True"
+        ResizeWithBrowserWindow="True" OnClientLoad="TwoColumnRadsplitter1_onLoad">
+        <telerik:RadPane ID="toolbarPane" runat="server" Scrolling="None" Height="40" MaxHeight="80">
+            <div style="min-width: 1000px">
+                <asp:ContentPlaceHolder ID="ToolbarContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </telerik:RadPane>
+        <telerik:RadPane ID="Radpane12" runat="server" Scrolling="None" Width="100%" Height="100%">
+            <telerik:RadSplitter ID="Radsplitter2" runat="server"  LiveResize="True"  Height="1080px" Width="1920px">                
+                <telerik:RadPane ID="leftPane" runat="server" Width="300px" Height="100%" Scrolling="None" >
+                    <div class="LeftPaneBackground">
+                        <telerik:RadSplitter ID="Radsplitter3" runat="server" Width="100%" Height="100%" Orientation="Horizontal"
+                            BorderSize="0" PanesBorderSize="0" LiveResize="True" ResizeWithParentPane="True" OnClientLoad="TwoColumnRadsplitter3_onLoad"
+                            ResizeWithBrowserWindow="True" >
+                            <telerik:RadPane ID="leftDownPane" runat="server">
+                                <div id="leftTopPane" runat="server" class="LeftPaneTitle">
+                                    <asp:Label ID="lbLeftTitle" runat="server" Text=""></asp:Label>
+                                </div>                                
+                                <asp:ContentPlaceHolder ID="LeftContentPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>                                    
+                            </telerik:RadPane>
+                        </telerik:RadSplitter>
+                    </div>
+                </telerik:RadPane>
+                <telerik:RadSplitBar ID="RadSplitbar1" runat="server" CollapseMode="Forward">
+                </telerik:RadSplitBar>                
+                <telerik:RadPane ID="Radpane2" runat="server" Width="1620px" Height="1080px" Scrolling="None">
+                    <telerik:RadSplitter ID="Radsplitter4" runat="server" Width="100%" Height="100%" Orientation="Horizontal"
+                        BorderSize="0" PanesBorderSize="0" LiveResize="True" ResizeWithParentPane="True" ResizeWithBrowserWindow="True">
+                        <telerik:RadPane ID="RadPane1" runat="server"  Scrolling="Both">
+                            <div style="min-width: 800px; min-height: 400px;">
+                                <asp:ContentPlaceHolder ID="RightContentPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </telerik:RadPane>
+                    </telerik:RadSplitter>
+                </telerik:RadPane>
+            </telerik:RadSplitter>
+        </telerik:RadPane>
+    </telerik:RadSplitter>
+    <script type="text/javascript">
+        function SplitterLoaded(splitter, arg) {
+            var height = $(window).height() - 144;
+            splitter.set_height(height);
+        }
+      
+    </script>
+    <asp:HiddenField ID="hfIsHideTree" runat="server" Value="false" />
+</asp:Content>
+

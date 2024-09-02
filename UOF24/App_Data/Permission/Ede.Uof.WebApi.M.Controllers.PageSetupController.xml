@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetFirstPagePanel" AllowAll="True" />
+  <Action Name="GetPanelOrderList" AllowAll="True" />
+  <Action Name="GetPanelDisplayList" AllowAll="True" />
+  <Action Name="UpdatePanelOrder" AllowAll="True" />
+  <Action Name="EnablePanel" AllowAll="True" />
+  <Action Name="UpdateCulture" AllowAll="True" />
+  <Action Name="GetActiveMenuList" AllowAll="True" />
+  <Action Name="GetFileUrlWith3Rd" AllowAll="True" />
+</Actions>

@@ -1,0 +1,1803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CheckBox1Resource1.Text" xml:space="preserve">
+    <value>All day</value>
+  </data>
+  <data name="CheckBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter in start and end time or check mark all day</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter start time</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>No authority to setup</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter end time</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Start time must be prior to end time</value>
+  </data>
+  <data name="CustomValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvErrorScheduleResource1.ErrorMessage" xml:space="preserve">
+    <value>Data error, please check the time, the left column should be earlier than the right column.</value>
+  </data>
+  <data name="cvErrorScheduleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvErrorScheduleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvErrorWorkHourResource1.ErrorMessage" xml:space="preserve">
+    <value>Work hours should be the multiples of 0.5</value>
+  </data>
+  <data name="cvErrorWorkHourResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvErrorWorkHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDisplayTimeZoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTimeTableTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>Meal time(End)</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Earliest flexible Punch-out</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Latest flexible Punch-out</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Punch-out(Standard)</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="Label4Resource1.Text1" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Labor hour</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Earliest flexible Punch-in</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Latest flexible Punch-in</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Punch-in(Standard)</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Meal time(Start)</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayTimeZoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayTimeZoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectResource1.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lblSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeTableTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeTableTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Public Holiday</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>OrgHoliday</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Off day</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Dayoff</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Routine</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Modify holidays</value>
+  </data>
+  <data name="plTimeTableResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plTimeTableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdpEndDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpEndDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdpEndDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdpEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdpEndDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpEndTimeResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdpEndTimeResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdpEndTimeResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdpEndTimeResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdpEndTimeResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdpEndTimeResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdpEndTimeResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="rdpEndTimeResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndTimeResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdpEndTimeResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdpStartDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpStartDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdpStartDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdpStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdpStartDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpStartTimeResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdpStartTimeResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdpStartTimeResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdpStartTimeResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdpStartTimeResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdpStartTimeResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdpStartTimeResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="rdpStartTimeResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartTimeResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdpStartTimeResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Do not use special characters such as "&amp;" in Topic</value>
+  </data>
+  <data name="RegularExpressionValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter subject</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtLTBResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtLTBResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtLTBResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtLTBResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtLTBResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtLTBResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtLTBResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtLTBResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtLTBResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtLTBResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTBResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtLTBResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtLTEResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtLTEResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtLTEResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtLTEResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtLTEResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtLTEResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtLTEResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtLTEResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtLTEResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtLTEResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLTEResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtLTEResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtOTEResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtOTEResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtOTEResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtOTEResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtOTEResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtOTEResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtOTEResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtOTEResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtOTEResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtOTEResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTEResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtOTEResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtOTLResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtOTLResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtOTLResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtOTLResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtOTLResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtOTLResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtOTLResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtOTLResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtOTLResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtOTLResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTLResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtOTLResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtOTResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtOTResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtOTResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtOTResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtOTResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtOTResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtOTResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtOTResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtOTResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtOTResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtOTResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtOTResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtOTResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtOTResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtOTResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtOTResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtOTResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtOTResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtOTResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtOTResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtOTResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOTResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtOTResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWorkHourResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWorkHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtWTEResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtWTEResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtWTEResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtWTEResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtWTEResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtWTEResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtWTEResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtWTEResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtWTEResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtWTEResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTEResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtWTEResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtWTLResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtWTLResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtWTLResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtWTLResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtWTLResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtWTLResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtWTLResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtWTLResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtWTLResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtWTLResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTLResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtWTLResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtWTResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtWTResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="txtWTResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtWTResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtWTResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtWTResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="txtWTResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="txtWTResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtWTResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="txtWTResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="txtWTResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="txtWTResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="txtWTResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="txtWTResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="txtWTResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtWTResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="txtWTResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="txtWTResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="txtWTResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="txtWTResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="txtWTResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWTResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="txtWTResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="WebDateChooser1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooser2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chartAreaBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartAreaPieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartCapBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartCapPieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartClassBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartClassPieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartGradeBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartGradePieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartIndustryBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartIndustryPieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>無設定</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>1000萬以下</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>1000~5000萬</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>5000萬~1億</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>1~5億</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>5~10億</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>10~100億</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>100億以上</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAreaResource1.Text" xml:space="preserve">
+    <value>地區別</value>
+  </data>
+  <data name="lblAreaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapResource1.Text" xml:space="preserve">
+    <value>資本額</value>
+  </data>
+  <data name="lblCapResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClassResource1.Text" xml:space="preserve">
+    <value>類別</value>
+  </data>
+  <data name="lblClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustCountResource1.Text" xml:space="preserve">
+    <value>客戶數</value>
+  </data>
+  <data name="lblCustCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGradeResource1.Text" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="lblGradeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIndustryResource1.Text" xml:space="preserve">
+    <value>行業別</value>
+  </data>
+  <data name="lblIndustryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadMultiPage1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>地區別分析</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>等級分析</value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>類別分析</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="RadTabResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>行業別分析</value>
+  </data>
+  <data name="RadTabResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Value" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="RadTabResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.Text" xml:space="preserve">
+    <value>資本額分析</value>
+  </data>
+  <data name="RadTabResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.Value" xml:space="preserve">
+    <value>Capital</value>
+  </data>
+  <data name="rpvAreaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvCapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvGradeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvIndustryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

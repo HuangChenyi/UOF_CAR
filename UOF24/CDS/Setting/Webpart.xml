@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+使用說明:
+<CustomControls>
+  <CustomControl ControlType="EIP_Duty_Punch_UC_Punch" ControlPath="~/EIP/Duty/Punch/UC_Punch.ascx" DefaultTitle="線上刷卡" TitleStyle="h" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="線上刷卡" />
+    <Resource Name="zh-TW" Value="線上刷卡" />
+    <Resource Name="en-US" Value="Online Punch" />
+    <Resource Name="vi" Value="Quẹt thẻ trực tuyến" />
+    <Resource Name="id" Value="absensi swipe kartu" />
+  </CustomControl>
+</CustomControls>
+-->
+
+<CustomControls>
+    <CustomControl ControlType="CDS_WebPart_UC_WebPart" ControlPath="~/CDS/WebPart/UC_WebPart.ascx" DefaultTitle="範例WEBPART" TitleStyle="i" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="範例WEBPART" />
+    <Resource Name="zh-TW" Value="範例WEBPART" />
+    <Resource Name="en-US" Value="範例WEBPART" />
+    <Resource Name="vi" Value="範例WEBPART" />
+    <Resource Name="id" Value="範例WEBPART" />
+  </CustomControl>
+</CustomControls>

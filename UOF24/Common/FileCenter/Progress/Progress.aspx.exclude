@@ -1,0 +1,186 @@
+﻿
+<%@ Page language="c#" AutoEventWireup="false" Inherits="Brettle.Web.NeatUpload.ProgressPage" Culture="auto" meta:resourcekey="PageResource1" UICulture="auto" %>
+<%@ Register TagPrefix="Upload" Namespace="Brettle.Web.NeatUpload" Assembly="Brettle.Web.NeatUpload" %>
+<%--
+NeatUpload - an HttpModule and User Controls for uploading large files
+Copyright (C) 2005  Dean Brettle
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+--%>
+<html>
+	<head>
+		<title>Upload Progress</title>
+    <script runat="server">
+        protected override void InitializeCulture()
+        {
+            base.InitializeCulture();
+            System.Globalization.CultureInfo myCIclone = System.Globalization.CultureInfo.CreateSpecificCulture(Ede.Uof.EIP.SystemInfo.Current.Culture);
+            myCIclone.DateTimeFormat.ShortTimePattern = "HH:mm";
+            myCIclone.DateTimeFormat.LongTimePattern = "HH:mm";
+
+
+            if (Ede.Uof.EIP.SystemInfo.Current.Culture == "zh-TW" || Ede.Uof.EIP.SystemInfo.Current.Culture == "zh-CN")
+            {
+                
+                string[] weekname = {"日", "一", "二", "三", "四", "五", "六",};
+                myCIclone.DateTimeFormat.AbbreviatedDayNames = weekname;
+                myCIclone.DateTimeFormat.DayNames = weekname;
+            }
+            else
+            {
+                System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture(Ede.Uof.EIP.SystemInfo.Current.Culture);
+            }
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = myCIclone;
+            System.Threading.Thread.CurrentThread.CurrentUICulture = myCIclone;
+        }
+    </script>
+		<style type="text/css">
+<!--
+        .ProgressDisplay {
+	        font-weight: bold;
+        }
+
+        .ProgressDisplay .StatusMessage {
+	        margin: 1px;
+	        height: 1.5em;
+        }
+
+        .ProgressDisplay .ProgressBar {
+	        background-color: #80A2D0;
+        }
+
+        .ProgressDisplay .ImageButton {
+	        border-width: 0px; 
+	        margin: 0px; 
+	        padding: 0px;
+	        background-color: inherit;
+        }
+
+        .ProgressDisplay .ImageButton img {
+	        border-width: 2px; 
+	        border-style: outset;
+	        border-color: white;
+	        margin: 0px; 
+	        padding: 0px;
+	        height: 1.5em;
+	        vertical-align: top;
+        }
+		body, form, table, tr, td {
+			margin: 0px;
+			border: 0px none;
+			padding: 0px;
+		}
+
+		#progressDisplayCenterer {
+			vertical-align: middle;
+			width: 100%;
+			height: 100%;
+		}
+		
+		#progressDisplay {
+			vertical-align: middle;
+			width: 100%;
+		}
+		
+		#barTd {
+			width: 100%;
+		}
+		
+		#statusDiv {
+			border-width: 1px;
+			border-style: solid;
+			padding: 0px;
+			position: relative;
+			width: 100%;
+			text-align: center;
+			z-index: 1; 
+		}
+		
+		#barDiv,#barDetailsDiv {
+			border: 0px none ; 
+			margin: 0px; 
+			padding: 0px; 
+			position: absolute; 
+			top: 0pt; 
+			left: 0pt; 
+			z-index: -1; 
+			height: 100%;
+			width: 75%;
+		}
+		
+		td
+		{
+		font-size:9pt;
+		}
+-->
+		</style>
+	</head>
+	<body>
+		<form id="dummyForm" runat="server">
+		<table id="progressDisplayCenterer">
+		<tr>
+		<td>
+		<table id="progressDisplay" class="ProgressDisplay">
+		<tr>
+		<td nowrap>
+			<span id="label" runat="server" class="Label">
+            <asp:Label ID="lbProgressText" runat="server" Text="上傳狀態:" meta:resourcekey="lbProgressTextResource1"></asp:Label></span>
+		</td>
+		<td id="barTd" >
+			<div id="statusDiv" runat="server" class="StatusMessage">&#160;
+				<Upload:DetailsSpan id="normalInProgress" runat="server" WhenStatus="NormalInProgress" style="font-weight: normal; white-space: nowrap;" meta:resourcekey="normalInProgressResource1">
+					<%# FormatCount(BytesRead) %>/<%# FormatCount(BytesTotal) %> <%# CountUnits %>
+					(<%# String.Format("{0:0%}", FractionComplete) %>) <asp:Label ID="lbSpeed" runat="server" Text="速度" meta:resourcekey="lbSpeedResource1"></asp:Label>: <%# FormatRate(BytesPerSec) %>
+					- <asp:Label ID="lbRemain" runat="server" Text="剩餘" meta:resourcekey="lbRemainResource1"></asp:Label>: <%# FormatTimeSpan(TimeRemaining) %> 
+				</Upload:DetailsSpan>
+				<Upload:DetailsSpan id="chunkedInProgress" runat="server" WhenStatus="ChunkedInProgress" style="font-weight: normal; white-space: nowrap;" meta:resourcekey="chunkedInProgressResource1">
+					<%# FormatCount(BytesRead) %> <%# CountUnits %>
+					at <%# FormatRate(BytesPerSec) %>
+					- <%# FormatTimeSpan(TimeElapsed) %> elapsed
+				</Upload:DetailsSpan>
+				<Upload:DetailsSpan id="completed" runat="server" WhenStatus="Completed" meta:resourcekey="completedResource1">
+					<asp:Label ID="lbCompleted" runat="server" Text="已完成" meta:resourcekey="lbCompletedResource1"></asp:Label> <asp:Label ID="lbSize" runat="server" Text="大小" meta:resourcekey="lbSizeResource1"></asp:Label> : <%# FormatCount(BytesRead) %> <%# CountUnits %>
+					<asp:Label ID="lbSpeed2" runat="server" Text="速度" meta:resourcekey="lbSpeed2Resource1"></asp:Label>: <%# FormatRate(BytesPerSec) %>
+					<asp:Label ID="lbTook" runat="server" Text="花費" meta:resourcekey="lbTookResource1"></asp:Label>: <%# FormatTimeSpan(TimeElapsed) %>
+				</Upload:DetailsSpan>
+				<Upload:DetailsSpan id="cancelled" runat="server" WhenStatus="Cancelled" meta:resourcekey="cancelledResource1">
+				    <asp:Image ID="Image3" runat="server" ImageUrl="~\App_Themes\DefaultTheme\images\icon\icon_m46.gif" />                    
+					<asp:Label ID="lbCancelled" runat="server" Text="已取消" meta:resourcekey="lbCancelledResource1"></asp:Label>
+				</Upload:DetailsSpan>
+				<Upload:DetailsSpan id="rejected" runat="server" WhenStatus="Rejected" meta:resourcekey="rejectedResource1">				    
+                    <asp:Label ID="lbRejected" runat="server"  Text="已被拒絕" meta:resourcekey="lbRejectedResource1"></asp:Label>: <%# Rejection != null ? Rejection.Message : "" %>
+                    <br /><asp:Label ID="lbRejectedDesc" runat="server" Text="檔案大小已超出容量限制" meta:resourcekey="lbRejectedDescResource1"></asp:Label> 
+				</Upload:DetailsSpan>
+				<Upload:DetailsSpan id="error" runat="server" WhenStatus="Failed" meta:resourcekey="errorResource1">
+				    <asp:Label ID="lbFailed" runat="server"  Text="發生錯誤" meta:resourcekey="lbFailedResource1"></asp:Label>: <%# Failure != null ? Failure.Message : "" %>
+				</Upload:DetailsSpan>
+				<Upload:DetailsDiv id="barDetailsDiv" runat="server" UseHtml4="True"
+					 Width='<%# Unit.Percentage(Math.Floor(100*FractionComplete)) %>' class="ProgressBar" meta:resourcekey="barDetailsDivResource1"></Upload:DetailsDiv>	
+			</div>
+		</td>
+		<td>
+			<asp:HyperLink id="cancel" runat="server" Visible='<%# CancelVisible %>' NavigateUrl='<%# CancelUrl %>' title="Cancel Upload" class="ImageButton" meta:resourcekey="cancelResource1" ><img id="cancelImage" runat="server" src="cancel.gif" alt="Cancel Upload" /></asp:HyperLink>
+			<asp:HyperLink id="refresh" runat="server" Visible='<%# StartRefreshVisible %>' NavigateUrl='<%# StartRefreshUrl %>' title="Refresh" class="ImageButton" meta:resourcekey="refreshResource1" ><img id="refreshImage" runat="server" src="refresh.png" alt="Refresh" /></asp:HyperLink>
+			<asp:HyperLink id="stopRefresh" runat="server" Visible='<%# StopRefreshVisible %>' NavigateUrl='<%# StopRefreshUrl %>' title="Stop Refreshing" class="ImageButton" meta:resourcekey="stopRefreshResource1"><img id="stopRefreshImage" runat="server" src="stop_refresh.png" alt="Stop Refreshing" /></asp:HyperLink>
+		</td>
+		</tr>
+		</table>
+		</td>
+		</tr>
+		</table>
+		</form>
+	</body>
+</html>

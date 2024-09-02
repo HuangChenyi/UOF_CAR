@@ -1,0 +1,1206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rbcustomResource1.Text" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrmsg2Resource1.Text" xml:space="preserve">
+    <value>搜索结果过多,请缩小条件范围</value>
+  </data>
+  <data name="chkSearchAuthorResource1.Text" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton6Resource1.Text" xml:space="preserve">
+    <value>简繁对译搜索</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLocalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="lbDisplayNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>简繁对译搜索</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlaceHolder2titleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBriefcaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempInactResource1.Text" xml:space="preserve">
+    <value>已下架</value>
+  </data>
+  <data name="TextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Notset</value>
+  </data>
+  <data name="lblApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="RadMenuItemResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPRIVATEMSGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDMSClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb1monthResource1.Text" xml:space="preserve">
+    <value>过去1个月</value>
+  </data>
+  <data name="hlLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlaceHolder2titleResource1.Text" xml:space="preserve">
+    <value>同音词推荐</value>
+  </data>
+  <data name="Panel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>已取出</value>
+  </data>
+  <data name="rb1yearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkBulletinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>allVersion</value>
+  </data>
+  <data name="lblDMSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdatingResource1.Text" xml:space="preserve">
+    <value>改版中</value>
+  </data>
+  <data name="lblKeyWordResource1.Text" xml:space="preserve">
+    <value>请键入关键字...</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="lblbottomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridDetailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWKFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label29Resource1.Text" xml:space="preserve">
+    <value>表单名称：</value>
+  </data>
+  <data name="RadioButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridDetailResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>文件大小：</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>同音字搜索</value>
+  </data>
+  <data name="lblReActResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb1weekResource1.Text" xml:space="preserve">
+    <value>过去1周</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>过去1小时</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb1dayResource1.Text" xml:space="preserve">
+    <value>过去1天</value>
+  </data>
+  <data name="lblErrmsgResource1.Text1" xml:space="preserve">
+    <value>关键字请勿输入符号或命令</value>
+  </data>
+  <data name="RadMenuItemResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkBulletinResource1.Text" xml:space="preserve">
+    <value>公告</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>newVersion</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbnotsetResource1.Text" xml:space="preserve">
+    <value>不限时间</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>电子签核</value>
+  </data>
+  <data name="lblSerialResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPRIVATEMSGResource1.Text" xml:space="preserve">
+    <value>私人消息</value>
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>不限时间</value>
+  </data>
+  <data name="chkSearchFileResource1.Text" xml:space="preserve">
+    <value>文档内容</value>
+  </data>
+  <data name="lblResultMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton5Resource1.Text" xml:space="preserve">
+    <value>同义词搜索</value>
+  </data>
+  <data name="chkDMSResource1.Text" xml:space="preserve">
+    <value>文档管理</value>
+  </data>
+  <data name="RadMenuItemResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBulletinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb1dayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOldVerResource1.Text" xml:space="preserve">
+    <value>旧版本</value>
+  </data>
+  <data name="lblSourceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempInactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="lblVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="lblWKFResource1.Text" xml:space="preserve">
+    <value>电子签核</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="RadMenuItemResource1.Value" xml:space="preserve">
+    <value>AdvanceOption</value>
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="chkForumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSearchFilenameResource1.Text" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="WebDateChooserEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>收件者：</value>
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocDenyResource1.Text" xml:space="preserve">
+    <value>发布拒绝</value>
+  </data>
+  <data name="RadMenuItemResource2.Text" xml:space="preserve">
+    <value>Advance &lt;span style='font-size:XX-Small;'&gt;▼&lt;/span&gt;</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlLinkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>Synonym</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>Homophone</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="chkDocNumResource1.Text" xml:space="preserve">
+    <value>文档编号</value>
+  </data>
+  <data name="lblResultMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="lblKeyWordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>过去1年</value>
+  </data>
+  <data name="lblErrmsgResource1.Text" xml:space="preserve">
+    <value>关键字请勿输入符号或命令</value>
+  </data>
+  <data name="lblPrivateMSGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb1monthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSearchAllClassResource1.Text" xml:space="preserve">
+    <value>所有的类别</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rbnotsetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>英文词性代换</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>year</value>
+  </data>
+  <data name="lblbottomResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label129Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidResource1.Text" xml:space="preserve">
+    <value>已作废</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>作者：</value>
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value>Querystr2</value>
+  </data>
+  <data name="chkKeyWordResource1.Text" xml:space="preserve">
+    <value>关键字</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="RadDropDownTree1Resource1.Localization.Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>所有公布的版本</value>
+  </data>
+  <data name="lblAllclassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>已失效</value>
+  </data>
+  <data name="chkSearchAuthorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>搜索模式</value>
+  </data>
+  <data name="chkSearchAllClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>张贴者：</value>
+  </data>
+  <data name="chkCustodyUserResource1.Text" xml:space="preserve">
+    <value>保管者</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>同义词搜索</value>
+  </data>
+  <data name="chkCustomPropertyResource1.Text" xml:space="preserve">
+    <value>其他自定义属性</value>
+  </data>
+  <data name="lblForumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDropDownTree1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadMenuItemResource1.Text" xml:space="preserve">
+    <value>搜索模式 &lt;span style='font-size:XX-Small;'&gt;▼&lt;/span&gt;</value>
+  </data>
+  <data name="KeywordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label129Resource1.Text" xml:space="preserve">
+    <value>模块:</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>发布者：</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>已公布</value>
+  </data>
+  <data name="RadMenu2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadMenuItemResource2.Value" xml:space="preserve">
+    <value>DMSAdvance</value>
+  </data>
+  <data name="chkSearchMemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="lblViodingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrmsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReActResource1.Text" xml:space="preserve">
+    <value>已上架</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="lblUpdatingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIndexMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViodingResource1.Text" xml:space="preserve">
+    <value>(作废审核中)</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInactiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>Fuzzy</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>站内搜索</value>
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>DMSBlock</value>
+  </data>
+  <data name="chkForumResource1.Text" xml:space="preserve">
+    <value>讨论</value>
+  </data>
+  <data name="RadioButton4Resource1.Text" xml:space="preserve">
+    <value>同音字搜索</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="chkKeyWordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>公布的最新版本</value>
+  </data>
+  <data name="chkCustomPropertyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDMSResource1.Text" xml:space="preserve">
+    <value>文档管理</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>FinalVersion</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>24hour</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>过去1周</value>
+  </data>
+  <data name="chkBRIEFCASEResource1.Text" xml:space="preserve">
+    <value>公文包</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="lblPlaceHolder3titleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>过去24小时</value>
+  </data>
+  <data name="RadMenuItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>路径：</value>
+  </data>
+  <data name="Label29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBriefcaseResource1.Text" xml:space="preserve">
+    <value>公文包</value>
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>发件人：</value>
+  </data>
+  <data name="lblLocalResource1.Text" xml:space="preserve">
+    <value>本地</value>
+  </data>
+  <data name="lblCheckinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDateSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllclassResource1.Text" xml:space="preserve">
+    <value>全部模块</value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>张贴部门：</value>
+  </data>
+  <data name="classSearchTreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDMSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadioButtonList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>month</value>
+  </data>
+  <data name="lblDMSRootResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>Querystr</value>
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>TreeSearch</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>文档最后版本</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>审核中</value>
+  </data>
+  <data name="rb1yearResource1.Text" xml:space="preserve">
+    <value>过去1年</value>
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value>AdvanceSearch</value>
+  </data>
+  <data name="lblDMSRootResource1.Text" xml:space="preserve">
+    <value>文档库</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeSpendResource1.Text" xml:space="preserve">
+    <value>共耗时{0}秒</value>
+  </data>
+  <data name="chkDocNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCustodyUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSearchMemResource1.Text" xml:space="preserve">
+    <value>摘要</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="lblAllSitesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>文档类别</value>
+  </data>
+  <data name="lblBulletinResource1.Text" xml:space="preserve">
+    <value>公告</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbcustomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSearchFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>hour</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>日期范围</value>
+  </data>
+  <data name="lblErrmsg2Resource1ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>完全符合</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeSpendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>检索范围:</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>week</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>文件源：</value>
+  </data>
+  <data name="chkWKFResource1.Text" xml:space="preserve">
+    <value>电子签核</value>
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSearchFilenameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="RadMenuItemResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton2Resource1.Text" xml:space="preserve">
+    <value>模糊搜索</value>
+  </data>
+  <data name="lblDMSClassResource1.Text" xml:space="preserve">
+    <value>文档类别</value>
+  </data>
+  <data name="RadToolBarButtonResource12.Value" xml:space="preserve">
+    <value>SearchResult</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>热门关键字</value>
+  </data>
+  <data name="RadToolBarButtonResource12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value>SearchAdvance</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForumResource1.Text" xml:space="preserve">
+    <value>讨论</value>
+  </data>
+  <data name="RadioButton6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>过去1个月</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>ChineseConvert</value>
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>申请者：</value>
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllSitesResource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="WebDateChooserEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>状态：</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadDropDownTree1Resource1.Localization.CheckAll" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="chkBRIEFCASEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="RadMenu1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>specdate</value>
+  </data>
+  <data name="lblPlaceHolder3titleResource1.Text" xml:space="preserve">
+    <value>同义词推荐</value>
+  </data>
+  <data name="lblCheckinResource1.Text" xml:space="preserve">
+    <value>已存回</value>
+  </data>
+  <data name="lblIndexMsgResource1.Text" xml:space="preserve">
+    <value>索引库创建时间</value>
+  </data>
+  <data name="RadMenuItemResource3.Text" xml:space="preserve">
+    <value>条件选项 &lt;span style='font-size:XX-Small;'&gt;▼&lt;/span&gt;</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>文档编号：</value>
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSiteNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton3Resource1.Text" xml:space="preserve">
+    <value>英文词性代换</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>DDL</value>
+  </data>
+  <data name="gridDetailResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSourceResource1.Text" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="KeywordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrivateMSGResource1.Text" xml:space="preserve">
+    <value>私人消息</value>
+  </data>
+  <data name="RadioButton1Resource1.Text" xml:space="preserve">
+    <value>完全符合</value>
+  </data>
+  <data name="RadioButton5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDropDownTree1Resource1.DefaultMessage" xml:space="preserve">
+    <value>搜索结果分类</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rb1weekResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrmsgResource1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="RadToolBarButtonResource11.Value" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="linkDMSPathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>时间范围：</value>
+  </data>
+  <data name="rdoSearchVerTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOldVerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooserBeginResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>模糊搜索</value>
+  </data>
+  <data name="Panel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDraftResource1.Text" xml:space="preserve">
+    <value>草稿</value>
+  </data>
+  <data name="lblDraftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNullMsgResource1.Text" xml:space="preserve">
+    <value>請選擇要查詢的模組</value>
+  </data>
+  <data name="lblIsLendDocTipResource1.Text" xml:space="preserve">
+    <value>可调阅</value>
+  </data>
+</root>

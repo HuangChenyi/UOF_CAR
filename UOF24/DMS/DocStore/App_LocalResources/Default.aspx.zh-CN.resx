@@ -1,0 +1,1173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RadTabResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoDelFolderAuthResource1.Text" xml:space="preserve">
+    <value>没有目录管理者权限，不可删除目录</value>
+  </data>
+  <data name="RadToolBarButtonResource15.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>allPublishVersion</value>
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblKeywordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>请键入关键字</value>
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>AddNewFolder</value>
+  </data>
+  <data name="lblAddNewFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="RadToolBarButtonResource17.Text" xml:space="preserve">
+    <value>收藏目录</value>
+  </data>
+  <data name="lblAddNewDocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLendFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="vwdSplitter1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>●内容、文件名、作者、摘要、文档编号、保管者、其他自定义属性:</value>
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="RadTabResource5.Text" xml:space="preserve">
+    <value>常用文档</value>
+  </data>
+  <data name="lblAddFavoritesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDMSClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="UDocViewerDLRadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>UDocViewerDL</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommonUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value>sDelFolder</value>
+  </data>
+  <data name="dateEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddToUseListResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>sDirInfo</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>●公布日:</value>
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>DelFolder</value>
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="lblAuthorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderCopyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="barMainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocInvalidResource1.Text" xml:space="preserve">
+    <value>此文档已下架、失效或作废，无法观看或下载</value>
+  </data>
+  <data name="rblDocSearchStatusResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.Text" xml:space="preserve">
+    <value>目录链接</value>
+  </data>
+  <data name="RadToolBarButtonResource11.Text" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="dateEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sUDocViewerDLRadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>sUDocViewerDL</value>
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDirInfoResource1.Text" xml:space="preserve">
+    <value>目录信息</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLendResource1.Text" xml:space="preserve">
+    <value>调阅</value>
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="RadPageView3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllClassResource1.Text" xml:space="preserve">
+    <value>所有类别</value>
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sUDocViewerDLRadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="treeAuthorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>所有公布的版本</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClassPathErrResource1.Text" xml:space="preserve">
+    <value>类别阶层错误</value>
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocSearchStatusResource1.Text" xml:space="preserve">
+    <value>●文档版本</value>
+  </data>
+  <data name="RadTabResource5.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value>删除目录</value>
+  </data>
+  <data name="RadTabResource4.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RadTabResource5.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>文档库</value>
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.Value" xml:space="preserve">
+    <value>CommonList</value>
+  </data>
+  <data name="lblNoAuthorResource1.Text" xml:space="preserve">
+    <value>无作者</value>
+  </data>
+  <data name="lblFolderSecurityResource1.Text" xml:space="preserve">
+    <value>目录安全性</value>
+  </data>
+  <data name="lblChoiceBtntxtResource1.Text" xml:space="preserve">
+    <value>选定部门</value>
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UnPublishResource1.Text" xml:space="preserve">
+    <value>未公布版本</value>
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>DirSubscribe</value>
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddNewContentDoc_RadToolBarButtonResource13.Text" xml:space="preserve">
+    <value>新建本文</value>
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="lblPleaseInputKeywordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearchResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApproveFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource16.Value" xml:space="preserve">
+    <value>sCopyFolderLink</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value>目录安全性</value>
+  </data>
+  <data name="rblDocSearchStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblAllClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChoiceBtntxtResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteErrorResource2.Text" xml:space="preserve">
+    <value>发生错误,无法删除!</value>
+  </data>
+  <data name="PageResource2.Title" xml:space="preserve">
+    <value>文档库</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopyFolderLinkResource1.Text" xml:space="preserve">
+    <value>复制目录链接</value>
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelFolderResource1.Text" xml:space="preserve">
+    <value>删除目录</value>
+  </data>
+  <data name="lblDocNotFindResource1.Text" xml:space="preserve">
+    <value>文档还未上传或已被销毁</value>
+  </data>
+  <data name="RadToolBarButtonResource11.ToolTip" xml:space="preserve">
+    <value>目录重命名</value>
+  </data>
+  <data name="RadToolBarButtonResource14.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocSearchStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource17.Value" xml:space="preserve">
+    <value>AddFavorites</value>
+  </data>
+  <data name="RadToolBarButtonResource16.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UDocViewerDLRadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchResource1.Text" xml:space="preserve">
+    <value>全文检索</value>
+  </data>
+  <data name="validPublishUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmDeleteResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value>订阅</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="lblConfirmDeleteResource2.Text" xml:space="preserve">
+    <value>确实要将此目录删除?</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="RadToolBarButtonResource17.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>例：( pdf )</value>
+  </data>
+  <data name="lblAddNewDocResource1.Text" xml:space="preserve">
+    <value>新建文件</value>
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value>sDirSubscribe</value>
+  </data>
+  <data name="lblAddToUseListResource2.Text" xml:space="preserve">
+    <value>确实要将此文档添加常用列表?</value>
+  </data>
+  <data name="sUDocViewerDLRadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNewContentDocResource1.Text" xml:space="preserve">
+    <value>新建本文</value>
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="lblNoFolderAuthorityResource1.Text" xml:space="preserve">
+    <value>无此目录观看权限</value>
+  </data>
+  <data name="txtSearchResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="classSearchTreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewPublishResource1.Value" xml:space="preserve">
+    <value>NewPublish</value>
+  </data>
+  <data name="dateStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="RadToolBarButtonResource16.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="dateStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value>新建目录</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value>目录信息</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UDocViewerDLRadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>UDoc Viewer下载</value>
+  </data>
+  <data name="RadToolBarButtonResource18.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>●扩展名:</value>
+  </data>
+  <data name="lblChoiceBtntxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="lblNoLendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderSecurityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>FinalVersion</value>
+  </data>
+  <data name="RadToolBarButtonResource18.Value" xml:space="preserve">
+    <value>sAddFavorites</value>
+  </data>
+  <data name="dateStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="lblApproveFlowResource1.Text" xml:space="preserve">
+    <value>审核流程</value>
+  </data>
+  <data name="lblAddFavoritesResource1.Text" xml:space="preserve">
+    <value>收藏目录</value>
+  </data>
+  <data name="dateStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadMultiPage1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNewContentDocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeywordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value>订阅目录</value>
+  </data>
+  <data name="lblJSONFormatErrResource1.Text" xml:space="preserve">
+    <value>类别路径格式错误</value>
+  </data>
+  <data name="RadPageView4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPageView1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabStrip1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="lblDMSClassResource1.Text" xml:space="preserve">
+    <value>文档类别</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource1.Text" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="lblDeleteErrorResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.ToolTip" xml:space="preserve">
+    <value>复制目录链接</value>
+  </data>
+  <data name="lblFolderPrivilegeResource1.Text" xml:space="preserve">
+    <value>权限设置</value>
+  </data>
+  <data name="lblConfirmAddResource1.Text" xml:space="preserve">
+    <value>确实要添加收藏吗?</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panContentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.ToolTip" xml:space="preserve">
+    <value>新建文件</value>
+  </data>
+  <data name="dateStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="dateStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>folder</value>
+  </data>
+  <data name="lblKeywordResource1.Text" xml:space="preserve">
+    <value>关键字</value>
+  </data>
+  <data name="lblDMSRootResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbFindResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPleaseInputKeywordResource1.Text" xml:space="preserve">
+    <value>请键入搜索关键字</value>
+  </data>
+  <data name="lblCommonUseResource1.Text" xml:space="preserve">
+    <value>常用文档</value>
+  </data>
+  <data name="RadToolBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>目录安全</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderCopyResource1.Text" xml:space="preserve">
+    <value>目录链接复制完成</value>
+  </data>
+  <data name="RadTabResource5.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuccessAddResource1.Text" xml:space="preserve">
+    <value>已成功添加我的收藏。</value>
+  </data>
+  <data name="treeClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddNewContentDoc_RadToolBarButtonResource13.ToolTip" xml:space="preserve">
+    <value>新建本文</value>
+  </data>
+  <data name="lblNoLendResource1.Text" xml:space="preserve">
+    <value>此文档当前不允许调阅</value>
+  </data>
+  <data name="dateEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="dateStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="lblSuccessAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>目录信息</value>
+  </data>
+  <data name="validPublishUnitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="lblDelFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderResource1.Text" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="lblDirSubscribeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChoiceBtntxtResource2.Text" xml:space="preserve">
+    <value>选定部门</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormErrorMsgResource1.Text" xml:space="preserve">
+    <value>请先送出表单，再点按文档链接。</value>
+  </data>
+  <data name="dateEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="lblSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="validPublishUnitResource1.ErrorMessage" xml:space="preserve">
+    <value>只能选择一个部门</value>
+  </data>
+  <data name="lblJSONFormatErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>FolderSecurity</value>
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="RadToolBarButtonResource13.Value" xml:space="preserve">
+    <value>AddNewDoc</value>
+  </data>
+  <data name="lblNoAuthorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>文档最后版本</value>
+  </data>
+  <data name="lblClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value>sAddNewFolder</value>
+  </data>
+  <data name="dateEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="lblDMSRootResource1.Text" xml:space="preserve">
+    <value>文档库</value>
+  </data>
+  <data name="lblFolderPrivilegeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExtResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.Value" xml:space="preserve">
+    <value>sAddNewContentDoc</value>
+  </data>
+  <data name="txtKeywordResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfrimVaildResource1.Text" xml:space="preserve">
+    <value>此目录尚有{0}个子目录，{1}份文档，当目录下没有任何文档时，才允许删除目录</value>
+  </data>
+  <data name="RadTabResource4.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderRenameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopyFolderLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDirSubscribeResource1.Text" xml:space="preserve">
+    <value>订阅</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value>新建子目录</value>
+  </data>
+  <data name="dateEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeywordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLendFlowResource1.Text" xml:space="preserve">
+    <value>调阅流程</value>
+  </data>
+  <data name="lblNoClassErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddNewContentDoc_RadToolBarButtonResource13.Value" xml:space="preserve">
+    <value>AddNewContentDoc</value>
+  </data>
+  <data name="lblConfirmDelete2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbFindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoFolderAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.Value" xml:space="preserve">
+    <value>CopyFolderLink</value>
+  </data>
+  <data name="RadToolBarButtonResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>全文检索</value>
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClassResource1.Text" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="txtSearchResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NewPublishResource1.Text" xml:space="preserve">
+    <value>最新公布版本</value>
+  </data>
+  <data name="lblClassPathErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="RadToolBarButtonResource17.ToolTip" xml:space="preserve">
+    <value>收藏目录</value>
+  </data>
+  <data name="RadToolBarButtonResource12.Value" xml:space="preserve">
+    <value>sFolderRename</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>●类别:</value>
+  </data>
+  <data name="lblAddNewFolderResource1.Text" xml:space="preserve">
+    <value>新建子目录</value>
+  </data>
+  <data name="RadToolBarButtonResource12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value>sFolderSecurity</value>
+  </data>
+  <data name="sUDocViewerDLRadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>从</value>
+  </data>
+  <data name="dateStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddNewContentDoc_RadToolBarButtonResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPageView5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="lblConfirmDelete2Resource1.Text" xml:space="preserve">
+    <value>此目录有{0}个子目录，{1}份文档</value>
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="RadTabResource5.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="txtKeywordResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocNotFindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rbFindResource1.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="lblNoClassErrResource1.Text" xml:space="preserve">
+    <value>无此类别</value>
+  </data>
+  <data name="RadAjaxManager1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>●发行单位:</value>
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="dateEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value>删除目录</value>
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UDocViewerDLRadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value>被设置为UDoc Viewer的使用人员，需完成下载及安装操作始可在线观看文档</value>
+  </data>
+  <data name="RadPageView2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>DirInfo</value>
+  </data>
+  <data name="dateEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="vwdSplitter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderIsDeleteResource1.Text" xml:space="preserve">
+    <value>目录已被删除</value>
+  </data>
+  <data name="lblNoDLResource1.Text" xml:space="preserve">
+    <value>此文档当前不可下载</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource18.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Value" xml:space="preserve">
+    <value>FolderRename</value>
+  </data>
+  <data name="RadTabResource4.Value" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblDirInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderRenameResource1.Text" xml:space="preserve">
+    <value>目录重命名</value>
+  </data>
+  <data name="lblNoDLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.Text" xml:space="preserve">
+    <value>新建文件</value>
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dateEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+</root>

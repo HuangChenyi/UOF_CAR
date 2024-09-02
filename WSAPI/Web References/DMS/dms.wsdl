@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AddNewDoc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="folderId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="docName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isPublish" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileGroupId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddNewDocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddNewDocResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFolderTree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="folderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFolderTreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFolderTreeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFolderID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="folderPathXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFolderIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFolderIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFolderLimit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="folderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFolderLimitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFolderLimitResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetDocNameDuplicate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="folderId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="docName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocNameDuplicateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDocNameDuplicateResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddNewDocSoapIn">
+    <wsdl:part name="parameters" element="tns:AddNewDoc" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDocSoapOut">
+    <wsdl:part name="parameters" element="tns:AddNewDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderTreeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFolderTree" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderTreeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFolderTreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFolderID" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFolderIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLimitSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFolderLimit" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLimitSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFolderLimitResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocNameDuplicateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocNameDuplicate" />
+  </wsdl:message>
+  <wsdl:message name="GetDocNameDuplicateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocNameDuplicateResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDocHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+    <wsdl:part name="docName" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+    <wsdl:part name="isPublish" type="s:string" />
+    <wsdl:part name="fileGroupId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDocHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderTreeHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderTreeHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderIDHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderPathXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLimitHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLimitHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetDocNameDuplicateHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+    <wsdl:part name="docName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDocNameDuplicateHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDocHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+    <wsdl:part name="docName" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+    <wsdl:part name="isPublish" type="s:string" />
+    <wsdl:part name="fileGroupId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddNewDocHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderTreeHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderTreeHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderIDHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderPathXml" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLimitHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLimitHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetDocNameDuplicateHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="folderId" type="s:string" />
+    <wsdl:part name="docName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDocNameDuplicateHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:portType name="DmsSoap">
+    <wsdl:operation name="AddNewDoc">
+      <wsdl:input message="tns:AddNewDocSoapIn" />
+      <wsdl:output message="tns:AddNewDocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderTree">
+      <wsdl:input message="tns:GetFolderTreeSoapIn" />
+      <wsdl:output message="tns:GetFolderTreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderID">
+      <wsdl:input message="tns:GetFolderIDSoapIn" />
+      <wsdl:output message="tns:GetFolderIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLimit">
+      <wsdl:input message="tns:GetFolderLimitSoapIn" />
+      <wsdl:output message="tns:GetFolderLimitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocNameDuplicate">
+      <wsdl:input message="tns:GetDocNameDuplicateSoapIn" />
+      <wsdl:output message="tns:GetDocNameDuplicateSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DmsHttpGet">
+    <wsdl:operation name="AddNewDoc">
+      <wsdl:input message="tns:AddNewDocHttpGetIn" />
+      <wsdl:output message="tns:AddNewDocHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderTree">
+      <wsdl:input message="tns:GetFolderTreeHttpGetIn" />
+      <wsdl:output message="tns:GetFolderTreeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderID">
+      <wsdl:input message="tns:GetFolderIDHttpGetIn" />
+      <wsdl:output message="tns:GetFolderIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLimit">
+      <wsdl:input message="tns:GetFolderLimitHttpGetIn" />
+      <wsdl:output message="tns:GetFolderLimitHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocNameDuplicate">
+      <wsdl:input message="tns:GetDocNameDuplicateHttpGetIn" />
+      <wsdl:output message="tns:GetDocNameDuplicateHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DmsHttpPost">
+    <wsdl:operation name="AddNewDoc">
+      <wsdl:input message="tns:AddNewDocHttpPostIn" />
+      <wsdl:output message="tns:AddNewDocHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderTree">
+      <wsdl:input message="tns:GetFolderTreeHttpPostIn" />
+      <wsdl:output message="tns:GetFolderTreeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderID">
+      <wsdl:input message="tns:GetFolderIDHttpPostIn" />
+      <wsdl:output message="tns:GetFolderIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLimit">
+      <wsdl:input message="tns:GetFolderLimitHttpPostIn" />
+      <wsdl:output message="tns:GetFolderLimitHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocNameDuplicate">
+      <wsdl:input message="tns:GetDocNameDuplicateHttpPostIn" />
+      <wsdl:output message="tns:GetDocNameDuplicateHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DmsSoap" type="tns:DmsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddNewDoc">
+      <soap:operation soapAction="http://tempuri.org/AddNewDoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderTree">
+      <soap:operation soapAction="http://tempuri.org/GetFolderTree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderID">
+      <soap:operation soapAction="http://tempuri.org/GetFolderID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLimit">
+      <soap:operation soapAction="http://tempuri.org/GetFolderLimit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocNameDuplicate">
+      <soap:operation soapAction="http://tempuri.org/GetDocNameDuplicate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DmsSoap12" type="tns:DmsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddNewDoc">
+      <soap12:operation soapAction="http://tempuri.org/AddNewDoc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderTree">
+      <soap12:operation soapAction="http://tempuri.org/GetFolderTree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderID">
+      <soap12:operation soapAction="http://tempuri.org/GetFolderID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLimit">
+      <soap12:operation soapAction="http://tempuri.org/GetFolderLimit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocNameDuplicate">
+      <soap12:operation soapAction="http://tempuri.org/GetDocNameDuplicate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DmsHttpGet" type="tns:DmsHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="AddNewDoc">
+      <http:operation location="/AddNewDoc" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderTree">
+      <http:operation location="/GetFolderTree" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderID">
+      <http:operation location="/GetFolderID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLimit">
+      <http:operation location="/GetFolderLimit" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocNameDuplicate">
+      <http:operation location="/GetDocNameDuplicate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DmsHttpPost" type="tns:DmsHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="AddNewDoc">
+      <http:operation location="/AddNewDoc" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderTree">
+      <http:operation location="/GetFolderTree" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderID">
+      <http:operation location="/GetFolderID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLimit">
+      <http:operation location="/GetFolderLimit" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocNameDuplicate">
+      <http:operation location="/GetDocNameDuplicate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Dms">
+    <wsdl:port name="DmsSoap" binding="tns:DmsSoap">
+      <soap:address location="http://localhost/UOF11.60/PublicAPI/DMS/dms.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DmsSoap12" binding="tns:DmsSoap12">
+      <soap12:address location="http://localhost/UOF11.60/PublicAPI/DMS/dms.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DmsHttpGet" binding="tns:DmsHttpGet">
+      <http:address location="http://localhost/UOF11.60/PublicAPI/DMS/dms.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DmsHttpPost" binding="tns:DmsHttpPost">
+      <http:address location="http://localhost/UOF11.60/PublicAPI/DMS/dms.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

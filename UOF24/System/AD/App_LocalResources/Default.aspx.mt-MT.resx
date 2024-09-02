@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btSaveResource1.Text" xml:space="preserve">
+    <value>သိမ်းမည်</value>
+  </data>
+  <data name="btSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbADEnableResource1.Text" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="cbADEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbShareADResource1.Text" xml:space="preserve">
+    <value>AD Server same as above</value>
+  </data>
+  <data name="cbShareADResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvEmplADServerLinkErrResource1.ErrorMessage" xml:space="preserve">
+    <value>AD Server connection fail</value>
+  </data>
+  <data name="cvEmplADServerLinkErrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvEmplADServerLinkErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMembADServerLinkErrResource1.ErrorMessage" xml:space="preserve">
+    <value>AD Server connection fail</value>
+  </data>
+  <data name="cvMembADServerLinkErrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMembADServerLinkErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlADproperty_company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="ddlADproperty_country" xml:space="preserve">
+    <value>Country/Region</value>
+  </data>
+  <data name="ddlADproperty_department" xml:space="preserve">
+    <value>ဌာန</value>
+  </data>
+  <data name="ddlADproperty_description" xml:space="preserve">
+    <value>Describe</value>
+  </data>
+  <data name="ddlADproperty_displayName" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+  <data name="ddlADproperty_fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="ddlADproperty_FirstName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ddlADproperty_homePhone" xml:space="preserve">
+    <value>Home tel</value>
+  </data>
+  <data name="ddlADproperty_info" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="ddlADproperty_initials" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="ddlADproperty_ipPhone" xml:space="preserve">
+    <value>IP phone</value>
+  </data>
+  <data name="ddlADproperty_l" xml:space="preserve">
+    <value>မြို့</value>
+  </data>
+  <data name="ddlADproperty_LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="ddlADproperty_mail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ddlADproperty_manager" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="ddlADproperty_mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="ddlADproperty_pager" xml:space="preserve">
+    <value>BB call</value>
+  </data>
+  <data name="ddlADproperty_physicalDeliveryOfficeName" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="ddlADproperty_postalCode" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="ddlADproperty_postOfficeBox" xml:space="preserve">
+    <value>PO Box</value>
+  </data>
+  <data name="ddlADproperty_st" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="ddlADproperty_streetAddress" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="ddlADproperty_telephoneNumber" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="ddlADproperty_title" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="ddlADproperty_wWWHomePage" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ddlEmplAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEmplEmergencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEmplExtNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEmplMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEmplSignatureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMembCompanyAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMembCompanyFaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMembCompanyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMembExtNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMembPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMembSignatureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownList2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownList3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbADServerConfigResource1.Text" xml:space="preserve">
+    <value>Active Directory Server setup</value>
+  </data>
+  <data name="lbADServerConfigResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbColumnMappingResource1.Text" xml:space="preserve">
+    <value>Field mapping</value>
+  </data>
+  <data name="lbColumnMappingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbEmplAddressResource1.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lbEmplAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbEmplADServerResource1.Text" xml:space="preserve">
+    <value>Internal employee AD Server</value>
+  </data>
+  <data name="lbEmplADServerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbEmplEmergencyResource1.Text" xml:space="preserve">
+    <value>Emergency call</value>
+  </data>
+  <data name="lbEmplEmergencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbEmplExtNumResource1.Text" xml:space="preserve">
+    <value>Ext.</value>
+  </data>
+  <data name="lbEmplExtNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbEmplMobileResource1.Text" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="lbEmplMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbEmplSignatureResource1.Text" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="lbEmplSignatureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountResource1.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lblAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResource1.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lblEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmplADpwResource1.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblEmplADpwResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmplADUserNameResource1.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lblEmplADUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmplBlogResource1.Text" xml:space="preserve">
+    <value>BLOG</value>
+  </data>
+  <data name="lblEmplBlogResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmplResource1.Text" xml:space="preserve">
+    <value>Internal employee field</value>
+  </data>
+  <data name="lblEmplResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMembADpwResource1.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblMembADpwResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMembADUserNameResource1.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lblMembADUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMembCompanyAddressResource1.Text" xml:space="preserve">
+    <value>Company address</value>
+  </data>
+  <data name="lblMembCompanyAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMembExtNumResource1.Text" xml:space="preserve">
+    <value>Ext.</value>
+  </data>
+  <data name="lblMembExtNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMembPhoneResource1.Text" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="lblMembPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMembResource1.Text" xml:space="preserve">
+    <value>External member field</value>
+  </data>
+  <data name="lblMembResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMembSignatureResource1.Text" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="lblMembSignatureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveSuccessResource1.Text" xml:space="preserve">
+    <value>Successfully saved</value>
+  </data>
+  <data name="lblSaveSuccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMembADServerResource1.Text" xml:space="preserve">
+    <value>External member AD Server</value>
+  </data>
+  <data name="lbMembADServerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMembCompanyFaxResource1.Text" xml:space="preserve">
+    <value>Office fax</value>
+  </data>
+  <data name="lbMembCompanyFaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMembCompanyNameResource1.Text" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="lbMembCompanyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserNameResource1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lbUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvEmplADServerResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter AD Server</value>
+  </data>
+  <data name="rvEmplADServerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvEmplADServerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvEmplADUserNameResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter link account</value>
+  </data>
+  <data name="rvEmplADUserNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvEmplADUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvEmplDomainResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter Domain</value>
+  </data>
+  <data name="rvEmplDomainResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvEmplDomainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvMembADServerResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter AD Server</value>
+  </data>
+  <data name="rvMembADServerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvMembADServerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvMembADUserNameResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter link account</value>
+  </data>
+  <data name="rvMembADUserNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvMembADUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvMembDomainResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter Domain</value>
+  </data>
+  <data name="rvMembDomainResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvMembDomainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplADpwResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplADpwResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplADServerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplADServerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplADUserNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplADUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplDomainResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmplDomainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembADpwResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembADpwResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembADServerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembADServerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembADUserNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembADUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembDomainResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMembDomainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

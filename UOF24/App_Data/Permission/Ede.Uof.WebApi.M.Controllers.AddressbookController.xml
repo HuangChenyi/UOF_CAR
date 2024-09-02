@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetSearchResult" AllowAll="True" />
+<Action Name="GetPersonDetail" AllowAll="True" />
+
+</Actions>

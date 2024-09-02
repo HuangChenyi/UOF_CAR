@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOpenDialogResource1.Text" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Participants cannot be blank</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Input date</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>End time must be later than start time</value>
+  </data>
+  <data name="CustomValidator7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator8Resource1.ErrorMessage" xml:space="preserve">
+    <value>Select periodicity</value>
+  </data>
+  <data name="CustomValidator8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator9Resource1.ErrorMessage" xml:space="preserve">
+    <value>Meeting Recorder should be Chairman or Participant</value>
+  </data>
+  <data name="cvCheckChairResource1.ErrorMessage" xml:space="preserve">
+    <value>Chairman is required</value>
+  </data>
+  <data name="cvCheckChairResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvRepeatCheckLaterResource1.ErrorMessage" xml:space="preserve">
+    <value>End time can't earlier than start time</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>Time of Notice</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Planned participant</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Date/Time</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Periodicity</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Reminder time</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCreateUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCreateUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChairResource1.Text" xml:space="preserve">
+    <value>Chairman</value>
+  </data>
+  <data name="lblChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactResource1.Text" xml:space="preserve">
+    <value>Meeting contact person</value>
+  </data>
+  <data name="lblContactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDialogTitleResource1.Text" xml:space="preserve">
+    <value>Facility</value>
+  </data>
+  <data name="lblFileResource1.Text" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="lblFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmeetingRecorderResource1.Text" xml:space="preserve">
+    <value>Meeting Recorder</value>
+  </data>
+  <data name="lblMeetingRepeatLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMeetingRepeatLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMoreDetailTitleResource1.Text" xml:space="preserve">
+    <value>Facility of Routine Meeting or Booking for Routine Meeting</value>
+  </data>
+  <data name="lblMsg1Resource1.Text" xml:space="preserve">
+    <value>Only allow adding {0} days meeting </value>
+  </data>
+  <data name="lblMsg1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsg2Resource1.Text" xml:space="preserve">
+    <value>Only allow adding current date meeting </value>
+  </data>
+  <data name="lblMsg2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNextResource1.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="lblNoEmptyMsgResource1.Text" xml:space="preserve">
+    <value>Blank not allowed</value>
+  </data>
+  <data name="lblNoMeetRoomMsgResource1.Text" xml:space="preserve">
+    <value>Vacancy</value>
+  </data>
+  <data name="lblSelChairGUIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairGUIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMeetingGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMeetingGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbOwnerGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbOwnerGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Book meeting room</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Other rooms</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="NoticeTimeListItem1Resource1.Text" xml:space="preserve">
+    <value>10 minutes</value>
+  </data>
+  <data name="NoticeTimeListItem2Resource1.Text" xml:space="preserve">
+    <value>30 minutes</value>
+  </data>
+  <data name="NoticeTimeListItem3Resource1.Text" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="NoticeTimeListItem4Resource1.Text" xml:space="preserve">
+    <value>2 hours</value>
+  </data>
+  <data name="NoticeTimeListItem5Resource1.Text" xml:space="preserve">
+    <value>1 day</value>
+  </data>
+  <data name="NoticeTimeListItem6Resource1.Text" xml:space="preserve">
+    <value>3 days</value>
+  </data>
+  <data name="NoticeTimeListItem7Resource1.Text" xml:space="preserve">
+    <value>1 week</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>New routine meeting</value>
+  </data>
+  <data name="rbNoticeBeforeResource1.Text" xml:space="preserve">
+    <value>Before start</value>
+  </data>
+  <data name="rbNoticeRightNowResource1.Text" xml:space="preserve">
+    <value>Notify immediately</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Blank not allowed</value>
+  </data>
+  <data name="txbDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooser1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

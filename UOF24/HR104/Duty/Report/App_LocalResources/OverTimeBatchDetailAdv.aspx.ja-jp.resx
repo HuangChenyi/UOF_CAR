@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BFErrorMessageResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BFErrorMessageResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BFErrorMessageResource1.HeaderText" xml:space="preserve">
+    <value>エラーメッセージ</value>
+  </data>
+  <data name="BFRemarkResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BFRemarkResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BFRemarkResource1.HeaderText" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="cblExcludeHoursDinnerResource1.Text" xml:space="preserve">
+    <value>夕食</value>
+  </data>
+  <data name="cblExcludeHoursDinnerResource1.Value" xml:space="preserve">
+    <value>Dinner|2</value>
+  </data>
+  <data name="cblExcludeHoursLunchResource1.Text" xml:space="preserve">
+    <value>昼食</value>
+  </data>
+  <data name="cblExcludeHoursLunchResource1.Value" xml:space="preserve">
+    <value>Lunch|1</value>
+  </data>
+  <data name="cblExcludeHoursOtherResource1.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="cblExcludeHoursOtherResource1.Value" xml:space="preserve">
+    <value>Other|8</value>
+  </data>
+  <data name="cblExcludeHoursResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cblExcludeHoursSupperResource1.Text" xml:space="preserve">
+    <value>夜食</value>
+  </data>
+  <data name="cblExcludeHoursSupperResource1.Value" xml:space="preserve">
+    <value>Supper|4</value>
+  </data>
+  <data name="ddlstatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="detailGridResource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="detailGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplyUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplyUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplyWordResource1.Text" xml:space="preserve">
+    <value>申請人数:{0}  完成人数:{1}  失敗人数:{2}</value>
+  </data>
+  <data name="lblApplyWordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCalResultingResource1.Text" xml:space="preserve">
+    <value>計算中</value>
+  </data>
+  <data name="lblCalResultingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCalResultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCalResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcludeTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcludeTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblkeyWordResource1.Text" xml:space="preserve">
+    <value>キーワード:</value>
+  </data>
+  <data name="lblkeyWordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMealAllowanceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMealAllowanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMeatAllowenceNoResource1.Text" xml:space="preserve">
+    <value>受け取りません</value>
+  </data>
+  <data name="lblMeatAllowenceNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMeatAllowenceYesResource1.Text" xml:space="preserve">
+    <value>HRシステムの食事遅れ料金により設定します。</value>
+  </data>
+  <data name="lblMeatAllowenceYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoticeResource1.Text" xml:space="preserve">
+    <value>まだ計算中なので、しばらくお待ちください。</value>
+  </data>
+  <data name="lblNoticeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOTtypePaymentResource1.Text" xml:space="preserve">
+    <value>残業代になる</value>
+  </data>
+  <data name="lblOTtypePaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOTtypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOTtypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOTtypeTimeOffResource1.Text" xml:space="preserve">
+    <value>有給休暇に転換する</value>
+  </data>
+  <data name="lblOTtypeTimeOffResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPunchCheckNoNoResource1.Text" xml:space="preserve">
+    <value>チェックする必要がない</value>
+  </data>
+  <data name="lblPunchCheckNoNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPunchCheckResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPunchCheckResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPunchCheckYesResource1.Text" xml:space="preserve">
+    <value>104により設定</value>
+  </data>
+  <data name="lblPunchCheckYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateFailResource1.Text" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="lblStateFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatePassResource1.Text" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="lblStatePassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblstatusResource1.Text" xml:space="preserve">
+    <value>状態 :</value>
+  </data>
+  <data name="lblstatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ListItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ListItemResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="ListItemResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="ListItemResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="ListItemResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>明細を申請する</value>
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>Msg</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="TFCalResultResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFCalResultResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFCalResultResource1.HeaderText" xml:space="preserve">
+    <value>残業時数</value>
+  </data>
+  <data name="TFEndTimeResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFEndTimeResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFEndTimeResource1.HeaderText" xml:space="preserve">
+    <value>残業時間（終了時間）</value>
+  </data>
+  <data name="TFExcludeTypeResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFExcludeTypeResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFExcludeTypeResource1.HeaderText" xml:space="preserve">
+    <value>差し引きました時間数</value>
+  </data>
+  <data name="TFMealAllowanceResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFMealAllowanceResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFMealAllowanceResource1.HeaderText" xml:space="preserve">
+    <value>夕食経費を配り</value>
+  </data>
+  <data name="TFNameResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFNameResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFNameResource1.HeaderText" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="TFOTTypeResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFOTTypeResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFOTTypeResource1.HeaderText" xml:space="preserve">
+    <value>代わり方</value>
+  </data>
+  <data name="TFPunchCheckResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFPunchCheckResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFPunchCheckResource1.HeaderText" xml:space="preserve">
+    <value>出勤データ</value>
+  </data>
+  <data name="TFStartTimeResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFStartTimeResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFStartTimeResource1.HeaderText" xml:space="preserve">
+    <value>残業時間（開始時間）</value>
+  </data>
+  <data name="TFStateResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFStateResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TFStateResource1.HeaderText" xml:space="preserve">
+    <value>検証結果</value>
+  </data>
+</root>

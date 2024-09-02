@@ -1,0 +1,1959 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllowRejectResource1.Text" xml:space="preserve">
+    <value>Enable Reject</value>
+  </data>
+  <data name="AllowRejectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AllowReturnResource1.Text" xml:space="preserve">
+    <value>Enable Return</value>
+  </data>
+  <data name="AllowReturnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AllowSkippedResource1.Text" xml:space="preserve">
+    <value>Skip while the next stop approver is the same</value>
+  </data>
+  <data name="AllowSkippedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_ChangeFormTriggerResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_ChangeFormTriggerResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_ChangeFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_ChangeResultFormTriggeResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_ChangeResultFormTriggeResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_ChangeResultFormTriggeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_EndFormTriggerResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_EndFormTriggerResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_EndFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_GetbackFormTriggerResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_GetbackFormTriggerResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_GetbackFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_ReturnFormTriggerResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_ReturnFormTriggerResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_ReturnFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SetEndFormResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SetEndFormResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_SetEndFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SetReturnFormResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SetReturnFormResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_SetReturnFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SetValidateFormResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SetValidateFormResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_SetValidateFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SignFormTriggerResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SignFormTriggerResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_SignFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_StartFormTriggerResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_StartFormTriggerResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btn_StartFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnWatermarkSetting.Text" xml:space="preserve">
+    <value>浮水印設定</value>
+  </data>
+  <data name="btnWatermarkSettingResource1.Text" xml:space="preserve">
+    <value>Watermark setup</value>
+  </data>
+  <data name="cbAllowAlertWhileSigningResource1.Text" xml:space="preserve">
+    <value>Allow approver to inform others before approval</value>
+  </data>
+  <data name="cbAllowAttachmentsByFormResource1.Text" xml:space="preserve">
+    <value>Allow to upload attachments (Form)</value>
+  </data>
+  <data name="cbAllowAttachmentsBySiteResource1.Text" xml:space="preserve">
+    <value>Allow to upload personal attachments (Stop)</value>
+  </data>
+  <data name="cbAllowEndFormAlertResource1.Text" xml:space="preserve">
+    <value>Send Form notice to others after Close</value>
+  </data>
+  <data name="cbAllowEndFormAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAllowSuperiorQueryResource1.Text" xml:space="preserve">
+    <value>Allow Supervisor query the forms of his subordinates</value>
+  </data>
+  <data name="cbAllowSuperiorQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbApplicantCancelFormResource1.Text" xml:space="preserve">
+    <value>It cannot be voided by applicant</value>
+  </data>
+  <data name="cbApplicantChoiceSendResource1.Text" xml:space="preserve">
+    <value>After returned to applicant, applicant can select skip stop to resend</value>
+  </data>
+  <data name="cbApplicantChoiceSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbApplicantResource1.Text" xml:space="preserve">
+    <value>Applicant</value>
+  </data>
+  <data name="cbApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAppOnlinePreviewResource1.Text" xml:space="preserve">
+    <value>APP Online Preview</value>
+  </data>
+  <data name="cbArchiveResource1.Text" xml:space="preserve">
+    <value>Filing owner</value>
+  </data>
+  <data name="cbArchiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAuthorizerResource1.Text" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="cbAuthorizerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCancelFormResource1.Text" xml:space="preserve">
+    <value>Form void allowed</value>
+  </data>
+  <data name="cbCancelFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbChangeResultFormResource1.Text" xml:space="preserve">
+    <value>Allow to change Approval result?</value>
+  </data>
+  <data name="cbChangeResultFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCheckAuthResource1.Text" xml:space="preserve">
+    <value>Validation needed:</value>
+  </data>
+  <data name="cbCheckAuthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCommentOpenWindowResource1.Text" xml:space="preserve">
+    <value>The comment will diplay in a new window if the approver using the Web</value>
+  </data>
+  <data name="cbCommentOpenWindowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCommentPageForAppResource1.Text" xml:space="preserve">
+    <value>When using the mobile device approval, if there is a comment, the comment page will be displayed first</value>
+  </data>
+  <data name="cbCustomFieldPrintResource1.Text" xml:space="preserve">
+    <value>Only allow the following members who can customize fields while print the form</value>
+  </data>
+  <data name="cbDefaultSaveScriptResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="cbDefaultSaveScriptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDisplaySiteRemarkResource1.Text" xml:space="preserve">
+    <value>Display the Stop Remark in Returnable Stop list</value>
+  </data>
+  <data name="cbDisplaySiteRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEliminateFilerResource1.Text" xml:space="preserve">
+    <value>Filers export form results not limited by field viewing permissions</value>
+  </data>
+  <data name="cbEnableSaveUOFPreviewResource1.Text" xml:space="preserve">
+    <value>Preview file can save as</value>
+  </data>
+  <data name="cbEndFormReplyResource1.Text" xml:space="preserve">
+    <value>Allow discuss after the form is closed</value>
+  </data>
+  <data name="cbEndFormReplyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEndFormResource1.Text" xml:space="preserve">
+    <value>Forced closure allowed</value>
+  </data>
+  <data name="cbEndFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbForumResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="cbForumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbInformResource1.Text" xml:space="preserve">
+    <value>Notify members</value>
+  </data>
+  <data name="cbInformResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsExternalResource1.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="cbIsExternalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLastAuthorizerResource1.Text" xml:space="preserve">
+    <value>Approver of the last Stop</value>
+  </data>
+  <data name="cbLastAuthorizerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbListDisplayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMobileApplyResource1.Text" xml:space="preserve">
+    <value>Allow to apply in Mobile device</value>
+  </data>
+  <data name="cbMobileApplyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMobileSignResource1.Text" xml:space="preserve">
+    <value>Allow approval process by mobile device</value>
+  </data>
+  <data name="cbMobileSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbNotDisplayUnsignResource1.Text" xml:space="preserve">
+    <value>Hide if not yet approved</value>
+  </data>
+  <data name="cbNotDisplayUnsignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPrinterAuthResource1.Text" xml:space="preserve">
+    <value>Members who can print</value>
+  </data>
+  <data name="cbPrinterAuthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbReturnFormResource1.Text" xml:space="preserve">
+    <value>If closure allowed to return to unclosed.</value>
+  </data>
+  <data name="cbReturnFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSendFormContentResource1.Text" xml:space="preserve">
+    <value>Send form contents</value>
+  </data>
+  <data name="cbSendFormContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSendSignCommentResource1.Text" xml:space="preserve">
+    <value>Send comments</value>
+  </data>
+  <data name="cbSendSignCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSetFormBCCResource1.Text" xml:space="preserve">
+    <value>Allow BCC</value>
+  </data>
+  <data name="cbSetFormBCCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSetFormCCResource1.Text" xml:space="preserve">
+    <value>Allow CC</value>
+  </data>
+  <data name="cbSetFormCCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbUOFOnlinePreviewResource1.Text" xml:space="preserve">
+    <value>UOF Online Preview</value>
+  </data>
+  <data name="cbValidateCommentResource1.Text" xml:space="preserve">
+    <value>Send comments</value>
+  </data>
+  <data name="cbValidateCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbValidateContentResource1.Text" xml:space="preserve">
+    <value>Send form contents</value>
+  </data>
+  <data name="cbValidateContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxAdditionalSignResource1.Text" xml:space="preserve">
+    <value>allow</value>
+  </data>
+  <data name="cbxAdditionalSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxAdvancedAdditionalSignResource1.Text" xml:space="preserve">
+    <value>Enable Advanced Add-Stop</value>
+  </data>
+  <data name="cbxAdvancedAdditionalSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxAgentResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="cbxAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxBatchSignResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="cbxBatchSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxDelScriptResource1.Text" xml:space="preserve">
+    <value>No </value>
+  </data>
+  <data name="cbxDelScriptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxDisplayFuncResource1.Text" xml:space="preserve">
+    <value>Display Function</value>
+  </data>
+  <data name="cbxDisplayFuncResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxExceptionResource1.Text" xml:space="preserve">
+    <value>Allow abnormal sent</value>
+  </data>
+  <data name="cbxExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxIncludeSubDeptResource1.Text" xml:space="preserve">
+    <value>Include sub-Departments</value>
+  </data>
+  <data name="cbxIQYResource1.Text" xml:space="preserve">
+    <value>Allow form to send out inquiry</value>
+  </data>
+  <data name="cbxIQYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxListCopyRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxSendSameDeptResource1.Text" xml:space="preserve">
+    <value>Yes for Same Dept.</value>
+  </data>
+  <data name="cbxSendSameDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxSetAgentApplResource1.Text" xml:space="preserve">
+    <value>Setup exceptions</value>
+  </data>
+  <data name="cbxSetAgentApplResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_CallBackFlagResource1.Text" xml:space="preserve">
+    <value>Form closure and notify Web Service:</value>
+  </data>
+  <data name="chk_CallBackFlagResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_CallBackValiateFlagResource1.Text" xml:space="preserve">
+    <value>Form closure and notify Web Service:</value>
+  </data>
+  <data name="chk_CallBackValiateFlagResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_RAFlagResource1.Text" xml:space="preserve">
+    <value>When form returned to applicant, call out WebService:</value>
+  </data>
+  <data name="chk_RAFlagResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_RAResource1.Text" xml:space="preserve">
+    <value>Once returned to applicant, cannot process in BPM!</value>
+  </data>
+  <data name="chk_RAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkReturnApplicantResource1.Text" xml:space="preserve">
+    <value>Not allow to Return to Applicant</value>
+  </data>
+  <data name="chkReturnApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkReturnSignResource1.Text" xml:space="preserve">
+    <value>Not allow return</value>
+  </data>
+  <data name="chkReturnSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Form name already exist</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorArchiveUserResource1.ErrorMessage" xml:space="preserve">
+    <value>Select filing handler</value>
+  </data>
+  <data name="CustomValidatorArchiveUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorArchiveUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorAuthorityResource1.ErrorMessage" xml:space="preserve">
+    <value>Select form user authority level </value>
+  </data>
+  <data name="CustomValidatorAuthorityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorDelayResource1.ErrorMessage" xml:space="preserve">
+    <value>Form delayed time must be greater than zero</value>
+  </data>
+  <data name="CustomValidatorDelayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorDelayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvAdditionalSignResource1.ErrorMessage" xml:space="preserve">
+    <value>Select Restricted Member</value>
+  </data>
+  <data name="cvAdditionalSignResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvAdditionalSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvIQYResource1.ErrorMessage" xml:space="preserve">
+    <value>Select Restricted Member</value>
+  </data>
+  <data name="cvIQYResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvIQYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMethodResource1.ErrorMessage" xml:space="preserve">
+    <value>Method cannot be blank</value>
+  </data>
+  <data name="cvMethodResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvPrintAuthResource1.ErrorMessage" xml:space="preserve">
+    <value>Select member</value>
+  </data>
+  <data name="cvPrintAuthResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvPrintAuthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvStartDateResource1.ErrorMessage" xml:space="preserve">
+    <value>開始時間不能晚於結束時間</value>
+  </data>
+  <data name="cvStartDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvUploadImageResource1.ErrorMessage" xml:space="preserve">
+    <value>Please upload file of picture</value>
+  </data>
+  <data name="cvUploadImageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvUploadImageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvWebserviceResource1.ErrorMessage" xml:space="preserve">
+    <value>WebService cannot be blank</value>
+  </data>
+  <data name="cvWebserviceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvWebserviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlChangeFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlChangeResultFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEndFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlGetbackFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlReturnFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSignFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStartFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlWSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DisplaySignerResource1.Text" xml:space="preserve">
+    <value>Display Function of「Approver」</value>
+  </data>
+  <data name="DisplaySignerResource1.Value" xml:space="preserve">
+    <value>DisplaySigner</value>
+  </data>
+  <data name="DisplaySuperiorResource1.Text" xml:space="preserve">
+    <value>Display Function of「Supervisor」</value>
+  </data>
+  <data name="DisplaySuperiorResource1.Value" xml:space="preserve">
+    <value>DisplaySuperior</value>
+  </data>
+  <data name="gridArchiveResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridArchiveResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridArchiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridReaderResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridReaderResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>WebService not selected.  Please reset.</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Setup validation event for closure restore</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Setup validation event of approval result</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>(Hide the information of unapproval members while viewing the approval comments)</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>(All members can print out if this item is not selected.)</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>Print with background</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>Return/Void Setup</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource.Text" xml:space="preserve">
+    <value>Setup CC</value>
+  </data>
+  <data name="Label18Resource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>Setup comments</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Form background information and</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>Stop settings</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>Approval history settings</value>
+  </data>
+  <data name="Label21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>(If you only check this item, it will not include the Function of Supervisor and Approver)</value>
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>Form Forum Setup</value>
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>Mobile setup</value>
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>Form attachments</value>
+  </data>
+  <data name="Label25Resource2.Text" xml:space="preserve">
+    <value>(0 for null)</value>
+  </data>
+  <data name="Label25Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>Send to next Stop automatically</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.Text" xml:space="preserve">
+    <value>*This form can only be applied within the Applicated period</value>
+  </data>
+  <data name="Label29Resource1.Text" xml:space="preserve">
+    <value>(0 for null)</value>
+  </data>
+  <data name="Label29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.Text" xml:space="preserve">
+    <value>(If it is not checked, all members cannot customize the field.)</value>
+  </data>
+  <data name="Label32Resource1.Text" xml:space="preserve">
+    <value>View setting</value>
+  </data>
+  <data name="Label32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33Resource1.Text" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="Label33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34Resource1.Text" xml:space="preserve">
+    <value>*The input range is 1~99</value>
+  </data>
+  <data name="Label34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.Text" xml:space="preserve">
+    <value>1. After setting, the schedule will automatically delete the forms before the Retention period. For example, if the Retention period is set to one year, after the schedule is executed on 2023/01/01, the forms that have been closed before 23:59 on 2021/12/31 will be automatically deleted.</value>
+  </data>
+  <data name="Label35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36Resource1.Text" xml:space="preserve">
+    <value>2. Deleted forms cannot be recovered.</value>
+  </data>
+  <data name="Label36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37Resource1.Text" xml:space="preserve">
+    <value>3. Form deleted will not affect the data of the concatenated module, EX: Document Management, Leave Management.</value>
+  </data>
+  <data name="Label37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Form:</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Range of copy:  </value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>(When copying, form basic data is mainly in accordance with the original form)</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Called back WebService setup</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Send below information</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>(when the setting is on, the Form content can only import by external system, and the Applicant cannot Avoid)</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ModifyMethodResource1.Text" xml:space="preserve">
+    <value>Allow Modify</value>
+  </data>
+  <data name="lbl_ModifyMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_WebServiceInfoSetResource1.Text" xml:space="preserve">
+    <value>Web Service related setup</value>
+  </data>
+  <data name="lbl_WebServiceInfoSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalResource1.Text" xml:space="preserve">
+    <value>Add-Stop setup</value>
+  </data>
+  <data name="lblAdditionalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalSignResource1.Text" xml:space="preserve">
+    <value>(Setup up Add-Stop by Applicant or Approver)</value>
+  </data>
+  <data name="lblAdditionalSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvancedAdditionalSignResource1.Text" xml:space="preserve">
+    <value>(Enable Add-Stop for All Stops)</value>
+  </data>
+  <data name="lblAdvancedAdditionalSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgentResource1.Text" xml:space="preserve">
+    <value>Delegate Apply</value>
+  </data>
+  <data name="lblAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowApplyPeriodResource1.Text" xml:space="preserve">
+    <value>Application Period</value>
+  </data>
+  <data name="lblAllowApplyPeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowAttachmentsTipResource1.Text" xml:space="preserve">
+    <value>*If set as not allow to upload attachment, it will not allow to update or delete any attachment at the same time, but the original attachments still be able to display and download.</value>
+  </data>
+  <data name="lblArchiveSettingResource1.Text" xml:space="preserve">
+    <value>Setup Filing</value>
+  </data>
+  <data name="lblArchiveSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArchiveUserResource1.Text" xml:space="preserve">
+    <value>Filing handler</value>
+  </data>
+  <data name="lblArchiveUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAttachSourceControlResource1.Text" xml:space="preserve">
+    <value>Original file of Attachments</value>
+  </data>
+  <data name="lblAttachSourceControlTipResource1.Text" xml:space="preserve">
+    <value>*This setting will be applied to form attachments related attachments (forms) and personal attachments (stops)</value>
+  </data>
+  <data name="lblAttachSourceControlTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBatchSignResource1.Text" xml:space="preserve">
+    <value>Batch approval</value>
+  </data>
+  <data name="lblBatchSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChangeFormTriggerTitleResource1.Text" xml:space="preserve">
+    <value>Form status modification setup</value>
+  </data>
+  <data name="lblChangeFormTriggerTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmReaderResource1.Text" xml:space="preserve">
+    <value>Delete Form Viewer ?</value>
+  </data>
+  <data name="lblConfirmReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmResource1.Text" xml:space="preserve">
+    <value>Delete Filing handler ?</value>
+  </data>
+  <data name="lblConfirmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleAlertResource1.Text" xml:space="preserve">
+    <value>Interval of approval notice</value>
+  </data>
+  <data name="lblCycleAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescribeInformSettingResource1.Text" xml:space="preserve">
+    <value>Select  members of Form closure notice：</value>
+  </data>
+  <data name="lblDescribeInformSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEliminateLastSignerResource1.Text" xml:space="preserve">
+    <value>Does notify the selected persons who are the last stop approvers?</value>
+  </data>
+  <data name="lblEndFormSetupResource1.Text" xml:space="preserve">
+    <value>Setup Notice after close</value>
+  </data>
+  <data name="lblEndFormSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndFormTriggerTitleResource1.Text" xml:space="preserve">
+    <value>Form closure event setup</value>
+  </data>
+  <data name="lblEndFormTriggerTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnfFormInformSettingResource1.Text" xml:space="preserve">
+    <value>Closure notice setting</value>
+  </data>
+  <data name="lblEnfFormInformSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionResource1.Text" xml:space="preserve">
+    <value>Abnormal Form</value>
+  </data>
+  <data name="lblExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExternalResource1.Text" xml:space="preserve">
+    <value>Apply Online</value>
+  </data>
+  <data name="lblExternalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSettingTitleResource1.Text" xml:space="preserve">
+    <value>Convert Setting</value>
+  </data>
+  <data name="lblFileBtnTitleResource1.Text" xml:space="preserve">
+    <value>Select file field</value>
+  </data>
+  <data name="lblFilingVisibleControlResource1.Text" xml:space="preserve">
+    <value>Filing Display setting</value>
+  </data>
+  <data name="lblFormApplyAndShelfLifeSettingResource1.Text" xml:space="preserve">
+    <value>Form Application &amp; Retention period settings</value>
+  </data>
+  <data name="lblFormApplyAndShelfLifeSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormAuthorityResource1.Text" xml:space="preserve">
+    <value>Form Users</value>
+  </data>
+  <data name="lblFormAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormBuildResource1.Text" xml:space="preserve">
+    <value>Setup method</value>
+  </data>
+  <data name="lblFormBuildResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormDelayResource1.Text" xml:space="preserve">
+    <value>Form delayed</value>
+  </data>
+  <data name="lblFormDelayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value>Form name</value>
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormReaderResource1.Text" xml:space="preserve">
+    <value>Form viewer</value>
+  </data>
+  <data name="lblFormReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormSavePeriodResource1.Text" xml:space="preserve">
+    <value>Form Retention period</value>
+  </data>
+  <data name="lblFormSavePeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeTitleResource1.Text" xml:space="preserve">
+    <value>Form category</value>
+  </data>
+  <data name="lblFormTypeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormWebServiceResource1.Text" xml:space="preserve">
+    <value>Closure call back setup</value>
+  </data>
+  <data name="lblFormWebServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGetbackFormTriggerTitleResource1.Text" xml:space="preserve">
+    <value>Form retrieve event setting</value>
+  </data>
+  <data name="lblGetbackFormTriggerTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformMessage0Resource1.Text" xml:space="preserve">
+    <value>備註：&lt;br/&gt;1.當沒有勾選"最後一站簽核者"時，&lt;br/&gt;設定要通知的對象若和最後一站簽核者為相同人員，將不會通知該人員</value>
+  </data>
+  <data name="lblInformMessageResource1.Text" xml:space="preserve">
+    <value>Remarks：&lt;br/&gt;The following members will receive Form Closure Notice：&lt;br /&gt;&amp;nbsp;(1)Members in Form Closure Setup&lt;br /&gt;&amp;nbsp;(2)Notify after Approval in the Last Stop</value>
+  </data>
+  <data name="lblInformMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformSettingResource1.Text" xml:space="preserve">
+    <value>Notify setting</value>
+  </data>
+  <data name="lblInformSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIQYTitleResource1.Text" xml:space="preserve">
+    <value>Form inquiry</value>
+  </data>
+  <data name="lblIQYTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManagerResource1.Text" xml:space="preserve">
+    <value>Form manager</value>
+  </data>
+  <data name="lblManagerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMassage4Resource1.Text" xml:space="preserve">
+    <value>(Form status modifications will affect external system.  If external process &lt;br&gt; has not been set up for respective methods while Form closure , please make sure these 2 functions are not active!) </value>
+  </data>
+  <data name="lblMassage4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMethodResource1.Text" xml:space="preserve">
+    <value>Call out method:</value>
+  </data>
+  <data name="lblMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNonSettingResource1.Text" xml:space="preserve">
+    <value>No setup</value>
+  </data>
+  <data name="lblNonSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalNotifyResource1.Text" xml:space="preserve">
+    <value>Connection test only.  Cannot verify the correctness of the information at this phase.</value>
+  </data>
+  <data name="lblNormalNotifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalTitleResource1.Text" xml:space="preserve">
+    <value>Normal setup</value>
+  </data>
+  <data name="lblNormalTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrSetResource1.Text" xml:space="preserve">
+    <value>Multi-or approval setup</value>
+  </data>
+  <data name="lblOrSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProfessnalTitleResource1.Text" xml:space="preserve">
+    <value>Advanced setup</value>
+  </data>
+  <data name="lblProfessnalTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResponsibleControlResource1.Text" xml:space="preserve">
+    <value>Form manager’s usable authority</value>
+  </data>
+  <data name="lblResponsibleControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveScriptResource1.Text" xml:space="preserve">
+    <value>Save copy</value>
+  </data>
+  <data name="lblSaveScriptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSetAgentMsgResource1.Text" xml:space="preserve">
+    <value>(Exceptions can apply form for anyone)</value>
+  </data>
+  <data name="lblSetAgentMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSetFormTriggerResource1.Text" xml:space="preserve">
+    <value>Form event processing setup</value>
+  </data>
+  <data name="lblSetFormTriggerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSetPersonnelResource1.Text" xml:space="preserve">
+    <value>Member setup</value>
+  </data>
+  <data name="lblSetPersonnelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSettingResource1.Text" xml:space="preserve">
+    <value>Theme Setup</value>
+  </data>
+  <data name="lblSetWSResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="lblSetWSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignFormTriggerTitleResource1.Text" xml:space="preserve">
+    <value>Event setting in Approval</value>
+  </data>
+  <data name="lblSignFormTriggerTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartFormTriggerTitleResource1.Text" xml:space="preserve">
+    <value>Form start-up event setup</value>
+  </data>
+  <data name="lblStartFormTriggerTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuperiorQueryResource1.Text" xml:space="preserve">
+    <value>Supervisor Form Query setup</value>
+  </data>
+  <data name="lblSuperiorQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaskPriorityResource1.Text" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="lbltestConnectionResource1.Text" xml:space="preserve">
+    <value>Test connection</value>
+  </data>
+  <data name="lbltestConnectionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsg401Resource1.Text" xml:space="preserve">
+    <value>Cannot pass validation</value>
+  </data>
+  <data name="lblTestMsg401Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsg404Resource1.Text" xml:space="preserve">
+    <value>Cannot call out asmx file</value>
+  </data>
+  <data name="lblTestMsg404Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsg500Resource1.Text" xml:space="preserve">
+    <value>Error in calling out Web Method</value>
+  </data>
+  <data name="lblTestMsg500Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsg99Resource1.Text" xml:space="preserve">
+    <value>Unable to connect to Web Service domain</value>
+  </data>
+  <data name="lblTestMsg99Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsgResource1.Text" xml:space="preserve">
+    <value>Test success!!</value>
+  </data>
+  <data name="lblTestMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblThemeSettingResource1.Text" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="lblUploadAndPreviewSettingResource1.Text" xml:space="preserve">
+    <value>The setting of upload and preview attachments</value>
+  </data>
+  <data name="lblWebServiceResource1.Text" xml:space="preserve">
+    <value>WebService URL:</value>
+  </data>
+  <data name="lblWebServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwsAccountResource1.Text" xml:space="preserve">
+    <value>WebService Account:</value>
+  </data>
+  <data name="lblwsAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwsPasswordResource1.Text" xml:space="preserve">
+    <value>WebService password:</value>
+  </data>
+  <data name="lblwsPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnEditReaderResource1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lbtnEditReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkBtnChoiceResource1.Text" xml:space="preserve">
+    <value>Select to copy form</value>
+  </data>
+  <data name="linkBtnChoiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="list_EndFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="list_ReturnFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="list_ValidateFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listitemNoResource1.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Form background information</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Form background information</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Enable Return</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Close until all rejected</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Close when rejected by at least one</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>No background</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Use default background</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>ByUser</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Allow to Reject</value>
+  </data>
+  <data name="listitemYesResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="owner" xml:space="preserve">
+    <value>Form status modification setup</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>New Form</value>
+  </data>
+  <data name="panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelDuplicateResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelDuplicateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_EndFormResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_EndFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_ReturnFormResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_ReturnFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddSignResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDisplayFuncResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDisplayFuncResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIQYResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlIQYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlWebServiceSetResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlWebServiceSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlWsAuthResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlWsAuthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PriorityHighResource1.Text" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="PriorityHighResource1.Value" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="PriorityNormalResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="PriorityNormalResource1.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="RadMultiPage1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPageView1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPageView2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPageView3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabStrip1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>New Owner</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>setup</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>setup</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCopyAllResource1.Text" xml:space="preserve">
+    <value>Field and flow</value>
+  </data>
+  <data name="rbCopyAllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCopyFieldResource1.Text" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="rbCopyFieldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCopyFormResource1.Text" xml:space="preserve">
+    <value>Copy from existing forms</value>
+  </data>
+  <data name="rbCopyFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbFormDelayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbFormDelayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbIsWSResource1.Text" xml:space="preserve">
+    <value>Call out to below WebService</value>
+  </data>
+  <data name="rbIsWSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblBackgroundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblTaskPriorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblThemeListItemResource1.Text" xml:space="preserve">
+    <value>Classic</value>
+  </data>
+  <data name="rblThemeListItemResource2.Text" xml:space="preserve">
+    <value>Plain</value>
+  </data>
+  <data name="rblThemeListItemResource3.Text" xml:space="preserve">
+    <value>Original(One field in a raw)</value>
+  </data>
+  <data name="rbNewFormResource1.Text" xml:space="preserve">
+    <value>New form</value>
+  </data>
+  <data name="rbNewFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNoFormDelayResource1.Text" xml:space="preserve">
+    <value>No limits</value>
+  </data>
+  <data name="rbNoFormDelayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNoWSResource1.Text" xml:space="preserve">
+    <value>Not necessary</value>
+  </data>
+  <data name="rbNoWSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbOrSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbSaveUOFPreviewAllowResource1.Text" xml:space="preserve">
+    <value>Allow the following staffs</value>
+  </data>
+  <data name="rbSaveUOFPreviewAllowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbSaveUOFPreviewNolimitResource1.Text" xml:space="preserve">
+    <value>Unrestricted</value>
+  </data>
+  <data name="rbSaveUOFPreviewNolimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdAllowApplyLifeNoLimitResource1.Text" xml:space="preserve">
+    <value>Unlimited</value>
+  </data>
+  <data name="rdAllowApplyLifeNoLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdAllowApplyLifeSetTimeResource1.Text" xml:space="preserve">
+    <value>Specified period</value>
+  </data>
+  <data name="rdAllowApplyLifeSetTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFormSaveForeverResource1.Text" xml:space="preserve">
+    <value>永遠保存</value>
+  </data>
+  <data name="rdFormSaveForeverResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFormSaveYearsResource1.Text" xml:space="preserve">
+    <value>Retention</value>
+  </data>
+  <data name="rdFormSaveYearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter form name</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Select copied form</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvRdEndDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Select End date</value>
+  </data>
+  <data name="rfvRdEndDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvRdEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvRdStartDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Select Start date</value>
+  </data>
+  <data name="rfvRdStartDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvRdStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntAutoSignResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntAutoSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rNumCycleHoursResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rNumCycleHoursResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.Text" xml:space="preserve">
+    <value>Normal setup</value>
+  </data>
+  <data name="tabSetGenerallyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.Text" xml:space="preserve">
+    <value>Advanced setup</value>
+  </data>
+  <data name="tabSetGenerallyResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.Text" xml:space="preserve">
+    <value>Notify setting</value>
+  </data>
+  <data name="tabSetGenerallyResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource3.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabSetGenerallyResource4.Text" xml:space="preserve">
+    <value>Theme Setup</value>
+  </data>
+  <data name="tabSetGenerallyResource5.Text" xml:space="preserve">
+    <value>Attachment Setting</value>
+  </data>
+  <data name="tabSetGenerallyResource6.Text" xml:space="preserve">
+    <value>Special settings</value>
+  </data>
+  <data name="tbArchiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxCopyFormResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxCopyFormResource1.ToolTip" xml:space="preserve">
+    <value>Select copied form</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Filing Owner</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Form viewer</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="txtFormNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMethodResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWebServiceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWebServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWsAccountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWsAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWsPasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWsPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebTab1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibSetWSResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibSetWSResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibSetWSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibTestConnectionResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibTestConnectionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibTestConnectionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

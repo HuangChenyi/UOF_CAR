@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authDepResource1.Text" xml:space="preserve">
+    <value>Authority</value>
+  </data>
+  <data name="authDepResource1.Value" xml:space="preserve">
+    <value>authDep</value>
+  </data>
+  <data name="btnQueryFlowResource1.Text" xml:space="preserve">
+    <value>View approval results</value>
+  </data>
+  <data name="ChartGradeResource1.ChartTitle.TextBlock.Text" xml:space="preserve">
+    <value>Chart Title</value>
+  </data>
+  <data name="ChartGradeResource2.ChartTitle.TextBlock.Text" xml:space="preserve">
+    <value>Chart Title</value>
+  </data>
+  <data name="custodyUserResource1.Text" xml:space="preserve">
+    <value>Document Keeper</value>
+  </data>
+  <data name="custodyUserResource1.Value" xml:space="preserve">
+    <value>custodyUser</value>
+  </data>
+  <data name="GroupResource1.Text" xml:space="preserve">
+    <value>Author functions</value>
+  </data>
+  <data name="GroupResource2.Text" xml:space="preserve">
+    <value>Directory administrator functions</value>
+  </data>
+  <data name="GroupResource3.Text" xml:space="preserve">
+    <value>Readers</value>
+  </data>
+  <data name="ItemResource1.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="ItemResource10.Text" xml:space="preserve">
+    <value>Shelved</value>
+  </data>
+  <data name="ItemResource11.Text" xml:space="preserve">
+    <value>Document authorization level setup</value>
+  </data>
+  <data name="ItemResource12.Text" xml:space="preserve">
+    <value>Revision history</value>
+  </data>
+  <data name="ItemResource13.Text" xml:space="preserve">
+    <value>Rank comments</value>
+  </data>
+  <data name="ItemResource14.Text" xml:space="preserve">
+    <value>View request records</value>
+  </data>
+  <data name="ItemResource15.Text" xml:space="preserve">
+    <value>Reference document</value>
+  </data>
+  <data name="ItemResource2.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="ItemResource3.Text" xml:space="preserve">
+    <value>Check in cancelled</value>
+  </data>
+  <data name="ItemResource4.Text" xml:space="preserve">
+    <value>Check in</value>
+  </data>
+  <data name="ItemResource5.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ItemResource6.Text" xml:space="preserve">
+    <value>Modify document attribute</value>
+  </data>
+  <data name="ItemResource7.Text" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="ItemResource8.Text" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="ItemResource9.Text" xml:space="preserve">
+    <value>Off shelved</value>
+  </data>
+  <data name="LabApproveResource.Text" xml:space="preserve">
+    <value>Approved by</value>
+  </data>
+  <data name="labChartTitleResource1.Text" xml:space="preserve">
+    <value>Document rank</value>
+  </data>
+  <data name="labDocDenyResource1.Text" xml:space="preserve">
+    <value>Release Reject</value>
+  </data>
+  <data name="labDocIsDeleteResource1.Text" xml:space="preserve">
+    <value>Document is not uploaded or been destroyed</value>
+  </data>
+  <data name="labDocNoApproveResource.Text" xml:space="preserve">
+    <value>Document approval not required</value>
+  </data>
+  <data name="labDocStoreResource1.Text" xml:space="preserve">
+    <value>Document database</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Byte</value>
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Confidential</value>
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Revision:</value>
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>System Revision:</value>
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Approval release</value>
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>Document size</value>
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>Summary:</value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>Release/Update Notice</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Issuing unit</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Document Keeper</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Document information</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Document number</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Document type:</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Joint edit allowed</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Effective date</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Expired date</value>
+  </data>
+  <data name="LabelKeyWordResource1.Text" xml:space="preserve">
+    <value>Keyword:</value>
+  </data>
+  <data name="labNoActiveResource1.Text" xml:space="preserve">
+    <value>Not Effective</value>
+  </data>
+  <data name="labNormalResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lblActiveResource1.Text" xml:space="preserve">
+    <value>Effective immediately</value>
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>Approval in process</value>
+  </data>
+  <data name="lblAuthDepTextResource1.Text" xml:space="preserve">
+    <value>Authority</value>
+  </data>
+  <data name="lblAutoSerialResource1.Text" xml:space="preserve">
+    <value>*Document Tracking No.</value>
+  </data>
+  <data name="lblCancelErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while canceling the checking in of the document</value>
+  </data>
+  <data name="lblCheckinErrorResource1.Text" xml:space="preserve">
+    <value>Error occurs while saving document</value>
+  </data>
+  <data name="lblCheckinResource1.Text" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="lblCheckoutErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while checking in the document </value>
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>Checked in</value>
+  </data>
+  <data name="lblConfirmCancelcheckoutResource1.Text" xml:space="preserve">
+    <value>Confirm to cancel check in?</value>
+  </data>
+  <data name="lblConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>Confirm to destroy this document?</value>
+  </data>
+  <data name="lblConfirmReactResource1.Text" xml:space="preserve">
+    <value>Confirm to re-shelf this document?</value>
+  </data>
+  <data name="lblConfirmTempInactResource1.Text" xml:space="preserve">
+    <value>Confirm to temporary off shelf this document?</value>
+  </data>
+  <data name="lblConfirmVoidResource1.Text" xml:space="preserve">
+    <value>Confirm to void this document?</value>
+  </data>
+  <data name="lblCopyDocHrefResource1.Text" xml:space="preserve">
+    <value>Document link duplicated</value>
+  </data>
+  <data name="lblCopyVerHrefResource1.Text" xml:space="preserve">
+    <value>Document revision link duplicated</value>
+  </data>
+  <data name="lblDeleteErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while destroying the document</value>
+  </data>
+  <data name="lblDeletingApprovalResource1.Text" xml:space="preserve">
+    <value>Released(Delete in approval)</value>
+  </data>
+  <data name="lblDeletingResource1.Text" xml:space="preserve">
+    <value>(Delete in approval)</value>
+  </data>
+  <data name="lblDialogErrorResource1.Text" xml:space="preserve">
+    <value>Pop-up Blocker is active,\n please disable Pop-Up Blocker or add this website to pop-up permission list.</value>
+  </data>
+  <data name="lblDMSStatusResource1.Text" xml:space="preserve">
+    <value>Simplified flow</value>
+  </data>
+  <data name="lblDocLinkResource1.Text" xml:space="preserve">
+    <value>Doc Link</value>
+  </data>
+  <data name="lblFileResource1.Text" xml:space="preserve">
+    <value>Electronic file</value>
+  </data>
+  <data name="lblHistoryResource1.Text" xml:space="preserve">
+    <value>View Revision history</value>
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="lblInfoResource1.Text" xml:space="preserve">
+    <value>Document information</value>
+  </data>
+  <data name="lblNeverOverdueResource1.Text" xml:space="preserve">
+    <value>Never expire</value>
+  </data>
+  <data name="lblNoPrivilegeResource1.Text" xml:space="preserve">
+    <value>Not authorized</value>
+  </data>
+  <data name="lblNoResource1.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lblNoSendApproveResource1.Text" xml:space="preserve">
+    <value>Document not yet send in for approval, cannot view approval results.</value>
+  </data>
+  <data name="lblNoSendDeleteResource1.Text" xml:space="preserve">
+    <value>You can view the approval result only after the document is deleted.</value>
+  </data>
+  <data name="lblNoSendVoidResource1.Text" xml:space="preserve">
+    <value>Not Voided, Approval results is not found.</value>
+  </data>
+  <data name="lblOldVerResource1.Text" xml:space="preserve">
+    <value>Old revision</value>
+  </data>
+  <data name="lblPaperResource1.Text" xml:space="preserve">
+    <value>Hard copy</value>
+  </data>
+  <data name="lblPublishDatetextResource1.Text" xml:space="preserve">
+    <value>Released time</value>
+  </data>
+  <data name="lblPublishErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while releasing the document</value>
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>Released</value>
+  </data>
+  <data name="lblqrInfo2Resource2.Text" xml:space="preserve">
+    <value>(click QR Code to download)   </value>
+  </data>
+  <data name="lblqrInfoResource2.Text" xml:space="preserve">
+    <value>QR Code of document</value>
+  </data>
+  <data name="lblReactErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while document is being shelved</value>
+  </data>
+  <data name="lblReActResource1.Text" xml:space="preserve">
+    <value>Shelved</value>
+  </data>
+  <data name="lblRefResource1.Text" xml:space="preserve">
+    <value>View Reference DOC.</value>
+  </data>
+  <data name="lblSecretmResource1.Text" xml:space="preserve">
+    <value>Classified</value>
+  </data>
+  <data name="lblSuitableDepTextResource1.Text" xml:space="preserve">
+    <value>Applied Dep.</value>
+  </data>
+  <data name="lblTempInactErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while document is being off shelved</value>
+  </data>
+  <data name="lblTempInactResource1.Text" xml:space="preserve">
+    <value>Off shelved</value>
+  </data>
+  <data name="lblTopSecretResource1.Text" xml:space="preserve">
+    <value>Top secret</value>
+  </data>
+  <data name="lblUpdatingResource1.Text" xml:space="preserve">
+    <value>Revision Updating</value>
+  </data>
+  <data name="lblUrgencyExHighResource1.Text" xml:space="preserve">
+    <value>Urgent</value>
+  </data>
+  <data name="lblUrgencyHighResource1.Text" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="lblUrgencyNormalResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lblUrgencyTextResource1.Text" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="lblVoidApprovalResource1.Text" xml:space="preserve">
+    <value>Released(In Void Approval)</value>
+  </data>
+  <data name="lblVoidErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while voiding the document</value>
+  </data>
+  <data name="lblVoidResource1.Text" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="lblWKFStatusResource1.Text" xml:space="preserve">
+    <value>BPM</value>
+  </data>
+  <data name="lblXSecretResource1.Text" xml:space="preserve">
+    <value>Confidential</value>
+  </data>
+  <data name="lblXXSecretResource1.Text" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="lblYesResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Document information</value>
+  </data>
+  <data name="publishUnitResource1.Text" xml:space="preserve">
+    <value>Issuing unit</value>
+  </data>
+  <data name="publishUnitResource1.Value" xml:space="preserve">
+    <value>publishUnit</value>
+  </data>
+  <data name="RadPanelItemResource1.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="RadPanelItemResource1.Value" xml:space="preserve">
+    <value>DocOutPublish</value>
+  </data>
+  <data name="RadPanelItemResource10.Text" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="RadPanelItemResource10.Value" xml:space="preserve">
+    <value>DocVoid</value>
+  </data>
+  <data name="RadPanelItemResource11.Text" xml:space="preserve">
+    <value>Off shelved</value>
+  </data>
+  <data name="RadPanelItemResource11.Value" xml:space="preserve">
+    <value>DocDisable</value>
+  </data>
+  <data name="RadPanelItemResource12.Text" xml:space="preserve">
+    <value>Shelved</value>
+  </data>
+  <data name="RadPanelItemResource12.Value" xml:space="preserve">
+    <value>DocEnable</value>
+  </data>
+  <data name="RadPanelItemResource13.Text" xml:space="preserve">
+    <value>Document authorization level setup</value>
+  </data>
+  <data name="RadPanelItemResource13.Value" xml:space="preserve">
+    <value>DocPermission</value>
+  </data>
+  <data name="RadPanelItemResource14.Text" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="RadPanelItemResource14.Value" xml:space="preserve">
+    <value>GrpManager</value>
+  </data>
+  <data name="RadPanelItemResource15.Text" xml:space="preserve">
+    <value>Revision history</value>
+  </data>
+  <data name="RadPanelItemResource15.Value" xml:space="preserve">
+    <value>DocHistory</value>
+  </data>
+  <data name="RadPanelItemResource16.Text" xml:space="preserve">
+    <value>Rank comments</value>
+  </data>
+  <data name="RadPanelItemResource16.Value" xml:space="preserve">
+    <value>DocGradeList</value>
+  </data>
+  <data name="RadPanelItemResource17.Text" xml:space="preserve">
+    <value>Reference document</value>
+  </data>
+  <data name="RadPanelItemResource17.Value" xml:space="preserve">
+    <value>DocRefLink</value>
+  </data>
+  <data name="RadPanelItemResource18.Text" xml:space="preserve">
+    <value>Readers</value>
+  </data>
+  <data name="RadPanelItemResource18.Value" xml:space="preserve">
+    <value>GrpReader</value>
+  </data>
+  <data name="RadPanelItemResource19.Text" xml:space="preserve">
+    <value>OCR result</value>
+  </data>
+  <data name="RadPanelItemResource19.Value" xml:space="preserve">
+    <value>RecognizeResult</value>
+  </data>
+  <data name="RadPanelItemResource2.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="RadPanelItemResource2.Value" xml:space="preserve">
+    <value>DocInPublish</value>
+  </data>
+  <data name="RadPanelItemResource20.Text" xml:space="preserve">
+    <value>Restart OCR</value>
+  </data>
+  <data name="RadPanelItemResource20.Value" xml:space="preserve">
+    <value>ReRecognize</value>
+  </data>
+  <data name="RadPanelItemResource21.Text" xml:space="preserve">
+    <value>OCR result</value>
+  </data>
+  <data name="RadPanelItemResource21.Value" xml:space="preserve">
+    <value>RecognizeResult</value>
+  </data>
+  <data name="RadPanelItemResource22.Text" xml:space="preserve">
+    <value>Restart OCR</value>
+  </data>
+  <data name="RadPanelItemResource22.Value" xml:space="preserve">
+    <value>ReRecognize</value>
+  </data>
+  <data name="RadPanelItemResource23.Text" xml:space="preserve">
+    <value>Simplified Approval History</value>
+  </data>
+  <data name="RadPanelItemResource23.Value" xml:space="preserve">
+    <value>DocApproveLog</value>
+  </data>
+  <data name="RadPanelItemResource24.Text" xml:space="preserve">
+    <value>Replace Document</value>
+  </data>
+  <data name="RadPanelItemResource24.Value" xml:space="preserve">
+    <value>AuthorChangeDoc</value>
+  </data>
+  <data name="RadPanelItemResource25.Text" xml:space="preserve">
+    <value>Replace Document</value>
+  </data>
+  <data name="RadPanelItemResource25.Value" xml:space="preserve">
+    <value>AdminChangeDoc</value>
+  </data>
+  <data name="RadPanelItemResource3.Text" xml:space="preserve">
+    <value>Check in cancelled</value>
+  </data>
+  <data name="RadPanelItemResource3.Value" xml:space="preserve">
+    <value>CancelCheckout</value>
+  </data>
+  <data name="RadPanelItemResource4.Text" xml:space="preserve">
+    <value>Check in</value>
+  </data>
+  <data name="RadPanelItemResource4.Value" xml:space="preserve">
+    <value>DocCheckout</value>
+  </data>
+  <data name="RadPanelItemResource5.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="RadPanelItemResource5.Value" xml:space="preserve">
+    <value>DocCheckin</value>
+  </data>
+  <data name="RadPanelItemResource6.Text" xml:space="preserve">
+    <value>Modify document attribute</value>
+  </data>
+  <data name="RadPanelItemResource6.Value" xml:space="preserve">
+    <value>DocProperty</value>
+  </data>
+  <data name="RadPanelItemResource7.Text" xml:space="preserve">
+    <value>View request records</value>
+  </data>
+  <data name="RadPanelItemResource7.Value" xml:space="preserve">
+    <value>DocLendLog</value>
+  </data>
+  <data name="RadPanelItemResource8.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="RadPanelItemResource8.Value" xml:space="preserve">
+    <value>GrpAuthor</value>
+  </data>
+  <data name="RadPanelItemResource9.Text" xml:space="preserve">
+    <value>Destroy</value>
+  </data>
+  <data name="RadPanelItemResource9.Value" xml:space="preserve">
+    <value>DocDelete</value>
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>s1</value>
+  </data>
+  <data name="rbtnQueryDeleteFlowResource1.Text" xml:space="preserve">
+    <value>View approval results</value>
+  </data>
+  <data name="suitableDepResource1.Text" xml:space="preserve">
+    <value>Applied Dep.</value>
+  </data>
+  <data name="suitableDepResource1.Value" xml:space="preserve">
+    <value>suitableDep</value>
+  </data>
+  <data name="TabDeleteResource1.Text" xml:space="preserve">
+    <value>Deleted Approval</value>
+  </data>
+  <data name="TabResource1.Text" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="TabResource2.Text" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="TabVoidResource1.Text" xml:space="preserve">
+    <value>Void Approval</value>
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>Copy document link</value>
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>CopyDocLink</value>
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>Copy revision link</value>
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>CopyVerLink</value>
+  </data>
+  <data name="lblVoidingResource1.Text" xml:space="preserve">
+    <value>(In Void Approval)</value>
+  </data>
+  <data name="lblDraftResource1.Text" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="lblChangeReasonResource1.Text" xml:space="preserve">
+    <value>Release/Update reason</value>
+  </data>
+  <data name="lblDocChangeReasonResource1.Text" xml:space="preserve">
+    <value>Reason for update</value>
+  </data>
+</root>

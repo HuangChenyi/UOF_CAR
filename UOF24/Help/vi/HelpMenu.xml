@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nodes>
+  <node id="" title="Personal Information" url="en-US/pip_00.htm">
+    <node id="Homepage" title="Home" url="en-US/pip_01.htm" />
+    <node id="Homepage/PersonalInformation" title="Profile" url="en-US/pip_02.htm" />
+    <node id="Homepage/PrivateMessage" title="Private Message" url="en-US/pip_03.htm" />      
+    <node id="Homepage/Briefcase" title="Briefcase" url="en-US/pip_04.htm" />
+    <node id="Homepage/AddressBook" title="Address Book" url="en-US/pip_05.htm" />
+  </node>
+    <node id="" title="Calendar" url="en-US/calendar_00.htm" >
+      <node id="Homepage/Calendar" title="How to Add and Modify a Work Item" url="en-US/calendar_01.htm" />
+      <node id="Homepage/Calendar" title="Work Progress Response" url="en-US/calendar_02.htm" />
+      <node id="Homepage/Calendar" title="Personnal Memo" url="en-US/calendar_03.htm" />
+      <node id="Homepage/Calendar" title="How to Convene a Meeting" url="en-US/calendar_04.htm" />
+      <node id="Homepage/Calendar" title="Cahier and Transfer the Conclusion to Assignment" url="en-US/calendar_05.htm" />
+      <node id="Homepage/Calendar" title="Response to Participate the Meeting or Not" url="en-US/calendar_06.htm" />
+      <node id="Homepage/Calendar" title="Set Personal Vacation" url="en-US/calendar_07.htm" />
+      <node id="Homepage/Calendar" title="Borrow Place and Equipment" url="en-US/calendar_08.htm" />
+      <node id="Homepage/Calendar" title="How to Give a Assignment to Subordinates and Colleagues" url="en-US/calendar_09.htm" />
+      <node id="Homepage/Calendar" title="View the Calendar or Affairs of the Department" url="en-US/calendar_10.htm" />
+      <node id="Homepage/Calendar" title="Assignment Progress Inquiry" url="en-US/calendar_11.htm" />
+      
+    </node>
+    
+    <node id="" title="Bulletin" url="en-US/bulletin_00.htm" >
+      <node id="Homepage/Bulletin" title="How to Browse and Subscribe the Announcement" url="en-US/bulletin_01.htm" />
+      <node id="Homepage" title="How to Publish an Announcement" url="en-US/bulletin_02.htm" />
+      <node id="Homepage" title="Announcement Management" url="en-US/bulletin_03.htm" />
+    </node>
+
+    <node id="" title="Forums" url="en-US/qa_00.htm" >
+      <node id="Homepage/Forum" title="Method of User's Reading Threads" url="en-US/qa_08.htm" />
+      <node id="Homepage/Forum" title="Add and Modify the Thread of Topic" url="en-US/qa_02.htm" />
+      <node id="Homepage/Forum" title="Reply Thread" url="en-US/qa_03.htm" />
+      <node id="Homepage/Forum" title="Recommend Thread or Article" url="en-US/qa_04.htm" />
+      <node id="Homepage/Forum" title="Search Thread" url="en-US/qa_05.htm" />
+      <node id="Homepage/Forum/ForumSetting/BoardSetting" title="Forum Management: Forum Setting" url="en-US/qa_01.htm" />
+      <node id="Homepage/Forum" title="What Is the Authority of Super Moderator?" url="en-US/qa_06.htm" />            
+      <node id="Homepage/Forum" title="What Is the Authority of Moderator?" url="en-US/qa_07.htm" />                  
+      <node id="Homepage/Forum/ForumSetting/ForumEssenceSetting" title="Digest Setting" url="en-US/qa_09.htm" />                  
+    </node>
+
+    <node id="" title="Booking Mgt." url="en-US/plant_00.htm" >
+      <node id="Homepage/Plant/PlantManagementGroup/PlantManagement" title="Resource Management" url="en-US/plant_01.htm" />
+      <node id="Homepage/Plant/PlantManagementGroup/BorrowManagement" title="Borrow Mgt." url="en-US/plant_02.htm" />
+      <node id="Homepage/Plant/PlantReport/BorwseBorrowRecord" title="Borrow Record" url="en-US/plant_03.htm" />
+    </node>
+    
+    <node id="" title="Vote Management" >
+      <node id="Homepage/Polling" title="Vote Management" url="en-US/vote_01.htm" />
+    </node>
+
+  <node id="" title="System Mgt." url="en-US/sys_00.htm">
+    <node id="" title="Organization Maintenance" >       
+      <node id="Homepage/System/OrganizationBaseData" title="Basic Data Maintenance" url="en-US/sys_09.htm" />
+       <node id="Homepage/System/OrganizationCalendar" title="Organization Calendar" url="en-US/sys_04.htm" />
+       <node id="Homepage/System/OrganizationEmployee" title="Internal Staff Maintenance" url="en-US/sys_01.htm" />
+       <node id="Homepage/System/OrganizationMember" title="External Member Maintenance" url="en-US/sys_08.htm" />      
+    </node>
+    <node id="" title="System Configuration" >
+       <node id="Homepage/System/" title="General Configuration Setting" url="en-US/sys_10.htm" />
+       <node id="Homepage/SystemConfigration/ConfigrationManager" title="Administrator Setting" url="en-US/sys_02.htm" />
+       <node id="Homepage/System/OrganizationMember" title="View Log" url="en-US/sys_07.htm" />
+       <node id="Homepage/SystemConfigration/SystemADConfig" title="AD Setting" url="en-us/sys_05.htm" />
+       <node id="Homepage/SystemConfigration/SystemLoginLogManage" title="Login Record Mgt." url="en-us/sys_06.htm" />
+
+       </node>
+    <node id="" title="License Management" >
+       <node id="Homepage/SystemAuthorize/SystemOnlineUser" title="On-line User Check and Force to Logout" url="en-US/sys_11.htm" />
+       <node id="Homepage/SystemAuthorize/SystemAuthorizationInfo" title="License Setting" url="en-US/sys_03.htm" />
+       <node id="Homepage/SystemAuthorize/SystemCustomMenu" title="Custom Menu" url="en-us/sys_12.htm" />
+     </node>
+     
+        <node id="" title="Statistic Analysis" >
+      <node id="" title="System Use Analysis" >
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisLoginCount" title="The Last Month Login User Statistic" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisNotLoginUser" title="Logout User Analysis" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUserPostCount" title="Announcement Publish Statistic" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUseFileSizeCount" title="Briefcase Capacity Statistic" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisMonthMessageCount" title="The Last Month Message Statistic" url="en-us/analyze_01.htm" />
+    </node>
+    <node id="" title="Human Resource Mgt. Analysis" >
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplEducation" title="Employee Academic Analysis" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplSkill" title="Employee Specialty Analysis" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplJobTitle" title="Employee Title Analysis" url="en-us/analyze_01.htm" />
+    </node>   
+    <node id="" title="Forum Analysis" >
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisAllForumPostArticles" title="Forum Publish Sum Analysis" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisRecentYearPostArticles" title="The Last Year Publish Sum Analysis" url="en-us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisForumUserInfo" title="The Last Month Forum User Information Statistic" url="en-us/analyze_01.htm" />          
+    </node>   
+
+     </node>
+  </node>
+  
+</Nodes>

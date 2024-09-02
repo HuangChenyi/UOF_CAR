@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Binding approver</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>Time of Reply</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Query by</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>Reason of inquiry</value>
+  </data>
+  <data name="DGIqySingleListResource3.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGIqySingleListResource3.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="DGIqySingleListResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGSignCommentListResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGSignCommentListResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="DGSignCommentListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalSiteMsgResource1.Text" xml:space="preserve">
+    <value>(Add-Stop)</value>
+  </data>
+  <data name="lblAdditionalSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgreeResource1.Text" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="lblAgreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantResultResource1.Text" xml:space="preserve">
+    <value>Applied result:</value>
+  </data>
+  <data name="lblApplicantResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblapplicationResource1.Text" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="lblapplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblASNameResource1.Text" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="lblASNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoSignResource1.Text" xml:space="preserve">
+    <value>(ကြန့်ကြာနေလျှင် အလိုအလျောက် ထောက်ခံသည်)</value>
+  </data>
+  <data name="lblAutoSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBackResource1.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCancelMsgResource1.Text" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="lblCancelMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCanelFormResource3.Text" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="lblCanelFormResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentResource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisagreeResource1.Text" xml:space="preserve">
+    <value>ငြင်းပယ်သည်</value>
+  </data>
+  <data name="lblDisagreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIQYInfoResource1.Text" xml:space="preserve">
+    <value>Information of Query</value>
+  </data>
+  <data name="lblIQYInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIqyUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLanApprovalResource1.Text" xml:space="preserve">
+    <value>贊成</value>
+  </data>
+  <data name="lblLanApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLanDisapprovalResource1.Text" xml:space="preserve">
+    <value>Oppose</value>
+  </data>
+  <data name="lblLanDisapprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLanOtherOpinionResource1.Text" xml:space="preserve">
+    <value>အခြား</value>
+  </data>
+  <data name="lblLanOtherOpinionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoCommentResource1.Text" xml:space="preserve">
+    <value>No comments</value>
+  </data>
+  <data name="lblNoCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNullResource1.Text" xml:space="preserve">
+    <value>Not yet approved</value>
+  </data>
+  <data name="lblNullResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrSignedResource1.Text" xml:space="preserve">
+    <value>It had approved by others</value>
+  </data>
+  <data name="lblOrSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOSNameResource1.Text" xml:space="preserve">
+    <value>Binding approver</value>
+  </data>
+  <data name="lblOSNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrintResource1.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="lblPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendResource1.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="lblSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignInfoResource1.Text" xml:space="preserve">
+    <value>Approval Routing and Status</value>
+  </data>
+  <data name="lblSignInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteResource1.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="lblSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSSStatusResource1.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblSSStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubFlowResource1.Text" xml:space="preserve">
+    <value>Sub-flow:</value>
+  </data>
+  <data name="lblSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubSignInfo0Resource1.Text" xml:space="preserve">
+    <value>’s approval information</value>
+  </data>
+  <data name="lblSubSignInfo0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaskResultResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaskResultResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Digital signature</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Being inquired</value>
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>應簽核者</value>
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>簽核者</value>
+  </data>
+</root>

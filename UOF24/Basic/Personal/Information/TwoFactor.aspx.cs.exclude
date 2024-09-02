@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Ede.Uof.EIP.SystemInfo;
+using Ede.Uof.Utility.Page.Common;
+using Ede.Uof.Utility.TwoFactorAuthentication;
+
+public partial class Basic_Personal_Information_TwoFactor : Ede.Uof.Utility.Page.BasePage
+{
+    protected string QrCodeContent
+    {
+        get { return (string)ViewState["QrCodeContent"]; }
+        set { ViewState["QrCodeContent"] = value; }
+    }
+    protected string TwoFactorKey
+    {
+        get { return (string)ViewState["TwoFactorKey"]; }
+        set { ViewState["TwoFactorKey"] = value; }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            if (string.IsNullOrEmpty(TwoFactorKey))
+            {
+                TwoFactorKey = Authenticator.GenerateSecretKey();
+
+                QrCodeContent = Authenticator.GenerateQrCodeUri(Current.Account, TwoFactorKey);
+
+
+            }
+        }
+
+        ((Master_DialogMasterPage) this.Master).Button1Text = Literal1.Text;
+        ((Master_DialogMasterPage)this.Master).Button1AutoCloseWindow = false;
+        ((Master_DialogMasterPage)this.Master).Button1OnClick += Basic_Personal_Information_TwoFactor_Button1OnClick;
+        ((Master_DialogMasterPage) this.Master).Button2Text = "";
+
+    }
+
+    void Basic_Personal_Information_TwoFactor_Button1OnClick()
+    {
+        if (!Authenticator.IsValid(TwoFactorKey, txtPinConfirm.Text))
+        {
+            cvTwoFactor.ErrorMessage = string.Format(cvTwoFactor.ErrorMessage, DateTime.Now);
+            cvTwoFactor.IsValid = false;
+        }
+        else
+        {
+            Dialog.Close(Page);
+        }
+    }
+}

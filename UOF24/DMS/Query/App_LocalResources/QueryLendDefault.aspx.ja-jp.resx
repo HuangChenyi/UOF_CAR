@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>リリース日</value>
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="gridDetailResource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="hyCommonuseResource1.Text" xml:space="preserve">
+    <value>よく使うドキュメントに追加</value>
+  </data>
+  <data name="imgAgentResource1.ToolTip" xml:space="preserve">
+    <value>サァブスクラァィブの代理設定</value>
+  </data>
+  <data name="imgPDFViewerResource1.AlternateText" xml:space="preserve">
+    <value>閲覧</value>
+  </data>
+  <data name="imgPDFViewerResource2.AlternateText" xml:space="preserve">
+    <value>閲覧</value>
+  </data>
+  <data name="labAlertResource1.Text" xml:space="preserve">
+    <value>ファイルを転換しているので、しばらくお待ちください。</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>変更時間：</value>
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>あらすじ</value>
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>キーワード：</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>表示方式：</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>作成者：</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>表示順番：</value>
+  </data>
+  <data name="Labela41Resource1.Text" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="Labela4Resource1.Text" xml:space="preserve">
+    <value>有効になる日</value>
+  </data>
+  <data name="Labela6Resource1.Text" xml:space="preserve">
+    <value>期限日：</value>
+  </data>
+  <data name="labFileErrorResource1.Text" xml:space="preserve">
+    <value>エラー、書類が見つかりません</value>
+  </data>
+  <data name="labNoActiveResource1.Text" xml:space="preserve">
+    <value>まだ有効になっていません</value>
+  </data>
+  <data name="labPDFConvertERRORResource1.Text" xml:space="preserve">
+    <value>エラーが発生しました。ファイルが転換できない！</value>
+  </data>
+  <data name="lblActiveResource1.Text" xml:space="preserve">
+    <value>有効になる</value>
+  </data>
+  <data name="lblAddUseErrorResource1.Text" xml:space="preserve">
+    <value>よく使うドキュメントに追加できなかった</value>
+  </data>
+  <data name="lblClassResource1.Text" xml:space="preserve">
+    <value>書類カテゴリー</value>
+  </data>
+  <data name="lblCommonuseResource1.Text" xml:space="preserve">
+    <value>よく使うドキュメントに追加</value>
+  </data>
+  <data name="lblConfirmAddResource1.Text" xml:space="preserve">
+    <value>お気入りに保存しますか？</value>
+  </data>
+  <data name="lblConfirmAddUseResource1.Text" xml:space="preserve">
+    <value>よく使うドキュメントに追加できなかった</value>
+  </data>
+  <data name="lblConfirmDeleteCommonListResource1.Text" xml:space="preserve">
+    <value>よく使うファイルからリムーブしますか？</value>
+  </data>
+  <data name="lblDeletingResource1.Text" xml:space="preserve">
+    <value>（廃止申請を審査中）</value>
+  </data>
+  <data name="lblDMSRootResource1.Text" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="lblDocInvalidResource1.Text" xml:space="preserve">
+    <value>此文件已下架、失效或作廢，無法觀看或下載</value>
+  </data>
+  <data name="lblDocNotFindResource1.Text" xml:space="preserve">
+    <value>フォームがアップデートする前に既に廃止されました</value>
+  </data>
+  <data name="lblDocNumResource1.Text" xml:space="preserve">
+    <value>ドキュメント番号：</value>
+  </data>
+  <data name="lblDocSerialResource1.Text" xml:space="preserve">
+    <value>書類番号：</value>
+  </data>
+  <data name="lblFileHasPasswordResource1.Text" xml:space="preserve">
+    <value>原始ファイルにはパスワードが設定してるので、ファイルの変更ができない</value>
+  </data>
+  <data name="lblFileNotTransferToUofResource1.Text" xml:space="preserve">
+    <value>ファイルはまだProxyサーバーにあってシステムによってファイルの転換を行うのでしばらくお待ちください。</value>
+  </data>
+  <data name="lblFilePageOutLimitMsgResource1.Text" xml:space="preserve">
+    <value>ファイルページ数はアップロードできるページ数制限数に超えるので、アップロードできません。</value>
+  </data>
+  <data name="lblFilePageOutLimitResource1.Text" xml:space="preserve">
+    <value>ページのファイル転換可能なページは{0}です</value>
+  </data>
+  <data name="lblFileResource1.Text" xml:space="preserve">
+    <value>ファイル名称</value>
+  </data>
+  <data name="lblFolderDelResource1.Text" xml:space="preserve">
+    <value>削除された</value>
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>無効になる</value>
+  </data>
+  <data name="lblLendOtherResource1.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="lblLendOtherResource2.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="lblManualVersionResource1.Text" xml:space="preserve">
+    <value>バージョン：</value>
+  </data>
+  <data name="lblNeverOverdueResource1.Text" xml:space="preserve">
+    <value>期限切れがない</value>
+  </data>
+  <data name="lblNoDLResource1.Text" xml:space="preserve">
+    <value>此文件目前不可下載</value>
+  </data>
+  <data name="lblNoFolderAuthorityResource1.Text" xml:space="preserve">
+    <value>無此目錄觀看權限</value>
+  </data>
+  <data name="lblNoLendResource1.Text" xml:space="preserve">
+    <value>此文件目前不允許調閱</value>
+  </data>
+  <data name="lblNotsupportDocResource1.Text" xml:space="preserve">
+    <value>ファイルの転換する必要ですが、このファイルのタイプはサポートしていません。</value>
+  </data>
+  <data name="lblPathResource1.Text" xml:space="preserve">
+    <value>ファイルパス:</value>
+  </data>
+  <data name="lblPrintUserResource1.Text" xml:space="preserve">
+    <value>オペレーター</value>
+  </data>
+  <data name="lblProtectMsgResource1.Text" xml:space="preserve">
+    <value>保護されてるファイルなので、オンラインで閲覧することができません</value>
+  </data>
+  <data name="lblPublishDateTextResource1.Text" xml:space="preserve">
+    <value>リリース日：</value>
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>リリース済み</value>
+  </data>
+  <data name="lblSatusTitleResource1.Text" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="lblSearchFolderDocResource1.Text" xml:space="preserve">
+    <value>下記のファイルを検索する：（名称、コード）</value>
+  </data>
+  <data name="lblSuccessAddResource1.Text" xml:space="preserve">
+    <value>お気に入りへ追加</value>
+  </data>
+  <data name="lblUpdatingResource1.Text" xml:space="preserve">
+    <value>バージョンがアップデートする</value>
+  </data>
+  <data name="lblViodingResource1.Text" xml:space="preserve">
+    <value>（廃止申請を審査中）</value>
+  </data>
+  <data name="lbtnAdvancedResource1.Text" xml:space="preserve">
+    <value>アドバンス</value>
+  </data>
+  <data name="lbtnCommonuseResource1.Text" xml:space="preserve">
+    <value>よく使うドキュメントに追加</value>
+  </data>
+  <data name="lbtnInfoResource1.Text" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="lbtnInfoResource2.Text" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>リスト</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>ListStyle</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>詳しい情報</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>DetailStyle</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>ファイル名称</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>DocName</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>ドキュメント番号：</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>DocSerial</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>作成者</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>DocAuthor</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>DocStatus</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>修正日</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>DocModifyDate</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>DocKeyWord</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>申請状況一覧</value>
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>書類コード</value>
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>書類名称</value>
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>作成者</value>
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>キーワード：</value>
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+</root>

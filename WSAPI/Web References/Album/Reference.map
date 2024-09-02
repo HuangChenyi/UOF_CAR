@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://localhost:25294/UOF11.60/PublicAPI/Album/Album.asmx?disco" filename="Album.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://localhost:25294/UOF11.60/PublicAPI/Album/Album.asmx?wsdl" filename="Album.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

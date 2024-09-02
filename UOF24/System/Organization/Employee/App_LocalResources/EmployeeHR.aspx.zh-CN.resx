@@ -1,0 +1,2748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="wdcMilitaryFromResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="Label47Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>AB</value>
+  </data>
+  <data name="TBarButtonResource8.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>人事数据</value>
+  </data>
+  <data name="ListItemResource38.Value" xml:space="preserve">
+    <value>PhysicalDisability</value>
+  </data>
+  <data name="ListItemResource34.Value" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>紧急通知人</value>
+  </data>
+  <data name="RadToolBarButtonResource24.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>回教</value>
+  </data>
+  <data name="TBarButtonResource11.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="lblTHResource1.Text" xml:space="preserve">
+    <value>泰文</value>
+  </data>
+  <data name="ListItemResource33.Text" xml:space="preserve">
+    <value>工读生</value>
+  </data>
+  <data name="BoundFieldResource32.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="gridExpResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmerMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label46Resource1.Text" xml:space="preserve">
+    <value>退伍职级</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource35.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource29.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource21.Value" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="txtEmpNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMilitaryDutyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOption5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarExpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource33.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMotherNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblESResource1.Text" xml:space="preserve">
+    <value>西班牙文</value>
+  </data>
+  <data name="RadToolBarButtonResource13.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>Buddhism</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>联络信息</value>
+  </data>
+  <data name="imgBigPictureResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermanentPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>有效期限</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>婚姻状况</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>Scorpio</value>
+  </data>
+  <data name="lblFalseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridLangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="cusValEmpNoResource1.ErrorMessage" xml:space="preserve">
+    <value>员工编号已与 {0} 重复</value>
+  </data>
+  <data name="lblRUResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblZHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource30.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSpouseJobResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>天蝎座</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource41.Text" xml:space="preserve">
+    <value>外籍人士</value>
+  </data>
+  <data name="lblKOResource1.Text" xml:space="preserve">
+    <value>韩文</value>
+  </data>
+  <data name="txtPermanentZipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>处女座</value>
+  </data>
+  <data name="RadToolBarButtonResource18.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="lblRankDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbListIdentityTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRankCResource1.Text" xml:space="preserve">
+    <value>甲上</value>
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="lbtnANNUALResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>Aries</value>
+  </data>
+  <data name="lblOption3Resource1.Text" xml:space="preserve">
+    <value>其他3</value>
+  </data>
+  <data name="ListItemResource35.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="lblBResource1.Text" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="lblIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="ListItemResource36.Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="BoundFieldResource34.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>星座</value>
+  </data>
+  <data name="lblTrueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBigPictureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource16.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridLicenseResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRankBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMilitaryServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.HeaderText" xml:space="preserve">
+    <value>印制号码</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>Cancer</value>
+  </data>
+  <data name="RadToolBarButtonResource16.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource44.Text" xml:space="preserve">
+    <value>请选择星座</value>
+  </data>
+  <data name="gridPrefResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="btnResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="lblCResource1.Text" xml:space="preserve">
+    <value>略懂</value>
+  </data>
+  <data name="ListItemResource23.Value" xml:space="preserve">
+    <value>Capricorn</value>
+  </data>
+  <data name="lblRankFResource1.Text" xml:space="preserve">
+    <value>丙</value>
+  </data>
+  <data name="Label63Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource2.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label39Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="lblTrueResource1.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>修业年限(迄)</value>
+  </data>
+  <data name="lblRankBResource1.Text" xml:space="preserve">
+    <value>优</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>天主教</value>
+  </data>
+  <data name="lblOption2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.Text" xml:space="preserve">
+    <value>子女</value>
+  </data>
+  <data name="TBLabelResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource29.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label57Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource20.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPresentPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="ListItemResource41.Value" xml:space="preserve">
+    <value>Foreign</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="lblITResource1.Text" xml:space="preserve">
+    <value>义大利文</value>
+  </data>
+  <data name="txtPayrollBankResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPhoneResource1.Text" xml:space="preserve">
+    <value>同上</value>
+  </data>
+  <data name="TBarButtonResource10.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="BoundFieldResource32.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="gridLangResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Label45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource8.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="gridExpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="txtOption2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.HeaderText" xml:space="preserve">
+    <value>说</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.HeaderText" xml:space="preserve">
+    <value>持照条件</value>
+  </data>
+  <data name="lblSelectCostCenterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="lblOption6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>离职日期</value>
+  </data>
+  <data name="Label33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPayrollAccResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="lbConfirmDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMilitaryTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblKOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>检定资格或证书</value>
+  </data>
+  <data name="lblOption5Resource1.Text" xml:space="preserve">
+    <value>其他5</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>证件字号</value>
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>其他教派</value>
+  </data>
+  <data name="ddlCostCenterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOption1Resource1.Text" xml:space="preserve">
+    <value>其他1</value>
+  </data>
+  <data name="gridDrivingResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="Label63Resource1.Text" xml:space="preserve">
+    <value>差勤</value>
+  </data>
+  <data name="txtMilitaryDutyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource37.Value" xml:space="preserve">
+    <value>Aborigine</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmerPhone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblITResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridDrivingResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label54Resource1.Text" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="Label43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>经历工龄</value>
+  </data>
+  <data name="txtChildrenCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label29Resource1.Text" xml:space="preserve">
+    <value>母</value>
+  </data>
+  <data name="lblNonGraduationResource1.Text" xml:space="preserve">
+    <value>肄业</value>
+  </data>
+  <data name="BoundFieldResource31.HeaderText" xml:space="preserve">
+    <value>等次</value>
+  </data>
+  <data name="BoundFieldResource25.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlBloodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarEduResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJAResource1.Text" xml:space="preserve">
+    <value>日文</value>
+  </data>
+  <data name="wdcMotherAgeResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFatherJobResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>己婚</value>
+  </data>
+  <data name="Label40Resource1.Text" xml:space="preserve">
+    <value>特殊身份</value>
+  </data>
+  <data name="RadToolBarButtonResource15.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMYResource1.Text" xml:space="preserve">
+    <value>马来文</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>牡羊座</value>
+  </data>
+  <data name="Label51Resource1.Text" xml:space="preserve">
+    <value>工本中心</value>
+  </data>
+  <data name="rbListMarriedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource22.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="TBLabelResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMotherNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>一贯道</value>
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>巨蟹座</value>
+  </data>
+  <data name="txtPresentAddrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblINResource1.Text" xml:space="preserve">
+    <value>印度文</value>
+  </data>
+  <data name="TBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMilitaryRankResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource33.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmpNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermanentAddrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>部门</value>
+  </data>
+  <data name="lblENResource1.Text" xml:space="preserve">
+    <value>英文</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="wdcMotherAgeResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="Label48Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource23.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="BoundFieldResource35.HeaderText" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="RadToolBarButtonResource19.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="lblNonEffDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Label28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>户籍地电话</value>
+  </data>
+  <data name="ListItemResource31.Value" xml:space="preserve">
+    <value>FullTime</value>
+  </data>
+  <data name="cbxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="cbAddrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridPrefResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource21.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource31.Text" xml:space="preserve">
+    <value>全职员工</value>
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>职业</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label55Resource1.Text" xml:space="preserve">
+    <value>工龄</value>
+  </data>
+  <data name="lblRankAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOption3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>职级</value>
+  </data>
+  <data name="TBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbListJobTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="TBarButtonResource5.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="lblRankDResource1.Text" xml:space="preserve">
+    <value>甲</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>通讯处电话</value>
+  </data>
+  <data name="RadToolBarButtonResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>户籍地址</value>
+  </data>
+  <data name="RadToolBarButtonResource14.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource9.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="ListItemResource29.Value" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="ListItemResource25.Value" xml:space="preserve">
+    <value>Pisces</value>
+  </data>
+  <data name="Label26Resource1.Text" xml:space="preserve">
+    <value>人数</value>
+  </data>
+  <data name="Label41Resource1.Text" xml:space="preserve">
+    <value>特殊身份相关附件</value>
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.Text" xml:space="preserve">
+    <value>银行别</value>
+  </data>
+  <data name="lblUserGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblINResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="Label47Resource1.Text" xml:space="preserve">
+    <value>服役期间</value>
+  </data>
+  <data name="lblUserGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>薪额</value>
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>最高学历</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="ListItemResource34.Text" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>Libra</value>
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>电话(公)</value>
+  </data>
+  <data name="txtOlderSibCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>邮政编码</value>
+  </data>
+  <data name="ListItemResource37.Text" xml:space="preserve">
+    <value>原住民</value>
+  </data>
+  <data name="txtMotherJobResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48Resource1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOption6Resource1.Text" xml:space="preserve">
+    <value>其他6</value>
+  </data>
+  <data name="txtOption2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDResource1.Text" xml:space="preserve">
+    <value>不会</value>
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="txtMilitaryServiceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>射手座</value>
+  </data>
+  <data name="lblRankEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label59Resource1.Text" xml:space="preserve">
+    <value>结算控制</value>
+  </data>
+  <data name="lblOption2Resource1.Text" xml:space="preserve">
+    <value>其他2</value>
+  </data>
+  <data name="Label36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource39.Text" xml:space="preserve">
+    <value>特困户</value>
+  </data>
+  <data name="Label59Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbNotSettResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label51Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPresentPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridDrivingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlConstellationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource20.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOlderSibCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAddrResource1.Text" xml:space="preserve">
+    <value>同上</value>
+  </data>
+  <data name="lblTHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource17.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="Label55Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="lblNonGraduationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource33.HeaderText" xml:space="preserve">
+    <value>新职等职级</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="gridExpResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="Label39Resource1.Text" xml:space="preserve">
+    <value>雇用型态</value>
+  </data>
+  <data name="txtBUResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSeniorityRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource18.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnEduResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>双鱼座</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>基督教</value>
+  </data>
+  <data name="txtSeniorityRemarkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label56Resource1.Text" xml:space="preserve">
+    <value>承认工龄</value>
+  </data>
+  <data name="ListItemResource45.Text" xml:space="preserve">
+    <value>请选择血型</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtPermanentPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValEmpNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="Label52Resource1.Text" xml:space="preserve">
+    <value>员工编号</value>
+  </data>
+  <data name="txtMilitaryTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label53Resource1.Text" xml:space="preserve">
+    <value>BU</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource45.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource1.Text" xml:space="preserve">
+    <value>工作经历：</value>
+  </data>
+  <data name="lblVNResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="txtPresentZipResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource7.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLevelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="Label53Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherResource1.Text" xml:space="preserve">
+    <value>其他外文</value>
+  </data>
+  <data name="txtOption6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="RadToolBarButtonResource23.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource40.Value" xml:space="preserve">
+    <value>MidIncome</value>
+  </data>
+  <data name="TBarButtonResource3.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="cbxResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>证件字号</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblARResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdmitedSeniorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPermanentAddrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource11.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>佛教</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33Resource1.Text" xml:space="preserve">
+    <value>兴趣专长</value>
+  </data>
+  <data name="TBLabelResource3.Text" xml:space="preserve">
+    <value>考试证照：</value>
+  </data>
+  <data name="txtOption4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>到职日期</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="RadToolBarButtonResource14.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>学校名称</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="txtAdmitedSeniorityResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarDrivingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>车照种类</value>
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="TBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>Virgo</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>Taurus</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>通讯处地址</value>
+  </data>
+  <data name="lblOption4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource24.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPHResource1.Text" xml:space="preserve">
+    <value>菲律宾文</value>
+  </data>
+  <data name="ListItemResource27.Value" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="BoundFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>信仰</value>
+  </data>
+  <data name="RadToolBarButtonResource11.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource24.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>Mormonism</value>
+  </data>
+  <data name="txtSpouseNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lblRankCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPayrollBankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValCardNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNonEffDateResource1.Text" xml:space="preserve">
+    <value>无期限</value>
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>邮政编码</value>
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOption1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.Text" xml:space="preserve">
+    <value>兵役</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36Resource1.Text" xml:space="preserve">
+    <value>银行帐号</value>
+  </data>
+  <data name="BoundFieldResource35.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource30.HeaderText" xml:space="preserve">
+    <value>总分</value>
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="lblVNResource1.Text" xml:space="preserve">
+    <value>越文</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="RadToolBarButtonResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="TBarButtonResource7.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="lblARResource1.Text" xml:space="preserve">
+    <value>阿拉伯文</value>
+  </data>
+  <data name="TBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label54Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadToolBarButtonResource24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridEduResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>请选择宗教</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource24.Value" xml:space="preserve">
+    <value>Aquarius</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="TBLabelResource6.Text" xml:space="preserve">
+    <value>历年考绩：</value>
+  </data>
+  <data name="TBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSpouseNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource22.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>YitKuanTao</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="lblGraduationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>金牛座</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Christianity</value>
+  </data>
+  <data name="TBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFalseResource1.Text" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="lblDEResource1.Text" xml:space="preserve">
+    <value>德文</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>电话(宅)</value>
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>毕业/肄业</value>
+  </data>
+  <data name="txtOption3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridLicenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBUResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGraduationResource1.Text" xml:space="preserve">
+    <value>毕业</value>
+  </data>
+  <data name="ListItemResource26.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource39.Value" xml:space="preserve">
+    <value>LowIncome</value>
+  </data>
+  <data name="ListItemResource35.Value" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="BoundFieldResource31.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRankFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource32.HeaderText" xml:space="preserve">
+    <value>原职等职级</value>
+  </data>
+  <data name="lblESResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>语言种类</value>
+  </data>
+  <data name="TBarButtonResource10.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="TBarButtonResource9.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource42.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="ListItemResource30.Value" xml:space="preserve">
+    <value>AB</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="btnEditResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridLicenseResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="RadToolBarButtonResource20.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectCostCenterResource1.Text" xml:space="preserve">
+    <value>请选择工本中心</value>
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>服务单位</value>
+  </data>
+  <data name="txtPresentAddrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label62Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Label52Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource32.Text" xml:space="preserve">
+    <value>兼职员工</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>Sagittarius</value>
+  </data>
+  <data name="lblZHResource1.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>Taoism</value>
+  </data>
+  <data name="RadToolBarPrefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label44Resource1.Text" xml:space="preserve">
+    <value>兵役军种</value>
+  </data>
+  <data name="txtPayrollAccResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label49Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label56Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>证照名称</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbNotPunchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>天秤座</value>
+  </data>
+  <data name="txtCardNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource28.Value" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="ListItemResource40.Text" xml:space="preserve">
+    <value>中特困户</value>
+  </data>
+  <data name="TBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>狮子座</value>
+  </data>
+  <data name="lblOption4Resource1.Text" xml:space="preserve">
+    <value>其他4</value>
+  </data>
+  <data name="RadToolBarButtonResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>魔羯座</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>单身</value>
+  </data>
+  <data name="lblIDResource1.Text" xml:space="preserve">
+    <value>印尼文</value>
+  </data>
+  <data name="RadToolBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource43.Text" xml:space="preserve">
+    <value>请选择宗教</value>
+  </data>
+  <data name="TBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>是否担任主管职</value>
+  </data>
+  <data name="gridPrefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteResource1.Text" xml:space="preserve">
+    <value>确实要删除吗?</value>
+  </data>
+  <data name="ListItemResource43.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>称谓</value>
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>父</value>
+  </data>
+  <data name="wdcFatherAgeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>生效日期</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMilitaryRankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource17.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridEduResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="wdcMotherAgeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtPermanentZipResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>血型</value>
+  </data>
+  <data name="wdcMotherAgeResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.HeaderText" xml:space="preserve">
+    <value>读</value>
+  </data>
+  <data name="Label49Resource1.Text" xml:space="preserve">
+    <value>兵役附件</value>
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="RadToolBarButtonResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.Text" xml:space="preserve">
+    <value>兄姐</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>个人其他数据</value>
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>管辖编号</value>
+  </data>
+  <data name="lblFRResource1.Text" xml:space="preserve">
+    <value>法文</value>
+  </data>
+  <data name="txtFatherJobResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPTResource1.Text" xml:space="preserve">
+    <value>葡萄牙文</value>
+  </data>
+  <data name="RadToolBarButtonResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>修业年限(起)</value>
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="lblJAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmerMobileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>家庭状况</value>
+  </data>
+  <data name="RadToolBarButtonResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnEFFEDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource21.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource42.Value" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Label50Resource1.Text" xml:space="preserve">
+    <value>卡片号码</value>
+  </data>
+  <data name="btnDeleteResource2.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource17.Value" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label45Resource1.Text" xml:space="preserve">
+    <value>兵科名称</value>
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="RadToolBarButtonResource22.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>Gemini</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>请选择血型</value>
+  </data>
+  <data name="RadToolBarLangResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValCardNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource23.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>Islam</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource44.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtYoungerSibCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSpouseJobResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValCardNoResource1.ErrorMessage" xml:space="preserve">
+    <value>卡片号码已与 {0} 重复</value>
+  </data>
+  <data name="ListItemResource38.Text" xml:space="preserve">
+    <value>身心障碍</value>
+  </data>
+  <data name="lblNLResource1.Text" xml:space="preserve">
+    <value>荷兰文</value>
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>院系科别</value>
+  </data>
+  <data name="txtFatherNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmerContactResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>年度</value>
+  </data>
+  <data name="Label30Resource1.Text" xml:space="preserve">
+    <value>弟妹</value>
+  </data>
+  <data name="cbNotSettResource1.Text" xml:space="preserve">
+    <value>不结算</value>
+  </data>
+  <data name="txtCardNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource2.Text" xml:space="preserve">
+    <value>学历：</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPresentZipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>年度</value>
+  </data>
+  <data name="BoundFieldResource29.HeaderText" xml:space="preserve">
+    <value>写</value>
+  </data>
+  <data name="txtChildrenCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>道教</value>
+  </data>
+  <data name="ddlSETTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadToolBarButtonResource13.Value" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label62Resource1.Text" xml:space="preserve">
+    <value>会进行结算，但不会处理刷卡相关数据(不会迟到或旷职)</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtYoungerSibCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValEmpNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblENResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="TBarButtonResource12.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>Catholicism</value>
+  </data>
+  <data name="BoundFieldResource34.HeaderText" xml:space="preserve">
+    <value>职务变动</value>
+  </data>
+  <data name="lbtnYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource19.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>摩门教</value>
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="ddlFaithResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>Leo</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtEmerPhone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>教育程度(学位)</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>请选择星座</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource34.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="lbConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>确实要删除?</value>
+  </data>
+  <data name="TBLabelResource5.Text" xml:space="preserve">
+    <value>语言能力：</value>
+  </data>
+  <data name="TBLabelResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource18.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAResource1.Text" xml:space="preserve">
+    <value>精通</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34Resource1.Text" xml:space="preserve">
+    <value>薪资帐户</value>
+  </data>
+  <data name="ListItemResource33.Value" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="Label29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="txtEmerPhone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource4.Text" xml:space="preserve">
+    <value>车照：</value>
+  </data>
+  <data name="cbNotPunchResource1.Text" xml:space="preserve">
+    <value>免刷卡</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="Label38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label57Resource1.Text" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="RadToolBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarLicenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridEduResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="ListItemResource36.Value" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="lblRankEResource1.Text" xml:space="preserve">
+    <value>乙</value>
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryFromResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>称谓</value>
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="txtEmerPhone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.Text" xml:space="preserve">
+    <value>配偶</value>
+  </data>
+  <data name="lblRankAResource1.Text" xml:space="preserve">
+    <value>特优</value>
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>离职原因</value>
+  </data>
+  <data name="RadToolBarButtonResource16.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label43Resource1.Text" xml:space="preserve">
+    <value>兵役役别</value>
+  </data>
+  <data name="Label40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>水瓶座</value>
+  </data>
+  <data name="txtOption3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37Resource1.Text" xml:space="preserve">
+    <value>帐户相关附件</value>
+  </data>
+  <data name="lblRUResource1.Text" xml:space="preserve">
+    <value>俄文</value>
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>取得日期</value>
+  </data>
+  <data name="wdcFatherAgeResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcMilitaryToResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="BoundFieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource12.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="txtEmerContactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbListMarriedResou承認年資rce1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource30.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFatherNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="Label44Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcSpouseAgeResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMotherJobResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.HeaderText" xml:space="preserve">
+    <value>听</value>
+  </data>
+  <data name="ListItemResource32.Value" xml:space="preserve">
+    <value>PartTime</value>
+  </data>
+  <data name="gridLangResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label38Resource1.Text" xml:space="preserve">
+    <value>工作型态</value>
+  </data>
+  <data name="RadToolBarButtonResource19.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource31.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="wdcMotherAgeResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>双子座</value>
+  </data>
+  <data name="cvAiraFaceIDResource1.ErrorMessage" xml:space="preserve">
+    <value>airaFce编号已与 {0} 重复</value>
+  </data>
+  <data name="lblAiraFaceIDResource1.Text" xml:space="preserve">
+    <value>airaFace编号</value>
+  </data>
+</root>

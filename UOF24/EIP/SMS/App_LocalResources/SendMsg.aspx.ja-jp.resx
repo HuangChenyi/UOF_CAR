@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>受信人</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>電話番号</value>
+  </data>
+  <data name="btnChooseReceiverResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnChooseReceiverResource1.Text" xml:space="preserve">
+    <value>送り対象を選択する</value>
+  </data>
+  <data name="btnChooseReceiverResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>送り対象をクリアする</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInsertCanMSGResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInsertCanMSGResource1.Text" xml:space="preserve">
+    <value>システムメッセージを挿入</value>
+  </data>
+  <data name="btnInsertCanMSGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>メッセージサーバーに接続出来ません。しばらく待ってまた再接続をしてみてください</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEndDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEndMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStartDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStartMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridReceiverResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridReceiverResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="GridReceiverResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>件名次数はメッセージの制限次数に含めません</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>送り対象</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>発送時間</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendSMSTip1Resource1.Text" xml:space="preserve">
+    <value>1. {#user}は発送する時に選択しているメンバーの名前に変更します</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.Text" xml:space="preserve">
+    <value>人で入力</value>
+  </data>
+  <data name="Label28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label29Resource1.Text" xml:space="preserve">
+    <value>人で入力について説明</value>
+  </data>
+  <data name="Label29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>残り数</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label30Resource1.Text" xml:space="preserve">
+    <value>記入方：携帯電話　スペース　名前</value>
+  </data>
+  <data name="Label30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.Text" xml:space="preserve">
+    <value>0912345678 宜靜</value>
+  </data>
+  <data name="Label31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.Text" xml:space="preserve">
+    <value>名前を入力しなくても良いです</value>
+  </data>
+  <data name="Label32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33Resource1.Text" xml:space="preserve">
+    <value>次の情報は次のフィールドに入力してください（一人は一つフィールドです）</value>
+  </data>
+  <data name="Label33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34Resource1.Text" xml:space="preserve">
+    <value>0987654321 大雄</value>
+  </data>
+  <data name="Label34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.Text" xml:space="preserve">
+    <value>例：</value>
+  </data>
+  <data name="Label35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>SMSs</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>入力した字数：</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>SMS件名</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>　件メッセージを発送済み</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendSMSTip2Resource1.Text" xml:space="preserve">
+    <value>2.メッセージ内容を文字化けにならないように、~ ` ^ { } [ ] | &lt; &gt;などを携帯メッセージに入力しないでください。</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>字</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbcounterResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbcounterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbExceptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmClearResource1.Text" xml:space="preserve">
+    <value>選択をクリアしますか？</value>
+  </data>
+  <data name="lblConfirmClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreditResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCreditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorMsgResource1.Text" xml:space="preserve">
+    <value>エラーの原因：</value>
+  </data>
+  <data name="lblSendResource1.Text" xml:space="preserve">
+    <value>発送する</value>
+  </data>
+  <data name="lblSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendRestrictResource1.Text" xml:space="preserve">
+    <value>発送制限</value>
+  </data>
+  <data name="lblSendRestrictResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbsmscnts_needResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbsmscnts_needResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>メッセージを発送する</value>
+  </data>
+  <data name="rbBirthdayOnlyResource1.Text" xml:space="preserve">
+    <value>誕生日主役にお祝いを発送：</value>
+  </data>
+  <data name="rbBirthdayOnlyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbBtnNowResource1.Text" xml:space="preserve">
+    <value>すぐに発送する</value>
+  </data>
+  <data name="rbBtnNowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbBtnReservationResource1.Text" xml:space="preserve">
+    <value>予約を発送</value>
+  </data>
+  <data name="rbBtnReservationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNoRestrictResource1.Text" xml:space="preserve">
+    <value>リミットしない</value>
+  </data>
+  <data name="rbNoRestrictResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdtpDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdtpDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdtpDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdtpDateResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdtpDateResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdtpDateResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdtpDateResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdtpDateResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rdtpDateResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtpDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdtpDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rfvContentResource1.ErrorMessage" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="rfvContentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvSubjectResource1.ErrorMessage" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="rfvSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManualResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdtTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendSMSTip3Resource1.Text" xml:space="preserve">
+    <value>3. SMSの最大長は 333 文字で、これを超える場合は分割して発送されます。</value>
+  </data>
+  <data name="lblSendSMSTip4Resource1.Text" xml:space="preserve">
+    <value>4.国際SMS（+886で始まらないもの）は、ポイント数の3倍で計算されます。</value>
+  </data>
+  <data name="lblSendSMSTipTitleResource1.Text" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="lblTipPoint1Resource1.Text" xml:space="preserve">
+    <value>1点</value>
+  </data>
+  <data name="lblTipPoint2Resource1.Text" xml:space="preserve">
+    <value>2点</value>
+  </data>
+  <data name="lblTipPoint3Resource1.Text" xml:space="preserve">
+    <value>3点</value>
+  </data>
+  <data name="lblTipPoint4Resource1.Text" xml:space="preserve">
+    <value>4点</value>
+  </data>
+  <data name="lblTipPoint5Resource1.Text" xml:space="preserve">
+    <value>5点</value>
+  </data>
+  <data name="lblTipText1Resource1.Text" xml:space="preserve">
+    <value>1~70字</value>
+  </data>
+  <data name="lblTipText2Resource1.Text" xml:space="preserve">
+    <value>71~134字</value>
+  </data>
+  <data name="lblTipText3Resource1.Text" xml:space="preserve">
+    <value>135~201字</value>
+  </data>
+  <data name="lblTipText4Resource1.Text" xml:space="preserve">
+    <value>202~268字</value>
+  </data>
+  <data name="lblTipText5Resource1.Text" xml:space="preserve">
+    <value>269~333字</value>
+  </data>
+  <data name="lblTipTitle1Resource1.Text" xml:space="preserve">
+    <value>內容文字数</value>
+  </data>
+  <data name="lblTipTitle2Resource1.Text" xml:space="preserve">
+    <value>ポイントの使用</value>
+  </data>
+</root>

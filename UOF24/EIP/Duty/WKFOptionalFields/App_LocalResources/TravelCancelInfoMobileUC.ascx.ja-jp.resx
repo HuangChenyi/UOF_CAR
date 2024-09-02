@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cvCheckTravelNbrResource1.ErrorMessage" xml:space="preserve">
+    <value>出勤時間の人事異動は既にクローズされましたので一切の変更はできません</value>
+  </data>
+  <data name="cvCheckTravelNbrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckTravelNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>職務代理者</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>出張申請書の番号</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>出張時間（開始時間）</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>出張時間（終了時間）</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>出発先</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>目的地（国/町）</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>出張目的</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>80kmを超えたら泊まる申請ができます</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>80kmを超えたら飛行機、または新幹線が乗れます</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccommodationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccommodationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>記入する権限が持っているメンバー</value>
+  </data>
+  <data name="lblAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepartureResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepartureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDestinaionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDestinaionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDomesticResource1.Text" xml:space="preserve">
+    <value>国内出張</value>
+  </data>
+  <data name="lblDomesticResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndDateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorTravelNbrResource1.Text" xml:space="preserve">
+    <value>出張申請書のフォームコードを選択してください</value>
+  </data>
+  <data name="lblErrorTravelNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFalseResource1.Text" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="lblFalseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForeignResource1.Text" xml:space="preserve">
+    <value>海外出張</value>
+  </data>
+  <data name="lblForeignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHasNoAuthorityResource1.Text" xml:space="preserve">
+    <value>記入する権限がない</value>
+  </data>
+  <data name="lblHasNoAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJobAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJobAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgSignerResource1.Text" xml:space="preserve">
+    <value>記入者</value>
+  </data>
+  <data name="lblMsgSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectMsgResource1.Text" xml:space="preserve">
+    <value>選択してください</value>
+  </data>
+  <data name="lblSelectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartDateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTextOfficePlace.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTextOfficePlaceResource1.Text" xml:space="preserve">
+    <value>場所時間帯</value>
+  </data>
+  <data name="lblToolTipMsgResource1.Text" xml:space="preserve">
+    <value>変更不能（読み込み専用）</value>
+  </data>
+  <data name="lblToolTipMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTransportResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTransportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTravelNbrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTravelNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTrueResource1.Text" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="lblTrueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rddlTravelNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgEditorResource1.Text" xml:space="preserve">
+    <value>修正者</value>
+  </data>
+</root>

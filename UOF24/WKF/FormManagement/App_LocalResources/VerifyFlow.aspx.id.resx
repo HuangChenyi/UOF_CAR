@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Berhenti</value>
+  </data>
+  <data name="cvApplicantResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvApplicantResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdSingleResultResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdSingleResultResource1.EmptyDataText" xml:space="preserve">
+    <value>Tidak ada data ditemukan</value>
+  </data>
+  <data name="gdSingleResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSiteResource1.Text" xml:space="preserve">
+    <value>Pemberitahuan berhenti</value>
+  </data>
+  <data name="lblAlertSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowEndSiteResource1.Text" xml:space="preserve">
+    <value>Anda dapat mengakhiri alur pada penghentian ini</value>
+  </data>
+  <data name="lblAllowEndSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowEndSubFlowResource1.Text" xml:space="preserve">
+    <value>Anda dapat mengakhiri sub-alur pada penghentian ini</value>
+  </data>
+  <data name="lblAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAndResource1.Text" xml:space="preserve">
+    <value>Multi-dan persetujuan</value>
+  </data>
+  <data name="lblAndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConditionExceptSiteResource1.Text" xml:space="preserve">
+    <value>Kondisi eror pada cabang penghentian</value>
+  </data>
+  <data name="lblConditionExceptSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustDesignFlowSiteResource1.Text" xml:space="preserve">
+    <value>Menyesuikan Penghentian</value>
+  </data>
+  <data name="lblCustDesignFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustGroupFlowSiteResource1.Text" xml:space="preserve">
+    <value>Pemilihan penghentian</value>
+  </data>
+  <data name="lblCustGroupFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCvMsgTextChoosePersonResource1.Text" xml:space="preserve">
+    <value>Pilih pemohon simulasi</value>
+  </data>
+  <data name="lblCvMsgTextChoosePersonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCvMsgTextJobTitleNotFoundMultipleResource1.Text" xml:space="preserve">
+    <value>Perlu mengatur posisi untuk anggota-anggota berikut untuk memproses simulasi</value>
+  </data>
+  <data name="lblCvMsgTextJobTitleNotFoundMultipleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCvMsgTextJobTitleNotFoundSingleResource1.Text" xml:space="preserve">
+    <value>Pemohon simulasi tidak punya posisi </value>
+  </data>
+  <data name="lblCvMsgTextJobTitleNotFoundSingleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCvMsgTextOnlySingleResource1.Text" xml:space="preserve">
+    <value>Simulasi tunggal dapat satu pilihan satu member</value>
+  </data>
+  <data name="lblCvMsgTextOnlySingleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCvMsgTextTooMuchApplicantResource1.Text" xml:space="preserve">
+    <value>Pemohon tiruan tidak bisa lebih dari 50 anggota.</value>
+  </data>
+  <data name="lblCvMsgTextTooMuchApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExternalFlowSiteResource1.Text" xml:space="preserve">
+    <value>APP berhenti</value>
+  </data>
+  <data name="lblExternalFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldFlowSiteResource1.Text" xml:space="preserve">
+    <value>Bidang organisasi</value>
+  </data>
+  <data name="lblFieldFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowResultSettingResource1.Text" xml:space="preserve">
+    <value>流程結果顯示：</value>
+  </data>
+  <data name="lblFlowResultSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lblGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsAssignByPreSiteResource1.Text" xml:space="preserve">
+    <value>Ditentukan berdasarkan pemberhentian sebelumnya</value>
+  </data>
+  <data name="lblIsAssignByPreSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgApplicantLimitResource1.Text" xml:space="preserve">
+    <value>Pemohon tiruan tidak bisa lebih dari 50 anggota, karena simulasi akan mengakibatkan masalah pelaksanaan sistem.</value>
+  </data>
+  <data name="lblMsgApplicantLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgProcessResource1.Text" xml:space="preserve">
+    <value>Memindahkan laporan di jadwal siste, silahkan unduh dari [unduh laporan yang dipindahkan)</value>
+  </data>
+  <data name="lblMsgProcessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowEndSiteResource1.Text" xml:space="preserve">
+    <value>Tidak bisa mengakhiri alur pada pengentian ini</value>
+  </data>
+  <data name="lblNotAllowEndSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowEndSubFlowResource1.Text" xml:space="preserve">
+    <value>Tidak bisa mengakhiri alur sub di penghentian ini</value>
+  </data>
+  <data name="lblNotAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotFindSignerExceptionResource1.Text" xml:space="preserve">
+    <value>Tidak dapat menemukan pemberi persetujuan</value>
+  </data>
+  <data name="lblNotFindSignerExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrResource1.Text" xml:space="preserve">
+    <value>Multi-atau persetujuan</value>
+  </data>
+  <data name="lblOrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParallelFlowResource1.Text" xml:space="preserve">
+    <value>Alur paralel</value>
+  </data>
+  <data name="lblParallelFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubFlowResource1.Text" xml:space="preserve">
+    <value>sub-alur :</value>
+  </data>
+  <data name="lblSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtChooseResource1.Text" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="lblTxtChooseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtErrorMultipleResource1.Text" xml:space="preserve">
+    <value>Memindahkan alur verifikasi</value>
+  </data>
+  <data name="lblTxtErrorMultipleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtExcuteVerifyFlowResource1.Text" xml:space="preserve">
+    <value>Verifikasi</value>
+  </data>
+  <data name="lblTxtExcuteVerifyFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtResultCorrectResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lblTxtResultCorrectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtResultErrorResource1.Text" xml:space="preserve">
+    <value>Abnormal</value>
+  </data>
+  <data name="lblTxtResultErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtSimulationApplicantResource1.Text" xml:space="preserve">
+    <value>Pemohon simulasi :</value>
+  </data>
+  <data name="lblTxtSimulationApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtSimulationDeptResource1.Text" xml:space="preserve">
+    <value>Departement pemohon tiruan :</value>
+  </data>
+  <data name="lblTxtSimulationDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtSimulationInfoResource1.Text" xml:space="preserve">
+    <value>Informasi simulasi</value>
+  </data>
+  <data name="lblTxtSimulationInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtSimulationResultSingleResource1.Text" xml:space="preserve">
+    <value>Hasil alur simulasi</value>
+  </data>
+  <data name="lblTxtSimulationResultSingleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtSimulationTypeResource1.Text" xml:space="preserve">
+    <value>Jenis simulasi</value>
+  </data>
+  <data name="lblTxtSimulationTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrgentResource1.Text" xml:space="preserve">
+    <value>緊急程度：</value>
+  </data>
+  <data name="lblUrgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="liHighResource1.Text" xml:space="preserve">
+    <value>急</value>
+  </data>
+  <data name="liHighResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="liMostUrgentResource1.Text" xml:space="preserve">
+    <value>緊急</value>
+  </data>
+  <data name="liMostUrgentResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="liNormalResource1.Text" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="liNormalResource1.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Alur simulasi</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Memindahkan laporan (Beberapa anggota diperbolehkan)</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>流程結束站點</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>FlowEnd</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>所有簽核者站點</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnlFlowResultSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Pemberi persetujuan</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Jenis persetujuan</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Mengakhiri alur</value>
+  </data>
+</root>

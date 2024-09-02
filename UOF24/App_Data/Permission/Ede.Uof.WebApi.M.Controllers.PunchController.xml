@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetLocationTimeInfo" AllowAll="True" />
+  <Action Name="GetBelongDate" AllowAll="True" />
+  <Action Name="GetUserPunchData" AllowAll="True" />
+  <Action Name="GetCheckIPIsIllegal" AllowAll="True" />
+  <Action Name="AddPunch" AllowAll="True" />
+  <Action Name="GetPositionList" AllowAll="True" />
+</Actions>

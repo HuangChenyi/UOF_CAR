@@ -1,0 +1,108 @@
+﻿<%@ Register Assembly="Ede.Uof.Utility.Component.Grid" Namespace="Ede.Uof.Utility.Component" TagPrefix="Fast" %>
+   
+<Fast:Grid runat="server" SelectedRowCssClass="GridItemSelected"  CellPadding="0" GridLines="None"  CssClass="Grid">
+   <AlternatingRowStyle  CssClass="GridItemAlternating" />
+   <HeaderStyle CssClass="GridHeader"/>    
+    <RowStyle CssClass="GridItem" />        
+    <PagerStyle CssClass="GridPager"   />
+    <EnhancePagerSettings 
+     FirstAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first_alt.gif"
+     FirstImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first.gif" 
+     LastAltImage="~/App_Themes/PinkWorld/images/grid/arrow_last_alt.gif" 
+     LastImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_last.gif" 
+     NextImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next.gif"
+     PreviousImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous.gif" 
+     NextIAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next_alt.gif"  
+     PreviousAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous_alt.gif" 
+     PageInfoCssClass="GridPagerPagerInfo" 
+     PageNumberCssClass="GridPagerNumber" 
+     PageNumberCurrentCssClass="GridPagerCurrentNumber" 
+     PageRedirectCssClass="GridPagerPagerInfoRedirect"
+     />     
+     <ExportExcelSettings CssClass="GridExportExcel" />
+</Fast:Grid>
+
+<Fast:Grid runat="server" SkinID="DMSStyle" SelectedRowCssClass="GridItemSelected" CellPadding="2"  CssClass="Grid"  PageSize="15">
+   <AlternatingRowStyle  CssClass="GridItemAlternating" />
+   <HeaderStyle CssClass="GridHeader"/>    
+    <RowStyle CssClass="GridItem" />        
+    <PagerStyle CssClass="GridPager"   />
+     <EnhancePagerSettings 
+     FirstAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first_alt.gif"
+     FirstImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first.gif" 
+     LastAltImage="~/App_Themes/PinkWorld/images/grid/arrow_last_alt.gif" 
+     LastImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_last.gif" 
+     NextImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next.gif"
+     PreviousImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous.gif" 
+     NextIAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next_alt.gif"  
+     PreviousAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous_alt.gif" 
+     PageInfoCssClass="GridPagerPagerInfo" 
+     PageNumberCssClass="GridPagerNumber" 
+     PageNumberCurrentCssClass="GridPagerCurrentNumber" 
+     PageRedirectCssClass="GridPagerPagerInfoRedirect"
+     />
+</Fast:Grid>
+
+
+<Fast:Grid runat="server" SkinID="ForumStyle" SelectedRowCssClass="GridItemSelected" CellPadding="2"  CssClass="Grid">
+   <AlternatingRowStyle  CssClass="GridItemAlternating1" />
+   <HeaderStyle CssClass="GridHeader"/>    
+    <RowStyle CssClass="GridItem1" />        
+    <PagerStyle CssClass="GridPager"   />
+     <EnhancePagerSettings 
+     FirstAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first_alt.gif"
+     FirstImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first.gif" 
+     LastAltImage="~/App_Themes/PinkWorld/images/grid/arrow_last_alt.gif" 
+     LastImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_last.gif" 
+     NextImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next.gif"
+     PreviousImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous.gif" 
+     NextIAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next_alt.gif"  
+     PreviousAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous_alt.gif" 
+     PageInfoCssClass="GridPagerPagerInfo" 
+     PageNumberCssClass="GridPagerNumber" 
+     PageNumberCurrentCssClass="GridPagerCurrentNumber" 
+     PageRedirectCssClass="GridPagerPagerInfoRedirect"
+     />
+</Fast:Grid>
+
+<Fast:Grid runat="server" SkinID="HomepageBlockStyle" SelectedRowCssClass="GridItemSelected" CellPadding="2"   PageSize="10">
+   <AlternatingRowStyle  CssClass="GridItemAlternating2" />
+   <HeaderStyle CssClass="GridHeader"/>    
+    <RowStyle CssClass="GridItem2" />        
+    <PagerStyle CssClass="GridPager2"   />
+    <EnhancePagerSettings 
+     FirstAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first_alt.gif"
+     FirstImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_first.gif" 
+     LastAltImage="~/App_Themes/PinkWorld/images/grid/arrow_last_alt.gif" 
+     LastImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_last.gif" 
+     NextImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next.gif"
+     PreviousImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous.gif" 
+     NextIAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_next_alt.gif"  
+     PreviousAltImageUrl="~/App_Themes/PinkWorld/images/grid/arrow_previous_alt.gif" 
+     PageInfoCssClass="GridPagerPagerInfo" 
+     PageNumberCssClass="GridPagerNumber" 
+     PageNumberCurrentCssClass="GridPagerCurrentNumber" 
+     PageRedirectCssClass="GridPagerPagerInfoRedirect"
+     ShowHeaderPager="false"
+     />
+</Fast:Grid>
+<Fast:Grid runat="server" SkinID="SearchStyle" SelectedRowCssClass="GridItemSelected" CellPadding="2"  CssClass="Grid">
+   <AlternatingRowStyle  CssClass="GridItemAlternating1S" />
+   <HeaderStyle CssClass="GridHeader"/>    
+    <RowStyle CssClass="GridItemS" />        
+    <PagerStyle CssClass="GridPager"   />
+    <EnhancePagerSettings 
+     FirstAltImageUrl="~/App_Themes/defaultTheme/images/grid/arrow_first_alt.gif"
+     FirstImageUrl="~/App_Themes/defaultTheme/images/grid/arrow_first.gif" 
+     LastAltImage="~/App_Themes/defaultTheme/images/grid/arrow_last_alt.gif" 
+     LastImageUrl="~/App_Themes/defaultTheme/images/grid/arrow_last.gif" 
+     NextImageUrl="~/App_Themes/defaultTheme/images/grid/arrow_next.gif"
+     PreviousImageUrl="~/App_Themes/defaultTheme/images/grid/arrow_previous.gif" 
+     NextIAltImageUrl="~/App_Themes/defaultTheme/images/grid/arrow_next_alt.gif"  
+     PreviousAltImageUrl="~/App_Themes/defaultTheme/images/grid/arrow_previous_alt.gif" 
+     PageInfoCssClass="GridPagerPagerInfo" 
+     PageNumberCssClass="GridPagerNumber" 
+     PageNumberCurrentCssClass="GridPagerCurrentNumber" 
+     PageRedirectCssClass="GridPagerPagerInfoRedirect"
+     />
+</Fast:Grid>

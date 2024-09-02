@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cvCheckExplainDaysResource1.ErrorMessage" xml:space="preserve">
+    <value>最大保存可能数を入力してください</value>
+  </data>
+  <data name="cvCheckExplainDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckExplainDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSelectFileResource1.ErrorMessage" xml:space="preserve">
+    <value>ファイルを選択してください</value>
+  </data>
+  <data name="cvCheckSelectFileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSelectFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSelectDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSelectMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hyLinkResource1.Text" xml:space="preserve">
+    <value>エクセルのサンプルをダウンロードする</value>
+  </data>
+  <data name="hyLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>インポートした年次</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>前年度の保留について設定</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>最大保存数</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>インポート書類を選択</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>昨年度資料</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>昨年度保留設定を選択すると、例えインポートしましたファイル
+の内容は昨年度の資料があっても今の情報の中にもインポートされてません。</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountNotExistResource1.Text" xml:space="preserve">
+    <value>アカウントは存在しない</value>
+  </data>
+  <data name="lblAccountNotExistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClickResource1.Text" xml:space="preserve">
+    <value>*ここにクリックするとエラーメッセージのコピーができる</value>
+  </data>
+  <data name="lblClickResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmMsgResource1.Text" xml:space="preserve">
+    <value>同じ年度の資料があれば、今回を作成しているデータを主なデータをします</value>
+  </data>
+  <data name="lblConfirmMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDaysResource1.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="lblDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblddlDayResource1.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="lblddlDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDomainErrorResource1.Text" xml:space="preserve">
+    <value>存在していない</value>
+  </data>
+  <data name="lblDomainErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorYearLeaveResource1.Text" xml:space="preserve">
+    <value>審査している休み申請書がまだあるので、年次有給休暇情報を産生できません</value>
+  </data>
+  <data name="lblErrorYearLeaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExplainDaysResource1.Text" xml:space="preserve">
+    <value>全部の年休資料を保存したい場合は0を入力してください</value>
+  </data>
+  <data name="lblExplainDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormatErrorResource1.Text" xml:space="preserve">
+    <value>インポートの方式が間違いました</value>
+  </data>
+  <data name="lblFormatErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHourssResource1.Text" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="lblHourssResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastYearLeaveDaysBeginNotDateResource1.Text" xml:space="preserve">
+    <value>昨年までに残った使用可能な日数は日付きフォーマットではありません</value>
+  </data>
+  <data name="lblLastYearLeaveDaysBeginNotDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastYearLeaveDaysDateRangeErrorResource1.Text" xml:space="preserve">
+    <value>昨年の残り使用可能な日数（終了時間）は使用可能な時間より早く記入することが不可です</value>
+  </data>
+  <data name="lblLastYearLeaveDaysDateRangeErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastYearLeaveDaysEndNotDateResource1.Text" xml:space="preserve">
+    <value>昨年度残り日数は記入しているフォーマットが日付きフォーマットではありません</value>
+  </data>
+  <data name="lblLastYearLeaveDaysEndNotDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastYearLeaveDaysLessThenZeroResource1.Text" xml:space="preserve">
+    <value>必ず0より大きい数字の入力をお願いします</value>
+  </data>
+  <data name="lblLastYearLeaveDaysLessThenZeroResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastYearLeaveDaysNotNumberResource1.Text" xml:space="preserve">
+    <value>必ず数字の入力をお願いします</value>
+  </data>
+  <data name="lblLastYearLeaveDaysNotNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveDaysBeginNotDateResource1.Text" xml:space="preserve">
+    <value>本年度休み可能な時間数フォーマットは日付きフォーマットではありません</value>
+  </data>
+  <data name="lblLeaveDaysBeginNotDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveDaysDateRangeErrorResource1.Text" xml:space="preserve">
+    <value>本年度休み可能な時間数フォーマットは日付きフォーマットではありません</value>
+  </data>
+  <data name="lblLeaveDaysDateRangeErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveDaysEndNotDateResource1.Text" xml:space="preserve">
+    <value>本年度休み可能な時間数フォーマットは日付きフォーマットではありません</value>
+  </data>
+  <data name="lblLeaveDaysEndNotDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveDaysLessThanZeroResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="lblLeaveDaysLessThanZeroResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveDaysNotNumberResource1.Text" xml:space="preserve">
+    <value>数字のみ入力可能です</value>
+  </data>
+  <data name="lblLeaveDaysNotNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaxStartResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblMaxStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMonthResource1.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="lblMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNeedInputResource1.Text" xml:space="preserve">
+    <value>入力必要です</value>
+  </data>
+  <data name="lblNeedInputResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthorityResource1.Text" xml:space="preserve">
+    <value>このメンバーのメンテ権限が見つかりませんので、資料修正した後再インポートをお願いします</value>
+  </data>
+  <data name="lblNoAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoFileResource1.Text" xml:space="preserve">
+    <value>ファイルをインストールしてください</value>
+  </data>
+  <data name="lblNoFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowCreateResource1.Text" xml:space="preserve">
+    <value>更新しました新しい年度資料がありました</value>
+  </data>
+  <data name="lblNotAllowCreateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowLastYearDaysResource1.Text" xml:space="preserve">
+    <value>昨年度残りの日数（時間数）は昨年度使用済みの日数（時間数）より少ないのはいけません</value>
+  </data>
+  <data name="lblNotAllowLastYearDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowYearDaysResource1.Text" xml:space="preserve">
+    <value>昨年度残りの日数（時間数）は昨年度使用済みの日数（時間数）より少ないのはいけません</value>
+  </data>
+  <data name="lblNotAllowYearDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotArraveDateResource1.Text" xml:space="preserve">
+    <value>社員の入社日を設定しなかった</value>
+  </data>
+  <data name="lblNotArraveDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotSetDateResource1.Text" xml:space="preserve">
+    <value>開始日を設定しません</value>
+  </data>
+  <data name="lblNotSetDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReasonResource1.Text" xml:space="preserve">
+    <value>インポートしました年休数</value>
+  </data>
+  <data name="lblReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultCountResource1.Text" xml:space="preserve">
+    <value>{0}件資料をインポートしました</value>
+  </data>
+  <data name="lblResultCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRowResource1.Text" xml:space="preserve">
+    <value>{0}番目のデータ</value>
+  </data>
+  <data name="lblRowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSetMHmemoResource1.Text" xml:space="preserve">
+    <value>保存時間を入力しないと保存時間はフォーム終了時間になります</value>
+  </data>
+  <data name="lblSetMHmemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnitResource1.Text" xml:space="preserve">
+    <value>日（時間）数</value>
+  </data>
+  <data name="lblUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearthLessThanZeroResource1.Text" xml:space="preserve">
+    <value>必ず0より大きい数字の入力をお願いします</value>
+  </data>
+  <data name="lblYearthLessThanZeroResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearthNotIntResource1.Text" xml:space="preserve">
+    <value>端数がない数字を入力してください</value>
+  </data>
+  <data name="lblYearthNotIntResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>インポートファイルによる</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>export</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>昨年保留設定による</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>lastYear</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>合計保存数</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>昨年年次有給休暇だけ保存</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>保留しない</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>年次有給休暇データをインポートする</value>
+  </data>
+  <data name="rbListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdDaysResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserNotActiveResource1.Text" xml:space="preserve">
+    <value>既に使用不可のアカウントです</value>
+  </data>
+  <data name="lblFileNotParseResource1.Text" xml:space="preserve">
+    <value>インポートした資料の読み取りが出来ない</value>
+  </data>
+</root>

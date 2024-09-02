@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>原稿控制</value>
+  </data>
+  <data name="labApproHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocNoApproveResource.Text" xml:space="preserve">
+    <value>文档不需审核</value>
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAcceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSecretResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="dateStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dateEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadPageView1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>文档名</value>
+  </data>
+  <data name="lblApprovingResource1.Text" xml:space="preserve">
+    <value>调阅审核中</value>
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="lblDocContentAttachResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileNotTransferToUofResource1.Text" xml:space="preserve">
+    <value>当前文件仍在Proxy服务器，正由系统进行传输中，请稍后！</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempInactResource1.Text" xml:space="preserve">
+    <value>已下架</value>
+  </data>
+  <data name="TabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>机密等级</value>
+  </data>
+  <data name="labUseDefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinishTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>已取出</value>
+  </data>
+  <data name="lblSecretmResource1.Text" xml:space="preserve">
+    <value>密</value>
+  </data>
+  <data name="dateStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadMultiPage1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labNoResource1.Text" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="lblUpdatingResource1.Text" xml:space="preserve">
+    <value>改版中</value>
+  </data>
+  <data name="TabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labApproveResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastApproveResource1.Text" xml:space="preserve">
+    <value>审核者：</value>
+  </data>
+  <data name="RadPageView3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTopSecretResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>调阅审核状态</value>
+  </data>
+  <data name="dateEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="dateStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDenyResource1.Text" xml:space="preserve">
+    <value>拒绝调阅</value>
+  </data>
+  <data name="dateEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>调阅申请状态</value>
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource3.Text" xml:space="preserve">
+    <value>审核意见</value>
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="labNoActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocIsDeleteResource1.Text" xml:space="preserve">
+    <value>文档已被销毁</value>
+  </data>
+  <data name="lblTempInactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="lblLastApproveUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTopSecretResource1.Text" xml:space="preserve">
+    <value>绝对机密</value>
+  </data>
+  <data name="labDocDenyResource1.Text" xml:space="preserve">
+    <value>发布拒绝</value>
+  </data>
+  <data name="TabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabApproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labUseDefResource1.Text" xml:space="preserve">
+    <value>简易审核</value>
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtApproveCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource3.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteLendResource.Text" xml:space="preserve">
+    <value>调阅数据已被删除，请重新申请调阅</value>
+  </data>
+  <data name="labDocStoreResource1.Text" xml:space="preserve">
+    <value>文档库</value>
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="lblVoidResource1.Text" xml:space="preserve">
+    <value>已作废</value>
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="TabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>至</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReActResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="lblXXSecretResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labNoActiveResource1.Text" xml:space="preserve">
+    <value>未实现</value>
+  </data>
+  <data name="lblWKFListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteLendResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="Label5Resource2.Text" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="dateStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="dateStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labApproveResultResource1.Text" xml:space="preserve">
+    <value>审核结果：</value>
+  </data>
+  <data name="TabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXSecretResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>调阅期限</value>
+  </data>
+  <data name="RadPageView5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="btnQueryFlowResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labSourceControlResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="labDocStoreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="lblXXSecretResource1.Text" xml:space="preserve">
+    <value>极机密</value>
+  </data>
+  <data name="lblFolderNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="btnQueryFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocIsDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinishTimeResource1.Text" xml:space="preserve">
+    <value>审核时间：</value>
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="btnQueryFlowResource1.Text" xml:space="preserve">
+    <value>观看流程</value>
+  </data>
+  <data name="TabResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>已公布</value>
+  </data>
+  <data name="lblViodingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="lblFileNotTransferToUofResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="dateStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViodingResource1.Text" xml:space="preserve">
+    <value>(作废审核中)</value>
+  </data>
+  <data name="lblInactiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labYesResource1.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="dateEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoApproveResource1.Text" xml:space="preserve">
+    <value>此目录无设置目录管理者，无法进行审核设置</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="lblNoApproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDownloadResource.Text" xml:space="preserve">
+    <value>下载文档</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="labApproveFlowResource1.Text" xml:space="preserve">
+    <value>引用审核流程</value>
+  </data>
+  <data name="ddlUseWKFListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>已失效</value>
+  </data>
+  <data name="labDocNoApproveResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtApproveCommentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="labWKFResource1.Text" xml:space="preserve">
+    <value>电子签核</value>
+  </data>
+  <data name="lblNormalResource1.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="lblLastApproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDownloadResource.Text		" xml:space="preserve">
+    <value>下载文档</value>
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>审核中</value>
+  </data>
+  <data name="labFlowTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="lblOldVerResource1.Text" xml:space="preserve">
+    <value>旧版本</value>
+  </data>
+  <data name="TabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDownloadResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocVersionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>附加文件</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labFlowTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource1.Text" xml:space="preserve">
+    <value>审核者</value>
+  </data>
+  <data name="lblCheckOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPageView4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLendReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReActResource1.Text" xml:space="preserve">
+    <value>已上架</value>
+  </data>
+  <data name="TabResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAcceptResource1.Text" xml:space="preserve">
+    <value>允许调阅</value>
+  </data>
+  <data name="TabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="labResultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="lblDocContentAttachResource1.Text" xml:space="preserve">
+    <value>附加文件：</value>
+  </data>
+  <data name="dateStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXSecretResource1.Text" xml:space="preserve">
+    <value>机密</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>审核模式：</value>
+  </data>
+  <data name="dateStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="lblCheckinResource1.Text" xml:space="preserve">
+    <value>已存回</value>
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>本文内容</value>
+  </data>
+  <data name="dateStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSecretResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="lblSecretmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPageView2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocContentResource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="txtLendReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="dateEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labWKFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFListResource1.Text" xml:space="preserve">
+    <value>审核流程：</value>
+  </data>
+  <data name="labSourceControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dateEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="TabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastApproveUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labApproHelpResource1.Text" xml:space="preserve">
+    <value>由下列任一人员审核通过即可</value>
+  </data>
+  <data name="TabResource2.Text" xml:space="preserve">
+    <value>调阅理由</value>
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labApproveFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOldVerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdatingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

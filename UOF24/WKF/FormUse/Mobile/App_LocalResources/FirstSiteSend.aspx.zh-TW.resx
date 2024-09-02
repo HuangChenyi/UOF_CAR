@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CustomValidatorCustSiteResource1.ErrorMessage" xml:space="preserve">
+    <value>下一站為自訂流程站點，請先定義自訂流程</value>
+  </data>
+  <data name="CustomValidatorCustSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorCustSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.ErrorMessage" xml:space="preserve">
+    <value>下一站為自選流程站點，請先定義自選流程</value>
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>(請輸入整數，0表示不啟動逾時)</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource2.Text" xml:space="preserve">
+    <value>簽核提醒頻率</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>自動送至下一站</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>小時</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>[0表示不設定]</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>[0表示不設定]</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>[0表示不設定]</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>站點資訊</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>相關訊息</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbeAgentMsgResource1.Text" xml:space="preserve">
+    <value>下列人員有啟動代理設定，但系統找不到他的代理人，表單將只會送給原簽核者!</value>
+  </data>
+  <data name="lbeAgentMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertHeadResource1.Text" xml:space="preserve">
+    <value>知會人員</value>
+  </data>
+  <data name="lblAlertHeadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertHeadResource2.Text" xml:space="preserve">
+    <value>知會人員</value>
+  </data>
+  <data name="lblAlertHeadResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSendByExceptResource1.Text" xml:space="preserve">
+    <value>你選擇了異常送出，表單將會送給電子簽核管理者，由其將表單轉為自由流程後送出，確定嗎？</value>
+  </data>
+  <data name="lblAlertSendByExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSiteUserSetResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSiteUserSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAndResource1.Text" xml:space="preserve">
+    <value>會簽</value>
+  </data>
+  <data name="lblAndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAssignAbleSiteResource1.Text" xml:space="preserve">
+    <value>指定站點</value>
+  </data>
+  <data name="lblAssignAbleSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAssignAbleSiteResource2.Text" xml:space="preserve">
+    <value>下一站點為[指定式站點]，請設定站點資訊後送出!&lt;br&gt;</value>
+  </data>
+  <data name="lblAssignAbleSiteResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndSiteMsgResource1.Text" xml:space="preserve">
+    <value>目前站點為流程中可簽核的最後一個站點，你確定要結案嗎？</value>
+  </data>
+  <data name="lblEndSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEroMsgCondExecResource1.Text" xml:space="preserve">
+    <value>條件異常</value>
+  </data>
+  <data name="lblEroMsgCondExecResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionResource1.Text" xml:space="preserve">
+    <value>表單異常</value>
+  </data>
+  <data name="lblExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionSendResource1.Text" xml:space="preserve">
+    <value>異常送出</value>
+  </data>
+  <data name="lblExceptionSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionStopSendMsgResource1.Text" xml:space="preserve">
+    <value>表單發生異常，請聯絡管理人員！</value>
+  </data>
+  <data name="lblExceptionStopSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExtAccountNotExistResource1.Text" xml:space="preserve">
+    <value>下一站點為[應用程式站點]，組件回傳的XML結構中的人員帳號未存在UOF系統中，請聯絡管理人員!&lt;br&gt;</value>
+  </data>
+  <data name="lblExtAccountNotExistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExtDllFormatErrorResource1.Text" xml:space="preserve">
+    <value>下一站點為[應用程式站點]，組件回傳的XML結構有誤，請聯絡管理人員!&lt;br&gt;</value>
+  </data>
+  <data name="lblExtDllFormatErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNumResource1.Text" xml:space="preserve">
+    <value>表單編號為:</value>
+  </data>
+  <data name="lblFormNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFreeSiteResource1.Text" xml:space="preserve">
+    <value>自由站點</value>
+  </data>
+  <data name="lblFreeSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFreeSiteResource2.Text" xml:space="preserve">
+    <value>下一站點為[自由流程站點]，請設定站點資訊後送出!&lt;br&gt;</value>
+  </data>
+  <data name="lblFreeSiteResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralResource1.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="lblGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralSiteResource1.Text" xml:space="preserve">
+    <value>一般站點</value>
+  </data>
+  <data name="lblGeneralSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHourResource1.Text" xml:space="preserve">
+    <value>小時</value>
+  </data>
+  <data name="lblHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsEndSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsEndSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsModifyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJobTitleMsgResource1.Text" xml:space="preserve">
+    <value>此人無設定職級，無法尋找節點！</value>
+  </data>
+  <data name="lblJobTitleMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJumpResource1.Text" xml:space="preserve">
+    <value>跳簽</value>
+  </data>
+  <data name="lblJumpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgConditionExceptResource1.Text" xml:space="preserve">
+    <value>!!流程條件異常，所以不能正確取得下一站點資訊，請修正表單，或按下異常送出，由管理人員將此表單轉成自由流程送出！&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgConditionExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgConditionExceptResource2.Text" xml:space="preserve">
+    <value>流程條件異常，請修正表單或聯絡管理人員修改流程，如果你選擇異常送出，則表單會由管理人員進行後續處理！&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgConditionExceptResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgConditionNoSendExceptResource1.Text" xml:space="preserve">
+    <value>流程條件異常，請修正表單或聯絡管理人員修改流程!&lt;br&gt;</value>
+  </data>
+  <data name="lblMsgConditionNoSendExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNextSiteInfoResource1.Text" xml:space="preserve">
+    <value>下一站點資訊</value>
+  </data>
+  <data name="lblNextSiteInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoSignerMsgResource1.Text" xml:space="preserve">
+    <value>錯誤！至少需有一名簽核人員</value>
+  </data>
+  <data name="lblNoSignerMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoSignerMsgResource2.Text" xml:space="preserve">
+    <value>沒有簽核人員，請修改下一站點資訊或聯絡管理人員修改流程，如果你選擇異常送出，則表單會由管理人員進行後續處理!&lt;br&gt;</value>
+  </data>
+  <data name="lblNoSignerMsgResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoSignerNoSendMsgResource1.Text" xml:space="preserve">
+    <value>沒有簽核人員，請修改下一站點資訊或聯絡管理人員修改流程!&lt;br&gt;</value>
+  </data>
+  <data name="lblNoSignerNoSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotifyAdminResource1.Text" xml:space="preserve">
+    <value>通知管理員</value>
+  </data>
+  <data name="lblNotifyAdminResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrResource1.Text" xml:space="preserve">
+    <value>並簽</value>
+  </data>
+  <data name="lblOrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnTxtResource1.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="lblReturnTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendMsgResource1.Text" xml:space="preserve">
+    <value>表單 {0} 已建立</value>
+  </data>
+  <data name="lblSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendResource1.Text" xml:space="preserve">
+    <value>送出</value>
+  </data>
+  <data name="lblSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignerHeadResource1.Text" xml:space="preserve">
+    <value>簽核人員</value>
+  </data>
+  <data name="lblSignerHeadResource2.Text" xml:space="preserve">
+    <value>簽核人員</value>
+  </data>
+  <data name="lblSignTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteExceptMsg1Resource1.Text" xml:space="preserve">
+    <value>站點異常：簽核型態為一般，簽核者只允許一位</value>
+  </data>
+  <data name="lblSiteExceptMsg1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteExceptMsg2Resource1.Text" xml:space="preserve">
+    <value>站點異常：找不到任何一位簽核者</value>
+  </data>
+  <data name="lblSiteExceptMsg2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteGeneralMsgResource1.Text" xml:space="preserve">
+    <value>錯誤！一般簽核只能有一位簽核者</value>
+  </data>
+  <data name="lblSiteGeneralMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteGeneralMsgResource2.Text" xml:space="preserve">
+    <value>一般站點不允許多人簽核，請修改下一站點資訊或聯絡管理人員修改流程，如果你選擇異常送出，則表單會由管理人員進行後續處理!&lt;br&gt;</value>
+  </data>
+  <data name="lblSiteGeneralMsgResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteGeneralNoSendMsgResource1.Text" xml:space="preserve">
+    <value>一般站點不允許多人簽核，請修改下一站點資訊或聯絡管理人員修改流程!&lt;br&gt;</value>
+  </data>
+  <data name="lblSiteGeneralNoSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteKindResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteKindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteKindResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteKindResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubmitTxtResource1.Text" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="lblSubmitTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSystemMsgResource1.Text" xml:space="preserve">
+    <value>系統訊息</value>
+  </data>
+  <data name="lblSystemMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeOutCommentResource1.Text" xml:space="preserve">
+    <value>[0表示不會逾時]</value>
+  </data>
+  <data name="lblTimeOutCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeOutCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeOutCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleSignKingResource1.Text" xml:space="preserve">
+    <value>簽核型態：</value>
+  </data>
+  <data name="lblTitleSignKingResource2.Text" xml:space="preserve">
+    <value>簽核型態</value>
+  </data>
+  <data name="lblTitleSiteKindResource1.Text" xml:space="preserve">
+    <value>站點類型：</value>
+  </data>
+  <data name="lblTitleSiteKindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleTimeOutCountResource1.Text" xml:space="preserve">
+    <value>站點逾時：</value>
+  </data>
+  <data name="lblTitleTimeOutCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleTimeOutCountResource2.Text" xml:space="preserve">
+    <value>逾時設定</value>
+  </data>
+  <data name="lblTitleTimeOutCountResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>並簽</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>會簽</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>表單簽核</value>
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>sShowFlow</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>sCustSite</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>sGroupSite</value>
+  </data>
+  <data name="RangeValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>此整數需介於0-1000</value>
+  </data>
+  <data name="RangeValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblSignTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>觀看表單流程</value>
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>觀看表單流程</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>ShowFlow</value>
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>定義自訂流程</value>
+  </data>
+  <data name="TBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Value" xml:space="preserve">
+    <value>CustSite</value>
+  </data>
+  <data name="TBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Text" xml:space="preserve">
+    <value>定義自選流程</value>
+  </data>
+  <data name="TBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Value" xml:space="preserve">
+    <value>GroupSite</value>
+  </data>
+  <data name="tbTimeoutCountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbTimeoutCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTimeoutCountResource2.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTimeoutCountResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAutoSignResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAutoSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleAlertResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebToolbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="webToolBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgUserDeptChangeResource1.Text" xml:space="preserve">
+    <value>申請者部門已變更！請關閉並重新申請。</value>
+  </data>
+  <data name="lblMsgUserDeptChangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthResource1.Text" xml:space="preserve">
+    <value>無權限處理或觀看此表單</value>
+  </data>
+  <data name="lblSignerSuspendedResource1.Text" xml:space="preserve">
+    <value>下一站簽核者帳號已被停用，表單送出後系統會同步通知管理員進行表單指定簽核，以避免影響簽核時效性。</value>
+  </data>
+  <data name="lblAdditionalSignResource1.Text" xml:space="preserve">
+    <value>由 {#User} 加簽</value>
+  </data>
+  <data name="lblCustomAutoNumberCreateFailedResource1.Text" xml:space="preserve">
+    <value>自訂編號錯誤：</value>
+  </data>
+  <data name="lblNoAllowApply.Text" xml:space="preserve">
+    <value>此張表單目前不允許申請</value>
+  </data>
+  <data name="lblExtAccountGroupNotExistResource1.Text" xml:space="preserve">
+    <value>下一站點為[應用程式站點]，組件回傳的XML結構中的簽核者資訊不正確，請聯絡管理人員!&lt;br&gt;</value>
+  </data>
+  <data name="lblExtAccountGroupNotExistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExtAccountTitleNotExistResource1.Text" xml:space="preserve">
+    <value>下一站點為[應用程式站點]，組件回傳的XML結構中的簽核者資訊不正確，請聯絡管理人員!&lt;br&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False" >
+	<Action Name="GetFirstPage" AllowAll="True" />
+  <Action Name="GetClassList" AllowAll="True" />
+  <Action Name="GetMovieList" AllowAll="True" />
+  <Action Name="GetMovieDetailList" AllowAll="True" />
+  <Action Name="AddViewCount" AllowAll="True" />
+</Actions>

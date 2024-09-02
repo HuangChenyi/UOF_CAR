@@ -1,0 +1,79 @@
+﻿.choice-group-plus {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+     display: inline-block;
+    background-image: url("images/choice/gc.png")
+}
+
+.choice-group-check {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+     display: inline-block;
+    background-image: url("images/choice/gp.png")
+}
+
+.choice-group-default {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), 
+        url(images/choice/gc.png) repeat 0 0;
+   
+}
+
+.choice-employee-check {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+     display: inline-block;
+    background-image: url("images/choice/employee.png")
+}
+
+.choice-employee-default {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), 
+        url(images/choice/employee.png) repeat 0 0;
+   
+}
+
+.choice-jobtitle-check {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+     display: inline-block;
+    background-image: url("images/choice/jobTitle.png")
+}
+
+.choice-jobtitle-default {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), 
+        url(images/choice/jobTitle.png) repeat 0 0;
+   
+}
+
+.choice-jobfunction-check {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+     display: inline-block;
+    background-image: url("images/choice/jobFunction.png")
+}
+
+.choice-jobfunction-default {
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+    display: inline-block;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), 
+        url(images/choice/jobFunction.png) repeat 0 0;
+   
+}

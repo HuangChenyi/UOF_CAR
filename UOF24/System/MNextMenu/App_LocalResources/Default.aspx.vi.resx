@@ -1,0 +1,3167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource1.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="btnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.Text" xml:space="preserve">
+    <value>Biên tập</value>
+  </data>
+  <data name="btnEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRegisterResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRegisterResource1.Text" xml:space="preserve">
+    <value>Đăng kí</value>
+  </data>
+  <data name="btnRegisterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableCaptchaResource1.Text" xml:space="preserve">
+    <value>Sử dụng (Theo mặc định, mã xác thực sẽ được gửi đến người dùng qua E-mail)</value>
+  </data>
+  <data name="cbEnableCaptchaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbFilterKeywordResource1.Text" xml:space="preserve">
+    <value>
+Lọc từ khóa</value>
+  </data>
+  <data name="cbFridayResource1.Text" xml:space="preserve">
+    <value>Thứ 6</value>
+  </data>
+  <data name="cbFridayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsActiveResource1.Text" xml:space="preserve">
+    <value>Khởi động </value>
+  </data>
+  <data name="cbIsActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMemberEnableResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMemberEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMondayResource1.Text" xml:space="preserve">
+    <value>Thứ 2</value>
+  </data>
+  <data name="cbMondayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPushCenterResource1.Text" xml:space="preserve">
+    <value>Khởi động Push Center</value>
+  </data>
+  <data name="cbPushCenterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPushNoDisturbResource1.Text" xml:space="preserve">
+    <value>Thời gian không được làm phiền</value>
+  </data>
+  <data name="cbPushNoDisturbResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSatday.Text" xml:space="preserve">
+    <value>Thứ 7</value>
+  </data>
+  <data name="cbSatday.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbScreenGuardEnableResource1.Text" xml:space="preserve">
+    <value>Khởi động </value>
+  </data>
+  <data name="cbScreenGuardEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbScreenGuardSendMsgResource1.Text" xml:space="preserve">
+    <value>khi chụp màn hinhd </value>
+  </data>
+  <data name="cbScreenGuardSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSendSMSResource1.Text" xml:space="preserve">
+    <value>Sử dụng đồng bộ SMS để gửi mã xác minh</value>
+  </data>
+  <data name="cbSendSMSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSundayResource1.Text" xml:space="preserve">
+    <value>Chủ nhật</value>
+  </data>
+  <data name="cbSundayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbThurdayResource1.Text" xml:space="preserve">
+    <value>Thứ 5</value>
+  </data>
+  <data name="cbThurdayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbTuesdayResource1.Text" xml:space="preserve">
+    <value>Thứ 3</value>
+  </data>
+  <data name="cbTuesdayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbUMiiServiceResource1.Text" xml:space="preserve">
+    <value>Khởi động </value>
+  </data>
+  <data name="cbUMiiServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbWednesdayResource1.Text" xml:space="preserve">
+    <value>Thứ 4</value>
+  </data>
+  <data name="cbWednesdayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkActive104EPayEnvelopeResource1.Text" xml:space="preserve">
+    <value>Cho phép người dùng có thể tìm kiếm bảng lương điện tử cá nhân</value>
+  </data>
+  <data name="chkActive104EPayEnvelopeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkActiveDeclarationPageResource1.Text" xml:space="preserve">
+    <value>Khởi động </value>
+  </data>
+  <data name="chkActiveDeclarationPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAppEventBoardEnableResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAppEventBoardEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ckMarqueeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ckMarqueeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDeclarationContent.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="cvDeclarationContentResource1.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="cvDeclarationContentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDeclarationContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDeclarationTitle.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="cvDeclarationTitleResource1.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="cvDeclarationTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDeclarationTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFilterKeywordAtLeastOneResource1.ErrorMessage" xml:space="preserve">
+    <value>
+Vui lòng đặt từ khóa</value>
+  </data>
+  <data name="cvPayEnvelopeSiteUrlResource1.ErrorMessage" xml:space="preserve">
+    <value>Vui lòng nhập URL</value>
+  </data>
+  <data name="cvPayEnvelopeSiteUrlResource1.Text" xml:space="preserve">
+    <value>Vui lòng nhập URL</value>
+  </data>
+  <data name="cvPayEnvelopeSiteUrlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvPushNoDisturbResource1.ErrorMessage" xml:space="preserve">
+    <value>Vui lòng đặt khoảng thời gian</value>
+  </data>
+  <data name="cvPushNoDisturbResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvPushNoDisturbResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvUChatKeepHistoryDayResource1.ErrorMessage" xml:space="preserve">
+    <value>Khoảng thời gian lưu giữ bản ghi trò chuyện phải dài hơn khoảng thời gian xem nội dung trò chuyện và khoảng thời gian lưu trữ tệp</value>
+  </data>
+  <data name="cvUChatKeepHistoryDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvUChatKeepHistoryDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="declarationPageSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FuncMenuSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFilterKeywordResource1.EmptyDataText" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="grdNavigationPageResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdNavigationPageResource1.EmptyDataText" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="grdNavigationPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlRedrectEventBoardResource1.Text" xml:space="preserve">
+    <value>Đi đến cài đặt</value>
+  </data>
+  <data name="hlRedrectEventBoardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HorizontalListItemResource.Text" xml:space="preserve">
+    <value>Mức độ phát</value>
+  </data>
+  <data name="HorizontalListItemResource.Value" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="HR104SetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hyImgInfoResource1.Text" xml:space="preserve">
+    <value>Mô tả lập bản đồ</value>
+  </data>
+  <data name="hyImgInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgdownResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgdownResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgInfoResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLogoResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgupResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>Chắc chắn bạn muốn xóa?</value>
+  </data>
+  <data name="lbConfirmDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl104MobilePayEnvelopeTitleResource1.Text" xml:space="preserve">
+    <value>104  lương điện tử</value>
+  </data>
+  <data name="lbl104MobilePayEnvelopeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl104PayEnvelopeSiteUrlResource1.Text" xml:space="preserve">
+    <value>Mạng cầm tiền lương</value>
+  </data>
+  <data name="lbl104PayEnvelopeSiteUrlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppBulletinResource1.Text" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="lblAppBulletinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountLimitMemo1Resource1.Text" xml:space="preserve">
+    <value>1. Khi được đặt thành 1, người dùng chỉ có thể liên kết một thiết bị di động để đăng nhập vào App
+ và các thiết bị di động khác không thể đăng nhập ngay cả khi tài khoản và mật khẩu chính xác.</value>
+  </data>
+  <data name="lblAppDeviceCountLimitMemo1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountLimitMemo2Resource1.Text" xml:space="preserve">
+    <value>2. Khi giới hạn số lượng ràng buộc, một người ngoại lệ có thể được đặt và người này 
+không bị giới hạn bởi số lượng thiết bị .</value>
+  </data>
+  <data name="lblAppDeviceCountLimitMemo2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountLimitResource1.Text" xml:space="preserve">
+    <value>Giới hạn số lượng thiết bị</value>
+  </data>
+  <data name="lblAppDeviceCountLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountMemoResource1.Text" xml:space="preserve">
+    <value>* Phạm vi nhập là 1 ~ 9</value>
+  </data>
+  <data name="lblAppDeviceCountMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountTitleResource1.Text" xml:space="preserve">
+    <value>Số lượng thiết bị di động có thể được liên kết với một tài khoản:</value>
+  </data>
+  <data name="lblAppDeviceCountTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppEventBoardefeildResource1.Text" xml:space="preserve">
+    <value>Dấu hiệu hoạt động</value>
+  </data>
+  <data name="lblAppEventBoardefeildResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppEventBoardEnableResource1.Text" xml:space="preserve">
+    <value>Khởi động </value>
+  </data>
+  <data name="lblAppEventBoardEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppEventBoardInfo1Resource1.Text" xml:space="preserve">
+    <value>1. Nhân viên quản lý có thể đặt nội dung hiển thị trên bản trong "Quản lý hệ thống \ Bản hoạt động thiết bị ".</value>
+  </data>
+  <data name="lblAppEventBoardInfo1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppEventBoardInfo2Resource1.Text" xml:space="preserve">
+    <value>2.Sau khi bắt đầu sử dụng, trang đầu của App sẽ hiển thị bảng hoạt động và lần lượt đưa các ảnh đã thiết lập</value>
+  </data>
+  <data name="lblAppEventBoardInfo2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppEventBoardTitleResource1.Text" xml:space="preserve">
+    <value>Dấu hiệu hoạt động</value>
+  </data>
+  <data name="lblAppEventBoardTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppLogoResource1.Text" xml:space="preserve">
+    <value>Đăng nhập trang biểu tương LOGO</value>
+  </data>
+  <data name="lblAppLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPPTasksOrderResource1.Text" xml:space="preserve">
+    <value>Thứ tự hiển thị</value>
+  </data>
+  <data name="lblAPPTasksOrderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArgumentErrResource1.Text" xml:space="preserve">
+    <value>Đăng ký thất bại: lỗi tham số</value>
+  </data>
+  <data name="lblArgumentErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicSetResource1.Text" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="lblBasicSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicSettingResource1.Text" xml:space="preserve">
+    <value>Thiết lập cơ bản </value>
+  </data>
+  <data name="lblBasicSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBPMResource1.Text" xml:space="preserve">
+    <value>Biểu đơn điện tử </value>
+  </data>
+  <data name="lblBPMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBulletinDirectionResource1.Text" xml:space="preserve">
+    <value>Phương thức phát</value>
+  </data>
+  <data name="lblBulletinDirectionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCaptchaMsg2Resource1.Text" xml:space="preserve">
+    <value>2. Sau khi bắt đầu sử dụng, một người ngoại lệ có thể được đặt và người này không bị hạn chế bởi xác minh thiết bị .</value>
+  </data>
+  <data name="lblCaptchaMsg2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCaptchaMsgResource1.Text" xml:space="preserve">
+    <value>1. Nếu bắt đầu sử dụng , người dùng cần nhập mật khẩu và mã xác thực cùng lúc khi đăng nhập vào APP lần đầu trên thiết bị mới.</value>
+  </data>
+  <data name="lblCaptchaMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChatReserveDayResource1.Text" xml:space="preserve">
+    <value>Khoảng thời gian lưu giữ cuộc trò chuyện trong phòng trò chuyện</value>
+  </data>
+  <data name="lblChatReserveDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmDeleteDeclarationRecordResource1.Text" xml:space="preserve">
+    <value>Sau khi ghi chép đồng ý, người dùng cần đồng ý lại với các mục tuyên bố khi đăng nhập vào lần tiếp theo trước khi sử dụng Ứng dụng. Bạn có chắc chắn muốn xóa không?</value>
+  </data>
+  <data name="lblConfirmDeleteDeclarationRecordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmForceLogoutResource1.Text" xml:space="preserve">
+    <value>Bạn có chắc chắn đăng xuất tất cả người dùng App đã đăng nhập không?</value>
+  </data>
+  <data name="lblConfirmForceLogoutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblday1Resource1.Text" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="lblday1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblday3Resource1.Text" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="lblday3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblday5Resource1.Text" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="lblday5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbldayResource1.Text" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="lbldayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeclarationContentResource1.Text" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="lblDeclarationContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeclarationNoticeResource1.Text" xml:space="preserve">
+    <value>Tuyên bố hạng mục bảo trì</value>
+  </data>
+  <data name="lblDeclarationNoticeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeclarationPageMsg1Resource1.Text" xml:space="preserve">
+    <value>1. Sau khi kiểm tra, người dùng phải đồng ý với tuyên bố khi đăng nhập trước khi sử dụng App.</value>
+  </data>
+  <data name="lblDeclarationPageMsg1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeclarationPageMsg2Resource1.Text" xml:space="preserve">
+    <value>2. Sau khi sửa đổi câu , nếu bạn muốn người dùng đồng ý lại với nội dung khi đăng nhập lần sau, vui lòng xóa bản ghi đồng ý sau khi lưu.</value>
+  </data>
+  <data name="lblDeclarationPageMsg2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeclarationPageMsg3Resource1.Text" xml:space="preserve">
+    <value>3. Khi hồ sơ đồng ý xóa, tất cả nhân viên sẽ đồng thời đăng xuất khỏi App.</value>
+  </data>
+  <data name="lblDeclarationPageMsg3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeclarationPageResource1.Text" xml:space="preserve">
+    <value>Trang tuyên bố</value>
+  </data>
+  <data name="lblDeclarationPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeclarationTitleResource1.Text" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="lblDeclarationTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelConfirmResource1.Text" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa mục đã chọn không?</value>
+  </data>
+  <data name="lbldialogTitleResource1.Text" xml:space="preserve">
+    <value>Thêm / Duy trì Trang Hướng dẫn</value>
+  </data>
+  <data name="lbldialogTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnableMarqueeResource1.Text" xml:space="preserve">
+    <value>Khởi động </value>
+  </data>
+  <data name="lblEnableMarqueeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEPayEnvelopeTitleResource1.Text" xml:space="preserve">
+    <value>Gói tiền lương điện tử</value>
+  </data>
+  <data name="lblEPayEnvelopeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionResource1.Text" xml:space="preserve">
+    <value>Nhân viên ngoại lệ</value>
+  </data>
+  <data name="lblExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilterKeywordTipResource1.Text" xml:space="preserve">
+    <value>Sau khi cài đặt, nếu chủ đề của tin nhắn phù hợp 
+với từ khóa, chương trình phát đẩy sẽ không được gửi và có thể đặt tối đa 10 nhóm.</value>
+  </data>
+  <data name="lblForceLogoutMemoResource1.Text" xml:space="preserve">
+    <value>Sau khi nhấp vào, tất cả người dùng ứng dụng đã đăng nhập có thể bị buộc đăng xuất.</value>
+  </data>
+  <data name="lblForceLogoutMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForceLogoutResource1.Text" xml:space="preserve">
+    <value>Đăng xuất bắt buộc</value>
+  </data>
+  <data name="lblForceLogoutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFuncMenuSetResource1.Text" xml:space="preserve">
+    <value>Cài đặt menu chức năng</value>
+  </data>
+  <data name="lblFuncMenuSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGroupNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGroupNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInfoResource1.Text" xml:space="preserve">
+    <value>* Có thể đặt tối đa ba trang. Sau khi bắt đầu sử dụng, trang điều hướng đã đặt sẽ chỉ được phát khi người dùng đăng nhập
+ vào App lần đầu </value>
+  </data>
+  <data name="lblInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsSaveResource1.Text" xml:space="preserve">
+    <value>Đã lưu lại</value>
+  </data>
+  <data name="lblIsSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsSaveResource2.Text" xml:space="preserve">
+    <value>Đã lưu lại</value>
+  </data>
+  <data name="lblIsSaveResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblItemCalendarResource1.Text" xml:space="preserve">
+    <value>Lịch hành trình</value>
+  </data>
+  <data name="lblItemCalendarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblItemMessageResource1.Text" xml:space="preserve">
+    <value>Tin nhắn cá nhân</value>
+  </data>
+  <data name="lblItemMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblItemUMiiResource1.Text" xml:space="preserve">
+    <value>UMii</value>
+  </data>
+  <data name="lblItemUMiiResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLicenseInvalidResource1.Text" xml:space="preserve">
+    <value>UOF không phải là phiên bản chính thức, thất bại đăng ký.</value>
+  </data>
+  <data name="lblLicenseInvalidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoginSetResource1.Text" xml:space="preserve">
+    <value>Cài đặt đăng nhập</value>
+  </data>
+  <data name="lblLoginSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLogoIconPathResource1.Text" xml:space="preserve">
+    <value>Biểu tượng logo</value>
+  </data>
+  <data name="lblLogoIconPathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbllogoSizeRemindResource1.Text" xml:space="preserve">
+    <value>Kích thước hình ảnh được đề xuất: 460 (W) * 160 (H)</value>
+  </data>
+  <data name="lbllogoSizeRemindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLogoutSetResource1.Text" xml:space="preserve">
+    <value>Cài đặt đăng xuất</value>
+  </data>
+  <data name="lblLogoutSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMailResource2.Text" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="lblMailResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMarqueeResource1.Text" xml:space="preserve">
+    <value>Đèn led</value>
+  </data>
+  <data name="lblMarqueeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuCommentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMNextTabGroupResource1.Text" xml:space="preserve">
+    <value>Nền tảng thông tin cá nhân</value>
+  </data>
+  <data name="lblMNextTabGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMobileIsMovieDownloadResource1.Text" xml:space="preserve">
+    <value>(Nếu tính năng này được sử dụng , tệp có thể được tải xuống thiết bị di động của người dùng)</value>
+  </data>
+  <data name="lblMobileIsMovieDownloadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmobilevaildResource1.Text" xml:space="preserve">
+    <value>Xác minh thiết bị di động</value>
+  </data>
+  <data name="lblmobilevaildResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNavigationPageSetResource1.Text" xml:space="preserve">
+    <value>Cài đặt trang điều hướng</value>
+  </data>
+  <data name="lblNavigationPageSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoLicenseResource1.Text" xml:space="preserve">
+    <value>Bạn cần mua giấy phép để sử dụng</value>
+  </data>
+  <data name="lblNoLicenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotSupportResource1.Text" xml:space="preserve">
+    <value>Không thể duy trì hộp kiểm này, có nghĩa là thiết bị di động chưa hỗ trợ hoặc bản quyền chưa được kích hoạt</value>
+  </data>
+  <data name="lblNotSupportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPayEnvelopeRemark1Resource1.Text" xml:space="preserve">
+    <value>1. Chỉ sử dụng được chức năng này sau khi mua thêm từ 104,chi tiết vui lòng liên hệ kinh doanh 104</value>
+  </data>
+  <data name="lblPayEnvelopeRemark1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPayEnvelopeRemark2_1Resource1.Text" xml:space="preserve">
+    <value>Ví dụ: http://My104PortalSite/wfmobileweb…</value>
+  </data>
+  <data name="lblPayEnvelopeRemark2_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPayEnvelopeRemark2_2Resource1.Text" xml:space="preserve">
+    <value>Sau khi đánh dấu vào ô này, bảng [104 Túi lương điện tử] sẽ được hiển thị trên bảng điều khiển cá nhân của thiết bị di động và có thể truy vấn nội dung của túi lương cá nhân.</value>
+  </data>
+  <data name="lblPayEnvelopeRemark2_2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPayEnvelopeRemark2Resource1.Text" xml:space="preserve">
+    <value>2. Vui lòng nhập URL trang web của túi lương 104 ở trên trước khi bắt đầu sử dụng</value>
+  </data>
+  <data name="lblPayEnvelopeRemark2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProcessFailResource1.Text" xml:space="preserve">
+    <value>Đăng ký thất bại: Xử lý thất bại, thường là do lỗi PushCenter nội bộ</value>
+  </data>
+  <data name="lblProcessFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPunchResource1.Text" xml:space="preserve">
+    <value>Quẹt thẻ trực tuyến</value>
+  </data>
+  <data name="lblPunchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushFilterKeywordDialogAddTitleResource1.Text" xml:space="preserve">
+    <value>Thêm từ khóa</value>
+  </data>
+  <data name="lblPushFilterKeywordResource1.Text" xml:space="preserve">
+    <value>Lọc cài đặt từ khóa</value>
+  </data>
+  <data name="lblPushinfoResource1.Text" xml:space="preserve">
+    <value>Thông báo đẩy</value>
+  </data>
+  <data name="lblPushinfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushNoDisturbDescResource1.Text" xml:space="preserve">
+    <value>Nếu thứ Hai 18: 00 ~ 08: 00 được đặt làm khoảng thời gian không làm phiền, người dùng sẽ không nhận  từ 18:00 thứ Hai đến 08:00 thứ Ba, ngoại trừ các trường hợp ngoại lệ.</value>
+  </data>
+  <data name="lblPushNoDisturbDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushNoDisturbEndtimeResource1.Text" xml:space="preserve">
+    <value>Thời gian kết thúc</value>
+  </data>
+  <data name="lblPushNoDisturbEndtimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushNoDisturbExpUserResource1.Text" xml:space="preserve">
+    <value>Nhân viên ngoại lệ</value>
+  </data>
+  <data name="lblPushNoDisturbExpUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushNoDisturbStarttimeResource1.Text" xml:space="preserve">
+    <value>Thời gian bắt đầu</value>
+  </data>
+  <data name="lblPushNoDisturbStarttimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushsettingResource1.Text" xml:space="preserve">
+    <value>Thiết lập đẩy</value>
+  </data>
+  <data name="lblPushsettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRangeResource1.Text" xml:space="preserve">
+    <value>
+Phạm vi hiển thị</value>
+  </data>
+  <data name="lblRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRegisterFailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRegisterFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRegisterOKResource1.Text" xml:space="preserve">
+    <value>Đăng kí thành công</value>
+  </data>
+  <data name="lblRegisterOKResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScreenGuardExceptResource1.Text" xml:space="preserve">
+    <value>Nhân viên ngoại lệ</value>
+  </data>
+  <data name="lblScreenGuardExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScreenGuardMemoResource1.Text" xml:space="preserve">
+    <value>* Sau khi kích hoạt, hệ thống Android hoàn toàn có thể cấm chụp màn hình, còn hệ thống iOS sẽ chỉ hiển thị thông báo
+ nhắc nhở, ghi lại thời gian chụp màn hình.</value>
+  </data>
+  <data name="lblScreenGuardMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScreenGuardTitleResource1.Text" xml:space="preserve">
+    <value>Phát hiện chụp ảnh màn hình</value>
+  </data>
+  <data name="lblScreenGuardTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSecurityTitleResource1.Text" xml:space="preserve">
+    <value>Bảo mật dữ liệu</value>
+  </data>
+  <data name="lblSecurityTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteSearchCommentResource1.Text" xml:space="preserve">
+    <value>Để sử dụng  tìm kiếm, cần mua công cụ tìm kiếm </value>
+  </data>
+  <data name="lblSiteSearchCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSMSResource2.Text" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="lblSMSResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStar2Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStar2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStarResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToBeSignFormResource1.Text" xml:space="preserve">
+    <value>Biểu mẫu đang chờ xử lý</value>
+  </data>
+  <data name="lblToBeSignFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbltxtVaildInfoResource1.Text" xml:space="preserve">
+    <value>* Có thể nhập tối đa 20 ký tự</value>
+  </data>
+  <data name="lbltxtVaildInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUChatKeepDayMemoResource1.Text" xml:space="preserve">
+    <value>Người dùng có thể xem nội dung cuộc nói chuyện trong kì hạn</value>
+  </data>
+  <data name="lblUChatKeepDayMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUChatKeepDayResource1.Text" xml:space="preserve">
+    <value>Thời gian xem nội dung trò chuyện</value>
+  </data>
+  <data name="lblUChatKeepDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUChatKeepFileDayMemoResource1.Text" xml:space="preserve">
+    <value>Tất cả các tệp trong cuộc trò chuyện chỉ có thể được xem hoặc tải xuống trong những ngày lưu trữ</value>
+  </data>
+  <data name="lblUChatKeepFileDayMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUChatKeepFileDayResource1.Text" xml:space="preserve">
+    <value>Thời gian lưu giữ tệp</value>
+  </data>
+  <data name="lblUChatKeepFileDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUChatKeepHistoryDayMemoResource1.Text" xml:space="preserve">
+    <value>Hệ thống sẽ tự động xóa tất cả lịch sử trò chuyện lưu giữ những ngày trước đó</value>
+  </data>
+  <data name="lblUChatKeepHistoryDayMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUChatKeepHistoryDayResource1.Text" xml:space="preserve">
+    <value>Khoảng thời gian lưu trữ lịch sử trò chuyện</value>
+  </data>
+  <data name="lblUChatKeepHistoryDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUChatSettingResource1.Text" xml:space="preserve">
+    <value>Thiết lập Uchat</value>
+  </data>
+  <data name="lblUChatSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUMiiAgentResource1.Text" xml:space="preserve">
+    <value>Dịch vụ hỗ trợ thông minh</value>
+  </data>
+  <data name="lblUMiiAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUMiiServiceFailResource1.Text" xml:space="preserve">
+    <value>Đăng kí thất bại</value>
+  </data>
+  <data name="lblUMiiServiceFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUMiiServiceResource1.Text" xml:space="preserve">
+    <value>Cài đặt dịch vụ</value>
+  </data>
+  <data name="lblUMiiServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUMiiServiceSuccessResource1.Text" xml:space="preserve">
+    <value>Đăng kí thành công</value>
+  </data>
+  <data name="lblUMiiServiceSuccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUofIsLockedResource1.Text" xml:space="preserve">
+    <value>Đăng ký thất bại: UOF bị khóa bởi PushCenter và không thể hoạt động</value>
+  </data>
+  <data name="lblUofIsLockedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtndownResource1.Text" xml:space="preserve">
+    <value>Chuyển xuống</value>
+  </data>
+  <data name="lbtndownResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnNavigationNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnNavigationNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnupResource1.Text" xml:space="preserve">
+    <value>Chuyển lên</value>
+  </data>
+  <data name="lbtnupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Sắp xếp theo thời gian từ mới nhất đến cũ nhất</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>ASC</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Sắp xếp theo thời gian từ mới nhất đến cũ nhất</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>DESC</value>
+  </data>
+  <data name="MemberEnabledResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MemberEnabledResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MemberEnabledResource1.HeaderText" xml:space="preserve">
+    <value>kích hoạt bên ngoài</value>
+  </data>
+  <data name="ModuleSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavigationInfoResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavigationInfoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavigationInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NavigationInfoResource1.Value" xml:space="preserve">
+    <value>NavigationInfo</value>
+  </data>
+  <data name="navigationNameResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="navigationNameResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="navigationNameResource1.HeaderText" xml:space="preserve">
+    <value>Tên gọi</value>
+  </data>
+  <data name="navigationOrderResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="navigationOrderResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="navigationOrderResource1.HeaderText" xml:space="preserve">
+    <value>Thứ tự phát</value>
+  </data>
+  <data name="navigationPageInfoResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="navigationPageInfoResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="navigationPageInfoResource1.HeaderText" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="navigationPageSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource2.Title" xml:space="preserve">
+    <value>Thiết lập chức năng</value>
+  </data>
+  <data name="PanelAppDeviceExceptUsersResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelAppDeviceExceptUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plLoginExceptionResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plLoginExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnForceLogoutResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnForceLogoutResource1.Text" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="RadBtnForceLogoutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnUMiiServiceResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnUMiiServiceResource1.Text" xml:space="preserve">
+    <value>Đăng kí</value>
+  </data>
+  <data name="RadBtnUMiiServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadMultiPage1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumAppDeviceCountResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumAppDeviceCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumUChatKeepDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumUChatKeepDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumUChatKeepFileDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumUChatKeepFileDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumUChatKeepHistoryDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumUChatKeepHistoryDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>Cài đặt menu chức năng</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>FuncMenuSet</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>Thiết lập cơ bản </value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>BasicSet</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>Cài đặt trang điều hướng</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>NavigationPageSet</value>
+  </data>
+  <data name="RadTabResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>Cài đặt trang tuyên bố</value>
+  </data>
+  <data name="RadTabResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Value" xml:space="preserve">
+    <value>DeclarationPageSet</value>
+  </data>
+  <data name="RadTabResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.Text" xml:space="preserve">
+    <value>Cài đặt mô-đun</value>
+  </data>
+  <data name="RadTabResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.Value" xml:space="preserve">
+    <value>ModuleSet</value>
+  </data>
+  <data name="RadTabResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.Text" xml:space="preserve">
+    <value>Thiết lập 104</value>
+  </data>
+  <data name="RadTabResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.Value" xml:space="preserve">
+    <value>HR104Set</value>
+  </data>
+  <data name="RadTabStrip1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>Msg</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value>IsActive</value>
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value>Lưu trữ</value>
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="radToolBarDeclarationSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarHR104SetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarModuleSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarNavigationPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarResource10.Text" xml:space="preserve">
+    <value>Xóa ghi chép đồng ý</value>
+  </data>
+  <data name="radToolBarResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarResource10.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="radToolBarResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarResource9.Text" xml:space="preserve">
+    <value>Lưu trữ</value>
+  </data>
+  <data name="radToolBarResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarResource9.Value" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="radToolBarSaveBtnResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarSaveBtnResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarSaveBtnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radToolBarSaveBtnResource1.Value" xml:space="preserve">
+    <value>Msg</value>
+  </data>
+  <data name="rblBulletinDirectionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblItem1Resource1.Text" xml:space="preserve">
+    <value>Hiển thị tất cả các biểu mẫu đang chờ xử lý</value>
+  </data>
+  <data name="rblItem1Resource1.Value" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="rblItem2Resource1.Text" xml:space="preserve">
+    <value>Chỉ hiển thị các biểu mẫu cho phép kí duyệt trên thiết bị di động</value>
+  </data>
+  <data name="rblItem2Resource1.Value" xml:space="preserve">
+    <value>appEnabled</value>
+  </data>
+  <data name="rblToBeSignFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnAppDeviceCountLimitResource1.Text" xml:space="preserve">
+    <value>Số lượng Giới hạn ràng buộc:</value>
+  </data>
+  <data name="rbtnAppDeviceCountLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnAppDeviceCountUnlimitResource1.Text" xml:space="preserve">
+    <value>Không hạn chế</value>
+  </data>
+  <data name="rbtnAppDeviceCountUnlimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnChatReserveDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnChatReserveDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushFriEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushFriStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushFriStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushMonEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushMonStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushMonStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushSatEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSatStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushSatStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushSunEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushSunStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushSunStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushThurEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushThurStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushThurStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushTuesEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushTuesStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushTuesStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushWednesEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtpNoPushWednesStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rtpNoPushWednesStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Tên chức năng</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Cho phép nội bộ sử dụng</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value>zh-TW</value>
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>繁體中文</value>
+  </data>
+  <data name="txtDeclarationContentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDeclarationContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDeclarationTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDeclarationTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPayEnvelopeSiteUrlResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPayEnvelopeSiteUrlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VerticalListItemResource.Text" xml:space="preserve">
+    <value>băng chuyền thằng đứng</value>
+  </data>
+  <data name="VerticalListItemResource.Value" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="lblDelRemindResource1.Text" xml:space="preserve">
+    <value>Vui lòng chọn một mục để xóa</value>
+  </data>
+  <data name="lblPushFilterKeywordDialogEditTitleResource1.Text" xml:space="preserve">
+    <value>Từ khóa bảo trì</value>
+  </data>
+</root>

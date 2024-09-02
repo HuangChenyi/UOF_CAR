@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="boundFieldResource1.HeaderText" xml:space="preserve">
+    <value>設計者</value>
+  </data>
+  <data name="boundFieldResource2.HeaderText" xml:space="preserve">
+    <value>表單類別</value>
+  </data>
+  <data name="boundFieldResource3.HeaderText" xml:space="preserve">
+    <value>副流程類別</value>
+  </data>
+  <data name="boundFieldResource4.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="boundFieldResource5.HeaderText" xml:space="preserve">
+    <value>交接管理員</value>
+  </data>
+  <data name="boundFieldResource5.Text" xml:space="preserve">
+    <value>交接管理員</value>
+  </data>
+  <data name="boundFieldResource6.HeaderText" xml:space="preserve">
+    <value>管理部門</value>
+  </data>
+  <data name="boundFieldResource6.Text" xml:space="preserve">
+    <value>管理部門</value>
+  </data>
+  <data name="ElectronicDocumentMaster" xml:space="preserve">
+    <value>Surat resmi administrator</value>
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Daftar karakter</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Daftar fungsi yang dapat digunakan</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmResource1.Text" xml:space="preserve">
+    <value>確認要刪除此設計者?</value>
+  </data>
+  <data name="lblElectronicDocumentResource1.Text" xml:space="preserve">
+    <value>Petugas Surat resmi yang bisa menanyakan semua surat resmi</value>
+  </data>
+  <data name="lblElectronicDocumentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFuncNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFuncNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRoleDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRoleDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRoleResource1.Text" xml:space="preserve">
+    <value>Gambaran Karakter:</value>
+  </data>
+  <data name="lblRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFArchiveUserResource1.Text" xml:space="preserve">
+    <value>Anggota-anggota tersebut sudah ditetapkan sebagai pemilik formulir pengajuan.</value>
+  </data>
+  <data name="lblWKFArchiveUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFDesignerResource1.Text" xml:space="preserve">
+    <value>Anggota yang diatur sebagai desainer bisa mengakses semua fungsi dalam modul desain.</value>
+  </data>
+  <data name="lblWKFDesignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFHandOverResource1.Text" xml:space="preserve">
+    <value>被設定為交接管理員的人員，才可以使用表單交接的相關功能。</value>
+  </data>
+  <data name="lblWKFInnerUserResource1.Text" xml:space="preserve">
+    <value>Berarti semua anggota dalam perusahaan.</value>
+  </data>
+  <data name="lblWKFInnerUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFManagerResource1.Text" xml:space="preserve">
+    <value>Administrator dapat memasuki semua fungsi-fungsi aliran pekerjaan dan dapat mengadakan pengaturan terhadap desainer-desainer. Atur pada ADMINISTRASI SISTIM&gt;&gt;KONFIGURASI SISTIM&gt;&gt;PENGATURAN ADMINISTRATOR</value>
+  </data>
+  <data name="lblWKFManagerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFOuterUserResource1.Text" xml:space="preserve">
+    <value>Berarti anggota dari luar perusahaan.</value>
+  </data>
+  <data name="lblWKFOuterUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFReaderUserResource1.Text" xml:space="preserve">
+    <value>format manager dapat mengakses「format pengelolaan manager.」。Di pilihan alur kerja</value>
+  </data>
+  <data name="lblWKFReaderUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFUserResource1.Text" xml:space="preserve">
+    <value>Anggota-anggota tersebut sudah ditetapkan sebagai pengguna formulir.</value>
+  </data>
+  <data name="lblWKFUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnOpResource1.Text" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Pengaturan Tingkatan Otorisasi</value>
+  </data>
+  <data name="radButtonDeleteResource1.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="radButtonFlowManageResource1.Text" xml:space="preserve">
+    <value>副流程類別</value>
+  </data>
+  <data name="radButtonFormManageResource1.Text" xml:space="preserve">
+    <value>表單類別</value>
+  </data>
+  <data name="radButtonNewResource1.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>全域設定</value>
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>分權設定</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Nama fungsi</value>
+  </data>
+  <data name="UltraWebTree1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WKFArchiveUser" xml:space="preserve">
+    <value>Pemilik pengajuan</value>
+  </data>
+  <data name="WKFDesigner" xml:space="preserve">
+    <value>Desainer</value>
+  </data>
+  <data name="WKFHandOver" xml:space="preserve">
+    <value>交接管理員</value>
+  </data>
+  <data name="WKFInnerUser" xml:space="preserve">
+    <value>Pengguna dalam</value>
+  </data>
+  <data name="WKFManager" xml:space="preserve">
+    <value>administrator Alur kerja</value>
+  </data>
+  <data name="WKFOuterUser" xml:space="preserve">
+    <value>Pengguna eksternal</value>
+  </data>
+  <data name="WKFReader" xml:space="preserve">
+    <value>penampil formulir</value>
+  </data>
+  <data name="WKFResponsible" xml:space="preserve">
+    <value>Yang mengatur formulir</value>
+  </data>
+  <data name="WKFResponsibleResource1.Text" xml:space="preserve">
+    <value>format manager dapat mengakses「format pengelolaan manager.」。Di pilihan alur kerja</value>
+  </data>
+  <data name="WKFResponsibleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WKFUser" xml:space="preserve">
+    <value>Pengguna formulir</value>
+  </data>
+</root>

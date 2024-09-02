@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetRecentlyQueList" AllowAll="True" />
+  <Action Name="GetRecentlyNotSendQueList" AllowAll="True" />
+  <Action Name="GetRecentlySendQueList" AllowAll="True" />
+  <Action Name="GetQueChart" AllowAll="True" />
+</Actions>

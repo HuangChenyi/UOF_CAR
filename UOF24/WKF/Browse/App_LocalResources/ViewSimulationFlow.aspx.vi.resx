@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Trạm điểm</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Người ký dự kiến </value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Người kí tên thực tế</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Thời gian ký duyệt</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Trạm điểm</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>Người ký dự kiến </value>
+  </data>
+  <data name="gridActualResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridActualResource1.EmptyDataText" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="gridActualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridSimulationResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridSimulationResource1.EmptyDataText" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="gridSimulationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndSubFlowResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNotEndResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNotEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Dự kiến lưu trình ký </value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Lưu trình kí tên thực tế</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalSignResource1.Text" xml:space="preserve">
+    <value>Do  {#User} ký</value>
+  </data>
+  <data name="lblAdditionalSiteMsgResource1.Text" xml:space="preserve">
+    <value>Thêm ngôn ngữ</value>
+  </data>
+  <data name="lblAdditionalSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgreeResource1.Text" xml:space="preserve">
+    <value>Phê duyệt</value>
+  </data>
+  <data name="lblAgreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertNotFoundResource1.Text" xml:space="preserve">
+    <value>Không cung cấp thông tin khi đủ điều kiện</value>
+  </data>
+  <data name="lblAlertSiteResource1.Text" xml:space="preserve">
+    <value>Trạm điểm thông báo</value>
+  </data>
+  <data name="lblAllowEndFlowResource1.Text" xml:space="preserve">
+    <value>Có thể đóng cửa ở đây</value>
+  </data>
+  <data name="lblAllowEndFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowEndSubFlowResource1.Text" xml:space="preserve">
+    <value>Quá trình phụ có thể được kết thúc tại đây</value>
+  </data>
+  <data name="lblAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAndSignResource1.Text" xml:space="preserve">
+    <value>Kí và phê duyệt</value>
+  </data>
+  <data name="lblAndSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantResource1.Text" xml:space="preserve">
+    <value>Nộp đơn</value>
+  </data>
+  <data name="lblApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblapplicationResource1.Text" xml:space="preserve">
+    <value>Nộp đơn</value>
+  </data>
+  <data name="lblapplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBackResource1.Text" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="lblBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCancelMsgResource1.Text" xml:space="preserve">
+    <value>Vô hiệu</value>
+  </data>
+  <data name="lblCancelMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConditionExceptSiteResource1.Text" xml:space="preserve">
+    <value>Trang web có điều kiện không thể tìm thấy các điều kiện thỏa mãn điều kiện và không thể mô phỏng xuống</value>
+  </data>
+  <data name="lblConditionExceptSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustDesignFlowSiteResource1.Text" xml:space="preserve">
+    <value>Trang web luồng tùy chỉnh</value>
+  </data>
+  <data name="lblCustDesignFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustGroupFlowSiteResource1.Text" xml:space="preserve">
+    <value>Trang quy trình tùy chọn</value>
+  </data>
+  <data name="lblCustGroupFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisagreeResource1.Text" xml:space="preserve">
+    <value>Không đồng ý</value>
+  </data>
+  <data name="lblDisagreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExtemalFlowResource1.Text" xml:space="preserve">
+    <value>Trạm điểm ứng dụng</value>
+  </data>
+  <data name="lblFieldFlowSiteResource1.Text" xml:space="preserve">
+    <value>Địa điểm tổ chức</value>
+  </data>
+  <data name="lblFlowResultSettingResource1.Text" xml:space="preserve">
+    <value>Hiển thị kết quả quy trình</value>
+  </data>
+  <data name="lblFlowResultSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblgeneralSignResource1.Text" xml:space="preserve">
+    <value>Thông thường</value>
+  </data>
+  <data name="lblgeneralSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAllowEndFlowResource1.Text" xml:space="preserve">
+    <value>Không thể đóng trương</value>
+  </data>
+  <data name="lblNoAllowEndFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAllowEndSubFlowResource1.Text" xml:space="preserve">
+    <value>Lưu trình phụ không kết thúc tại đây</value>
+  </data>
+  <data name="lblNoAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoCommentResource1.Text" xml:space="preserve">
+    <value>Không có ý kiến</value>
+  </data>
+  <data name="lblNoCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotFindSignerExceptionResource1.Text" xml:space="preserve">
+    <value>Không tìm thấy người kí, không thể mô phỏng xuống </value>
+  </data>
+  <data name="lblNotFindSignerExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNullResource1.Text" xml:space="preserve">
+    <value>Chưa ký duyệt</value>
+  </data>
+  <data name="lblNullResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrSignedResource1.Text" xml:space="preserve">
+    <value>Đã được người khác ký</value>
+  </data>
+  <data name="lblOrSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrSignResource1.Text" xml:space="preserve">
+    <value>Ký đồng thời</value>
+  </data>
+  <data name="lblOrSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParallelFlowResource1.Text" xml:space="preserve">
+    <value>Quy trình song song</value>
+  </data>
+  <data name="lblPrevSiteAssignResource1.Text" xml:space="preserve">
+    <value>Chỉ định trạm trước</value>
+  </data>
+  <data name="lblPrevSiteAssignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSimulationExceptionResource1.Text" xml:space="preserve">
+    <value>Hệ thống không thể lấy thông tin lưu trình tổ chức một cách chính xác, nên quy trình mô phỏng là không thể!</value>
+  </data>
+  <data name="lblSimulationResource1.Text" xml:space="preserve">
+    <value>Mô phỏng quy trình</value>
+  </data>
+  <data name="lblSimulationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSimulationTitleExceptionResource1.Text" xml:space="preserve">
+    <value>Hệ thống không thể lấy được chức cấp chính xác, nên quy trình mô phỏng là không thể thực hiện!</value>
+  </data>
+  <data name="lblSimulationTitleExceptionResource1ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkippedResource1.Text" xml:space="preserve">
+    <value>Tự động xét duyệt</value>
+  </data>
+  <data name="lblSubFlowResource1.Text" xml:space="preserve">
+    <value>Lưu trình phụ</value>
+  </data>
+  <data name="lblSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Quy trình kết thúc trạm điểm</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>FlowEnd</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Tất cả các trạm điểm người phê duyệt</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Quan sát xem trước lưu trình</value>
+  </data>
+  <data name="pnlActualResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSimulationResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSimulationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnlFlowResultSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Ký duyệt ý kiến</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Trạng thái ký duyệt</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Loại phê duyệt</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Đóng biểu mẫu</value>
+  </data>
+</root>

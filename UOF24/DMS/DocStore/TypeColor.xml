@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+  <type name="Commonuse" Color="#898951" />
+  <type name="Favorites" Color="#CC3333" />
+  <type name="Subscribe" Color="#336699" />
+  <type name="Analysis" Color="#22AA99" />
+  <type name="Score" Color="#66AA00" />
+  <type name="RemoteUpload" Color="#8C6D8C" />
+  <type name="PrintRecord" Color="#DD5511" />
+</Types>
+
+<!--Commonuse：加入常用文件-->
+<!--Favorites：加入收藏-->
+<!--Subscribe：訂閱-->
+<!--Analysis：統計-->
+<!--Score：評分-->
+<!--RemoteUpload：異地發佈-->
+<!--PrintRecord：紙本分發管制-->

@@ -1,0 +1,74 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="UC_SearchFileResult.ascx.cs" Inherits="Common_SearchFile_UC_SearchFileResult" %>
+<%@ Register Assembly="Infragistics4.WebUI.WebDataInput.v11.1 "
+    Namespace="Infragistics.WebUI.WebDataInput" TagPrefix="igtxt" %>
+<asp:Label ID="lblResultCount" runat="server" Text=""></asp:Label>
+            <asp:DropDownList ID="ddlPaging" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlPaging_SelectedIndexChanged" Visible ="false">
+            </asp:DropDownList>
+    <asp:DataList ID="DataList1" runat="server" Width="100%" >
+        <ItemTemplate>
+            <table class="PopTable" width="100%">
+    <colgroup class=PopTableLeftTD></colgroup>
+    <colgroup class=PopTableRightTD></colgroup>
+    <colgroup class=PopTableLeftTD></colgroup>
+    <colgroup class=PopTableRightTD></colgroup>
+                <tr>
+                    <td style="width: 20%">
+                        <asp:Label ID="lblFileName" runat="server" Text="檔案名稱"></asp:Label></td>
+                    <td>
+            <asp:LinkButton ID="linkBtTitle" runat="server" PostBackUrl='<%# DataBinder.Eval(Container.DataItem, "path")  %>'
+            Text='<%# DataBinder.Eval(Container.DataItem, "title") %>'></asp:LinkButton></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="Label1" runat="server" Text="原始檔名"></asp:Label></td>
+                    <td>
+                        <asp:Label ID="Label2" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "orgName") %>'></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+            <asp:Label ID="lblSample" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "sample") %>'></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblLastModifiedDate" runat="server" Text="最後修改日期"></asp:Label></td>
+                    <td>
+                        <asp:Label ID="lblLastModifiedDate_data" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "modified") %>'></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblCreateDate" runat="server" Text="檔案建立日期"></asp:Label></td>
+                    <td>
+                        <asp:Label ID="lblCreateDate_data" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "created") %>'></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblParent" runat="server" Text="父目錄"></asp:Label></td>
+                    <td>
+                        <asp:Label ID="lblParent_data" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "parent") %>'></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="Label3" runat="server" Text="附檔名"></asp:Label></td>
+                    <td>
+                        <asp:Label ID="Label4" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "extension") %>'></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblSize" runat="server" Text="檔案大小"></asp:Label></td>
+                    <td>
+                        <asp:Label ID="lblSize_data" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "size") %>'></asp:Label></td>
+                </tr>
+            </table><p/>
+        </ItemTemplate>
+    </asp:DataList>
+<asp:Label ID="lblMsgResultCount" runat="server" Text="共{0}筆" Visible ="false"></asp:Label>
+<asp:Label ID="lbMsgPageIndex" runat="server" Text="第{0}頁" Visible="false"></asp:Label>
+<input id="hideApModule" type="hidden" runat="server" />
+<input id="hideKeyWord" type="hidden" runat="server" />
+<input id="hidePageSize" type="hidden" runat ="server" value = "10" />
+<input id="hidePageIndex" type="hidden" runat ="server" value= "1" />
+<input id="hideAllowPaging" type="hidden" runat="server" value = "true" />
+<input id="hideMaxPage" type="hidden"  runat="server" value="1"/>
+<input id="hideIsMyPostBack" type="hidden"  runat="server" value="false" />

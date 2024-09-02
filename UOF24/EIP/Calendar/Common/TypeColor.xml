@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+  <type name="Work" Color="#898951" />
+  <type name="Corporation" Color="#CC3333" />
+  <type name="Meeting" Color="#336699" />
+  <type name="InvMeeting" Color="#336699" />
+  <type name="MoreMeeting" Color="#336699" />
+  <type name="Memorandum" Color="#22AA99" />
+  <type name="Devolve" Color="#66AA00" />
+  <type name="Borrow" Color="#8C6D8C" />
+  <type name="MyHoliday" Color="#DD5511" />
+  <type name="CorporationHoliday" Color="#DD4477" />
+  <type name="Event" Color="#B08B59" />
+</Types>

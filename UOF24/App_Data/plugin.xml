@@ -1,0 +1,1484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <!-- 以下為文流的設定 -->
+  <WKF>
+    <Field>
+      <OptionalField>
+        <FieldItem DesignUI="~/WKF/FormManagement/WKF_OptionalFields/SetupField_FormChooseField.aspx" WriteUI="~/WKF/FormManagement/WKF_OptionalFields/FormChooseFieldUC.ascx" FieldName="FormChooseField">
+          <Display>
+            <Value Culture="zh-TW" Name="表單參考欄位" />
+            <Value Culture="zh-CN" Name="表单参考区域" />
+            <Value Culture="en-US" Name="Form Reference" />
+            <Value Culture="vi" Name="Cột tham khảo biểu đơn" />
+            <Value Culture="id" Name="Referensi format" />
+            <Value Culture="mt-MT" Name="လျှောက်လွာပုံစံ ကိုးကားချက်" />
+            <Value Culture="ja-JP" Name="見本フィールド" />
+          </Display>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Bulletin/WKFOptionalFields/SetupField_BulletinField.aspx" WriteUI="~/EIP/Bulletin/WKFOptionalFields/BulletinFieldUC.ascx" FieldName="BulletinField">
+          <Display>
+            <Value Culture="zh-TW" Name="公告審核欄位" />
+            <Value Culture="zh-CN" Name="公告审核字段" />
+            <Value Culture="en-US" Name="Field of Bulletin audit" />
+            <Value Culture="vi" Name="Cột xét duyệt thông báo" />
+            <Value Culture="id" Name="Bidang audit pengumuman" />
+            <Value Culture="mt-MT" Name="ပြန်တမ်းစာ စစ်ဆေးမှု နယ်ပယ်" />
+            <Value Culture="ja-JP" Name="頒布予定があるお知らせを審査" />
+          </Display>
+          <Condition>
+            <Tag Name="Bulletin_Class">
+              <Display Clture="zh-TW" Name="公告類別" />
+              <Display Clture="zh-CN" Name="公告类别" />
+              <Display Clture="en-US" Name="Notification category" />
+              <Display Clture="vi" Name="Loại thông báo" />
+              <Display Clture="id" Name="kategori pemberitahuan" />
+              <Display Clture="mt-MT" Name="သတိပေးချက် အမျိုးအစား" />
+              <Display Clture="ja-JP" Name="お知らせカテゴリー" />
+            </Tag>
+            <Tag Name="Sync_OuterClass">
+              <Display Clture="zh-TW" Name="外部類別" />
+              <Display Clture="zh-CN" Name="外部类别" />
+              <Display Clture="en-US" Name="External Category" />
+              <Display Clture="vi" Name="Loại thông báo ngoại bộ" />
+              <Display Clture="id" Name="kategori luar" />
+              <Display Clture="mt-MT" Name="ပြင်ပ အမျိုးအစား" />
+              <Display Clture="ja-JP" Name="外部カテゴリー" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Bulletin/WKFOptionalFields/SetupField_BulletinUpdateField.aspx" WriteUI="~/EIP/Bulletin/WKFOptionalFields/BulletinUpdateFieldUC.ascx" FieldName="BulletinUpdateField">
+          <Display>
+            <Value Culture="zh-TW" Name="公告變更欄位" />
+            <Value Culture="zh-CN" Name="公告變更字段" />
+            <Value Culture="en-US" Name="Field of Notification update" />
+            <Value Culture="vi" Name="Cột cập nhật thông báo" />
+            <Value Culture="id" Name="Bidang pemberitahuan terbaru" />
+            <Value Culture="mt-MT" Name="ပြုပြင်မှုအသိပေးခြင်းနယ်ပယ်" />
+            <Value Culture="ja-JP" Name="公告變更欄位" />
+          </Display>
+          <Condition>
+            <Tag Name="Bulletin_Class">
+              <Display Clture="zh-TW" Name="公告類別" />
+              <Display Clture="zh-CN" Name="公告类别" />
+              <Display Clture="en-US" Name="Notification category" />
+              <Display Clture="vi" Name="Loại thông báo" />
+              <Display Clture="id" Name="Kategori pemberitahuan" />
+              <Display Clture="mt-MT" Name="အသိပေးခြင်းအမျိုးအစား" />
+              <Display Clture="ja-JP" Name="お知らせカテゴリー" />
+            </Tag>
+            <Tag Name="Sync_OuterClass">
+              <Display Clture="zh-TW" Name="外部類別" />
+              <Display Clture="zh-CN" Name="外部类别" />
+              <Display Clture="en-US" Name="External Category" />
+              <Display Clture="vi" Name="Loại ngoại bộ" />
+              <Display Clture="id" Name="Kategori eksternal" />
+              <Display Clture="mt-MT" Name="ပြင်ပအမျိုးအစား" />
+              <Display Clture="ja-JP" Name="外部カテゴリー" />
+            </Tag>
+            <Tag Name="Type">
+              <Display Clture="zh-TW" Name="變更模式" />
+              <Display Clture="zh-CN" Name="更改模式" />
+              <Display Clture="en-US" Name="Mode" />
+              <Display Clture="vi" Name="Loại thay đổi" />
+              <Display Clture="id" Name="Mode" />
+              <Display Clture="mt-MT" Name="နည်းလမ်း" />
+              <Display Clture="ja-JP" Name="モードを変更する" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Plant/WKFOptionalFields/SetupField_BookingDetail.aspx" WriteUI="~/EIP/Plant/WKFOptionalFields/BookingDetailUC.ascx" MobileWriteUI="~/EIP/Plant/WKFOptionalFields/BookingDetailMobileUC.ascx" FieldName="BookingDetail">
+          <Display>
+            <Value Culture="zh-TW" Name="借用明細" />
+            <Value Culture="zh-CN" Name="借用明细" />
+            <Value Culture="en-US" Name="Booking list" />
+            <Value Culture="vi" Name="Chi tiết mượn dùng" />
+            <Value Culture="id" Name="Daftar pemesanan" />
+            <Value Culture="mt-MT" Name="借用明細" />
+            <Value Culture="ja-JP" Name="借りる明細" />
+          </Display>
+          <Condition>
+            <Tag Name="ClassName">
+              <Display Clture="zh-TW" Name="類別名稱" />
+              <Display Clture="zh-CN" Name="类别名称" />
+              <Display Clture="en-US" Name="Category Name" />
+              <Display Clture="vi" Name="Tên các loại" />
+              <Display Clture="id" Name="Nama kategory" />
+              <Display Clture="mt-MT" Name="類別名稱" />
+              <Display Clture="ja-JP" Name="カテゴリー名称" />
+            </Tag>
+            <Tag Name="PlantName">
+              <Display Clture="zh-TW" Name="設備名稱" />
+              <Display Clture="zh-CN" Name="设备名称" />
+              <Display Clture="en-US" Name="Facility Name" />
+              <Display Clture="vi" Name="Tên thiết bị" />
+              <Display Clture="id" Name="Nama fasilitas" />
+              <Display Clture="mt-MT" Name="設備名稱" />
+              <Display Clture="ja-JP" Name="設備名" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+		    <!-- ==Start 表單發佈審核 Start== -->		
+        <!--<FieldItem DesignUI="~/WKF/FormManagement/WKF_OptionalFields/SetupField_FormReleaseApprovalField.aspx" WriteUI="~/WKF/FormManagement/WKF_OptionalFields/FormReleaseApprovalFieldUC.ascx" FieldName="FormReleaseApprovalField">
+          <Display>
+            <Value Culture="zh-TW" Name="表單發佈審核欄位" />
+            <Value Culture="zh-CN" Name="表单发布审核字段" />
+            <Value Culture="en-US" Name="Release approval field" />
+            <Value Culture="vi" Name="Cột xét duyệt biểu mẫu" />
+            <Value Culture="id" Name="表單發佈審核欄位" />
+            <Value Culture="mt-MT" Name="表單發佈審核欄位" />
+            <Value Culture="ja-JP" Name="フォームリリースの承認フィールド" />
+          </Display>
+          <Condition>
+          <Tag Name="FormCategoryName">
+            <Display Clture="zh-TW" Name="表單類別" />
+            <Display Clture="zh-CN" Name="表单类别" />
+            <Display Clture="en-US" Name="Form Category" />
+            <Display Clture="vi" Name="Loại bảng biểu" />
+            <Display Clture="id" Name="表單類別" />
+            <Display Clture="mt-MT" Name="表單類別" />
+            <Display Clture="ja-JP" Name="フォームカテゴリ" />
+          </Tag>
+          <Tag Name="FormName">
+            <Display Clture="zh-TW" Name="表單名稱" />
+            <Display Clture="zh-CN" Name="表单名称" />
+            <Display Clture="en-US" Name="Form Name" />
+            <Display Clture="vi" Name="Tên biểu mẫu" />
+            <Display Clture="id" Name="表單名稱" />
+            <Display Clture="mt-MT" Name="表單名稱" />
+            <Display Clture="ja-JP" Name="フォーム名" />
+          </Tag>
+          </Condition>
+        </FieldItem>
+        -->
+		    <!-- ==End 表單發佈審核 End== -->
+        <!-- ==Start 差勤表單V1 Start== -->
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_LeaveInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/LeaveInfoUC.ascx" FieldName="LeaveInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="請假資訊" />
+            <Value Culture="zh-CN" Name="请假资讯" />
+            <Value Culture="en-US" Name="Leave Information" />
+            <Value Culture="vi" Name="Thông tin nghỉ phép" />
+            <Value Culture="id" Name="Leave Information" />
+            <Value Culture="mt-MT" Name="請假資訊" />
+            <Value Culture="ja-JP" Name="休み情報" />
+          </Display>
+          <Condition>
+            <Tag Name="LeaCode">
+              <Display Clture="zh-TW" Name="假別" />
+              <Display Clture="zh-CN" Name="假别" />
+              <Display Clture="en-US" Name="LeaveCode" />
+              <Display Clture="vi" Name="Loại nghỉ phép" />
+              <Display Clture="id" Name="LeaveCode" />
+              <Display Clture="mt-MT" Name="假別" />
+              <Display Clture="ja-JP" Name="休暇の種類" />
+            </Tag>
+            <Tag Name="LeaHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_ExpectedOverTimeField.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/ExpectedOverTimeUC.ascx" FieldName="ExpectedOverTime">
+          <Display>
+            <Value Culture="zh-TW" Name="預計加班資訊" />
+            <Value Culture="zh-CN" Name="预计加班信息" />
+            <Value Culture="en-US" Name="Estimated Overtime Info." />
+            <Value Culture="vi" Name="Thông tin làm thêm giờ dự kiến" />
+            <Value Culture="id" Name="Estimated Overtime Info." />
+            <Value Culture="mt-MT" Name="預計加班資訊" />
+            <Value Culture="ja-JP" Name="預計加班資訊" />
+          </Display>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_ActualOvertimeField.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/ActualOvertimeUC.ascx" FieldName="ActualOvertime">
+          <Display>
+            <Value Culture="zh-TW" Name="實際加班資訊" />
+            <Value Culture="zh-CN" Name="實際加班信息" />
+            <Value Culture="en-US" Name="Actual Overtime Info." />
+            <Value Culture="vi" Name="Thông tin quá giờ thực tế" />
+            <Value Culture="id" Name="Actual Overtime Info." />
+            <Value Culture="mt-MT" Name="實際加班資訊" />
+            <Value Culture="ja-JP" Name="実際残業時間" />
+          </Display>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_OverTimeCancelInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/OverTimeCancelInfoUC.ascx" FieldName="OverTimeCancelInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="銷班資訊" />
+            <Value Culture="zh-CN" Name="销班信息" />
+            <Value Culture="en-US" Name="Cancelled Overtime info." />
+            <Value Culture="vi" Name="Thông tin hủy tăng ca" />
+            <Value Culture="id" Name="Cancelled Overtime info." />
+            <Value Culture="mt-MT" Name="銷班資訊" />
+            <Value Culture="ja-JP" Name="シフト表情報を取り消します" />
+          </Display>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_RenewPunchInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/RenewPunchInfoUC.ascx" FieldName="RenewPunchInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="補刷卡單資訊" />
+            <Value Culture="zh-CN" Name="补刷卡单信息" />
+            <Value Culture="en-US" Name="Make-up form info." />
+            <Value Culture="vi" Name="Thông tin bù đơn bấm thẻ" />
+            <Value Culture="id" Name="Make-up form info." />
+            <Value Culture="mt-MT" Name="補刷卡單資訊" />
+            <Value Culture="ja-JP" Name="時間補正の情報" />
+          </Display>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_LeaveCancelInfoUC.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/LeaveCancelInfoUC.ascx" FieldName="LeaveCancelInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="銷假資訊" />
+            <Value Culture="zh-CN" Name="销假资讯" />
+            <Value Culture="en-US" Name="Cancelled Leave info." />
+            <Value Culture="vi" Name="Thông tin hủy phép" />
+            <Value Culture="id" Name="Estimated Overtime Info." />
+            <Value Culture="mt-MT" Name="銷假資訊" />
+            <Value Culture="ja-JP" Name="審査承認の情報" />
+          </Display>
+          <Condition>
+            <Tag Name="LeaCode">
+              <Display Clture="zh-TW" Name="假別" />
+              <Display Clture="zh-CN" Name="假别" />
+              <Display Clture="en-US" Name="LeaveCode" />
+              <Display Clture="vi" Name="Loại nghỉ phép" />
+              <Display Clture="id" Name="LeaveCode" />
+              <Display Clture="mt-MT" Name="假別" />
+              <Display Clture="ja-JP" Name="休暇の種類" />
+            </Tag>
+            <Tag Name="LeaHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+           </Tag>
+          </Condition>
+        </FieldItem>
+        <!-- ==End 差勤表單V1 End== -->
+        <!-- ==Start 差勤表單V2 Start== -->
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/LeaveInfoMobileUCV2.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_LeaveInfoV2.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/LeaveInfoUCV2.ascx" FieldName="LeaveInfoV2">
+          <Display>
+            <Value Culture="zh-TW" Name="請假資訊 2.0" />
+            <Value Culture="zh-CN" Name="请假信息 2.0" />
+            <Value Culture="en-US" Name="Leave Info. 2.0" />
+            <Value Culture="vi" Name="Thông tin nghỉ phép 2.0" />
+            <Value Culture="id" Name="Leave Info. 2.0" />
+            <Value Culture="mt-MT" Name="請假資訊 2.0" />
+            <Value Culture="ja-JP" Name="休み情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="LeaCode">
+              <Display Clture="zh-TW" Name="假別" />
+              <Display Clture="zh-CN" Name="假别" />
+              <Display Clture="en-US" Name="LeaveCode" />
+              <Display Clture="vi" Name="Loại nghỉ phép" />
+              <Display Clture="id" Name="LeaveCode" />
+              <Display Clture="mt-MT" Name="假別" />
+              <Display Clture="ja-JP" Name="休暇の種類" />
+            </Tag>
+            <Tag Name="LeaHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/LeaveCancelInfoMobileUCV2.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_LeaveCancelInfoV2.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/LeaveCancelInfoUCV2.ascx" FieldName="LeaveCancelInfoV2">
+          <Display>
+            <Value Culture="zh-TW" Name="銷假資訊 2.0" />
+            <Value Culture="zh-CN" Name="销假资讯 2.0" />
+            <Value Culture="en-US" Name="Cancelled Leave info. 2.0" />
+            <Value Culture="vi" Name="Thông tin hủy phép 2.0" />
+            <Value Culture="id" Name="Cancelled Leave info. 2.0" />
+            <Value Culture="mt-MT" Name="審査承認の情報 2.0" />
+            <Value Culture="ja-JP" Name="審査承認の情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="LeaCode">
+              <Display Clture="zh-TW" Name="假別" />
+              <Display Clture="zh-CN" Name="假别" />
+              <Display Clture="en-US" Name="LeaveCode" />
+              <Display Clture="vi" Name="Loại nghỉ phép" />
+              <Display Clture="id" Name="LeaveCode" />
+              <Display Clture="mt-MT" Name="假別" />
+              <Display Clture="ja-JP" Name="休暇の種類" />
+            </Tag>
+            <Tag Name="LeaHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/OverTimeInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_OverTimeInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/OverTimeInfoUC.ascx" FieldName="OverTimeInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="加班資訊 2.0" />
+            <Value Culture="zh-CN" Name="加班信息 2.0" />
+            <Value Culture="en-US" Name="Overtime Info. 2.0" />
+            <Value Culture="vi" Name="Thông tin tăng ca 2.0" />
+            <Value Culture="id" Name="加班資訊 2.0" />
+            <Value Culture="mt-MT" Name="加班資訊 2.0" />
+            <Value Culture="ja-JP" Name="残業について情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="ExpectOvertimeHours">
+              <Display Clture="zh-TW" Name="預計加班時數" />
+              <Display Clture="zh-CN" Name="预计加班时数" />
+              <Display Clture="en-US" Name="Estimated hours of Overtime" />
+              <Display Clture="vi" Name="Số giờ tăng ca dự kiến" />
+              <Display Culture="id" Name="預計加班時數" />
+              <Display Clture="mt-MT" Name="預計加班時數" />
+              <Display Clture="ja-JP" Name="残業予定時間" />
+            </Tag>
+            <Tag Name="ActualOvertimeHours">
+              <Display Clture="zh-TW" Name="實際加班時數" />
+              <Display Clture="zh-CN" Name="实际加班时数" />
+              <Display Clture="en-US" Name="Actual hours of Overtime" />
+              <Display Clture="vi" Name="Số giờ tăng ca thực tế" />
+              <Display Clture="id" Name="實際加班時數" />
+              <Display Clture="mt-MT" Name="實際加班時數" />
+              <Display Clture="ja-JP" Name="実際残業時間" />
+            </Tag>
+            <Tag Name="IsSameOvertime">
+              <Display Clture="zh-TW" Name="預計等於實際" />
+              <Display Clture="zh-CN" Name="预计等于实际" />
+              <Display Clture="en-US" Name="Estimated Hours is equal to Actual Hours" />
+              <Display Clture="vi" Name="Dự kiến bằng thực tế" />
+              <Display Clture="id" Name="預計等於實際" />
+              <Display Clture="mt-MT" Name="預計等於實際" />
+              <Display Clture="ja-JP" Name="実際と同じ" />
+            </Tag>
+            <Tag Name="OvertimeType">
+              <Display Clture="zh-TW" Name="加班類別" />
+              <Display Clture="zh-CN" Name="加班类别" />
+              <Display Clture="en-US" Name="Overtime Category" />
+              <Display Clture="vi" Name="Loại tăng ca" />
+              <Display Clture="id" Name="加班類別" />
+              <Display Clture="mt-MT" Name="加班類別" />
+              <Display Clture="ja-JP" Name="残業種類" />
+            </Tag>
+            <Tag Name="OvertimeSourse">
+              <Display Clture="zh-TW" Name="加班來源" />
+              <Display Clture="zh-CN" Name="加班源" />
+              <Display Clture="en-US" Name="Source of Overtime" />
+              <Display Clture="vi" Name="Nguồn gốc tăng ca" />
+              <Display Clture="id" Name="加班來源" />
+              <Display Clture="mt-MT" Name="加班來源" />
+              <Display Clture="ja-JP" Name="残業データの情報源" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/OverTimeCancelInfoMobileUCV2.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_OverTimeCancelInfoV2.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/OverTimeCancelInfoUCV2.ascx" FieldName="OverTimeCancelInfoV2">
+          <Display>
+            <Value Culture="zh-TW" Name="銷班資訊 2.0" />
+            <Value Culture="zh-CN" Name="销班信息 2.0" />
+            <Value Culture="en-US" Name="Cancelled Overtime info. 2.0" />
+            <Value Culture="vi" Name="Thông tin hủy tăng ca 2.0" />
+            <Value Culture="id" Name="Cancelled Overtime info. 2.0" />
+            <Value Culture="mt-MT" Name="銷班資訊 2.0" />
+            <Value Culture="ja-JP" Name="審査承認の情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="ExpectOvertimeHours">
+              <Display Clture="zh-TW" Name="預計加班時數" />
+              <Display Clture="zh-CN" Name="预计加班时数" />
+              <Display Clture="en-US" Name="Estimated hours of Overtime" />
+              <Display Clture="vi" Name="Số giờ tăng ca dự kiến" />
+              <Display Culture="id" Name="預計加班時數" />
+              <Display Clture="mt-MT" Name="預計加班時數" />
+              <Display Culture="ja-JP" Name="残業予定時間" />
+            </Tag>
+            <Tag Name="ActualOvertimeHours">
+              <Display Clture="zh-TW" Name="實際加班時數" />
+              <Display Clture="zh-CN" Name="实际加班时数" />
+              <Display Clture="en-US" Name="Actual hours of Overtime" />
+              <Display Clture="vi" Name="Số giờ tăng ca thực tế" />
+              <Display Clture="id" Name="實際加班時數" />
+              <Display Clture="mt-MT" Name="實際加班時數" />
+              <Display Clture="ja-JP" Name="実際残業時間" />
+            </Tag>
+            <Tag Name="OvertimeType">
+              <Display Clture="zh-TW" Name="加班類別" />
+              <Display Clture="zh-CN" Name="加班类别" />
+              <Display Clture="en-US" Name="Overtime Category" />
+              <Display Clture="vi" Name="Loại tăng ca" />
+              <Display Clture="id" Name="加班類別" />
+              <Display Clture="mt-MT" Name="加班類別" />
+              <Display Clture="ja-JP" Name="残業種類" />
+            </Tag>
+            <Tag Name="OvertimeSourse">
+              <Display Clture="zh-TW" Name="加班來源" />
+              <Display Clture="zh-CN" Name="加班源" />
+              <Display Clture="en-US" Name="Source of Overtime" />
+              <Display Clture="vi" Name="Nguồn gốc tăng ca" />
+              <Display Clture="id" Name="加班來源" />
+              <Display Clture="mt-MT" Name="加班來源" />
+              <Display Clture="ja-JP" Name="残業データの情報源" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/RenewPunchInfoMobileUCV2.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_RenewPunchInfoV2.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/RenewPunchInfoUCV2.ascx" FieldName="RenewPunchInfoV2">
+          <Display>
+            <Value Culture="zh-TW" Name="補刷卡單資訊 2.0" />
+            <Value Culture="zh-CN" Name="补刷卡单信息 2.0" />
+            <Value Culture="en-US" Name="Make-up form info. 2.0" />
+            <Value Culture="vi" Name="Thông tin bù đơn bấm thẻ 2.0" />
+            <Value Culture="id" Name="Make-up form info. 2.0" />
+            <Value Culture="mt-MT" Name="補刷卡單資訊 2.0" />
+            <Value Culture="ja-JP" Name="時間補正の情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="PunchType">
+              <Display Clture="zh-TW" Name="類別" />
+              <Display Clture="zh-CN" Name="类别" />
+              <Display Clture="en-US" Name="Type" />
+              <Display Clture="vi" Name="Phân loại" />
+              <Display Clture="id" Name="類別" />
+              <Display Clture="mt-MT" Name="類別" />
+              <Display Clture="ja-JP" Name="カテゴリー" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/TravelInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_TravelInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/TravelInfoUC.ascx" FieldName="TravelInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="出差資訊 2.0" />
+            <Value Culture="zh-CN" Name="出差信息 2.0" />
+            <Value Culture="en-US" Name="Bussiness Travel Info. 2.0" />
+            <Value Culture="vi" Name="Thông tin đi công tác 2.0" />
+            <Value Culture="id" Name="出差資訊 2.0" />
+            <Value Culture="mt-MT" Name="出差資訊 2.0" />
+            <Value Culture="ja-JP" Name="出張情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="TraHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/TravelCancelInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_TravelCancelInfoUC.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/TravelCancelInfoUC.ascx" FieldName="TravelCancelInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="銷出差資訊" />
+            <Value Culture="zh-CN" Name="销出差信息" />
+            <Value Culture="en-US" Name="Business Travel cancellation Information" />
+            <Value Culture="vi" Name="Gỡ bỏ thông tin đi công tác" />
+            <Value Culture="id" Name="銷出差資訊" />
+            <Value Culture="mt-MT" Name="銷出差資訊" />
+            <Value Culture="ja-JP" Name="出張時間数の相殺情報" />
+          </Display>
+          <Condition>
+            <Tag Name="TraHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_AllowanceInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/AllowanceUC.ascx" FieldName="Allowance">
+          <Display>
+            <Value Culture="zh-TW" Name="津貼補助資訊 2.0" />
+            <Value Culture="zh-CN" Name="津贴补助信息 2.0" />
+            <Value Culture="en-US" Name="Allowance/Subsidy Info. 2.0" />
+            <Value Culture="vi" Name="Thông tin phụ cấp hỗ trợ 2.0" />
+            <Value Culture="id" Name="津貼補助資訊 2.0" />
+            <Value Culture="mt-MT" Name="津貼補助資訊 2.0" />
+            <Value Culture="ja-JP" Name="手当情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="TotalAmount">
+              <Display Clture="zh-TW" Name="申請補助總金額" />
+              <Display Clture="zh-CN" Name="申请补助总金额" />
+              <Display Clture="en-US" Name="Total Subsidy Amount" />
+              <Display Clture="vi" Name="Tổng số tiền xin hỗ trợ" />
+              <Display Clture="id" Name="申請補助總金額" />
+              <Display Clture="mt-MT" Name="申請補助總金額" />
+              <Display Clture="ja-JP" Name="申請金額" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+            <Tag Name="CompanyAmount">
+              <Display Clture="zh-TW" Name="公司津貼金額" />
+              <Display Clture="zh-CN" Name="公司津贴金额" />
+              <Display Clture="en-US" Name="Company Allowance" />
+              <Display Clture="vi" Name="Số tiền phụ cấp công ty" />
+              <Display Clture="id" Name="公司津貼金額" />
+              <Display Clture="mt-MT" Name="公司津貼金額" />
+              <Display Clture="ja-JP" Name="会社手当金額" />
+            </Tag>
+            <Tag Name="CommitteeAmount">
+              <Display Clture="zh-TW" Name="福委津貼金額" />
+              <Display Clture="zh-CN" Name="福委津贴金额" />
+              <Display Clture="en-US" Name="EWC Allowance" />
+              <Display Clture="vi" Name="Số tiền phụ cấp phúc lợi tổ chức" />
+              <Display Clture="id" Name="福委津貼金額" />
+              <Display Clture="mt-MT" Name="福委津貼金額" />
+              <Display Clture="ja-JP" Name="福委会手当金額" />
+            </Tag>
+            <Tag Name="AllowanceClassName">
+              <Display Clture="zh-TW" Name="津貼種類" />
+              <Display Clture="zh-CN" Name="津贴种类" />
+              <Display Clture="en-US" Name="Subsidy Category" />
+              <Display Clture="vi" Name="Loại phụ cấp" />
+              <Display Clture="id" Name="津貼種類" />
+              <Display Clture="mt-MT" Name="津貼種類" />
+              <Display Clture="ja-JP" Name="手当種類" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_TourAllowanceInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/TourAllowanceUC.ascx" FieldName="TourAllowance">
+          <Display>
+            <Value Culture="zh-TW" Name="旅遊補助資訊 2.0" />
+            <Value Culture="zh-CN" Name="旅游补助信息 2.0" />
+            <Value Culture="en-US" Name="Travel Subsidy Info. 2.0" />
+            <Value Culture="vi" Name="Thông tin tiền hỗ trợ du lịch 2.0" />
+            <Value Culture="id" Name="旅遊補助資訊 2.0" />
+            <Value Culture="mt-MT" Name="旅遊補助資訊 2.0" />
+            <Value Culture="ja-JP" Name="観光補助情報 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields/CharityDetailMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_CharityDetail.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/CharityDetailUC.ascx" FieldName="CharityLeaveDetail">
+          <Display>
+            <Value Culture="zh-TW" Name="公益活動明細 2.0" />
+            <Value Culture="zh-CN" Name="公益活动明细 2.0" />
+            <Value Culture="en-US" Name="Community Service Info. 2.0" />
+            <Value Culture="vi" Name="Chi tiết hoạt động công ích 2.0" />
+            <Value Culture="id" Name="公益活動明細 2.0" />
+            <Value Culture="mt-MT" Name="公益活動明細 2.0" />
+            <Value Culture="ja-JP" Name="チャリティー明細 2.0" />
+          </Display>
+          <Condition>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields/SetupField_OverTimeWorkInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields/OverTimeWorkInfoUC.ascx" MobileWriteUI="~/EIP/Duty/WKFOptionalFields/OverTimeWorkInfoMobileUC.ascx" FieldName="OverTimeWorkInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="加班資訊 3.0" />
+            <Value Culture="zh-CN" Name="加班信息 3.0" />
+            <Value Culture="en-US" Name="Overtime Info. 3.0" />
+            <Value Culture="vi" Name="Thông tin tăng ca 3.0" />
+            <Value Culture="id" Name="加班資訊 3.0" />
+            <Value Culture="mt-MT" Name="加班資訊 3.0" />
+            <Value Culture="ja-JP" Name="残業について情報 3.0" />
+          </Display>
+          <Condition>
+            <Tag Name="ExpectOvertimeHours">
+              <Display Clture="zh-TW" Name="預計加班時數" />
+              <Display Clture="zh-CN" Name="预计加班时数" />
+              <Display Clture="en-US" Name="Estimated hours of Overtime" />
+              <Display Clture="vi" Name="Số giờ tăng ca dự kiến" />
+              <Display Culture="id" Name="預計加班時數" />
+              <Display Clture="mt-MT" Name="預計加班時數" />
+              <Display Clture="ja-JP" Name="残業予定時間" />
+            </Tag>
+            <Tag Name="ActualOvertimeHours">
+              <Display Clture="zh-TW" Name="實際加班時數" />
+              <Display Clture="zh-CN" Name="实际加班时数" />
+              <Display Clture="en-US" Name="Actual hours of Overtime" />
+              <Display Clture="vi" Name="Số giờ tăng ca thực tế" />
+              <Display Clture="id" Name="實際加班時數" />
+              <Display Clture="mt-MT" Name="實際加班時數" />
+              <Display Clture="ja-JP" Name="実際残業時間" />
+            </Tag>
+            <Tag Name="IsSameOvertime">
+              <Display Clture="zh-TW" Name="預計等於實際" />
+              <Display Clture="zh-CN" Name="预计等于实际" />
+              <Display Clture="en-US" Name="Estimated Hours is equal to Actual Hours" />
+              <Display Clture="vi" Name="Dự kiến bằng thực tế" />
+              <Display Clture="id" Name="預計等於實際" />
+              <Display Clture="mt-MT" Name="預計等於實際" />
+              <Display Clture="ja-JP" Name="実際と同じ" />
+            </Tag>
+            <Tag Name="OvertimeType">
+              <Display Clture="zh-TW" Name="加班類別" />
+              <Display Clture="zh-CN" Name="加班类别" />
+              <Display Clture="en-US" Name="Overtime Category" />
+              <Display Clture="vi" Name="Loại tăng ca" />
+              <Display Clture="id" Name="加班類別" />
+              <Display Clture="mt-MT" Name="加班類別" />
+              <Display Clture="ja-JP" Name="残業種類" />
+            </Tag>
+            <Tag Name="OvertimeSourse">
+              <Display Clture="zh-TW" Name="加班來源" />
+              <Display Clture="zh-CN" Name="加班源" />
+              <Display Clture="en-US" Name="Source of Overtime" />
+              <Display Clture="vi" Name="Nguồn gốc tăng ca" />
+              <Display Clture="id" Name="加班來源" />
+              <Display Clture="mt-MT" Name="加班來源" />
+              <Display Clture="ja-JP" Name="残業データの情報源" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+            <!-- 轉補休 TimeOff，轉費用 Payment，轉補休及費用 Both -->
+            <Tag Name="OTChangeType">
+              <Display Clture="zh-TW" Name="給付方式" />
+              <Display Clture="zh-CN" Name="给付方式" />
+              <Display Clture="en-US" Name="Payment method" />
+              <Display Clture="vi" Name="Phương thức chi trả" />
+              <Display Clture="id" Name="給付方式" />
+              <Display Clture="mt-MT" Name="給付方式" />
+              <Display Clture="ja-JP" Name="支払い方" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <!-- ==End 差勤表單V2 End== -->
+        <!-- ==Start 電子公文表單 Start== -->
+        <FieldItem DesignUI="~/Edoc/WKFOptionalFields/SetupField_EdocContent.aspx" WriteUI="~/Edoc/WKFOptionalFields/EdocContent.ascx" FieldName="EdocContent">
+          <Display>
+            <Value Culture="zh-TW" Name="公文內容" />
+            <Value Culture="zh-CN" Name="公文内容" />
+            <Value Culture="en-US" Name="EdocContent" />
+            <Value Culture="vi" Name="Nội dung công văn" />
+            <Value Culture="id" Name="EdocContent" />
+            <Value Culture="mt-MT" Name="EdocContent" />
+            <Value Culture="ja-JP" Name="公文內容" />
+          </Display>
+          <Condition>
+            <Tag Name="ToUnitName">
+              <Display Clture="zh-TW" Name="收文機關名稱" />
+              <Display Clture="zh-CN" Name="收文机关名称" />
+              <Display Clture="en-US" Name="toUnitName" />
+              <Display Clture="vi" Name="Tên cơ quan nhận văn bản" />
+              <Display Culture="id" Name="toUnitName" />
+              <Display Culture="mt-MT" Name="toUnitName" />
+              <Display Culture="ja-JP" Name="收文機關名稱" />
+            </Tag>
+            <Tag Name="FromUnitName">
+              <Display Clture="zh-TW" Name="發文機關名稱" />
+              <Display Clture="zh-CN" Name="发文机关名称" />
+              <Display Clture="en-US" Name="FromUnitName" />
+              <Display Clture="vi" Name="Tên cơ quan gửi văn bản" />
+              <Display Culture="id" Name="FromUnitName" />
+              <Display Culture="mt-MT" Name="FromUnitName" />
+              <Display Culture="ja-JP" Name="發文機關名稱" />
+            </Tag>
+            <Tag Name="SpeedType">
+              <Display Clture="zh-TW" Name="速別" />
+              <Display Clture="zh-CN" Name="速别" />
+              <Display Clture="en-US" Name="speedType" />
+              <Display Clture="vi" Name="Loại tốc dộ" />
+              <Display Culture="id" Name="speedType" />
+              <Display Culture="mt-MT" Name="speedType" />
+              <Display Culture="ja-JP" Name="速别" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <!-- ==End 電子公文表單 End== -->        
+        <!-- ==Start 文管表單 Start== -->        
+        <FieldItem DesignUI="~/DMS/WKFOptionalFields/SetupField_DMSDocView.aspx" WriteUI="~/DMS/WKFOptionalFields/DMSDocViewUC.ascx" FieldName="DMSDocView">
+          <Display>
+            <Value Culture="zh-TW" Name="文件內容" />
+            <Value Culture="zh-CN" Name="文档內容" />
+            <Value Culture="en-US" Name="Document content" />
+            <Value Culture="vi" Name="Nội dung văn kiện" />
+            <Value Culture="id" Name="文件內容" />
+            <Value Culture="mt-MT" Name="文件內容" />
+            <Value Culture="ja-JP" Name="ファイル内容" />
+          </Display>
+        </FieldItem>
+        <!-- ==End 文管表單 End== -->                
+        
+        
+        <!-- ==Start 104版差勤表單 Start== -->
+        <!--<FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_OverTimeInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeInfoUC.ascx" FieldName="OverTimeInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104加班資訊" />
+            <Value Culture="zh-CN" Name="104加班信息" />
+            <Value Culture="en-US" Name="104Overtime Info." />
+            <Value Culture="vi" Name="104 Thông tin tăng ca" />
+            <Value Culture="id" Name="104加班資訊" />
+            <Value Culture="mt-MT" Name="104加班資訊" />
+            <Value Culture="ja-JP" Name="104残業タイプ" />
+          </Display>
+          <Condition>
+            <Tag Name="OvertimeHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="時數" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="時數" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="OvertimeType">
+              <Display Clture="zh-TW" Name="折換方式" />
+              <Display Clture="zh-CN" Name="折换方式" />
+              <Display Clture="en-US" Name="折換方式" />
+              <Display Clture="vi" Name="Phương thức quy đổi" />
+              <Display Clture="id" Name="折換方式" />
+              <Display Clture="mt-MT" Name="折換方式" />
+               <Display Clture="ja-JP" Name="支払い方" />
+            </Tag>
+            <Tag Name="MealAllowance">
+              <Display Clture="zh-TW" Name="是否支領誤餐費" />
+              <Display Clture="zh-CN" Name="是否支领误餐费" />
+              <Display Clture="en-US" Name="Missed Meal Fee" />
+              <Display Clture="vi" Name="Có lĩnh hỗ trợ tiền ăn hay không" />
+              <Display Clture="id" Name="是否支領誤餐費" />
+              <Display Clture="mt-MT" Name="是否支領誤餐費" />
+              <Display Clture="ja-JP" Name="食事遅滯手當を受け取る" />
+            </Tag>
+            <Tag Name="ExcludeHours">
+              <Display Clture="zh-TW" Name="扣除時數" />
+              <Display Clture="zh-CN" Name="扣除时数" />
+              <Display Clture="en-US" Name="扣除時數" />
+              <Display Clture="vi" Name="Số giờ trừ" />
+              <Display Clture="id" Name="扣除時數" />
+              <Display Clture="mt-MT" Name="扣除時數" />
+               <Display Clture="ja-JP" Name="差し引きました時間数" />
+            </Tag>
+            <Tag Name="PunchCheck">
+              <Display Clture="zh-TW" Name="是否檢查刷卡" />
+              <Display Clture="zh-CN" Name="是否检查刷卡" />
+              <Display Clture="en-US" Name="是否檢查刷卡" />
+              <Display Clture="vi" Name="Có kiểm tra quẹt thẻ hay không" />
+              <Display Clture="id" Name="是否檢查刷卡" />
+              <Display Clture="mt-MT" Name="是否檢查刷卡" />
+              <Display Clture="ja-JP" Name="出勤時間の検査あるがどうか" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/LeaveInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_LeaveInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/LeaveInfoUC.ascx" FieldName="LeaveInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104請假資訊" />
+            <Value Culture="zh-CN" Name="104请假信息" />
+            <Value Culture="en-US" Name="104Leave Info." />
+            <Value Culture="vi" Name="104 Thông tin xin nghỉ phép" />
+            <Value Culture="id" Name="104請假資訊" />
+            <Value Culture="mt-MT" Name="104請假資訊" />
+            <Value Culture="ja-JP" Name="104休み情報" />
+          </Display>
+          <Condition>
+            <Tag Name="LeaCode">
+              <Display Clture="zh-TW" Name="假別" />
+              <Display Clture="zh-CN" Name="假别" />
+              <Display Clture="en-US" Name="LeaveCode" />
+              <Display Clture="vi" Name="Loại nghỉ phép" />
+              <Display Clture="id" Name="LeaveCode" />
+              <Display Clture="mt-MT" Name="假別" />
+              <Display Clture="ja-JP" Name="休暇の種類" />
+            </Tag>
+            <Tag Name="LeaHours">
+              <Display Clture="zh-TW" Name="時(天)數" />
+              <Display Clture="zh-CN" Name="时(天)数" />
+              <Display Clture="en-US" Name="Hour(day)" />
+              <Display Clture="vi" Name="Số giờ ( ngày)" />
+              <Display Clture="id" Name="時(天)數" />
+              <Display Clture="mt-MT" Name="時(天)數" />
+              <Display Clture="ja-JP" Name="時間（日）" />
+            </Tag>
+            <Tag Name="LeaUnit">
+              <Display Clture="zh-TW" Name="單位" />
+              <Display Clture="zh-CN" Name="单位" />
+              <Display Clture="en-US" Name="Unit" />
+              <Display Clture="vi" Name="Đơn vị" />
+              <Display Clture="id" Name="單位" />
+              <Display Clture="mt-MT" Name="單位" />
+              <Display Clture="ja-JP" Name="單位" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+            <Tag Name="HasAgent">
+              <Display Clture="zh-TW" Name="有填寫職務代理人" />
+              <Display Clture="zh-CN" Name="有填写职务代理人" />
+              <Display Clture="en-US" Name="Deputy has filled-in" />
+              <Display Clture="vi" Name="Có điền người thay thế chức vụ" />
+              <Display Clture="id" Name="有填寫職務代理人" />
+              <Display Clture="mt-MT" Name="有填寫職務代理人" />
+              <Display Clture="ja-JP" Name="代理人の入力ある" />
+            </Tag>
+            <Tag Name="SectionCode">
+              <Display Clture="zh-TW" Name="班別代碼" />
+              <Display Clture="zh-CN" Name="班别代码" />
+              <Display Clture="en-US" Name="Shift Code" />
+              <Display Clture="vi" Name="Mã ca làm việc" />
+              <Display Clture="id" Name="班別代碼" />
+              <Display Clture="mt-MT" Name="班別代碼" />
+              <Display Clture="ja-JP" Name="コード" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/TravelInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_TravelInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/TravelInfoUC.ascx" FieldName="TravelInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104出差資訊" />
+            <Value Culture="zh-CN" Name="104出差信息" />
+            <Value Culture="en-US" Name="104Travel Info." />
+            <Value Culture="vi" Name="104 Thông tin đi công tác" />
+            <Value Culture="id" Name="104出差資訊" />
+            <Value Culture="mt-MT" Name="104出差資訊" />
+            <Value Culture="ja-JP" Name="104出張情報" />
+          </Display>
+          <Condition>
+            <Tag Name="TravelType">
+              <Display Clture="zh-TW" Name="出差類別" />
+              <Display Clture="zh-CN" Name="出差类别" />
+              <Display Clture="en-US" Name="Category" />
+              <Display Clture="vi" Name="Loại công tác" />
+              <Display Clture="id" Name="出差類別" />
+              <Display Clture="mt-MT" Name="出差類別" />
+              <Display Clture="ja-JP" Name="カテゴリー" />
+            </Tag>
+            <Tag Name="TravelUnit">
+              <Display Clture="zh-TW" Name="單位" />
+              <Display Clture="zh-CN" Name="单位" />
+              <Display Clture="en-US" Name="Unit" />
+              <Display Clture="vi" Name="Đơn vị" />
+              <Display Clture="id" Name="單位" />
+              <Display Clture="mt-MT" Name="單位" />
+              <Display Clture="ja-JP" Name="單位" />
+            </Tag>
+            <Tag Name="TravelHours">
+              <Display Clture="zh-TW" Name="時(天)數" />
+              <Display Clture="zh-CN" Name="时(天)数" />
+              <Display Clture="en-US" Name="Hour(day)" />
+              <Display Clture="vi" Name="Số giờ ( ngày)" />
+              <Display Clture="id" Name="時(天)數" />
+              <Display Clture="mt-MT" Name="時(天)數" />
+              <Display Clture="ja-JP" Name="時間（日）" />
+            </Tag>
+            <Tag Name="Currency">
+              <Display Clture="zh-TW" Name="幣別" />
+              <Display Clture="zh-CN" Name="币别" />
+              <Display Clture="en-US" Name="Currency" />
+              <Display Clture="vi" Name="Loại tiền tệ" />
+              <Display Clture="id" Name="幣別" />
+              <Display Clture="mt-MT" Name="幣別" />
+              <Display Clture="ja-JP" Name="通貨" />
+            </Tag>
+            <Tag Name="CashAdvance">
+              <Display Clture="zh-TW" Name="預支金額" />
+              <Display Clture="zh-CN" Name="预支金额" />
+              <Display Clture="en-US" Name="Amount of Cash advance" />
+              <Display Clture="vi" Name="Số tiền trả trước" />
+              <Display Clture="id" Name="預支金額" />
+              <Display Clture="mt-MT" Name="預支金額" />
+              <Display Clture="ja-JP" Name="先払う金額" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+            <Tag Name="HasAgent">
+              <Display Clture="zh-TW" Name="有填寫職務代理人" />
+              <Display Clture="zh-CN" Name="有填写职务代理人" />
+              <Display Clture="en-US" Name="Deputy has filled-in" />
+              <Display Clture="vi" Name="Có điền người thay thế chức vụ" />
+              <Display Clture="id" Name="有填寫職務代理人" />
+              <Display Clture="mt-MT" Name="有填寫職務代理人" />
+              <Display Clture="ja-JP" Name="代理人の入力ある" />
+            </Tag>
+            <Tag Name="SectionCode">
+              <Display Clture="zh-TW" Name="班別代碼" />
+              <Display Clture="zh-CN" Name="班别代码" />
+              <Display Clture="en-US" Name="Shift Code" />
+              <Display Clture="vi" Name="Mã ca làm việc" />
+              <Display Clture="id" Name="班別代碼" />
+              <Display Clture="mt-MT" Name="班別代碼" />
+              <Display Clture="ja-JP" Name="コード" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/TravelCancelInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_TravelCancelInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/TravelCancelInfoUC.ascx" FieldName="CancelTravelInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104銷出差資訊" />
+            <Value Culture="zh-CN" Name="104销出差信息" />
+            <Value Culture="en-US" Name="104 Business Travel cancellation Information" />
+            <Value Culture="vi" Name="104 Gỡ bỏ thông tin đi công tác" />
+            <Value Culture="id" Name="104銷出差資訊" />
+            <Value Culture="mt-MT" Name="104銷出差資訊" />
+            <Value Culture="ja-JP" Name="104出張時間数の相殺情報" />
+          </Display>
+          <Condition>
+            <Tag Name="TravelArea">
+              <Display Clture="zh-TW" Name="出差類別" />
+              <Display Clture="zh-CN" Name="出差类别" />
+              <Display Clture="en-US" Name="Category" />
+              <Display Clture="vi" Name="Loại đi công tác" />
+              <Display Clture="id" Name="出差類別" />
+              <Display Clture="mt-MT" Name="出差類別" />
+              <Display Clture="ja-JP" Name="カテゴリー" />
+            </Tag>
+            <Tag Name="AdvenceCurreny">
+              <Display Clture="zh-TW" Name="預支幣別" />
+              <Display Clture="zh-CN" Name="預支幣別" />
+              <Display Clture="en-US" Name="預支幣別" />
+              <Display Clture="vi" Name="Loại tiền tệ trả trước" />
+              <Display Clture="id" Name="預支幣別" />
+              <Display Clture="mt-MT" Name="預支幣別" />
+              <Display Clture="ja-JP" Name="先払う金額" />
+            </Tag>
+            <Tag Name="AdvanceAmount">
+              <Display Clture="zh-TW" Name="預支金額" />
+              <Display Clture="zh-CN" Name="预支金额" />
+              <Display Clture="en-US" Name="Amount of Cash advance" />
+              <Display Clture="vi" Name="Số tiền trả trước" />
+              <Display Clture="id" Name="預支金額" />
+              <Display Clture="mt-MT" Name="預支金額" />
+              <Display Clture="ja-JP" Name="先払う金額" />
+            </Tag>
+            <Tag Name="TravelHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="TravelUnit">
+              <Display Clture="zh-TW" Name="單位" />
+              <Display Clture="zh-CN" Name="单位" />
+              <Display Clture="en-US" Name="Unit" />
+              <Display Clture="vi" Name="Đơn vị" />
+              <Display Clture="id" Name="單位" />
+              <Display Clture="mt-MT" Name="單位" />
+              <Display Clture="ja-JP" Name="單位" />
+            </Tag>
+            <Tag Name="HasAgent">
+              <Display Clture="zh-TW" Name="有填寫職務代理人" />
+              <Display Clture="zh-CN" Name="有填写职务代理人" />
+              <Display Clture="en-US" Name="Deputy has filled-in" />
+              <Display Clture="vi" Name="Có điền người thay thế chức vụ" />
+              <Display Clture="id" Name="有填寫職務代理人" />
+              <Display Clture="mt-MT" Name="有填寫職務代理人" />
+              <Display Clture="ja-JP" Name="代理人の入力ある" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/LeaveCancelInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_LeaveCancelInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/LeaveCancelInfoUC.ascx" FieldName="LeaveCancelInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104銷假資訊" />
+            <Value Culture="zh-CN" Name="104销假信息" />
+            <Value Culture="en-US" Name="Information of 104 Leave Cancelling" />
+            <Value Culture="vi" Name="104 Gỡ bỏ thông tin phép" />
+            <Value Culture="id" Name="104銷假資訊" />
+            <Value Culture="mt-MT" Name="104銷假資訊" />
+            <Value Culture="ja-JP" Name="104休み日情報" />
+          </Display>
+          <Condition>
+            <Tag Name="LeaCode">
+              <Display Clture="zh-TW" Name="假別" />
+              <Display Clture="zh-CN" Name="假别" />
+              <Display Clture="en-US" Name="LeaveCode" />
+              <Display Clture="vi" Name="Loại nghỉ phép" />
+              <Display Clture="id" Name="LeaveCode" />
+              <Display Clture="mt-MT" Name="假別" />
+              <Display Clture="ja-JP" Name="休暇の種類" />
+            </Tag>
+            <Tag Name="LeaHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="Unit">
+              <Display Clture="zh-TW" Name="單位" />
+              <Display Clture="zh-CN" Name="单位" />
+              <Display Clture="en-US" Name="Unit" />
+              <Display Clture="vi" Name="Đơn vị" />
+              <Display Clture="id" Name="單位" />
+              <Display Clture="mt-MT" Name="單位" />
+              <Display Clture="ja-JP" Name="單位" />
+            </Tag>
+            <Tag Name="HasAgent">
+              <Display Clture="zh-TW" Name="有填寫職務代理人" />
+              <Display Clture="zh-CN" Name="有填写职务代理人" />
+              <Display Clture="en-US" Name="Deputy has filled-in" />
+              <Display Clture="vi" Name="Có điền người thay thế chức vụ" />
+              <Display Clture="id" Name="有填寫職務代理人" />
+              <Display Clture="mt-MT" Name="有填寫職務代理人" />
+              <Display Clture="ja-JP" Name="代理人の入力ある" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/OvertimeCancelInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_OvertimeCancelInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/OvertimeCancelInfoUC.ascx" FieldName="OvertimeCancelInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104銷加班資訊" />
+            <Value Culture="zh-CN" Name="104销加班信息" />
+            <Value Culture="en-US" Name="104 Shift Cancelation Information" />
+            <Value Culture="vi" Name="104 Gỡ bỏ thông tin tăng ca" />
+            <Value Culture="id" Name="104銷加班資訊" />
+            <Value Culture="mt-MT" Name="104銷加班資訊" />
+            <Value Culture="ja-JP" Name="104シフト表情報を取り消します" />
+          </Display>
+          <Condition>
+            <Tag Name="OvertimeHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="時數" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/PunchInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_PunchInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/PunchInfoUC.ascx" FieldName="PunchInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104忘刷卡資訊" />
+            <Value Culture="zh-CN" Name="104忘刷卡信息" />
+            <Value Culture="en-US" Name="104 Make-up Punch Information" />
+            <Value Culture="vi" Name="104 Thông tin quên quẹt thẻ" />
+            <Value Culture="id" Name="104忘刷卡資訊" />
+            <Value Culture="mt-MT" Name="104忘刷卡資訊" />
+            <Value Culture="ja-JP" Name="104時間補正の情報" />
+          </Display>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeBatchInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_OverTimeBatchInfoUC.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeBatchInfoUC.ascx" FieldName="OverTimeBatchInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104批次加班資訊" />
+            <Value Culture="zh-CN" Name="104批次加班信息" />
+            <Value Culture="en-US" Name="Information of 104 Batch OT" />
+            <Value Culture="vi" Name="104 Thông tin tăng ca nhiều người" />
+            <Value Culture="id" Name="104批次加班資訊" />
+            <Value Culture="mt-MT" Name="104批次加班資訊" />
+            <Value Culture="ja-JP" Name="104残業時間情報" />
+          </Display>
+          <Condition>
+            <Tag Name="OvertimeHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="Hours" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="OvertimeType">
+              <Display Clture="zh-TW" Name="折換方式" />
+              <Display Clture="zh-CN" Name="折换方式" />
+              <Display Clture="en-US" Name="Exchange method" />
+              <Display Clture="vi" Name="Phương thức quy đổi" />
+              <Display Clture="id" Name="Exchange method" />
+              <Display Clture="mt-MT" Name="Exchange method" />
+              <Display Clture="ja-JP" Name="代わり方" />
+            </Tag>
+            <Tag Name="MealAllowance">
+              <Display Clture="zh-TW" Name="是否支領誤餐費" />
+              <Display Clture="zh-CN" Name="是否支领误餐费" />
+              <Display Clture="en-US" Name="Missed Meal Fee" />
+              <Display Clture="vi" Name="Có lĩnh hỗ trợ tiền ăn hay không" />
+              <Display Clture="id" Name="是否支領誤餐費" />
+              <Display Clture="mt-MT" Name="是否支領誤餐費" />
+              <Display Clture="ja-JP" Name="食事遅滯手當を受け取る" />
+            </Tag>
+            <Tag Name="ExcludeHours">
+              <Display Clture="zh-TW" Name="扣除時數" />
+              <Display Clture="zh-CN" Name="扣除时数" />
+              <Display Clture="en-US" Name="OT hours" />
+              <Display Clture="vi" Name="Số giờ trừ" />
+              <Display Clture="id" Name="OT hours" />
+              <Display Clture="mt-MT" Name="OT hours" />
+              <Display Clture="ja-JP" Name="差し引きました時間数" />
+            </Tag>
+            <Tag Name="PunchCheck">
+              <Display Clture="zh-TW" Name="是否檢查刷卡" />
+              <Display Clture="zh-CN" Name="是否检查刷卡" />
+              <Display Clture="en-US" Name="Check Punch data " />
+              <Display Clture="vi" Name="Có kiểm tra quẹt thẻ hay không" />
+              <Display Clture="id" Name="是否檢查刷卡" />
+              <Display Clture="mt-MT" Name="是否檢查刷卡" />
+              <Display Clture="ja-JP" Name="出勤時間の検査あるがどうか" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeBatchInfoAdvMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_OverTimeBatchInfoAdvUC.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeBatchInfoAdvUC.ascx" FieldName="OverTimeBatchInfoAdv104">
+          <Display>
+            <Value Culture="zh-TW" Name="104多時段批次加班資訊" />
+            <Value Culture="zh-CN" Name="104多時段批次加班信息" />
+            <Value Culture="en-US" Name="Information of 104 Multi-period batch OT" />
+            <Value Culture="vi" Name="104 Thông tin tăng ca nhiều người nhiều khoảng thời gian" />
+            <Value Culture="id" Name="104多時段批次加班資訊" />
+            <Value Culture="mt-MT" Name="104多時段批次加班資訊" />
+            <Value Culture="ja-JP" Name="104残業情報" />
+          </Display>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeInfoAdvMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_OverTimeInfoAdv.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/OverTimeInfoAdvUC.ascx" FieldName="OverTimeInfoAdv104">
+          <Display>
+            <Value Culture="zh-TW" Name="104預先加班資訊" />
+            <Value Culture="zh-CN" Name="104预先加班信息" />
+            <Value Culture="en-US" Name="104OvertimeAdv Info." />
+            <Value Culture="vi" Name="104 Thông tin tăng ca trước" />
+            <Value Culture="id" Name="104預先加班資訊" />
+            <Value Culture="mt-MT" Name="104預先加班資訊" />
+            <Value Culture="ja-JP" Name="先に申請した残業情報" />
+          </Display>
+          <Condition>
+            <Tag Name="OvertimeHours">
+              <Display Clture="zh-TW" Name="時數" />
+              <Display Clture="zh-CN" Name="时数" />
+              <Display Clture="en-US" Name="Hours" />
+              <Display Clture="vi" Name="Số giờ" />
+              <Display Clture="id" Name="Hours" />
+              <Display Clture="mt-MT" Name="Hours" />
+              <Display Clture="ja-JP" Name="時間" />
+            </Tag>
+            <Tag Name="OvertimeType">
+              <Display Clture="zh-TW" Name="折換方式" />
+              <Display Clture="zh-CN" Name="折换方式" />
+              <Display Clture="en-US" Name="Exchange method" />
+              <Display Clture="vi" Name="Phương thức quy đổi" />
+              <Display Clture="id" Name="折換方式" />
+              <Display Clture="mt-MT" Name="折換方式" />
+              <Display Clture="ja-JP" Name="代わり方" />
+            </Tag>
+            <Tag Name="MealAllowance">
+              <Display Clture="zh-TW" Name="是否支領誤餐費" />
+              <Display Clture="zh-CN" Name="是否支领误餐费" />
+              <Display Clture="en-US" Name="Missed Meal Fee" />
+              <Display Clture="vi" Name="Có lĩnh hỗ trợ tiền ăn hay không" />
+              <Display Clture="id" Name="是否支領誤餐費" />
+              <Display Clture="mt-MT" Name="是否支領誤餐費" />
+              <Display Clture="ja-JP" Name="食事遅滯手當を受け取る" />
+            </Tag>
+            <Tag Name="ExcludeHours">
+              <Display Clture="zh-TW" Name="扣除時數" />
+              <Display Clture="zh-CN" Name="扣除时数" />
+              <Display Clture="en-US" Name="OT hours" />
+              <Display Clture="vi" Name="Số giờ trừ" />
+              <Display Clture="id" Name="OT hours" />
+              <Display Clture="mt-MT" Name="OT hours" />
+              <Display Clture="ja-JP" Name="差し引きました時間数" />
+            </Tag>
+            <Tag Name="PunchCheck">
+              <Display Clture="zh-TW" Name="是否檢查刷卡" />
+              <Display Clture="zh-CN" Name="是否检查刷卡" />
+              <Display Clture="en-US" Name="Check Punch data " />
+              <Display Clture="vi" Name="Có kiểm tra quẹt thẻ hay không" />
+              <Display Clture="id" Name="是否檢查刷卡" />
+              <Display Clture="mt-MT" Name="是否檢查刷卡" />
+              <Display Clture="ja-JP" Name="出勤時間の検査あるがどうか" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/OverAttendReportInfoMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_OverAttendReportInfo.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/OverAttendReportInfoUC.ascx" FieldName="OverAttendReportInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104超時出勤回報資訊" />
+            <Value Culture="zh-CN" Name="104超时出勤回报信息" />
+            <Value Culture="en-US" Name="Information of 104 Extra Hours Report" />
+            <Value Culture="vi" Name="104 Thông tin báo lại đi làm quá thời gian" />
+            <Value Culture="id" Name="104超時出勤回報資訊" />
+            <Value Culture="mt-MT" Name="104超時出勤回報資訊" />
+            <Value Culture="ja-JP" Name="104残業時間のお知らせ" />
+          </Display>
+          <Condition>
+            <Tag Name="Reason">
+              <Display Clture="zh-TW" Name="超時原因包含S00" />
+              <Display Clture="zh-CN" Name="超时原因包含S00" />
+              <Display Clture="en-US" Name="Reason of Extra Hours including S00" />
+              <Display Clture="vi" Name="Nguyên nhân quá thời gian bao gồm S00" />
+              <Display Clture="id" Name="超時原因包含S00" />
+              <Display Clture="mt-MT" Name="超時原因包含S00" />
+              <Display Clture="ja-JP" Name="残業時間ではS00を含める" />
+            </Tag>
+          </Condition>
+        </FieldItem>
+        <FieldItem MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/OverAttendReportUpadteMobileUC.ascx" DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_OverAttendReportUpadte.aspx" WriteUI="~/EIP/Duty/WKFOptionalFields104/OverAttendReportUpadteUC.ascx" FieldName="OverAttendReportUpadte104">
+          <Display>
+            <Value Culture="zh-TW" Name="104超時出勤原因修改" />
+            <Value Culture="zh-CN" Name="104超时出勤原因修改" />
+            <Value Culture="en-US" Name="104 Extra Hours Reason Modification" />
+            <Value Culture="vi" Name="104 Sửa đổi nguyên nhân đi làm quá thời gian" />
+            <Value Culture="id" Name="104超時出勤原因修改" />
+            <Value Culture="mt-MT" Name="104超時出勤原因修改" />
+            <Value Culture="ja-JP" Name="原因修正" />
+          </Display>
+          <Condition>
+            <Tag Name="Reason">
+              <Display Clture="zh-TW" Name="變更後原因包含S00" />
+              <Display Clture="zh-CN" Name="更改后原因包含S00" />
+              <Display Clture="en-US" Name="變更後原因包含S00" />
+              <Display Clture="vi" Name="Nguyên nhân sau thay đổi bao gồm S00" />
+              <Display Clture="id" Name="變更後原因包含S00" />
+              <Display Clture="mt-MT" Name="變更後原因包含S00" />
+              <Display Clture="ja-JP" Name="残業時間ではS00を含める" />
+            </Tag>
+          </Condition>        
+        </FieldItem>
+        <FieldItem DesignUI="~/EIP/Duty/WKFOptionalFields104/SetupField_LeaveBatchInfo.aspx" MobileWriteUI="~/EIP/Duty/WKFOptionalFields104/LeaveBatchInfoMobileUC.ascx" WriteUI="~/EIP/Duty/WKFOptionalFields104/LeaveBatchInfoUC.ascx" FieldName="LeaveBatchInfo104">
+          <Display>
+            <Value Culture="zh-TW" Name="104多時段請假資訊" />
+            <Value Culture="zh-CN" Name="104多时段请假信息" />
+            <Value Culture="en-US" Name="104多時段請假資訊" />
+            <Value Culture="vi" Name="104 Thông tin xin nghỉ phép nhiều khoảng thời gian" />
+            <Value Culture="id" Name="104多時段請假資訊" />
+            <Value Culture="mt-MT" Name="104多時段請假資訊" />
+            <Value Culture="ja-JP" Name="104多時段請假資訊" />
+          </Display>
+          <Condition>
+            <Tag Name="LeaHours">
+              <Display Clture="zh-TW" Name="總時數" />
+              <Display Clture="zh-CN" Name="总时数" />
+              <Display Clture="en-US" Name="Total hours" />
+              <Display Clture="vi" Name="Tổng số giờ" />
+              <Display Clture="id" Name="Total hours" />
+              <Display Clture="mt-MT" Name="Total hours" />
+              <Display Clture="ja-JP" Name="合計時間数" />
+            </Tag>
+            <Tag Name="BU">
+              <Display Clture="zh-TW" Name="BU" />
+              <Display Clture="zh-CN" Name="BU" />
+              <Display Clture="en-US" Name="BU" />
+              <Display Clture="vi" Name="BU" />
+              <Display Clture="id" Name="BU" />
+              <Display Clture="mt-MT" Name="BU" />
+              <Display Clture="ja-JP" Name="BU" />
+            </Tag>
+            <Tag Name="SectionCode">
+              <Display Clture="zh-TW" Name="班別代碼" />
+              <Display Clture="zh-CN" Name="班別代碼" />
+              <Display Clture="en-US" Name="Shift Code" />
+              <Display Clture="vi" Name="Mã ca làm việc" />
+              <Display Clture="id" Name="班別代碼" />
+              <Display Clture="mt-MT" Name="班別代碼" />
+              <Display Clture="ja-JP" Name="コード" />
+            </Tag>
+            <Tag Name="HasAgent">
+              <Display Clture="zh-TW" Name="有填寫職務代理人" />
+              <Display Clture="zh-CN" Name="有填写职务代理人" />
+              <Display Clture="en-US" Name="Deputy has filled-in" />
+              <Display Clture="vi" Name="Có điền người thay thế chức vụ" />
+              <Display Clture="id" Name="有填寫職務代理人" />
+              <Display Clture="mt-MT" Name="有填寫職務代理人" />
+              <Display Clture="ja-JP" Name="代理人の入力ある" />
+            </Tag>
+          </Condition>
+        </FieldItem>-->
+        <!-- ==End 104版差勤表單 End== -->        
+      </OptionalField>
+    </Field>
+  </WKF>
+  <!-- 因越南文的中性文化特性與特殊文化特性不同會造成錯誤，所以只有globalSearch這裡的越南文使用vi-VN  -->
+  <!-- 使用Ede.Uof.EIP.SystemInfo.Current.Culture的是由Setting來的，所以還是vi -->
+  <!-- 使用System.Threading.Thread.CurrentThread.CurrentCulture.Name 拿到的會是vi-VN-->
+  <!-- 印尼文改為id-ID-->
+  <globalSearch>
+    <searchItem name="Bulletin" file="Ede.Uof.EIP.Bulletin" type="Ede.Uof.EIP.Bulletin.GlobalSearch">
+      <display>
+        <culture name="en-us">Bulletin</culture>
+        <culture name="zh-tw">公告</culture>
+        <culture name="zh-cn">公告</culture>
+        <culture name="vi-VN">Thông báo</culture>
+        <culture name="id-ID">Buletin</culture>
+        <culture name="mt-MT">ပြန်တမ်းစာ</culture>
+        <culture name="ja-JP">アナウンス</culture>
+      </display>
+      <link type="Dialog" width="1024" height="768" url="~/EIP/Bulletin/ViewBulletin.aspx?BULLETINID={BULLETIN_GUID}" />
+    </searchItem>
+    <searchItem name="Forum" file="Ede.Uof.EIP.Forum" type="Ede.Uof.EIP.Forum.GlobalSearch">
+      <display>
+        <culture name="en-us">Forums</culture>
+        <culture name="zh-tw">討論區</culture>
+        <culture name="zh-cn">讨论区</culture>
+        <culture name="vi-VN">Diễn đàn</culture>
+        <culture name="id-ID">Forum</culture>
+        <culture name="mt-MT">ဆွေးနွေးမှု(အစုအဝေး)</culture>
+        <culture name="ja-JP">掲示板</culture>
+      </display>
+      <link type="Redirect" url="~/EIP/Forum/SubjectDetail.aspx?topicid={TOPIC_GUID}&amp;boardid={BOARD_GUID}&amp;boardname={BOARD_NAME}" />
+    </searchItem>
+    <searchItem name="WKFSearch" file="Ede.Uof.WKF" type="Ede.Uof.WKF.GlobalSearch.WKFSearch">
+      <display>
+        <culture name="en-us">WorkFlow</culture>
+        <culture name="zh-tw">電子簽核</culture>
+        <culture name="zh-cn">电子签核</culture>
+        <culture name="vi-VN">WorkFlow báo</culture>
+        <culture name="id-ID">Alur kerja</culture>
+        <culture name="mt-MT">လုပ်ငန်းစဉ်</culture>
+        <culture name="ja-JP">電子サイン</culture>
+      </display>
+      <link type="Dialog" width="1024" height="768" url="~/WKF/FormUse/FormPrint.aspx?TASK_ID={TASK_ID}" />
+    </searchItem>
+    <searchItem name="DMS" file="Ede.Uof.DMS" type="Ede.Uof.DMS.GlobalSearch">
+      <display>
+        <culture name="en-us">DMS</culture>
+        <culture name="zh-tw">文件管理</culture>
+        <culture name="zh-cn">文档管理</culture>
+        <culture name="vi-VN">Quản lý văn kiện</culture>
+        <culture name="id-ID">Pengelolaan dokumen</culture>
+        <culture name="mt-MT">DMS-အချက်အလက် စီမံခန့်ခွဲမှုစနစ် </culture>
+        <culture name="ja-JP">ファイル管理</culture>
+      </display>
+      <link type="Dialog" width="700" height="720" url="~/DMS/DocStore/DocDownLoad.aspx?docid={DOC_ID}" />
+    </searchItem>
+    <searchItem name="PrivateMessage" file="Ede.Uof.EIP.PrivateMessage" type="Ede.Uof.EIP.PrivateMessage.GlobalSearch">
+      <display>
+        <culture name="en-us">PrivateMessage</culture>
+        <culture name="zh-tw">私人訊息</culture>
+        <culture name="zh-cn">私人信息</culture>
+        <culture name="vi-VN">Tin tức cá nhân</culture>
+        <culture name="id-ID">Pesan pribadi</culture>
+        <culture name="mt-MT">ပုဂ္ဂလိကသတင်း</culture>
+        <culture name="ja-JP">個人メッセージ</culture>
+      </display>
+      <link type="Dialog" width="800" height="600" url="~/Basic/Personal/PrivateMessage/ViewMessage.aspx?msgId={MESSAGE_GUID}" />
+    </searchItem>
+  </globalSearch>
+</Setting>

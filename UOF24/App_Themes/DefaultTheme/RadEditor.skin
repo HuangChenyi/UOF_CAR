@@ -1,0 +1,52 @@
+﻿<%--
+預設面板範本。下列面板僅提供做為範例的用途。
+
+1. 具名控制面板。SkinId 應為唯一定義，因為在相同主題中，一個控制項型別不能具有重複的 SkinId。
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. 預設面板。SkinId 未定義。在相同主題中，每個控制項型別只能有一個預設控制面板。
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<telerik:RadEditor runat="server" Skin="Silk" EditModes="Design" ToolsFile="~/Common/HtmlEditor/EditorMenu.xml"
+OnClientLoad="$uof.telerikFix.editor.changePopTable"
+DialogHandlerUrl="~/Common/HtmlEditor/DialogHandler.aspx">
+ <ContextMenus>  
+                    <telerik:EditorContextMenu TagName="P" Enabled="false">
+                     </telerik:EditorContextMenu>
+                   </ContextMenus>
+  <FontNames>
+        <telerik:EditorFont Value="微軟正黑體" />
+        <telerik:EditorFont Value="新細明體" />
+        <telerik:EditorFont Value="標楷體" />
+        <telerik:EditorFont Value="微软雅黑" />
+        <telerik:EditorFont Value="仿宋" />
+        <telerik:EditorFont Value="黑体" />
+        <telerik:EditorFont Value="楷体" />
+        <telerik:EditorFont Value="新宋体" />
+        <telerik:EditorFont Value="Arial" />
+        <telerik:EditorFont Value="Courier New" />
+        <telerik:EditorFont Value="Garamond" />
+        <telerik:EditorFont Value="Georgia" />
+        <telerik:EditorFont Value="MS Sans Serif" />
+        <telerik:EditorFont Value="Segoe UI" />
+        <telerik:EditorFont Value="Tahoma" />
+        <telerik:EditorFont Value="Times New Roman" />
+        <telerik:EditorFont Value="Verdana" />
+    </FontNames>
+    <Paragraphs>
+        <telerik:EditorParagraph Title="Normal" Tag="<p>" />
+        <telerik:EditorParagraph Title="Heading 1" Tag="<H1>" />
+        <telerik:EditorParagraph Title="Heading 2" Tag="<H2>" />
+        <telerik:EditorParagraph Title="Heading 3" Tag="<H3>" />
+        <telerik:EditorParagraph Title="Heading 4" Tag="<H4>" />
+        <telerik:EditorParagraph Title="Heading 5" Tag="<H5>" />
+        <telerik:EditorParagraph Title="Heading 6" Tag="<H6>" />
+   </Paragraphs>
+    <CssFiles>
+        <telerik:EditorCssFile Value="~/Common/HtmlEditor/EditorContentArea.css" />
+    </CssFiles>
+</telerik:RadEditor>

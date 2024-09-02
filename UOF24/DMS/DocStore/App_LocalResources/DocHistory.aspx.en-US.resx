@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Actual revision</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>System Revision</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="CheckBox1Resource1.Text" xml:space="preserve">
+    <value>Only display released revisions.</value>
+  </data>
+  <data name="CheckBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="docIconResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="docIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource3.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFViewerResource1.AlternateText" xml:space="preserve">
+    <value>View document</value>
+  </data>
+  <data name="imgPDFViewerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFViewerResource2.AlternateText" xml:space="preserve">
+    <value>View document</value>
+  </data>
+  <data name="imgPDFViewerResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFViewerResource3.AlternateText" xml:space="preserve">
+    <value>View document</value>
+  </data>
+  <data name="imgPDFViewerResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFViewerResource4.AlternateText" xml:space="preserve">
+    <value>View document</value>
+  </data>
+  <data name="imgPDFViewerResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labAlertResource1.Text" xml:space="preserve">
+    <value>File is in converting, please check later</value>
+  </data>
+  <data name="labAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDLFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Revision history</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Revision history of this document:  </value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>A new revision will be created for every time you save a document.  This history shows all revisions.  Draft revisions are shown as X.1, X.2, etc.  Released revisions are shown as X.0. </value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>For example:  2.0 is a released revision and 2.5 is a draft revision.</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>This file is still in Proxy server, it is uploading now, please wait！</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labFileErrorResource1.Text" xml:space="preserve">
+    <value>Error, file does not exist!</value>
+  </data>
+  <data name="labFileErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labPDFConvertERRORResource1.Text" xml:space="preserve">
+    <value>File convert error!</value>
+  </data>
+  <data name="labPDFConvertERRORResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>Approval in process</value>
+  </data>
+  <data name="lblApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckInResource1.Text" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="lblCheckInResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>Checked in</value>
+  </data>
+  <data name="lblCheckOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDMSStatusResource1.Text" xml:space="preserve">
+    <value>Release Approval：Simplified Approval</value>
+  </data>
+  <data name="lblDMSStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocDenyResource1.Text" xml:space="preserve">
+    <value>Release Reject</value>
+  </data>
+  <data name="lblDocDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocSerialResource1.Text" xml:space="preserve">
+    <value>Document number：</value>
+  </data>
+  <data name="lblFileHasPasswordResource1.Text" xml:space="preserve">
+    <value>The original file is encrypted,  transferred failure</value>
+  </data>
+  <data name="lblFileNotTransferToUofResource1.Text" xml:space="preserve">
+    <value>This file is still in Proxy server, it is uploading now, please wait！</value>
+  </data>
+  <data name="lblFileNotTransferToUofResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilePageOutLimitMsgResource1.Text" xml:space="preserve">
+    <value>Total are {0} pages, exceed the upper limit.</value>
+  </data>
+  <data name="lblFilePageOutLimitResource1.Text" xml:space="preserve">
+    <value>There are {0} pages over the limit of transfer pages</value>
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>Expired document</value>
+  </data>
+  <data name="lblInactiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManualVersionResource1.Text" xml:space="preserve">
+    <value>Revision：</value>
+  </data>
+  <data name="lblNoNeedApprovalResource1.Text" xml:space="preserve">
+    <value>Release without Approval</value>
+  </data>
+  <data name="lblNoNeedApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoNeedVoidResource1.Text" xml:space="preserve">
+    <value>No Approval before Void</value>
+  </data>
+  <data name="lblNoNeedVoidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotsupportDocResource1.Text" xml:space="preserve">
+    <value>The directory is set as "Convert", but the file type of uploaded file is not supported.</value>
+  </data>
+  <data name="lblNotsupportDocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOldVerResource1.Text" xml:space="preserve">
+    <value>Old revision</value>
+  </data>
+  <data name="lblOldVerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrintUserResource1.Text" xml:space="preserve">
+    <value>Print by:</value>
+  </data>
+  <data name="lblProtectMsgResource1.Text" xml:space="preserve">
+    <value>The DOC is encrypted, unable to view.</value>
+  </data>
+  <data name="lblProtectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishDateResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>Released</value>
+  </data>
+  <data name="lblPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempInactResource1.Text" xml:space="preserve">
+    <value>Off shelved</value>
+  </data>
+  <data name="lblTempInactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidDMSStatusResource1.Text" xml:space="preserve">
+    <value>Void Approval：Simplified Approval</value>
+  </data>
+  <data name="lblVoidDMSStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidResource1.Text" xml:space="preserve">
+    <value>Document voided</value>
+  </data>
+  <data name="lblVoidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidWKFStatusResource1.Text" xml:space="preserve">
+    <value>Void Approval：BPM</value>
+  </data>
+  <data name="lblVoidWKFStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFStatusResource1.Text" xml:space="preserve">
+    <value>Release Approval：BPM</value>
+  </data>
+  <data name="lblWKFStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnDocApproveLogResource1.Text" xml:space="preserve">
+    <value>Simplified Approval History</value>
+  </data>
+  <data name="lbtnDocApproveLogResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnDocChangeHistoryResource1.Text" xml:space="preserve">
+    <value>Replace Document History</value>
+  </data>
+  <data name="lbtnDocChangeHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnPrintRecordResource1.Text" xml:space="preserve">
+    <value>Paper Delivery Control</value>
+  </data>
+  <data name="lbtnPrintRecordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnSignInfoResource1.Text" xml:space="preserve">
+    <value>Publish Approval Info.</value>
+  </data>
+  <data name="lbtnSignInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnSignInfoResource2.Text" xml:space="preserve">
+    <value>Approval information</value>
+  </data>
+  <data name="lbtnSignInfoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnVoidInfoResource1.Text" xml:space="preserve">
+    <value>Approval Info. of void</value>
+  </data>
+  <data name="lbtnVoidInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.Text" xml:space="preserve">
+    <value>Remark on revision</value>
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton2Resource1.Text" xml:space="preserve">
+    <value>Approval flow</value>
+  </data>
+  <data name="LinkButton3Resource1.Text" xml:space="preserve">
+    <value>Rank comments</value>
+  </data>
+  <data name="LinkButton3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Document revision history</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Approval mode</value>
+  </data>
+  <data name="TextBox1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labNoActiveResource1.Text" xml:space="preserve">
+    <value>Not Effective</value>
+  </data>
+  <data name="labNoActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

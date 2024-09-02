@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cv_DllMsgResource1.ErrorMessage" xml:space="preserve">
+    <value>您未选定任何发送的DLL！</value>
+  </data>
+  <data name="cbDllResource1.Text" xml:space="preserve">
+    <value>表单送出(签核)后，需调用DLL：</value>
+  </data>
+  <data name="chkValitorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cv_validateMsgResource1.ErrorMessage" xml:space="preserve">
+    <value>您未选定任何发送的Web Service！</value>
+  </data>
+  <data name="lblTimeSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cv_validateMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserRankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAggregateTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>字段代号</value>
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllUserResource1.Text" xml:space="preserve">
+    <value>所有人员</value>
+  </data>
+  <data name="lblCalculateTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllRankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDllListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>删除字段</value>
+  </data>
+  <data name="btnSetWsValitorResource1.Text" xml:space="preserve">
+    <value>设置Web Service信息</value>
+  </data>
+  <data name="lblSingleLineTextResource1.Text" xml:space="preserve">
+    <value>单行文字字段</value>
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>字段型态</value>
+  </data>
+  <data name="lblDateSelectResource1.Text" xml:space="preserve">
+    <value>日期字段</value>
+  </data>
+  <data name="dgFormFieldsResource2.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="dgFormFieldsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRadioButtonResource1.Text" xml:space="preserve">
+    <value>单选钮</value>
+  </data>
+  <data name="lblUserProposerResource1.Text" xml:space="preserve">
+    <value>申请者</value>
+  </data>
+  <data name="lblCheckBoxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cv_DllMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDropDownListResource1.Text" xml:space="preserve">
+    <value>下拉式菜单</value>
+  </data>
+  <data name="lblDropDownListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserProposerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHyperLinkResource1.Text" xml:space="preserve">
+    <value>超链接</value>
+  </data>
+  <data name="lblUserRankResource1.Text" xml:space="preserve">
+    <value>申请者职级</value>
+  </data>
+  <data name="lblUserDeptResource1.Text" xml:space="preserve">
+    <value>申请者部门</value>
+  </data>
+  <data name="lblMultiLineTextResource1.Text" xml:space="preserve">
+    <value>多行文字字段</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgFormFieldsResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllDeptResource1.Text" xml:space="preserve">
+    <value>所有部门</value>
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>新建字段</value>
+  </data>
+  <data name="btnSetWsSendResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMultiLineTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Web Service设置</value>
+  </data>
+  <data name="lblUserDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetWsValitorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHiddenFieldResource1.Text" xml:space="preserve">
+    <value>隐藏字段</value>
+  </data>
+  <data name="PanelDllResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Web Service设置</value>
+  </data>
+  <data name="dropDownListSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgFormFieldsResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllFunctionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumberTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberResource1.Text" xml:space="preserve">
+    <value>自动编号字段</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRadioButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllRankResource1.Text" xml:space="preserve">
+    <value>所有职级</value>
+  </data>
+  <data name="lblFileButtonResource1.Text" xml:space="preserve">
+    <value>文件选定字段</value>
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgFormFieldsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSingleLineTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>字段名称</value>
+  </data>
+  <data name="lblTimeSelectResource1.Text" xml:space="preserve">
+    <value>时间字段</value>
+  </data>
+  <data name="UltraWebToolbar2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkValitorResource1.Text" xml:space="preserve">
+    <value>表单送出(签核)前，需调用Web Service进行验证，如验证失败，表单不允许送出：</value>
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>请选择相关字段</value>
+  </data>
+  <data name="chkSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelDllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAggregateTextResource1.Text" xml:space="preserve">
+    <value>加总平均字段</value>
+  </data>
+  <data name="lblHiddenFieldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cv_DllMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllFunctionResource1.Text" xml:space="preserve">
+    <value>所有职务</value>
+  </data>
+  <data name="lblDataGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHyperLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldInfoResource1.Text" xml:space="preserve">
+    <value>表单送出后，调用的Web Service，需发送的字段信息</value>
+  </data>
+  <data name="dropDownListValitorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSendResource1.Text" xml:space="preserve">
+    <value>表单送出(签核)后，需调用Web Service传出表单内容：</value>
+  </data>
+  <data name="lblCheckBoxResource1.Text" xml:space="preserve">
+    <value>核选方块</value>
+  </data>
+  <data name="lblDateSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDataGridResource1.Text" xml:space="preserve">
+    <value>明细字段</value>
+  </data>
+  <data name="dgFormFieldsResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="UltraWebToolbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>调整列宽顺序</value>
+  </data>
+  <data name="lblNumberTextResource1.Text" xml:space="preserve">
+    <value>数值字段</value>
+  </data>
+  <data name="lblCalculateTextResource1.Text" xml:space="preserve">
+    <value>表单计算字段</value>
+  </data>
+  <data name="cv_validateMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>确实要删除?</value>
+  </data>
+  <data name="btnSetWsSendResource1.Text" xml:space="preserve">
+    <value>设置Web Service信息</value>
+  </data>
+</root>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetSourctTypeCount" AllowAll="True" />
+  <Action Name="GetAllCollection" AllowAll="True" />
+  <Action Name="DeleteCollection" AllowAll="True" />
+  <Action Name="AddCollection" AllowAll="True" />
+</Actions>

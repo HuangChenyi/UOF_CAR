@@ -1,0 +1,151 @@
+﻿.fieldWidth {
+    width: 95%;
+    table-layout: fixed;
+}
+
+.fieldMargin {
+    margin-top: 8px;
+}
+
+.fieldPadding {
+    padding-top: 8px;
+}
+
+.optionalFieldPadding {
+    padding-top: 8px;
+}
+
+.fieldPadding input[type='text'][readonly='readonly']:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text'][disabled='disabled']:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text'][readonly='readonly']:hover {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text'][disabled='disabled']:hover {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text']:focus {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding input[type='text']:hover {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding input[type='text'] {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+
+
+.fieldPadding textarea[readonly='readonly']:hover {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+    resize: none !important;
+}
+
+.fieldPadding textarea[readonly='readonly']:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+    resize: none !important;
+}
+
+
+.fieldPadding textarea:hover {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding textarea:focus {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding textarea {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+}
+
+
+.TableLayout {
+    table-layout: fixed;
+}
+
+.TitleFont {
+    display: inline-block;
+    padding-top:3px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+
+.TableLayout > tbody > tr > td.PrintHideLine {
+    border-bottom-style: none !important;
+}
+
+.TableLayout > tbody > tr > td {
+    border-bottom-style: solid !important;
+    border-color: #EFEFEF !important;
+    border-width: 1px !important;
+    padding-top: 3px !important;
+}
+
+.TableLayout > tbody > tr > td > table {
+    margin-bottom: 6px !important;
+    min-height: 50px;
+}
+
+
+.RowHide {
+    display: none;
+}
+
+.FieldHide {
+    display: none;
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetSearchResult" AllowAll="True" />
+  <Action Name="GetChoiceCenterUserToUserSet" AllowAll="True" />
+  <Action Name="GetChoiceCenterDefValue" AllowAll="True" />
+  <Action Name="GetMembGroupAuth" AllowAll="True" />
+
+</Actions>

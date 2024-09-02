@@ -1,0 +1,12 @@
+;aiu;
+
+[Update19.50.7584]
+ProductVersion=19.50.7584
+Name=Excellence Messenger 19.50.7584
+URL=http://www.example.com/downloads/setup.msi
+Size=33554944
+MD5=df5e3267435c2df913d77dc5d07cbddf
+ServerFileName=setup19.50.7584.msi
+RegistryKey=HKLM\SOFTWARE\e-Excellence Inc.\Excellence Messenger\Version
+Version=19.50.7584
+Description=Support UOF19.50.7584

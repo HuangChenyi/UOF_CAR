@@ -1,0 +1,450 @@
+﻿
+#MasterContainer {
+    width: 100%;
+    height: 100%;
+}
+
+#MasterContent  {
+     display:table;
+     width: 100%;
+}
+
+#MasterContent  > div{
+     display:table-cell;
+}
+
+
+#MasterFooter  {
+    height: 27px;
+    width: 100%;
+}
+
+.UserSetItem {
+    background-color: #f5f5f5;
+    border: 1px solid #909090;
+    cursor: default;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 3px 5px 0 5px;
+    margin: 2px;
+}
+
+    .UserSetItem > div:nth-child(1) {
+        margin-bottom: 3px;
+        float: left;
+        margin-right: 3px;
+    }
+
+    .UserSetItem > div:nth-child(2) {
+        margin-bottom: 3px;
+        white-space: nowrap;
+        display: inline-block;
+    }
+
+
+.UserSetBorder {
+    background-color: transparent;
+    overflow: auto;
+    margin: 2px;
+}
+
+.SizeXL {
+    font-size: 146.5%;
+    font-weight: bold;
+}
+
+.SizeL {
+    font-size: 116%;
+    font-weight: bold;
+}
+
+.SizeS {
+    font-size: 85%;
+}
+
+.SizeSB {
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.SizeMemo {
+    font-size: 100%;
+    color: #0000ff;
+}
+
+
+.LoadingText {
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+#loadingAnimation {
+    position: relative;
+    width: 132px;
+    height: 16px;
+}
+
+    #loadingAnimation div {
+        position: absolute;
+        top: 0;
+        background-color: #008080;
+        width: 16px;
+        height: 16px;
+        -moz-animation-name: bounce_loadingAnimation;
+        -moz-animation-duration: 2.5s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-direction: linear;
+        -moz-transform: scale(.3);
+        -moz-border-radius: 11px;
+        -webkit-animation-name: bounce_loadingAnimation;
+        -webkit-animation-duration: 2.5s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: linear;
+        -webkit-transform: scale(.3);
+        -webkit-border-radius: 11px;
+        -ms-animation-name: bounce_loadingAnimation;
+        -ms-animation-duration: 2.5s;
+        -ms-animation-iteration-count: infinite;
+        -ms-animation-direction: linear;
+        -ms-transform: scale(.3);
+        -ms-border-radius: 11px;
+        -o-animation-name: bounce_loadingAnimation;
+        -o-animation-duration: 2.5s;
+        -o-animation-iteration-count: infinite;
+        -o-animation-direction: linear;
+        -o-transform: scale(.3);
+        -o-border-radius: 11px;
+        animation-name: bounce_loadingAnimation;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-direction: linear;
+        transform: scale(.3);
+        border-radius: 11px;
+    }
+
+        #loadingAnimation div:nth-child(1) {
+            left: 0;
+            -moz-animation-delay: 1s;
+            -webkit-animation-delay: 1s;
+            -ms-animation-delay: 1s;
+            -o-animation-delay: 1s;
+            animation-delay: 1s;
+        }
+
+        #loadingAnimation div:nth-child(2) {
+            left: 17px;
+            -moz-animation-delay: 1.25s;
+            -webkit-animation-delay: 1.25s;
+            -ms-animation-delay: 1.25s;
+            -o-animation-delay: 1.25s;
+            animation-delay: 1.25s;
+        }
+
+        #loadingAnimation div:nth-child(3) {
+            left: 33px;
+                -moz-animation-delay: 1.5s;
+            -webkit-animation-delay: 1.5s;
+            -ms-animation-delay: 1.5s;
+            -o-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+        }
+
+        #loadingAnimation div:nth-child(4) {
+            left: 50px;
+            -moz-animation-delay: 1.75s;
+            -webkit-animation-delay: 1.75s;
+            -ms-animation-delay: 1.75s;
+            -o-animation-delay: 1.75s;
+            animation-delay: 1.75s;
+        }
+
+        #loadingAnimation div:nth-child(5) {
+            left: 66px;
+            -moz-animation-delay: 2s;
+            -webkit-animation-delay: 2s;
+            -ms-animation-delay: 2s;
+            -o-animation-delay: 2s;
+            animation-delay: 2s;
+        }
+
+        #loadingAnimation div:nth-child(6) {
+            left: 83px;
+            -moz-animation-delay: 2.25s;
+            -webkit-animation-delay: 2.25s;
+            -ms-animation-delay: 2.25s;
+            -o-animation-delay: 2.25s;
+            animation-delay: 2.25s;
+        }
+
+        #loadingAnimation div:nth-child(7) {
+            left: 99px;
+            -moz-animation-delay: 2.5s;
+            -webkit-animation-delay: 2.5s;
+            -ms-animation-delay: 2.5s;
+            -o-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+        }
+
+        #loadingAnimation div:nth-child(8) {
+            left: 116px;
+            -moz-animation-delay: 2.75s;
+            -webkit-animation-delay: 2.75s;
+            -ms-animation-delay: 2.75s;
+            -o-animation-delay: 2.75s;
+            animation-delay: 2.75s;
+        }
+
+@-moz-keyframes bounce_loadingAnimation {
+    0% {
+        -moz-transform: scale(1);
+        background-color: #008080;
+        opacity: .8;
+    }
+
+    100% {
+        -moz-transform: scale(.3);
+        background-color: #FFFFFF;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes bounce_loadingAnimation {
+    0% {
+        -webkit-transform: scale(1);
+        background-color: #008080;
+        opacity: .8;
+    }
+
+    100% {
+        -webkit-transform: scale(.3);
+        background-color: #FFFFFF;
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes bounce_loadingAnimation {
+    0% {
+        -ms-transform: scale(1);
+        background-color: #008080;
+        opacity: .8;
+    }
+
+    100% {
+        -ms-transform: scale(.3);
+        background-color: #FFFFFF;
+        opacity: 0;
+    }
+}
+
+@-o-keyframes bounce_loadingAnimation {
+    0% {
+        -o-transform: scale(1);
+        background-color: #008080;
+        opacity: .8;
+    }
+
+    100% {
+        -o-transform: scale(.3);
+        background-color: #FFFFFF;
+        opacity: 0;
+    }
+}
+
+@keyframes bounce_loadingAnimation {
+    0% {
+        transform: scale(1);
+        background-color: #008080;
+        opacity: .8;
+    }
+
+    100% {
+        transform: scale(.3);
+        background-color: #FFFFFF;
+        opacity: 0;
+    }
+}
+
+.UofContainer {
+    border: 0;
+    padding: 10px;
+    min-height: 80px;
+    margin-bottom: 10px;
+    background: #EEE;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 1px 1px 1px #a1a1a1;
+    -moz-box-shadow: 1px 1px 1px #a1a1a1;
+    -webkit-box-shadow: 1px 1px 1px #a1a1a1;
+    border-collapse: separate;
+    margin: 0 auto 0 auto;
+}
+
+    .UofContainer legend {
+        padding: 5px 10px;
+        background-color: #4F709F;
+        color: #FFF;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        box-shadow: 1px 1px 1px #a1a1a1;
+        -moz-box-shadow: 1px 1px 1px #a1a1a1;
+        -webkit-box-shadow: 1px 1px 1px #a1a1a1;
+        width: 96%;
+        margin-top: -11px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        height: 30px;
+        border: 0px;
+        line-height: inherit;
+        font-size: 138.5%;
+    }
+
+    .UofContainer > div {
+        background: #FFFFFF;
+        padding: 10px;
+        border-radius: 8px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        min-height: 60px;
+    }
+
+.aspNetDisabled:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ul{
+	margin-left: 30px;
+   
+}
+
+
+select {
+    cursor: pointer;
+}
+
+.loaderContainer {
+    width:100%;
+    margin: 40% 0 0 50%;
+}
+.loader {
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+    .loader span {
+        background: teal;
+        content: ' ■';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        
+         opacity: 0;
+    }
+
+    .loader .dot_1 {
+        animation: loading 4s ease-in-out .2s infinite;
+    }
+
+    .loader .dot_2 {
+        animation: loading 4s ease-in-out .4s infinite;
+    }
+
+    .loader .dot_3 {
+        animation: loading 4s ease-in-out .6s infinite;
+    }
+
+    .loader .dot_4 {
+        animation: loading 4s ease-in-out .8s infinite;
+    }
+
+    .loader .dot_5 {
+        animation: loading 4s ease-in-out 1s infinite;
+    }
+
+@keyframes loading {
+    from {
+        margin-left: -50%;
+        opacity: 0;
+    }
+
+    50% {
+        margin-left: 0;
+        opacity: 1;
+    }
+
+    to {
+        margin-left: 50%;
+        opacity: 0;
+    }
+}
+.uploaderv3 .button
+{
+    height: 24px;
+    width: 90px;
+    display: block;        
+    font-weight: bold;  
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.uploaderv3 .enable { color: #FFF; cursor: pointer; }
+.uploaderv3 .disable { color: #CCC; cursor: none; }  
+.uploaderv3item {
+    background-color: #f5f5f5;
+    border: 1px solid #909090;
+    cursor: default;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 3px 5px 0 5px;
+    margin: 2px;
+}
+.uploaderv3item .uploadernamelink {
+    float: left; 
+    margin-left: 5px; 
+    display: none;
+    cursor: default;
+    white-space: nowrap;
+}
+.uploaderv3item .uploadercopyfilelink{ cursor: pointer;display: none;}
+
+.editorcontentstyle {
+    line-height:normal !important;
+     vertical-align:inherit;
+    font-size: 16px;
+}
+.editorcontentstyle  img{
+     vertical-align:inherit;
+}
+    .editorcontentstyle span, .editorcontentstyle strong, .editorcontentstyle p, .editorcontentstyle div, .editorcontentstyle td {
+        font-family: inherit;
+    }
+
+.editorcontentstyle p{
+    margin: 1em 0;
+}
+
+.HiddenUserUnusedColumn {
+    display: none;
+}

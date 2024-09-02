@@ -1,0 +1,431 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Master_DialogMasterPage" Codebehind="DialogMasterPage.master.cs" %>
+
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+<!DOCTYPE html>
+<html style="overflow: hidden">
+<head runat="server">
+    <link rel="icon" href="" type="image/x-icon" runat="server" id="Icon" EnableViewState="False"/>
+    <link rel="home" id="ApplicationRoot" href="" runat="server" EnableViewState="False" ClientIDMode="Static" />
+    <link href="~/Common/Style/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <meta rel="dialog" id="TempReturnValue" content="" runat="server" EnableViewState="False" ClientIDMode="Static" />
+    <meta content="text/html; charset=utf-8"/>
+    <meta name="referrer" content="no-referrer" />
+    <script type="text/javascript" id="telerikClientEvents1">
+//<![CDATA[
+
+        function MasterPageRadButtonClose_Clicking(sender,args)
+        {
+            if (typeof (BeforeDialogClose) == 'function')
+            {
+                if (BeforeDialogClose() != false) {
+                    $uof.dialog.close();
+                }
+            }
+            else
+            {
+                $uof.dialog.close();
+            }
+        }
+//]]>
+</script>
+
+
+    <style type="text/css">
+        .auto-style1
+        {
+            height: 30px;
+        }
+    </style>
+
+
+</head>
+<body runat = "server" id="Body">
+    
+    <form id="form1" runat="server">
+        <telerik:RadStyleSheetManager ID="RadStyleSheetManager2" runat="server" EnableStyleSheetCombine="True">
+            <StyleSheets>
+                  <telerik:StyleSheetReference Path="~/Common/Style/cssReset.css" />
+                <telerik:StyleSheetReference Path="~/Common/Style/uof-fixed.css" />
+                <telerik:StyleSheetReference Path="~/Common/Style/telerik.css" />
+            </StyleSheets>
+        </telerik:RadStyleSheetManager>
+       <telerik:RadScriptManager  ID="ScriptManager1" runat="server" EnablePageMethods="True" AsyncPostBackTimeOut="36000"  >           
+           <Scripts>
+	            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+                <asp:ScriptReference Path="~/Common/javascript/json2.min.js" ScriptMode="Release" />
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/jquery-ui.min.js"  ScriptMode="Release"/>
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/jquery.blockUI.js"  ScriptMode="Release"/>
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/ticker.js"  ScriptMode="Release"/>
+                <asp:ScriptReference Path="~/Common/javascript/uofScript.js?v=18.5"  ScriptMode="Release"/>
+                <asp:ScriptReference Path="~/Common/javascript/jQuery/plugin/jquery.cookie.js"  ScriptMode="Release"/>         
+                <asp:ScriptReference Path="~/Common/javascript/plustek-smartoffice-sdk.js?v=12.50.0115" ScriptMode="Release"/>
+                <asp:ScriptReference Path="~/Common/javascript/signature_pad.min.js" ScriptMode="Release"/>
+           </Scripts>
+        </telerik:RadScriptManager>   
+    
+        <asp:UpdatePanel runat="server" id="upDialogHead" RenderMode="Inline"></asp:UpdatePanel>
+        <div style="overflow: hidden;height: 100%;width: 100%;">
+        <telerik:RadSplitter ID="Radsplitter1" runat="server" Width="100%" Height="100%" 
+            Orientation="Horizontal" ResizeWithBrowserWindow="True" LiveResize="true" OnClientLoad="DialogMasterPageRadsplitter1_onLoad">
+          <telerik:RadPane ID="Radpane4" runat="server" ShowContentDuringLoad="False" Scrolling="Both">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+          </telerik:RadPane>
+          <telerik:RadSplitBar ID="Radsplitbar4" runat="server" CollapseMode="None" EnableResize="False" Visible="False">
+          </telerik:RadSplitBar>
+            <telerik:RadPane ID="Radpane5" runat="server" Height="40px" Scrolling="None" Locked="true">
+                <div  id="tabButton">
+                <table style="width: 100%;padding: 0">
+                    <tr>
+                        <td style="width: 1px" ondblclick="DialogMasterPageViewSource()">
+                            <img src="<%=themePath %>/images/po_01.gif" width="1" />
+                        </td>
+                        <td style="background-image: url(<%=themePath %>/images/po_02.gif);;padding: 0">
+                            <table style="margin-top: 6px; margin-left: auto; margin-right: auto">
+                                <tr>
+                                    <td class="auto-style1">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <asp:Panel ID="PanelButton1" runat="server" meta:resourcekey="PanelButton1Resource1">
+                                                        <telerik:RadButton SingleClick="True"  ID="MasterPageRadButton1" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButton1_Clicking" Text="Confirm" OnClick="MasterPageRadButton1_Click"  >
+                                                        </telerik:RadButton>
+                                                   
+                                                        &nbsp;
+                                                    </asp:Panel>
+                                                </td>
+                                                <td>
+                                                    <asp:Panel ID="PanelButton2" runat="server" meta:resourcekey="PanelButton2Resource1">
+                                                        <telerik:RadButton SingleClick="True" ID="MasterPageRadButton2" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButton2_Clicking" Text="Continue" OnClick="MasterPageRadButton2_Click">
+                                                        </telerik:RadButton>
+                                                      
+                                                        &nbsp;
+                                                    </asp:Panel>
+                                                </td>
+                                                <td>
+                                                    <asp:Panel ID="PanelButton3" runat="server" meta:resourcekey="PanelButton3Resource1">
+                                                        <telerik:RadButton SingleClick="True" ID="MasterPageRadButton3" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButton3_Clicking" OnClick="MasterPageRadButton3_Click">
+                                                        </telerik:RadButton>
+                                                     
+                                                        &nbsp;
+                                                    </asp:Panel>
+                                                </td>
+                                                <td>
+                                                    <asp:Panel ID="PanelButton4" runat="server" meta:resourcekey="PanelButton4Resource1">
+                                                        <telerik:RadButton SingleClick="True" ID="MasterPageRadButton4" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButton4_Clicking" OnClick="MasterPageRadButton4_Click">
+                                                        </telerik:RadButton>
+                                                       
+                                                        &nbsp;
+                                                    </asp:Panel>
+                                                </td>
+                                                <td>
+                                                    <asp:Panel ID="PanelButton5" runat="server" meta:resourcekey="PanelButton5Resource1">
+                                                        <telerik:RadButton SingleClick="True" ID="MasterPageRadButton5" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButton5_Clicking" OnClick="MasterPageRadButton5_Click">
+                                                        </telerik:RadButton>
+                                                        &nbsp;
+                                                    </asp:Panel>
+                                                </td>
+                                                <td>
+                                                    <asp:Panel ID="PanelButton6" runat="server" >
+                                                        <telerik:RadButton SingleClick="True" ID="MasterPageRadButton6" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButton6_Clicking" OnClick="MasterPageRadButton6_Click">
+                                                        </telerik:RadButton>
+                                                        &nbsp;
+                                                    </asp:Panel>
+                                                </td>
+                                                <td>
+                                                    <asp:Panel ID="PanelButton7" runat="server">                                                        
+                                                        <telerik:RadButton SingleClick="True" ID="MasterPageRadButton7" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButton7_Clicking" OnClick="MasterPageRadButton7_Click">
+                                                        </telerik:RadButton>
+                                                        &nbsp;
+                                                    </asp:Panel>
+                                                </td>   
+                                                <td>
+                                                    <telerik:RadButton ID="MasterPageRadButtonClose" runat="server" SkinID="YellowButton"  OnClientClicking="MasterPageRadButtonClose_Clicking" Text="Close" CausesValidation="False">
+                                                    </telerik:RadButton>
+                                                  
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width: 1px" ondblclick="DialogMasterPageViewSource()">
+                            <img src="<%=themePath %>/images/po_03.gif" width="2">
+                        </td>
+                    </tr>
+                </table>
+                </div>
+            </telerik:RadPane>
+     </telerik:RadSplitter>
+        </div>
+
+        <div id="ContentDIV" style="margin: 0px; padding: 0px; overflow: scroll;display: block">
+        
+    </div>
+    
+                <asp:Label ID="LabelScrollable" runat="server" Text="1" Visible="False" ></asp:Label>
+        <script type="text/javascript">
+          
+
+            function DialogMasterPageRadsplitter1_onLoad(sender) {
+                if ("<%=OnClientResize%>"!="" && typeof window["<%=OnClientResize%>"] == "function") {
+
+                    DialogMasterPageRadsplitterResized();
+
+                    var Radsplitter1 = $find("<%= Radsplitter1.ClientID %>");
+                    Radsplitter1.add_resized(DialogMasterPageRadsplitterResized);
+                }
+            }
+            
+            function DialogMasterPageRadsplitterResized() {
+                var splitter = $find("<%= Radsplitter1.ClientID %>");
+                var pane = splitter.getPaneById('<%=Radpane4.ClientID%>');
+                <%=OnClientResize%>(pane.get_width(),pane.get_height());
+            }
+            
+
+            function InvokeButtonClick(funStr,sender, args) {
+                // file v3, when file uploading, not allow close window                                                                
+                if (parent.check_isUploading !== undefined && parent.check_isUploading()) {
+                    var radnoti = $find("<%= notification.ClientID %>");
+                    radnoti.set_text("<%=UploadingAlertText%>");
+                    radnoti.show();
+                        
+                    args.set_cancel(true);
+                    return;
+                }
+
+                var event = args.get_domEvent();
+                if (event.keyCode == 13 || event.keyCode==32) {
+                    args.set_cancel(true);
+                }
+                try {
+                    var fn;
+                    //slice
+                    var  arr = funStr.split(",");
+                    if (arr.length > 1) {
+                        fn = window[arr[0]];
+                        if (typeof(fn) == "function") {
+                            if (fn.apply(sender,arr.slice(1)) == false) {
+                                args.set_cancel(true);
+                            }
+                        }
+                    } else {
+                        fn = window[arr[0]];
+                        if (typeof(fn) == "function") {
+                            if (fn.apply(sender) == false) {
+                                args.set_cancel(true);
+                            }
+                        }
+                    }
+                } catch(e) {
+                    alert(e.message);
+                }
+            }
+
+            function MasterPageRadButton1_Clicking(sender, args) {
+                InvokeButtonClick('<%=DialogMasterPageLiteral1.Text%>',sender,args);
+            }
+
+            function MasterPageRadButton2_Clicking(sender, args) {
+                InvokeButtonClick('<%=DialogMasterPageLiteral2.Text%>',sender, args);
+            }
+
+            function MasterPageRadButton3_Clicking(sender, args) {
+                InvokeButtonClick('<%=DialogMasterPageLiteral3.Text%>',sender, args);
+            }
+
+            function MasterPageRadButton4_Clicking(sender, args) {
+                InvokeButtonClick('<%=DialogMasterPageLiteral4.Text%>',sender, args);
+            }
+
+            function MasterPageRadButton5_Clicking(sender, args) {
+                InvokeButtonClick('<%=DialogMasterPageLiteral5.Text%>',sender, args);
+            }
+
+            function MasterPageRadButton6_Clicking(sender, args) {
+                InvokeButtonClick('<%=DialogMasterPageLiteral6.Text%>',sender, args);
+            }       
+
+            function MasterPageRadButton7_Clicking(sender, args) {
+                InvokeButtonClick('<%=DialogMasterPageLiteral7.Text%>', sender, args);
+            }
+        
+        
+            function DialogMasterPageViewSource()
+            {
+            
+                var guid = 'TEXTAREA_' + (new Date).getTime();
+                var win = window.open('',null,'resizable=1,status=1');
+                var txt = '<html style=\'width:100%;height:100%\'><title>' + window.location.href + '</title><body style=\'margin:0px;width:100%;height:100%\' scroll=no ><textarea id=\'' + guid + '\' style=\'FONT-FAMILY:fixedsys;width:100%;height:100%\' ></textarea></html>';
+                win.document.write( txt );        
+            
+                var html_str = '';
+            
+                for( var j = 0 ; j < document.childNodes.length ; j++ )
+                {
+                    html_str = html_str + document.childNodes[j].outerHTML;        
+                }
+            
+                win.document.all[ guid ].innerText = html_str;       
+            }
+
+
+            $(window).on(function() {
+                if (top != null && typeof(top.displayTrigger) != 'undefined') {
+                    top.displayTrigger();
+                    resetSize();
+                }
+
+            });
+      
+            function resetSize() {
+                var title = window.document.title;
+                var index = title.lastIndexOf(" ");
+                top.document.title = title.substr(0, index);
+            }
+
+
+            $.getWindowHeight = function() {
+                var h = $uof.tool.browser.firefox ? window.innerHeight : document.body.clientHeight;
+                var obj = top.dialogHeight;
+                var sh =  obj == undefined ? h : obj.replace('px','');
+          
+                return sh;
+            };
+
+            $.getWindowWidth = function() {
+                var w = $uof.tool.browser.firefox ? window.innerWidth : document.body.clientWidth;
+                var obj = top.dialogWidth;
+                var sw = obj == undefined ? w : obj.replace('px','');
+          
+                return sw;
+            };
+
+        </script>
+        <asp:Literal runat="server" ID="DialogMasterPageLiteral1" Visible="false"></asp:Literal>
+        <asp:Literal runat="server" ID="DialogMasterPageLiteral2" Visible="false"></asp:Literal>
+        <asp:Literal runat="server" ID="DialogMasterPageLiteral3" Visible="false"></asp:Literal>
+        <asp:Literal runat="server" ID="DialogMasterPageLiteral4" Visible="false"></asp:Literal>
+        <asp:Literal runat="server" ID="DialogMasterPageLiteral5" Visible="false"></asp:Literal>
+        <asp:Literal runat="server" ID="DialogMasterPageLiteral6" Visible="false"></asp:Literal>
+        <asp:Literal runat="server" ID="DialogMasterPageLiteral7" Visible="false"></asp:Literal>
+
+        <asp:Label ID="MasterPageRadButton1AutoClose" runat="server" Visible="False" Text="1" ></asp:Label>
+        <asp:Label ID="lbConfirm" runat="server" 
+            Text="確定" Visible="False" meta:resourcekey="lbConfirmResource1"></asp:Label>
+        <asp:Label ID="lbConfirmAndContinue" runat="server" 
+            Text="確定後繼續" Visible="False" meta:resourcekey="lbConfirmAndContinueResource1"></asp:Label>
+        <asp:Label ID="lbCloseWindow" runat="server" 
+            Text="關閉視窗" Visible="False" meta:resourcekey="lbCloseWindowResource1"></asp:Label>
+        <input type=hidden id="FASTReturnValue" name="FASTReturnValue" value="[DefaultNullValue]" />
+        <asp:Label ID="lblUploadingAlert" runat="server" Text="檔案上傳中，請等待上傳完畢" Visible="False"></asp:Label>
+
+        <telerik:RadNotification ID="notification" runat="server"
+                                 TitleIcon="~/Common/Images/Icon/icon_m154.gif"
+                                 Title="Information" 
+                                 Position="Center"                                 
+                                 Width="360"
+                                 Height="100"
+                                 EnableRoundedCorners="True"
+                                 EnableShadow="True"
+                                 AutoCloseDelay="3000" />
+
+ <script type="text/javascript">
+     __BlockUIShowing = false;
+     
+     Sys.Application.add_load(function() {
+         $('#tabButton').unblock();
+     });
+
+     Sys.Application.add_init(function() {
+      
+         if('WebForms' in Sys)
+         {
+             Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequestHandler);
+             Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+         }
+     });
+
+     function openMasterLoadDiv()
+     {
+         __BlockUIShowing = true;
+         setTimeout(function ()
+         {
+             if (__BlockUIShowing)
+             {
+                 $.blockUI({
+                     message: '<asp:Image ID="imgLoading" runat="server" ImageUrl="~/Common/Images/loading.gif" />&nbsp;&nbsp;<span style="font-family:verdana;">Loading...</span>',
+                     overlayCSS: { backgroundColor: '#000', opacity: 0.5, cursor: 'wait' },
+                     css: { color: '#FFF', backgroundColor: '#999', border: '3px solid #ccc' }
+                 });
+             }
+         }, 3000);
+
+         $.blockUI({
+             message: null,
+             overlayCSS: { backgroundColor: '#000', opacity: 0, cursor: 'default' }
+         });
+     }
+            
+     
+     function BeginRequestHandler(sender, args)
+     {
+         openMasterLoadDiv();
+                 
+     }
+     function EndRequestHandler(sender, args)
+     {
+         if (args.get_error())
+         {
+             var message = args.get_error().message;
+             if (message.match(/: 0$|: 12031$/) != -1) {
+                 args.set_errorHandled(true);
+             }
+             else {
+                 alert(args.get_error().message);
+             }
+         }
+
+         $.unblockUI();
+         __BlockUIShowing = false;
+
+         if ($get('FASTReturnValue') != null)
+         {
+             $get('FASTReturnValue').value = "[DefaultNullValue]";
+         }
+
+         if ($get('DialogReturnValue') != null)
+         {
+             $get('DialogReturnValue').value = "[DefaultNullValue]";
+         }
+
+         $('#tabButton').unblock();
+     
+     }
+            
+            
+    function silverlightChrome38Hack() {
+         if ($telerik.isChrome) {
+             var splitter = $find("<%= Radsplitter1.ClientID %>");
+             var pane = splitter.getPaneById('<%=Radpane4.ClientID%>');
+             var con = pane.getContentElement();
+             if ($(con).attr("hack") != "true") {
+                 $(con).on("scroll", function() {
+                     var h = $(con).height();
+                     $(con).height(h - 1).height(h);
+                 });
+                 $(con).attr("hack", "true");
+             }
+         }
+     }
+
+ </script>
+     
+    </form>
+</body>
+</html>

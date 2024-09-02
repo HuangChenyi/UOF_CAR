@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="System_CustomMenu_LinkUrlNewWindow" Codebehind="LinkUrlNewWindow.aspx.cs" %>

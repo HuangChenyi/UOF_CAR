@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbPermitResource1.Text" xml:space="preserve">
+    <value>Allow to release to other server even the filename is duplicated</value>
+  </data>
+  <data name="cbPermitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlGroupSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>အခြားဆာဗာသို့ ၀င်ရောက်လျှင်, ဗားရှင်းကို အဆင့်မြှင့်ရမည်။(Ex:2.0=&gt;3.0).</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>ဖိုင်နာမည် ထပ်နေလျှင် အခြားဆာဗာသို့ ၀င်ရောက်ခွင့်မပြုပါ၊ ၎င်းကို အသိပေးသည်။</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Select server to release</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Select Group</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>1. Only author or directory administrator can release to other server.</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>2. Only author or directory administrator of the destination directory can release to remote.</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>3. Documents will be released automatically without audit.</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>4. Attribute of the documents will inherit the destination directory.</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>5. Filename is duplicated</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountExpiredResource1.Text" xml:space="preserve">
+    <value>Current user account is expired in selected server</value>
+  </data>
+  <data name="lblAccountExpiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountLockedResource1.Text" xml:space="preserve">
+    <value>Current user account is locked by selected server</value>
+  </data>
+  <data name="lblAccountLockedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountNotFindResource1.Text" xml:space="preserve">
+    <value>Current user account is not existed in selected server</value>
+  </data>
+  <data name="lblAccountNotFindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountSuspendedResource1.Text" xml:space="preserve">
+    <value>Current user account is expired in suspended server</value>
+  </data>
+  <data name="lblAccountSuspendedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>The document of remote server is not in release status, release is not allowed.</value>
+  </data>
+  <data name="lblCheckOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConnectionErrorResource1.Text" xml:space="preserve">
+    <value>WebService connection failure</value>
+  </data>
+  <data name="lblConnectionErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDMSRootResource1.Text" xml:space="preserve">
+    <value>Document database</value>
+  </data>
+  <data name="lblDMSRootResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilePathResource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblFilePathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGroupSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGroupSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInProcessingResource1.Text" xml:space="preserve">
+    <value>Released document URL is save to scheduling</value>
+  </data>
+  <data name="lblInProcessingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowUploadResource1.Text" xml:space="preserve">
+    <value>Filename is duplicated, release to other server failure</value>
+  </data>
+  <data name="lblNotAllowUploadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrivilegeResource1.Text" xml:space="preserve">
+    <value>No authorization to release in this directory</value>
+  </data>
+  <data name="lblPrivilegeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="lblPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectResource1.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Released at Remote</value>
+  </data>
+</root>

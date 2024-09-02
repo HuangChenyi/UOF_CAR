@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetFirstPage" AllowAll="True" />
+  <Action Name="GetSingleTopicDetail" AllowAll="True" />
+  <Action Name="GetBoardTopic" AllowAll="True" />
+  <Action Name="GetAllAreaBoard" AllowAll="True" />
+  <Action Name="GetAllTopic" AllowAll="True" />
+   <Action Name="ReplyArticle" AllowAll="True" />
+  <Action Name="ReplyQuoteArticle" AllowAll="True" />
+  <Action Name="AddCollection" AllowAll="True" />
+  <Action Name="CancelCollection" AllowAll="True" />
+  <Action Name="DeleteArticle" AllowAll="True" />
+  <Action Name="PostNewTopic" AllowAll="True" />
+  <Action Name="RecommendArticle" AllowAll="True" />
+
+</Actions>

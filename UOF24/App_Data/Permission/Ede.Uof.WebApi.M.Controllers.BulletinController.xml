@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetFirstPage" AllowAll="True" />
+  <Action Name="GetSingleBulletin" AllowAll="True" />
+  <Action Name="AddCollection" AllowAll="True" />
+  <Action Name="CancelCollection" AllowAll="True" />
+  <Action Name="AddReaded" AllowAll="True" />
+  <Action Name="GetAllClassList" AllowAll="True" />
+  <Action Name="GetBulletinByClass" AllowAll="True" />
+</Actions>

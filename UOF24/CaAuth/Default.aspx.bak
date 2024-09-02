@@ -1,0 +1,227 @@
+﻿<%@ Page Language="C#" %>
+<%@ Import Namespace= "System.Security.Cryptography.X509Certificates" %> 
+<%@ Import Namespace= "System.Web.Security" %> 
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        string type = Request.QueryString["t"];
+        if (type == "getUser")
+        {
+            if (!Request.IsAuthenticated)
+            {
+                Response.StatusCode = 401;
+                Response.StatusDescription = "Unauthorized";
+            }
+            else
+            {
+                FormsAuthenticationTicket ticketAD = new FormsAuthenticationTicket(Request.LogonUserIdentity.Name, true, 1);
+                string encTicketAD = FormsAuthentication.Encrypt(ticketAD);
+                Response.Cookies.Add(new HttpCookie("EBAdAuthAccount", encTicketAD));
+
+                Response.Redirect(@"../Login/ApplyClientCertificate.aspx?getUser=true");
+            }
+        }
+        if (type == "exportCA")
+        {
+            string sn = Request.QueryString["SN"];
+
+                X509Certificate2 cert2 = null;
+                int i = 0;
+                do {
+                    i++;
+                    cert2 = this.GetCertificateFromStore(sn);
+
+                    if (cert2 != null) break;
+
+                    System.Threading.Thread.Sleep(300);
+                }
+                while (i < 10 && cert2 == null);
+
+                if (cert2 == null) { throw new Exception("Certificate not found form store"); }
+                if (!cert2.HasPrivateKey) { throw new Exception("Certificate not have private key"); }
+                               
+                {
+                    byte[] b = cert2.Export(System.Security.Cryptography.X509Certificates.X509ContentType.Pfx, "");
+
+                    // remove cert from store
+                    X509Store store = new X509Store(StoreLocation.CurrentUser);
+                    store.Open(OpenFlags.MaxAllowed);
+                    X509Certificate2Collection storecollection = store.Certificates;
+
+                    X509Certificate2 x = null;
+                    foreach (X509Certificate2 x509 in storecollection)
+                    {
+                        string sn1 = x509.GetSerialNumberString();
+                        if (sn1.ToLower() == sn.Replace(" ", "").ToLower())
+                        {
+                            x = x509;
+                            break;
+                        }
+                    }
+
+                    if (x != null) { store.Remove(x); }
+                    
+
+                    FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(Request.Cookies["UOFAccount"].Value);
+                    string tempAccount = ticket.Name;
+                    int index = tempAccount.IndexOf(@"\");
+                    int length = tempAccount.Length;
+                    string account = tempAccount.Substring(index + 1, length - index - 1);
+                    Response.Cookies["UOFAccount"].Expires = DateTime.Now.AddYears(-1);
+
+                    //Sent the pfx file to client for downloading
+                    Response.Clear();
+                    Response.ContentType = "application/x-pkcs12";
+                    Response.AppendHeader("Content-Disposition", "attachment; filename=" + tempAccount + ".pfx");
+
+                    // Only for .NET framework 2.0 to use Response.TransmitFile() function
+                    //Response.TransmitFile(PFXPath);
+                    Response.BinaryWrite(b);
+                    Response.Flush();
+                    Response.End();
+                }
+
+        }
+        if(type=="getCA")
+        {
+            string sEnrollAgentCertSN = Request.QueryString["SN"];
+            string sSystemRoot = "C:\\Windows";
+            string sCertreqCommand = string.Empty;
+            string account = string.Empty;
+            string sSavePath = Request.QueryString["savePath"];
+            string sConfig = Request.QueryString["caConfig"];//format -->  ca machine name\\ca name
+
+            FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(Request.Cookies["UOFAccount"].Value);
+
+            string tempAccount = ticket.Name;
+            int index = tempAccount.IndexOf(@"\");
+            int length = tempAccount.Length;
+            account = tempAccount.Substring(index + 1, length - index - 1);
+
+            System.IO.FileStream fs;
+            System.IO.StreamWriter sw;
+
+            string InfUserInfo = account;
+            string DomainName = Request.QueryString["caDomain"];
+            string Password = "";
+
+            //=== get SystemRoot ===
+            try
+            {
+                sSystemRoot = Environment.GetEnvironmentVariable("SystemRoot");
+            }
+            catch { }
+
+            sCertreqCommand = sSystemRoot + @"\system32\certreq.exe";
+
+            //=== create account}_.inf ===
+            string InfPath = sSavePath + InfUserInfo + ".inf";
+            if (!System.IO.File.Exists(InfPath))
+            {
+                try
+                {
+                    System.IO.File.Delete(InfPath);
+                }
+                catch { }
+            }
+
+            fs = new System.IO.FileStream(InfPath, System.IO.FileMode.Create, System.IO.FileAccess.ReadWrite, System.IO.FileShare.None);
+            sw = new System.IO.StreamWriter(fs);
+            sw.WriteLine("[NewRequest]");
+            sw.WriteLine("RequestType=cmc");
+            sw.WriteLine("RequesterName=" + DomainName + "\\" + InfUserInfo);
+            sw.WriteLine("[RequestAttributes]");
+            sw.WriteLine("CertificateTemplate=User");
+            sw.Close();
+            fs.Close();
+
+            //=== create account}.req ===
+            string ReqPath = "\"" + sSavePath + InfUserInfo + ".req\"";
+            System.Diagnostics.ProcessStartInfo psi_new = new System.Diagnostics.ProcessStartInfo();
+            psi_new.FileName = sCertreqCommand;
+            psi_new.Arguments = @" -new -config " + sConfig + " -q -f " + "\"" + InfPath + "\" " + ReqPath;
+            psi_new.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+
+            System.Diagnostics.Process certreq_new = System.Diagnostics.Process.Start(psi_new);
+            certreq_new.WaitForExit();
+
+            //=== create {account}_sign.req ===
+            //sign
+            string SignPath = "\"" + sSavePath + InfUserInfo + "_sign.req\"";
+            System.Diagnostics.ProcessStartInfo psi_sign = new System.Diagnostics.ProcessStartInfo();
+            psi_sign.FileName = sCertreqCommand;
+
+            //certreq -sign -q -f -config M2\M2-CA -cert "Enroll_Agent_Cert_Serial_Number" sample.req sample_signed.req
+            psi_sign.Arguments = @" -sign -q -f -config " + sConfig + " -cert \"" + sEnrollAgentCertSN + "\" " + ReqPath + " " + SignPath;
+            psi_sign.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+
+            System.Diagnostics.Process certreq_sign = System.Diagnostics.Process.Start(psi_sign);
+            certreq_sign.WaitForExit();
+
+            //=== create {account}_sign.cer ===
+            //submit 
+            string CerPath = "\"" + sSavePath + InfUserInfo + "_sign.cer\"";
+            System.Diagnostics.ProcessStartInfo psi_submit = new System.Diagnostics.ProcessStartInfo();
+            psi_submit.FileName = sCertreqCommand;
+            psi_submit.Arguments = @" -submit -q -f -config " + sConfig + " " + SignPath + " " + CerPath;
+            psi_submit.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+
+            System.Diagnostics.Process certreq_submit = System.Diagnostics.Process.Start(psi_submit);
+            certreq_submit.WaitForExit();
+            
+
+            //=== accept ===
+            System.Diagnostics.ProcessStartInfo psi_accept = new System.Diagnostics.ProcessStartInfo();
+            psi_accept.FileName = sCertreqCommand;
+            psi_accept.Arguments = @" -accept " + CerPath;
+            psi_accept.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+
+            System.Diagnostics.Process certreq_accept = System.Diagnostics.Process.Start(psi_accept);
+            certreq_submit.WaitForExit();
+
+            Response.Redirect(string.Format("{0}://{1}{2}/../Login/ApplyClientCertificate.aspx?ApplyCA=true",
+                                        Request.QueryString["scheme"], Request.Url.Host, Request.ApplicationPath));
+
+        }
+    }
+
+    /// <summary>
+    /// get cert from store
+    /// </summary>
+    /// <param name="sSerialNumber"></param>
+    /// <returns></returns>
+    private X509Certificate2 GetCertificateFromStore(string sSerialNumber)
+    {
+        // Get the certificate store for the current user.
+        X509Store store = new X509Store(StoreLocation.CurrentUser);
+        try
+        {
+            store.Open(OpenFlags.ReadOnly);
+
+            // Place all certificates in an X509Certificate2Collection object.
+            X509Certificate2Collection certCollection = store.Certificates;
+
+            // If using a certificate with a trusted root you do not need to FindByTimeValid, instead:
+            // currentCerts.Find(X509FindType.FindBySubjectDistinguishedName, certName, true);
+            X509Certificate2Collection currentCerts = certCollection.Find(X509FindType.FindByTimeValid, DateTime.Now, false);
+            //SystemX509.X509Certificate2Collection signingCert = currentCerts.Find(SystemX509.X509FindType.FindBySubjectDistinguishedName, certName, false);
+            X509Certificate2Collection signingCert = currentCerts.Find(X509FindType.FindBySerialNumber, sSerialNumber, true);
+
+            if (signingCert.Count == 0)
+                return null;
+            // Return the first certificate in the collection, has the right name and is current.
+            return signingCert[0];
+        }
+        finally
+        {
+            store.Close();
+        }
+    }
+
+</script>
+
+<html>
+<head>
+</head>
+</html>

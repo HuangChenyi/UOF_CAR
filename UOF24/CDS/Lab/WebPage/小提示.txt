@@ -1,0 +1,14 @@
+﻿html table  內使用class="PopTable"  即有Style的效果了
+
+EX:
+
+<table class="PopTable">
+	<tr>
+		<td>欄位名稱</td>
+		<td>欄位值</td>
+	</tr>
+	<tr>
+		<td>欄位名稱</td>
+		<td>欄位值</td>
+	</tr>
+</table>

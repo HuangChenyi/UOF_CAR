@@ -1,0 +1,20 @@
+﻿<Schedule>
+  <Type Name="PMSTask"
+	  DefaultText="任務回報"
+	  Color="#FF0000"
+	  ThrowOnError="False"
+	  Dll="Ede.Uof.EIP.PMS"
+	  Type="Ede.Uof.EIP.PMS.TaskUCO"
+	  DefaultCreate="False"
+	  CreateUrl="~/PMS/ReportBack/Task.aspx"
+    DialogWidth="900"
+    DialogHeight="500">
+    <Resource Culture="zh-TW" Text="任務回報" />
+    <Resource Culture="zh-CN" Text="任务回报" />
+    <Resource Culture="en-US" Text="Task Report Back" />
+    <Resource Culture="vi" Text="Task Report Back" />
+
+    <PersonalType >
+    </PersonalType>
+  </Type>
+</Schedule>

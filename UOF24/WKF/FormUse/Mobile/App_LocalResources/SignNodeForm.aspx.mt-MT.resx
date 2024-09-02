@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalSiteResource1.Text" xml:space="preserve">
+    <value>Add-Stop</value>
+  </data>
+  <data name="lblAdditionalSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddSignCommentResource1.Text" xml:space="preserve">
+    <value>Add comments</value>
+  </data>
+  <data name="lblAddSignCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgentUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplyTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApproveTxtResource1.Text" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="lblApproveTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbackResource1.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="lblbackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentResource1.Text" xml:space="preserve">
+    <value>Applying Information</value>
+  </data>
+  <data name="lblCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmWinTitleResource1.Text" xml:space="preserve">
+    <value>Confirm approval</value>
+  </data>
+  <data name="lblConfirmWinTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepartmentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDialogTitleMsgResource1.Text" xml:space="preserve">
+    <value>Send form</value>
+  </data>
+  <data name="lblDialogTitleMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisapproveTxtResource1.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="lblDisapproveTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileUploadResource1.Text" xml:space="preserve">
+    <value>Attachments by Form</value>
+  </data>
+  <data name="lblFileUploadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormFlowResource1.Text" xml:space="preserve">
+    <value>Designed Flow</value>
+  </data>
+  <data name="lblFormFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsSignAgentResource1.Text" xml:space="preserve">
+    <value>目前代理 {0} 簽核中</value>
+  </data>
+  <data name="lblMaxRowResource1.Text" xml:space="preserve">
+    <value>This form is the last of waiting for approving</value>
+  </data>
+  <data name="lblMaxRowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMostUrgentResource1.Text" xml:space="preserve">
+    <value>Urgent</value>
+  </data>
+  <data name="lblMostUrgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblnewWindowMsgResource1.Text" xml:space="preserve">
+    <value>Unable to open approval window.  Please close the pop up window block program.</value>
+  </data>
+  <data name="lblnewWindowMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthResource1.Text" xml:space="preserve">
+    <value>無權限處理或觀看此表單</value>
+  </data>
+  <data name="lblNoPassMsgResource1.Text" xml:space="preserve">
+    <value>Validation fail.  Reason for fail as below: \n\n</value>
+  </data>
+  <data name="lblNoPassMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalResource1.Text" xml:space="preserve">
+    <value>ပုံမှန်</value>
+  </data>
+  <data name="lblNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotCurrentSiteResource1.Text" xml:space="preserve">
+    <value>This stop cannot be processed.  </value>
+  </data>
+  <data name="lblNotCurrentSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOriginalSignerResource1.Text" xml:space="preserve">
+    <value>Original approver</value>
+  </data>
+  <data name="lblOriginalSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherInfoResource2.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblOtherInfoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPassTxtResource1.Text" xml:space="preserve">
+    <value>No comments</value>
+  </data>
+  <data name="lblPassTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPersonalAttachResource1.Text" xml:space="preserve">
+    <value>Attachments by Stop</value>
+  </data>
+  <data name="lblPersonalAttachResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPersonalRemoteFileGroupIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPersonalRemoteFileGroupIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemoteFileGroupIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemoteFileGroupIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnResource1.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblReturnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnSignCommentResource1.Text" xml:space="preserve">
+    <value>Please enter comments in comments field</value>
+  </data>
+  <data name="lblReturnSignCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveTxtResource1.Text" xml:space="preserve">
+    <value>သိမ်းမည်</value>
+  </data>
+  <data name="lblSaveTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendNotifyResource1.Text" xml:space="preserve">
+    <value>發出知會</value>
+  </data>
+  <data name="lblShowFillerResource1.Text" xml:space="preserve">
+    <value>顯示填寫者</value>
+  </data>
+  <data name="lblSignFailResource1.Text" xml:space="preserve">
+    <value>This form has been approved</value>
+  </data>
+  <data name="lblSignFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteCommentResource1.Text" xml:space="preserve">
+    <value>Approve reminder</value>
+  </data>
+  <data name="lblSiteCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpeedSignFailedMessageResource1.Text" xml:space="preserve">
+    <value>前次快速簽核失敗：</value>
+  </data>
+  <data name="lblSpeedSignResource1.Text" xml:space="preserve">
+    <value>速簽</value>
+  </data>
+  <data name="lblSubFlowResource1.Text" xml:space="preserve">
+    <value>Sub-flow:</value>
+  </data>
+  <data name="lblSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaskEndResource1.Text" xml:space="preserve">
+    <value>Form closed, cannot be approved</value>
+  </data>
+  <data name="lblTaskEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleFormCCResource1.Text" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="lblTitleFormCCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblurgentLevelResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrgentResource1.Text" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="lblUrgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCanCommentResource1.Text" xml:space="preserve">
+    <value>罐頭意見</value>
+  </data>
+  <data name="lbtnCanCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnRemoteFileCenterResource1.Text" xml:space="preserve">
+    <value>Choose File</value>
+  </data>
+  <data name="LinkButton1Resource1.Text" xml:space="preserve">
+    <value>Choose File</value>
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value>Applicant</value>
+  </data>
+  <data name="Literal2Resource1.Text" xml:space="preserve">
+    <value>Dept.：</value>
+  </data>
+  <data name="Literal3Resource1.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Literal4Resource1.Text" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Literal5Resource1.Text" xml:space="preserve">
+    <value>Applied by</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel3Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAppInfoResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAppInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSiteRemarkResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSiteRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbSiteCommentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbSiteCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCommentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

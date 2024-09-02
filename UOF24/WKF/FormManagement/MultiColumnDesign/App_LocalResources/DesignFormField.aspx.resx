@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ibtnDesignFieldResource1.Text" xml:space="preserve">
+    <value>1.設計版面&gt;&gt;</value>
+  </data>
+  <data name="ibtnDesignFieldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnDesignFlowResource1.Text" xml:space="preserve">
+    <value>4.設定流程&gt;&gt;</value>
+  </data>
+  <data name="ibtnDesignFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnSetupConditionResource1.Text" xml:space="preserve">
+    <value>2.設定條件&gt;&gt;</value>
+  </data>
+  <data name="ibtnSetupConditionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnSetupMailResource1.Text" xml:space="preserve">
+    <value>6.設定郵件樣板&gt;&gt;</value>
+  </data>
+  <data name="ibtnSetupMailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnSetupNotifyResource1.Text" xml:space="preserve">
+    <value>3.設定起結案通知條件&gt;&gt;</value>
+  </data>
+  <data name="ibtnSetupNotifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnSetupReleaseResource1.Text" xml:space="preserve">
+    <value>5.設定發佈資訊&gt;&gt;</value>
+  </data>
+  <data name="ibtnSetupReleaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>●</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAggDeleteExecMsgResource1.Text" xml:space="preserve">
+    <value>欄位不允許刪除! 明細欄位中有子欄位被使用於加總平均欄位中!</value>
+  </data>
+  <data name="lblAggDeleteExecMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberRepeatResource1.Text" xml:space="preserve">
+    <value>表單內已有自動編號欄位</value>
+  </data>
+  <data name="lblAutoNumberRepeatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCalcDeleteExecMsgResource1.Text" xml:space="preserve">
+    <value>欄位不允許刪除! 欄位被當作計算欄位運算元!</value>
+  </data>
+  <data name="lblCalcDeleteExecMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>確定要刪除?</value>
+  </data>
+  <data name="lblConfirmDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteErrorMsgResource1.Text" xml:space="preserve">
+    <value>欄位如被設定為表單條件不允許刪除，請先移除此表單條件！</value>
+  </data>
+  <data name="lblDeleteErrorMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesignFieldRemarkResource1.Text" xml:space="preserve">
+    <value>註：表單一般一行顯示一個欄位，欄位順序於表單顯示時依由上而下排列</value>
+  </data>
+  <data name="lblDesignFieldRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldDesignResource1.Text" xml:space="preserve">
+    <value>1.設計欄位&gt;&gt;</value>
+  </data>
+  <data name="lblFieldDesignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldIdRepeatResource1.Text" xml:space="preserve">
+    <value>欄位重覆</value>
+  </data>
+  <data name="lblFieldIdRepeatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormCategoryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormConditionResource1.Text" xml:space="preserve">
+    <value>2.設定條件&gt;&gt;</value>
+  </data>
+  <data name="lblFormConditionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormFlowResource1.Text" xml:space="preserve">
+    <value>4.設定流程&gt;&gt;</value>
+  </data>
+  <data name="lblFormFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormPublishResource1.Text" xml:space="preserve">
+    <value>5.設定發佈資訊&gt;&gt;</value>
+  </data>
+  <data name="lblFormPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTitleResource1.Text" xml:space="preserve">
+    <value>表單標題</value>
+  </data>
+  <data name="lblFormTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTitleValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTitleValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersionResource1.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="lblFormVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsUseAutoNoResource1.Text" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="lblIsUseAutoNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsUseAutoNoTitleResource1.Text" xml:space="preserve">
+    <value>是否啟用表單編號</value>
+  </data>
+  <data name="lblIsUseAutoNoTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleFormNameResource1.Text" xml:space="preserve">
+    <value>表單名稱</value>
+  </data>
+  <data name="lblTitleFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleFormTypeResource1.Text" xml:space="preserve">
+    <value>表單類別</value>
+  </data>
+  <data name="lblTitleFormTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYesResource1.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="lblYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>表單版本設定</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>新增欄位</value>
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource10.Text" xml:space="preserve">
+    <value>調整版面</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TBarButtonResource10.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource11.Text" xml:space="preserve">
+    <value>刪除選擇欄位</value>
+  </data>
+  <data name="TBarButtonResource11.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource12.Text" xml:space="preserve">
+    <value>選擇表單範本</value>
+  </data>
+  <data name="TBarButtonResource12.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TBarButtonResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource13.Text" xml:space="preserve">
+    <value>設定顯示標題</value>
+  </data>
+  <data name="TBarButtonResource13.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TBarButtonResource14.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource14.Text" xml:space="preserve">
+    <value>批次簽核標題</value>
+  </data>
+  <data name="TBarButtonResource14.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TBarButtonResource15.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource15.Text" xml:space="preserve">
+    <value>設定欄位多國語言</value>
+  </data>
+  <data name="TBarButtonResource15.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>調整欄位順序</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>刪除選擇欄位</value>
+  </data>
+  <data name="TBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Text" xml:space="preserve">
+    <value>新增表單編號</value>
+  </data>
+  <data name="TBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.Text" xml:space="preserve">
+    <value>新增欄位</value>
+  </data>
+  <data name="TBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.Text" xml:space="preserve">
+    <value>調整欄位順序</value>
+  </data>
+  <data name="TBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource7.Text" xml:space="preserve">
+    <value>刪除選擇欄位</value>
+  </data>
+  <data name="TBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource8.Text" xml:space="preserve">
+    <value>新增表單編號</value>
+  </data>
+  <data name="TBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource9.Text" xml:space="preserve">
+    <value>新增欄位</value>
+  </data>
+  <data name="TBarButtonResource9.ToolTip" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtVersionIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVersionIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVersionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebToolbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnSetupDesResource1.Text" xml:space="preserve">
+    <value>7. 設定使用說明</value>
+  </data>
+  <data name="lblFieldInfoResource1.Text" xml:space="preserve">
+    <value>欄位資訊</value>
+  </data>
+  <data name="cbShowHiddenFieldResource1.Text" xml:space="preserve">
+    <value>顯示隱藏欄位</value>
+  </data>
+  <data name="lblhiddenFieldNoteResource1.Text" xml:space="preserve">
+    <value>隱藏欄位</value>
+  </data>
+</root>

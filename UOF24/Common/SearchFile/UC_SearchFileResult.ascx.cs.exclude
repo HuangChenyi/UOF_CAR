@@ -1,0 +1,312 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using Lucene.Net.Index;
+using Lucene.Net.Search;
+using Lucene.Net.Analysis;
+using Lucene.Net.Analysis.Standard;
+using Lucene.Net.QueryParsers;
+using Lucene.Net.Search.Highlight;
+using Lucene.Net.Documents;
+
+public partial class Common_SearchFile_UC_SearchFileResult : System.Web.UI.UserControl
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    /// <summary>
+    /// 搜尋之模組
+    /// </summary>
+    public string ApModule
+    {
+        get
+        {
+            //return hideApModule.Value.Split(",");
+            return hideApModule.Value;
+        }
+        set
+        {
+            //hideApModule.Value = string.Join(",", value);
+            hideApModule.Value = value;
+        }
+    }
+
+    /// <summary>
+    /// 搜尋之關鍵字
+    /// </summary>
+    public string KeyWord
+    {
+        get
+        {
+            return hideKeyWord.Value;
+        }
+        set
+        {
+            hideKeyWord.Value = value;
+        }
+    }
+
+    /// <summary>
+    /// 分頁大小
+    /// </summary>
+    public int PageSize
+    {
+        get { return int.Parse(hidePageSize.Value); }
+        set { hidePageSize.Value = value.ToString(); }
+    }
+
+    /// <summary>
+    /// 頁數
+    /// </summary>
+    private int PageIndex
+    {
+        get { return int.Parse(hidePageIndex.Value); }
+        set { hidePageIndex.Value = value.ToString(); }
+    }
+
+    /// <summary>
+    /// 是否允許分頁
+    /// </summary>
+    public bool AllowPaging
+    {
+        get { return bool.Parse(hideAllowPaging.Value); }
+        set 
+        {
+            hideAllowPaging.Value = value.ToString();
+            ddlPaging.Visible = value;
+        }
+    }
+
+    private bool IsMyPostBack
+    {
+        get
+        {
+            return bool.Parse(hideIsMyPostBack.Value);
+        }
+        set
+        {
+            hideIsMyPostBack.Value = value.ToString();
+        }
+    }
+
+    public void BindSearchResult()
+    {
+        IsMyPostBack = false;
+        ddlPaging.Visible = AllowPaging;
+        PageIndex = 1;
+        GetSearchResult();
+        IsMyPostBack = true;
+    }
+
+    private void GetSearchResult()
+    {
+        string FileStorageFolder = ConfigurationManager.AppSettings["FileStorageFolder"];
+        string directory = FileStorageFolder + "Index\\" + ApModule;
+        //lbIndexDirectory.Text = directory;
+
+        IndexReader reader = IndexReader.Open(directory);
+        //Term term = new Term("body", txtKeyword.Text);
+
+        IndexSearcher searcher = new IndexSearcher(reader);
+
+        DataTable resultDt = GetInitResultDT();
+        try
+        {
+            Analyzer analyzer = new StandardAnalyzer();
+            Query query = QueryParser.Parse(KeyWord, "body", analyzer);
+            //Query query = QueryParser.Parse(txtKeyword.Text, "name", analyzer);
+            //QueryFilter queryFilter = new QueryFilter(query);
+            //queryFilter.Bits
+            // QueryParser.Parse(txtKeyword.Text, "directparent", analyzer);
+            query = query.Rewrite(reader);
+
+            Hits hits = searcher.Search(query);
+            Highlighter highlighter = new Highlighter(new QueryScorer(query));
+
+            lblResultCount.Text = string.Format(lblMsgResultCount.Text, hits.Length().ToString());
+
+            if (AllowPaging)
+            {
+                SetListPaging(hits.Length());
+                resultDt = GetPagingResult(analyzer, hits, highlighter);
+            }
+            else
+                resultDt = GetAllResult(analyzer, hits, highlighter);
+        }
+        catch (Exception) { }
+        finally
+        {
+            searcher.Close();
+        }
+        DataList1.DataSource = resultDt;
+        DataList1.DataBind();
+    }
+
+    /// <summary>
+    /// 設定DataList頁首頁尾換頁的link
+    /// </summary>
+    /// <param name="resultCount">搜尋結果總筆數</param>
+    private void SetListPaging(int resultCount)
+    {
+        if (AllowPaging)
+        {
+            int maxPage = (int)Math.Round((double)(resultCount / PageSize), 0);
+            if (maxPage * PageSize < resultCount)
+                maxPage += 1;
+            hideMaxPage.Value = maxPage.ToString();
+
+            if (maxPage == 1)
+            {
+                ddlPaging.Visible = false;
+            }
+            else
+            {
+                ddlPaging.Visible = true;
+         
+                if (!IsMyPostBack)
+                {
+                    ddlPaging.Items.Clear();
+                    for (int p = 1; p <= maxPage; p++)
+                    {
+                        ListItem item = new ListItem(string.Format(lbMsgPageIndex.Text, p), p.ToString());
+                        ddlPaging.Items.Add(item);
+                    }
+                }
+            }
+        }
+    }
+
+
+    /// <summary>
+    /// 取得分頁搜尋結果
+    /// </summary>
+    private DataTable GetPagingResult(Analyzer analyzer, Hits hits, Highlighter highlighter)
+    {
+        int count = hits.Length();
+        DataTable resultDT = GetInitResultDT();
+        //for (int i = 0; i < count; i++)
+        //{
+        int minIndex = (PageIndex - 1) * PageSize;
+        int maxIndex = PageIndex *PageSize - 1;
+        if(maxIndex > count - 1)
+            maxIndex = count - 1;
+        int i = minIndex;
+
+        while (i<= maxIndex &&  i>= minIndex)
+        {
+            DataRow row = GetResultDocument(resultDT, analyzer, hits, highlighter, i);
+            resultDT.Rows.Add(row);
+            i++;
+        }
+        //}
+        return resultDT;
+    }
+
+    /// <summary>
+    /// 取得所有搜尋結果
+    /// </summary>
+    private DataTable GetAllResult(Analyzer analyzer, Hits hits, Highlighter highlighter)
+    {
+        int count = hits.Length();
+        DataTable resultDT = GetInitResultDT();
+        for (int i = 0; i < count; i++)
+        {
+            DataRow row = GetResultDocument(resultDT, analyzer, hits, highlighter, i);
+            resultDT.Rows.Add(row);
+        }
+        return resultDT;
+    }
+
+    private DataRow GetResultDocument(DataTable resultDT, Analyzer analyzer, Hits hits, Highlighter highlighter, int index)
+    {
+        Document doc = hits.Doc(index);
+        string fullname = doc.Get("fullname");
+        string path = fullname.Substring(0, fullname.LastIndexOf("\\"));
+        string parent = path.Substring(path.LastIndexOf("\\") + 1);
+
+        string filename = doc.Get("name");
+        string fileID = filename;
+        if (fileID.IndexOf(".") > 0)
+            fileID = fileID.Substring(0, filename.IndexOf("."));
+        string title = doc.Get("name");
+        Ede.Uof.Utility.FileCenter.FileCenterModel fcModel = new Ede.Uof.Utility.FileCenter.FileCenterModel();
+        DataSet Ds = fcModel.GetFile(fileID);
+        string storageFileLen = "";
+        if (Ds != null && Ds.Tables[0].Rows.Count > 0)
+        {
+            title = Ds.Tables[0].Rows[0]["FILE_NAME"].ToString();
+            storageFileLen = Ds.Tables[0].Rows[0]["FILE_LENGTH"].ToString();
+        }
+        string plainText = doc.Get("body");
+
+        DataRow row = resultDT.NewRow();
+        row["orgName"] = doc.Get("name");
+        row["title"] = title;
+        row["path"] = "~/Common/FileCenter/DownloadFile.aspx" + "?id=" + fileID;
+        TokenStream tokenStream = analyzer.TokenStream("body", new System.IO.StringReader(plainText));
+        try
+        {
+            row["sample"] = highlighter.GetBestFragments(tokenStream, plainText, 3, "......");
+        }
+        catch (Exception ex)
+        {
+            row["sample"] = "";
+        }
+        row["modified"] = DateField.StringToDate(doc.Get("modified"));
+        row["created"] = DateField.StringToDate(doc.Get("created"));
+        row["parent"] = doc.Get("directparent");// fullname;
+        row["extension"] = doc.Get("extension");
+        double s = Math.Round((double.Parse(doc.Get("length")) / 1024), 2);
+        if (s >= 1024)
+        {
+            s = Math.Round(s / 1024, 2);
+            row["size"] = Convert.ToString(s) + " MB";
+            if (s >= 1024)
+            {
+                s = Math.Round(s / 1024, 2);
+                row["size"] = Convert.ToString(s) + " GB";
+            }
+        }
+        else
+            row["size"] = Convert.ToString(s) + " KB";
+
+        row["size"] = row["size"] + " / 加密前 = " + doc.Get("length") + " / 加密後(實際存放檔案大小) = " + storageFileLen;
+        return row;
+    }
+
+    /// <summary>
+    /// 建立表格欄位
+    /// </summary>
+    /// <returns></returns>
+    private DataTable GetInitResultDT()
+    {
+        DataTable dt = new DataTable();
+        dt.Columns.Add("orgName");
+        dt.Columns.Add("title");
+        dt.Columns.Add("sample");
+        dt.Columns.Add("path");
+        dt.Columns.Add("modified");
+        dt.Columns.Add("created");
+        dt.Columns.Add("parent");
+        dt.Columns.Add("extension");
+        dt.Columns.Add("size");
+        return dt;
+    }
+
+    protected void ddlPaging_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        DropDownList ddl = (DropDownList)sender;
+        PageIndex = int.Parse(ddl.SelectedValue);
+
+        GetSearchResult();
+    }
+}

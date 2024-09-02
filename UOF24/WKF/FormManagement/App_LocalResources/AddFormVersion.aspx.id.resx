@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbCopyFlowResource1.Text" xml:space="preserve">
+    <value>Termasuk arus</value>
+  </data>
+  <data name="cbCopyFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Masukkan nomor bidang</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Masukkan nama bidang</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Pilih lokasi formulir</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDllPathCanEmptyResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入組件路徑</value>
+  </data>
+  <data name="cvDllTypeCanEmptyResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入DLL名稱</value>
+  </data>
+  <data name="ddlAllVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTrackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnImportFormResource1.Text" xml:space="preserve">
+    <value>Impor contoh</value>
+  </data>
+  <data name="ibtnImportFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Pengaturan nomor formulir</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>●</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>(Nomor Revisi yang dibangkitkan oleh sistim!)</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertMsgResource1.Text" xml:space="preserve">
+    <value>bisa-di-gandakan formulir perbaikan tidak bisa menemukan</value>
+  </data>
+  <data name="lblAlertMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberDescResource1.Text" xml:space="preserve">
+    <value>Awalan (1~15)+ tahun(2 digit terakhir dalam tahun)+Bulan(2 digit)+nomor yang berurutan(5)</value>
+  </data>
+  <data name="lblAutoNumberDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDllPathTitleResource1.Text" xml:space="preserve">
+    <value>組件路徑：</value>
+  </data>
+  <data name="lblDllTypeTitleResource1.Text" xml:space="preserve">
+    <value>DLL 名稱：</value>
+  </data>
+  <data name="lblDocNbrResource1.Text" xml:space="preserve">
+    <value>Nomor formulir</value>
+  </data>
+  <data name="lblDocNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExampleDirectionsResource1.Text" xml:space="preserve">
+    <value>範例說明</value>
+  </data>
+  <data name="lblFieldIDResource1.Text" xml:space="preserve">
+    <value>ID bidang:</value>
+  </data>
+  <data name="lblFieldIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldNameResource1.Text" xml:space="preserve">
+    <value>Nama bidang</value>
+  </data>
+  <data name="lblFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormIsexistResource1.Text" xml:space="preserve">
+    <value>Sudah ada, perubahan baru secara otomatis memperbaharui</value>
+  </data>
+  <data name="lblFormIsexistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameTitleResource1.Text" xml:space="preserve">
+    <value>Nama formulir</value>
+  </data>
+  <data name="lblFormNameTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeTitleResource1.Text" xml:space="preserve">
+    <value>Kategori formulir</value>
+  </data>
+  <data name="lblFormTypeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersionResource1.Text" xml:space="preserve">
+    <value>perbaikan</value>
+  </data>
+  <data name="lblFormVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumberingRuleResource1.Text" xml:space="preserve">
+    <value>編號規則：</value>
+  </data>
+  <data name="lblTrackIDResource1.Text" xml:space="preserve">
+    <value>Pemilihan Awalan</value>
+  </data>
+  <data name="lblTrackIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVersionBuildResource1.Text" xml:space="preserve">
+    <value>Tentukan Metode</value>
+  </data>
+  <data name="lblVersionBuildResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVersionResource1.Text" xml:space="preserve">
+    <value>perbaikan</value>
+  </data>
+  <data name="lblVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCustomNbrExampleResource1.Text" xml:space="preserve">
+    <value>(範例說明)</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>AR</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>AR</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>perbaikan formulir baru</value>
+  </data>
+  <data name="rbCopyVersionResource1.Text" xml:space="preserve">
+    <value>Salin dari revisi yang telah lama</value>
+  </data>
+  <data name="rbCopyVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCustomNbrResource1.Text" xml:space="preserve">
+    <value>自訂編號</value>
+  </data>
+  <data name="rbImportFormResource1.Text" xml:space="preserve">
+    <value>Impor contoh</value>
+  </data>
+  <data name="rbImportFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNewVersionResource1.Text" xml:space="preserve">
+    <value>perbaikan formulir baru</value>
+  </data>
+  <data name="rbNewVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbTrackNbrResource1.Text" xml:space="preserve">
+    <value>選擇字軌</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Awalan tidak boleh kosong. Tambahkan awalan baru!</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBigVersionIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBigVersionIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSmallVersionIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSmallVersionIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebImageButton1Resource1.Text" xml:space="preserve">
+    <value>Pengaturan Awalan</value>
+  </data>
+  <data name="WebImageButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

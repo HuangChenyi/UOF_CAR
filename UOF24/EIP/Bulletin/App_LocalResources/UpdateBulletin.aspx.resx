@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>審核意見</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>審核時間</value>
+  </data>
+  <data name="btnSetupResource1.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPrintResource1.Text" xml:space="preserve">
+    <value>只允許下列人員列印</value>
+  </data>
+  <data name="cbPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbUndisplayAttachmentResource1.Text" xml:space="preserve">
+    <value>瀏覽公告時附件不提供下載</value>
+  </data>
+  <data name="chbUndisplayAttachmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ckMarkqueeResource1.Text" xml:space="preserve">
+    <value>顯示於跑馬燈</value>
+  </data>
+  <data name="ckMarkqueeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>無權限修改</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入日期</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>請選擇發佈對象</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>無權限瀏覽</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>請選擇人員</value>
+  </data>
+  <data name="CustomValidator5Resource2.ErrorMessage" xml:space="preserve">
+    <value>請選擇列印人員</value>
+  </data>
+  <data name="CustomValidator5Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>(若未勾選此項，則所有人皆可列印。)</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>審核者</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>張貼者</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>分類</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>主題</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>下架</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>內容</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>附件</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>發佈對象</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>列印控制</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>審核意見</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLannouncerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLannouncerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBtnTitleResource1.Text" xml:space="preserve">
+    <value>發佈</value>
+  </data>
+  <data name="lblBtnTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLclassResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLclassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMarqueeResource1.Text" xml:space="preserve">
+    <value>跑馬燈</value>
+  </data>
+  <data name="lblMarqueeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgDenyResource1.Text" xml:space="preserve">
+    <value>發佈拒絕</value>
+  </data>
+  <data name="lblMsgDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgProcessResource1.Text" xml:space="preserve">
+    <value>審核中</value>
+  </data>
+  <data name="lblMsgProcessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgPulishResource1.Text" xml:space="preserve">
+    <value>同意發佈</value>
+  </data>
+  <data name="lblMsgPulishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyncMSGResource1.Text" xml:space="preserve">
+    <value>發佈通知</value>
+  </data>
+  <data name="lblSyncMSGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="logGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="logGridResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="logGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDelconfirmResource1.Text" xml:space="preserve">
+    <value>確定要刪除?</value>
+  </data>
+  <data name="msgDelconfirmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msnDeleteResource1.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="msnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>修改公告</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton1Resource1.Text" xml:space="preserve">
+    <value>永不下架</value>
+  </data>
+  <data name="RadioButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton2Resource1.Text" xml:space="preserve">
+    <value>下架時間</value>
+  </data>
+  <data name="RadioButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>請填入主題</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBtopicResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBtopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>審核者</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>審核狀態</value>
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSystemMsgResource1.Text" xml:space="preserve">
+    <value>系統直接公佈</value>
+  </data>
+  <data name="lblPublishMsgResource1.Text" xml:space="preserve">
+    <value>公告需經過審核後才會發佈</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>如無勾選，則公告的訊息通知以一般組態設定中的設定為主。</value>
+  </data>
+  <data name="cbDeleteExternalResource1.Text" xml:space="preserve">
+    <value>同步刪除複製的公告</value>
+  </data>
+  <data name="cbPublishExternalResource1.Text" xml:space="preserve">
+    <value>同步複製到外部公告</value>
+  </data>
+  <data name="CustomValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>請選擇外部類別</value>
+  </data>
+  <data name="cvNotLaterThenPublishResource1.ErrorMessage" xml:space="preserve">
+    <value>下架時間需晚於上架時間</value>
+  </data>
+  <data name="cvSameDateResource1.ErrorMessage" xml:space="preserve">
+    <value>上架日期需晚於或等於今日</value>
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>張貼部門</value>
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>外部發佈</value>
+  </data>
+  <data name="Label15Resource2.Text" xml:space="preserve">
+    <value>外部列印控制</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>外部對象</value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>上架</value>
+  </data>
+  <data name="lblbIsDeleteOuterResource1.Text" xml:space="preserve">
+    <value>是否同步刪除外部公告</value>
+  </data>
+  <data name="lblIsApproveResource1.Text" xml:space="preserve">
+    <value>外部公告正在審核中，此次更新只會更新內部公告</value>
+  </data>
+  <data name="rbPublishLaterResource1.Text" xml:space="preserve">
+    <value>上架時間</value>
+  </data>
+  <data name="rbPublishNowResource1.Text" xml:space="preserve">
+    <value>立即上架</value>
+  </data>
+  <data name="wbtnExternalResource1.Text" xml:space="preserve">
+    <value>外部類別</value>
+  </data>
+  <data name="cvExternalIsNotAuthResource1.ErrorMessage" xml:space="preserve">
+    <value>無權限修改外部類別</value>
+  </data>
+  <data name="cvExternalNoAuthResource1.ErrorMessage" xml:space="preserve">
+    <value>沒有權限在已選取的外部類別發佈公告，請選取其他類別</value>
+  </data>
+  <data name="lblMsgModifyResource1.Text" xml:space="preserve">
+    <value>※只有異動分類、主題、內容、附件才會發送</value>
+  </data>
+  <data name="RadTabStrip1Tab1Resource1.Text" xml:space="preserve">
+    <value>基本設定</value>
+  </data>
+  <data name="RadTabStrip1Tab2Resource1.Text" xml:space="preserve">
+    <value>進階設定</value>
+  </data>
+  <data name="RadTabStrip1Tab3Resource1.Text" xml:space="preserve">
+    <value>審核意見</value>
+  </data>
+  <data name="rdbtnSyncMSG1Resource1.Text" xml:space="preserve">
+    <value>所有發佈對象</value>
+  </data>
+  <data name="rdbtnSyncMSG2Resource1.Text" xml:space="preserve">
+    <value>發佈對象中的訂閱者</value>
+  </data>
+  <data name="lblTitlaDeleteAndExternalResource1.Text" xml:space="preserve">
+    <value>刪除(含外部公告)</value>
+  </data>
+  <data name="lblExternalMsgResource1.Text" xml:space="preserve">
+    <value>外部發佈通知</value>
+  </data>
+  <data name="lblExternalMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbExternalMSG1Resource1.Text" xml:space="preserve">
+    <value>所有發佈對象</value>
+  </data>
+  <data name="rbExternalMSG1Resource2.Text" xml:space="preserve">
+    <value>發佈對象中的訂閱者</value>
+  </data>
+  <data name="rbExternalMSG1Resource3.Text" xml:space="preserve">
+    <value>不通知</value>
+  </data>
+  <data name="rdbtnSyncMSG3Resource1.Text" xml:space="preserve">
+    <value>不通知</value>
+  </data>
+  <data name="cbShowExternalReaderResource1.Text" xml:space="preserve">
+    <value>瀏覽時顯示</value>
+  </data>
+  <data name="cbShowExternalReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbShowReaderResource1.Text" xml:space="preserve">
+    <value>瀏覽時顯示</value>
+  </data>
+  <data name="cbShowReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnExternalLinKResource1.Text" xml:space="preserve">
+    <value>查看外部公告內容</value>
+  </data>
+  <data name="cbOuterBulletinReaderResource1.Text" xml:space="preserve">
+    <value>同步顯示在內部公告中</value>
+  </data>
+</root>

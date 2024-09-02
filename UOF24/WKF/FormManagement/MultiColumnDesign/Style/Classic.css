@@ -1,0 +1,167 @@
+﻿.fieldWidth {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.fieldWidth > tbody > tr:first-child {
+    background-color: rgba(232, 238, 240, 1);
+}
+
+.fieldMargin {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.fieldPadding {
+    padding-top: 5px;
+    padding-left: 5px;
+    min-height: 25px;
+}
+
+.optionalFieldPadding {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fieldPadding input[type='text'][readonly='readonly']:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text'][disabled='disabled']:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text'][readonly='readonly']:hover {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text'][disabled='disabled']:hover {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.fieldPadding input[type='text']:focus {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding input[type='text']:hover {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding input[type='text'] {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+
+
+.fieldPadding textarea[readonly='readonly']:hover {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+    resize: none !important;
+}
+
+.fieldPadding textarea[readonly='readonly']:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+    resize: none !important;
+}
+
+
+.fieldPadding textarea:hover {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding textarea:focus {
+    border-left: 1px solid #25a0da !important;
+    border-right: 1px solid #25a0da !important;
+    border-top: 1px solid #25a0da !important;
+    border-bottom: 1px solid #25a0da !important;
+}
+
+.fieldPadding textarea {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+}
+
+
+.TableLayout {
+    table-layout: fixed;
+}
+
+.TitleFont {
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.TableLayout > tbody > tr > td.PrintHideLine {
+    border-top-style: none !important;
+}
+
+.TableLayout > tbody > tr > td {
+    border-top-style: solid !important;
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    border-color: #bfbfbf !important;
+    border-width: 1px !important;
+}
+
+.TableLayout > tbody > tr:last-child > td {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    border-bottom-style: solid !important;
+    border-color: #bfbfbf !important;
+    border-width: 1px !important;
+}
+
+.TableLayout > tbody > tr > td > table {
+    margin-bottom: 6px !important;
+}
+
+
+.RowHide {
+    display: none;
+}
+
+.FieldHide {
+    display: none;
+}

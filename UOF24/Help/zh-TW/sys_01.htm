@@ -1,0 +1,398 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=big5">
+    <title>內部人員維護</title>
+
+    <link href="help.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .auto-style1 {
+            height: 34px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span class="title">內部人員維護</span>
+    </p>
+    <p>
+        管理公司內部的部門和員工，維護公司的組織結構，採以樹狀結構的方式，建立各部門間的從屬關係；員工的部份可以設定員工的職級、職務、學歷和專長等，
+            系統管理者負責規劃維護部門和員工的管理。
+    </p>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td style="font-weight: bold">部門管理
+            </td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td style="width: 32px">
+                    <img border="0" src="images/no1.gif" width="32" height="32">
+                </td>
+                <td>按一下 [部門管理] 即可進入編輯動作，雙擊二下即可以修改部門名稱；若部門內有子部門存在，則不可以刪除部門
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31">
+                </td>
+                <td>如果要建立子部門，請先選擇父部門再按一下
+                        [新增部門] ，即可以在父部門下建立子部門，部門的層級沒有限制，若要搬移部門，用拖曳的方式即可
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no3.gif" width="32" height="31">
+                </td>
+                <td>建立好的部門會列在「內部組織結構列表」，以樹狀結構的樣子展開
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td>
+                <b>新增人員</b>
+            </td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td style="width: 32px">
+                    <img border="0" src="images/no1.gif" width="32" height="32">
+                </td>
+                <td>先在「內部組織結構列表」內，選擇要新增人員的部門
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31">
+                </td>
+                <td>接著點選「新增人員」即進入人員管理畫面，先設定帳號，再設定部門和職級(每一個使用者都可以隸屬不同部門以及不同職級)，還有一定要輸入姓名，個人基礎資料的部份，使用者可以自行設定，但是帳號、名稱、性別、生日、學歷和到職日除外</td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no3.gif" width="32" height="31">
+                </td>
+                <td>設定網域、AD認證、Proxy設定：
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+                        <tr>
+                            <td style="width: 32px">
+                                <img border="0" src="images/item.gif" width="32" height="31">
+                            </td>
+                            <td>網域：在網域的下拉清單中選擇網域，讓不同網域的相同帳號可同時使用UOF系統，但相同網域內部不允許帳號重覆。</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img border="0" src="images/item.gif" width="32" height="31">
+                            </td>
+                            <td>使用AD認證：勾選後會由AD Server驗證帳號和密碼，如果在AD裡沒有建相同帳號不能使用。</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img border="0" src="images/item.gif" width="32" height="31">
+                            </td>
+                            <td>Proxy設定：在下拉選單選擇欲使用的Proxy。Proxy設定方式請參考<a href="sys_10.htm">一般組態設定中的Proxy設定</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img border="0" src="images/item.gif" width="32" height="31">
+                            </td>
+                            <td>AD帳號：不允許重複，有輸入AD帳號時會啟用AD驗證，當使用者的AD帳號與UOF帳號不同時，可以用AD帳號來登入系統，如：UOF帳號為joe，此欄位輸入khjoe，輸入joe或EdeAD\khjoe皆可登入系統。要啟用AD驗證，請先至「系統管理→AD設定」設定AD Server。</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no4.gif" width="32" height="31">
+                </td>
+                <td>Proxy設定：若在「系統管理→一般組態設定」有啟用Proxy，則可在此設定是否要使用Proxy或要使用哪一個Proxy伺服器。</td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no5.gif" width="32" height="31">
+                </td>
+                <td>如果使用者是需要用USB Key驗證的人員，請勾選 [使用USB Key 驗證] ，再將USB Key放入USB槽內，按一下 [讀取] ，若未曾安裝過
+                        USB Key驗證，系統會請你安裝，安裝完成後，即可以讀取USB的Key號碼，便可以將USB Key交給使用者。</td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no6.gif" width="32" height="31">
+                </td>
+                <td>&nbsp;公事包容量可設定依個人或依職級，若依職級其設定方式請參考「系統管理」下的<a href="sys_10.htm">一般組態設定-模組設定</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/no7.gif" width="32" height="31">
+                </td>
+                <td>&nbsp;設定完後按一下 [確定] 若是要繼續新增下一筆，可以按一下 [確定後繼續]
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;
+                </td>
+                <td>
+                    <span>註：可依欄位設定人員資訊的內容是否顯示給一般使用者觀看，也可設定自訂欄位名稱。方法請參考：</span><a href="sys_14.htm">
+                        人員欄位設定</a>
+                </td>
+            </tr>            
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td style="font-weight: bold">人員搬移
+            </td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td style="width: 32px">
+                    <img border="0" src="images/no1.gif" width="32" height="32">
+                </td>
+                <td>當人員要換到不同部門時，可以點選「人員搬移」，進入人員搬移畫面後，點選人員拖曳到不同的部門即可</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31">
+                </td>
+                <td>一個人可以隸屬不同的部門，擔任不同的工作
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td style="font-weight: bold">人員刪除
+            </td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td style="width: 32px">
+                    <img border="0" src="images/no1.gif" width="32" height="32">
+                </td>
+                <td>先點選部門，再勾選人員，一次可以選擇多位人員或是全部
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31">
+                </td>
+                <td>按一下 [刪除人員] 即把人員刪除
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td style="font-weight: bold">匯入Excel人員
+            </td>
+        </tr>
+    </table>
+
+    <blockquote>
+        <p>
+            系統要建入大批人員資料時，可以用匯入的方法將資料存入，快速方便
+        </p>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td style="width: 32px">
+                    <img border="0" src="images/no1.gif" width="32" height="32">
+                </td>
+                <td>點選部門 [匯入人員]，先下載範例表格，按一下 [下載Excel範例]
+                        ，依範例格式將內容輸入，完成後存檔
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31">
+                </td>
+                <td>Superior , Signer 分別代表部門主管&quot;及&quot;簽核人員 這兩種職務,以 Y,N 來表示是否具有此職務。
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/no3.gif" width="32" height="31">
+                </td>
+                <td>匯入時，可以匯入多個職務每個職務間用做分隔
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no4.gif" width="32" height="31">
+                </td>
+                <td>說明：依照人員的部門指定部門欄位裡的資料。例如：”台灣業務部第一組”，則會依照階層建立台灣、業務部、第一組等三個部門。
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style1">
+                    <img border="0" src="images/no5.gif" width="32" height="31">
+                </td>
+                <td class="auto-style1">再點選部門 [匯入人員]，按一下 [瀏覽] ，選擇檔案，按一下
+                        [確定] 即可將人員匯入
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no6.gif" width="32" height="31"></td>
+                <td>若是有不同網域的相同帳號，在Excel檔輸入domain\account，如ESAD\Mary</td>
+            </tr>
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td style="font-weight: bold">匯出Excel人員
+            </td>
+        </tr>
+    </table>
+
+    <blockquote>
+        <p>
+            系統要取得大批人員資料時，可以用匯出的方法將資料匯出，快速方便
+        </p>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td style="width: 32px">
+                    <img border="0" src="images/no1.gif" width="32" height="32">
+                </td>
+                <td>點選要匯出的部門
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31">
+                </td>
+                <td>
+                    <span class="style3">可勾選是否包含過期和或是停用人員</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/no3.gif" width="32" height="31">
+                </td>
+                <td>再點選 [匯出人員]，即可以將人員匯出
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+    <p>
+        &nbsp;
+    </p>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td style="font-weight: bold">匯入AD人員
+            </td>
+        </tr>
+    </table>
+    <blockquote>
+        <p>
+            系統要建入大批的AD人員時，可以用匯入的方法將資料存入，快速方便
+        </p>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td style="width: 32px">
+                    <img border="0" src="images/no1.gif" width="32" height="32">
+                </td>
+                <td>點選部門[匯入AD人員]，開啟匯入AD帳號的視窗，在下拉清單中選擇想要連結的網域，左邊的組織圖會列出該網域的人員。
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31">
+                </td>
+                <td>
+                    <span class="style2"><span style="color: black">勾選欲新增的人員，再勾選[使用AD驗證]，便能新增該網域的人員；若沒有勾選[使用AD驗證]，則會新增UOF帳號的人員。</span>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/no3.gif" width="32" height="31">
+                </td>
+                <td>也可以用搜尋的方式，搜尋AD Server裡面的人員
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/no4.gif" width="32" height="31">
+                </td>
+                <td>按一下 [刪除人員] 即把人員刪除
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td style="width: 32px">
+
+                <img border="0" src="images/mark.gif" width="32" height="32">
+            </td>
+            <td style="font-weight: bold">搜尋人員和部門
+            </td>
+        </tr>
+    </table>
+    <blockquote>
+        <p>
+            先輸入要查詢的關鍵字，輸入後，如果是要搜尋部門則按下 [搜尋部門] ，若要搜尋人員，則按下
+            [搜尋人員]
+        </p>
+    </blockquote>
+    <hr>
+    <blockquote>
+        <p>
+            註：1.員工的職級、職務、學歷和專長設定請參考<b><a target="_self" href="sys_09.htm">基礎資料維護</a></b>。
+        </p>
+        <p>
+            2.帳號長度增長為50個字元，並可以以 “@”及”.”字元來建立帳號。
+        </p>
+        <p>
+            3.AD Server 的設定方法，請參考<b><a href="sys_05.htm">AD設定</a></b>
+        </p>
+        <p>
+            4.若使用者是使用AD帳號登入，在登入畫面要輸入domain+帳號，例如：esad\eric
+        </p>
+    </blockquote>
+</body>
+</html>

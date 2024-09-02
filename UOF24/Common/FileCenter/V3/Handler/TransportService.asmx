@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" Class="Ede.Uof.Utility.FileCenter.V3.Handler.TransportService" %>

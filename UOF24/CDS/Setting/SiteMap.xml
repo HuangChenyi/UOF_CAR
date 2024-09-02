@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<sitemap>
+  <node id="Homepage">
+    <path>/WEB/Homepage.aspx</path>
+  </node>
+</sitemap>
+
+id: 填寫 Menu 內的 id 值, 請依順序填寫, 並以'/'符號作區隔
+    ex.Homepage/System/OrganizationEmployee
+    
+path: 填寫相對應的 URL , 可填寫多個
+      ex./System/Organization/Member/Default.aspx
+      ex./System/Organization/Member/Modify.aspx
+      ex./System/Organization/Member/
+
+-->
+<sitemap>
+  <node id="Homepage/Training/Page/MasterPage">
+    <path>/CDS/WebPage/MasgerPage.aspx</path>
+  </node>
+
+  <node id="Homepage/Training/Page/DialogPage">
+    <path>/CDS/WebPage/Default.aspx</path>
+  </node>
+
+  <node id="Homepage/Training/Page/TwoColumn">
+    <path>/CDS/WebPage/TwoColumn.aspx</path>
+  </node>
+
+  <node id="Homepage/Training/Utility/Current">
+    <path>/CDS/Current/Current.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/PageMethod">
+    <path>/CDS/Current/Current.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/PageMethod">
+    <path>/CDS/Current/PageMethod.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/UOFCookie">
+    <path>/CDS/Current/UOFCookie.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/FastGrid">
+    <path>/CDS/Grid/Default.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/FileCenter">
+    <path>/CDS/FileCenter/FileCenterV3.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/UOFDownload">
+    <path>/CDS/FileCenter/UOFDownload.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/HtmlEditor">
+    <path>/CDS/Editor/Default.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/Choice">
+    <path>/CDS/Choice/Default.aspx</path>
+  </node>
+
+
+  <node id="Homepage/Training/Utility/Task">
+    <path>/CDS/Task/Default.aspx</path>
+  </node>
+</sitemap>

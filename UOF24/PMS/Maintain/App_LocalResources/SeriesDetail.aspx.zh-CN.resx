@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>手工</value>
+  </data>
+  <data name="lblDelConfirmMsgResource1.Text" xml:space="preserve">
+    <value>确实要删除吗？</value>
+  </data>
+  <data name="lblDelNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesNameEmptyResource1.Text" xml:space="preserve">
+    <value>请键入阶段名称</value>
+  </data>
+  <data name="lblPhyEndResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOKResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotYetBeginStatusMsgResource1.Text" xml:space="preserve">
+    <value>尚未开始</value>
+  </data>
+  <data name="lblAuditNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>阶段状态</value>
+  </data>
+  <data name="cvAuditResource1.ErrorMessage" xml:space="preserve">
+    <value>请选择送审方式</value>
+  </data>
+  <data name="lblAuditMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompletedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpectedEndMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHandAuditMsgResource1.Text" xml:space="preserve">
+    <value>当此阶段底下所有工作项目的状态阶为“已完成”时，&lt;br/&gt;此阶段负责人需要自行将此阶段送审</value>
+  </data>
+  <data name="lblSEQResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>实际开始日</value>
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>阶段创建时间</value>
+  </data>
+  <data name="lblSeriesNameEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtAuditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreatorGUIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhyStartResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesDirectorGUIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>阶段名称</value>
+  </data>
+  <data name="lblBCWPResource1.Text" xml:space="preserve">
+    <value>实际工本</value>
+  </data>
+  <data name="cvSeriesNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}状态的阶段不能被删除</value>
+  </data>
+  <data name="lblAuditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>该项目的状态不能增加阶段</value>
+  </data>
+  <data name="lblProjectNotSetMsgResource1.Text" xml:space="preserve">
+    <value>该任务所属项目不存在或已被删除。</value>
+  </data>
+  <data name="panAuditorResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateChildNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTrackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPredStartResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblACWPResource1.Text" xml:space="preserve">
+    <value>已运行工本</value>
+  </data>
+  <data name="lblCreateChildNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>该阶段的状态不能增加子阶段</value>
+  </data>
+  <data name="lblAutoAuditMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTrackResource1.Text" xml:space="preserve">
+    <value>审核历程</value>
+  </data>
+  <data name="lblProceedingStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvAuditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectNotSetMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPredEndResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmptyMsgResource1.Text" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemindMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotYetBeginStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHandAuditMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesDirectorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDataSetNoRowsMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPredStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSEQResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesHasItemsMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDataSetNoRowsMsgResource1.Text" xml:space="preserve">
+    <value>该任务不存在或已被删除。</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpectedStartMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditMsgResource1.Text" xml:space="preserve">
+    <value>送审</value>
+  </data>
+  <data name="lblAuditResource1.Text" xml:space="preserve">
+    <value>审核</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>阶段创建者</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditNotAllowedActionMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdateNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>该阶段的状态不能被修改</value>
+  </data>
+  <data name="lblSeriesDirectorGUIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>阶段说明</value>
+  </data>
+  <data name="txtSeriesDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditConfirmMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSeriesDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有操作权限。</value>
+  </data>
+  <data name="lblCreatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="panAuditorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有删除权限</value>
+  </data>
+  <data name="lblPhyStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有送审权限</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>阶段负责人</value>
+  </data>
+  <data name="cvMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdateNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesDirectorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>阶段设置</value>
+  </data>
+  <data name="lblPredEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelMsgResource1.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="lblAutoAuditMsgResource1.Text" xml:space="preserve">
+    <value>当此阶段底下所有工作项目的状态阶为“已完成”时，&lt;br/&gt;系统会自动将此阶段送审</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>实际完成日</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhyEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProceedingStatusMsgResource1.Text" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="lblSelectMsgResource1.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="lblRemindMsgResource1.Text" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="cvSeriesNameResource1.ErrorMessage" xml:space="preserve">
+    <value>请键入阶段名称</value>
+  </data>
+  <data name="txtSeriesNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSeriesNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>送审方式</value>
+  </data>
+  <data name="lblAuditStatusMsgResource1.Text" xml:space="preserve">
+    <value>审核中</value>
+  </data>
+  <data name="lblBCWSResource1.Text" xml:space="preserve">
+    <value>预估工本</value>
+  </data>
+  <data name="cvAuditResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreatorGUIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditNotAllowedActionMsgResource1.Text" xml:space="preserve">
+    <value>该阶段为自动送审，不能被手工送审</value>
+  </data>
+  <data name="lblDelNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSeriesNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditConfirmMsgResource1.Text" xml:space="preserve">
+    <value>确实要送审吗？</value>
+  </data>
+  <data name="lblCreatorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMessageResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelConfirmMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>预计完成日</value>
+  </data>
+  <data name="lblCompletedStatusMsgResource1.Text" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="lblAuditStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditEmptyResource1.Text" xml:space="preserve">
+    <value>请选择审核方式</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>阶段附件</value>
+  </data>
+  <data name="lblProjNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeriesHasItemsMsgResource1.Text" xml:space="preserve">
+    <value>该阶段下面尚有子阶段或任务，不能被删除。</value>
+  </data>
+  <data name="lblExpectedStartMsgResource1.Text" xml:space="preserve">
+    <value>此日期由系统自动计算，为所有子阶段/任务的最早预计开始日</value>
+  </data>
+  <data name="lblAuditNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>存在未完成的子阶段或任务，不能被送审</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>预计开始日</value>
+  </data>
+  <data name="lblOKResource1.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="lblExpectedEndMsgResource1.Text" xml:space="preserve">
+    <value>此日期由系统自动计算，为所有子阶段/任务的最晚预计完成日</value>
+  </data>
+  <data name="lblProjNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>项目名称</value>
+  </data>
+</root>

@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicantBeginDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ApplicantBeginTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ApplicantEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ApplicantEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SearchResource1.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="btn_SearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFormCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSignJobTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGDraftListResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGDraftListResource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="DGDraftListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgItemlblVersionCntResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownListFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownListFormStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndFormBeginDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndFormBeginTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndFormEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndFormEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormGridResource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="FormGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormVersionGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormVersionGridResource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="FormVersionGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_AssignNextSingerTRResource1.Text" xml:space="preserve">
+    <value>次のステーションまで送りします</value>
+  </data>
+  <data name="hand_AssignNextSingerTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_AssignSingerTRResource1.Text" xml:space="preserve">
+    <value>指定された署名</value>
+  </data>
+  <data name="hand_AssignSingerTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_CancelFormTRResource1.Text" xml:space="preserve">
+    <value>廃止する</value>
+  </data>
+  <data name="hand_CancelFormTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_ChangeResultTRResource1.Text" xml:space="preserve">
+    <value>審査結果を変更</value>
+  </data>
+  <data name="hand_ChangeResultTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_EndFormTRResource1.Text" xml:space="preserve">
+    <value>クローズする</value>
+  </data>
+  <data name="hand_EndFormTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_HurryFormTRResource1.Text" xml:space="preserve">
+    <value>フローアップ</value>
+  </data>
+  <data name="hand_HurryFormTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_ReturnFormTRResource1.Text" xml:space="preserve">
+    <value>クローズを回復する</value>
+  </data>
+  <data name="hand_ReturnFormTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hand_unLockFormTRResource1.Text" xml:space="preserve">
+    <value>ロックを解除する</value>
+  </data>
+  <data name="hand_unLockFormTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource1.Text" xml:space="preserve">
+    <value>閲覧内容</value>
+  </data>
+  <data name="HyperLink1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink2Resource1.Text" xml:space="preserve">
+    <value>フローを見る</value>
+  </data>
+  <data name="HyperLink2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink3Resource1.Text" xml:space="preserve">
+    <value>フォームをプリントする</value>
+  </data>
+  <data name="labDayResource1.Text" xml:space="preserve">
+    <value>日数</value>
+  </data>
+  <data name="labDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>フォーム名称</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource2.Text" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>フォーム状態</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>申請者：</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>申請時間：</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>終了時間</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>コード条件：</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>検索条件：</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>（名前、アカウント、身分証明書番号）が入力可能</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>機能表</value>
+  </data>
+  <data name="labHourResource1.Text" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="labHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labMinResource1.Text" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="labMinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>削除してもよろしいでしょうか</value>
+  </data>
+  <data name="lbConfirmDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_SignJobTitleResource1.Text" xml:space="preserve">
+    <value>確認者ポジション：</value>
+  </data>
+  <data name="lbl_SignJobTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllCategoryTextResource1.Text" xml:space="preserve">
+    <value>全てのカテゴリー</value>
+  </data>
+  <data name="lblAllCategoryTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDayResource1.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="lblDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDELAY_HOURResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFLOW_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFORM_CTLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFORM_VERSION_IDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormId2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value>フォーム名</value>
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeByFormResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormTypeByFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersion_formNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersion_formNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersion_formTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersion_formTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHourResource1.Text" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="lblHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIS_ALLOW_ISSUEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblISSUE_CTLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblISSUE_TIMEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel10Resource1.Text" xml:space="preserve">
+    <value>使用時間</value>
+  </data>
+  <data name="lblLabel10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel11Resource1.Text" xml:space="preserve">
+    <value>フォームテーマ</value>
+  </data>
+  <data name="lblLabel1Resource1.Text" xml:space="preserve">
+    <value>申請者</value>
+  </data>
+  <data name="lblLabel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel2Resource1.Text" xml:space="preserve">
+    <value>申請時間</value>
+  </data>
+  <data name="lblLabel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel3Resource1.Text" xml:space="preserve">
+    <value>終了時間</value>
+  </data>
+  <data name="lblLabel3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel4Resource1.Text" xml:space="preserve">
+    <value>フォーム番号</value>
+  </data>
+  <data name="lblLabel4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel5Resource1.Text" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="lblLabel5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel6Resource1.Text" xml:space="preserve">
+    <value>現在確認者</value>
+  </data>
+  <data name="lblLabel6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel7Resource1.Text" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="lblLabel7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabel8Resource1.Text" xml:space="preserve">
+    <value>確認者ポジション</value>
+  </data>
+  <data name="lblLabel9Resource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="lblLabelStatus1Resource1.Text" xml:space="preserve">
+    <value>処理中</value>
+  </data>
+  <data name="lblLabelStatus1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabelStatus2Resource1.Text" xml:space="preserve">
+    <value>クローズ（承認された）</value>
+  </data>
+  <data name="lblLabelStatus2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabelStatus3Resource1.Text" xml:space="preserve">
+    <value>クローズ（否決された）</value>
+  </data>
+  <data name="lblLabelStatus3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabelStatus4Resource1.Text" xml:space="preserve">
+    <value>クローズ（廃止された）</value>
+  </data>
+  <data name="lblLabelStatus4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabelStatus5Resource1.Text" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="lblLabelStatus5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabelStatus6Resource1.Text" xml:space="preserve">
+    <value>申請者のところに返却する</value>
+  </data>
+  <data name="lblLabelStatus6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMassageResource1.Text" xml:space="preserve">
+    <value>設定済みのフィールドは管理者の検索結果で表示できます。</value>
+  </data>
+  <data name="lblNoAllowIssueResource1.Text" xml:space="preserve">
+    <value>リリースを禁止される</value>
+  </data>
+  <data name="lblNoAllowIssueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoBridleResource1.Text" xml:space="preserve">
+    <value>制限無し</value>
+  </data>
+  <data name="lblNoBridleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoPostResource1.Text" xml:space="preserve">
+    <value>リリースしてない</value>
+  </data>
+  <data name="lblNoPostResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoResource1.Text" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="lblNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPostedResource1.Text" xml:space="preserve">
+    <value>掲示済み</value>
+  </data>
+  <data name="lblPostedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemoveLockFailResource1.Text" xml:space="preserve">
+    <value>フォームの廃止が出来なくなりました。他の人がフォームを移動または修正するかもしれません</value>
+  </data>
+  <data name="lblRemoveLockFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSetDisplayFieldResource1.Text" xml:space="preserve">
+    <value>表示するフィールドを設定します</value>
+  </data>
+  <data name="lblSetDisplayFieldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTabName1Resource1.Text" xml:space="preserve">
+    <value>フォーム管理者を管理する</value>
+  </data>
+  <data name="lblTabName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTabName2Resource1.Text" xml:space="preserve">
+    <value>表示設定</value>
+  </data>
+  <data name="lblTabName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleFormTypeResource1.Text" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="lblTitleFormTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYesResource1.Text" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="lblYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkBtnFromNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkBtnVERSIONResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>処理中</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>ケースが終了しました</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>異常</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>廃止する</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>申請者のところに返却する</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>担当者管理</value>
+  </data>
+  <data name="PanelDesignFormResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelDesignFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelDesignFormVersionResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelDesignFormVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantBeginDateResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantBeginDateResource1.Text" xml:space="preserve">
+    <value>申請開始時間は記入必要</value>
+  </data>
+  <data name="RaApplicantBeginDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantBeginTimeResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantBeginTimeResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="RaApplicantBeginTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantEndDateResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantEndDateResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="RaApplicantEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantEndTimeResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaApplicantEndTimeResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="RaApplicantEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormBeginDateResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormBeginDateResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="RaEndFormBeginDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormBeginTimeResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormBeginTimeResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="RaEndFormBeginTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormEndDateResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormEndDateResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="RaEndFormEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormEndTimeResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RaEndFormEndTimeResource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="RaEndFormEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchKeywordResource1.Text" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="searchSEResource1.Text" xml:space="preserve">
+    <value>時間範囲</value>
+  </data>
+  <data name="tbx_ApplicantResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbx_ApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbx_BeginDocNbrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbx_BeginDocNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbx_EndDocNbrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbx_EndDocNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value>自動的にリリースしてる時間</value>
+  </data>
+  <data name="TemplateFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
+    <value>リリースを禁止される</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>フォーム名称</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>フォームの保存時間が切れました</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>フォームが使わなくなりました</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value>[FORM_VERSION_ID]</value>
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="TextBox1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox3Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeFormListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebTab1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

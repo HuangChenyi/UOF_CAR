@@ -1,0 +1,12 @@
+;aiu;
+
+[Update24.0.8370]
+ProductVersion=24.0.8370
+Name=UOF Messenger 24.0.8370
+URL=http://www.example.com/downloads/UMsetup.msi
+Size=211616256
+MD5=ed3573a2ecd2487bdd3595e8a5dd3c38
+ServerFileName=setup24.0.8370.msi
+RegistryKey=HKLM\SOFTWARE\e-Excellence Inc.\UOF Messenger\Version
+Version=24.0.8370
+Description=Support UOF24.0.8370

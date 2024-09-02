@@ -1,0 +1,21 @@
+﻿.LoignCountReport {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    white-space: nowrap;
+    font-family: "Segoe UI", "Arial", "Helvetica","文泉驛正黑", "WenQuanYi Zen Hei", "微軟正黑體", "Microsoft JhengHei", "黑體-繁","Heiti TC","微软雅黑","Microsoft YaHei", "sans-serif" !important;
+}
+.LoignCountReport > tbody > tr > td {
+    background-color: #4890C7;
+    border: solid 1px #336699;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px 5px 2px 2px;
+}
+.LoignCountReport > tbody > tr:last-child td {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.LoignCountReport > tbody > tr:last-child td:first-child {
+    background-color: #4890C7;
+    color: #FFFFFF;
+}

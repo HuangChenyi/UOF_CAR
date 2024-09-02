@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LabFormDataSet" targetNamespace="http://tempuri.org/LabFormDataSet.xsd" xmlns:mstns="http://tempuri.org/LabFormDataSet.xsd" xmlns="http://tempuri.org/LabFormDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="UOF_SYCConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="UOF_SYCConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Lab.Lib.Properties.Settings.GlobalReference.Default.UOF_SYCConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LabFormDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LabFormDataSet" msprop:Generator_UserDSName="LabFormDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_LAB_DLL_FORM" msprop:Generator_TableClassName="TB_LAB_DLL_FORMDataTable" msprop:Generator_TableVarName="tableTB_LAB_DLL_FORM" msprop:Generator_TablePropName="TB_LAB_DLL_FORM" msprop:Generator_RowDeletingName="TB_LAB_DLL_FORMRowDeleting" msprop:Generator_RowChangingName="TB_LAB_DLL_FORMRowChanging" msprop:Generator_RowEvHandlerName="TB_LAB_DLL_FORMRowChangeEventHandler" msprop:Generator_RowDeletedName="TB_LAB_DLL_FORMRowDeleted" msprop:Generator_UserTableName="TB_LAB_DLL_FORM" msprop:Generator_RowChangedName="TB_LAB_DLL_FORMRowChanged" msprop:Generator_RowEvArgName="TB_LAB_DLL_FORMRowChangeEvent" msprop:Generator_RowClassName="TB_LAB_DLL_FORMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TASK_ID" msprop:Generator_ColumnVarNameInTable="columnTASK_ID" msprop:Generator_ColumnPropNameInRow="TASK_ID" msprop:Generator_ColumnPropNameInTable="TASK_IDColumn" msprop:Generator_UserColumnName="TASK_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOC_NBR" msprop:Generator_ColumnVarNameInTable="columnDOC_NBR" msprop:Generator_ColumnPropNameInRow="DOC_NBR" msprop:Generator_ColumnPropNameInTable="DOC_NBRColumn" msprop:Generator_UserColumnName="DOC_NBR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CATEGORY_ID" msprop:Generator_ColumnVarNameInTable="columnCATEGORY_ID" msprop:Generator_ColumnPropNameInRow="CATEGORY_ID" msprop:Generator_ColumnPropNameInTable="CATEGORY_IDColumn" msprop:Generator_UserColumnName="CATEGORY_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ITEM_NAME" msprop:Generator_ColumnVarNameInTable="columnITEM_NAME" msprop:Generator_ColumnPropNameInRow="ITEM_NAME" msprop:Generator_ColumnPropNameInTable="ITEM_NAMEColumn" msprop:Generator_UserColumnName="ITEM_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" msprop:Generator_UserColumnName="AMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FORM_RESULT" msprop:Generator_ColumnVarNameInTable="columnFORM_RESULT" msprop:Generator_ColumnPropNameInRow="FORM_RESULT" msprop:Generator_ColumnPropNameInTable="FORM_RESULTColumn" msprop:Generator_UserColumnName="FORM_RESULT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

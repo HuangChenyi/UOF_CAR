@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accTXTResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="accTXTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="applyCaMsgByErrorResource1.Text" xml:space="preserve">
+    <value>Apply Client certificate error&lt;br/&gt;Please contact system administrator</value>
+  </data>
+  <data name="applyCaMsgResource1.Text" xml:space="preserve">
+    <value>Apply Client certificate error, Account not exist in AD</value>
+  </data>
+  <data name="btnForgetResource1.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="btnForgetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="caIPRangeMsgResource1.Text" xml:space="preserve">
+    <value>Login failed，IP is not in the IP restriction</value>
+  </data>
+  <data name="caMsgResource1.Text" xml:space="preserve">
+    <value>Client certificate validation error&lt;br/&gt;Reason(Not apply certificate、Account is not matched with the certificate)</value>
+  </data>
+  <data name="cboKeepaccountResource1.Text" xml:space="preserve">
+    <value>Remember my account</value>
+  </data>
+  <data name="cboKeepaccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBrowserMsg" xml:space="preserve">
+    <value>Not the best browser version</value>
+  </data>
+  <data name="CheckBrowserType" xml:space="preserve">
+    <value>Your browser is not supported by UOF \r\n please use the following browser : \r\n\r\nWindows OS \r\n------------------------------------------\r\nIE:10 or above \r\nChrome: 30 or above \r\nFirefox: 20 or above\r\n\r\nMac OS \r\n------------------------------------------\r\nSafari: 7.0 or above</value>
+  </data>
+  <data name="cvalidInfoResource1.ErrorMessage" xml:space="preserve">
+    <value>找不到此帳號及Mail資訊,請重新輸入</value>
+  </data>
+  <data name="cvalidInfoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvalidInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvalidLoginForDomainMsgResource1.Text" xml:space="preserve">
+    <value>Wrong account or password.</value>
+  </data>
+  <data name="cvalidLoginForDomainMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvalidLoginMsgResource1.Text" xml:space="preserve">
+    <value>Wrong account or password.  &lt;br/&gt; If using AD validation, enter account as:  AD Domain\Account, for example, ABC\admin</value>
+  </data>
+  <data name="cvalidLoginMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvalidLoginResource1.ErrorMessage" xml:space="preserve">
+    <value>Wrong account or password.  &lt;br/&gt; If using AD validation, enter account as:  AD Domain\Account, for example, ABC\admin</value>
+  </data>
+  <data name="cvalidLoginResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvalidLoginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvalidnotAllowLoginMsgResource1.Text" xml:space="preserve">
+    <value>權限不足，請洽系統管理員</value>
+  </data>
+  <data name="cvalidnotAllowLoginMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLicenseExpiredResource1.ErrorMessage" xml:space="preserve">
+    <value>Authorization expired, cannot log in.</value>
+  </data>
+  <data name="cvLicenseExpiredResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLicenseExpiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLicenseFileResource1.ErrorMessage" xml:space="preserve">
+    <value>Authorization information incorrect, cannot start the application.</value>
+  </data>
+  <data name="cvLicenseFileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLicenseFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLicenseFullResource1.ErrorMessage" xml:space="preserve">
+    <value>Number of authorization full, cannot log in.</value>
+  </data>
+  <data name="cvLicenseFullResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLicenseFullResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLogoutResource1.ErrorMessage" xml:space="preserve">
+    <value>You had logged out</value>
+  </data>
+  <data name="cvLogoutResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLogoutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSuccessResource1.ErrorMessage" xml:space="preserve">
+    <value>寄出密碼通知成功</value>
+  </data>
+  <data name="cvSuccessResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSuccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvUSBKeyResource1.ErrorMessage" xml:space="preserve">
+    <value>Please confirm that USB Key has been inserted correctly.</value>
+  </data>
+  <data name="cvUSBKeyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvUSBKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDomainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlApplyCAResource1.Text" xml:space="preserve">
+    <value>Apply certificate</value>
+  </data>
+  <data name="hlAutoLogonResource1.Text" xml:space="preserve">
+    <value>Auto Login</value>
+  </data>
+  <data name="hlForgetpwResource1.Text" xml:space="preserve">
+    <value>Forgot password</value>
+  </data>
+  <data name="hlForgetpwResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLoadingResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLoadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLogoResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="installDriverLinkResource1.Text" xml:space="preserve">
+    <value>Install USB Key driver</value>
+  </data>
+  <data name="installDriverLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>System operation exceeds time or authority limits, please re-log in!</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>အစီအစဉ်ကို ကူးယူသည်</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>When download completed, please close the window.</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCopyRightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCopyRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCopyRightResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCopyRightResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDomainResource1.Text" xml:space="preserve">
+    <value>Log in:</value>
+  </data>
+  <data name="lblDomainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceedUserAccountResource1.Text" xml:space="preserve">
+    <value>授權人數已滿無法登入(以帳號人數計算)</value>
+  </data>
+  <data name="lblForgetADdescResource1.Text" xml:space="preserve">
+    <value>請輸入您的帳號，我們將寄出認證碼給您，如果您是使用AD驗證登入，請聯絡AD管理員取得新密碼</value>
+  </data>
+  <data name="lblLicenseExpireDateResource1.Text" xml:space="preserve">
+    <value>系統授權即將在{0}後到期,屆時將無法登入系統</value>
+  </data>
+  <data name="lbLoginWaitResource1.Text" xml:space="preserve">
+    <value>Logging in, please wait</value>
+  </data>
+  <data name="lbLoginWaitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lockedUserMsgResource1.Text" xml:space="preserve">
+    <value>You account has been locked up.</value>
+  </data>
+  <data name="lockedUserMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDaysMsgResource1.Text" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="msgHoursResource1.Text" xml:space="preserve">
+    <value>နာရီ (အချိန်)</value>
+  </data>
+  <data name="overdueUserMsgResource1.Text" xml:space="preserve">
+    <value>Your account is overdue.</value>
+  </data>
+  <data name="overdueUserMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Welcome to the Best U-Office Force system</value>
+  </data>
+  <data name="pwdTXTResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pwdTXTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resetBTNResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="resetBTNResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvalidAccountResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter account</value>
+  </data>
+  <data name="rvalidAccountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvalidAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvalidEmailResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter e-mail</value>
+  </data>
+  <data name="rvalidEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvalidEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="submitBTNResource1.Text" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="submitBTNResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="suspendedUserMsgResource1.Text" xml:space="preserve">
+    <value>Your account has been suspended.</value>
+  </data>
+  <data name="suspendedUserMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebImageButtonClearResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="WebImageButtonClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebImageButtonSubmitResource1.Text" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="WebImageButtonSubmitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIPRangeErrorMsgResource1.Text" xml:space="preserve">
+    <value>IP不在允許範圍內，無法登入</value>
+  </data>
+  <data name="hlO365LoginResource1.Text" xml:space="preserve">
+    <value>Azure AD Login</value>
+  </data>
+  <data name="lblExternalAuthErrorMsgResource1.Text" xml:space="preserve">
+    <value>登入驗證失敗，請洽系統管理員</value>
+  </data>
+  <data name="btnDoneResource1.Text" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="cvAccountFailResource1.ErrorMessage" xml:space="preserve">
+    <value>找不到此帳號，請重新輸入</value>
+  </data>
+  <data name="cvMailFailResource1.ErrorMessage" xml:space="preserve">
+    <value>個人資料未設定信箱，無法寄送認證碼，請洽系統管理員</value>
+  </data>
+  <data name="cvMobileFailResource1.ErrorMessage" xml:space="preserve">
+    <value>個人資料未設定信箱或手機，無法寄送認證碼，請洽系統管理員</value>
+  </data>
+  <data name="cvCodeErrorInvalidResource1.ErrorMessage" xml:space="preserve">
+    <value>請於五分鐘後重新索取認證碼</value>
+  </data>
+  <data name="cvSmsCreditErrorResource1.ErrorMessage" xml:space="preserve">
+    <value>簡訊點數不足，無法發送簡訊，請洽系統管理員</value>
+  </data>
+  <data name="cvSmsCreditErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOpenIdFailMsgMsgResource1.Text" xml:space="preserve">
+    <value>Azure AD登入資訊異常，請重新登入</value>
+  </data>
+  <data name="lblSpaceLendMsgResource1.Text" xml:space="preserve">
+    <value>租用空間已用{0}%</value>
+  </data>
+  <data name="lblRepeatIpTitle.Text" xml:space="preserve">
+    <value>已登入IP位址：</value>
+  </data>
+  <data name="lblRepeatTimeTitle.Text" xml:space="preserve">
+    <value>最後要求時間：</value>
+  </data>
+  <data name="literalRepeatLoginDesc.Text" xml:space="preserve">
+    <value>您已於其他IP位址登入UOF，繼續登入並將帳號從其他位址登出?</value>
+  </data>
+  <data name="literalRepeatLoginTitle.Text" xml:space="preserve">
+    <value>重複登入</value>
+  </data>
+  <data name="btnCancelLogin.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnRemoveRepeatLogin.Text" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="lblOnlinePageLogoutErrorMsgResource1.Text" xml:space="preserve">
+    <value>系統管理員已經您的帳號登出，請重新登入</value>
+  </data>
+  <data name="lblRepeatLoginErrorMsgResource1.Text" xml:space="preserve">
+    <value>您的帳號已在其他IP位置登入</value>
+  </data>
+</root>

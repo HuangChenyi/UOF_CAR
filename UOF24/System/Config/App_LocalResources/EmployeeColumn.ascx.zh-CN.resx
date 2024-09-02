@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ibtnSaveResource1.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Label21Resource1.Text" xml:space="preserve">
+    <value>专长</value>
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>电子邮件4</value>
+  </data>
+  <data name="cbOption6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbYahooResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbQQResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label38Resource1.Text" xml:space="preserve">
+    <value>个人数据5</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>BLOG</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsModifySidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>QQ</value>
+  </data>
+  <data name="Label26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustomColumnResource1.Text" xml:space="preserve">
+    <value>自定义字段显示名称</value>
+  </data>
+  <data name="cbEmailAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSexResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustomColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label44Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48Resource1.Text" xml:space="preserve">
+    <value>私人消息签名</value>
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMsnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldPermissionExampleResource1.Text" xml:space="preserve">
+    <value>内部员工字段权限设置说明</value>
+  </data>
+  <data name="Label26Resource1.Text" xml:space="preserve">
+    <value>其他4</value>
+  </data>
+  <data name="cbAccountResource1.Text" xml:space="preserve">
+    <value>可显示</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.Text" xml:space="preserve">
+    <value>个人数据2</value>
+  </data>
+  <data name="txtPersonal6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>电子邮件3</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWebPhone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPersonalColumnResource1.Text" xml:space="preserve">
+    <value>个人数据字段显示名称</value>
+  </data>
+  <data name="Label39Resource1.Text" xml:space="preserve">
+    <value>个人数据6</value>
+  </data>
+  <data name="cbMsnResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label45Resource1.Text" xml:space="preserve">
+    <value>个人数据5</value>
+  </data>
+  <data name="cbEducIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.Text" xml:space="preserve">
+    <value>其他4</value>
+  </data>
+  <data name="lblControlColumnDisplayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsModifyAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>生日</value>
+  </data>
+  <data name="cbOption2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>其他1</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="Label34Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.Text" xml:space="preserve">
+    <value>个人数据2</value>
+  </data>
+  <data name="cbExtNumResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbBlogResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>分机</value>
+  </data>
+  <data name="Label30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLimitViewResource1.Text" xml:space="preserve">
+    <value>限制观看</value>
+  </data>
+  <data name="cbEmailCResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSkillResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>电子邮件1</value>
+  </data>
+  <data name="Label44Resource1.Text" xml:space="preserve">
+    <value>个人数据4</value>
+  </data>
+  <data name="Label37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbBirthdayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEducIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28Resource1.Text" xml:space="preserve">
+    <value>其他6</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>行动电话</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="cbIsModifyBirthdayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSexResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsModifyAccountResource1.Text" xml:space="preserve">
+    <value>用户可修改</value>
+  </data>
+  <data name="Label37Resource1.Text" xml:space="preserve">
+    <value>个人数据4</value>
+  </data>
+  <data name="txtOption6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmailAResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>到职日</value>
+  </data>
+  <data name="txtPersonal3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>学历</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>终身号码</value>
+  </data>
+  <data name="cbExtNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label47Resource1.ToolTIp" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>其他3</value>
+  </data>
+  <data name="cbEmailCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>电子邮件2</value>
+  </data>
+  <data name="cbIsModifyBirthdayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label38Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label39Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>个人数据1</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblControlColumnDisplayResource1.Text" xml:space="preserve">
+    <value>字段权限设置</value>
+  </data>
+  <data name="cbIsModifySexResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.Text" xml:space="preserve">
+    <value>其他3</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbArriveDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbBlogResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbArriveDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbYahooResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmailBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmergencyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label40Resource1.Text" xml:space="preserve">
+    <value>电子签章</value>
+  </data>
+  <data name="Label29Resource1.Text" xml:space="preserve">
+    <value>其他1</value>
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>Yahoo即时通</value>
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnOptionExampleResource1.Text" xml:space="preserve">
+    <value>(选项说明)</value>
+  </data>
+  <data name="Label41Resource1.Text" xml:space="preserve">
+    <value>个人数据1</value>
+  </data>
+  <data name="cbIsModifySidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbMobileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWebPhone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36Resource1.Text" xml:space="preserve">
+    <value>个人数据3</value>
+  </data>
+  <data name="Label47Resource1.Text" xml:space="preserve">
+    <value>讨论区签名</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWebPhone2Resource1.Text" xml:space="preserve">
+    <value>网络分机2</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label30Resource1.Text" xml:space="preserve">
+    <value>其他2</value>
+  </data>
+  <data name="lblPersonalColumnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbBirthdayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>紧急电话</value>
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>其他5</value>
+  </data>
+  <data name="ibtnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label46Resource1.Text" xml:space="preserve">
+    <value>个人数据6</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmailBResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbQQResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSkypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmergencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWebPhone1Resource1.Text" xml:space="preserve">
+    <value>网络分机1</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsModifySexResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>MSN邮箱</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEmailDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33Resource1.Text" xml:space="preserve">
+    <value>其他5</value>
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>其他2</value>
+  </data>
+  <data name="txtPersonal1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgSaveResource1.Text" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="cbSkypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label46Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOption4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOption3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>Skype</value>
+  </data>
+  <data name="txtPersonal5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSkillResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label45Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPersonal1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34Resource1.Text" xml:space="preserve">
+    <value>其他6</value>
+  </data>
+  <data name="Label43Resource1.Text" xml:space="preserve">
+    <value>个人数据3</value>
+  </data>
+  <data name="cbEmailDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+</root>

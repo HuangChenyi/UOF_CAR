@@ -1,0 +1,13 @@
+如有自訂需求請移除最後副檔名後再進行修改內容
+
+App.xml.example → App.xml
+DCS.json.example → DCS.json
+Menu.xml.example → Menu.xml
+Notice.xml.example → Notice.xml
+OpenIdAuth.xml.example → OpenIdAuth.xml
+Roles.xml.example → Roles.xml
+SiteMap.xml.example → SiteMap.xml
+Task.xml.example → Task.xml
+TimeZones.xml.example → TimeZones.xml
+Webpart.xml.example → Webpart.xml
+WKF.xml.example → WKF.xml

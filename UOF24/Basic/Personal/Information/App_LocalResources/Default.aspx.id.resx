@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>GUID_FAVORIT</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>最後登入時間</value>
+  </data>
+  <data name="btnDeleteAgent1Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent2Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent3Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPayEnvResource1.Text" xml:space="preserve">
+    <value>查詢</value>
+  </data>
+  <data name="CalendarLinkResource1.HeaderText" xml:space="preserve">
+    <value>行事曆連結</value>
+  </data>
+  <data name="CalendarNameResource1.HeaderText" xml:space="preserve">
+    <value>行事曆名稱</value>
+  </data>
+  <data name="cbEmailResource1.Text" xml:space="preserve">
+    <value>Kirim e-mail ke akun e-mail saya</value>
+  </data>
+  <data name="cbEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsNewMessSignResource1.Text" xml:space="preserve">
+    <value>在我撰寫的新訊息上自動包含我的簽名</value>
+  </data>
+  <data name="cbIsReplyMessSignResource1.Text" xml:space="preserve">
+    <value>在我轉寄或回覆的訊息上自動包含我的簽名</value>
+  </data>
+  <data name="cbPushResource1.Text" xml:space="preserve">
+    <value>Kirim ke selular</value>
+  </data>
+  <data name="cbPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox1Resource1.Text" xml:space="preserve">
+    <value>Gunakan email saya untuk memberitahukan kepada saya ketika pesan pribadi diterima</value>
+  </data>
+  <data name="CheckBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Silahkan mengikat ulang jika koneksi putus atau terjadi kesalahan.</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource3.ErrorMessage" xml:space="preserve">
+    <value>代理人不可設定為自己</value>
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Tolong lanjutkan ke pengaturan informasi latar belakang untuk mengisi alamat email terlebih dahulu</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>代理人不可設定為自己</value>
+  </data>
+  <data name="gdDeviceManagementResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdDeviceManagementResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有登入中的行動裝置</value>
+  </data>
+  <data name="gdDeviceManagementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>Data tidak ditemukan</value>
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAppleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAppleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgGoogleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgGoogleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Menjilid akun Google</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>Tentukan pengganti</value>
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>Penerima</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Akun Google :</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>1. Kalender UOF akan menampilkan pada kalender Google setelah menjilid.</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.Text" xml:space="preserve">
+    <value>Pengganti pertama</value>
+  </data>
+  <data name="Label42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label43Resource1.Text" xml:space="preserve">
+    <value>Pengganti kedua</value>
+  </data>
+  <data name="Label43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label44Resource1.Text" xml:space="preserve">
+    <value>Pengganti ketiga</value>
+  </data>
+  <data name="Label44Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>2.Jangan mengikat akun Google ke lebih dari satu akun UOF.</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Berbagi kalender</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Bagikan kalendar kepada perangkat lunak atau alat lain, seperti iphone atau outlook</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>私人訊息簽名檔設定</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Login Mobile Device</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFirstAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFirstAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl104PortalUrlRequiredResource1.Text" xml:space="preserve">
+    <value>未設定104Portal站台網址，請洽系統管理員</value>
+  </data>
+  <data name="lblAfterTransMailResource1.Text" xml:space="preserve">
+    <value>轉發成功後</value>
+  </data>
+  <data name="lblAppDeviceCountMsgResource1.Text" xml:space="preserve">
+    <value>行動裝置限制綁定數量：</value>
+  </data>
+  <data name="lblAppDeviceCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBindAgainResource1.Text" xml:space="preserve">
+    <value>Perubahan</value>
+  </data>
+  <data name="lblBindAgainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBindResource1.Text" xml:space="preserve">
+    <value>Menjilid</value>
+  </data>
+  <data name="lblBindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCalendarLinkSetResource1.Text" xml:space="preserve">
+    <value>行事曆連結設定</value>
+  </data>
+  <data name="lblConfirmDeleteLinkAndSyncDataResource1.Text" xml:space="preserve">
+    <value>將刪除連結與該連結所有已同步至行事曆的內容，確定要刪除？</value>
+  </data>
+  <data name="lblConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>將刪除行事曆連結，確定要刪除？</value>
+  </data>
+  <data name="lblDeviceNullResource1.Text" xml:space="preserve">
+    <value>無法辨識的裝置</value>
+  </data>
+  <data name="lblDeviceNullResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisable.Text" xml:space="preserve">
+    <value>未啟用</value>
+  </data>
+  <data name="lblDisable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLeftOpenResource1.Text" xml:space="preserve">
+    <value>Buka skedul saya untuk diedit oleh orang lain</value>
+  </data>
+  <data name="lbLeftOpenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnable.Text" xml:space="preserve">
+    <value>啟用</value>
+  </data>
+  <data name="lblEnable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfavoriteUserSetResource1.Text" xml:space="preserve">
+    <value>Pengaturan anggota yang biasanya dipergunakan</value>
+  </data>
+  <data name="lblfavoriteUserSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForceTransEmailResource1.Text" xml:space="preserve">
+    <value>*系統管理員已啟用"強制轉發Mail"功能</value>
+  </data>
+  <data name="lblGetAppResource1.Text" xml:space="preserve">
+    <value>也可以使用行動裝置接收通知</value>
+  </data>
+  <data name="lblGetAppResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGetEMResource1.Text" xml:space="preserve">
+    <value>Keunggulan perpesanan</value>
+  </data>
+  <data name="lblGetEMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoogleAccResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoogleAccResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGotMessageResource1.Text" xml:space="preserve">
+    <value>Saat menerima pesan</value>
+  </data>
+  <data name="lblGotMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvalidAcc.Text" xml:space="preserve">
+    <value>Jika akun tidak ada , silahkan mengikat ulang </value>
+  </data>
+  <data name="lblInvalidAcc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvalidAccResource1.Text" xml:space="preserve">
+    <value>連結帳號資訊不完全，請重新作連結</value>
+  </data>
+  <data name="lblInvalidAccResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsDeleteICSDataResource1.Text" xml:space="preserve">
+    <value>按[確定]將已同步的行事曆內容刪除，按[取消]只刪除訂閱連結</value>
+  </data>
+  <data name="lblmanufacturerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmanufacturerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmanufacturerResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmanufacturerResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark2Resource2.Text" xml:space="preserve">
+    <value>[ </value>
+  </data>
+  <data name="lblmark2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark4Resource2.Text" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="lblmark4Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark5Resource2.Text" xml:space="preserve">
+    <value>] </value>
+  </data>
+  <data name="lblmark5Resource2.Text1" xml:space="preserve">
+    <value>] </value>
+  </data>
+  <data name="lblmark5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark5Resource2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmarkResource2.Text" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="lblmarkResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageResource1.Text" xml:space="preserve">
+    <value>確定要解除嗎?</value>
+  </data>
+  <data name="lblMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageResource2.Text" xml:space="preserve">
+    <value>推播測試失敗</value>
+  </data>
+  <data name="lblMessageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageResource3.Text" xml:space="preserve">
+    <value>推播測試成功</value>
+  </data>
+  <data name="lblMessageResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPayEnvMemoResource1.Text" xml:space="preserve">
+    <value>點按後將另開視窗顯示查詢結果，提醒觀看後應關閉查詢視窗</value>
+  </data>
+  <data name="lblPayEnvResource1.Text" xml:space="preserve">
+    <value>電子薪資袋</value>
+  </data>
+  <data name="lblPushDisenableResource1.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="lblPushDisenableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushEnableResource1.Text" xml:space="preserve">
+    <value>啟用</value>
+  </data>
+  <data name="lblPushEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblselectDeleteDocResource1.Text" xml:space="preserve">
+    <value>請選擇要刪除的資料</value>
+  </data>
+  <data name="lblSettingAgentMsgResource1.Text" xml:space="preserve">
+    <value>Hanya administrator yang bisa mengatur utusan</value>
+  </data>
+  <data name="lblSettingAgentMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubCalendarInfoResource1.Text" xml:space="preserve">
+    <value>支援訂閱Outlook、Google或iCloud行事曆顯示於UOF行事曆上</value>
+  </data>
+  <data name="lblSubscribeCalendarResource1.Text" xml:space="preserve">
+    <value>訂閱行事曆</value>
+  </data>
+  <data name="lblSubscribeShortResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubscribeShortResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUMdownloadResource1.Text" xml:space="preserve">
+    <value>下載並完成安裝後即可於個人電腦上使用UChat聊天功能與UMii智慧助理</value>
+  </data>
+  <data name="lblUOFMessengerResource1.Text" xml:space="preserve">
+    <value>即時通訊(UOF Messenger)</value>
+  </data>
+  <data name="lbSecondAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbSecondAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbThirdAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbThirdAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnRemoveDeviceResource1.Text" xml:space="preserve">
+    <value>解除綁定</value>
+  </data>
+  <data name="lbtnRemoveDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnShowAdminKeywordResource1.Text" xml:space="preserve">
+    <value>管理員設定的關鍵字</value>
+  </data>
+  <data name="lbtnStartPushResource1.Text" xml:space="preserve">
+    <value>啟用推播</value>
+  </data>
+  <data name="lbtnStartPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnStopPushResource1.Text" xml:space="preserve">
+    <value>停用推播</value>
+  </data>
+  <data name="lbtnStopPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnTestPushResource1.Text" xml:space="preserve">
+    <value>測試推播</value>
+  </data>
+  <data name="lbtnTestPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUpdateResource1.Text" xml:space="preserve">
+    <value>Mengubah </value>
+  </data>
+  <data name="lbUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="liAfterTransMailReadedResource1.Text" xml:space="preserve">
+    <value>已讀</value>
+  </data>
+  <data name="liAfterTransMailReadedResource1.Value" xml:space="preserve">
+    <value>Readed</value>
+  </data>
+  <data name="liAfterTransMailUnReadResource1.Text" xml:space="preserve">
+    <value>未讀</value>
+  </data>
+  <data name="liAfterTransMailUnReadResource1.Value" xml:space="preserve">
+    <value>UnRead</value>
+  </data>
+  <data name="LinkBtnBind2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkBtnBind2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkBtnRevoke2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkBtnRevoke2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgBasesetupResource1.Text" xml:space="preserve">
+    <value>Informasi latar belakan pengaturan</value>
+  </data>
+  <data name="msgBasesetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDeleteResource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="msgDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDeleteUserSetResource1.Text" xml:space="preserve">
+    <value>Apakah Anda yakin untuk menghapus?</value>
+  </data>
+  <data name="msgDeleteUserSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgSetupResource1.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="msgSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgStopPushSetResource1.Text" xml:space="preserve">
+    <value>確定要停用推播功能?</value>
+  </data>
+  <data name="msgStopPushSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgVerifyAdded1.Text" xml:space="preserve">
+    <value>未通過</value>
+  </data>
+  <data name="msgVerifyAdded1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgVerifyVerified.Text" xml:space="preserve">
+    <value>通過</value>
+  </data>
+  <data name="msgVerifyVerified.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Pengaturan data perorangan</value>
+  </data>
+  <data name="panEmplResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panEmplResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnBindResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnBindResource1.Text" xml:space="preserve">
+    <value>Menjilid</value>
+  </data>
+  <data name="RadBtnBindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnRevokeResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnRevokeResource1.Text" xml:space="preserve">
+    <value>Menghilangkan </value>
+  </data>
+  <data name="RadBtnRevokeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton1Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton1Resource1.Text" xml:space="preserve">
+    <value>Berbagi</value>
+  </data>
+  <data name="RadButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton2Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton2Resource1.Text" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="RadButton2Resource1.Text1" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="RadButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>Pengaturan Informasi tentang Latar belakang</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>BaseData</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>App設定</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>電子薪資袋</value>
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbAfterTransMailModeDeleteResource1.Text" xml:space="preserve">
+    <value>刪除私人訊息</value>
+  </data>
+  <data name="rbAfterTransMailModeSaveResource1.Text" xml:space="preserve">
+    <value>保留私人訊息，並標示為</value>
+  </data>
+  <data name="rbtnRemoveDeviceResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmp1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmp1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmp1Resource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvBaseDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvBaseDataResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvBaseDataResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSetupResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSetupResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel3Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>刪除連結</value>
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>刪除連結與同步資料</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Nama </value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Pengaturan anggota</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>推播狀態</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>廠商</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>廠商</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>系統</value>
+  </data>
+  <data name="TextBox1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

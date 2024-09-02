@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbxDisplayFieldNameResource1.Text" xml:space="preserve">
+    <value>フィールド名称を表示</value>
+  </data>
+  <data name="cbxDisplayFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorFieldIdResource1.ErrorMessage" xml:space="preserve">
+    <value>同じフォームのバージョンコードが同じにしてはいけません</value>
+  </data>
+  <data name="CustomValidatorFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDllPathCanEmptyResource1.ErrorMessage" xml:space="preserve">
+    <value>コンポーネントパスを入力してください</value>
+  </data>
+  <data name="cvDllTypeCanEmptyResource1.ErrorMessage" xml:space="preserve">
+    <value>DLL名を入力してください</value>
+  </data>
+  <data name="ddlFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTrackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberDescResource1.Text" xml:space="preserve">
+    <value>数字（1～15）+（西暦年の最後二つ数字）+好みの数字を設定可能</value>
+  </data>
+  <data name="lblAutoNumberDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberExampleResource1.Text" xml:space="preserve">
+    <value>例：AR060200001</value>
+  </data>
+  <data name="lblAutoNumberExampleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberRemarkResource1.Text" xml:space="preserve">
+    <value>システムから作成しましたので修正出来ません</value>
+  </data>
+  <data name="lblAutoNumberRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberResource1.Text" xml:space="preserve">
+    <value>コードは自動的に作成します</value>
+  </data>
+  <data name="lblAutoNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberRuleResource1.Text" xml:space="preserve">
+    <value>自動的にプレフィックスコードを入力する</value>
+  </data>
+  <data name="lblAutoNumberRuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoNumberTrackIDResource1.Text" xml:space="preserve">
+    <value>自動的にプレフィックスコードを入力する</value>
+  </data>
+  <data name="lblAutoNumberTrackIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDispalyFieldNameResource1.Text" xml:space="preserve">
+    <value>フィールドの表示</value>
+  </data>
+  <data name="lblDispalyFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDllPathTitleResource1.Text" xml:space="preserve">
+    <value>コンポーネントパス：</value>
+  </data>
+  <data name="lblDllTypeTitleResource1.Text" xml:space="preserve">
+    <value>DLL名：</value>
+  </data>
+  <data name="lblExampleDirectionsResource1.Text" xml:space="preserve">
+    <value>説明例</value>
+  </data>
+  <data name="lblFieldIdResource1.Text" xml:space="preserve">
+    <value>フィールドコード</value>
+  </data>
+  <data name="lblFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldLengthResource1.Text" xml:space="preserve">
+    <value>フィールドの長さ</value>
+  </data>
+  <data name="lblFieldLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldNameResource1.Text" xml:space="preserve">
+    <value>フィールド名称</value>
+  </data>
+  <data name="lblFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldRemarkResource1.Text" xml:space="preserve">
+    <value>フィールドのリマーク</value>
+  </data>
+  <data name="lblFieldRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSeqResource1.Text" xml:space="preserve">
+    <value>フィールドの順番</value>
+  </data>
+  <data name="lblFieldSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldTypeResource1.Text" xml:space="preserve">
+    <value>フィールドのフォーマット</value>
+  </data>
+  <data name="lblFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeqResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWordSetupResource1.Text" xml:space="preserve">
+    <value>プレフィックスを設定</value>
+  </data>
+  <data name="lblWordSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCustomNbrExampleResource1.Text" xml:space="preserve">
+    <value>(説明例)</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>シングル文字</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>singleLineText</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>明細フィールド</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>dataGrid</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>ハイパーリンク</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>hyperLink</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>コードは自動的に作成します</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>autoNumber</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>計算フィールド</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>calculateText</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>申請者</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>userProposer</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>申請者部門</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>userDept</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>申請者のポジション</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>userRank</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>全ての部門</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>allDept</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>全てのポジション</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>allRank</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>全てのファンクション</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>allFunction</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>マルチ文字</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>multiLineText</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>全員</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>allUser</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>AR</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>AR</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>数字フィールド</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>numberText</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>ファイルの選択可能なフィールド</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>fileButton</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>日付きのフィールド</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>dateSelect</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>時間フィールド</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>timeSelect</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>選択オプション</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>checkBox</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>選択肢は一つのみです</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>radioButton</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>プルダウンメニュー</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>dropDownList</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>フィールドの追加</value>
+  </data>
+  <data name="RadNumericTextBoxLengthResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumericTextBoxLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumericTextBoxSeqResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadNumericTextBoxSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCustomNbrResource1.Text" xml:space="preserve">
+    <value>カスタム番号</value>
+  </data>
+  <data name="rbTrackNbrResource1.Text" xml:space="preserve">
+    <value>アルファベットを選択</value>
+  </data>
+  <data name="RegularExpressionValidatorFieldIdResource1.ErrorMessage" xml:space="preserve">
+    <value>英語または数字のみ入力可能です</value>
+  </data>
+  <data name="RegularExpressionValidatorFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidatorFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>必ず入力してください</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.ErrorMessage" xml:space="preserve">
+    <value>コードを入力してください</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.ErrorMessage" xml:space="preserve">
+    <value>フィールド名称を入力してください</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldRemarkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebImageButton1Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebImageButton1Resource1.Text" xml:space="preserve">
+    <value>プレフィックスを設定</value>
+  </data>
+  <data name="WebImageButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebNumericEditFieldSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebNumericEditLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

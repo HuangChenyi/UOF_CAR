@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEditResource1.Text" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="btnEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEliminateFilerResource1.Text" xml:space="preserve">
+    <value>歸檔者匯出表單結果不受表單欄位觀看權限控制</value>
+  </data>
+  <data name="cbEliminateFilerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvAllowApplyPeriodCantEmptyResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入指定期間</value>
+  </data>
+  <data name="cvAllowApplyPeriodCantEmptyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvAllowApplyPeriodCantEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvAllowApplyPeriodCheckEndDateResource1.ErrorMessage" xml:space="preserve">
+    <value>開始日期不可晚於結束日期</value>
+  </data>
+  <data name="cvAllowApplyPeriodCheckEndDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvAllowApplyPeriodCheckEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormCtrlDisalbedResource1.ErrorMessage" xml:space="preserve">
+    <value>未啟用表單發佈審核單，無法申請，請洽電子簽核管理員。</value>
+  </data>
+  <data name="cvFormCtrlDisalbedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormCtrlDisalbedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormRevisionReasonResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入表單建立/改版原因</value>
+  </data>
+  <data name="cvFormRevisionReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormRevisionReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormSavePeriodResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入保存年限</value>
+  </data>
+  <data name="cvFormSavePeriodResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormSavePeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormSettingDisabledForSignResource1.ErrorMessage" xml:space="preserve">
+    <value>已關閉表單審核功能，不允許簽核，請洽系統管理員處理。</value>
+  </data>
+  <data name="cvFormSettingDisabledResource1.ErrorMessage" xml:space="preserve">
+    <value>已關閉表單審核功能，無法申請。</value>
+  </data>
+  <data name="cvFormSettingDisabledResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormSettingDisabledResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormUseAuthorityResource1.ErrorMessage" xml:space="preserve">
+    <value>請選擇表單使用權限</value>
+  </data>
+  <data name="cvFormUseAuthorityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvFormUseAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvReleaseDateTimeLaterThanApplyDateTimeResource1.ErrorMessage" xml:space="preserve">
+    <value>預計發佈時間不可早於申請時間</value>
+  </data>
+  <data name="cvReleaseDateTimeResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入發佈日期</value>
+  </data>
+  <data name="cvReleaseDateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvReleaseDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridArchiveResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridArchiveResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridArchiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridReaderResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridReaderResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlFlowVerificationReportResource1.Text" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="hlFlowVerificationReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlFlowVerificationResource1.Text" xml:space="preserve">
+    <value>進行驗證</value>
+  </data>
+  <data name="hlFlowVerificationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlFormContentResource1.Text" xml:space="preserve">
+    <value>版面預覽</value>
+  </data>
+  <data name="hlFormContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlFormViewFlowResource1.Text" xml:space="preserve">
+    <value>觀看流程</value>
+  </data>
+  <data name="hlFormViewFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowApplyDateTipResource1.Text" xml:space="preserve">
+    <value>*指定期間設定為2022/01/01~2022/01/31，使用者只能於2022/01/01 00:00~2022/01/31 23:59 申請此張表單。</value>
+  </data>
+  <data name="lblAllowApplyDateTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowApplyPeriodTitleResource1.Text" xml:space="preserve">
+    <value>允許申請期間</value>
+  </data>
+  <data name="lblAllowApplyPeriodTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>具填寫權限人員</value>
+  </data>
+  <data name="lblAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmArchiveResource1.Text" xml:space="preserve">
+    <value>是否要刪除歸檔處理者</value>
+  </data>
+  <data name="lblConfirmArchiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmReaderResource1.Text" xml:space="preserve">
+    <value>是否要刪除表單查閱者</value>
+  </data>
+  <data name="lblConfirmReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilingHandlerTitleResource1.Text" xml:space="preserve">
+    <value>歸檔處理者</value>
+  </data>
+  <data name="lblFilingHandlerTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFillerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFillerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowVerificationReportTitleResource1.Text" xml:space="preserve">
+    <value>流程驗證報表</value>
+  </data>
+  <data name="lblFlowVerificationReportTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowVerificationTitleResource1.Text" xml:space="preserve">
+    <value>流程驗證</value>
+  </data>
+  <data name="lblFlowVerificationTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormCategoryNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormCategoryNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormCategoryNameTitleResource1.Text" xml:space="preserve">
+    <value>表單類別</value>
+  </data>
+  <data name="lblFormCategoryNameTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormContentTitleResource1.Text" xml:space="preserve">
+    <value>表單內容</value>
+  </data>
+  <data name="lblFormContentTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormInformationTitleResource1.Text" xml:space="preserve">
+    <value>表單資訊</value>
+  </data>
+  <data name="lblFormInformationTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormIsApprovalResource1.Text" xml:space="preserve">
+    <value>表單審核中，不可重複送審。</value>
+  </data>
+  <data name="lblFormManagerTitleResource1.Text" xml:space="preserve">
+    <value>表單負責人</value>
+  </data>
+  <data name="lblFormManagerTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameTitleResource1.Text" xml:space="preserve">
+    <value>表單名稱</value>
+  </data>
+  <data name="lblFormNameTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormReaderTitleResource1.Text" xml:space="preserve">
+    <value>表單查閱者</value>
+  </data>
+  <data name="lblFormReaderTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormRevisionReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormRevisionReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormRevisionReasonTitleResource1.Text" xml:space="preserve">
+    <value>表單建立/改版原因</value>
+  </data>
+  <data name="lblFormRevisionReasonTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormSaveLimitPeriodTipResource1.Text" xml:space="preserve">
+    <value>*保存期限設定為1年，2023/01/01執行排程後，會自動刪除2021/12/31 23:59(含)前已結案的表單及相關附件。</value>
+  </data>
+  <data name="lblFormSaveLimitPeriodTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormSavePeriodTitleResource1.Text" xml:space="preserve">
+    <value>表單保存期限</value>
+  </data>
+  <data name="lblFormSavePeriodTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormUseAuthorityTitleResource1.Text" xml:space="preserve">
+    <value>表單使用權限</value>
+  </data>
+  <data name="lblFormUseAuthorityTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormUserAuthorityTitleResource1.Text" xml:space="preserve">
+    <value>表單人員權限</value>
+  </data>
+  <data name="lblFormUserAuthorityTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormVersionTitleResource1.Text" xml:space="preserve">
+    <value>表單版本</value>
+  </data>
+  <data name="lblFormVersionTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormViewFlowTitleResource1.Text" xml:space="preserve">
+    <value>表單流程</value>
+  </data>
+  <data name="lblFormViewFlowTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormWaitReleaseResource1.Text" xml:space="preserve">
+    <value>表單待發佈中，不可重複送審。</value>
+  </data>
+  <data name="lblModifierResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgEditorResource1.Text" xml:space="preserve">
+    <value>修改者</value>
+  </data>
+  <data name="lblMsgEditorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgSignerResource1.Text" xml:space="preserve">
+    <value>填寫者</value>
+  </data>
+  <data name="lblMsgSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowMobileSignResource1.Text" xml:space="preserve">
+    <value>此表單不允許在行動裝置操作</value>
+  </data>
+  <data name="lblReleaseDateTimeTitleResource1.Text" xml:space="preserve">
+    <value>發佈時間</value>
+  </data>
+  <data name="lblReleaseDateTimeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveYearRangeTipResource1.Text" xml:space="preserve">
+    <value>*輸入範圍為1~99</value>
+  </data>
+  <data name="lblSaveYearRangeTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveYearTitleResource1.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="lblSaveYearTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStar6TipResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStar6TipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStar7TipResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStar7TipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStarTip2Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStarTip2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStarTip3Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStarTip3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStarTip4Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStarTip4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStarTipResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblStarTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAllowApplyPeriodResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAllowApplyPeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlReleaseDateTimeResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlReleaseDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSavePeriodResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSavePeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>新增歸檔人員</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>setup</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>separator1</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value>separator2</value>
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value>新增表單查閱者</value>
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>setup</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value>separator1</value>
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value>separator2</value>
+  </data>
+  <data name="rbAllowApplyPeriodNoLimitResource1.Text" xml:space="preserve">
+    <value>不限制</value>
+  </data>
+  <data name="rbAllowApplyPeriodNoLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbAllowApplyPeriodSpecificDateResource1.Text" xml:space="preserve">
+    <value>指定期間</value>
+  </data>
+  <data name="rbAllowApplyPeriodSpecificDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbReleaseAfterApprovalResource1.Text" xml:space="preserve">
+    <value>審核後立即發佈</value>
+  </data>
+  <data name="rbReleaseAfterApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbReleaseExpectSpecificDateTimeResource1.Text" xml:space="preserve">
+    <value>預計發佈日期</value>
+  </data>
+  <data name="rbReleaseExpectSpecificDateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbSaveNoLimitResource1.Text" xml:space="preserve">
+    <value>永遠保留</value>
+  </data>
+  <data name="rbSaveNoLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbSavePeriodByYearResource1.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="rbSavePeriodByYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntbSaveYearResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntbSaveYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbArchiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>部門</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>歸檔人員</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>表單查閱者</value>
+  </data>
+</root>

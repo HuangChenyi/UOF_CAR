@@ -1,0 +1,1947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCalResource1.Text" xml:space="preserve">
+    <value>計算</value>
+  </data>
+  <data name="btnCalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbExceptionResource1.Text" xml:space="preserve">
+    <value>特殊情況</value>
+  </data>
+  <data name="cbExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbAllDayResource1.Text" xml:space="preserve">
+    <value>整天</value>
+  </data>
+  <data name="chbAllDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ckbIsFlexibleResource1.Text" xml:space="preserve">
+    <value>首日依彈性最晚下班時間計算</value>
+  </data>
+  <data name="ckbIsFlexibleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailActualDateResource1.ErrorMessage" xml:space="preserve">
+    <value>實際發生日必須填寫</value>
+  </data>
+  <data name="CusVailActualDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailActualDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailDateTimeErrResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailDateTimeErrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailDateTimeErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailErrorResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CusVailErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValiLeaCodeResource1.ErrorMessage" xml:space="preserve">
+    <value>假別必須選擇</value>
+  </data>
+  <data name="cusValiLeaCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValiLeaCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvApplicantResource1.ErrorMessage" xml:space="preserve">
+    <value>無法確認申請者</value>
+  </data>
+  <data name="cvApplicantResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckDiffMinUnitResource1.ErrorMessage" xml:space="preserve">
+    <value>所選擇的餘額記錄與目前假別單位不符，不允許使用</value>
+  </data>
+  <data name="cvCheckDiffMinUnitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckDiffMinUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckProbationResource1.ErrorMessage" xml:space="preserve">
+    <value>未滿足該假別的到職限制或無設定到職日，無法申請</value>
+  </data>
+  <data name="cvCheckRepeatTimesResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckRepeatTimesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckRepeatTimesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckYearLeaveInRangeResource1.ErrorMessage" xml:space="preserve">
+    <value>請假時間(訖)已超過可用年休使用期限</value>
+  </data>
+  <data name="cvDateErrorResource1.ErrorMessage" xml:space="preserve">
+    <value>請假日期時間異常</value>
+  </data>
+  <data name="cvDateErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDateErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLockResource1.ErrorMessage" xml:space="preserve">
+    <value>請假日期期間差勤結算已鎖定或關帳，不能申請</value>
+  </data>
+  <data name="cvLockResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvLockResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotFindLevResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotFindLevResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotFindLevResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotInRangeResource1.ErrorMessage" xml:space="preserve">
+    <value>已超過有效申請日</value>
+  </data>
+  <data name="cvNotInRangeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotInRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvOtherLeaveResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvOtherLeaveResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvOtherLeaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvRepeatResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvRepeatResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvRepeatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvStartBiggerThenEndResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvStartBiggerThenEndResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvStartBiggerThenEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvStartEndSameYearResource1.ErrorMessage" xml:space="preserve">
+    <value>請假時間(起)(訖)需在同一年度</value>
+  </data>
+  <data name="cvStartEndSameYearResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvStartEndSameYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEndHoursResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEndMinsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLeaveCode2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStartHoursResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStartMinsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlLeaveCodeResource1.Text" xml:space="preserve">
+    <value>假別說明</value>
+  </data>
+  <data name="hlLeaveCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>歸屬地點時區</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActualDateResource1.Text" xml:space="preserve">
+    <value>實際發生日</value>
+  </data>
+  <data name="lblActualDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActualDateViewResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActualDateViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantTimeZoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantTimeZoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>具填寫權限人員</value>
+  </data>
+  <data name="lblAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCannotFindLeaveCodeResource1.Text" xml:space="preserve">
+    <value>找不到假別</value>
+  </data>
+  <data name="lblCannotFindLeaveCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCannotFindSettingResource1.Text" xml:space="preserve">
+    <value>找不到工時設定</value>
+  </data>
+  <data name="lblCannotFindSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClickButtonResource1.Text" xml:space="preserve">
+    <value>請記得按下計算鈕</value>
+  </data>
+  <data name="lblClickButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCrossYearErrResource1.Text" xml:space="preserve">
+    <value>請假時間(起)(訖)需在同一年度</value>
+  </data>
+  <data name="lblCrossYearErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDayResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDayUnitResource1.Text" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="lblDayUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDiffTitleResource1.Text" xml:space="preserve">
+    <value>餘額記錄:</value>
+  </data>
+  <data name="lblEndDateResource1.Text" xml:space="preserve">
+    <value>請假時間(訖)</value>
+  </data>
+  <data name="lblEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndDateViewResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndDateViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndEmptyResource1.Text" xml:space="preserve">
+    <value>請假時間(訖)不可為空白</value>
+  </data>
+  <data name="lblEndEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndMHResource1.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="lblEndMHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionMemoResource1.Text" xml:space="preserve">
+    <value>*勾選後，不進行可請假間距及申請時間限制的驗證。</value>
+  </data>
+  <data name="lblExceptionMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHasNoAuthorityResource1.Text" xml:space="preserve">
+    <value>無填寫權限</value>
+  </data>
+  <data name="lblHasNoAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHourResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHoursDaysEmptyResource1.Text" xml:space="preserve">
+    <value>時(天)數不可為0或空白(請記得按下計算鈕)</value>
+  </data>
+  <data name="lblHoursDaysEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHourUnitResource1.Text" xml:space="preserve">
+    <value>時</value>
+  </data>
+  <data name="lblHourUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsNotWorkDayErrResource1.Text" xml:space="preserve">
+    <value>請假時間必須為上班日</value>
+  </data>
+  <data name="lblIsNotWorkDayErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveCodeMissResource1.Text" xml:space="preserve">
+    <value>選擇假別已被修改或移除，請洽管理員</value>
+  </data>
+  <data name="lblLeaveCodeMissResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveCodeNotSelectResource1.Text" xml:space="preserve">
+    <value>假別必須選擇</value>
+  </data>
+  <data name="lblLeaveCodeNotSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveCodeResource1.Text" xml:space="preserve">
+    <value>假別</value>
+  </data>
+  <data name="lblLeaveCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveCodeViewResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveCodeViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveDaysResource1.Text" xml:space="preserve">
+    <value>可用年休</value>
+  </data>
+  <data name="lblLeaveDaysShowResource1.Text" xml:space="preserve">
+    <value>餘{0}天 ({1}~{2})</value>
+  </data>
+  <data name="lblLeaveDaysShowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveHourssShowResource1.Text" xml:space="preserve">
+    <value>餘{0}小時 ({1}~{2})</value>
+  </data>
+  <data name="lblLeaveHourssShowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveTotalResource1.Text" xml:space="preserve">
+    <value>請假時(天)數</value>
+  </data>
+  <data name="lblLeaveTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLevDiffMsgResource1.Text" xml:space="preserve">
+    <value>{0}(餘{1}{2}，{3}~{4})</value>
+  </data>
+  <data name="lblLevDiffMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgSignerResource1.Text" xml:space="preserve">
+    <value>填寫者</value>
+  </data>
+  <data name="lblMsgSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgStarResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblMsgStarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMustSelectResource1.Text" xml:space="preserve">
+    <value>請選擇</value>
+  </data>
+  <data name="lblMustSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoCharityResource1.Text" xml:space="preserve">
+    <value>沒有足夠可抵扣的公益假</value>
+  </data>
+  <data name="lblNoCharityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoDaysResource1.Text" xml:space="preserve">
+    <value>可休天數不足</value>
+  </data>
+  <data name="lblNoDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoHoursResource1.Text" xml:space="preserve">
+    <value>可休時數不足</value>
+  </data>
+  <data name="lblNoHoursResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoLeaInfoResource1.Text" xml:space="preserve">
+    <value>無法找到請假相關資訊，表單異常</value>
+  </data>
+  <data name="lblNoLeaInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoLeaveDaysResource1.Text" xml:space="preserve">
+    <value>沒有可用年休</value>
+  </data>
+  <data name="lblNoLeaveDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoScalableResource1.Text" xml:space="preserve">
+    <value>沒有足夠可抵扣的彈休假</value>
+  </data>
+  <data name="lblNoScalableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoTimeOffResource1.Text" xml:space="preserve">
+    <value>沒有足夠可抵扣的補休假</value>
+  </data>
+  <data name="lblNoTimeOffResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotMinUnitResource1.Text" xml:space="preserve">
+    <value>不符合假別的最小請假單位要求</value>
+  </data>
+  <data name="lblNotMinUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoWorkDateResource1.Text" xml:space="preserve">
+    <value>請確認請假起訖的區間，是否有設定班表，或是否有包含工作時間。</value>
+  </data>
+  <data name="lblNoWorkDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoYearResource1.Text" xml:space="preserve">
+    <value>沒有足夠可抵扣的年休假</value>
+  </data>
+  <data name="lblNoYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverRepeatTimesMsg0Resource1.Text" xml:space="preserve">
+    <value>可申請次數為</value>
+  </data>
+  <data name="lblOverRepeatTimesMsg0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverRepeatTimesMsg1Resource1.Text" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="lblOverRepeatTimesMsg1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverRepeatTimesMsg2Resource1.Text" xml:space="preserve">
+    <value>，不允許申請</value>
+  </data>
+  <data name="lblOverRepeatTimesMsg2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverRepeatTimesResource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblOverRepeatTimesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatLeaveResource1.Text" xml:space="preserve">
+    <value>請假時間重複</value>
+  </data>
+  <data name="lblRepeatLeaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatOverTimeResource1.Text" xml:space="preserve">
+    <value>請假時間與加班時間重複</value>
+  </data>
+  <data name="lblRepeatOverTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatTravelResource1.Text" xml:space="preserve">
+    <value>請假時間與出差時間重複</value>
+  </data>
+  <data name="lblRepeatTravelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartBigerEndErrResource1.Text" xml:space="preserve">
+    <value>請假時間(起)不可晚於請假時間(訖)</value>
+  </data>
+  <data name="lblStartBigerEndErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartDateResource1.Text" xml:space="preserve">
+    <value>請假時間(起)</value>
+  </data>
+  <data name="lblStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartDateViewResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartDateViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartEmptyResource1.Text" xml:space="preserve">
+    <value>請假時間(起)不可為空白</value>
+  </data>
+  <data name="lblStartEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartMHResource1.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="lblStartMHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeEarlyWorkTimeETErrResource1.Text" xml:space="preserve">
+    <value>請假時間(起)要晚於、等於請假日期(起)的個人班表最早彈性上班時間</value>
+  </data>
+  <data name="lblStartTimeMatchWorkTimeErrResource1.Text" xml:space="preserve">
+    <value>請假時間(起)要等於個人班表上班時間</value>
+  </data>
+  <data name="lblStartTimeMatchWorkTimeErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleUserLevDataResource1.Text" xml:space="preserve">
+    <value>可休假餘額查詢</value>
+  </data>
+  <data name="lblTitleUserLevDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToolTipMsgResource1.Text" xml:space="preserve">
+    <value>不允許修改(唯讀)</value>
+  </data>
+  <data name="lblToolTipMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnUserLeaveDataResource1" xml:space="preserve">
+    <value>計算</value>
+  </data>
+  <data name="lbtnUserLeaveDataResource1.Text" xml:space="preserve">
+    <value>可休假餘額</value>
+  </data>
+  <data name="lbtnUserLeaveDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnUserReportResource1.Text" xml:space="preserve">
+    <value>出缺勤資訊</value>
+  </data>
+  <data name="lbtnUserReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdActualDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdActualDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdActualDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdActualDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdActualDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdActualDateResource2.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdActualDateResource2.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdActualDateResource2.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdActualDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource2.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdActualDateResource2.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdActualDateResource3.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdActualDateResource3.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdActualDateResource3.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdActualDateResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource3.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdActualDateResource3.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdActualDateResource4.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdActualDateResource4.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdActualDateResource4.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdActualDateResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdActualDateResource4.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdActualDateResource4.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdbtnActualExpendResource1.Text" xml:space="preserve">
+    <value>同一事件</value>
+  </data>
+  <data name="rdbtnActualFirstResource1.Text" xml:space="preserve">
+    <value>新申請</value>
+  </data>
+  <data name="rdbtnCalResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnCalResource1.Text" xml:space="preserve">
+    <value>計算</value>
+  </data>
+  <data name="rdbtnCalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdEndDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdEndDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdEndDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdEndDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdEndTimeResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdEndTimeResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdEndTimeResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdEndTimeResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdEndTimeResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdEndTimeResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdEndTimeResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdEndTimeResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rdEndTimeResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdEndTimeResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdEndTimeResource2.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdEndTimeResource2.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdEndTimeResource2.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdEndTimeResource2.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdEndTimeResource2.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdEndTimeResource2.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdEndTimeResource2.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdEndTimeResource2.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rdEndTimeResource2.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource2.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdEndTimeResource2.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdEndTimeResource3.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdEndTimeResource3.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdEndTimeResource3.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdEndTimeResource3.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdEndTimeResource3.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdEndTimeResource3.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdEndTimeResource3.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdEndTimeResource3.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rdEndTimeResource3.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdEndTimeResource3.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdEndTimeResource3.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdStartDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdStartDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdStartDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdStartTimeResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdStartTimeResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdStartTimeResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdStartTimeResource1.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdStartTimeResource1.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdStartTimeResource1.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdStartTimeResource1.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdStartTimeResource1.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rdStartTimeResource1.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdStartTimeResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdStartTimeResource2.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdStartTimeResource2.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdStartTimeResource2.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdStartTimeResource2.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdStartTimeResource2.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdStartTimeResource2.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdStartTimeResource2.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdStartTimeResource2.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rdStartTimeResource2.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource2.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdStartTimeResource2.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdStartTimeResource3.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdStartTimeResource3.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdStartTimeResource3.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdStartTimeResource3.TimePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the time view popup.</value>
+  </data>
+  <data name="rdStartTimeResource3.TimeView.Caption" xml:space="preserve">
+    <value>Time picker</value>
+  </data>
+  <data name="rdStartTimeResource3.TimeView.HeaderText" xml:space="preserve">
+    <value>Time Picker</value>
+  </data>
+  <data name="rdStartTimeResource3.TimeView.Summary" xml:space="preserve">
+    <value>Table holding time picker for selecting time of day.</value>
+  </data>
+  <data name="rdStartTimeResource3.TimeView.TimeFormat" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="rdStartTimeResource3.TimeView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartTimeResource3.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdStartTimeResource3.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="RequiredFieldValidatorResource1.ErrorMessage" xml:space="preserve">
+    <value>請假時間(起)不可為空白</value>
+  </data>
+  <data name="RequiredFieldValidatorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorResource2.ErrorMessage" xml:space="preserve">
+    <value>請假時間(訖)不可為空白</value>
+  </data>
+  <data name="RequiredFieldValidatorResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcActualDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdtEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdtStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgEditorResource1.Text" xml:space="preserve">
+    <value>修改者</value>
+  </data>
+</root>

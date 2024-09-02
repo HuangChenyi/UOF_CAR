@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nodes>
+  <node id="" title="个人的信息平台" url="zh-CN/pip_00.htm">
+    <node id="Homepage" title="我的首页" url="zh-CN/pip_01.htm" />
+    <node id="Homepage/PersonalInformation" title="个人设置" url="zh-CN/pip_02.htm" />
+    <node id="Homepage/PrivateMessage" title="私人消息" url="zh-CN/pip_03.htm" />
+    <node id="" title="行事历" url="zh-CN/calendar_00.htm" >
+      <node id="Homepage/Calendar" title="如何创建和修改工作事项" url="zh-CN/calendar_01.htm" />
+      <node id="Homepage/Calendar" title="工作进度回报历程" url="zh-CN/calendar_02.htm" />
+      <node id="Homepage/Calendar" title="创建个人的备忘数据" url="zh-CN/calendar_03.htm" />
+      <node id="Homepage/Calendar" title="召开会议" url="zh-CN/calendar_04.htm" />
+      <node id="Homepage/Calendar" title="会议记录，并将会议结果转为分配任务" url="zh-CN/calendar_05.htm" />
+      <node id="Homepage/Calendar" title="召开周期会议" url="zh-CN/calendar_14.htm" />
+      <node id="Homepage/Calendar" title="回复是否参加会议" url="zh-CN/calendar_06.htm" />
+      <node id="Homepage/Calendar" title="设置个人的休假" url="zh-CN/calendar_07.htm" />
+      <node id="Homepage/Calendar" title="借用公司设备或场地" url="zh-CN/calendar_08.htm" />
+      <node id="Homepage/Calendar" title="主管如何分配工作给下属" url="zh-CN/calendar_09.htm" />
+      <node id="Homepage/Calendar" title="查看部门行事历或事件" url="zh-CN/calendar_10.htm" />
+      <node id="Homepage/Calendar" title="交办工作进度查询" url="zh-CN/calendar_11.htm" />
+      <node id="Homepage/Calendar" title="归档类别分类维护" url="zh-CN/calendar_12.htm" />
+      <node id="Homepage/Calendar" title="查看他人的行事历" url="zh-CN/calendar_13.htm" />
+    </node>
+    <node id="Homepage/Briefcase" title="公文包" url="zh-CN/pip_04.htm" />
+    <node id="Homepage/AddressBook" title="通讯簿" url="zh-CN/pip_05.htm" />
+    <node id="Homepage/SiteSearch" title="UOF系统站内搜索" url="zh-CN/pip_07.htm" />
+
+  </node>
+
+  <node id="" title="入口网站">
+    <node id="" title="公告" url="zh-CN/bulletin_00.htm">
+      <node id="Homepage/Portal/Bulletin/BrowseBulletin" title="如何浏览和订阅公告" url="zh-CN/bulletin_01.htm" />
+      <node id="Homepage/Portal/Bulletin/BrowseBulletin" title="公告的管理" url="zh-CN/bulletin_03.htm" />
+      <node id="Homepage/Portal/Bulletin/BrowseBulletin" title="如何发布公告" url="zh-CN/bulletin_02.htm" />
+      <node id="Homepage/Portal/Bulletin/UserReadBulletin" title="浏览记录查询" url="zh-CN/bulletin_04.htm" />
+      <node id="Homepage/Portal/Bulletin/BulletinExamine" title="如何发布审核公告" url="zh-CN/bulletin_05.htm" />
+    </node>
+    
+    <node id="" title="讨论区" url="zh-CN/qa_00.htm" >
+      <node id="" title="浏览讨论区" url="zh-CN/qa_00_1.htm">
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="用户阅读讨论主题的方法" url="zh-CN/qa_08.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="新建和修改讨论主题" url="zh-CN/qa_02.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="回复讨论主题" url="zh-CN/qa_03.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="推荐讨论主题" url="zh-CN/qa_04.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="搜索讨论主题的方法" url="zh-CN/qa_05.htm" />
+      </node>
+      
+      <node id="" title="讨论区设置" url="zh-CN/qa_00_2.htm">
+        <node id="Homepage/Portal/Forum/BoardSetting" title="讨论区的管理" url="zh-CN/qa_01.htm" />
+        <node id="Homepage/Portal/Forum/BoardSetting" title="区版主拥有的权限为何?" url="zh-CN/qa_06.htm" />
+        <node id="Homepage/Portal/Forum/BoardSetting" title="版主拥有的权限为何?" url="zh-CN/qa_07.htm" />
+      </node>
+      
+      <node id="Homepage/Portal/Forum/ForumEssenceSetting" title="精华区的设置方法" url="zh-CN/qa_09.htm" />      
+    </node>
+
+    <node id="" title="固定资产管理" url="zh-CN/plant_00.htm" >
+      <node id="Homepage/Portal/Plant/BorrowManagement" title="借用管理" url="zh-CN/plant_02.htm" />
+      <node id="Homepage/Portal/Plant/PlantManagement" title="设备管理" url="zh-CN/plant_01.htm" />
+      <node id="Homepage/Portal/Plant/BorwseBorrowRecord" title="查询借用记录" url="zh-CN/plant_03.htm" />
+    </node>
+
+    <node id="" title="问卷调查" url="zh-CN/que_00.htm">
+      <node id="" title="问卷管理">
+        <node id="Homepage/Portal/QUE/QUEAuthority" title="如何设置角色权限" url="zh-CN/QUE_A00.htm" />
+        <node id="Homepage/Portal/QUE/QUEProperty" title="维护填写人属性" url="zh-CN/QUE_B00.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="问卷类别维护" url="zh-CN/QUE_C00.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="如何查询问卷" url="zh-CN/QUE_D00.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="如何创建问卷" url="zh-CN/QUE_D01.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="如何修改问卷" url="zh-CN/QUE_D04.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="如何启用、中止及关闭问卷" url="zh-CN/QUE_D02.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="如何删除问卷" url="zh-CN/QUE_D03.htm" />
+      </node>
+      <node id="" title="个人">
+        <node id="Homepage/Portal/QUE/QUEFillOut" title="个人问卷列表" url="zh-CN/QUE_E00.htm" />
+        <node id="Homepage/Portal/QUE/QUEReport" title="问卷统计" url="zh-CN/QUE_E01.htm" />
+      </node>
+    </node>
+
+    <node id="" title="相册影音"  url="zh-CN/onlinelook.htm" >
+      <node id="Homepage/Portal/OMS/QueryOnlineLook"   title="影音专区"  url="zh-CN/onlinelook03.htm" />
+      <node id="Homepage/Portal/OMS/AlbumView" title="相册专区" url="zh-CN/album_02.htm" />
+      <node id="Homepage/Portal/OMS/OnlineLookMA" title="影音维护" url="zh-CN/onlinelook01.htm" />
+      <node id="Homepage/Portal/OMS/OnlineLookMA" title="影片新建与删除" url="zh-CN/onlinelook02.htm" />
+      <node id="Homepage/Portal/OMS/AlbumMaintain" title="相册维护" url="zh-CN/album_01.htm" />
+    </node>
+
+    <node id="" title="简讯服务" url="zh-CN/message_00.htm">
+      <node id="Homepage/Portal/SMSService/SMSConfig" title="简讯管理" url="zh-CN/message_01.htm" />
+      <node id="Homepage/Portal/SMSService/SMSSend" title="简讯发送" url="zh-CN/message_02.htm" />
+      <node id="Homepage/Portal/SMSService/SMSQuery" title="简讯查询" url="zh-CN/message_03.htm" />
+      <node id="Homepage/Portal/SMSService/SMSBirthdaySend" title="生日简讯" url="zh-CN/message_04.htm" />
+    </node>
+
+    <node id="" title="其他管理" >
+      <node id="Homepage/Portal/OthersManage/OrganizationCalendar" title="组织行事历" url="zh-CN/sys_04.htm" />
+      <node id="Homepage/Portal/OthersManage/SystemSlogan" title="公司语录" url="zh-CN/quo_01.htm" />
+      <node id="Homepage/Portal/OthersManage/ChatRecordQuery" title="对话室记录查询" url="zh-CN/chatrecord_01.htm" />
+      <node id="Homepage/Portal/OthersManage/CalendarWorkClassMaintain" title="行事历工作类别维护" url="zh-CN/calendar_15.htm" />
+      <node id="Homepage/Portal/OthersManage/PersonalCollection" title="我的收藏" url="zh-CN/collection_01.htm" />
+      <node id="Homepage/Portal/OthersManage/ProxyStateQuery" title="Proxy 状态查询" url="zh-CN/proxy_01.htm" />
+    </node>
+    
+  </node>
+
+  <node id="" title="电子签核" url="zh-CN/wkf_00.htm" >
+
+    <node id="" title="表单设计" >
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="如何管理表单类别" url="zh-CN/wkf_a01.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="设计一张表单" url="zh-CN/wkf_a02.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="汇入、导出表单" url="zh-CN/wkf_a12.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="利用表单模板建立新表单" url="zh-CN/wkf_a13.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="表单字段设计" url="zh-CN/wkf_a03.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="设置表单条件" url="zh-CN/wkf_a04.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="设置表单起结案通知条件" url="zh-CN/wkf_a09.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="设置表单流程" url="zh-CN/wkf_a05.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="设置发布信息" url="zh-CN/wkf_a06.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="设置邮件模板" url="zh-CN/wkf_a11.htm" />
+    </node>
+    <node id="Homepage/WKF/WKFDesign/WKFFlowManagement" title="副流程设计" url="zh-CN/wkf_b01.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFEndCallSet" title="外部WS注册" url="zh-CN/wkf_b02.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFMailTemplate" title="邮件样板维护" url="zh-CN/wkf_b03.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFSetTrigger" title="外部组件注册" url="zh-CN/wkf_b04.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFSignComment" title="罐头意见维护" url="zh-CN/wkf_c08.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFParallelManagement" title="平行流程设计" url="zh-CN/wkf_b05.htm" />
+
+
+    <node id="" title="签核" >
+      <node id ="Homepage/WKF/WKFPersonalForm" title="个人表单" url="zh-CN/wkf_c00.htm" />
+      <node id="Homepage/WKF/WKFFormLibrary" title="表单申请" url="zh-CN/wkf_c01.htm" />...
+      <node id="Homepage/WKF/WKFSign/WKFToBeSignForm" title="待签核表单" url="zh-CN/wkf_c02.htm" />
+      <node id="Homepage/WKF/WKFSign/WKFToBeSignForm_Agent" title="代理签核表单" url="zh-CN/wkf_c05.htm" />
+      <node id="Homepage/WKF/WKFGetBack" title="取回未签核表单" url="zh-CN/wkf_c03.htm" />...
+      <node id="Homepage/WKF/WKFAgentMT" title="设置代理人" url="zh-CN/wkf_c04.htm" />...
+      <node id="Homepage/WKF/WKFSign/WKFFormLibrary" title="设置自选流程" url="zh-CN/wkf_a08.htm" />
+      　　　  <node id="Homepage/WKF/WKFCustFlow" title="设置自定义流程" url="zh-CN/wkf_a07.htm" />
+      　　　  <node id="Homepage/WKF/CustSignCommentSet" title="个人罐头意见维护" url="zh-CN/wkf_c08.htm" />
+    </node>
+    <node id="" title="查询" >
+      <node id="Homepage/WKF/WKFQuery/WKFFormApplied" title="已送审表单" url="zh-CN/wkf_d01.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormAlert" title="被通知表单" url="zh-CN/wkf_d02.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormQuery" title="表单查询" url="zh-CN/wkf_d03.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormSigned" title="已签核表单" url="zh-CN/wkf_d03a.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFForOpinion" title="被征询表单" url="zh-CN/wkf_d04.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormAgent" title="代填写表单" url="zh-CN/wkf_d05.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFQueryFormBySuperior" title="主管查询表单" url="zh-CN/wkf_d06.htm" />
+    </node>
+    <node id="" title="管理" >
+      <node id="Homepage/WKF/WKFManagement/WKFAuthSet" title="权限设置" url="zh-CN/wkf_e01.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFFormAdmin" title="表单管理" url="zh-CN/wkf_e02.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFFormFiling" title="归档查询" url="zh-CN/wkf_e03.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFCallbackFormList" title="回传状况查询" url="zh-CN/wkf_e05.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFAdminSetAgent" title="设置他人代理人" url="zh-CN/wkf_e04.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFResponsibleManage" title="表单负责人管理" url="zh-CN/wkf_e06.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormReaderManager" title="表单查阅者查询" url="zh-CN/wkf_e07.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFCallDllFormList" title="调用DLL状态查询" url="zh-CN/wkf_e08.htm" />
+    </node>
+
+  </node>
+  
+  <node id="" title="系统管理" url="zh-CN/sys_00.htm">
+    <node id="" title="组织维护" >       
+      <node id="Homepage/System/Organization/OrganizationBaseData" title="基础数据维护" url="zh-CN/sys_09.htm" />
+      <node id="Homepage/System/Organization/OrganizationEmployee" title="内部人员维护" url="zh-CN/sys_01.htm" />
+      <node id="Homepage/System/Organization/OrganizationMember" title="外部人员维护" url="zh-CN/sys_08.htm" /> 
+      <node id="Homepage/System/Organization/OrganizationUserColumn" title="人员字段设置" url="zh-CN/sys_14.htm" /> 
+      <node id="Homepage/System/Organization/OrganizationHeirarchical" title="部门人员管理" url="zh-CN/sys_15.htm" />
+      <node id="Homepage/System/Organization/OrganizationHeirarchicalSet" title="设置部门管理人员" url="zh-CN/sys_16.htm" />
+      <node id="Homepage/System/Organization/OrganizationExpSusDefault" title="禁用人员管理" url="zh-CN/sys_17.htm" />
+      <node id="Homepage/System/Organization/EmployeeLicenseMaintain" title="人员证照维护" url="zh-CN/Duty/duty_08.htm" />
+    </node>
+    
+    <node id="" title="系统配置" >
+      <!-- <node id="Homepage/System/" title="常规快速设置" url="zh-CN/.htm" />-->
+       <node id="Homepage/System/SystemConfigration/SystemConfigrationSetting" title="常规配置设置" url="zh-CN/sys_10.htm" />
+       <node id="Homepage/System/SystemConfigration/ManagerSetting" title="管理员设置" url="zh-CN/sys_02.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemLogViewer" title="查看事件" url="zh-CN/sys_07.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemADConfig" title="AD设置" url="zh-CN/sys_05.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemCustomPageRule" title="首页面版管理" url="zh-CN/sys_13.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemZoneSetting" title="企业面板设定" url="zh-CN/sys_19.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemLoginLogManage" title="登录记录管理" url="zh-CN/sys_06.htm" />
+     </node>
+    
+    <node id="" title="授权管理" >
+       <node id="Homepage/System/SystemAuthorize/SystemOnlineUser" title="在线用户查看及强迫注销" url="zh-CN/sys_11.htm" />
+       <node id="Homepage/System/SystemAuthorize/SystemAuthorizationInfo" title="授权设置" url="zh-CN/sys_03.htm" />
+       <node id="Homepage/System/SystemAuthorize/SystemCustomMenu" title="自定义菜单" url="zh-CN/sys_12.htm" />
+       <node id="Homepage/System/SystemAuthorize/SystemMultiSitesMenu" title="集团选单" url="zh-CN/sys_18.htm" />
+     </node>
+
+    <node id="" title="网络电话" >
+      <node id="Homepage/System/WebPhone/WebPhoneAccountSetting" title="内部帐号注册" url="zh-CN/webphone_01.htm" />
+    </node> 
+      
+  </node>
+
+  <node id="" title="统计分析" url="zh-CN/analyze_00.htm" >
+    <node id="" title="系统使用分析" >
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisLoginCount" title="最近一个月登录用户统计" url="zh-CN/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisNotLoginUser" title="未登录用户分析" url="zh-CN/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUserPostCount" title="公告张贴统计" url="zh-CN/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUseFileSizeCount" title="公文包使用容量统计" url="zh-CN/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisMonthMessageCount" title="最近一个月消息统计" url="zh-CN/analyze_01.htm" />
+    </node>
+    <node id="" title="人力资源分析" >
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplEducation" title="员工教育程度分析" url="zh-CN/analyze_02.htm" />
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplSkill" title="员工专长分析" url="zh-CN/analyze_02.htm" />
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplJobTitle" title="员工职级分析" url="zh-CN/analyze_02.htm" />
+    </node>   
+    <node id="" title="讨论区分析" >
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisAllForumPostArticles" title="讨论区发表篇数分析" url="zh-CN/analyze_03.htm" />
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisRecentYearPostArticles" title="最近一年发表篇数分析" url="zh-CN/analyze_03.htm" />
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisForumUserInfo" title="最近一个月讨论区用户信息统计" url="zh-CN/analyze_03.htm" />          
+    </node>   
+    <node id="" title="电子签核分析" >
+      <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisCountApplyForm" title="表单使用次数统计" url="zh-CN/analyze_04.htm" />
+      <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisAvgTimeOfEndForm" title="表单平均结案时间" url="zh-CN/analyze_04.htm" />
+      <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisAvgTimeOfProcessForm" title="表单平均结案时间" url="zh-CN/analyze_04.htm" />          
+    </node>   
+    <node id="" title="文档管理分析" >
+      <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsGrade" title="文档评比统计" url="zh-CN/analyze_05.htm" />
+      <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsDLNum" title="文档下载次数统计" url="zh-CN/analyze_05.htm" />
+      <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsAuthorDocs" title="作者发表文档数" url="zh-CN/analyze_05.htm" />          
+    </node>  	
+  </node>
+
+  <node id="" title="文档管理">
+    <node id="" title="文档库" >
+      <node id="Homepage/DMS/DMSDocStore" title="如何做目录的设置与管理" url="zh-CN/dms_a01.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="目录权限设置" url="zh-CN/dms_a011.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="审核流程设置" url="zh-CN/dms_a012.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="查看目录的信息和内容" url="zh-CN/dms_a013.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="新建及上传文档(存回)的方法" url="zh-CN/dms_a02.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="文档如何下载和评分" url="zh-CN/dms_a03.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="如何做文档的公布" url="zh-CN/dms_a04.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="查阅版本历程" url="zh-CN/dms_a18.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="订阅目录或文档以及添加常用列表" url="zh-CN/dms_a05.htm" />
+      <node id="Homepage/DMS/DMSDocNew" title="最新信息" url="zh-CN/dms_a06.htm" />
+      <node id="Homepage/DMS/DMSDocComm" title="使用并管理常用文档" url="zh-CN/dms_a08.htm" />
+      <node id="Homepage/DMS/DMSFullSearch" title="如何查找文档及全文检索" url="zh-CN/dms_a09.htm" />
+      <node id="Homepage/DMS/DMSDocList" title="文档清册" url="zh-CN/dms_a07.htm" />
+    </node>
+    <node id="" title="个人" >
+      <node id="Homepage/DMS/DMSWaitApprove" title="如何核准发布文档" url="zh-CN/dms_b01.htm" />
+      <node id="Homepage/DMS/DMSDocLoanApprove" title="如何核准调阅文档" url="zh-CN/dms_b05.htm" />
+      <node id="Homepage/DMS/DMSPersonSubList" title="订阅列表管理和查看所订阅的通知" url="zh-CN/dms_b02.htm" />
+    </node>
+    <node id="" title="查询及统计" >
+      <node id="Homepage/DMS/DMSFullSearch" title="如何查找文档及全文检索" url="zh-CN/dms_a09.htm" />
+      <node id="Homepage/DMS/DMSWaitApplyStatus" title="如何查询发布文档审核进度" url="zh-CN/dms_b03.htm" />
+      <node id="Homepage/DMS/DMSDocLoanStatus" title="如何查询调阅文档审核进度" url="zh-CN/dms_b03.htm" />
+      <node id="Homepage/DMS/DMSLendHistory" title="如何查询调阅记录" url="zh-CN/dms_b04.htm" />
+    </node>
+    <node id="" title="管理" >
+      <node id="Homepage/DMS/DMSEventLog" title="如何查看文档管理的事件纪录" url="zh-CN/dms_c02.htm" />
+      <node id="Homepage/DMS/DMSSysClass" title="文档类别的基础设置维护" url="zh-CN/dms_c01.htm" />
+      <node id="Homepage/DMS/DMSSysDocMaint" title="文档维护" url="zh-CN/dms_c04.htm" />
+      <node id="Homepage/DMS/DMSDocLendMaintain" title="文档调阅管理" url="zh-CN/dms_c03.htm" />
+      <node id="Homepage/DMS/DMSWKFMaintain" title="电子签核流程维护" url="zh-CN/dms_c07.htm" />
+      <node id="Homepage/DMS/DMSWatermark" title="PDF设置" url="zh-CN/dms_c05.htm" />
+      <node id="Homepage/DMS/DMSSysDocMain" title="文件批次导入" url="zh-CN/dms_c06.htm" />
+      <node id="Homepage/DMS/DMSSysCollection" title="文管强制收藏" url="zh-CN/dms_c08.htm" />
+      <node id="Homepage/DMS/DMSSysDocRemote" title="文件异地发布状态查询" url="zh-CN/dms_c09.htm" />
+      <node id="Homepage/DMS/DMSPrintRecordSearch" title="纸本分发管制及查询" url="zh-CN/dms_c10.htm" />
+    </node>
+
+  </node>
+
+  <node id="" title="差勤管理" url="zh-CN/Duty/duty_00.htm" >
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyPunchIPMaintain" title="可在线刷卡IP维护" url="zh-CN/Duty/duty_01.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyPunchImportData" title="刷卡数据汇入" url="zh-CN/Duty/duty_19.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyClassMaintain" title="班别主档" url="zh-CN/Duty/duty_02.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyTimeTableMaintain" title="班表维护" url="zh-CN/Duty/duty_03.htm" />
+    <node  title="差勤参数维护">
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="假别" url="zh-CN/Duty/duty_04.htm" />
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="年休日数" url="zh-CN/Duty/duty_05.htm" />
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="旅游补助" url="zh-CN/Duty/duty_25.htm" />
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="其他参数" url="zh-CN/Duty/duty_06.htm" />
+    </node>
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyMaintainLeaveInfo" title="年休假维护" url="zh-CN/Duty/duty_07.htm" />    
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutySettlement" title="差勤结算处理" url="zh-CN/Duty/duty_09.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyAgentSetting" title="批次设定代理人" url="zh-CN/Duty/duty_20.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyCharityLeaveConfig" title="公益活动主档维护" url="zh-CN/Duty/duty_22.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyScalableLeaveConfig" title="弹休假主档维护" url="zh-CN/Duty/duty_23.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyTourAllowanceMaintain" title="旅游补助维护" url="zh-CN/Duty/duty_24.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyAllowanceMaintain" title="津贴主档维护" url="zh-CN/Duty/duty_26.htm" />
+    <node id="" title="查詢">
+    <node id="Homepage/DUTY/DutyStatistics/DutyQueryDayRecordByManager" title="单日出缺勤状况查询(管理员)" url="zh-CN/Duty/duty_10.htm" />
+    <node id="Homepage/DUTY/DutyStatistics/DutyQueryMonthDataByManager" title="休假/出缺勤统计(管理员)" url="zh-CN/Duty/duty_11.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryStageDataByManager" title="出缺勤统计(管理员)" url="zh-CN/Duty/duty_17.htm" />
+    <node id="Homepage/DUTY/DutyStatistics/DutyQueryFormByManager" title="表单签核统计(管理员)" url="zh-CN/Duty/duty_12.htm" />
+    <node id="Homepage/DUTY/DutyStatistics/DutyQueryMonthDataByUser" title="休假/出缺勤统计(个人)" url="zh-CN/Duty/duty_13.htm" />
+    <node id="Homepage/DUTY/DutyStatistics/DutyQueryMonthDataByUser" title="年休假查询(个人)" url="zh-CN/Duty/duty_14.htm" />
+    <node id="Homepage/DUTY/DutyStatistics/DutyQueryLeaveDays" title="请假记录查询" url="zh-CN/Duty/duty_15.htm" />
+    <node id="Homepage/DUTY/DutyStatistics/DutyQueryOverTime" title="加班记录查询" url="zh-CN/Duty/duty_16.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTravel" title="出差记录查询" url="zh-CN/Duty/duty_29.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeTableByUser" title="班表查询(个人)" url="zh-CN/Duty/duty_18.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeTableByManager" title="班表查询(管理员)" url="zh-CN/Duty/duty_18.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeOff" title="补休时数查询" url="zh-CN/Duty/duty_30.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryAllLeaHours" title="可休假查询(管理员)" url="zh-CN/Duty/duty_27.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryAllLeaHoursByUser" title="可休假查询(个人)" url="zh-CN/Duty/duty_28.htm" />
+    </node>
+    <node id="" title="其它">
+      <node id="Homepage/DUTY/DutyOther/DutyLeaveCollective" title="批次扣假" url="zh-CN/Duty/duty_21.htm" />
+    </node>
+  </node>
+  
+  <node id="" title="项目管理" url="zh-CN/pms_00.htm">
+    <node id="Homepage/PMS/PMSManagement/PMSMaintain" title="项目维护" url="zh-CN/pms_01.htm" />
+    <node id="Homepage/PMS/PMSManagement/PMSAudit" title="审核" url="zh-CN/pms_02.htm" />
+    <node id="Homepage/PMS/PMSManagement/PMSSetting" title="设置" url="zh-CN/pms_05.htm" />      
+    <node id="Homepage/PMS/PMSQuery/PMSQueryProject" title="依项目查询" url="zh-CN/pms_04.htm" />
+    <node id="Homepage/PMS/PMSQuery/PMSQueryTask" title="依任务查询" url="zh-CN/pms_04.htm" />
+    <node id="Homepage/PMS/PMSQuery/PMSLog" title="日志" url="zh-CN/pms_03.htm" />
+  </node>
+  
+  <node id="" title="客户数据库" url="zh-CN/customer_00.htm">
+	  <node id="" title="管理" >
+		  <node id="Homepage/CUS/CUSSys/CUSRoleManage" title="如何设置角色权限" url="zh-CN/customer_A00.htm" />
+		  <node id="Homepage/CUS/CUSSys/CUSBaseDataMaintain" title="主档维护" url="zh-CN/customer_B00.htm" />
+		  <node id="Homepage/CUS/CUSSys/CUSEventLogQuery" title="事件查看" url="zh-CN/customer_C00.htm" />
+	  </node>
+	  <node id="" title="客户数据" >
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何新建客户数据" url="zh-CN/customer_E00.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何修改客户数据" url="zh-CN/customer_E01.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何删除客户数据" url="zh-CN/customer_E02.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何发布客户" url="zh-CN/customer_E03.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何浏览客户数据" url="zh-CN/customer_E08.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何批次配置数据归属" url="zh-CN/customer_E04.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何导入、导出客户数据" url="zh-CN/customer_E06.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="如何添加、取消常用客户" url="zh-CN/customer_E05.htm" />
+	  </node>
+	  <node id="" title="查询及统计" >
+		  <node id="Homepage/CUS/CUSData/CUSAdvancedQuery" title="查询客户数据" url="zh-CN/customer_E07.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSAdvancedQuery" title="高级查询" url="zh-CN/customer_F00.htm" />
+		  <node id="Homepage/CUS/CUSStatistics/CUSDataStatisticsChart" title="客户数据统计" url="zh-CN/customer_D00.htm" />
+		  <node id="Homepage/CUS/CUSStatistics/CUSPublishCountChart" title="新建客户数统计" url="zh-CN/customer_D00.htm" />
+	  </node>
+  </node>
+  
+</Nodes>

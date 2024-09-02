@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="UC_SignDirections.ascx.cs" Inherits="Ede.Uof.Web.WKF.FormManagement.UC_SignDirections" %>
+<asp:LinkButton ID="LinkButton1" runat="server" Text="並會簽說明" OnClientClick="$uof.dialog.open2('~/WKF/FlowManagement/SignDirections.aspx', 'ShowSignDirections', '', 700, 300, function(){return false;}); return false;" meta:resourcekey="LinkButton1Resource1"></asp:LinkButton>

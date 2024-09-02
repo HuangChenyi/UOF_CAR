@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Expected approver</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Actual approver</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Approval time</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>Expected approver</value>
+  </data>
+  <data name="gridActualResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridActualResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridActualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridSimulationResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridSimulationResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridSimulationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndSubFlowResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNotEndResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNotEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Expected flow</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Actual Process</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalSignResource1.Text" xml:space="preserve">
+    <value>由 {#User} 加簽</value>
+  </data>
+  <data name="lblAdditionalSiteMsgResource1.Text" xml:space="preserve">
+    <value>(Add-Stop)</value>
+  </data>
+  <data name="lblAdditionalSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgreeResource1.Text" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="lblAgreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertNotFoundResource1.Text" xml:space="preserve">
+    <value>(No qualified Notify member founded)</value>
+  </data>
+  <data name="lblAlertSiteResource1.Text" xml:space="preserve">
+    <value>Notice Stop</value>
+  </data>
+  <data name="lblAllowEndFlowResource1.Text" xml:space="preserve">
+    <value>Can close form at this stop</value>
+  </data>
+  <data name="lblAllowEndFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowEndSubFlowResource1.Text" xml:space="preserve">
+    <value>Can end subflow at this stop</value>
+  </data>
+  <data name="lblAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAndSignResource1.Text" xml:space="preserve">
+    <value>Multi-and approval</value>
+  </data>
+  <data name="lblAndSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantResource1.Text" xml:space="preserve">
+    <value>Initiator</value>
+  </data>
+  <data name="lblApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblapplicationResource1.Text" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="lblapplicationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBackResource1.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCancelMsgResource1.Text" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="lblCancelMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConditionExceptSiteResource1.Text" xml:space="preserve">
+    <value>Condition error in Branch Stop，simulation stop</value>
+  </data>
+  <data name="lblConditionExceptSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustDesignFlowSiteResource1.Text" xml:space="preserve">
+    <value>Customized Stop</value>
+  </data>
+  <data name="lblCustDesignFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustGroupFlowSiteResource1.Text" xml:space="preserve">
+    <value>Customized Stop</value>
+  </data>
+  <data name="lblCustGroupFlowSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisagreeResource1.Text" xml:space="preserve">
+    <value>ငြင်းပယ်သည်</value>
+  </data>
+  <data name="lblDisagreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExtemalFlowResource1.Text" xml:space="preserve">
+    <value>APP Stop</value>
+  </data>
+  <data name="lblFieldFlowSiteResource1.Text" xml:space="preserve">
+    <value>Organization Stop</value>
+  </data>
+  <data name="lblFlowResultSettingResource1.Text" xml:space="preserve">
+    <value>流程結果顯示：</value>
+  </data>
+  <data name="lblFlowResultSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblgeneralSignResource1.Text" xml:space="preserve">
+    <value>ပုံမှန်</value>
+  </data>
+  <data name="lblgeneralSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAllowEndFlowResource1.Text" xml:space="preserve">
+    <value>Cannot close form at this stop</value>
+  </data>
+  <data name="lblNoAllowEndFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAllowEndSubFlowResource1.Text" xml:space="preserve">
+    <value>Cannot end subflow at this stop</value>
+  </data>
+  <data name="lblNoAllowEndSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoCommentResource1.Text" xml:space="preserve">
+    <value>No comments</value>
+  </data>
+  <data name="lblNoCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotFindSignerExceptionResource1.Text" xml:space="preserve">
+    <value>Cannot find approver, simulation stop</value>
+  </data>
+  <data name="lblNotFindSignerExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNullResource1.Text" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="lblNullResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrSignedResource1.Text" xml:space="preserve">
+    <value>It had approved by others</value>
+  </data>
+  <data name="lblOrSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrSignResource1.Text" xml:space="preserve">
+    <value>Multi-or approval</value>
+  </data>
+  <data name="lblOrSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParallelFlowResource1.Text" xml:space="preserve">
+    <value>Parallel flow</value>
+  </data>
+  <data name="lblPrevSiteAssignResource1.Text" xml:space="preserve">
+    <value>Define by previous Stop</value>
+  </data>
+  <data name="lblPrevSiteAssignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSimulationExceptionResource1.Text" xml:space="preserve">
+    <value>Simulation is stopped because  system cannot retrieve the correct organizational chart.</value>
+  </data>
+  <data name="lblSimulationResource1.Text" xml:space="preserve">
+    <value>Flow simulation</value>
+  </data>
+  <data name="lblSimulationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSimulationTitleExceptionResource1.Text" xml:space="preserve">
+    <value>系統無法正確取得職級，所以不能進行流程模擬!</value>
+  </data>
+  <data name="lblSimulationTitleExceptionResource1ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkippedResource1.Text" xml:space="preserve">
+    <value>(အလိုအလျှောက်ခွင့်ပြုချက်ရယူသည်)</value>
+  </data>
+  <data name="lblSubFlowResource1.Text" xml:space="preserve">
+    <value>Sub-flow</value>
+  </data>
+  <data name="lblSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>流程結束站點</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>FlowEnd</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>所有簽核者站點</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>View flow preview</value>
+  </data>
+  <data name="pnlActualResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlActualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSimulationResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSimulationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnlFlowResultSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Approval type</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Closure Form</value>
+  </data>
+</root>

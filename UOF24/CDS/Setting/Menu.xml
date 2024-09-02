@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<Menus>
+  <menu id="Analysis">
+    <culture name="en-us">Statistic</culture>
+    <culture name="zh-tw">統計分析</culture>
+    <culture name="zh-cn">统计分析</culture>
+    <culture name="vi">Phân tích</culture>
+    <culture name="id">Analisa</culture>
+  </menu>
+</Menus>
+ 
+-->
+
+<Menus>
+  <!--以下為客製-->
+  <menu id="Training">
+    <culture name="en-us">課程範例</culture>
+    <culture name="zh-tw">課程範例</culture>
+    <culture name="zh-cn">課程範例</culture>
+    <culture name="vi">課程範例</culture>
+  </menu>
+
+  <menu id="Page">
+    <culture name="en-us">主版頁面</culture>
+    <culture name="zh-tw">主版頁面</culture>
+    <culture name="zh-cn">主版頁面</culture>
+    <culture name="vi">主版頁面</culture>
+  </menu>
+
+  <menu id="MasterPage">
+    <culture name="en-us">主版頁面-一般</culture>
+    <culture name="zh-tw">主版頁面-一般</culture>
+    <culture name="zh-cn">主版頁面-一般</culture>
+    <culture name="vi">主版頁面-一般</culture>
+  </menu>
+
+  <menu id="DialogPage">
+    <culture name="en-us">主版頁面-對話視窗</culture>
+    <culture name="zh-tw">主版頁面-對話視窗</culture>
+    <culture name="zh-cn">主版頁面-對話視窗</culture>
+    <culture name="vi">主版頁面-對話視窗</culture>
+  </menu>
+
+  <menu id="TwoColumn">
+    <culture name="en-us">主版頁面-兩欄式</culture>
+    <culture name="zh-tw">主版頁面-兩欄式</culture>
+    <culture name="zh-cn">主版頁面-兩欄式</culture>
+    <culture name="vi">主版頁面-兩欄式</culture>
+  </menu>
+
+  <menu id="Utility">
+    <culture name="en-us">底層</culture>
+    <culture name="zh-tw">底層</culture>
+    <culture name="zh-cn">底層</culture>
+    <culture name="vi">底層</culture>
+  </menu>
+
+
+  <menu id="Current">
+    <culture name="en-us">Current物件</culture>
+    <culture name="zh-tw">Current物件</culture>
+    <culture name="zh-cn">Current物件</culture>
+    <culture name="vi">Current物件</culture>
+  </menu>
+
+  <menu id="PageMethod">
+    <culture name="en-us">PageMethod物件</culture>
+    <culture name="zh-tw">PageMethod物件</culture>
+    <culture name="zh-cn">PageMethod物件</culture>
+    <culture name="vi">PageMethod物件</culture>
+  </menu>
+
+  <menu id="UOFCookie">
+    <culture name="en-us">UOFCookie物件</culture>
+    <culture name="zh-tw">UOFCookie物件</culture>
+    <culture name="zh-cn">UOFCookie物件</culture>
+    <culture name="vi">UOFCookie物件</culture>
+  </menu>
+
+  <menu id="FastGrid">
+    <culture name="en-us">Grid元件</culture>
+    <culture name="zh-tw">Grid元件</culture>
+    <culture name="zh-cn">Grid元件</culture>
+    <culture name="vi">Grid元件</culture>
+  </menu>
+
+  <menu id="FileCenter">
+    <culture name="en-us">檔案上傳</culture>
+    <culture name="zh-tw">檔案上傳</culture>
+    <culture name="zh-cn">檔案上傳</culture>
+    <culture name="vi">檔案上傳</culture>
+  </menu>
+
+  <menu id="UOFDownload">
+    <culture name="en-us">檔案下載</culture>
+    <culture name="zh-tw">檔案下載</culture>
+    <culture name="zh-cn">檔案下載</culture>
+    <culture name="vi">檔案下載</culture>
+  </menu>
+
+  <menu id="HtmlEditor">
+    <culture name="en-us">Html編輯器</culture>
+    <culture name="zh-tw">Html編輯器</culture>
+    <culture name="zh-cn">Html編輯器</culture>
+    <culture name="vi">Html編輯器</culture>
+  </menu>
+
+  <menu id="Choice">
+    <culture name="en-us">選人元件</culture>
+    <culture name="zh-tw">選人元件</culture>
+    <culture name="zh-cn">選人元件</culture>
+    <culture name="vi">選人元件</culture>
+  </menu>
+
+
+  <menu id="Task">
+    <culture name="en-us">排程</culture>
+    <culture name="zh-tw">排程</culture>
+    <culture name="zh-cn">排程</culture>
+    <culture name="vi">排程</culture>
+  </menu>
+</Menus>

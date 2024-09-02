@@ -1,0 +1,179 @@
+﻿
+
+.RadDock .rdCommands .rdClose {
+    background-repeat: no-repeat !important;
+    background: url(images/webpart/arrow_del.gif) transparent !important;
+}
+
+.RadDock .rdCommands .rdCollapse {
+    background-repeat: no-repeat !important;
+    background: url(images/webpart/arrow_down.gif) transparent !important;
+}
+
+.RadDock .rdCommands .rdExpand {
+    background-repeat: no-repeat !important;
+    background: url(images/webpart/arrow_up.gif) transparent !important;
+}
+
+.RadDock .rdCommands .rdCustom {
+    background-repeat: no-repeat !important;
+    background: url(images/webpart/arrow_down.gif) transparent !important;
+}
+
+
+
+
+
+.TitleBarText {
+    display: block;
+    float: left;
+    font-weight: bolder;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.TitleBarTextSys {
+    display: block;
+    float: left;
+    font-weight: bolder;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.RadDockZone [TitleStyle] {
+    background-color: #ffffff;
+}
+
+
+
+.RadDockZone .rdTable {
+    background-image: url(images/webpart/bg.png);
+    background-repeat: repeat-x;
+}
+
+.RadDockZone [TitleStyle="b"] .rdTable {
+    background-image: url(images/webpart/bg_b.png);
+    background-repeat: repeat-x;
+}
+
+.RadDockZone [TitleStyle="h"] .rdTable {
+    background-image: url(images/webpart/bg_h.png);
+    background-repeat: repeat-x;
+}
+
+.TitleBarImg {
+    background-repeat: no-repeat;
+    width: 80px;
+    display: block;
+    float: left;
+}
+
+.TitleBarImgStylea {
+    background-image: url(../../Common/Images/Webpart/icon_a.png);
+}
+
+.TitleBarImgStyleb {
+    background-image: url(../../Common/Images/Webpart/icon_b.png);
+}
+
+.TitleBarImgStylec {
+    background-image: url(../../Common/Images/Webpart/icon_c.png);
+}
+
+.TitleBarImgStyled {
+    background-image: url(../../Common/Images/Webpart/icon_d.png);
+}
+
+.TitleBarImgStylee {
+    background-image: url(../../Common/Images/Webpart/icon_e.png);
+}
+
+.TitleBarImgStylef {
+    background-image: url(../../Common/Images/Webpart/icon_f.png);
+}
+
+.TitleBarImgStyleg {
+    background-image: url(../../Common/Images/Webpart/icon_g.png);
+}
+
+.TitleBarImgStyleh {
+    background-image: url(../../Common/Images/Webpart/icon_h.png);
+}
+
+.TitleBarImgStylei {
+    background-image: url(../../Common/Images/Webpart/icon_i.png);
+}
+
+.TitleBarImgStylej {
+    background-image: url(../../Common/Images/Webpart/icon_j.png);
+}
+
+.TitleBarImgStylek {
+    background-image: url(../../Common/Images/Webpart/icon_k.png);
+}
+
+.TitleBarImgStylel {
+    background-image: url(../../Common/Images/Webpart/icon_l.png);
+}
+
+.TitleBarImgStylem {
+    background-image: url(../../Common/Images/Webpart/icon_m.png);
+}
+
+.TitleBarImgStylen {
+    background-image: url(../../Common/Images/Webpart/icon_n.png);
+}
+
+.TitleBarImgStyleo {
+    background-image: url(../../Common/Images/Webpart/icon_o.png);
+}
+
+.TitleBarImgStylep {
+    background-image: url(../../Common/Images/Webpart/icon_p.png);
+}
+
+.TitleBarImgStyleq {
+    background-image: url(../../Common/Images/Webpart/icon_q.png);
+}
+
+.TitleBarImgStyler {
+    background-image: url(../../Common/Images/Webpart/icon_r.png);
+}
+
+.SysTopDockZone .rdTable {
+    background-image:url(images/webpart/bg_s.png);
+    background-repeat: repeat-x;
+}
+.UserTopDockZone .rdTable {
+    background-image:url(images/webpart/bg_p.png);
+    background-repeat: repeat-x;
+}
+
+ .SysInsideZone  .rdTable {
+    background-image: url(images/webpart/bg.png);
+    background-repeat: repeat-x;
+}
+
+ .WPTable td
+{
+    border-radius:0px!important;
+    border-spacing: 2px;
+}
+
+
+
+.table-curved tr:first-child  td
+{
+    border-top-left-radius: 12px;    
+    border-top-right-radius: 12px;   
+}
+
+
+.table-curved tr:last-child td
+{
+    border-bottom-left-radius: 12px;    
+    border-bottom-right-radius: 12px;   
+}

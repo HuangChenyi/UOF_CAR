@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<scannerSettings>
+  <plustek>
+    <plustekScanner>
+      <id>69D</id>
+      <type>type1</type>
+      <name>PS456U</name>
+      <duplex>PS456U.jpg</duplex>
+      <flatbed>PS456U.jpg</flatbed>
+    </plustekScanner>    
+    <plustekScanner>
+      <id>69DU</id>
+      <type>type1</type>
+      <name>PS456U</name>
+      <duplex>PS456U.jpg</duplex>
+      <flatbed>PS456U.jpg</flatbed>
+    </plustekScanner>
+    <plustekScanner>
+      <id>656U</id>
+      <type>type1</type>
+      <name>PS286 Plus</name>
+      <duplex>656U.jpg</duplex>
+      <flatbed>656U.jpg</flatbed>
+    </plustekScanner>
+    <plustekScanner>
+      <id>656</id>
+      <type>type1</type>
+      <name>PS286 Plus</name>
+      <duplex>656U.jpg</duplex>
+      <flatbed>656U.jpg</flatbed>
+    </plustekScanner>  
+    <plustekScanner>
+      <id>K76U</id>
+      <type>type1</type>
+      <name>PS3180U</name>
+      <duplex>PS456U.jpg</duplex>
+      <flatbed>PS456U.jpg</flatbed>
+    </plustekScanner>
+    <plustekScanner>
+      <id>29TU</id>
+      <type>type2</type>
+      <name>T300</name>
+      <duplex>PS456U.jpg</duplex>
+      <flatbed>PS456U.jpg</flatbed>
+    </plustekScanner>
+    <plustekScanner>
+      <id>677</id>
+      <type>type3</type>
+      <name>PL2550</name>
+      <duplex>PL2550_top.jpg</duplex>
+      <flatbed>PL2550.jpg</flatbed>
+    </plustekScanner>
+    <plustekScanner>
+      <id>677U</id>
+      <type>type3</type>
+      <name>PL2550</name>
+      <duplex>PL2550_top.jpg</duplex>
+      <flatbed>PL2550.jpg</flatbed>
+    </plustekScanner>    
+    <plustekScannerType>
+      <name>type1</name>
+      <source>ADF Back,ADF Duplex,ADF Front</source>
+      <paperSize>A4,A5,A6,Letter,B5,B6</paperSize>
+      <resolution>100,150,200,250,300</resolution>
+      <mode>Lineart,Gray,Color</mode>
+    </plustekScannerType>
+    <plustekScannerType>
+      <name>type2</name>
+      <source>ADF Back,ADF Duplex,ADF Front</source>
+      <paperSize>A3,A4,A5,A6,Letter,B5,B6</paperSize>
+      <resolution>100,150,200,250,300</resolution>
+      <mode>Lineart,Gray,Color</mode>
+    </plustekScannerType>
+    <plustekScannerType>
+      <name>type3</name>
+      <source>ADF Back,ADF Duplex,ADF Front,Flatbed</source>
+      <paperSize>A4,A5,A6,Letter,B5,B6</paperSize>
+      <resolution>100,150,200,250,300</resolution>
+      <mode>Lineart,Gray,Color</mode>
+    </plustekScannerType>
+  </plustek>  
+</scannerSettings>

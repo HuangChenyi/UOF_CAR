@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Thời gian tham gia ít nhất 1 lần</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Nhân viên tham gia không được để trống</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource2.ErrorMessage" xml:space="preserve">
+    <value>Nhân viên tham gia không được để trống</value>
+  </data>
+  <data name="CustomValidator4Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Vui lòng điền vào thời hạn yêu cầu</value>
+  </data>
+  <data name="CustomValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource2.ErrorMessage" xml:space="preserve">
+    <value>Vui lòng điền vào thời hạn yêu cầu</value>
+  </data>
+  <data name="CustomValidator5Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvReadAuthorityResource1.ErrorMessage" xml:space="preserve">
+    <value>Bạn không phải là người dự định tham gia cho cuộc điều tra này, vì vậy câu trả lời không được phép</value>
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Trả lời chị tiết</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Dự kiến nhân viên tham gia</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource2.Text" xml:space="preserve">
+    <value>Dự kiến nhân viên tham gia</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Ý nghĩa chính</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource2.Text" xml:space="preserve">
+    <value>Ý nghĩa chính</value>
+  </data>
+  <data name="Label2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource2.Text" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="Label3Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource2.Text" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Label4Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Tham vấn hội nghị</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource2.Text" xml:space="preserve">
+    <value>Tham vấn hội nghị</value>
+  </data>
+  <data name="Label5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource2.Text" xml:space="preserve">
+    <value>Hồi đáp</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Thời gian hết hạn thăm dò</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource2.Text" xml:space="preserve">
+    <value>Thời gian hết hạn thăm dò</value>
+  </data>
+  <data name="Label7Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Vui lòng đánh dấu vào thời gian có sẵn</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Người thiết lập</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource2.Text" xml:space="preserve">
+    <value>Người thiết lập</value>
+  </data>
+  <data name="Label9Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCreateUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCreateUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCreateUserResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCreateUserResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChairResource1.Text" xml:space="preserve">
+    <value>Chủ tịch</value>
+  </data>
+  <data name="lblChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChairResource2.Text" xml:space="preserve">
+    <value>Chủ tịch</value>
+  </data>
+  <data name="lblChairResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactResource1.Text" xml:space="preserve">
+    <value>Người liên hệ cuộc họp</value>
+  </data>
+  <data name="lblContactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactResource2.Text" xml:space="preserve">
+    <value>Người liên hệ cuộc họp</value>
+  </data>
+  <data name="lblContactResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileResource1.Text" xml:space="preserve">
+    <value>Tệp đính kèm</value>
+  </data>
+  <data name="lblFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileResource2.Text" xml:space="preserve">
+    <value>Tệp đính kèm</value>
+  </data>
+  <data name="lblFileResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquireContentResource1.Text" xml:space="preserve">
+    <value>Trả lời câu hỏi</value>
+  </data>
+  <data name="lblInquireContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquireGUIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquireGUIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquireResource1.Text" xml:space="preserve">
+    <value>Xác nhận trả lời</value>
+  </data>
+  <data name="lblInquireResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquiryTimeNumResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblInquiryTimeNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquiryTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInquiryTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoginAlertResource1.Text" xml:space="preserve">
+    <value>Người đã đăng nhập không phải là người tham gia cuộc họp này, vì vậy không thể trả lời!</value>
+  </data>
+  <data name="lblLoginAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoginAlertResource2.Text" xml:space="preserve">
+    <value>Người đã đăng nhập không phải là người tham gia cuộc họp này, vì vậy không thể trả lời!</value>
+  </data>
+  <data name="lblLoginAlertResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotReplyMsgResource1.Text" xml:space="preserve">
+    <value>Cuộc thăm dò đã kết thúc, không thể trả lời</value>
+  </data>
+  <data name="lblNotReplyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotReplyMsgResource2.Text" xml:space="preserve">
+    <value>Cuộc thăm dò đã kết thúc, không thể trả lời</value>
+  </data>
+  <data name="lblNotReplyMsgResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairGUIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairGUIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairGUIDResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairGUIDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelChairResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnQueryResultResource1.Text" xml:space="preserve">
+    <value>Kết quả điều tra tìm kiếm</value>
+  </data>
+  <data name="lbtnQueryResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Tham gia </value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Không tham gia</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Trả lời câu hỏi</value>
+  </data>
+  <data name="RadioButtonList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButtonList1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource2.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource2.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Thời gian họp</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Thời gian kết thúc cuộc họp</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Thời gian kết thúc cuộc họp</value>
+  </data>
+  <data name="txbDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbDescriptionResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbDescriptionResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbLocationResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbReturnDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbReturnDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txbSubjectResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebTab1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebTab1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooser3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooser3Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateTimeEdit3Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

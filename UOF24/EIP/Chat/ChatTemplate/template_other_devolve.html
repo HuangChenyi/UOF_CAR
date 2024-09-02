@@ -1,0 +1,31 @@
+﻿<table>
+    <tr>
+        <td valign="top">
+            <img src="Images/M_UChat_DefaultPhoto.png"
+                data-user-guid="{{user_guid}}" 
+                class="width_36 block_photo"
+                alt=""
+                />
+        </td>           
+        <td valign="top">
+            <label class="font_8pt user_name">{{user_name}}</label><br/>
+            <table class="other_content small_label block_devolve" 
+                style="padding:5pt" >
+                <tr>
+                    <td>
+                        <img src="{{icon_url}}" class="block_icon"/>
+                    </td>
+                    <td>
+                        <label class="other_content small_label" style="color:red; font-weight:bold">{{text_assign_to}} {{target_name}} &nbsp;</label><br />
+                        <label class="other_content small_label">{{context}} &nbsp;</label><br /><br />
+                        <label class="other_content small_label">{{text_status}}: {{confirm_result}}</label>
+                    </td>
+                </tr>
+            </table>                
+        </td>
+        <td valign="bottom" class="font_7pt">
+            <label class="block_read"></label><br />
+            <label> {{time}} </label>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btSaveResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btSaveResource1.Text" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="btSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotDeleteNodeResource1.ErrorMessage" xml:space="preserve">
+    <value>此為根節點或尚有子節點存在，不可刪除</value>
+  </data>
+  <data name="cvNotDeleteNodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotDeleteNodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSelectNodeResource1.ErrorMessage" xml:space="preserve">
+    <value>請選擇節點，或點選新增選單開始</value>
+  </data>
+  <data name="cvSelectNodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSelectNodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustomMenuResource1.Text" xml:space="preserve">
+    <value>自訂選單</value>
+  </data>
+  <data name="lblCustomMenuResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExamplleResource1.Text" xml:space="preserve">
+    <value>註:可連結至此</value>
+  </data>
+  <data name="lblExamplleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuIconResource1.Text" xml:space="preserve">
+    <value>選單圖示</value>
+  </data>
+  <data name="lblMenuIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuTextResource1.Text" xml:space="preserve">
+    <value>選單文字</value>
+  </data>
+  <data name="lblMenuTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgCheckDelResource1.Text" xml:space="preserve">
+    <value>確定要刪除此選單嗎？</value>
+  </data>
+  <data name="lblMsgCheckDelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowEmptyResource1.Text" xml:space="preserve">
+    <value>不允許空白！</value>
+  </data>
+  <data name="lblNotAllowEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPageResource1.Text" xml:space="preserve">
+    <value>頁面</value>
+  </data>
+  <data name="lblPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPasteResource1.Text" xml:space="preserve">
+    <value>點按欲顯示的圖示，複製標題並貼上即可</value>
+  </data>
+  <data name="lblPasteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPromptResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPromptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRangeErrorResource1.Text" xml:space="preserve">
+    <value>字數不可超過50！</value>
+  </data>
+  <data name="lblRangeErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourceResource1.Text" xml:space="preserve">
+    <value>多國語言</value>
+  </data>
+  <data name="lblResourceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveSuccessResource1.Text" xml:space="preserve">
+    <value>儲存成功</value>
+  </data>
+  <data name="lblSaveSuccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource2.Title" xml:space="preserve">
+    <value>自訂面板與通知</value>
+  </data>
+  <data name="panTBResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panTBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>新增選單</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>addMenu</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>選單順序上移</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>menuUp</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value>選單順序下移</value>
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>menuDown</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value>刪除選單</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>delMenu</value>
+  </data>
+  <data name="rbCustomIconResource1.Text" xml:space="preserve">
+    <value>自訂</value>
+  </data>
+  <data name="rbCustomIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbDefaultResource1.Text" xml:space="preserve">
+    <value>不設定</value>
+  </data>
+  <data name="rbDefaultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbSystemIconResource1.Text" xml:space="preserve">
+    <value>內建icon</value>
+  </data>
+  <data name="rbSystemIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdMenuTreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdToolBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvRequireMenuTextMsgResource1.ErrorMessage" xml:space="preserve">
+    <value>此為必要欄位</value>
+  </data>
+  <data name="rvRequireMenuTextMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvRequireMenuTextMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMenuTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMenuTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSystemIconResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSystemIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddParaResource1.Text" xml:space="preserve">
+    <value>新增參數</value>
+  </data>
+  <data name="btnPreviewResource1.Text" xml:space="preserve">
+    <value>預覽連結</value>
+  </data>
+  <data name="cbEmployeeResource1.Text" xml:space="preserve">
+    <value>內部員工</value>
+  </data>
+  <data name="cbMemberResource1.Text" xml:space="preserve">
+    <value>外部會員</value>
+  </data>
+  <data name="cbMenuResource1.Text" xml:space="preserve">
+    <value>選單</value>
+  </data>
+  <data name="cbPanelResource1.Text" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="cbVisableBtnOffResource1.Text" xml:space="preserve">
+    <value>顯示關閉視窗按鈕</value>
+  </data>
+  <data name="DelParaResource1.Text" xml:space="preserve">
+    <value>刪除參數</value>
+  </data>
+  <data name="gridLinkParaResource.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="lblAuthorizationResource1.Text" xml:space="preserve">
+    <value>權限</value>
+  </data>
+  <data name="lblEncyptionIVResource1.Text" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="lblEncyptionKeyResource1.Text" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="lblEncyptionResource1.Text" xml:space="preserve">
+    <value>加密演算法(Advanced Encryption Standard,AES 128bits)</value>
+  </data>
+  <data name="lblLinkParaResource1.Text" xml:space="preserve">
+    <value>連結參數</value>
+  </data>
+  <data name="lblLinkUrlResource1.Text" xml:space="preserve">
+    <value>連結網頁</value>
+  </data>
+  <data name="lblModeResource1.Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="TemplateField2Resource1.HeaderText" xml:space="preserve">
+    <value>資料來源</value>
+  </data>
+  <data name="TemplateField3Resource1.HeaderText" xml:space="preserve">
+    <value>加密</value>
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>參數名稱</value>
+  </data>
+  <data name="lblRequiredLinkUrlResource1.Text" xml:space="preserve">
+    <value>請輸入網址</value>
+  </data>
+  <data name="lblRequireMenuTextMsgResource1.Text" xml:space="preserve">
+    <value>請輸入文字</value>
+  </data>
+  <data name="lblSetWSResource1.Text" xml:space="preserve">
+    <value>面板提示來源</value>
+  </data>
+  <data name="radbtnWS_SetResource1.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblWSEditResource1.Text" xml:space="preserve">
+    <value>面板提示來源</value>
+  </data>
+  <data name="hyImgInfoResource2.Text" xml:space="preserve">
+    <value>範例說明。</value>
+  </data>
+  <data name="cvBadgeNameResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入通知名稱</value>
+  </data>
+  <data name="cvBadgeValidatorResource1.ErrorMessage" xml:space="preserve">
+    <value>點選新增開始</value>
+  </data>
+  <data name="cvWSMethodValidResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入呼叫的方法</value>
+  </data>
+  <data name="cvWSUrlValidResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入來源網址</value>
+  </data>
+  <data name="hlsampleResource1.Text" xml:space="preserve">
+    <value>顯示範例</value>
+  </data>
+  <data name="lblBadgeNameResource1.Text" xml:space="preserve">
+    <value>通知名稱</value>
+  </data>
+  <data name="lblFailResource1.Text" xml:space="preserve">
+    <value>連線失敗</value>
+  </data>
+  <data name="lblRemaekResource1.Text" xml:space="preserve">
+    <value>透過來源及呼叫方法取得的資訊會於App上顯示通知數量。</value>
+  </data>
+  <data name="lblSourceResource1.Text" xml:space="preserve">
+    <value>提示來源</value>
+  </data>
+  <data name="lblSuccessResource1.Text" xml:space="preserve">
+    <value>連線成功</value>
+  </data>
+  <data name="lblWSUrlResource1.Text" xml:space="preserve">
+    <value>來源網址</value>
+  </data>
+  <data name="pvBadgeResource1.Text" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="pvMenuResource1.Text" xml:space="preserve">
+    <value>選單面板</value>
+  </data>
+  <data name="rbtnConnTestResource1.Text" xml:space="preserve">
+    <value>連線測試</value>
+  </data>
+  <data name="rdBadgeTooladdBadgeBarResource1.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="rdBadgeTooldelBadgeResource1.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="rdBadgeToolseqDownResource1.Text" xml:space="preserve">
+    <value>順序下移</value>
+  </data>
+  <data name="rdBadgeToolseqUpResource1.Text" xml:space="preserve">
+    <value>順序上移</value>
+  </data>
+  <data name="lblWSMethodResource1.Text" xml:space="preserve">
+    <value>呼叫的方法</value>
+  </data>
+  <data name="rbtnOpenInappBrowserResource1.Text" xml:space="preserve">
+    <value>使用App內嵌瀏覽器開啟視窗</value>
+  </data>
+  <data name="rbtnOpenMobileBrowerResource1.Text" xml:space="preserve">
+    <value>使用裝置內建瀏覽器另開新視窗</value>
+  </data>
+  <data name="lblCustomMenuMImage.Text" xml:space="preserve">
+    <value>自訂選單圖示</value>
+  </data>
+  <data name="lblCustomMenuMImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnImageFileResource1.Text" xml:space="preserve">
+    <value>選取圖示</value>
+  </data>
+  <data name="rbtnImageFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value>更新選單面板</value>
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>reloadMenu</value>
+  </data>
+  <data name="lblRegisterDynamicTaskForMenuStartTipResource1.Text" xml:space="preserve">
+    <value>已進入選單面板權限更新排程</value>
+  </data>
+  <data name="lblProcessMessageResource1.Text" xml:space="preserve">
+    <value>已有同步排程執行中</value>
+  </data>
+</root>

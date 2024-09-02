@@ -1,0 +1,59 @@
+.word {
+	font-family: "Arial";
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+body {
+    font-family:"Arial";
+    font-size:small;
+    color: #000000;
+}
+.title {
+    font-weight:700; 
+    font-size:large;
+}
+table {
+    width:100%;
+    border-collapse: collapse; 
+    border-spacing: 4px;
+}
+td {
+    font-weight: normal; 
+    font-size:small;
+    height:34px;
+    padding-bottom:5px;
+ 
+}
+tr td:first-child {
+    font-weight: normal; 
+    font-size:small;
+    height:34px;
+    padding-bottom:5px;
+    width:32px
+ 
+}
+.HelpTable {
+    width:100%;
+    border-collapse: collapse; 
+    border-spacing: 4px;
+}
+
+
+    .HelpTable > tbody:first-child > tr > .HelpTableLeftTD, .HelpTableLeftTD  {
+       width:32px;
+        vertical-align:top;
+    }
+
+     .HelpTable > tbody > tr > td:nth-child(odd){
+        width:32px;
+        vertical-align:top;
+    }
+
+.HelpTableLeftTD
+{
+
+   width:32px;
+   vertical-align:top;
+}

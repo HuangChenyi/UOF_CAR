@@ -1,0 +1,256 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=big5">
+    <title>Flow setup</title>
+    <link href="help.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <p class="title">
+        Flow setup
+    </p>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td>
+                <img border="0" src="images/mark.gif" width="32" height="32"></td>
+            <td>New flow</td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td>
+                    <img border="0" src="images/no1.gif" width="32" height="32"></td>
+                <td>In the form version setup, press “Flow setup”, then click “New flow”, the setup screen will then appear. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31"></td>
+                <td>Click “insert stop” to start the setup flow, the system will then emerge window for selecting the site category, which can be divided into seven types: Approval stop, sub-flow stop, branch stop, APP stop, customized stop, selection stop and organization stop. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Approval stop: Single stop setup. 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding-left: 15px; padding-bottom: 0px">
+                    <ol>
+                        <li>
+                            <p style="width: 951px">You can set up if the site is to be assigned by the previous site, and this means that when the user is approving, he needs to assign the approvalmember of the next stop, and themember to be assigned can be limited. </p>
+                        </li>
+                        <li>
+                            <p style="width: 946px">Approval type:</p>
+                            <ul style="margin-left: -25px; list-style: none;">
+                                <li>一般：該站點只能有一名簽核者，同意即送下一站，該簽核者否決表單即結案。</li>
+                                <li>並簽：該站點可設定多人簽核，一人簽核同意即送下一站，會依「表單維護」的並簽設定來決定是否一人否決即可結案。</li>
+                                <li>會簽：該站點可設定多人簽核，全部簽核者同意才送下一站，一位簽核者否決即結案。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p style="width: 946px">If “Can this stop be modified” is set up as yes, it means that the user can change arbitrarily the approver of this stop.</p>
+                        </li>
+                        <li>
+                            <p style="width: 945px">You can setup &quot;Delay Setup&quot;, &quot; Periodic Notify&quot;, &quot;Skip&quot; in for this stop, please refer to &quot;<a
+                    href="wkf_a02.htm">Set up a new form</a>&quot; for the detail.</p>
+                        </li>
+                        <li>
+                            <p style="width: 944px">The final step is set up the approver. Themember to be notified before approval or after approval can be set up directly as specialmember or as selectedmember.</p>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Sub-flow stop: For the sub-flow or parallel-flow site setup, please select the flow to be used from sub-flow and parallel-flow list.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Branch stop: It is to judge the condition setup. Since it is condition setup, hence, it is needed to select first the condition to be judged, after the selection, please select sub-flow or parallel flow corresponding to judgment condition. One judgment condition can only be accompanied with one sub-flow or parallel flow. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>APP stop: It provides the end for calling external application program (DLL). DLL will then decide the site flow. </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Customized stop: The user is allowed to, during the movement of the form, self-make the approval flow. </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Selection stop: First, the form designer set up the sub-flow, then the user select more than one sub-flows from them to be used as approval flow.</td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Organization stop: You can follow the selected department,member, job rank or job title as the flow judgment, press “...” to select field code, then follow the content selected from the form as the approvalmember of the site. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Notice Stop: A kind of Stop in Flow setup, it is only for notice, no any approval authorized.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no3.gif" width="32" height="31"></td>
+                <td>Click “Submit” to add a site or flow. If you want to change, please click “setup” to change the site or flow. 
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td>
+                <img border="0" src="images/mark.gif" width="32" height="32"></td>
+            <td><b>Set up sub-flow starting and ending notification</b></td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td>
+                    <img border="0" src="images/no1.gif" width="32" height="32"></td>
+                <td>In the form version setup, press “Form setup”, then click the name of the sub-flow to set up the starting and ending notificationmember of the sub-flow. </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>                        
+                        <tr>
+                            <td>
+                                <img border="0" src="images/item.gif" width="32" height="32"></td>
+                            <td>Minimum Approval Stops : Setup the minimum Approval Stops to end the Flow.</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img border="0" src="images/item.gif" width="32" height="32"></td>
+                            <td>
+                                Sub-Flow Initiation Basis : Default Setting is in [BPM→Sub-Flow Design], but if you want to setup different Basis for individual form, click "By Field" and select the Organization field in the form which is selected [Department+Position] by Applicant.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img border="0" src="images/item.gif" width="32" height="32"></td>
+                            <td>Start/End Notice : setup Notified members while the Sub-Flow Start/End.</td>
+                        </tr>                        
+                    </table>
+        </table>
+    </blockquote>
+
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td>
+                <img border="0" src="images/mark.gif" width="32" height="32"></td>
+            <td><b>Maintain flow</b></td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td>
+                    <img border="0" src="images/no1.gif" width="32" height="32"></td>
+                <td>In the form revision setup, click “Flow setup” , then click “Maintain flow” , the screen for the setup of main flow will then appear. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/no2.gif" width="32" height="31"></td>
+                <td>You can change the flow previously set up. You can select “Insert stop” ,  “Setup”  and  “Delete”. 
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+        <tr>
+            <td>
+                <img border="0" src="images/mark.gif" width="32" height="32"></td>
+            <td><b>Attribute setup of the site</b></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Each site can be used as viewing  the stop, setup of web service, stop remark, stop mail, closure allowed stop, site code and approval setup.
+            </td>
+        </tr>
+    </table>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>View stop information: The same as clicking “setup”, you can change the site or flow. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Web service setup: After setup form is sent out, this is the field information that needs to be sent for the called Web Service. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Stop remark: Set up the remark description of the stop. 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Stop’s mail information: You can set up the format of the notification mail in this stop.</td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Closure allowed stop: You can set up the case closing condition or whether this site can be closed. </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Site code: It can be used as judgment within the program. </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="images/item.gif" width="32" height="32"></td>
+                <td>Approval setup: You can set up if the approval button is to be displayed or not (Reject/Reject/Add stop). </td>
+            </tr>
+        </table>
+    </blockquote>
+    <hr />
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td><b>Note:</b></td>
+                <td>
+                    <ol>
+                        <li>
+                            <p>When the form is announced and in use, the flow can still be changed to make it correct. However, if the flow has large change, we suggest adding new form version to avoid error on the executing form. </p>
+                        </li>
+                        <li>
+                            <p>When setting up the sub-flow stop, it is needed to set up sub-flow or parallel flow, please refer to <a href="wkf_b01.htm">sub-flow design</a> and <a href="wkf_b05.htm">parallel flow design</a>.</p>
+                        </li>
+                        <li>
+                            <p>When setting up branch stop, it is needed to set up judgment formula and condition, please refer to <a href="wkf_a04.htm">Condition setup</a>.</p>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </blockquote>
+
+
+</body>
+
+</html>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblALBUMResource1.Text" xml:space="preserve">
+    <value>相簿</value>
+  </data>
+  <data name="lblALBUMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBRIEFCASEResource1.Text" xml:space="preserve">
+    <value>公事包</value>
+  </data>
+  <data name="lblBRIEFCASEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBULLETINResource1.Text" xml:space="preserve">
+    <value>公告</value>
+  </data>
+  <data name="lblBULLETINResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDBResource1.Text" xml:space="preserve">
+    <value>資料庫</value>
+  </data>
+  <data name="lblDBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDMSResource1.Text" xml:space="preserve">
+    <value>文件管理</value>
+  </data>
+  <data name="lblDMSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEIPResource1.Text" xml:space="preserve">
+    <value>入口網站</value>
+  </data>
+  <data name="lblEIPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFORUMResource1.Text" xml:space="preserve">
+    <value>討論區</value>
+  </data>
+  <data name="lblFORUMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOMSResource1.Text" xml:space="preserve">
+    <value>影音</value>
+  </data>
+  <data name="lblOMSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPERSONALResource1.Text" xml:space="preserve">
+    <value>個人設定</value>
+  </data>
+  <data name="lblPERSONALResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPLANTResource1.Text" xml:space="preserve">
+    <value>場地設備管理</value>
+  </data>
+  <data name="lblPLANTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPMSResource1.Text" xml:space="preserve">
+    <value>任務管理</value>
+  </data>
+  <data name="lblPMSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPRIVATEMESSAGEResource1.Text" xml:space="preserve">
+    <value>私人訊息</value>
+  </data>
+  <data name="lblPRIVATEMESSAGEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQUEResource1.Text" xml:space="preserve">
+    <value>問卷調查</value>
+  </data>
+  <data name="lblQUEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpaceLendResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpaceLendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpaceLendTitleResource1.Text" xml:space="preserve">
+    <value>租用空間</value>
+  </data>
+  <data name="lblSpaceLendTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpaceUsedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpaceUsedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpaceUsedTitleResource1.Text" xml:space="preserve">
+    <value>已用</value>
+  </data>
+  <data name="lblSpaceUsedTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWKFResource1.Text" xml:space="preserve">
+    <value>電子簽核</value>
+  </data>
+  <data name="lblWKFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rcRoundResource1.ChartTitle.TextBlock.Text" xml:space="preserve">
+    <value>Chart Title</value>
+  </data>
+  <data name="rcRoundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpbSpaceLendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChartTitleResource1.Text" xml:space="preserve">
+    <value>租用空間使用狀況</value>
+  </data>
+  <data name="lblDBUsedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDBUsedTitleResource1.Text" xml:space="preserve">
+    <value>資料庫使用</value>
+  </data>
+  <data name="lblFileUsedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileUsedTitleResource1.Text" xml:space="preserve">
+    <value>檔案使用</value>
+  </data>
+  <data name="lblSpaceReaminTitleResource1.Text" xml:space="preserve">
+    <value>剩餘空間</value>
+  </data>
+  <data name="btnUpdateInfoResource1.Text" xml:space="preserve">
+    <value>更新資訊</value>
+  </data>
+  <data name="lblCreateDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateDateTitleResource1.Text" xml:space="preserve">
+    <value>最後更新時間</value>
+  </data>
+  <data name="lblSpaceRemainResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTSPResource1.Text" xml:space="preserve">
+    <value>龍捲風</value>
+  </data>
+  <data name="BFALBUMResource1.HeaderText" xml:space="preserve">
+    <value>相簿(MB)</value>
+  </data>
+  <data name="BFBRIEFCASEResource1.HeaderText" xml:space="preserve">
+    <value>公事包(MB)</value>
+  </data>
+  <data name="BFBULLETINResource1.HeaderText" xml:space="preserve">
+    <value>公告(MB)</value>
+  </data>
+  <data name="BFDMSResource1.HeaderText" xml:space="preserve">
+    <value>文件管理(MB)</value>
+  </data>
+  <data name="BFEIPResource1.HeaderText" xml:space="preserve">
+    <value>入口網站(MB)</value>
+  </data>
+  <data name="BFFORUMResource1.HeaderText" xml:space="preserve">
+    <value>討論區(MB)</value>
+  </data>
+  <data name="BFOMSResource1.HeaderText" xml:space="preserve">
+    <value>影音(MB)</value>
+  </data>
+  <data name="BFPERSONALResource1.HeaderText" xml:space="preserve">
+    <value>個人設定(MB)</value>
+  </data>
+  <data name="BFPLANTResource1.HeaderText" xml:space="preserve">
+    <value>場地設備管理(MB)</value>
+  </data>
+  <data name="BFPMSResource1.HeaderText" xml:space="preserve">
+    <value>任務管理(MB)</value>
+  </data>
+  <data name="BFPRIVATEMESSAGEResource1.HeaderText" xml:space="preserve">
+    <value>私人訊息(MB)</value>
+  </data>
+  <data name="BFQUEResource1.HeaderText" xml:space="preserve">
+    <value>問卷調查(MB)</value>
+  </data>
+  <data name="BFSpaceDataUsedResource1.HeaderText" xml:space="preserve">
+    <value>檔案使用(GB)</value>
+  </data>
+  <data name="BFSpaceDbUsedResource1.HeaderText" xml:space="preserve">
+    <value>資料庫使用(GB)</value>
+  </data>
+  <data name="BFSpaceLendResource1.HeaderText" xml:space="preserve">
+    <value>租用空間(GB)</value>
+  </data>
+  <data name="BFSpaceRemainResource1.HeaderText" xml:space="preserve">
+    <value>剩餘空間(GB)</value>
+  </data>
+  <data name="BFSpaceUsedPercentResource1.HeaderText" xml:space="preserve">
+    <value>已用空間比</value>
+  </data>
+  <data name="BFTSPResource1.HeaderText" xml:space="preserve">
+    <value>龍捲風(MB)</value>
+  </data>
+  <data name="BFWKFResource1.HeaderText" xml:space="preserve">
+    <value>電子簽核(MB)</value>
+  </data>
+  <data name="grdSpaceLendHistoryResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="lblCreateDateTitle2Resource1.Text" xml:space="preserve">
+    <value>更新時間:</value>
+  </data>
+  <data name="lblTaskResource1.Text" xml:space="preserve">
+    <value>排程</value>
+  </data>
+  <data name="RadMultiPageSpaceLendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabStripSpaceLendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvUsedSpaceHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvUsedSpaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbbtnQueryResource1.Text" xml:space="preserve">
+    <value>查詢</value>
+  </data>
+  <data name="rtbbtnTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbSpaceLendHistoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtUsedSpaceHistoryResource1.Text" xml:space="preserve">
+    <value>歷程記錄</value>
+  </data>
+  <data name="rtUsedSpaceResource1.Text" xml:space="preserve">
+    <value>已用空間</value>
+  </data>
+  <data name="TFCreateDateResource1.HeaderText" xml:space="preserve">
+    <value>更新時間</value>
+  </data>
+  <data name="TFSortUserResource1.HeaderText" xml:space="preserve">
+    <value>執行者</value>
+  </data>
+</root>

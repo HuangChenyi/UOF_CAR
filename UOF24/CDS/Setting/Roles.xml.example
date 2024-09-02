@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<AdminRoles>
+  <Role name="BulletinManager">
+    <culture name="zh-tw">公告管理員</culture>
+    <culture name="zh-cn">公告管理员</culture>
+    <culture name="en-us">Announcement Administrator</culture>
+    <culture name="vi">Thông báo quản trị viên</culture>
+    <culture name="id"> pemberitahuan administrator</culture>
+    <culture name="mt-mt">ကြေညာချက် ဆိုင်ရာ အုပ်ချုပ်ရေးမှူး</culture>
+  </Role>
+</AdminRoles>
+
+id : ResourceLibrary 的Key值
+
+-->
+
+<AdminRoles>
+
+</AdminRoles>

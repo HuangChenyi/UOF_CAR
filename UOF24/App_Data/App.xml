@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 注意:如資料內有&符號請記得先改為&amp; -->
+<App>
+  <AppSetting>
+    <item id ="GooglePlayUrl" value="https://play.google.com/store/apps/details?id=com.edetw.nextapp"></item>
+    <item id ="AppleStoreUrl" value="https://itunes.apple.com/tw/app/u-office-force-2/id1206745843?l=zh&amp;mt=8"></item>
+    <item id ="AppName">
+      <culture name="zh-TW">U-Office Force 2</culture>
+      <culture name="zh-CN">U-Office Force 2</culture>
+      <culture name="en-US">U-Office Force 2</culture>
+      <culture name="vi">U-Office Force 2</culture>
+      <culture name="id">U-Office Force 2</culture>
+      <culture name="ja-jp">U-Office Force 2</culture>
+    </item>
+  </AppSetting>
+</App>

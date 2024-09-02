@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetDisplayTimeInfo" AllowAll="True" />
+  <Action Name="GetWorkCount" AllowAll="True"/>
+  <Action Name="GetDevolveCount" AllowAll="True"/>
+  <Action Name="GetBulletinCount" AllowAll="True"/>
+  <Action Name="GetForumCount" AllowAll="True"/>
+  <Action Name="GetDocumentCount" AllowAll="True"/>
+  <Action Name="GetSignSelfCount" AllowAll="True"/>
+  <Action Name="GetFormAlertCount" AllowAll="True"/>
+  <Action Name="GetQueCount" AllowAll="True"/>
+  <Action Name="GetPrivateMsgCount" AllowAll="True"/>
+  <Action Name="GetScheduleCount" AllowAll="True"/>
+</Actions>

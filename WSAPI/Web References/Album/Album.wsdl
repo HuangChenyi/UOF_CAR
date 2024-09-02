@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="QueryClassList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryClassListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryClassListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryAlbumList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryAlbumListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryAlbumListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryPhotoList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumTopic" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryPhotoListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryPhotoListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPhoto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoGuid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPhotoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPhotoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryPhotoSize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoGuid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryPhotoSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="QueryPhotoSizeResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryPhotoSize2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryPhotoSize2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="QueryPhotoSize2Result" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddClass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="parentClassGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddClassResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddClass2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classPath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddClass2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddClass2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddAlbum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumTopic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumDesc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddAlbumResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddAlbum2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumTopic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumDesc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddAlbum2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddAlbum2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPhoto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoTopic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoDesc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="contentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPhotoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddPhoto2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="classPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="albumTopic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoTopic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoDesc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="contentType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddPhoto2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddPhoto2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePhotoDesc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoDesc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePhotoDescResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="MovePhoto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sourcePhotoGuid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="targetClassPath" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="targetAlbumTopic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="targetPhotoTopic" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="targetPhotoDesc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MovePhotoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DeletePhoto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoGuid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePhotoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="long" type="s:long" />
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="QueryClassListSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryClassList" />
+  </wsdl:message>
+  <wsdl:message name="QueryClassListSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryClassListResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryAlbumListSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryAlbumList" />
+  </wsdl:message>
+  <wsdl:message name="QueryAlbumListSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryAlbumListResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoListSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryPhotoList" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoListSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryPhotoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPhotoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPhoto" />
+  </wsdl:message>
+  <wsdl:message name="GetPhotoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryPhotoSize" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryPhotoSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSize2SoapIn">
+    <wsdl:part name="parameters" element="tns:QueryPhotoSize2" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSize2SoapOut">
+    <wsdl:part name="parameters" element="tns:QueryPhotoSize2Response" />
+  </wsdl:message>
+  <wsdl:message name="AddClassSoapIn">
+    <wsdl:part name="parameters" element="tns:AddClass" />
+  </wsdl:message>
+  <wsdl:message name="AddClassSoapOut">
+    <wsdl:part name="parameters" element="tns:AddClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddClass2SoapIn">
+    <wsdl:part name="parameters" element="tns:AddClass2" />
+  </wsdl:message>
+  <wsdl:message name="AddClass2SoapOut">
+    <wsdl:part name="parameters" element="tns:AddClass2Response" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumSoapIn">
+    <wsdl:part name="parameters" element="tns:AddAlbum" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumSoapOut">
+    <wsdl:part name="parameters" element="tns:AddAlbumResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbum2SoapIn">
+    <wsdl:part name="parameters" element="tns:AddAlbum2" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbum2SoapOut">
+    <wsdl:part name="parameters" element="tns:AddAlbum2Response" />
+  </wsdl:message>
+  <wsdl:message name="AddPhotoSoapIn">
+    <wsdl:part name="parameters" element="tns:AddPhoto" />
+  </wsdl:message>
+  <wsdl:message name="AddPhotoSoapOut">
+    <wsdl:part name="parameters" element="tns:AddPhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddPhoto2SoapIn">
+    <wsdl:part name="parameters" element="tns:AddPhoto2" />
+  </wsdl:message>
+  <wsdl:message name="AddPhoto2SoapOut">
+    <wsdl:part name="parameters" element="tns:AddPhoto2Response" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePhotoDescSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePhotoDesc" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePhotoDescSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePhotoDescResponse" />
+  </wsdl:message>
+  <wsdl:message name="MovePhotoSoapIn">
+    <wsdl:part name="parameters" element="tns:MovePhoto" />
+  </wsdl:message>
+  <wsdl:message name="MovePhotoSoapOut">
+    <wsdl:part name="parameters" element="tns:MovePhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePhotoSoapIn">
+    <wsdl:part name="parameters" element="tns:DeletePhoto" />
+  </wsdl:message>
+  <wsdl:message name="DeletePhotoSoapOut">
+    <wsdl:part name="parameters" element="tns:DeletePhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryClassListHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryClassListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="QueryAlbumListHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryAlbumListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoListHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPhotoHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPhotoHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSizeHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSizeHttpGetOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSize2HttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSize2HttpGetOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="AddClassHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="parentClassGuid" type="s:string" />
+    <wsdl:part name="classGuid" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddClassHttpGetOut" />
+  <wsdl:message name="AddClass2HttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddClass2HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classGuid" type="s:string" />
+    <wsdl:part name="albumGuid" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+    <wsdl:part name="albumDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumHttpGetOut" />
+  <wsdl:message name="AddAlbum2HttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+    <wsdl:part name="albumDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbum2HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddPhotoHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="albumGuid" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+    <wsdl:part name="photoTopic" type="s:string" />
+    <wsdl:part name="photoDesc" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+    <wsdl:part name="contentType" type="s:string" />
+    <wsdl:part name="content" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="AddPhotoHttpGetOut" />
+  <wsdl:message name="AddPhoto2HttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+    <wsdl:part name="photoTopic" type="s:string" />
+    <wsdl:part name="photoDesc" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+    <wsdl:part name="contentType" type="s:string" />
+    <wsdl:part name="content" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="AddPhoto2HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePhotoDescHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+    <wsdl:part name="photoDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePhotoDescHttpGetOut" />
+  <wsdl:message name="MovePhotoHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="sourcePhotoGuid" type="s:string" />
+    <wsdl:part name="targetClassPath" type="s:string" />
+    <wsdl:part name="targetAlbumTopic" type="s:string" />
+    <wsdl:part name="targetPhotoTopic" type="s:string" />
+    <wsdl:part name="targetPhotoDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MovePhotoHttpGetOut" />
+  <wsdl:message name="DeletePhotoHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeletePhotoHttpGetOut" />
+  <wsdl:message name="QueryClassListHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryClassListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="QueryAlbumListHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryAlbumListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoListHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPhotoHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPhotoHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSizeHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSizeHttpPostOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSize2HttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryPhotoSize2HttpPostOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="AddClassHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="parentClassGuid" type="s:string" />
+    <wsdl:part name="classGuid" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddClassHttpPostOut" />
+  <wsdl:message name="AddClass2HttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddClass2HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classGuid" type="s:string" />
+    <wsdl:part name="albumGuid" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+    <wsdl:part name="albumDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbumHttpPostOut" />
+  <wsdl:message name="AddAlbum2HttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+    <wsdl:part name="albumDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddAlbum2HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddPhotoHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="albumGuid" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+    <wsdl:part name="photoTopic" type="s:string" />
+    <wsdl:part name="photoDesc" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+    <wsdl:part name="contentType" type="s:string" />
+    <wsdl:part name="content" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="AddPhotoHttpPostOut" />
+  <wsdl:message name="AddPhoto2HttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="classPath" type="s:string" />
+    <wsdl:part name="albumTopic" type="s:string" />
+    <wsdl:part name="photoTopic" type="s:string" />
+    <wsdl:part name="photoDesc" type="s:string" />
+    <wsdl:part name="fileName" type="s:string" />
+    <wsdl:part name="contentType" type="s:string" />
+    <wsdl:part name="content" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="AddPhoto2HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePhotoDescHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+    <wsdl:part name="photoDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePhotoDescHttpPostOut" />
+  <wsdl:message name="MovePhotoHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="sourcePhotoGuid" type="s:string" />
+    <wsdl:part name="targetClassPath" type="s:string" />
+    <wsdl:part name="targetAlbumTopic" type="s:string" />
+    <wsdl:part name="targetPhotoTopic" type="s:string" />
+    <wsdl:part name="targetPhotoDesc" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MovePhotoHttpPostOut" />
+  <wsdl:message name="DeletePhotoHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="photoGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeletePhotoHttpPostOut" />
+  <wsdl:portType name="AlbumSoap">
+    <wsdl:operation name="QueryClassList">
+      <wsdl:input message="tns:QueryClassListSoapIn" />
+      <wsdl:output message="tns:QueryClassListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryAlbumList">
+      <wsdl:input message="tns:QueryAlbumListSoapIn" />
+      <wsdl:output message="tns:QueryAlbumListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoList">
+      <wsdl:input message="tns:QueryPhotoListSoapIn" />
+      <wsdl:output message="tns:QueryPhotoListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPhoto">
+      <wsdl:input message="tns:GetPhotoSoapIn" />
+      <wsdl:output message="tns:GetPhotoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize">
+      <wsdl:input message="tns:QueryPhotoSizeSoapIn" />
+      <wsdl:output message="tns:QueryPhotoSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize2">
+      <wsdl:input message="tns:QueryPhotoSize2SoapIn" />
+      <wsdl:output message="tns:QueryPhotoSize2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass">
+      <wsdl:input message="tns:AddClassSoapIn" />
+      <wsdl:output message="tns:AddClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass2">
+      <wsdl:input message="tns:AddClass2SoapIn" />
+      <wsdl:output message="tns:AddClass2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum">
+      <wsdl:input message="tns:AddAlbumSoapIn" />
+      <wsdl:output message="tns:AddAlbumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum2">
+      <wsdl:input message="tns:AddAlbum2SoapIn" />
+      <wsdl:output message="tns:AddAlbum2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <wsdl:input message="tns:AddPhotoSoapIn" />
+      <wsdl:output message="tns:AddPhotoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto2">
+      <wsdl:input message="tns:AddPhoto2SoapIn" />
+      <wsdl:output message="tns:AddPhoto2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhotoDesc">
+      <wsdl:input message="tns:UpdatePhotoDescSoapIn" />
+      <wsdl:output message="tns:UpdatePhotoDescSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MovePhoto">
+      <wsdl:input message="tns:MovePhotoSoapIn" />
+      <wsdl:output message="tns:MovePhotoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhoto">
+      <wsdl:input message="tns:DeletePhotoSoapIn" />
+      <wsdl:output message="tns:DeletePhotoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AlbumHttpGet">
+    <wsdl:operation name="QueryClassList">
+      <wsdl:input message="tns:QueryClassListHttpGetIn" />
+      <wsdl:output message="tns:QueryClassListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryAlbumList">
+      <wsdl:input message="tns:QueryAlbumListHttpGetIn" />
+      <wsdl:output message="tns:QueryAlbumListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoList">
+      <wsdl:input message="tns:QueryPhotoListHttpGetIn" />
+      <wsdl:output message="tns:QueryPhotoListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPhoto">
+      <wsdl:input message="tns:GetPhotoHttpGetIn" />
+      <wsdl:output message="tns:GetPhotoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize">
+      <wsdl:input message="tns:QueryPhotoSizeHttpGetIn" />
+      <wsdl:output message="tns:QueryPhotoSizeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize2">
+      <wsdl:input message="tns:QueryPhotoSize2HttpGetIn" />
+      <wsdl:output message="tns:QueryPhotoSize2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass">
+      <wsdl:input message="tns:AddClassHttpGetIn" />
+      <wsdl:output message="tns:AddClassHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass2">
+      <wsdl:input message="tns:AddClass2HttpGetIn" />
+      <wsdl:output message="tns:AddClass2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum">
+      <wsdl:input message="tns:AddAlbumHttpGetIn" />
+      <wsdl:output message="tns:AddAlbumHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum2">
+      <wsdl:input message="tns:AddAlbum2HttpGetIn" />
+      <wsdl:output message="tns:AddAlbum2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <wsdl:input message="tns:AddPhotoHttpGetIn" />
+      <wsdl:output message="tns:AddPhotoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto2">
+      <wsdl:input message="tns:AddPhoto2HttpGetIn" />
+      <wsdl:output message="tns:AddPhoto2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhotoDesc">
+      <wsdl:input message="tns:UpdatePhotoDescHttpGetIn" />
+      <wsdl:output message="tns:UpdatePhotoDescHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MovePhoto">
+      <wsdl:input message="tns:MovePhotoHttpGetIn" />
+      <wsdl:output message="tns:MovePhotoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhoto">
+      <wsdl:input message="tns:DeletePhotoHttpGetIn" />
+      <wsdl:output message="tns:DeletePhotoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AlbumHttpPost">
+    <wsdl:operation name="QueryClassList">
+      <wsdl:input message="tns:QueryClassListHttpPostIn" />
+      <wsdl:output message="tns:QueryClassListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryAlbumList">
+      <wsdl:input message="tns:QueryAlbumListHttpPostIn" />
+      <wsdl:output message="tns:QueryAlbumListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoList">
+      <wsdl:input message="tns:QueryPhotoListHttpPostIn" />
+      <wsdl:output message="tns:QueryPhotoListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPhoto">
+      <wsdl:input message="tns:GetPhotoHttpPostIn" />
+      <wsdl:output message="tns:GetPhotoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize">
+      <wsdl:input message="tns:QueryPhotoSizeHttpPostIn" />
+      <wsdl:output message="tns:QueryPhotoSizeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize2">
+      <wsdl:input message="tns:QueryPhotoSize2HttpPostIn" />
+      <wsdl:output message="tns:QueryPhotoSize2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass">
+      <wsdl:input message="tns:AddClassHttpPostIn" />
+      <wsdl:output message="tns:AddClassHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass2">
+      <wsdl:input message="tns:AddClass2HttpPostIn" />
+      <wsdl:output message="tns:AddClass2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum">
+      <wsdl:input message="tns:AddAlbumHttpPostIn" />
+      <wsdl:output message="tns:AddAlbumHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum2">
+      <wsdl:input message="tns:AddAlbum2HttpPostIn" />
+      <wsdl:output message="tns:AddAlbum2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <wsdl:input message="tns:AddPhotoHttpPostIn" />
+      <wsdl:output message="tns:AddPhotoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto2">
+      <wsdl:input message="tns:AddPhoto2HttpPostIn" />
+      <wsdl:output message="tns:AddPhoto2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhotoDesc">
+      <wsdl:input message="tns:UpdatePhotoDescHttpPostIn" />
+      <wsdl:output message="tns:UpdatePhotoDescHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MovePhoto">
+      <wsdl:input message="tns:MovePhotoHttpPostIn" />
+      <wsdl:output message="tns:MovePhotoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhoto">
+      <wsdl:input message="tns:DeletePhotoHttpPostIn" />
+      <wsdl:output message="tns:DeletePhotoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AlbumSoap" type="tns:AlbumSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryClassList">
+      <soap:operation soapAction="http://tempuri.org/QueryClassList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAlbumList">
+      <soap:operation soapAction="http://tempuri.org/QueryAlbumList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoList">
+      <soap:operation soapAction="http://tempuri.org/QueryPhotoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPhoto">
+      <soap:operation soapAction="http://tempuri.org/GetPhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize">
+      <soap:operation soapAction="http://tempuri.org/QueryPhotoSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize2">
+      <soap:operation soapAction="http://tempuri.org/QueryPhotoSize2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddClass">
+      <soap:operation soapAction="http://tempuri.org/AddClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddClass2">
+      <soap:operation soapAction="http://tempuri.org/AddClass2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum">
+      <soap:operation soapAction="http://tempuri.org/AddAlbum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum2">
+      <soap:operation soapAction="http://tempuri.org/AddAlbum2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <soap:operation soapAction="http://tempuri.org/AddPhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto2">
+      <soap:operation soapAction="http://tempuri.org/AddPhoto2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhotoDesc">
+      <soap:operation soapAction="http://tempuri.org/UpdatePhotoDesc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MovePhoto">
+      <soap:operation soapAction="http://tempuri.org/MovePhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhoto">
+      <soap:operation soapAction="http://tempuri.org/DeletePhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AlbumSoap12" type="tns:AlbumSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryClassList">
+      <soap12:operation soapAction="http://tempuri.org/QueryClassList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAlbumList">
+      <soap12:operation soapAction="http://tempuri.org/QueryAlbumList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoList">
+      <soap12:operation soapAction="http://tempuri.org/QueryPhotoList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPhoto">
+      <soap12:operation soapAction="http://tempuri.org/GetPhoto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize">
+      <soap12:operation soapAction="http://tempuri.org/QueryPhotoSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize2">
+      <soap12:operation soapAction="http://tempuri.org/QueryPhotoSize2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddClass">
+      <soap12:operation soapAction="http://tempuri.org/AddClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddClass2">
+      <soap12:operation soapAction="http://tempuri.org/AddClass2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum">
+      <soap12:operation soapAction="http://tempuri.org/AddAlbum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum2">
+      <soap12:operation soapAction="http://tempuri.org/AddAlbum2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <soap12:operation soapAction="http://tempuri.org/AddPhoto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto2">
+      <soap12:operation soapAction="http://tempuri.org/AddPhoto2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhotoDesc">
+      <soap12:operation soapAction="http://tempuri.org/UpdatePhotoDesc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MovePhoto">
+      <soap12:operation soapAction="http://tempuri.org/MovePhoto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhoto">
+      <soap12:operation soapAction="http://tempuri.org/DeletePhoto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AlbumHttpGet" type="tns:AlbumHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="QueryClassList">
+      <http:operation location="/QueryClassList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAlbumList">
+      <http:operation location="/QueryAlbumList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoList">
+      <http:operation location="/QueryPhotoList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPhoto">
+      <http:operation location="/GetPhoto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize">
+      <http:operation location="/QueryPhotoSize" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize2">
+      <http:operation location="/QueryPhotoSize2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddClass">
+      <http:operation location="/AddClass" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass2">
+      <http:operation location="/AddClass2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum">
+      <http:operation location="/AddAlbum" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum2">
+      <http:operation location="/AddAlbum2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <http:operation location="/AddPhoto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto2">
+      <http:operation location="/AddPhoto2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhotoDesc">
+      <http:operation location="/UpdatePhotoDesc" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="MovePhoto">
+      <http:operation location="/MovePhoto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhoto">
+      <http:operation location="/DeletePhoto" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AlbumHttpPost" type="tns:AlbumHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="QueryClassList">
+      <http:operation location="/QueryClassList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryAlbumList">
+      <http:operation location="/QueryAlbumList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoList">
+      <http:operation location="/QueryPhotoList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPhoto">
+      <http:operation location="/GetPhoto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize">
+      <http:operation location="/QueryPhotoSize" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryPhotoSize2">
+      <http:operation location="/QueryPhotoSize2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddClass">
+      <http:operation location="/AddClass" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="AddClass2">
+      <http:operation location="/AddClass2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum">
+      <http:operation location="/AddAlbum" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="AddAlbum2">
+      <http:operation location="/AddAlbum2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto">
+      <http:operation location="/AddPhoto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="AddPhoto2">
+      <http:operation location="/AddPhoto2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhotoDesc">
+      <http:operation location="/UpdatePhotoDesc" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="MovePhoto">
+      <http:operation location="/MovePhoto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhoto">
+      <http:operation location="/DeletePhoto" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Album">
+    <wsdl:port name="AlbumSoap" binding="tns:AlbumSoap">
+      <soap:address location="http://localhost:25294/UOF11.60/PublicAPI/Album/Album.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AlbumSoap12" binding="tns:AlbumSoap12">
+      <soap12:address location="http://localhost:25294/UOF11.60/PublicAPI/Album/Album.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AlbumHttpGet" binding="tns:AlbumHttpGet">
+      <http:address location="http://localhost:25294/UOF11.60/PublicAPI/Album/Album.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AlbumHttpPost" binding="tns:AlbumHttpPost">
+      <http:address location="http://localhost:25294/UOF11.60/PublicAPI/Album/Album.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

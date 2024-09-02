@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<TimeZones>
+  <TimeZone id="GMT Standard Time" tzdata="Europe/London">
+    <culture name="zh-TW">倫敦(UTC)</culture>
+    <culture name="zh-CN">伦敦(UTC)</culture>
+    <culture name="en-US">London(UTC)</culture>
+    <culture name="vi">London(UTC)</culture>
+    <culture name="id">倫敦(UTC)</culture>
+  </TimeZone>
+  <TimeZone id="Taipei Standard Time" tzdata="Asia/Taipei">
+    <culture name="zh-TW">台北(UTC+8)</culture>
+    <culture name="zh-CN">台北(UTC+8)</culture>
+    <culture name="en-US">Taipei(UTC+8)</culture>
+    <culture name="vi">Taipei(UTC+8)</culture>
+    <culture name="id">Taipei(UTC+8)</culture>
+  </TimeZone>
+</TimeZones>
+id : ResourceLibrary 的Key值
+-->
+<TimeZones>
+  
+</TimeZones>

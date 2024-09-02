@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbApplyTimeLimit1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbApplyTimeLimit1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbApplyTimeLimit2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbApplyTimeLimit2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLimitUseResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbLimitUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbProbationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbProbationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbScaleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbScaleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSeparateAftResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSeparateAftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSeparateBefResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbSeparateBefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>休み別コード（他の部門）と同じになるので再入力をお願いします</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>システムから作成する文字なので、使用できません</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>休み別コードにはブランドを入力出来ません</value>
+  </data>
+  <data name="CustomValidator3Resource2.ErrorMessage" xml:space="preserve">
+    <value>日数を入力してください！</value>
+  </data>
+  <data name="CustomValidator3Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>日数を入力してください！</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>日数を入力してください！</value>
+  </data>
+  <data name="CustomValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator6Resource1.ErrorMessage" xml:space="preserve">
+    <value>日数を入力してください！</value>
+  </data>
+  <data name="CustomValidator6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>休み名称が既に存在しますので再入力をお願いします</value>
+  </data>
+  <data name="CustomValidator7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValiProbPeriodResource1.ErrorMessage" xml:space="preserve">
+    <value>1～11の数字を入力してください</value>
+  </data>
+  <data name="cusValiProbPeriodResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cusValiProbPeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckContResource1.ErrorMessage" xml:space="preserve">
+    <value>端数がない数字を入力してください</value>
+  </data>
+  <data name="cvCheckContResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckContResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckLeaveCodeResource1.ErrorMessage" xml:space="preserve">
+    <value>この使用方が禁止されてます</value>
+  </data>
+  <data name="cvCheckSeparateAftResource1.ErrorMessage" xml:space="preserve">
+    <value>日数を入力してください！</value>
+  </data>
+  <data name="cvCheckSeparateAftResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSeparateAftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSeparateBefResource1.ErrorMessage" xml:space="preserve">
+    <value>日数を入力してください！</value>
+  </data>
+  <data name="cvCheckSeparateBefResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSeparateBefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDayResource1.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>休み種類について説明</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>日、申請可能です</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>発生日後</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>日、申請可能です</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>申請について制限</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>休み開始日</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>日内、申請を提出します</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>休み開始日から</value>
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>日内、再申請できます</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>給料を減ってるどうか</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>記入必要</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21Resource2.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label21Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22Resource1.Text" xml:space="preserve">
+    <value>申請数が多い</value>
+  </data>
+  <data name="Label22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>日～発生日、</value>
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>年（次数）</value>
+  </data>
+  <data name="Label24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>日、</value>
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26Resource1.Text" xml:space="preserve">
+    <value>申請次数制限</value>
+  </data>
+  <data name="Label26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>連休</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31Resource1.Text" xml:space="preserve">
+    <value>付記：設定しないと申請数に制限がないことです</value>
+  </data>
+  <data name="Label31Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>休みコード</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>休み申請可能な間</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>計算方</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>発生日前</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>休み可能な日（時間）数</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>休み申請できる性別</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource1.Text" xml:space="preserve">
+    <value>データ異常を生じないように資料の再編集をしないでください</value>
+  </data>
+  <data name="LabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labHrResource1.Text" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="lblAfterDayInfoResource1.Text" xml:space="preserve">
+    <value>*休み申請可能な期限は5日に設定される。例えば9/11~9/13の間に休みをしたい場合が
+9/18 23:59前に申請を提出してください</value>
+  </data>
+  <data name="lblConsecutiveLeaveResource1.Text" xml:space="preserve">
+    <value>休み入力可能な日数は半日/終日</value>
+  </data>
+  <data name="lblConsecutiveLeaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaCodeDisableCreatorResource1.Text" xml:space="preserve">
+    <value>この休み別が使えない部門</value>
+  </data>
+  <data name="lblLeaCodeDisableCreatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaCodeDisableReasonResource1.Text" xml:space="preserve">
+    <value>コードが修正不能な原因：</value>
+  </data>
+  <data name="lblLeaCodeDisableReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaCodeDisableSystemResource1.Text" xml:space="preserve">
+    <value>システム休暇別</value>
+  </data>
+  <data name="lblLeaCodeDisableSystemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaCodeDisableUsedByGroupResource1.Text" xml:space="preserve">
+    <value>他の部門が選択してた休み別</value>
+  </data>
+  <data name="lblLeaCodeDisableUsedByGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaCodeDisableUsedByUserResource1.Text" xml:space="preserve">
+    <value>他に使える休み申請書があります</value>
+  </data>
+  <data name="lblLeaCodeDisableUsedByUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLimitUseResource1.Text" xml:space="preserve">
+    <value>以下メンバーのみ申請できます</value>
+  </data>
+  <data name="lblLimitUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgConfirmResource1.Text" xml:space="preserve">
+    <value>続けてもよろしいでしょうか</value>
+  </data>
+  <data name="lblPeriodBeginWordsResource1.Text" xml:space="preserve">
+    <value>勤続数は　になる従業員のみ申請出来ます</value>
+  </data>
+  <data name="lblPeriodBeginWordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPeriodEndWordsResource1.Text" xml:space="preserve">
+    <value>ヶ月</value>
+  </data>
+  <data name="lblPeriodEndWordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScaleResource1.Text" xml:space="preserve">
+    <value>(12-到職月+1)/12比率で休みを申請できます</value>
+  </data>
+  <data name="lblScaleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLSpaceStartMsgResource1.Text" xml:space="preserve">
+    <value>休み可能な時間範囲について説明</value>
+  </data>
+  <data name="lblSpaceStartResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblSpaceStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSystemControlMsgResource1.Text" xml:space="preserve">
+    <value>修正できないカテゴリーはシステム休みべ別です</value>
+  </data>
+  <data name="lblSystemControlMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeLimitInfoResource1.Text" xml:space="preserve">
+    <value>*休み申請可能な期限は1日に設定される。例えば9/11~9/13の間に休みをしたい場合が
+9/10 23:59前に申請を提出してください</value>
+  </data>
+  <data name="lblTimeLimitMsgResource1.Text" xml:space="preserve">
+    <value>申請制限について説明</value>
+  </data>
+  <data name="lblTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbRegResource1.Text" xml:space="preserve">
+    <value>最低ユニット単位</value>
+  </data>
+  <data name="lbRegResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnSpaceStartInfoResource1.Text" xml:space="preserve">
+    <value>例の説明</value>
+  </data>
+  <data name="lbtnTimeLimitInfoResource1.Text" xml:space="preserve">
+    <value>例の説明</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>30分</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>給料</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>給料は元の半分になる</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>half</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>一時間</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>半日</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>終日</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>出勤日</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>WorkDay</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>CalendarDay</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>どちらでも良い</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>休み別の追加/メンテナンスする</value>
+  </data>
+  <data name="RadioButtonList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButtonList2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblCalculatedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblGenderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblMinUnitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdAfterDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdAfterDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdBeforeDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdBeforeDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnSeparateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtxtDaysResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdtxtDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>休みコードを入力してください</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>休み名称を入力してください</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>連続休みを選択してください</value>
+  </data>
+  <data name="RequiredFieldValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>給料を減ってるどうかを選択してください</value>
+  </data>
+  <data name="RequiredFieldValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnbtATLAfterDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnbtATLAfterDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnbtATLBeforeDayResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rnbtATLBeforeDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntbProbationPeriodResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntbProbationPeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeaveCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeaveCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeaveDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeaveDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebNumericEdit1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebNumericEdit2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

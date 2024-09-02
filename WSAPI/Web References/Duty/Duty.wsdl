@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ImportPunchData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PunchDataInfo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImportPunchDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImportPunchDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ImportPunchDataSoapIn">
+    <wsdl:part name="parameters" element="tns:ImportPunchData" />
+  </wsdl:message>
+  <wsdl:message name="ImportPunchDataSoapOut">
+    <wsdl:part name="parameters" element="tns:ImportPunchDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImportPunchDataHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="PunchDataInfo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImportPunchDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ImportPunchDataHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="PunchDataInfo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ImportPunchDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="DutySoap">
+    <wsdl:operation name="ImportPunchData">
+      <wsdl:input message="tns:ImportPunchDataSoapIn" />
+      <wsdl:output message="tns:ImportPunchDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DutyHttpGet">
+    <wsdl:operation name="ImportPunchData">
+      <wsdl:input message="tns:ImportPunchDataHttpGetIn" />
+      <wsdl:output message="tns:ImportPunchDataHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DutyHttpPost">
+    <wsdl:operation name="ImportPunchData">
+      <wsdl:input message="tns:ImportPunchDataHttpPostIn" />
+      <wsdl:output message="tns:ImportPunchDataHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DutySoap" type="tns:DutySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ImportPunchData">
+      <soap:operation soapAction="http://tempuri.org/ImportPunchData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DutySoap12" type="tns:DutySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ImportPunchData">
+      <soap12:operation soapAction="http://tempuri.org/ImportPunchData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DutyHttpGet" type="tns:DutyHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ImportPunchData">
+      <http:operation location="/ImportPunchData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DutyHttpPost" type="tns:DutyHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ImportPunchData">
+      <http:operation location="/ImportPunchData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Duty">
+    <wsdl:port name="DutySoap" binding="tns:DutySoap">
+      <soap:address location="http://localhost/UOF11.60/PublicAPI/EIP/Duty.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DutySoap12" binding="tns:DutySoap12">
+      <soap12:address location="http://localhost/UOF11.60/PublicAPI/EIP/Duty.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DutyHttpGet" binding="tns:DutyHttpGet">
+      <http:address location="http://localhost/UOF11.60/PublicAPI/EIP/Duty.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DutyHttpPost" binding="tns:DutyHttpPost">
+      <http:address location="http://localhost/UOF11.60/PublicAPI/EIP/Duty.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

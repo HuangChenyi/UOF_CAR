@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<sitemap>
+  <node id="Homepage">
+    <path>/WEB/Homepage.aspx</path>
+  </node>
+</sitemap>
+
+id: 填寫 Menu 內的 id 值, 請依順序填寫, 並以'/'符號作區隔
+    ex.Homepage/System/OrganizationEmployee
+    
+path: 填寫相對應的 URL , 可填寫多個
+      ex./System/Organization/Member/Default.aspx
+      ex./System/Organization/Member/Modify.aspx
+      ex./System/Organization/Member/
+
+-->
+<sitemap>
+
+</sitemap>

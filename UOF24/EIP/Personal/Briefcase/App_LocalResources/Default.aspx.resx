@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>fileID</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>FILE_ID</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>目錄名稱</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>上傳日期</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>檔案大小</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>上傳日期</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>備註</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>檔案內容</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>檔案大小</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>上傳日期</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>備註</value>
+  </data>
+  <data name="cvIndexNotFoundResource1.ErrorMessage" xml:space="preserve">
+    <value>找不到系統索引檔，請洽系統管理員</value>
+  </data>
+  <data name="cvIndexNotFoundResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvIndexNotFoundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DepartmentTree1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DepUserTreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileGridResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="fileGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileGridResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileGridResource2.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="fileGridResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource11.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource13.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource14.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource15.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource9.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HyperLink1Resource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource3.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource4.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFileResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgUpperFolderResource1.AlternateText" xml:space="preserve">
+    <value>回上一層目錄</value>
+  </data>
+  <data name="imgUpperFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>目錄：</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>關鍵字：</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource2.Text" xml:space="preserve">
+    <value>搜尋範圍：</value>
+  </data>
+  <data name="Label2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="latestShareGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="latestShareGridResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="latestShareGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="latestShareGridResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="latestShareGridResource2.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="latestShareGridResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileSourceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileSourceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileLengthResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaxSizeResource1.Text" xml:space="preserve">
+    <value>容量上限：</value>
+  </data>
+  <data name="lblMaxSizeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifyDescriptionResource1.Text" xml:space="preserve">
+    <value>修改備註</value>
+  </data>
+  <data name="lblModifyDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchMsgResource1.Text" xml:space="preserve">
+    <value>目前只能搜尋檔案內容，暫不提供搜尋檔案名稱</value>
+  </data>
+  <data name="lblSearchMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSharePathResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSharePathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUseSizeResource1.Text" xml:space="preserve">
+    <value>已使用容量：</value>
+  </data>
+  <data name="lblUseSizeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtFolderNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtFolderNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnDescriptionResource1.Text" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="lbtnDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>自己的檔案</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Self</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>別人分享的檔案</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="litSharePathResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDelconfirmResource1.Text" xml:space="preserve">
+    <value>確定要刪除?</value>
+  </data>
+  <data name="msgDelconfirmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgUnitlimitResource1.Text" xml:space="preserve">
+    <value>容量上限:</value>
+  </data>
+  <data name="msgUnitlimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgUseunitResource1.Text" xml:space="preserve">
+    <value>已使用容量:</value>
+  </data>
+  <data name="msgUseunitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="myFolderTreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>公事包</value>
+  </data>
+  <data name="RadMultiPage1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>我的目錄</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>myFolder</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>分享資源</value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>sharedFolder</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>最新分享</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>latestShare</value>
+  </data>
+  <data name="RadTabResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>搜尋檔案</value>
+  </data>
+  <data name="RadTabResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Value" xml:space="preserve">
+    <value>searchResult</value>
+  </data>
+  <data name="RadTabStrip1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>目錄管理</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>CreateFolder</value>
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value>KeyWord</value>
+  </data>
+  <data name="RadToolBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Value" xml:space="preserve">
+    <value>SearchRange</value>
+  </data>
+  <data name="RadToolBarButtonResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.Text" xml:space="preserve">
+    <value>搜尋檔案</value>
+  </data>
+  <data name="RadToolBarButtonResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.Value" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="RadToolBarButtonResource15.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>新增檔案</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>CreateFile</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value>刪除檔案</value>
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>DeleteFile</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value>目錄分享</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>SharingFolder</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="rbSearchScopeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvLatestShareResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvMyFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSearchResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSharedFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="searchGridResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="searchGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sharedFolderTreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="shareGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="shareGridResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="shareGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="shareGridResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="shareGridResource2.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="shareGridResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>檔案名稱</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>來源</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>檔案名稱</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>檔案名稱</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>檔案大小</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchKeyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

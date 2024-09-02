@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Nama </value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Hari (jam) sah Keluar</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Unit minimum</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Perhitungan</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Permintaan untuk Cuti terpisah</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>jenis kelamin</value>
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>Tidak ada daftar yang ditemukan</value>
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCalendarDayResource1.Text" xml:space="preserve">
+    <value>Hari Kalendar</value>
+  </data>
+  <data name="lbCalendarDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbGender1Resource1.Text" xml:space="preserve">
+    <value>Laki-laki</value>
+  </data>
+  <data name="lbGender1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbGender2Resource1.Text" xml:space="preserve">
+    <value>Perempuan</value>
+  </data>
+  <data name="lbGender2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbGender3Resource1.Text" xml:space="preserve">
+    <value>Semua</value>
+  </data>
+  <data name="lbGender3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinUnitAllResource1.Text" xml:space="preserve">
+    <value>Sepanjang hari</value>
+  </data>
+  <data name="lblMinUnitAllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinUnitAnHourResource1.Text" xml:space="preserve">
+    <value>Satu jam</value>
+  </data>
+  <data name="lblMinUnitAnHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinUnitErrorResource1.Text" xml:space="preserve">
+    <value>Kesalahan Data</value>
+  </data>
+  <data name="lblMinUnitErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinUnitHelfResource1.Text" xml:space="preserve">
+    <value>Setengah hari</value>
+  </data>
+  <data name="lblMinUnitHelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinUnitHourResource1.Text" xml:space="preserve">
+    <value>Setengah jam</value>
+  </data>
+  <data name="lblMinUnitHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemoveMessageResource1.Text" xml:space="preserve">
+    <value>該假別有簽核中或銷假中的表單，不可刪除。</value>
+  </data>
+  <data name="lblRemoveMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbNoResource1.Text" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="lbNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnDeleteResource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="lbtnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnDownResource1.Text" xml:space="preserve">
+    <value>Turunkan</value>
+  </data>
+  <data name="lbtnDownResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnUpResource1.Text" xml:space="preserve">
+    <value>Naikkan </value>
+  </data>
+  <data name="lbtnUpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbWorkDayResource1.Text" xml:space="preserve">
+    <value>Hari kerja</value>
+  </data>
+  <data name="lbWorkDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbYesResource1.Text" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="lbYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Tambahkan dan Pilih Jenis Cuti</value>
+  </data>
+  <data name="palDelResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palDelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palDelResource2.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palDelResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palDownResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palDownResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palDownResource2.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palDownResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palUpResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palUpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palUpResource2.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palUpResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarAddResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarAddResource1.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="RadToolBarAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarAddResource1.Value" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value>請勾選您要套用的假別</value>
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>Baru </value>
+  </data>
+  <data name="TBLabelResource1.Text" xml:space="preserve">
+    <value>Pilih Cuti</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Kode cuti</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>pengperasian</value>
+  </data>
+</root>

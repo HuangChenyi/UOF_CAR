@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FormForumResource.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormForumResource.Text" xml:space="preserve">
+    <value>Form Forum</value>
+  </data>
+  <data name="FormForumResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormForumResource.Value" xml:space="preserve">
+    <value>FormForum</value>
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Closure status:</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Applicant：</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>Approval</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>ဌာန</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Next stop information (actual)</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource2.Text" xml:space="preserve">
+    <value>Time：</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>This is free flow form.  Click to select next stop member.</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Approved:</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Priority： </value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdditionalSiteResource1.Text" xml:space="preserve">
+    <value>Add-Stop</value>
+  </data>
+  <data name="lblAdditionalSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddSignCommentResource1.Text" xml:space="preserve">
+    <value>Add comments</value>
+  </data>
+  <data name="lblAddSignCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgentApplicantResource1.Text" xml:space="preserve">
+    <value>Applied by:</value>
+  </data>
+  <data name="lblAgentApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgentUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgentUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplyTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApplyTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApproveTxtResource1.Text" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="lblApproveTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommentResource1.Text" xml:space="preserve">
+    <value>Applying Information</value>
+  </data>
+  <data name="lblCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmWinTitleResource1.Text" xml:space="preserve">
+    <value>Confirm approval</value>
+  </data>
+  <data name="lblConfirmWinTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepartmentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepartmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDialogTitleMsgResource1.Text" xml:space="preserve">
+    <value>Send form</value>
+  </data>
+  <data name="lblDialogTitleMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisapproveTxtResource1.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="lblDisapproveTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileUploadResource1.Text" xml:space="preserve">
+    <value>Attachments by Form</value>
+  </data>
+  <data name="lblFileUploadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormFlowResource1.Text" xml:space="preserve">
+    <value>Approval Routing and Status</value>
+  </data>
+  <data name="lblFormFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsSignAgentResource1.Text" xml:space="preserve">
+    <value>目前代理 {0} 簽核中</value>
+  </data>
+  <data name="lblMaxRowResource1.Text" xml:space="preserve">
+    <value>This form is the last of waiting for approving</value>
+  </data>
+  <data name="lblMaxRowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMostUrgentResource1.Text" xml:space="preserve">
+    <value>Urgent</value>
+  </data>
+  <data name="lblMostUrgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblnewWindowMsg.Text" xml:space="preserve">
+    <value>Unable to open approval window.  Please close the pop up window block program.</value>
+  </data>
+  <data name="lblnewWindowMsgResource1.Text" xml:space="preserve">
+    <value>Unable to open approval window.  Please close the pop up window block program.</value>
+  </data>
+  <data name="lblnewWindowMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthResource1.Text" xml:space="preserve">
+    <value>無權限處理或觀看此表單</value>
+  </data>
+  <data name="lblNoPassMsgResource1.Text" xml:space="preserve">
+    <value>Validation fail.  Reason for fail as below: \n\n</value>
+  </data>
+  <data name="lblNoPassMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalResource1.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lblNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotCurrentSiteResource1.Text" xml:space="preserve">
+    <value>This stop cannot be processed.  </value>
+  </data>
+  <data name="lblNotCurrentSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOriginalSignerResource1.Text" xml:space="preserve">
+    <value>Original approver</value>
+  </data>
+  <data name="lblOriginalSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherInfoResource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblOtherInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherInfoResource2.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lblOtherInfoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPassTxtResource1.Text" xml:space="preserve">
+    <value>No comments</value>
+  </data>
+  <data name="lblPassTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPersonalAttachResource1.Text" xml:space="preserve">
+    <value>Attachments by Stop</value>
+  </data>
+  <data name="lblPersonalAttachResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPersonalRemoteFileGroupIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPersonalRemoteFileGroupIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemoteFileGroupIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemoteFileGroupIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnResource1.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblReturnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnSignCommentResource1.Text" xml:space="preserve">
+    <value>Please enter comments in comments field</value>
+  </data>
+  <data name="lblReturnSignCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveTxtResource1.Text" xml:space="preserve">
+    <value>သိမ်းမည်</value>
+  </data>
+  <data name="lblSaveTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowFillerResource1.Text" xml:space="preserve">
+    <value>顯示填寫者</value>
+  </data>
+  <data name="lblSignFailResource1.Text" xml:space="preserve">
+    <value>This form has been approved</value>
+  </data>
+  <data name="lblSignFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteCommentResource1.Text" xml:space="preserve">
+    <value>Approve reminder</value>
+  </data>
+  <data name="lblSiteCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpeedSignFailedMessageResource1.Text" xml:space="preserve">
+    <value>前次快速簽核失敗：</value>
+  </data>
+  <data name="lblSpeedSignResource1.Text" xml:space="preserve">
+    <value>快速簽核</value>
+  </data>
+  <data name="lblSubFlowResource1.Text" xml:space="preserve">
+    <value>Sub-flow:</value>
+  </data>
+  <data name="lblSubFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaskEndResource1.Text" xml:space="preserve">
+    <value>Form closed, cannot be approved</value>
+  </data>
+  <data name="lblTaskEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleFormCCResource1.Text" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="lblTitleFormCCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblurgentLevelResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblurgentLevelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrgentResource1.Text" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="lblUrgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnRemoteFileCenterResource1.Text" xml:space="preserve">
+    <value>Choose File</value>
+  </data>
+  <data name="lbtnRemoteFileCenterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.Text" xml:space="preserve">
+    <value>Choose File</value>
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Disapprove</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>No comments</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Closure</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Proceed to next stop</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel3Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAppInfoResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAppInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSiteRemarkResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSiteRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PnltbSiteCommentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PnltbSiteCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>sShowFlow</value>
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value>sFormBCC</value>
+  </data>
+  <data name="RadToolBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Value" xml:space="preserve">
+    <value>sSimulationFlow</value>
+  </data>
+  <data name="RadToolBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Value" xml:space="preserve">
+    <value>SeparatorbyForum</value>
+  </data>
+  <data name="RadToolBarButtonResource14.Text" xml:space="preserve">
+    <value>သတိပြုမှတ်သားခြင်း ပုံစံ</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>sSimulationFlow</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>sPreAdditionalSign</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value>sAttach</value>
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>sForOpinion</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value>sViewFlow</value>
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>sViewFlowDetail</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value>sSignComment</value>
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>sFormCC</value>
+  </data>
+  <data name="rbListEndTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbListSignResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarAttachButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarAttachButtonResource1.Text" xml:space="preserve">
+    <value>Form attachments</value>
+  </data>
+  <data name="TBarAttachButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarAttachButtonResource1.Value" xml:space="preserve">
+    <value>Attach</value>
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>သိမ်းမည်</value>
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource10.Text" xml:space="preserve">
+    <value>Standard Comments</value>
+  </data>
+  <data name="TBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource10.Value" xml:space="preserve">
+    <value>SignComment</value>
+  </data>
+  <data name="TBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource11.Text" xml:space="preserve">
+    <value>Simulation</value>
+  </data>
+  <data name="TBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource11.Value" xml:space="preserve">
+    <value>SimulationFlow</value>
+  </data>
+  <data name="TBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource12.Text" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="TBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource12.Value" xml:space="preserve">
+    <value>FormBCC</value>
+  </data>
+  <data name="TBarButtonResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource13.Text" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="TBarButtonResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource13.Value" xml:space="preserve">
+    <value>FormCC</value>
+  </data>
+  <data name="TBarButtonResource14.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource14.Text" xml:space="preserve">
+    <value>Advanced Add-Stop</value>
+  </data>
+  <data name="TBarButtonResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource14.Value" xml:space="preserve">
+    <value>PreAdditionalSign</value>
+  </data>
+  <data name="TBarButtonResource15.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource15.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="TBarButtonResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource15.Value" xml:space="preserve">
+    <value>PrintForm</value>
+  </data>
+  <data name="TBarButtonResource16.Text" xml:space="preserve">
+    <value>發出知會</value>
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>No comments</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="TBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="TBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.Text" xml:space="preserve">
+    <value>No comments</value>
+  </data>
+  <data name="TBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.Text" xml:space="preserve">
+    <value>Designed Flow</value>
+  </data>
+  <data name="TBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.Value" xml:space="preserve">
+    <value>ShowFlow</value>
+  </data>
+  <data name="TBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource7.Text" xml:space="preserve">
+    <value>Send out inquiry</value>
+  </data>
+  <data name="TBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource7.Value" xml:space="preserve">
+    <value>ForOpinion</value>
+  </data>
+  <data name="TBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource8.Text" xml:space="preserve">
+    <value>Actual Process</value>
+  </data>
+  <data name="TBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource8.Value" xml:space="preserve">
+    <value>ViewFlow</value>
+  </data>
+  <data name="TBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource9.Text" xml:space="preserve">
+    <value>Detail of Process</value>
+  </data>
+  <data name="TBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource9.Value" xml:space="preserve">
+    <value>ViewFlowDetail</value>
+  </data>
+  <data name="TBLabelResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource1.Text" xml:space="preserve">
+    <value>If error message appears while approving, please inactivate pop up window block program.</value>
+  </data>
+  <data name="TBLabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbSiteCommentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbSiteCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCommentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCommentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebToolbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="webToolBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

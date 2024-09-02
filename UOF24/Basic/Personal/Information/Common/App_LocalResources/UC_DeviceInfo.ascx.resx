@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>最後登入時間</value>
+  </data>
+  <data name="gdDeviceManagementResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdDeviceManagementResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有登入中的行動裝置</value>
+  </data>
+  <data name="gdDeviceManagementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFilterKeywordResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>登入中的行動裝置</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountMsgResource1.Text" xml:space="preserve">
+    <value>行動裝置限制綁定數量：</value>
+  </data>
+  <data name="lblAppDeviceCountMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppDeviceCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceNullResource1.Text" xml:space="preserve">
+    <value>無法辨識的裝置</value>
+  </data>
+  <data name="lblDeviceNullResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceVerifyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceVerifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilterKeywordTipResource1.Text" xml:space="preserve">
+    <value>*設定後，私人訊息主旨符合關鍵字時將不會發送推播，最多可設定10組。</value>
+  </data>
+  <data name="lblmanufacturerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmanufacturerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark1Resource1.Text" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="lblmark1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark4Resource1.Text" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="lblmark4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark5Resource1.Text" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="lblmark5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark6Resource1.Text" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="lblmark6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark7Resource1.Text" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="lblmark7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmarkResource1.Text" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="lblmarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmodelResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmodelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushFilterKeywordDialogTitleResource1.Text" xml:space="preserve">
+    <value>維護關鍵字</value>
+  </data>
+  <data name="lblPushFilterKeywordSettingTitleResource1.Text" xml:space="preserve">
+    <value>推播過濾設定</value>
+  </data>
+  <data name="lblShowAdminKeywordDialogTitleResource1.Text" xml:space="preserve">
+    <value>管理員設定的關鍵字</value>
+  </data>
+  <data name="lbtnRemoveDeviceResource1.Text" xml:space="preserve">
+    <value>解除綁定</value>
+  </data>
+  <data name="lbtnRemoveDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnShowAdminKeywordResource1.Text" xml:space="preserve">
+    <value>查看管理員設定的關鍵字</value>
+  </data>
+  <data name="lbtnStartPushResource1.Text" xml:space="preserve">
+    <value>啟用推播</value>
+  </data>
+  <data name="lbtnStartPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnStopPushResource1.Text" xml:space="preserve">
+    <value>停用推播</value>
+  </data>
+  <data name="lbtnStopPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnTestPushResource1.Text" xml:space="preserve">
+    <value>測試推播</value>
+  </data>
+  <data name="lbtnTestPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgfailStopResource1.Text" xml:space="preserve">
+    <value>推播測試失敗</value>
+  </data>
+  <data name="msgfailStopResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgLogoutSetResource1.Text" xml:space="preserve">
+    <value>確定要解除嗎?</value>
+  </data>
+  <data name="msgLogoutSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgStopPushSetResource1.Text" xml:space="preserve">
+    <value>確定要停用推播功能?</value>
+  </data>
+  <data name="msgStopPushSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgSuccessStopResource1.Text" xml:space="preserve">
+    <value>推播測試成功</value>
+  </data>
+  <data name="msgSuccessStopResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgVerifyAddedResource1.Text" xml:space="preserve">
+    <value>未通過</value>
+  </data>
+  <data name="msgVerifyAddedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgVerifyVerifiedResource1.Text" xml:space="preserve">
+    <value>通過</value>
+  </data>
+  <data name="msgVerifyVerifiedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>維護</value>
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>Maintain</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>廠商</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>系統</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>通過驗證</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="TextBox1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tfKeywordResource1.HeaderText" xml:space="preserve">
+    <value>關鍵字</value>
+  </data>
+</root>

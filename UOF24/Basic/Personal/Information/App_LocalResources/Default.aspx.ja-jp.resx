@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>FAVORITE_GUID</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>最終ログイン時間</value>
+  </data>
+  <data name="btnDeleteAgent1Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent2Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent3Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAgent3Resource1.Text" xml:space="preserve">
+    <value>RadButton</value>
+  </data>
+  <data name="btnDeleteAgent3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPayEnvResource1.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="CalendarLinkResource1.HeaderText" xml:space="preserve">
+    <value>カレンダーのリング</value>
+  </data>
+  <data name="CalendarNameResource1.HeaderText" xml:space="preserve">
+    <value>カレンダー名称</value>
+  </data>
+  <data name="cbEmailResource1.Text" xml:space="preserve">
+    <value>自分のメールに発送する</value>
+  </data>
+  <data name="cbEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsNewMessSignResource1.Text" xml:space="preserve">
+    <value>新規メールではサインを登録</value>
+  </data>
+  <data name="cbIsReplyMessSignResource1.Text" xml:space="preserve">
+    <value>転送メールではサインを登録</value>
+  </data>
+  <data name="cbPushResource1.Text" xml:space="preserve">
+    <value>端末に発送する</value>
+  </data>
+  <data name="cbPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox1Resource1.Text" xml:space="preserve">
+    <value>個人メッセージがあればメールにてお知らせする</value>
+  </data>
+  <data name="CheckBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>設定する時に一回電源を切れ、またはエラーが発生しましたので、リセットをお願いします</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource3.ErrorMessage" xml:space="preserve">
+    <value>自分を職務代理者を設定することができない</value>
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>先に基本情報までメールアドレスを設定してください</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>自分を代理人を設定することが出来ません</value>
+  </data>
+  <data name="gdDeviceManagementResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdDeviceManagementResource1.EmptyDataText" xml:space="preserve">
+    <value>ログイン中端末がない</value>
+  </data>
+  <data name="gdDeviceManagementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAppleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAppleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgGoogleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgGoogleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Googleアカウントとリンクする</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25Resource1.Text" xml:space="preserve">
+    <value>職務代理者を設定</value>
+  </data>
+  <data name="Label25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27Resource1.Text" xml:space="preserve">
+    <value>お知らせ</value>
+  </data>
+  <data name="Label27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Googleアカウント</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>設定した後UOFのカレンダーはGoogleにも設定される</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42Resource1.Text" xml:space="preserve">
+    <value>第一職務代理人</value>
+  </data>
+  <data name="Label42Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label43Resource1.Text" xml:space="preserve">
+    <value>第二職務代理者</value>
+  </data>
+  <data name="Label43Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label44Resource1.Text" xml:space="preserve">
+    <value>第三職務代理者</value>
+  </data>
+  <data name="Label44Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>2.データがエラーが発生することを避ける為、同じアカウントで色んな登録所を使っていけません。</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>カレンダーを共有する</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>スケジュールをiphoneまたはoutlookまでにシェアする</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>サインを設定</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>ログイン中端末</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFirstAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFirstAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl104PortalUrlRequiredResource1.Text" xml:space="preserve">
+    <value>104Portal URLを設定してないので、システム管理者までお問い合わせください</value>
+  </data>
+  <data name="lblAfterTransMailResource1.Text" xml:space="preserve">
+    <value>転送済み後</value>
+  </data>
+  <data name="lblAppDeviceCountMsgResource1.Text" xml:space="preserve">
+    <value>デバイス接続数：</value>
+  </data>
+  <data name="lblAppDeviceCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBindAgainResource1.Text" xml:space="preserve">
+    <value>リンクを変更する</value>
+  </data>
+  <data name="lblBindAgainResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBindResource1.Text" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="lblBindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCalendarLinkSetResource1.Text" xml:space="preserve">
+    <value>カレンダーのリング設定</value>
+  </data>
+  <data name="lblConfirmDeleteLinkAndSyncDataResource1.Text" xml:space="preserve">
+    <value>この接続と同期したすべてのカレンダーの内容を削除します。削除しますか？</value>
+  </data>
+  <data name="lblConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>カレンダー接続を削除します。削除しますか？</value>
+  </data>
+  <data name="lblDeviceNullResource1.Text" xml:space="preserve">
+    <value>認識できないデバイス</value>
+  </data>
+  <data name="lblDeviceNullResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeviceResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisable.Text" xml:space="preserve">
+    <value>始動しない</value>
+  </data>
+  <data name="lblDisable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbLeftOpenResource1.Text" xml:space="preserve">
+    <value>他の人が編集可能</value>
+  </data>
+  <data name="lbLeftOpenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnable.Text" xml:space="preserve">
+    <value>始動する</value>
+  </data>
+  <data name="lblEnable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfavoriteUserSetResource1.Text" xml:space="preserve">
+    <value>よく使うメンバー設定</value>
+  </data>
+  <data name="lblfavoriteUserSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForceTransEmailResource1.Text" xml:space="preserve">
+    <value>*”必ず転送する”機能をオンにされました</value>
+  </data>
+  <data name="lblGetAppResource1.Text" xml:space="preserve">
+    <value>デバイスでメッセージを受け取りができる</value>
+  </data>
+  <data name="lblGetAppResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGetEMResource1.Text" xml:space="preserve">
+    <value>MSN</value>
+  </data>
+  <data name="lblGetEMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoogleAccResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoogleAccResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGotMessageResource1.Text" xml:space="preserve">
+    <value>個人メッセージを受け取る場合</value>
+  </data>
+  <data name="lblGotMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvalidAcc.Text" xml:space="preserve">
+    <value>リンクの再接続をお願いします                                                                                                                                                                                  </value>
+  </data>
+  <data name="lblInvalidAcc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvalidAccResource1.Text" xml:space="preserve">
+    <value>リンク情報が正しくないので、リンクを再設定してください</value>
+  </data>
+  <data name="lblInvalidAccResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsDeleteICSDataResource1.Text" xml:space="preserve">
+    <value>[確認]を押したら同期されたカレンダー内容を削除することになります。
+[キャンセル]を押したらリンクのしか削除出来ません。</value>
+  </data>
+  <data name="lblmanufacturerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmanufacturerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmanufacturerResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmanufacturerResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark2Resource2.Text" xml:space="preserve">
+    <value>[ </value>
+  </data>
+  <data name="lblmark2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark4Resource2.Text" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="lblmark4Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark5Resource2.Text" xml:space="preserve">
+    <value>] </value>
+  </data>
+  <data name="lblmark5Resource2.Text1" xml:space="preserve">
+    <value>] </value>
+  </data>
+  <data name="lblmark5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmark5Resource2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmarkResource2.Text" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="lblmarkResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageResource1.Text" xml:space="preserve">
+    <value>ログアウト確認しますか</value>
+  </data>
+  <data name="lblMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageResource2.Text" xml:space="preserve">
+    <value>プッシュ通知のテストが失敗</value>
+  </data>
+  <data name="lblMessageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageResource3.Text" xml:space="preserve">
+    <value>プッシュ通知のテストが成功</value>
+  </data>
+  <data name="lblMessageResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPayEnvMemoResource1.Text" xml:space="preserve">
+    <value>クリックして検索結果を表示できます</value>
+  </data>
+  <data name="lblPayEnvResource1.Text" xml:space="preserve">
+    <value>E-Pay Slip</value>
+  </data>
+  <data name="lblPushDisenableResource1.Text" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="lblPushDisenableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushEnableResource1.Text" xml:space="preserve">
+    <value>アクションする</value>
+  </data>
+  <data name="lblPushEnableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPushStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblselectDeleteDocResource1.Text" xml:space="preserve">
+    <value>削除したい資料を選択します</value>
+  </data>
+  <data name="lblSettingAgentMsgResource1.Text" xml:space="preserve">
+    <value>管理者から職務代理人を設定する</value>
+  </data>
+  <data name="lblSettingAgentMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubCalendarInfoResource1.Text" xml:space="preserve">
+    <value>Outlook、GoogleまたはiCloudのカレンダー情報を同期にUOFカレンダーに表示することがサポートできます</value>
+  </data>
+  <data name="lblSubscribeCalendarResource1.Text" xml:space="preserve">
+    <value>カレンダーを購読する</value>
+  </data>
+  <data name="lblSubscribeShortResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubscribeShortResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUMdownloadResource1.Text" xml:space="preserve">
+    <value>ダウンロードできたら個人用パソコンでUchatでチャートでき、Umiiも使えなる</value>
+  </data>
+  <data name="lblUOFMessengerResource1.Text" xml:space="preserve">
+    <value>UOF Messenger</value>
+  </data>
+  <data name="lbSecondAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbSecondAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbThirdAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbThirdAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnRemoveDeviceResource1.Text" xml:space="preserve">
+    <value>アカウントと同期しない</value>
+  </data>
+  <data name="lbtnRemoveDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnShowAdminKeywordResource1.Text" xml:space="preserve">
+    <value>管理者が設定したキーワード</value>
+  </data>
+  <data name="lbtnStartPushResource1.Text" xml:space="preserve">
+    <value>プッシュ通知をオンにする</value>
+  </data>
+  <data name="lbtnStartPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnStopPushResource1.Text" xml:space="preserve">
+    <value>プッシュ通知をオフにする</value>
+  </data>
+  <data name="lbtnStopPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnTestPushResource1.Text" xml:space="preserve">
+    <value>プッシュ通知をテストする</value>
+  </data>
+  <data name="lbtnTestPushResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUpdateResource1.Text" xml:space="preserve">
+    <value>修正</value>
+  </data>
+  <data name="lbUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="liAfterTransMailReadedResource1.Text" xml:space="preserve">
+    <value>既読</value>
+  </data>
+  <data name="liAfterTransMailReadedResource1.Value" xml:space="preserve">
+    <value>Readed</value>
+  </data>
+  <data name="liAfterTransMailUnReadResource1.Text" xml:space="preserve">
+    <value>未読</value>
+  </data>
+  <data name="liAfterTransMailUnReadResource1.Value" xml:space="preserve">
+    <value>UnRead</value>
+  </data>
+  <data name="LinkBtnBind2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkBtnBind2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkBtnRevoke2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkBtnRevoke2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LinkButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgBasesetupResource1.Text" xml:space="preserve">
+    <value>基本情報を設定</value>
+  </data>
+  <data name="msgBasesetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDeleteResource1.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="msgDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDeleteUserSetResource1.Text" xml:space="preserve">
+    <value>削除してもよろしいでしょうか</value>
+  </data>
+  <data name="msgDeleteUserSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgSetupResource1.Text" xml:space="preserve">
+    <value>設定する</value>
+  </data>
+  <data name="msgSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgStopPushSetResource1.Text" xml:space="preserve">
+    <value>プッシュ機能を閉じますか</value>
+  </data>
+  <data name="msgStopPushSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgVerifyAdded1.Text" xml:space="preserve">
+    <value>却下</value>
+  </data>
+  <data name="msgVerifyAdded1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgVerifyVerified.Text" xml:space="preserve">
+    <value>審査確定</value>
+  </data>
+  <data name="msgVerifyVerified.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>個人情報を設定</value>
+  </data>
+  <data name="panEmplResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panEmplResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnBindResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnBindResource1.Text" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="RadBtnBindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnRevokeResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadBtnRevokeResource1.Text" xml:space="preserve">
+    <value>解除する</value>
+  </data>
+  <data name="RadBtnRevokeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton1Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton1Resource1.Text" xml:space="preserve">
+    <value>共有する</value>
+  </data>
+  <data name="RadButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton2Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton2Resource1.Text" xml:space="preserve">
+    <value>共有を解除する</value>
+  </data>
+  <data name="RadButton2Resource1.Text1" xml:space="preserve">
+    <value>共有を解除する</value>
+  </data>
+  <data name="RadButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>基本情報を設定</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>BaseData</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>App設定</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>給料明細の検索</value>
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbAfterTransMailModeDeleteResource1.Text" xml:space="preserve">
+    <value>メッセージを削除</value>
+  </data>
+  <data name="rbAfterTransMailModeSaveResource1.Text" xml:space="preserve">
+    <value>メッセージを　を表示して保存する</value>
+  </data>
+  <data name="rbtnRemoveDeviceResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmp1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmp1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmp1Resource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvBaseDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvBaseDataResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvBaseDataResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvDeviceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSetupResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvSetupResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel3Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="settingAgentPanel3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>追加する</value>
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>リンクを削除</value>
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>リンクを削除してデータを同期する</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>メンバーの設定</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>プッシュ通知をオンにする状態</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>サプライヤー</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>サプライヤー</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="TextBox1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

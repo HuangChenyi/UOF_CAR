@@ -1,0 +1,52 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Master/DialogMasterPage.master" AutoEventWireup="true" CodeFile="Add.aspx.cs" Inherits="System_CustomHomepage_Add" Title="Untitled Page" %>
+
+<%@ Register Src="../../Common/ChoiceCenter/UC_ChoiceList.ascx" TagName="UC_ChoiceList"
+    TagPrefix="uc1" %>
+<%@ Register Assembly="Ede.Uof.Utility.Component.Grid" Namespace="Ede.Uof.Utility.Component" TagPrefix="Fast" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table class=PopTable cellspacing=1 width=100% >
+       <colgroup class=PopTableLeftTD></colgroup>
+        <colgroup class=PopTableRightTD></colgroup>
+        <colgroup class=PopTableLeftTD></colgroup>
+        <colgroup class=PopTableRightTD></colgroup> 
+        <tr>
+            <td >
+                <asp:Label ID="Label1" runat="server" Text="名稱"></asp:Label></td>
+            <td >
+                <asp:TextBox ID="txtName" runat="server"></asp:TextBox></td>
+        </tr>
+        <tr>
+            <td >
+                <asp:Label ID="Label2" runat="server" Text="使用者設定"></asp:Label></td>
+            <td >
+                <uc1:UC_ChoiceList ID="UC_ChoiceList1" runat="server" ExpandToUser="false"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label5" runat="server" Text="面版"></asp:Label></td>
+            <td> 
+            <fast:grid id="Grid1" runat="server"  AutoGenerateCheckBoxColumn="False" AutoGenerateColumns="False" CustomDropDownListPage="False" DataKeyOnClientWithCheckBox="False" OnRowDataBound="Grid1_RowDataBound" DataKeyNames="ControlPath" SelectedRowColor="" UnSelectedRowColor="" >
+                <Columns>
+                    <asp:BoundField HeaderText="面版路徑" Visible="False" DataField="ControlPath" />
+                    <asp:BoundField HeaderText="面版名稱" DataField="Title" />
+                    <asp:TemplateField HeaderText="允許存取">
+                        <itemtemplate>
+                                <asp:CheckBox id="cbAllowAccess" runat="server"></asp:CheckBox>
+                        
+</itemtemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="允許關閉">
+                        <itemtemplate>
+                                <asp:CheckBox id="cbAllowClose" runat="server" ></asp:CheckBox>
+                        
+</itemtemplate>
+                    </asp:TemplateField>
+                </Columns>
+            </fast:grid>
+            </td>
+        </tr>        
+    </table>
+
+</asp:Content>
+

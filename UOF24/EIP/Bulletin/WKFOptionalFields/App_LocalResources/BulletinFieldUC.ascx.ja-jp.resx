@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBulletinClassResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBulletinClassResource1.Text" xml:space="preserve">
+    <value>お知らせをカテゴリーを分けてください</value>
+  </data>
+  <data name="btnBulletinClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbExternalPrintResource1.Text" xml:space="preserve">
+    <value>下記のメンバーのみ印刷することが可能です</value>
+  </data>
+  <data name="cbExternalPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbNoDownloadResource1.Text" xml:space="preserve">
+    <value>お知らせをプレビューうちに添付ファイルを表示しません</value>
+  </data>
+  <data name="cbNoDownloadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbOuterBulletinReaderResource1.Text" xml:space="preserve">
+    <value>内部アナウンス内容に表示します</value>
+  </data>
+  <data name="cbPrintResource1.Text" xml:space="preserve">
+    <value>下記のメンバーのみ印刷することが可能です</value>
+  </data>
+  <data name="cbPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPublishExternalResource1.Text" xml:space="preserve">
+    <value>外部アナウンスまでをコピーします</value>
+  </data>
+  <data name="cbPublishExternalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbRunHorseLightResource1.Text" xml:space="preserve">
+    <value>走馬灯を表示する</value>
+  </data>
+  <data name="cbRunHorseLightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbShowExternalReaderResource1.Text" xml:space="preserve">
+    <value>閲覧する時に表示する</value>
+  </data>
+  <data name="cbShowExternalReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbShowReaderResource1.Text" xml:space="preserve">
+    <value>閲覧する時に表示する</value>
+  </data>
+  <data name="cbShowReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>日付を入力してください</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>リリース対象を選択してください</value>
+  </data>
+  <data name="CustomValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>外部カテゴリーを選択してください</value>
+  </data>
+  <data name="CustomValidator7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvBulletinClassResource1.ErrorMessage" xml:space="preserve">
+    <value>お知らせをカテゴリーを分けてください</value>
+  </data>
+  <data name="cvBulletinClassResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvBulletinClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckPublicPeopleResource1.ErrorMessage" xml:space="preserve">
+    <value>リリース対象を選択してください</value>
+  </data>
+  <data name="cvCheckPublicPeopleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckPublicPeopleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSubjectResource1.ErrorMessage" xml:space="preserve">
+    <value>件名を入力してください</value>
+  </data>
+  <data name="cvCheckSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSupportMobileResource1.ErrorMessage" xml:space="preserve">
+    <value>アプリでの編集が不可です。</value>
+  </data>
+  <data name="cvNoPublishDateResource1.ErrorMessage" xml:space="preserve">
+    <value>日付を入力してください</value>
+  </data>
+  <data name="cvNoPublishDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNoPublishDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotLaterThenPublishResource1.ErrorMessage" xml:space="preserve">
+    <value>開始時間は必ず終わり時間より早い時間を設定してください</value>
+  </data>
+  <data name="cvNotLaterThenPublishResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNotLaterThenPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSameDateResource1.ErrorMessage" xml:space="preserve">
+    <value>開始時間は必ず終わり時間より早い時間を設定してください</value>
+  </data>
+  <data name="cvSameDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSameDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>棚上げする</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>リリースに関するお知らせ</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>外部リリース</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>外部メンバー</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>外部印刷を設定</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>外部カテゴリー</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>走馬灯</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>オフシェルフ</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>お知らせカテゴリー</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>リリース対象</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>添付ファイル</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>印刷の設定</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBExternalClassResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBExternalClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowAnyPrintResource1.Text" xml:space="preserve">
+    <value>全てのメンバーが印刷可能です</value>
+  </data>
+  <data name="lblAllowAnyPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowDownloadResource1.Text" xml:space="preserve">
+    <value>添付ファイルがプレビュー状態にはダウンロードできる</value>
+  </data>
+  <data name="lblAllowDownloadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowInnerPrintResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowInnerPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowNonePrintResource1.Text" xml:space="preserve">
+    <value>全てのメンバーが印刷不可です</value>
+  </data>
+  <data name="lblAllowNonePrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowSomePrintResource1.Text" xml:space="preserve">
+    <value>下記のメンバーのみ印刷することが可能です</value>
+  </data>
+  <data name="lblAllowSomePrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>記入する権限が持っているメンバー</value>
+  </data>
+  <data name="lblAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBulletinClassResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBulletinClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDontSyncResource1.Text" xml:space="preserve">
+    <value>外部アナウンスまでをコピーしません</value>
+  </data>
+  <data name="lblDontSyncResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHasNoAuthorityResource1.Text" xml:space="preserve">
+    <value>記入する権限がない</value>
+  </data>
+  <data name="lblHasNoAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHtmlResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHtmlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIfSyncResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIfSyncResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMarqueeOffResource1.Text" xml:space="preserve">
+    <value>走馬灯を表示しない</value>
+  </data>
+  <data name="lblMarqueeOffResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMarqueeOnResource1.Text" xml:space="preserve">
+    <value>走馬灯を表示する</value>
+  </data>
+  <data name="lblMarqueeOnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageToResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgSignerResource1.Text" xml:space="preserve">
+    <value>入力者</value>
+  </data>
+  <data name="lblMsgSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoDownloadResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoDownloadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotSupportResource1.Text" xml:space="preserve">
+    <value>アプリでの編集が不可です。</value>
+  </data>
+  <data name="lblOuterBulletinFalseResource1.Text" xml:space="preserve">
+    <value>内部アナウンス内容に表示しません</value>
+  </data>
+  <data name="lblOuterBulletinTrueResource1.Text" xml:space="preserve">
+    <value>内部アナウンス内容に表示します</value>
+  </data>
+  <data name="lblPrintOuterResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrintOuterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRunHorseLightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRunHorseLightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowReaderOffResource1.Text" xml:space="preserve">
+    <value>閲覧する時に表示しない</value>
+  </data>
+  <data name="lblShowReaderOffResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowReaderOnResource1.Text" xml:space="preserve">
+    <value>閲覧する時に表示する</value>
+  </data>
+  <data name="lblShowReaderOnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyncOuterResource1.Text" xml:space="preserve">
+    <value>外部アナウンスまでをコピーします</value>
+  </data>
+  <data name="lblSyncOuterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToolTipMsgResource1.Text" xml:space="preserve">
+    <value>変更不能（読み込み専用）</value>
+  </data>
+  <data name="lblToolTipMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnFileCenterResource1.Text" xml:space="preserve">
+    <value>ファイルを選択</value>
+  </data>
+  <data name="lbtnFileCenterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlContentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPrintInResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPrintInResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPrintOutResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPrintOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPublishInResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPublishInResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPublishOutResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPublishOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSyncOuterResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSyncOuterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadDateCloseResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="RadDateCloseResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="RadDateCloseResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="RadDateCloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDateCloseResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="RadDateCloseResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadDatePublishResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="RadDatePublishResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="RadDatePublishResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="RadDatePublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePublishResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="RadDatePublishResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="radEditorContextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbAllUserResource1.Text" xml:space="preserve">
+    <value>全てのリリース対象</value>
+  </data>
+  <data name="rbAllUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbCloseDateResource1.Text" xml:space="preserve">
+    <value>終わり時間</value>
+  </data>
+  <data name="rbCloseDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNeverCloseResource1.Text" xml:space="preserve">
+    <value>オフシェルフをしません</value>
+  </data>
+  <data name="rbNeverCloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPubishNowResource1.Text" xml:space="preserve">
+    <value>すぐ棚上げする</value>
+  </data>
+  <data name="rbPubishNowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbPublishDateResource1.Text" xml:space="preserve">
+    <value>棚上げする時間</value>
+  </data>
+  <data name="rbPublishDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbSubscribeOnlyResource1.Text" xml:space="preserve">
+    <value>対象者</value>
+  </data>
+  <data name="rbSubscribeOnlyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSubjectResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wbtnExternalResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wbtnExternalResource1.Text" xml:space="preserve">
+    <value>外部アナウンスのカテゴリー</value>
+  </data>
+  <data name="wbtnExternalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgEditorResource1.Text" xml:space="preserve">
+    <value>修正者</value>
+  </data>
+</root>

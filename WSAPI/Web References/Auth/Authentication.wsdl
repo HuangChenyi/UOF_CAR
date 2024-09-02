@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="appName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:GetToken" />
+  </wsdl:message>
+  <wsdl:message name="GetTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTokenHttpGetIn">
+    <wsdl:part name="appName" type="s:string" />
+    <wsdl:part name="account" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTokenHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTokenHttpPostIn">
+    <wsdl:part name="appName" type="s:string" />
+    <wsdl:part name="account" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTokenHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="AuthenticationSoap">
+    <wsdl:operation name="GetToken">
+      <wsdl:input message="tns:GetTokenSoapIn" />
+      <wsdl:output message="tns:GetTokenSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AuthenticationHttpGet">
+    <wsdl:operation name="GetToken">
+      <wsdl:input message="tns:GetTokenHttpGetIn" />
+      <wsdl:output message="tns:GetTokenHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AuthenticationHttpPost">
+    <wsdl:operation name="GetToken">
+      <wsdl:input message="tns:GetTokenHttpPostIn" />
+      <wsdl:output message="tns:GetTokenHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AuthenticationSoap" type="tns:AuthenticationSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetToken">
+      <soap:operation soapAction="http://tempuri.org/GetToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticationSoap12" type="tns:AuthenticationSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetToken">
+      <soap12:operation soapAction="http://tempuri.org/GetToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticationHttpGet" type="tns:AuthenticationHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetToken">
+      <http:operation location="/GetToken" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticationHttpPost" type="tns:AuthenticationHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetToken">
+      <http:operation location="/GetToken" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Authentication">
+    <wsdl:port name="AuthenticationSoap" binding="tns:AuthenticationSoap">
+      <soap:address location="http://localhost/UOF11.60/PublicAPI/System/Authentication.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticationSoap12" binding="tns:AuthenticationSoap12">
+      <soap12:address location="http://localhost/UOF11.60/PublicAPI/System/Authentication.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticationHttpGet" binding="tns:AuthenticationHttpGet">
+      <http:address location="http://localhost/UOF11.60/PublicAPI/System/Authentication.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticationHttpPost" binding="tns:AuthenticationHttpPost">
+      <http:address location="http://localhost/UOF11.60/PublicAPI/System/Authentication.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,265 @@
+﻿using System;
+using System.IO;
+using System.Text;
+using System.Threading;
+using System.Security.Cryptography;
+
+public class CSharpLab
+{
+    //加解密範例程式
+    //加密演算法 AES
+    //預設參數:
+    //Mode:CBC , key size: 32 Bytes(256bits) , block size: 16 Bytes(128bits) , padding: PKCS7 
+    public static void Test()
+    {													          
+       var e = encrypt("test","testkey","testiv");
+       Console.WriteLine();
+       var d = decrypt(e,"testkey","testiv");      		          
+    }
+    
+    //加密
+    private static string encrypt(string data, string strKey, string strIV)
+        {
+            Console.WriteLine("加密傳入參數 data={0},strKey={1},strIV={2}",data,strKey,strIV);
+            
+
+            //將key轉成utf8編碼 byte array
+            byte[] tmpkey = System.Text.Encoding.UTF8.GetBytes(strKey);
+            Console.WriteLine("\n1.將key轉成utf8編碼 byte array");
+            Console.WriteLine("原始:{0}",strKey);
+            Console.WriteLine("結果:{0}",ByteToHex(tmpkey));
+
+            //將iv轉成utf8編碼 byte array
+            byte[] tmpIV = System.Text.Encoding.UTF8.GetBytes(strIV);
+            Console.WriteLine("\n2.將iv轉成utf8編碼 byte array");
+            Console.WriteLine("原始:{0}",strIV);
+            Console.WriteLine("結果:{0}",ByteToHex(tmpIV));
+
+
+            MD5CryptoServiceProvider mD5Provider = new MD5CryptoServiceProvider();
+            
+            //將tempkey取得md5的hash,結果會是16 byte的array            
+            byte[] key = mD5Provider.ComputeHash(tmpkey);            
+            Console.WriteLine("\n3.將tempkey取得md5的hash,結果會是16 byte的array");
+            Console.WriteLine("原始:{0}",ByteToHex(tmpkey));
+            Console.WriteLine("結果:{0}",ByteToHex(key));
+            
+            //將tmpIV取得md5的hash,結果會是16 byte的array  
+            byte[] iv = mD5Provider.ComputeHash(tmpIV);
+            Console.WriteLine("\n4.將tmpIV取得md5的hash,結果會是16 byte的array");
+            Console.WriteLine("原始:{0}",ByteToHex(tmpIV));
+            Console.WriteLine("結果:{0}",ByteToHex(iv));
+            
+
+            //將data轉成utf8編碼 byte array
+            byte[] byteData = Encoding.UTF8.GetBytes(data);
+            Console.WriteLine("\n5.將data轉成utf8編碼 byte array");
+            Console.WriteLine("原始:{0}",data);
+            Console.WriteLine("結果:{0}",ByteToHex(byteData));
+
+
+            //加密
+            RijndaelManaged aesProvider = new RijndaelManaged();
+            ICryptoTransform aesEncrypt = aesProvider.CreateEncryptor(key, iv);
+            byte[] result = aesEncrypt.TransformFinalBlock(byteData, 0, byteData.Length);
+            Console.WriteLine("\n6.加密");
+            Console.WriteLine("原始:{0}",ByteToHex(byteData));
+            Console.WriteLine("結果:{0}",ByteToHex(result));
+
+
+            //轉成base64字串
+            string base64Result = Convert.ToBase64String(result);
+            Console.WriteLine("\n7.加密");
+            Console.WriteLine("原始:{0}",ByteToHex(result));
+            Console.WriteLine("結果:{0}",base64Result);
+            return base64Result;
+        }
+    
+    //解密
+    private static string decrypt(string data, string strKey, string strIV)
+        {
+           Console.WriteLine("解密傳入參數 data={0},strKey={1},strIV={2}",data,strKey,strIV);
+
+             //將key轉成utf8編碼 byte array
+            byte[] tmpkey = System.Text.Encoding.UTF8.GetBytes(strKey);
+            Console.WriteLine("\n1.將key轉成utf8編碼 byte array");
+            Console.WriteLine("原始:{0}",strKey);
+            Console.WriteLine("結果:{0}",ByteToHex(tmpkey));
+
+            //將iv轉成utf8編碼 byte array
+            byte[] tmpIV = System.Text.Encoding.UTF8.GetBytes(strIV);
+            Console.WriteLine("\n2.將iv轉成utf8編碼 byte array");
+            Console.WriteLine("原始:{0}",strIV);
+            Console.WriteLine("結果:{0}",ByteToHex(tmpIV));
+
+
+            MD5CryptoServiceProvider mD5Provider = new MD5CryptoServiceProvider();
+            
+            //將tempkey取得md5的hash,結果會是16 byte的array            
+            byte[] key = mD5Provider.ComputeHash(tmpkey);            
+            Console.WriteLine("\n3.將tempkey取得md5的hash,結果會是16 byte的array");
+            Console.WriteLine("原始:{0}",ByteToHex(tmpkey));
+            Console.WriteLine("結果:{0}",ByteToHex(key));
+            
+            //將tmpIV取得md5的hash,結果會是16 byte的array  
+            byte[] iv = mD5Provider.ComputeHash(tmpIV);
+            Console.WriteLine("\n4.將tmpIV取得md5的hash,結果會是16 byte的array");
+            Console.WriteLine("原始:{0}",ByteToHex(tmpIV));
+            Console.WriteLine("結果:{0}",ByteToHex(iv));
+
+
+            //將base64字串轉成byte array
+            byte[] encryptData = Convert.FromBase64String(data);
+            Console.WriteLine("\n5.將base64字串轉成byte array");
+            Console.WriteLine("原始:{0}",data);
+            Console.WriteLine("結果:{0}",ByteToHex(encryptData));
+
+
+            //解密
+            RijndaelManaged aesProvider = new RijndaelManaged();
+            ICryptoTransform aesDecrypt = aesProvider.CreateDecryptor(key, iv);
+            byte[] result = aesDecrypt.TransformFinalBlock(encryptData, 0, encryptData.Length);
+            Console.WriteLine("\n6.解密");
+            Console.WriteLine("原始:{0}",ByteToHex(encryptData));
+            Console.WriteLine("結果:{0}",ByteToHex(result));
+
+
+            //將解密後的內容還原成utf8編碼的字串
+
+            string pText= Encoding.UTF8.GetString(result);
+            Console.WriteLine("\n7.將解密後的內容還原成utf8編碼的字串");
+            Console.WriteLine("原始:{0}",ByteToHex(result));
+            Console.WriteLine("結果:{0}",pText);
+            
+            return pText;
+
+        }
+        
+        private static string ByteToHex(byte[] ba)
+        {            
+            return "["+BitConverter.ToString(ba).Replace("-",",")+"]";            
+        }
+}
+
+-------底下是C#的執行結果---------------------------------------------------------------------------------------
+
+加密傳入參數 data=test,strKey=testkey,strIV=testiv
+
+1.將key轉成utf8編碼 byte array
+原始:testkey
+結果:[74,65,73,74,6B,65,79]
+
+2.將iv轉成utf8編碼 byte array
+原始:testiv
+結果:[74,65,73,74,69,76]
+
+3.將tempkey取得md5的hash,結果會是16 byte的array
+原始:[74,65,73,74,6B,65,79]
+結果:[22,1B,36,8D,7F,5F,59,78,67,F5,25,97,1F,28,FF,75]
+
+4.將tmpIV取得md5的hash,結果會是16 byte的array
+原始:[74,65,73,74,69,76]
+結果:[38,F8,7B,0B,9B,73,61,60,BF,C0,CB,D8,44,7A,F6,EE]
+
+5.將data轉成utf8編碼 byte array
+原始:test
+結果:[74,65,73,74]
+
+6.加密
+原始:[74,65,73,74]
+結果:[E1,1B,56,B1,57,C6,F0,8F,2E,B4,16,C8,2F,79,5C,78]
+
+7.加密
+原始:[E1,1B,56,B1,57,C6,F0,8F,2E,B4,16,C8,2F,79,5C,78]
+結果:4RtWsVfG8I8utBbIL3lceA==
+
+解密傳入參數 data=4RtWsVfG8I8utBbIL3lceA==,strKey=testkey,strIV=testiv
+
+1.將key轉成utf8編碼 byte array
+原始:testkey
+結果:[74,65,73,74,6B,65,79]
+
+2.將iv轉成utf8編碼 byte array
+原始:testiv
+結果:[74,65,73,74,69,76]
+
+3.將tempkey取得md5的hash,結果會是16 byte的array
+原始:[74,65,73,74,6B,65,79]
+結果:[22,1B,36,8D,7F,5F,59,78,67,F5,25,97,1F,28,FF,75]
+
+4.將tmpIV取得md5的hash,結果會是16 byte的array
+原始:[74,65,73,74,69,76]
+結果:[38,F8,7B,0B,9B,73,61,60,BF,C0,CB,D8,44,7A,F6,EE]
+
+5.將base64字串轉成byte array
+原始:4RtWsVfG8I8utBbIL3lceA==
+結果:[E1,1B,56,B1,57,C6,F0,8F,2E,B4,16,C8,2F,79,5C,78]
+
+6.解密
+原始:[E1,1B,56,B1,57,C6,F0,8F,2E,B4,16,C8,2F,79,5C,78]
+結果:[74,65,73,74]
+
+7.將解密後的內容還原成utf8編碼的字串
+原始:[74,65,73,74]
+結果:test
+
+
+
+
+
+-------底下是PHP的範例---------------------------------------------------------------------------------------
+<?php
+
+$e=encrypt('testkey','testiv','test');
+echo $e."<br>";
+echo decrypt('testkey','testiv',$e)."<br>";
+
+
+function decrypt($strKey,$strIv,$encryptedData) {
+        $cipher = MCRYPT_RIJNDAEL_128;
+        $mode = MCRYPT_MODE_CBC;
+          $key = hexToStr(hash('md5', $strKey)); 
+	  $iv = hexToStr(hash('md5', $strIv));  
+      
+
+        $data =  mcrypt_decrypt(
+            $cipher,
+            $key,
+            base64_decode($encryptedData),
+            $mode,
+            $iv
+        );
+    $pad = ord($data[strlen($data) - 1]);
+        return substr($data, 0, -$pad);
+    }
+  
+function encrypt($strKey,$strIv,$data) {       
+        $cipher = MCRYPT_RIJNDAEL_128;
+        $mode = MCRYPT_MODE_CBC;
+	  $key = hexToStr(hash('md5', $strKey)); 
+	  $iv = hexToStr(hash('md5', $strIv));  
+        $blockSize = mcrypt_get_block_size($cipher, $mode);
+        $pad = $blockSize - (strlen($data) % $blockSize);
+	
+	
+
+        return base64_encode(mcrypt_encrypt(
+            $cipher,
+            $key,
+            $data . str_repeat(chr($pad), $pad),
+            $mode,
+            $iv
+        ));
+    }
+
+
+function hexToStr($hex){
+    $string='';
+    for ($i=0; $i < strlen($hex)-1; $i+=2){
+        $string .= chr(hexdec($hex[$i].$hex[$i+1]));
+    }
+    return $string;
+}
+
+
+?>

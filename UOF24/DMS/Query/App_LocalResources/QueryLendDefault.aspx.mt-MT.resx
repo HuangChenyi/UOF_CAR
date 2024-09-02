@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Revision</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Released time</value>
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="ddlChangeStyleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSortTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="docIconResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="docIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="docIconResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="docIconResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid1Resource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="Grid1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridDetailResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridDetailResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="gridDetailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hyCommonuseResource1.Text" xml:space="preserve">
+    <value>Add in commonly used documents</value>
+  </data>
+  <data name="hyCommonuseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image8Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image9Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAgentResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAgentResource1.ToolTip" xml:space="preserve">
+    <value>Forced subscription</value>
+  </data>
+  <data name="imgFolderResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgNoPDFViewerResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFErrorResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFErrorResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFErrorResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFViewerResource1.AlternateText" xml:space="preserve">
+    <value>သတင်းအချက်အလက်မြင်ကွင်း</value>
+  </data>
+  <data name="imgPDFViewerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgPDFViewerResource2.AlternateText" xml:space="preserve">
+    <value>သတင်းအချက်အလက်မြင်ကွင်း</value>
+  </data>
+  <data name="imgPDFViewerResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgStar1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgStar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgStar1Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgStar1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labAlertResource1.Text" xml:space="preserve">
+    <value>File is in converting, please check later</value>
+  </data>
+  <data name="labAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labdelSummaryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDetailVerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labdetKeywordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDLFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDLFileResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDModifyDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocSerialResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Summary:</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>關鍵字：</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Display format:</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Function list</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Sequence format：</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labela41Resource1.Text" xml:space="preserve">
+    <value>Revision:</value>
+  </data>
+  <data name="Labela41Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labela4Resource1.Text" xml:space="preserve">
+    <value>Effective date:</value>
+  </data>
+  <data name="Labela4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labela6Resource1.Text" xml:space="preserve">
+    <value>Expired date:</value>
+  </data>
+  <data name="Labela6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labFileErrorResource1.Text" xml:space="preserve">
+    <value>Error, file does not exist!</value>
+  </data>
+  <data name="labFileErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labFilenameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labFolderNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labFolderNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labNoActiveResource1.Text" xml:space="preserve">
+    <value>Not yet in effect</value>
+  </data>
+  <data name="labNoActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labPDFConvertERRORResource1.Text" xml:space="preserve">
+    <value>File convert error!</value>
+  </data>
+  <data name="labPDFConvertERRORResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActiveDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActiveDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActiveResource1.Text" xml:space="preserve">
+    <value>Effective immediately</value>
+  </data>
+  <data name="lblActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddUseErrorResource1.Text" xml:space="preserve">
+    <value>Error occurred while adding in commonly used documents</value>
+  </data>
+  <data name="lblAddUseErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClassResource1.Text" xml:space="preserve">
+    <value>Document category:</value>
+  </data>
+  <data name="lblClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCommonuseResource1.Text" xml:space="preserve">
+    <value>Add in commonly used documents</value>
+  </data>
+  <data name="lblCommonuseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmAddResource1.Text" xml:space="preserve">
+    <value>Add to collection ?</value>
+  </data>
+  <data name="lblConfirmAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmAddUseResource1.Text" xml:space="preserve">
+    <value>Confirm to add in commonly used document?</value>
+  </data>
+  <data name="lblConfirmAddUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmDeleteCommonListResource1.Text" xml:space="preserve">
+    <value>Remove from Commonly used documents?</value>
+  </data>
+  <data name="lblConfirmDeleteCommonListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeletingResource1.Text" xml:space="preserve">
+    <value>(銷毀審核中)</value>
+  </data>
+  <data name="lblDMSRootResource1.Text" xml:space="preserve">
+    <value>Document database</value>
+  </data>
+  <data name="lblDMSRootResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocInvalidResource1.Text" xml:space="preserve">
+    <value>此文件已下架、失效或作廢，無法觀看或下載</value>
+  </data>
+  <data name="lblDocNotFindResource1.Text" xml:space="preserve">
+    <value>文件還未上傳或已被銷毀</value>
+  </data>
+  <data name="lblDocNumResource1.Text" xml:space="preserve">
+    <value>Document number:</value>
+  </data>
+  <data name="lblDocNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocPathResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocPathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocSerialResource1.Text" xml:space="preserve">
+    <value>文件編號：</value>
+  </data>
+  <data name="lblFileHasPasswordResource1.Text" xml:space="preserve">
+    <value>原始檔案有設定密碼，無法轉檔</value>
+  </data>
+  <data name="lblFileNotTransferToUofResource1.Text" xml:space="preserve">
+    <value>This file is still in Proxy server, it is uploading now, please wait！</value>
+  </data>
+  <data name="lblFileNotTransferToUofResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFilePageOutLimitMsgResource1.Text" xml:space="preserve">
+    <value>檔案頁數{0}頁，超過可轉檔上限。</value>
+  </data>
+  <data name="lblFilePageOutLimitResource1.Text" xml:space="preserve">
+    <value>檔案頁數超過可轉檔上限{0}頁</value>
+  </data>
+  <data name="lblFileResource1.Text" xml:space="preserve">
+    <value>File name:</value>
+  </data>
+  <data name="lblFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderDelResource1.Text" xml:space="preserve">
+    <value>Directory deleted</value>
+  </data>
+  <data name="lblFolderDelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="lblInactiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvalidDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvalidDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblKeyWordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLendOtherResource1.Text" xml:space="preserve">
+    <value>အခြား</value>
+  </data>
+  <data name="lblLendOtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLendOtherResource2.Text" xml:space="preserve">
+    <value>အခြား</value>
+  </data>
+  <data name="lblLendOtherResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManualVersionResource1.Text" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="lblNeverOverdueResource1.Text" xml:space="preserve">
+    <value>Never expire</value>
+  </data>
+  <data name="lblNeverOverdueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoDLResource1.Text" xml:space="preserve">
+    <value>此文件目前不可下載</value>
+  </data>
+  <data name="lblNoFolderAuthorityResource1.Text" xml:space="preserve">
+    <value>無此目錄觀看權限</value>
+  </data>
+  <data name="lblNoLendResource1.Text" xml:space="preserve">
+    <value>此文件目前不允許調閱</value>
+  </data>
+  <data name="lblNotsupportDocResource1.Text" xml:space="preserve">
+    <value>The directory is set as "Convert", but the file type of uploaded file is not supported.</value>
+  </data>
+  <data name="lblNotsupportDocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPathResource1.Text" xml:space="preserve">
+    <value>Document route:</value>
+  </data>
+  <data name="lblPathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrintUserResource1.Text" xml:space="preserve">
+    <value>列印者：</value>
+  </data>
+  <data name="lblProtectMsgResource1.Text" xml:space="preserve">
+    <value>The DOC is encrypted, unable to view.</value>
+  </data>
+  <data name="lblProtectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishDateTextResource1.Text" xml:space="preserve">
+    <value>Released date:</value>
+  </data>
+  <data name="lblPublishDateTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>Released</value>
+  </data>
+  <data name="lblPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSatusTitleResource1.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lblSatusTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchFolderDocResource1.Text" xml:space="preserve">
+    <value>搜尋目錄下文件(名稱、編號、關鍵字):</value>
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuccessAddResource1.Text" xml:space="preserve">
+    <value>Add to collection successfully</value>
+  </data>
+  <data name="lblSuccessAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdatingResource1.Text" xml:space="preserve">
+    <value>Revision Updating</value>
+  </data>
+  <data name="lblUpdatingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViodingResource1.Text" xml:space="preserve">
+    <value>(ခွင့်ပြုချက် ငြင်းပယ်သည်)</value>
+  </data>
+  <data name="lblViodingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnAdvancedResource1.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="lbtnAdvancedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCommonuseResource1.Text" xml:space="preserve">
+    <value>Add in commonly used documents</value>
+  </data>
+  <data name="lbtnCommonuseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnInfoResource1.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="lbtnInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnInfoResource2.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="lbtnInfoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Document list</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>ListStyle</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Detailed information</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>DetailStyle</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>DocName</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Document number</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>DocSerial</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>DocAuthor</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>DocStatus</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Modification date</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>DocModifyDate</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>DocKeyWord</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>調閱申請狀態</value>
+  </data>
+  <data name="panContentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panDefaultResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panDefaultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadAjaxManager1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Document number</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeLendFolderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

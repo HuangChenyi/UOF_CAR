@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ckbIsFlexibleResource1.Text" xml:space="preserve">
+    <value>Ngày đầu tiên được tính dựa trên thời gian làm việc linh hoạt gần nhất</value>
+  </data>
+  <data name="cvCheckNoSettingResource1.ErrorMessage" xml:space="preserve">
+    <value>Không tìm thấy thời gian làm việc</value>
+  </data>
+  <data name="cvCheckNoSettingResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckNoSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSameTimeTableResource1.ErrorMessage" xml:space="preserve">
+    <value>Nhân viên có giờ làm việc khác trong chuyến công tác hoặc chưa sắp xếp lịch làm việc theo ca</value>
+  </data>
+  <data name="cvCheckSameTimeTableResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckSameTimeTableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckTravelUsersResource1.ErrorMessage" xml:space="preserve">
+    <value>Không cho phép để trống</value>
+  </data>
+  <data name="cvCheckTravelUsersResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvCheckTravelUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvEndBiggerThenStartResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvEndBiggerThenStartResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvEndBiggerThenStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvHoursEmptyResource1.ErrorMessage" xml:space="preserve">
+    <value>Vui lòng xác nhận khoảng thời gian từ khi bắt đầu và kết thúc nghỉ phép, có lịch trình đã định hay không, hoặc có được bao gồm thời gian làm việc  hay không.</value>
+  </data>
+  <data name="cvHoursEmptyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvHoursEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSameFormResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSameFormResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvSameFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvTimeTableIsClosedResource1.ErrorMessage" xml:space="preserve">
+    <value>Thỏa thuận kinh doanh đã bị khóa hoặc đóng cửa trong ngày đi công tác và không thể áp dụng cho</value>
+  </data>
+  <data name="cvTimeTableIsClosedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvTimeTableIsClosedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFinishHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFinishMinuteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStartHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStartMinuteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Múi giờ vị trí sát nhập</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>Điền nhân viên có quyền hạn</value>
+  </data>
+  <data name="lblAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayFinishDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayFinishDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayStartDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndBiggerThenStartResource1.Text" xml:space="preserve">
+    <value>Thời gian đi công tác (bắt đầu) không muộn hơn thời gian đi lại</value>
+  </data>
+  <data name="lblEndBiggerThenStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndDateDmptyResource1.Text" xml:space="preserve">
+    <value>Thời gian đi công tác (đã kết thúc) không được để trống</value>
+  </data>
+  <data name="lblEndDateDmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinishTimeResource1.Text" xml:space="preserve">
+    <value>Thời gian đi công tác (đã kết thúc)</value>
+  </data>
+  <data name="lblFinishTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHasNoAuthorityResource1.Text" xml:space="preserve">
+    <value>Không có quyền hạn điền vào</value>
+  </data>
+  <data name="lblHasNoAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHourResource1.Text" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="lblHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHoursResource1.Text" xml:space="preserve">
+    <value>Giờ đi công tác</value>
+  </data>
+  <data name="lblHoursResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifierResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgSignerResource1.Text" xml:space="preserve">
+    <value>Người điền</value>
+  </data>
+  <data name="lblMsgSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSameOfficeResource1.Text" xml:space="preserve">
+    <value>Nhân viên đi công tác thuộc các địa điểm khác nhau</value>
+  </data>
+  <data name="lblSameOfficeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSemicolon1Resource1.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="lblSemicolon1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSemicolon2Resource1.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="lblSemicolon2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStratTimeResource1.Text" xml:space="preserve">
+    <value>Thời gian đi công tác (bắt đầu)</value>
+  </data>
+  <data name="lblStratTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToolTipMsgResource1.Text" xml:space="preserve">
+    <value>Không cho phép sửa ( chỉ đọc)</value>
+  </data>
+  <data name="lblToolTipMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalHourResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTravelDisplayResource1.Text" xml:space="preserve">
+    <value>Đi công tác</value>
+  </data>
+  <data name="lblTravelDisplayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTravelUsersResource1.Text" xml:space="preserve">
+    <value>Nhân viên đi công tác</value>
+  </data>
+  <data name="lblTravelUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsersSettResource1.Text" xml:space="preserve">
+    <value>Nhân viên đi công tác không chung thể loại ước tính</value>
+  </data>
+  <data name="lblUsersSettResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnPreviewTimeTableResource1.Text" xml:space="preserve">
+    <value>Xem trước lịch </value>
+  </data>
+  <data name="lbtnPreviewTimeTableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnSameFormResource1.Text" xml:space="preserve">
+    <value>Vui lòng nhấp vào đây để xem khách du lịch mâu thuẫn với các hình thức khác</value>
+  </data>
+  <data name="lbtnSameFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnUserReportResource1.Text" xml:space="preserve">
+    <value>Thông tin vắng mặt</value>
+  </data>
+  <data name="rdbtnCaculatorResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnCaculatorResource1.Text" xml:space="preserve">
+    <value>Tính toán</value>
+  </data>
+  <data name="rdbtnCaculatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdFinishDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdFinishDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdFinishDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdFinishDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdFinishDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdFinishDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdStartDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdStartDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="rdStartDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdStartDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdStartDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rfvFinishDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Thời gian đi công tác (đã kết thúc) không được để trống</value>
+  </data>
+  <data name="rfvFinishDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFinishDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvStartDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Thời gian đi công tác (bắt đầu) không được để trống</value>
+  </data>
+  <data name="rfvStartDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgEditorResource1.Text" xml:space="preserve">
+    <value>Người sửa  </value>
+  </data>
+</root>

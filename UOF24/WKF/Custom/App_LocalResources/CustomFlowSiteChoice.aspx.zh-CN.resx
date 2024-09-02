@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rbAssignableSiteResource1.Text" xml:space="preserve">
+    <value>签核节奌</value>
+  </data>
+  <data name="lblFieldSiteMsgResource1.Text" xml:space="preserve">
+    <value>选择表单组织人员型态的字段，签核时由字段选择的内容进行签核</value>
+  </data>
+  <data name="lblAlertSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddMsg_SignResource1.Text" xml:space="preserve">
+    <value>新建签核式节奌</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExternalSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignSiteMsgResource1.Text" xml:space="preserve">
+    <value>单一节奌设置，可直接设置特殊人员或是挑选常规签核人员</value>
+  </data>
+  <data name="lblAddMsg_CustGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbBranchSite_assignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSiteMsgResource1.Text" xml:space="preserve">
+    <value>仅提供通知，不需设置签核人员</value>
+  </data>
+  <data name="lblAddMsg_FieldResource1.Text" xml:space="preserve">
+    <value>新建组织字段节奌</value>
+  </data>
+  <data name="rbAlertSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddMsg_AlertResource1.Text" xml:space="preserve">
+    <value>新建通知节奌</value>
+  </data>
+  <data name="rbBranchSite_assignResource1.Text" xml:space="preserve">
+    <value>分岔式节奌 ( 指定 )</value>
+  </data>
+  <data name="lblAddMsg_CondResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddMsg_CustGroupResource1.Text" xml:space="preserve">
+    <value>新建自选流程节奌</value>
+  </data>
+  <data name="lblAddMsg_ExternalResource1.Text" xml:space="preserve">
+    <value>新建应用程序节奌</value>
+  </data>
+  <data name="lblAddMsg_FlowResource1.Text" xml:space="preserve">
+    <value>新建流程节奌</value>
+  </data>
+  <data name="rbBranchSite_conditionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbAlertSiteResource1.Text" xml:space="preserve">
+    <value>通知节奌</value>
+  </data>
+  <data name="lblCondSiteMsgResource1.Text" xml:space="preserve">
+    <value>判断条件设置，因为是条件设置所以要先选择要判断的条件，选好后，再选择判断条件所要跑的副流程，一个判断条件只能搭配一个副流程</value>
+  </data>
+  <data name="lblFlowSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbBranchSite_conditionResource1.Text" xml:space="preserve">
+    <value>分岔式节奌 ( 条件 )</value>
+  </data>
+  <data name="lblAddMsg_AlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddMsg_FlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddMsg_SignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbAssignableSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGroupSiteMsgResource1.Text" xml:space="preserve">
+    <value>由表单设计者设置好副流程，再由用户自行选择一个以上的副流程来作为签核流程</value>
+  </data>
+  <data name="lblExternalSiteMsgResource1.Text" xml:space="preserve">
+    <value>提供接口，可设置调用外部应用程序(DLL)，由DLL决定节奌流程</value>
+  </data>
+  <data name="lblCustGroupSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>节奌类型选择</value>
+  </data>
+  <data name="lblAddMsg_CondResource1.Text" xml:space="preserve">
+    <value>新建条件式节奌</value>
+  </data>
+  <data name="lblAddMsg_FieldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGroupSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCondSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>请选择节奌类型</value>
+  </data>
+  <data name="lblCustGroupSiteMsgResource1.Text" xml:space="preserve">
+    <value>由用户在表单进行时，自行设置签核流程</value>
+  </data>
+  <data name="lblAddMsg_ExternalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowSiteMsgResource1.Text" xml:space="preserve">
+    <value>副流程节奌设置，在副流程列表挑选要使用的副流程</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

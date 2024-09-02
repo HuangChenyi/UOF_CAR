@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnSearchDeptResource1.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="btnSearchDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearchEmployeeResource1.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="btnSearchEmployeeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAllowSubDeptResource1.Text" xml:space="preserve">
+    <value>Include Sub-Dep.</value>
+  </data>
+  <data name="cbAllowSubDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAllowSubDeptResource2.Text" xml:space="preserve">
+    <value>Include sub-Departments</value>
+  </data>
+  <data name="cbAllowSubDeptResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbAllowSubGroupResource1.Text" xml:space="preserve">
+    <value>Include sub-Departments</value>
+  </data>
+  <data name="cbAllowSubGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Select Dep.</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource2.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>External Group</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labela2Resource1.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Labela2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labelb12Resource1.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Labelb12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labelb13Resource1.Text" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Labelb13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labelc12Resource1.Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Labelc12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labeld12Resource1.Text" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="Labeld12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbByDepartmentResource1.Text" xml:space="preserve">
+    <value>By Department</value>
+  </data>
+  <data name="lbByDepartmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbByEmployeeResource1.Text" xml:space="preserve">
+    <value>By Employee</value>
+  </data>
+  <data name="lbByEmployeeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbByFunctionResource1.Text" xml:space="preserve">
+    <value>By Function</value>
+  </data>
+  <data name="lbByFunctionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbByGroupResource1.Text" xml:space="preserve">
+    <value>By Group</value>
+  </data>
+  <data name="lbByGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbByMemberResource1.Text" xml:space="preserve">
+    <value>By Ext. Member</value>
+  </data>
+  <data name="lbByMemberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbByTitleResource1.Text" xml:space="preserve">
+    <value>By Position</value>
+  </data>
+  <data name="lbByTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbKindResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbKindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorIsEndResource1.Text" xml:space="preserve">
+    <value>Last data</value>
+  </data>
+  <data name="lblErrorIsEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorNotFindResource1.Text" xml:space="preserve">
+    <value>No data founded</value>
+  </data>
+  <data name="lblErrorNotFindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchEmployeePageResource1.Text" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="lblSearchEmployeePageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchEmployeePieceResource1.Text" xml:space="preserve">
+    <value>Qty:</value>
+  </data>
+  <data name="lblSearchEmployeePieceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchUserPageResource1.Text" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="lblSearchUserPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbSearchUserCountResource1.Text" xml:space="preserve">
+    <value>Qty:</value>
+  </data>
+  <data name="lbSearchUserCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowMemberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowMemberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowSubDeptResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowSubDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbTxtGroupResource1.Text" xml:space="preserve">
+    <value>Ext. Group</value>
+  </data>
+  <data name="lbTxtGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbTxtMemberResource1.Text" xml:space="preserve">
+    <value>Ext. Member</value>
+  </data>
+  <data name="lbTxtMemberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbTxtSubGroupResource1.Text" xml:space="preserve">
+    <value>Include Sub-Group</value>
+  </data>
+  <data name="lbTxtSubGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgNextPageResource1.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="msgPrevPageResource1.Text" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="PanRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanTopResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadAjaxManager1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton1Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton1Resource1.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="RadButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton2Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton2Resource1.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="RadButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton3Resource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadButton3Resource1.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="RadButton3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>By Department</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>By member</value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>DepartmentUser</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>By Position</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>JobTitle</value>
+  </data>
+  <data name="RadTabResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>By Function</value>
+  </data>
+  <data name="RadTabResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Value" xml:space="preserve">
+    <value>JobFunction</value>
+  </data>
+  <data name="RadTabResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.Text" xml:space="preserve">
+    <value>By group</value>
+  </data>
+  <data name="RadTabResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource5.Value" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="RadTabResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.Text" xml:space="preserve">
+    <value>By external member</value>
+  </data>
+  <data name="RadTabResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource6.Value" xml:space="preserve">
+    <value>GroupUser</value>
+  </data>
+  <data name="RadTabStrip1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeDepartmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeDeptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeDeptWithEmpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeEmployeeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeFuncResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeGroupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeJobFunctionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeJobTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeUserResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebTab1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

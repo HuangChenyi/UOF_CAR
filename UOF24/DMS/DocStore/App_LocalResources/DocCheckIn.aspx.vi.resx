@@ -1,0 +1,1274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authDepResource1.Text" xml:space="preserve">
+    <value>Bộ phận chịu trách nhiệm</value>
+  </data>
+  <data name="authDepResource1.Value" xml:space="preserve">
+    <value>authDep</value>
+  </data>
+  <data name="btnEditRemarkResource1.Text" xml:space="preserve">
+    <value>Duy trì tham khảo mô tả </value>
+  </data>
+  <data name="cbActiveEqualPublishResource1.Text" xml:space="preserve">
+    <value>Khi tài liệu được xuất bản, ngày xuất bản muộn hơn ngày có hiệu lực và ngày xuất bản sẽ được ưu tiên áp dụng.</value>
+  </data>
+  <data name="cbActiveEqualPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbActiveQrCodeResource1.Text" xml:space="preserve">
+    <value>Khởi động </value>
+  </data>
+  <data name="cbAllowReleaseResource1.Text" xml:space="preserve">
+    <value>Cho phép sản xuất hồ sơ ngoại tuyến</value>
+  </data>
+  <data name="cbCanDownloadAuthResource1.Text" xml:space="preserve">
+    <value>Có thể tải xuống</value>
+  </data>
+  <data name="cbCanSaveResource1.Text" xml:space="preserve">
+    <value>Có thể được lưu dưới dạng</value>
+  </data>
+  <data name="cbRefLinkResource1.Text" xml:space="preserve">
+    <value>Tài liệu tham khảo chỉ giới hạn bản trước đó</value>
+  </data>
+  <data name="chkAttachFromArticleResource1.Text" xml:space="preserve">
+    <value>Sử dụng cài đặt kiểm soát bản gốc tài liệu chính</value>
+  </data>
+  <data name="chkAttachPrintResource1.Text" xml:space="preserve">
+    <value>In được</value>
+  </data>
+  <data name="chkBORROW_APPLYResource1.Text" xml:space="preserve">
+    <value>Cho phép truy cập ứng dụng</value>
+  </data>
+  <data name="chkBORROW_APPLYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkBorrowResource1.Text" xml:space="preserve">
+    <value>Cho phép truy cập ứng dụng</value>
+  </data>
+  <data name="chkBorrowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCOMMON_EDITResource1.Text" xml:space="preserve">
+    <value>Cho phép nhóm tác giả đồng chỉnh sửa</value>
+  </data>
+  <data name="chkCOMMON_EDITResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkContentPrintResource1.Text" xml:space="preserve">
+    <value>In được</value>
+  </data>
+  <data name="chkConvertToPDFResource1.Text" xml:space="preserve">
+    <value>Bắt đầu sử dụng cuộc họp trực tuyến </value>
+  </data>
+  <data name="chkCopyResource1.Text" xml:space="preserve">
+    <value>Có thể tái tạo</value>
+  </data>
+  <data name="chkDownloadResource1.Text" xml:space="preserve">
+    <value>Có thể tải xuống</value>
+  </data>
+  <data name="chkFilePrintResource1.Text" xml:space="preserve">
+    <value>In được</value>
+  </data>
+  <data name="chkPrintResource1.Text" xml:space="preserve">
+    <value>Có thể in được</value>
+  </data>
+  <data name="chkPrintUDocResource1.Text" xml:space="preserve">
+    <value>可列印</value>
+  </data>
+  <data name="chkSaveResource1.Text" xml:space="preserve">
+    <value>Có thể được lưu dưới dạng</value>
+  </data>
+  <data name="chkUseParentSetResource1.Text" xml:space="preserve">
+    <value>Sử dụng cài đặt bảo mật cho mục lục chính</value>
+  </data>
+  <data name="chkUseParentSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkUseParentSetupResource1.Text" xml:space="preserve">
+    <value>Sử dụng cài đặt điều chỉnh phê duyệt thư mục chính</value>
+  </data>
+  <data name="chkUseParentSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="custodyUserResource1.Text" xml:space="preserve">
+    <value>Người giữ tài liệu.</value>
+  </data>
+  <data name="custodyUserResource1.Value" xml:space="preserve">
+    <value>custodyUser</value>
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Vui lòng tải tệp lên</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Lưu lại thất bại</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Bài báo không được đăng xuất và không thể đăng ký</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>Kỳ hạn bảo lưu cài đặt sai</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Vui lòng chọn một trọng tài</value>
+  </data>
+  <data name="CustomValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvOneFileResource1.ErrorMessage" xml:space="preserve">
+    <value>Chỉ có thể tải lên một tệp cho nội dung của tệp </value>
+  </data>
+  <data name="cvSourceNoChoiceResource1.ErrorMessage" xml:space="preserve">
+    <value>Mời lựa chọn nhân viên 「」</value>
+  </data>
+  <data name="ddlUseWKFListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dwnSecretResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FinishPreviousButtonResource1.Text" xml:space="preserve">
+    <value>Trang trước</value>
+  </data>
+  <data name="gridDocRefResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridDocRefResource1.EmptyDataText" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="gridDocRefResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgDocIconResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgDocIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSideBarResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSideBarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labApproveHelpResource1.Text" xml:space="preserve">
+    <value>Có thể được phát hành sau khi thông qua và phê duyệt bởi [Người quản lý mục lục] nào dưới đây:</value>
+  </data>
+  <data name="labApproveHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labClassNameResource1.Text" xml:space="preserve">
+    <value>Loại tài liệu</value>
+  </data>
+  <data name="labClassNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDefApproveResource1.Text" xml:space="preserve">
+    <value>Có thể được phát hành sau khi thông qua và phê duyệt bởi [Người quản lý mục lục] nào dưới đây:</value>
+  </data>
+  <data name="labDefApproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDLFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocDenyResource1.Text" xml:space="preserve">
+    <value>Từ chối phát hành</value>
+  </data>
+  <data name="labDocDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labDocStoreResource1.Text" xml:space="preserve">
+    <value>Kho tài liệu</value>
+  </data>
+  <data name="labDocStoreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Mã tài liệu</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Lưu lại văn bản</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource2.Text" xml:space="preserve">
+    <value>Tên tệp tin</value>
+  </data>
+  <data name="Label12Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Đơn vị phát hành</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>Người giữ tài liệu.</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>Nội dung chính</value>
+  </data>
+  <data name="Label15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>Quy trình truy cập</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>(Nếu không chọn đủ,biểu thị tài liệu tham khảo không bị hạn chế )</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Nội dung tài liệu</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>Đang kí truy cập</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24Resource1.Text" xml:space="preserve">
+    <value>Thông báo phát hành / thay đổi</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Ghi chú phiên bản</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Mức độ bí mật</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Không chế bản thảo tài liệu chính</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Chỉnh sửa chung</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Đang kí truy cập</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Cài đặt có hiệu lực</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Thiết lập hết hạn</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelKeyWordResource1.Text" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="LabelKeyWordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labNoActiveResource1.Text" xml:space="preserve">
+    <value>Không có hiệu lực</value>
+  </data>
+  <data name="labNoActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labUseWKFResource1.Text" xml:space="preserve">
+    <value>Sử dụng ký điện tử, vui lòng chọn lưu trình ký</value>
+  </data>
+  <data name="labUseWKFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lanNoApproveResource1.Text" xml:space="preserve">
+    <value>Thư mục này không có bộ quản lý thư mục và không thể thực hiện cài đặt kiểm tra</value>
+  </data>
+  <data name="lanNoApproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActiveQrCodeResource1.Text" xml:space="preserve">
+    <value>Tạo văn bản  QR Code</value>
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>Đang xét duyệt</value>
+  </data>
+  <data name="lblApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArticleResource1.Text" xml:space="preserve">
+    <value>Nội dung văn bản gốc (nội dung ban đầu, không bao gồm watermark)</value>
+  </data>
+  <data name="lblAttachControlResource1.Text" xml:space="preserve">
+    <value>Tệp đính kèm</value>
+  </data>
+  <data name="lblAttachControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAttachFileResource1.Text" xml:space="preserve">
+    <value>Tệp đính kèm</value>
+  </data>
+  <data name="lblAttachFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblattachmentResource1.Text" xml:space="preserve">
+    <value>Tệp đính kèm</value>
+  </data>
+  <data name="lblAttachTilteResource1.Text" xml:space="preserve">
+    <value>Kiểm soát bản thảo tệp đính kèm</value>
+  </data>
+  <data name="lblAttachTilteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblattchmentInfoResource1.Text" xml:space="preserve">
+    <value>2. File đính kèm chưa hỗ trợ xem trực tuyến, sau khi file được phát hành, người phân bổ  có thể tải file gốc về máy.</value>
+  </data>
+  <data name="lblAuthDepResource1.Text" xml:space="preserve">
+    <value>Bộ phận chịu trách nhiệm</value>
+  </data>
+  <data name="lblAutoSerialResource1.Text" xml:space="preserve">
+    <value>mã tài liệu tự động</value>
+  </data>
+  <data name="lblAutoSerialResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChangeReasonResource1" xml:space="preserve">
+    <value>Lý do phát hành / thay đổi</value>
+  </data>
+  <data name="lblCheckinErrorResource1.Text" xml:space="preserve">
+    <value>Lưu lại thất bại</value>
+  </data>
+  <data name="lblCheckinErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckinResource1.Text" xml:space="preserve">
+    <value>Đã kiểm tra lại</value>
+  </data>
+  <data name="lblCheckinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>Đã lấy ra</value>
+  </data>
+  <data name="lblCheckOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChoiceBtntxtResource1.Text" xml:space="preserve">
+    <value>Chọn bộ phận</value>
+  </data>
+  <data name="lblChoiceBtntxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblClassResource1.Text" xml:space="preserve">
+    <value>Loại tài liệu</value>
+  </data>
+  <data name="lblClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblcontentAttachTitleResource1.Text" xml:space="preserve">
+    <value>Kiểm soát bản thảo tệp đính kèm</value>
+  </data>
+  <data name="lblContentTitleResource1.Text" xml:space="preserve">
+    <value>Kiểm soát bản thảo tài liệu gốc</value>
+  </data>
+  <data name="lblcvNonEmptyResource1.Text" xml:space="preserve">
+    <value>Không để trống</value>
+  </data>
+  <data name="lblcvNonEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocFileInfoResource1.Text" xml:space="preserve">
+    <value>Chỉ có thể tải lên một tệp cho nội dung của tệp và nhiều tệp có thể được tải lên cho phần đính kèm.</value>
+  </data>
+  <data name="lblDownloadAuthResource1.Text" xml:space="preserve">
+    <value>Quyền tải xuống</value>
+  </data>
+  <data name="lblDownloadAuthTitleResource1.Text" xml:space="preserve">
+    <value>Tệp gốc</value>
+  </data>
+  <data name="lblDraftResource1.Text" xml:space="preserve">
+    <value>Bản nháp </value>
+  </data>
+  <data name="lblDraftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFolderPathResource1.Text" xml:space="preserve">
+    <value>Thư mục tham khảo</value>
+  </data>
+  <data name="lblFolderPathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>Đã mất hiệu  lực</value>
+  </data>
+  <data name="lblInactiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameRepeatResource1.Text" xml:space="preserve">
+    <value>Tên tệp đã được sử dụng trong thư mục này</value>
+  </data>
+  <data name="lblNameRepeatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNeedDocContentResource1.Text" xml:space="preserve">
+    <value>Vui lòng nhập nội dung tài liệu</value>
+  </data>
+  <data name="lblNeedDocContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNeedDocNameResource1.Text" xml:space="preserve">
+    <value>Vui lòng nhập tiêu đề tài liệu</value>
+  </data>
+  <data name="lblNeedDocNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoExtensionResource1.Text" xml:space="preserve">
+    <value>Không thể tải lên tệp mà không có phần mở rộng</value>
+  </data>
+  <data name="lblNoExtensionResource1.Text1" xml:space="preserve">
+    <value>Không thể tải lên tệp mà không có phần mở rộng</value>
+  </data>
+  <data name="lblNoExtensionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOldVerResource1.Text" xml:space="preserve">
+    <value>Phiên bản cũ</value>
+  </data>
+  <data name="lblOldVerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOneFileResource1.Text" xml:space="preserve">
+    <value>Chỉ có thể tải lên một tệp cho nội dung của tệp </value>
+  </data>
+  <data name="lblOnlineViewResource.Text" xml:space="preserve">
+    <value>Xem tệp trực tuyến</value>
+  </data>
+  <data name="lblOnlineViewResource.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPathResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPrintUDocMemo1Resource1.Text" xml:space="preserve">
+    <value>1. Khi tính năng xem trực tuyến bài viết này được kích hoạt, những người được phép in nội dung bài viết này phải có quyền (bao gồm) hoặc cấp cao hơn mới được phép xem nội dung gốc và in nó.</value>
+  </data>
+  <data name="lblPrintUDocMemo2Resource1.Text" xml:space="preserve">
+    <value>2. Người được phép in tệp đính kèm để xem tệp trực tuyến cũng phải có quyền của
+ UDoc Viewer để in tệp trực tuyến; nếu người đó không thể in, vui lòng liên hệ với nhân viên quản lý hệ thống</value>
+  </data>
+  <data name="lblPrintUDocMemoResource1.Text" xml:space="preserve">
+    <value>Người được chọn cần có quyền sử dụng UDoc Viewer để in các tệp có bật kiểm soát tài liệu và các tệp đính kèm của bài viết này. Nội dung của bài viết này không giới hạn ở điều này.</value>
+  </data>
+  <data name="lblPrintUDocTilteResource1.Text" xml:space="preserve">
+    <value>Kiểm soát in ấn</value>
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>Đã công bố</value>
+  </data>
+  <data name="lblPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReActResource1.Text" xml:space="preserve">
+    <value>Đã thêm vào</value>
+  </data>
+  <data name="lblReActResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemarkMemo1.Text" xml:space="preserve">
+    <value>1. Phần đính kèm không được phép tạo tệp ngoại tuyến.</value>
+  </data>
+  <data name="lblRemarkMemo1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemarkMemo2.Text" xml:space="preserve">
+    <value>2. Người được phép in và xem tệp trực tuyến cũng phải có quyền sử dụng UDoc Viewer 
+để in tệp trong khi xem trực tuyến; nếu người đó không thể in, vui lòng liên hệ với nhân viên quản lý hệ thống </value>
+  </data>
+  <data name="lblRemarkMemo2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemarkResource1.Text" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="lblRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectMemResource1.Text" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="lblSelectMemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectMsgResource1.Text" xml:space="preserve">
+    <value>Vui lòng chọn những người sau:</value>
+  </data>
+  <data name="lblSelectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSerialRepeatResource1.Text" xml:space="preserve">
+    <value>Số tập tin đã được sử dụng</value>
+  </data>
+  <data name="lblSerialRepeatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSource2Resource1.Text" xml:space="preserve">
+    <value>Quyền tải xuống</value>
+  </data>
+  <data name="lblSourceControlResource1.Text" xml:space="preserve">
+    <value>Tài liệu chính</value>
+  </data>
+  <data name="lblSourceControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSourceResource1.Text" xml:space="preserve">
+    <value>Tệp gốc</value>
+  </data>
+  <data name="lblSourceResource5.Text" xml:space="preserve">
+    <value>Tệp gốc</value>
+  </data>
+  <data name="lblStatusErrorResource1.Text" xml:space="preserve">
+    <value>Bài báo không được đăng xuất và không thể đăng ký</value>
+  </data>
+  <data name="lblStatusErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuitableDepResource1.Text" xml:space="preserve">
+    <value>Các bộ phận áp dụng</value>
+  </data>
+  <data name="lblSuitableDepResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempInactResource1.Text" xml:space="preserve">
+    <value>Đã gỡ xuống</value>
+  </data>
+  <data name="lblTempInactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdatingResource1.Text" xml:space="preserve">
+    <value>Đang sửa đổi</value>
+  </data>
+  <data name="lblUpdatingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUploadContentDocResource1.Text" xml:space="preserve">
+    <value>7.Chỉnh sửa bản gốc</value>
+  </data>
+  <data name="lblUploadContentDocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUploadResource1.Text" xml:space="preserve">
+    <value>Vui lòng tải tệp lên</value>
+  </data>
+  <data name="lblUploadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrgencyResource1.Text" xml:space="preserve">
+    <value>Tốc độ tập tin</value>
+  </data>
+  <data name="lblUrgencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViewerTitleResource.Text" xml:space="preserve">
+    <value>Xem trước nội dung tệp trực tiếp trong biểu mẫu:</value>
+  </data>
+  <data name="lblViodingResource1.Text" xml:space="preserve">
+    <value>Vô hiệu hóa trong khi xét duyệt </value>
+  </data>
+  <data name="lblViodingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVoidResource1.Text" xml:space="preserve">
+    <value>Đã vô hiệu</value>
+  </data>
+  <data name="lblVoidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnInfoResource1.Text" xml:space="preserve">
+    <value>Thông tin </value>
+  </data>
+  <data name="lbtnInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnRemoveResource1.Text" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="lbtnRemoveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnUpdateResource1.Text" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="lbtnUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Tập tin điện tử</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Nhân viên bên phải cột không cho phép</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Tất cả đều không được phép</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Cho phép toàn bộ nhân viên</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>AllowALL</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Cho phép nhân viên cột dưới</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>AllowList</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>Nhân viên cột dưới không cho phép</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>DenyList</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>Quy trình đơn giản</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>DefaultFlow</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Xác nhận và kí điện tử</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>WKFFlow</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Có  </value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Giấy</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Thông thường</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Bí mật</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Bí mật</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>XSecret</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Tối mật</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>XXSecret</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Tuyệt đối bí mật</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>TopSecret</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Cho phép toàn bộ nhân viên</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Cho phép nhân viên cột bên phải</value>
+  </data>
+  <data name="myClassTreeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Lưu lại văn bản</value>
+  </data>
+  <data name="pnlUploadContentDocResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUploadContentDocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUploadFileDocResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUploadFileDocResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="publishUnitResource1.Text" xml:space="preserve">
+    <value>Đơn vị phát hành</value>
+  </data>
+  <data name="publishUnitResource1.Value" xml:space="preserve">
+    <value>publishUnit</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="RadDatePicker1Resource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="RadDatePicker1Resource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="RadDatePicker1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker1Resource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="RadDatePicker1Resource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="RadDatePicker2Resource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="RadDatePicker2Resource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="RadDatePicker2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadDatePicker2Resource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="RadDatePicker2Resource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rblApplyReadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblReadProcedureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoActiveDay1Resource1.Text" xml:space="preserve">
+    <value>Hiệu quả ngay lập tức</value>
+  </data>
+  <data name="rdoActiveDay1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoActiveDay2Resource1.Text" xml:space="preserve">
+    <value>Ngày có hiệu lực</value>
+  </data>
+  <data name="rdoActiveDay2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoInvalidDay1Resource1.Text" xml:space="preserve">
+    <value>Không bao giờ hết hạn</value>
+  </data>
+  <data name="rdoInvalidDay1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoInvalidDay2Resource1.Text" xml:space="preserve">
+    <value>Ngày đến</value>
+  </data>
+  <data name="rdoInvalidDay2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoPDFResource1.Text" xml:space="preserve">
+    <value>Chuyển thành PDF (giới hạn đối với các tài liệu PDF)</value>
+  </data>
+  <data name="rdoSourceResource1.Text" xml:space="preserve">
+    <value>Tệp gốc</value>
+  </data>
+  <data name="rdoUrgencyExHighResource1.Text" xml:space="preserve">
+    <value>Khẩn cấp </value>
+  </data>
+  <data name="rdoUrgencyExHighResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoUrgencyHighResource1.Text" xml:space="preserve">
+    <value>Gấp</value>
+  </data>
+  <data name="rdoUrgencyHighResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoUrgencyNormalResource1.Text" xml:space="preserve">
+    <value>Phổ thông</value>
+  </data>
+  <data name="rdoUrgencyNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SideBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SideBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SideBarListResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SideBarListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StartNextButtonResource1.Text" xml:space="preserve">
+    <value>Trang sau</value>
+  </data>
+  <data name="StepNextButtonResource1.Text" xml:space="preserve">
+    <value>Trang sau</value>
+  </data>
+  <data name="StepPreviousButtonResource1.Text" xml:space="preserve">
+    <value>Trang trước</value>
+  </data>
+  <data name="suitableDepResource1.Text" xml:space="preserve">
+    <value>Các bộ phận áp dụng</value>
+  </data>
+  <data name="suitableDepResource1.Value" xml:space="preserve">
+    <value>suitableDep</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Tên tệp tin</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Công năng</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>Người giữ tài liệu.</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>Mô tả tham khảo</value>
+  </data>
+  <data name="txtDOC_COMMENTResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDOC_COMMENTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDocNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDocNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSerialResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSerialResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVersionMemoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVersionMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wheDocContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibtnDocRefLinkResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibtnDocRefLinkResource1.Text" xml:space="preserve">
+    <value>Thêm vào tài liệu tham khảo</value>
+  </data>
+  <data name="wibtnDocRefLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibtnSelectFlowResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibtnSelectFlowResource1.Text" xml:space="preserve">
+    <value>Lưu trình quan sát</value>
+  </data>
+  <data name="wibtnSelectFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Wizard1Resource1.CancelButtonText" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="Wizard1Resource1.FinishCompleteButtonText" xml:space="preserve">
+    <value>Hoàn thành</value>
+  </data>
+  <data name="Wizard1Resource1.FinishPreviousButtonText" xml:space="preserve">
+    <value>Trang trước</value>
+  </data>
+  <data name="Wizard1Resource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Wizard1Resource1.SkipLinkText" xml:space="preserve">
+    <value>Bỏ qua liên kết tham khảo</value>
+  </data>
+  <data name="Wizard1Resource1.StartNextButtonText" xml:space="preserve">
+    <value>Trang sau</value>
+  </data>
+  <data name="Wizard1Resource1.StepNextButtonText" xml:space="preserve">
+    <value>Trang sau</value>
+  </data>
+  <data name="Wizard1Resource1.StepPreviousButtonText" xml:space="preserve">
+    <value>Trang trước</value>
+  </data>
+  <data name="Wizard1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WizardStepResource1.Title" xml:space="preserve">
+    <value>1. Thuộc tính cơ bản</value>
+  </data>
+  <data name="WizardStepResource2.Title" xml:space="preserve">
+    <value>2.Thời gian bảo vệ </value>
+  </data>
+  <data name="WizardStepResource3.Title" xml:space="preserve">
+    <value>3.Thiết lập bảo mật </value>
+  </data>
+  <data name="WizardStepResource4.Title" xml:space="preserve">
+    <value>4.quyền truy cập</value>
+  </data>
+  <data name="WizardStepResource5.Title" xml:space="preserve">
+    <value>5.Thể loại tài liệu</value>
+  </data>
+  <data name="WizardStepResource6.Title" xml:space="preserve">
+    <value>7. Tải tệp lên </value>
+  </data>
+  <data name="WizardStepResource7.Title" xml:space="preserve">
+    <value>Tài liệu tham khảo</value>
+  </data>
+</root>

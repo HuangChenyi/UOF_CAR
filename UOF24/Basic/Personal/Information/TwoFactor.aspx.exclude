@@ -1,0 +1,53 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/DialogMasterPage.master" AutoEventWireup="true" CodeFile="TwoFactor.aspx.cs" Inherits="Basic_Personal_Information_TwoFactor" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <script src="../../../Common/javascript/jQuery/plugin/jquery.qrcode.min.js"></script>
+    <asp:Label ID="Label1" runat="server" Text="當您啟用兩步驟驗證時,請您安裝下列應用程式到您的裝置,您可以使用手機或電腦,來做為驗証裝置"></asp:Label>
+            <ul>
+                <li>For iOS: <a href="https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8" target="_blank">Google Authenticator on iTunes App Store</a></li>
+                <li>For Android: <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en" target="_blank">Google Authenticator on Google Play</a></li>
+                <li>For Windows Phone: <a href="http://www.windowsphone.com/en-us/store/app/authenticator/021dd79f-0598-e011-986b-78e7d1fa76f8" target="_blank">Authenticator on Windows Phone App Store</a></li>
+                <li>For Windows 8: <a href="http://apps.microsoft.com/windows/en-us/app/google-authenticator/7ea6de74-dddb-47df-92cb-40afac4d38bb" target="_blank">Google Authenticator on Windows App Store</a></li>
+                <li>For FireFox: <a href="https://marketplace.firefox.com/app/gauth-authenticator/" target="_blank">GAuth Authenticator Plugin</a></li>
+            </ul>
+    
+    <table class="PopTable" cellspacing="1" >
+      
+        <tr>
+            <td style="white-space: nowrap">
+               
+                <asp:Label ID="Label4" runat="server" Text="秘密金鑰:"></asp:Label>
+               
+           
+                    
+                </td>
+            <td>
+                <div><asp:Label ID="Label5" runat="server" Text="您可以在應用程式中掃描QR CODE以設定帳戶"></asp:Label></div>
+                <div id="qrcode" style="margin: 10px;"></div>
+                   
+                <div><asp:Label ID="Label6" runat="server" Text="如果您無法掃描QR CODE也可以自行輸秘密金鑰:"></asp:Label><span style=" letter-spacing: 1px;"><%=TwoFactorKey %></span> </div>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:Label ID="Label2" runat="server" Text="驗證碼:"></asp:Label>
+            </td>
+            <td>
+                <asp:Label ID="Label3" runat="server" Text="掃描條碼後，輸入 Authenticator 應用程式所產生的 6 位數驗證碼。"></asp:Label><br/>
+                <telerik:RadTextBox ID="txtPinConfirm" runat="server"></telerik:RadTextBox><br/><asp:CustomValidator ID="cvTwoFactor" runat="server" ErrorMessage="無法通過驗証,現在UOF主機時間:{0},請確認您使用的裝置時間與UOF主機時間一致" Display="Dynamic" ControlToValidate="txtPinConfirm"></asp:CustomValidator>
+            </td>
+        </tr>
+    </table>
+    
+    <script>
+        Sys.Application.add_load(function () {
+            $('#qrcode').qrcode({ width: 160, height: 160, text: "<%=QrCodeContent %>" });
+                                                    });
+    </script>
+    
+    
+    
+    <asp:Literal ID="Literal1" Visible="False" runat="server" Text="驗證並儲存"></asp:Literal>
+</asp:Content>
+

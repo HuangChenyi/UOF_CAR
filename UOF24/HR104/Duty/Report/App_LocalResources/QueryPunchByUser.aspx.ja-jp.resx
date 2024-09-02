@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bfDepartmentNameResource4.HeaderText" xml:space="preserve">
+    <value>部門</value>
+  </data>
+  <data name="bfEmployeeResource3.HeaderText" xml:space="preserve">
+    <value>社員ナンバー</value>
+  </data>
+  <data name="bfNameResource2.HeaderText" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="bfPunchReasonResource1.HeaderText" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="bfPunchSourceResource6.HeaderText" xml:space="preserve">
+    <value>情報源</value>
+  </data>
+  <data name="bfPunchTypeResource5.HeaderText" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="BoundFieldEMPLOYEE_NOResource1.HeaderText" xml:space="preserve">
+    <value>社員ナンバー</value>
+  </data>
+  <data name="BoundFieldGroupNameResource1.HeaderText" xml:space="preserve">
+    <value>申請部門</value>
+  </data>
+  <data name="BoundFieldNAMEResource1.HeaderText" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>出勤のタイムカードを押す必要がある回数</value>
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>退勤のタイムカードを押す必要がある回数</value>
+  </data>
+  <data name="cbSubDeptResource1.Text" xml:space="preserve">
+    <value>子部門を含め</value>
+  </data>
+  <data name="cbSubDeptResource2.Text" xml:space="preserve">
+    <value>子部門を含め</value>
+  </data>
+  <data name="cvDateOverYearResource1.ErrorMessage" xml:space="preserve">
+    <value>検索区間は一年以上ではいけません</value>
+  </data>
+  <data name="cvDateVaildResource1.ErrorMessage" xml:space="preserve">
+    <value>日付き（開始時間）は日付き（終了時間）より遅くはいけません</value>
+  </data>
+  <data name="ddOverAttendItemAllResource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ddOverAttendItemNotResource1.Text" xml:space="preserve">
+    <value>まだ返事しない</value>
+  </data>
+  <data name="ddOverAttendItemProResource1.Text" xml:space="preserve">
+    <value>返事中</value>
+  </data>
+  <data name="ddOverAttendItemRepResource1.Text" xml:space="preserve">
+    <value>報告済み</value>
+  </data>
+  <data name="grdPunchResource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="gridOverAttendDateResource1.HeaderText" xml:space="preserve">
+    <value>日付き</value>
+  </data>
+  <data name="gridOverAttendDepResource1.HeaderText" xml:space="preserve">
+    <value>申請部門</value>
+  </data>
+  <data name="gridOverAttendDocNbrResource1.HeaderText" xml:space="preserve">
+    <value>フォーム番号</value>
+  </data>
+  <data name="gridOverAttendEmpNOResource1.HeaderText" xml:space="preserve">
+    <value>社員ナンバー</value>
+  </data>
+  <data name="gridOverAttendNAMEResource1.HeaderText" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="gridOverAttendReasonDateResource1.HeaderText" xml:space="preserve">
+    <value>出勤時間をオーバーする原因</value>
+  </data>
+  <data name="gridOverAttendWorkCardActionResource1.HeaderText" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="gridOverAttendWorkCardDateResource1.HeaderText" xml:space="preserve">
+    <value>実際出勤時間</value>
+  </data>
+  <data name="gridOverAttendWorkCardResource1.HeaderText" xml:space="preserve">
+    <value>タイムコード押すのが必要</value>
+  </data>
+  <data name="gridOverAttendWorkResource1.HeaderText" xml:space="preserve">
+    <value>出勤/退勤</value>
+  </data>
+  <data name="gridPunchHistoryResource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="lbl104PunchHistoryKeep12MonthsResource1.Text" xml:space="preserve">
+    <value>*タイムカードの履歴は12ヶ月間しか残していません</value>
+  </data>
+  <data name="lbl104PunchHistoryKeep3MonthsResource1.Text" xml:space="preserve">
+    <value>*タイムカードの履歴は3ヶ月間しか残していません</value>
+  </data>
+  <data name="lbl104PunchHistoryKeep6MonthsResource1.Text" xml:space="preserve">
+    <value>*タイムカードの履歴は6ヶ月間しか残していません</value>
+  </data>
+  <data name="lblBeginDateResource1.Text" xml:space="preserve">
+    <value>日付（開始時間）</value>
+  </data>
+  <data name="lblBlankResource1.Text" xml:space="preserve">
+    <value>空白(勤务シフト表なし)</value>
+  </data>
+  <data name="lblCardDataCode0Resource1.Text" xml:space="preserve">
+    <value>タイムカードを押すべきですが、まだ押していません</value>
+  </data>
+  <data name="lblCardDataCode1Resource1.Text" xml:space="preserve">
+    <value>遅刻</value>
+  </data>
+  <data name="lblCardDataCode2Resource1.Text" xml:space="preserve">
+    <value>早退</value>
+  </data>
+  <data name="lblCardDataCode4Resource1.Text" xml:space="preserve">
+    <value>無断欠勤</value>
+  </data>
+  <data name="lblEmployeeTitleResource1.Text" xml:space="preserve">
+    <value>メンバー</value>
+  </data>
+  <data name="lblEndDateResource1.Text" xml:space="preserve">
+    <value>日付（終了時間）</value>
+  </data>
+  <data name="lblEndDateTitleResource1.Text" xml:space="preserve">
+    <value>日付（終了時間）</value>
+  </data>
+  <data name="lblFridayResource1.Text" xml:space="preserve">
+    <value>五</value>
+  </data>
+  <data name="lblLeftTitleResource1.Text" xml:space="preserve">
+    <value>內部組織結構列表</value>
+  </data>
+  <data name="lblMapTitleResource1.Text" xml:space="preserve">
+    <value>タイムカードの押す場所</value>
+  </data>
+  <data name="lblMondayResource1.Text" xml:space="preserve">
+    <value>一</value>
+  </data>
+  <data name="lblNornalResource1.Text" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="lblOverAttrndStatusResource1.Text" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="lblProcessResource1.Text" xml:space="preserve">
+    <value>返事中</value>
+  </data>
+  <data name="lblPunchInResource1.Text" xml:space="preserve">
+    <value>出勤</value>
+  </data>
+  <data name="lblPunchOutResource1.Text" xml:space="preserve">
+    <value>退勤</value>
+  </data>
+  <data name="lblPunchSourceResource1.Text" xml:space="preserve">
+    <value>情報源</value>
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>報告済み</value>
+  </data>
+  <data name="lblSaturdayResource1.Text" xml:space="preserve">
+    <value>六</value>
+  </data>
+  <data name="lblStartDateTitleResource1.Text" xml:space="preserve">
+    <value>日付（開始時間）</value>
+  </data>
+  <data name="lblSundayResource1.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="lblThursdayResource1.Text" xml:space="preserve">
+    <value>木曜日</value>
+  </data>
+  <data name="lblTuesdayResource1.Text" xml:space="preserve">
+    <value>二</value>
+  </data>
+  <data name="lbltypeResource1.Text" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="lblUnReportResource1.Text" xml:space="preserve">
+    <value>まだ返事しない</value>
+  </data>
+  <data name="lblWednesdayResource1.Text" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="listItem1Resource1.Text" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="listItem2Resource1.Text" xml:space="preserve">
+    <value>タイムカードを押すべきですが、まだ押していません</value>
+  </data>
+  <data name="listItem3Resource1.Text" xml:space="preserve">
+    <value>遅刻</value>
+  </data>
+  <data name="listItem4Resource1.Text" xml:space="preserve">
+    <value>早退</value>
+  </data>
+  <data name="listItem5Resource1.Text" xml:space="preserve">
+    <value>無断欠勤</value>
+  </data>
+  <data name="listItem6Resource1.Text" xml:space="preserve">
+    <value>空白(勤务シフト表なし)</value>
+  </data>
+  <data name="ListItemAllResource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ListItemAllResource1.Value" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ListItemAppResource1.Text" xml:space="preserve">
+    <value>APP</value>
+  </data>
+  <data name="ListItemAppResource1.Value" xml:space="preserve">
+    <value>APP</value>
+  </data>
+  <data name="ListItemExternalResource1.Text" xml:space="preserve">
+    <value>外部からのインポート</value>
+  </data>
+  <data name="ListItemExternalResource1.Vaule" xml:space="preserve">
+    <value>External</value>
+  </data>
+  <data name="ListItemManualResource1.Text" xml:space="preserve">
+    <value>タイムカード申請を補正します</value>
+  </data>
+  <data name="ListItemManualResource1.Value" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="ListItemOnlineResource1.Text" xml:space="preserve">
+    <value>オンラインで支払います</value>
+  </data>
+  <data name="ListItemOnlineResource1.Vaule" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>パンチインする</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>パンチアウトする</value>
+  </data>
+  <data name="overAttendViewResource1.Text" xml:space="preserve">
+    <value>労働時間がオーバーする</value>
+  </data>
+  <data name="punchHistoryViewResource1.Text" xml:space="preserve">
+    <value>タイムカードを押す時間</value>
+  </data>
+  <data name="punchRefViewResource1.Text" xml:space="preserve">
+    <value>出勤記録</value>
+  </data>
+  <data name="RadSearchResources1.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="RadSearchResources1.Value" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>datetime</value>
+  </data>
+  <data name="RadToolBarSerachResource1.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="TemplateFieldDateResource1.HeaderText" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>曜日</value>
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>実際に出勤のタイムカードを押す</value>
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>実際に退勤のタイムカードを押す</value>
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>休暇を取る</value>
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>残業</value>
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>出張</value>
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>狀態(出勤)</value>
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>狀態(退勤)</value>
+  </data>
+  <data name="tfPunchTimeResource1.HeaderText" xml:space="preserve">
+    <value>タイムカードを押す時間</value>
+  </data>
+</root>

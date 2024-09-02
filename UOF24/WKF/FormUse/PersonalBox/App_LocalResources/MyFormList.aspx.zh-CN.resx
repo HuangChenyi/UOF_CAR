@@ -1,0 +1,1863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CompareValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>退出时间需晚于开始时间</value>
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSignedStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelAgentFormStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource7.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="ForOpinionWebToolbarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFormSignedResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="TBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFormAlertResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>表单编号</value>
+  </data>
+  <data name="lblCheckFormResource1.Text" xml:space="preserve">
+    <value>确实要取回表单?</value>
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbtnRecordSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserSelfResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnNotifySignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CompareValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFormExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbDocNbrStartResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAgentResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemFormAgentStateResource1.Text" xml:space="preserve">
+    <value>所有状态</value>
+  </data>
+  <data name="lblSignAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignSelfResource1.Text" xml:space="preserve">
+    <value>待签表单-自己</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopeedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>送出时间</value>
+  </data>
+  <data name="pnlFormQueryResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookExaminedResource1.Text" xml:space="preserve">
+    <value>观看</value>
+  </data>
+  <data name="lblApplicantResource1.Text" xml:space="preserve">
+    <value>申请</value>
+  </data>
+  <data name="TBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblhandoverAlertResource1.Text" xml:space="preserve">
+    <value>交接表单</value>
+  </data>
+  <data name="TemplateFieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlFormAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource30.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource28.HeaderText" xml:space="preserve">
+    <value>徵询人</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="lblInvalidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonAgentQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCancelQueryResource1.Text" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="ForOpinionListItemResource1.Text" xml:space="preserve">
+    <value>全部状态</value>
+  </data>
+  <data name="Label15Resource1.Text" xml:space="preserve">
+    <value>*关键字查询可查询表单编号、标题、申请者、内容</value>
+  </data>
+  <data name="lblFormAlertResource1.Text" xml:space="preserve">
+    <value>被通知表单</value>
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnNotifyExaminedResource1.Text" xml:space="preserve">
+    <value>跟催</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CompareValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>退出时间需晚于开始时间</value>
+  </data>
+  <data name="DGFormListAgentResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="TBLabelResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnSignAgentResource1.Text" xml:space="preserve">
+    <value>签核</value>
+  </data>
+  <data name="lblAgentApplicantMsgResource1.Text" xml:space="preserve">
+    <value>(代填)</value>
+  </data>
+  <data name="lblUserAlertResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlFormQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ForOpinionListItemResource2.Text" xml:space="preserve">
+    <value>未回复</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>所有状态</value>
+  </data>
+  <data name="RequiredFieldValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormListTitleResource1.Text" xml:space="preserve">
+    <value>表单列表</value>
+  </data>
+  <data name="lblForOpinionStartDateResource1.Text" xml:space="preserve">
+    <value>徵询日期：</value>
+  </data>
+  <data name="TBarButtonAgentQueryResource1.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="TITLEResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeFormClassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookAgnetResource1.Text" xml:space="preserve">
+    <value>观看</value>
+  </data>
+  <data name="lblResultExaminedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>已结案</value>
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFormnameExaminedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlFormAlertResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ForOpinionListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>所有状态</value>
+  </data>
+  <data name="pnlFormExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ForOpinionGridResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCannotgetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForOpinionUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForOpinionLinkButtonNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnPrintSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopeedResource1.Text" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="lbtnPrintAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>表单编号</value>
+  </data>
+  <data name="lbtnPrintAgentResource1.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>结案时间</value>
+  </data>
+  <data name="lblCheckFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource9.Text" xml:space="preserve">
+    <value>依表单分类</value>
+  </data>
+  <data name="TBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameResource1.Text" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="lblFormAgentResource1.Text" xml:space="preserve">
+    <value>代填写表单</value>
+  </data>
+  <data name="lblResultAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBeginTimeResource1.Text" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>请键入申请时间(起)</value>
+  </data>
+  <data name="lblUserAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CompareValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSelfResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource27.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMostUrgentResource1.Text" xml:space="preserve">
+    <value>紧急</value>
+  </data>
+  <data name="lblOrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource21.HeaderText" xml:space="preserve">
+    <value>申请人</value>
+  </data>
+  <data name="lbtnGetBackQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelAgentFormStatusResource1.Text" xml:space="preserve">
+    <value>申请表单状态：</value>
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>表单编号</value>
+  </data>
+  <data name="lblBeginTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblForOpiniondResource1.Text" xml:space="preserve">
+    <value>已回复</value>
+  </data>
+  <data name="lblFormnameAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="lblUserAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbForOpinionPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFormExaminedStateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="lblNoForOpinionResource1.Text" xml:space="preserve">
+    <value>未回复</value>
+  </data>
+  <data name="pnlSignSelfResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormnameSignedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultQueryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMostUrgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ForOpinionGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemhandoverResource1.Text" xml:space="preserve">
+    <value>交接表单</value>
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>申请人</value>
+  </data>
+  <data name="lbl_allFormResource1.Text" xml:space="preserve">
+    <value>所有表单</value>
+  </data>
+  <data name="wibQueryResource1.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="lbtnPrintExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource26.HeaderText" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="TemplateFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGFormListAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnRecordSignedResource1.Text" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="lblRejectResource1.Text" xml:space="preserve">
+    <value>否决</value>
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>结案日期</value>
+  </data>
+  <data name="lblFormnameAlertResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRejectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFormSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserSignedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>所有表单</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>已结案</value>
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="lblCustFlowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="grdFormExaminedResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserQueryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource7.Text" xml:space="preserve">
+    <value>依关键字查询</value>
+  </data>
+  <data name="ForOpinionListItemResource3.Text" xml:space="preserve">
+    <value>已回复</value>
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="TemplateFieldResource29.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnSignSelfResource1.Text" xml:space="preserve">
+    <value>签核</value>
+  </data>
+  <data name="TBLabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFormSignedResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocNbrResource1.Text" xml:space="preserve">
+    <value>表单编号起讫</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblUserQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookQueryResource1.Text" xml:space="preserve">
+    <value>观看</value>
+  </data>
+  <data name="lbLookTaskResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultSignedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnPrintExaminedResource1.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>表单编号</value>
+  </data>
+  <data name="TemplateFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>请键入申请时间(迄)</value>
+  </data>
+  <data name="lbtnRecordExaminedResource1.Text" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="lbLookTaskResource1.Text" xml:space="preserve">
+    <value>观看</value>
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebToolbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>网站型态</value>
+  </data>
+  <data name="TemplateFieldResource30.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>结案日期</value>
+  </data>
+  <data name="TemplateFieldResource14.HeaderText" xml:space="preserve">
+    <value>申请人</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="toolbarFormAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdQueryResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="TITLEResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="TemplateFieldResource23.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnGetBackExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebDateChooser1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>表单列表</value>
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource29.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnNotifyExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>表单列表</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource27.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMyFormListResource1.Text" xml:space="preserve">
+    <value>个人表单</value>
+  </data>
+  <data name="lblForOpinionEndDateResource1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="lblFormnameSelfResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>已结案(不含作废表单)</value>
+  </data>
+  <data name="lblQueryTypeResource1.Text" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnGetbackSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource29.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="TemplateFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TBLabelResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolbarFormExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="TITLEResource5.HeaderText" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="wdcQueryEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormnameQueryResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource1.Text" xml:space="preserve">
+    <value>读取状态：</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookAlertResource1.Text" xml:space="preserve">
+    <value>观看</value>
+  </data>
+  <data name="lblSignAgentResource1.Text" xml:space="preserve">
+    <value>待签表单-代理</value>
+  </data>
+  <data name="ForOpinionGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="lblFormnameSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForOpinionOpinionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnGetBackExaminedResource1.Text" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="TBLabelResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemnormalResource1.Text" xml:space="preserve">
+    <value>常规通知</value>
+  </data>
+  <data name="lblCommonAlertResource1.Text" xml:space="preserve">
+    <value>常规通知</value>
+  </data>
+  <data name="TemplateFieldResource24.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="lblForOpiniondResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSignypeSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource30.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForOpinionUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgentApplicantMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource25.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource3.Text" xml:space="preserve">
+    <value>申请表单状态：</value>
+  </data>
+  <data name="TemplateFieldResource28.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wibShowSpecialResource1.Text" xml:space="preserve">
+    <value>高级查询</value>
+  </data>
+  <data name="TBarButtonAgentQueryResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>表单编号</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource10.Text" xml:space="preserve">
+    <value>依关键字查询</value>
+  </data>
+  <data name="lblFormExaminedResource1.Text" xml:space="preserve">
+    <value>已送审表单</value>
+  </data>
+  <data name="lblApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnToApplicantResource1.Text" xml:space="preserve">
+    <value>被退回的申请</value>
+  </data>
+  <data name="lblResultAlertResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbQueryApplyDateResource1.Text" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>表单状态</value>
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>送出时间</value>
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReadstatusAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnGetBackQueryResource1.Text" xml:space="preserve">
+    <value>取回</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>个人表单</value>
+  </data>
+  <data name="TemplateFieldResource18.HeaderText" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="lblFormnameExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnNotifyQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForOpinionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>回复状态</value>
+  </data>
+  <data name="lblExceptionResource2.Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="TITLEResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFormAlertResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>请键入表单编号(迄)</value>
+  </data>
+  <data name="CompareValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocNbrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>所有状态</value>
+  </data>
+  <data name="lblForOpinionOpinionResource1.Text" xml:space="preserve">
+    <value>被徵询表单回复</value>
+  </data>
+  <data name="lblFormnameQueryResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Text" xml:space="preserve">
+    <value>批次签核</value>
+  </data>
+  <data name="TemplateFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustFlowDeleteMSGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource25.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>申请时间</value>
+  </data>
+  <data name="lblFormNameQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource6.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="ListItemFormAgentStateResource4.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbtnLookSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource4.Text" xml:space="preserve">
+    <value>申请日期：</value>
+  </data>
+  <data name="TITLEResource4.HeaderText" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="TemplateFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource1.HeaderText" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="TemplateFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>申请人</value>
+  </data>
+  <data name="TITLEResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelAgentFormStatusResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionResource1.Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="lbtnGetbackSignedResource1.Text" xml:space="preserve">
+    <value>取回</value>
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSignAgentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormSignedResource1.Text" xml:space="preserve">
+    <value>已签核表单</value>
+  </data>
+  <data name="RequiredFieldValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnToApplicantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="TemplateFieldResource12.HeaderText" xml:space="preserve">
+    <value>读取状态</value>
+  </data>
+  <data name="lblFormQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemFormAgentStateResource3.Text" xml:space="preserve">
+    <value>已结案(不含作废表单)</value>
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustFlowDeleteMSGResource1.Text" xml:space="preserve">
+    <value>下一站人员已经观看过表单，故无法取回</value>
+  </data>
+  <data name="TemplateFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemFormAgentStateResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grdQueryResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSignAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGetbackListResource1.Text" xml:space="preserve">
+    <value>表单取回</value>
+  </data>
+  <data name="TemplateFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQueryTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnNotifyQueryResource1.Text" xml:space="preserve">
+    <value>跟催</value>
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="ListItemFormAgentStateResource2.Text" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>表单编号</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>已读取</value>
+  </data>
+  <data name="lblAndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnPrintSignedResource1.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="lbtnRecordExaminedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbDocNbrEndResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value>原签核者</value>
+  </data>
+  <data name="lblOrginalSignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlForOpinionResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>请键入表单编号(起)</value>
+  </data>
+  <data name="TemplateFieldResource28.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>请键入申请时间(迄)</value>
+  </data>
+  <data name="ddlForOpinionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCannotgetResource1.Text" xml:space="preserve">
+    <value>下一站人员已经观看过表单，故无法取回</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMyFormListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustFlowResource1.Text" xml:space="preserve">
+    <value>定义自定义流程</value>
+  </data>
+  <data name="lbtnLookSelfResource1.Text" xml:space="preserve">
+    <value>观看</value>
+  </data>
+  <data name="lblFormSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblDelayformResource1.Text" xml:space="preserve">
+    <value>超时表单</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>分类列表</value>
+  </data>
+  <data name="DGFormListAgentResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>表单编号</value>
+  </data>
+  <data name="lblFormListTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormnameAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlFormExaminedResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbForOpinionPrintResource1.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>*关键字查询可查询表单编号、标题、申请者、内容</value>
+  </data>
+  <data name="lblUnreadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormnameAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="alertSourceResource1.HeaderText" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>表单列表</value>
+  </data>
+  <data name="lblEndResource1.Text" xml:space="preserve">
+    <value>已结案</value>
+  </data>
+  <data name="TBLabelResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAndResource1.Text" xml:space="preserve">
+    <value>会签</value>
+  </data>
+  <data name="lbtnPrintQueryResource1.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="lblNoForOpinionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNameQueryResource1.Text" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="wibShowSpecialResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFormNameQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelAgentApplicationDateResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSourceResource1.Text" xml:space="preserve">
+    <value>源：</value>
+  </data>
+  <data name="lblSelectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>送出时间</value>
+  </data>
+  <data name="TBLabelResource8.Text" xml:space="preserve">
+    <value>依表单分类</value>
+  </data>
+  <data name="TITLEResource2.HeaderText" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="TemplateFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnEndFormAlterResource1.Text" xml:space="preserve">
+    <value>结案后通知</value>
+  </data>
+  <data name="lblSetAgentResource1.Text" xml:space="preserve">
+    <value>设置代理人</value>
+  </data>
+  <data name="lblDelayformResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCancelQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlForOpinionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbQuerySignDateResource1.Text" xml:space="preserve">
+    <value>签核日期</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>回复状态：</value>
+  </data>
+  <data name="lbtnSignSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGFormListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicQueryResource1.Text" xml:space="preserve">
+    <value>基本查询</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbtnPrintQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemFormAgentStateResource3.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemFormAgentStateResource5.Text" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="TemplateFieldResource23.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="lblInvalidResource1.Text" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="grdFormExaminedResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="TBLabelResource2.Text" xml:space="preserve">
+    <value>申请日期：</value>
+  </data>
+  <data name="DGFormListResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="readAllResource1.Text" xml:space="preserve">
+    <value>全部已读</value>
+  </data>
+  <data name="ListItemFormAgentStateResource5.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemFormAgentStateResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCancelResource1.Text" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="TemplateFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtModifyResource1.Text" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="TemplateFieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TITLEResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource17.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="lbtnNotifySignedResource1.Text" xml:space="preserve">
+    <value>跟催</value>
+  </data>
+  <data name="CompareValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ForOpinionListItemResource1.Value" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="lbtnLookSignedResource1.Text" xml:space="preserve">
+    <value>观看</value>
+  </data>
+  <data name="RequiredFieldValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPassResource1.Text" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxtModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookAgnetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="TBLabelAgentApplicationDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbDocNbrEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlAlertReadStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormQueryResource1.Text" xml:space="preserve">
+    <value>查询表单</value>
+  </data>
+  <data name="lblTaskResultResource1.Text" xml:space="preserve">
+    <value>表单状态</value>
+  </data>
+  <data name="grdQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaskResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>网站型态</value>
+  </data>
+  <data name="TBLabelResource5.Text" xml:space="preserve">
+    <value>表单状态：</value>
+  </data>
+  <data name="UltraWebTab1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReadResource1.Text" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>表单申请</value>
+  </data>
+  <data name="lbtnPrintAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnPrintAlertResource1.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>*可查询表单编号、标题、申请者、内容</value>
+  </data>
+  <data name="TemplateFieldResource25.HeaderText" xml:space="preserve">
+    <value>申请人</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>未读取</value>
+  </data>
+  <data name="RequiredFieldValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>请键入申请时间(起)</value>
+  </data>
+  <data name="lblExceptionResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnSignAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlFormSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="pnlSignSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemFormAgentStateResource4.Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="lblFormListResource1.Text" xml:space="preserve">
+    <value>表单列表</value>
+  </data>
+  <data name="TemplateFieldResource27.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="lbtnPrintSelfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSetAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignypeAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnLookSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="lblOrResource1.Text" xml:space="preserve">
+    <value>并签</value>
+  </data>
+  <data name="TemplateFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>所有状态</value>
+  </data>
+  <data name="TBLabelResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormnameSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>结案日期</value>
+  </data>
+  <data name="lblGetbackListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormAgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DGFormListResource1.EmptyDataText" xml:space="preserve">
+    <value>没有数据</value>
+  </data>
+  <data name="TITLEResource6.HeaderText" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>申请日期</value>
+  </data>
+  <data name="wdcQueryStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBLabelAgentApplicationDateResource1.Text" xml:space="preserve">
+    <value>申请日期：</value>
+  </data>
+  <data name="lblUserAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralResource1.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="lbForOpinionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TemplateFieldResource19.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="lblReadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbForOpinionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>当前签核者</value>
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>关键字查询</value>
+  </data>
+  <data name="lbtnLookQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource13.HeaderText" xml:space="preserve">
+    <value>表单名称</value>
+  </data>
+  <data name="TemplateFieldResource22.HeaderText" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="lbtnPrintSelfResource1.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblForOpinionLinkButtonNameResource1.Text" xml:space="preserve">
+    <value>回复</value>
+  </data>
+  <data name="TITLEResource3.HeaderText" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="lblUnreadResource1.Text" xml:space="preserve">
+    <value>未读取</value>
+  </data>
+  <data name="ForOpinionListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicQueryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReadstatusAlertResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TITLEResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlFormSignedResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource15.HeaderText" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="lblUrgentResource1.Text" xml:space="preserve">
+    <value>急</value>
+  </data>
+  <data name="tbDocNbrStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>表单列表</value>
+  </data>
+  <data name="lblSignypeAgentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="lblPassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdFormAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalResource1.Text" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="ddlQueryTaskStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectResource1.Text" xml:space="preserve">
+    <value>请选择表单</value>
+  </data>
+  <data name="lblFormListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForOpinionResource1.Text" xml:space="preserve">
+    <value>被徵询表单</value>
+  </data>
+  <data name="TBLabelResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_allFormResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolbarFormSignedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignypeSelfResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebTab1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

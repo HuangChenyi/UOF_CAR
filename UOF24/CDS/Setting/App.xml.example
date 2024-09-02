@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 注意:如資料內有&符號請記得先改為&amp; -->
+<App>
+  <AppSetting>
+    <item id ="PushTaskFile" value=""></item>
+    <item id ="PushTaskType" value=""></item>
+    <item id ="PushCustomAndroidApiKey" value=""></item>
+    <item id ="PushCustomAppleKeyContent" value=""></item>
+    <item id ="PushCustomAppleKeyPassword" value=""></item>
+    <item id ="PushCustomNextAndroidApiKey" value=""></item>
+    <item id ="PushCustomNextAppleKeyContent" value=""></item>
+    <item id ="PushCustomNextAppleKeyPassword" value=""></item>
+    <item id ="NextAppAndroidFCMPushAppId" value=""></item>
+    <item id ="GooglePlayUrl" value=""></item>
+    <item id ="AppleStoreUrl" value=""></item>
+    <item id ="AppName">
+      <culture name="zh-TW"></culture>
+      <culture name="zh-CN"></culture>
+      <culture name="en-US"></culture>
+      <culture name="vi"></culture>
+      <culture name="id"></culture>
+      <culture name="ja-jp"></culture>
+    </item>
+    <item id ="AppSchema" value=""></item>
+    <!--mlink開啟不同APP 對應TB_EB_USER中的SCHEME_ID-->
+    <!--<item id="appSchemeMapping">{"U":"uofnext","X":"uofx"}</item>-->
+  </AppSetting>
+</App>

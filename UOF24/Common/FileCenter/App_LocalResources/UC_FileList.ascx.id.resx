@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDeleteResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource2.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDesUpdateResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDesUpdateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDesUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFileUpdateResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFileUpdateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFileUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFileUpdateResource2.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFileUpdateResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFileUpdateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDeleteResource1.ErrorMessage" xml:space="preserve">
+    <value>Berkas sedang diproses, silahkan coba lagi nanti</value>
+  </data>
+  <data name="cvDeleteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlFileList_BigPicResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlFileList_BigPicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlFileListResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlFileListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbAllowModifyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbAllowModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbColumnCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbColumnCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbContentTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbContentTypeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbDeleteResource1.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="lbDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileGroupIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileGroupIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileIdResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFileNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFilePathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFilePathResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbImgHeightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbImgHeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbImgWidthResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbImgWidthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopyLinkResource1.Text" xml:space="preserve">
+    <value>Salin tautan </value>
+  </data>
+  <data name="lblCopyLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDialogTitleResource1.Text" xml:space="preserve">
+    <value>Salin tautan arsip</value>
+  </data>
+  <data name="lblDialogTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowNameResource1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblShowNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbModifyResource1.Text" xml:space="preserve">
+    <value>Pemuatan kembali</value>
+  </data>
+  <data name="lbModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbReUploadFileTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbReUploadFileTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowDlTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbShowDlTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbStr1Resource1.Text" xml:space="preserve">
+    <value>Gambaran</value>
+  </data>
+  <data name="lbStr1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkCreateUserResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkCreateUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkCreateUserResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkCreateUserResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkFileNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkFileNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkFileNameResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linkFileNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plBigPicListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plBigPicListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plDescriptionResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnCopyLinkResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnCopyLinkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnCopyLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnCopyLinkResource2.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnCopyLinkResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnCopyLinkResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

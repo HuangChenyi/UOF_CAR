@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WSAPI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WSAPI_Auth_Authentication" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF11.60/PublicAPI/System/Authentication.asmx</Value>
+    </Setting>
+    <Setting Name="WSAPI_WKF_Wkf" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF11.60/PublicAPI/WKF/Wkf.asmx</Value>
+    </Setting>
+    <Setting Name="WSAPI_File_FileCenter" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF11.60/PublicAPI/Utility/FileCenter.asmx</Value>
+    </Setting>
+    <Setting Name="WSAPI_DMS_Dms" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF11.60/PublicAPI/DMS/dms.asmx</Value>
+    </Setting>
+    <Setting Name="WSAPI_Duty_Duty" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF11.60/PublicAPI/EIP/Duty.asmx</Value>
+    </Setting>
+    <Setting Name="WSAPI_Album_Album" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:25294/UOF11.60/PublicAPI/Album/Album.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

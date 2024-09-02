@@ -1,0 +1,2911 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Menus>
+  <menu id="AnalysisPrivateMessage">
+    <culture name="en-us">Private Message Analysis</culture>
+    <culture name="zh-tw">私人訊息分析</culture>
+    <culture name="zh-cn">私人信息分析</culture>
+    <culture name="vi">Phân tích tin tức cá nhân</culture>
+    <culture name="id">私人訊息分析</culture>
+    <culture name="mt-mt">私人訊息分析</culture>
+    <culture name="ja-jp">個人メッセージ分析</culture>
+  </menu>
+  <menu id="AnalysisTopicSubUserCount">
+    <culture name="en-us">The Last Month Topic Subscription Statistic</culture>
+    <culture name="zh-tw">最近一個月訂閱主題人數統計</culture>
+    <culture name="zh-cn">最近一个月订阅主题人数统计</culture>
+    <culture name="vi">Thống kê số người đặt chủ đề 1 tháng gần đây</culture>
+    <culture name="id">最近一個月訂閱主題人數統計</culture>
+    <culture name="mt-mt">最近一個月訂閱主題人數統計</culture>
+    <culture name="ja-jp">一か月内のサブスクリプション数を集計</culture>
+  </menu>
+  <menu id="DMSPersonPaper">
+    <culture name="en-us">Paper Borrow Mgt.</culture>
+    <culture name="zh-tw">紙本借閱管理</culture>
+    <culture name="zh-cn">纸本借阅管理</culture>
+    <culture name="vi">Quản lý mượn đọc</culture>
+    <culture name="id">紙本借閱管理</culture>
+    <culture name="mt-mt">紙本借閱管理</culture>
+    <culture name="ja-jp">ファイルの閲覧管理</culture>
+  </menu>
+  <menu id="DMSPersonSubInfo">
+    <culture name="en-us">Subscription Notice</culture>
+    <culture name="zh-tw">訂閱通知</culture>
+    <culture name="zh-cn">订阅通知</culture>
+    <culture name="vi">Thông báo đặt đọc</culture>
+    <culture name="id">訂閱通知</culture>
+    <culture name="mt-mt">訂閱通知</culture>
+    <culture name="ja-jp">サブスクリプションお知らせ</culture>
+  </menu>
+  <menu id="DMSSysLog">
+    <culture name="en-us">System Record</culture>
+    <culture name="zh-tw">系統紀錄</culture>
+    <culture name="zh-cn">系统纪录</culture>
+    <culture name="vi">Kỷ lục hệ thống</culture>
+    <culture name="id">系統紀錄</culture>
+    <culture name="mt-mt">系統紀錄</culture>
+    <culture name="ja-jp">システム履歴</culture>
+  </menu>
+  <menu id="DMSSysSub">
+    <culture name="en-us">Document Subcription Mgt.</culture>
+    <culture name="zh-tw">文件訂閱管理</culture>
+    <culture name="zh-cn">文档订阅管理</culture>
+    <culture name="vi">Quản lý đặt đọc văn kiện</culture>
+    <culture name="id">文件訂閱管理</culture>
+    <culture name="mt-mt">文件訂閱管理</culture>
+    <culture name="ja-jp">ファイル</culture>
+  </menu>
+  <menu id="WKFReturnToApplicant">
+    <culture name="en-us">Return To Applicant</culture>
+    <culture name="zh-tw">被退回的申請</culture>
+    <culture name="zh-cn">被退回的申请</culture>
+    <culture name="vi">Return To Applicant</culture>
+    <culture name="id">Return To Applicant</culture>
+    <culture name="mt-mt">被退回的申請</culture>
+    <culture name="ja-jp">拒否された申請</culture>
+  </menu>
+  <menu id="AddressBook">
+    <culture name="en-us">Address Book</culture>
+    <culture name="zh-tw">通訊錄</culture>
+    <culture name="zh-cn">通讯簿</culture>
+    <culture name="vi">Sổ địa chỉ</culture>
+    <culture name="id">Buku alamat</culture>
+    <culture name="mt-mt">通訊錄</culture>
+    <culture name="ja-jp">連絡先</culture>
+  </menu>
+  <menu id="Analysis">
+    <culture name="en-us">Statistic</culture>
+    <culture name="zh-tw">統計分析</culture>
+    <culture name="zh-cn">统计分析</culture>
+    <culture name="vi">Phân tích</culture>
+    <culture name="id">Analisa</culture>
+    <culture name="mt-mt">ကိန်းဂဏန်းအချက်အလက်</culture>
+    <culture name="ja-jp">まとめ分析</culture>
+  </menu>
+  <menu id="AnalysisAllForumPostArticles">
+    <culture name="en-us">Thread Statistic</culture>
+    <culture name="zh-tw">討論區發表篇數統計</culture>
+    <culture name="zh-cn">讨论区发表篇数统计</culture>
+    <culture name="vi">Thống kê chuỗi thông báo</culture>
+    <culture name="id">Rangkaian statistik</culture>
+    <culture name="mt-mt">အသေးစိတ်စာရင်းအင်း</culture>
+    <culture name="ja-jp">投稿数集計</culture>
+  </menu>
+  <menu id="AnalysisEmplEducation">
+    <culture name="en-us">By Degree</culture>
+    <culture name="zh-tw">員工教育程度分析</culture>
+    <culture name="zh-cn">员工教育程度分析</culture>
+    <culture name="vi">Qua trình độ</culture>
+    <culture name="id">Dengan akademik</culture>
+    <culture name="mt-mt">ဒီဂရီအလိုက်</culture>
+    <culture name="ja-jp">従業員の教育レベルを分析</culture>
+  </menu>
+  <menu id="AnalysisEmplJobTitle">
+    <culture name="en-us">By Position</culture>
+    <culture name="zh-tw">員工職級分析</culture>
+    <culture name="zh-cn">员工职级分析</culture>
+    <culture name="vi">Qua chức danh</culture>
+    <culture name="id">Dengan judul</culture>
+    <culture name="mt-mt">အနေအထားအလိုက်</culture>
+    <culture name="ja-jp">従業員の職階を分析</culture>
+  </menu>
+  <menu id="AnalysisEmplSkill">
+    <culture name="en-us">By Skill</culture>
+    <culture name="zh-tw">員工專長分析</culture>
+    <culture name="zh-cn">员工专长分析</culture>
+    <culture name="vi">Qua chuyên môn</culture>
+    <culture name="id">Dengan secara khusus</culture>
+    <culture name="mt-mt">အရည်အချင်းအလိုက်</culture>
+    <culture name="ja-jp">従業員の専門を分析</culture>
+  </menu>
+  <menu id="AnalysisForum">
+    <culture name="en-us">Forum</culture>
+    <culture name="zh-tw">討論區分析</culture>
+    <culture name="zh-cn">讨论区分析</culture>
+    <culture name="vi">Diễn đàn</culture>
+    <culture name="id">Forum</culture>
+    <culture name="mt-mt">ဆွေးနွေးမှု</culture>
+    <culture name="ja-jp">掲示板への分析</culture>
+  </menu>
+  <menu id="AnalysisForumUserInfo">
+    <culture name="en-us">User Statistic within a Month</culture>
+    <culture name="zh-tw">最近一個月討論區使用者資訊統計</culture>
+    <culture name="zh-cn">最近一个月讨论区用户信息统计</culture>
+    <culture name="vi">Thống kê người sự dụng tháng gần nhất</culture>
+    <culture name="id">Statistik user dalam sebulan</culture>
+    <culture name="mt-mt">တစ်လအတွင်း သုံးစွဲသူစာရင်းအင်း</culture>
+    <culture name="ja-jp">最近一ヶ月ユーザーメッセージの集計</culture>
+  </menu>
+  <menu id="AnalysisHumanResource">
+    <culture name="en-us">HR Analysis</culture>
+    <culture name="zh-tw">人力資源分析</culture>
+    <culture name="zh-cn">人力资源分析</culture>
+    <culture name="vi">Phân tích HR</culture>
+    <culture name="id">Analisa HR</culture>
+    <culture name="mt-mt">လူ့အခွင့်အရေး ဆန်းစစ်ချက်</culture>
+    <culture name="ja-jp">HR情報分析</culture>
+  </menu>
+  <menu id="AnalysisLoginCount">
+    <culture name="en-us">The Last month Login Statistic</culture>
+    <culture name="zh-tw">最近一個月登入使用者統計</culture>
+    <culture name="zh-cn">最近一个月登录用户统计</culture>
+    <culture name="vi">Thông kê đăng nhập tháng gần nhất</culture>
+    <culture name="id">Statistik login bulan lalu</culture>
+    <culture name="mt-mt">လွန်ခဲ့သောလ ၀င်ရောက်မှုစာရင်း</culture>
+    <culture name="ja-jp">最近一ヶ月登録したユーザー</culture>
+  </menu>
+  <menu id="AnalysisMonthMessageCount">
+    <culture name="en-us">Message Statistic within a Month</culture>
+    <culture name="zh-tw">最近一個月訊息統計</culture>
+    <culture name="zh-cn">最近一个月信息统计</culture>
+    <culture name="vi">Thống kê tin nhắn tháng gần nhất</culture>
+    <culture name="id">Statistik pesan dalam sebulan</culture>
+    <culture name="mt-mt">တစ်လအတွင်း စာတိုစာရင်း</culture>
+    <culture name="ja-jp">最近一ヶ月メッセージ集計</culture>
+  </menu>
+  <menu id="AnalysisNotLoginUser">
+    <culture name="en-us">Un-Login User Query</culture>
+    <culture name="zh-tw">未登入使用者查詢</culture>
+    <culture name="zh-cn">未登录用户查询</culture>
+    <culture name="vi">Tìm kiếm người dùng chưa đăng nhập</culture>
+    <culture name="id">Pencarian user Logout</culture>
+    <culture name="mt-mt">Un-Login User Query</culture>
+    <culture name="ja-jp">未登録ユーザーを検索</culture>
+  </menu>
+  <menu id="SiteSearch">
+    <culture name="en-us">Search</culture>
+    <culture name="zh-tw">站內搜尋</culture>
+    <culture name="zh-cn">站内搜寻</culture>
+    <culture name="vi">Tìm kiếm</culture>
+    <culture name="id">Cari</culture>
+    <culture name="mt-mt">站內搜尋</culture>
+    <culture name="ja-jp">ページ内検索</culture>
+  </menu>
+  <menu id="SiteSearchTSP">
+    <culture name="en-us">Search</culture>
+    <culture name="zh-tw">站內搜尋</culture>
+    <culture name="zh-cn">站内搜寻</culture>
+    <culture name="vi">Tìm kiếm</culture>
+    <culture name="id">Cari</culture>
+    <culture name="mt-mt">站內搜尋</culture>
+    <culture name="ja-jp">ページ内検索</culture>
+  </menu>
+  <menu id="AnalysisRecentYearPostArticles">
+    <culture name="en-us">Thread Statistic within a Year</culture>
+    <culture name="zh-tw">最近一年發表篇數統計</culture>
+    <culture name="zh-cn">最近一年发表篇数统计</culture>
+    <culture name="vi">Thống kê chuỗi thông báo năm gần nhất</culture>
+    <culture name="id">Rangkaian statistik dalam setahun</culture>
+    <culture name="mt-mt">တစ်နှစ်အတွင်းအသေးစိတ်စာရင်းအင်း</culture>
+    <culture name="ja-jp">年間投稿量の計算</culture>
+  </menu>
+  <menu id="AnalysisSystemUse">
+    <culture name="en-us">System</culture>
+    <culture name="zh-tw">系統使用分析</culture>
+    <culture name="zh-cn">系统使用分析</culture>
+    <culture name="vi">Hệ thống</culture>
+    <culture name="id">Sistem</culture>
+    <culture name="mt-mt">စနစ်</culture>
+    <culture name="ja-jp">システム使用量の分析</culture>
+  </menu>
+  <menu id="AnalysisUseFileSizeCount">
+    <culture name="en-us">Briefcase Capacity Statistic</culture>
+    <culture name="zh-tw">公事包使用容量統計</culture>
+    <culture name="zh-cn">公文包使用容量统计</culture>
+    <culture name="vi">Thống kê dung lượng cặp tài liệu</culture>
+    <culture name="id">Statistik kapasitas tempat</culture>
+    <culture name="mt-mt">စွမ်းဆောင်ရည်အတိုချုပ်စာရင်း</culture>
+    <culture name="ja-jp">使用量を集計</culture>
+  </menu>
+  <menu id="AnalysisUserPostCount">
+    <culture name="en-us">Bulletin Publish Statistic</culture>
+    <culture name="zh-tw">公告張貼統計</culture>
+    <culture name="zh-cn">公告张贴统计</culture>
+    <culture name="vi">Thống kê công bố thông cáo</culture>
+    <culture name="id">Mengeluarkan pengumuman statistik</culture>
+    <culture name="mt-mt">အများပြည်သူအတွက် ထုတ်ပြန်ကြေငြာချက်စာရင်း</culture>
+    <culture name="ja-jp">掲示板への投稿数</culture>
+  </menu>
+  <menu id="BoardSetting">
+    <culture name="en-us">Forum Setting</culture>
+    <culture name="zh-tw">討論區設定</culture>
+    <culture name="zh-cn">讨论区设置</culture>
+    <culture name="vi">Cài đặt diễn đàn</culture>
+    <culture name="id">Pengaturan forum</culture>
+    <culture name="mt-mt">အဖွဲအစည်းဖွဲ့စည်းပုံ</culture>
+    <culture name="ja-jp">掲示板を設定する</culture>
+  </menu>
+  <menu id="BorrowManagement">
+    <culture name="en-us">Booking Mgt.</culture>
+    <culture name="zh-tw">借用管理</culture>
+    <culture name="zh-cn">借用管理</culture>
+    <culture name="vi">Quản lý mượn</culture>
+    <culture name="id">Pengelolaan peminjaman</culture>
+    <culture name="mt-mt">ချေးငှားခြင်းဆိုင်ရာ စီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">貸し付け管理</culture>
+  </menu>
+  <menu id="BorwseBorrowRecord">
+    <culture name="en-us">Booking Records</culture>
+    <culture name="zh-tw">借用記錄</culture>
+    <culture name="zh-cn">借用记录</culture>
+    <culture name="vi">Hồ sơ mượn</culture>
+    <culture name="id">Catatan peminjaman</culture>
+    <culture name="mt-mt">ချေးငှားခြင်းဆိုင်ရာ မှတ်တမ်း</culture>
+    <culture name="ja-jp">貸し付け履歴</culture>
+  </menu>
+  <menu id="Briefcase">
+    <culture name="en-us">Briefcase</culture>
+    <culture name="zh-tw">我的公事包</culture>
+    <culture name="zh-cn">我的公文包</culture>
+    <culture name="vi">Cặp tài liệu</culture>
+    <culture name="id">Kotak</culture>
+    <culture name="mt-mt">我的公事包</culture>
+    <culture name="ja-jp">メニュー</culture>
+  </menu>
+  <menu id="Bulletin">
+    <culture name="en-us">Bulletin</culture>
+    <culture name="zh-tw">公告</culture>
+    <culture name="zh-cn">公告</culture>
+    <culture name="vi">Bản tin</culture>
+    <culture name="id">Pengumuman</culture>
+    <culture name="mt-mt">公告</culture>
+    <culture name="ja-jp">お知らせ</culture>
+  </menu>
+  <menu id="BulletinQuery">
+    <culture name="en-us">BulletinQuery</culture>
+    <culture name="zh-tw">查詢</culture>
+    <culture name="zh-cn">查询</culture>
+    <culture name="vi">BulletinQuery</culture>
+    <culture name="id">BulletinQuery</culture>
+    <culture name="mt-mt">查詢</culture>
+    <culture name="ja-jp">検索</culture>
+  </menu>
+  <menu id="UserReadBulletin">
+    <culture name="en-us">View Record</culture>
+    <culture name="zh-tw">瀏覽記錄</culture>
+    <culture name="zh-cn">浏览记录</culture>
+    <culture name="vi">Hồ sơ tổng quan</culture>
+    <culture name="id">Menampilkan rekaman</culture>
+    <culture name="mt-mt">မှတ်တမ်း ကြည့်ရန်</culture>
+    <culture name="ja-jp">閲覧履歴</culture>
+  </menu>
+  <menu id="BulletinExamine">
+    <culture name="en-us">Release Approval</culture>
+    <culture name="zh-tw">發佈審核</culture>
+    <culture name="zh-cn">发布审核</culture>
+    <culture name="vi">Công bố xác nhận</culture>
+    <culture name="id">Mengumunkan persetujuan</culture>
+    <culture name="mt-mt">ထုတ်ပြန်မှု ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">アップロード審査</culture>
+  </menu>
+  <menu id="Calendar">
+    <culture name="en-us">Calendar</culture>
+    <culture name="zh-tw">行事曆</culture>
+    <culture name="zh-cn">工作日历</culture>
+    <culture name="vi">Lịch</culture>
+    <culture name="id">Kalender</culture>
+    <culture name="mt-mt">行事曆</culture>
+    <culture name="ja-jp">カレンダー</culture>
+  </menu>
+  <menu id="DMS">
+    <culture name="en-us">DMS</culture>
+    <culture name="zh-tw">文件管理</culture>
+    <culture name="zh-cn">文档管理</culture>
+    <culture name="vi">DMS</culture>
+    <culture name="id">DMS</culture>
+    <culture name="mt-mt">စာရွက်စာတမ်းများစီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">書類管理</culture>
+  </menu>
+  <menu id="DMSDoc">
+    <culture name="en-us">Document</culture>
+    <culture name="zh-tw">文件</culture>
+    <culture name="zh-cn">文档</culture>
+    <culture name="vi">Tài liệu</culture>
+    <culture name="id">Dokumen</culture>
+    <culture name="mt-mt">စာရွက်စာတမ်း</culture>
+    <culture name="ja-jp">ファイル</culture>
+  </menu>
+  <menu id="DMSDocComm">
+    <culture name="en-us">Commonly Use</culture>
+    <culture name="zh-tw">常用文件區</culture>
+    <culture name="zh-cn">常用文档区</culture>
+    <culture name="vi">Văn kiện thường dùng</culture>
+    <culture name="id">Yang sering digunakan</culture>
+    <culture name="mt-mt">ယေဘုယျအသုံးပြုခြင်း</culture>
+    <culture name="ja-jp">よく使うファイル</culture>
+  </menu>
+  <menu id="DMSDocList">
+    <culture name="en-us">Document Detailed List</culture>
+    <culture name="zh-tw">文件清冊</culture>
+    <culture name="zh-cn">文档清册</culture>
+    <culture name="vi">Danh sách tài liệu</culture>
+    <culture name="id">Daftar rincian dokumen</culture>
+    <culture name="mt-mt">စာရွက်စာတမ်းအသေးစိတ်စာရင်း</culture>
+    <culture name="ja-jp">書類リスト</culture>
+  </menu>
+  <menu id="DMSDocNew">
+    <culture name="en-us">Latest Action</culture>
+    <culture name="zh-tw">最新資訊</culture>
+    <culture name="zh-cn">最新信息</culture>
+    <culture name="vi">Thông tin mới nhất</culture>
+    <culture name="id">最新資訊</culture>
+    <culture name="mt-mt">最新資訊</culture>
+    <culture name="ja-jp">最新情報</culture>
+  </menu>
+  <menu id="DMSDocStore">
+    <culture name="en-us">Document Center</culture>
+    <culture name="zh-tw">文件庫</culture>
+    <culture name="zh-cn">文档库</culture>
+    <culture name="vi">Kho tài liệu</culture>
+    <culture name="id">Pusat dokumen</culture>
+    <culture name="mt-mt">စာရွက်စာတမ်း</culture>
+    <culture name="ja-jp">マイドキュメント</culture>
+  </menu>
+  <menu id="DMSFullSearch">
+    <culture name="en-us">Full Text Search</culture>
+    <culture name="zh-tw">全文檢索</culture>
+    <culture name="zh-cn">全文检索</culture>
+    <culture name="vi">Tìm kiếm nguyên văn</culture>
+    <culture name="id">Cari teks secara lengkap</culture>
+    <culture name="mt-mt">စာသားအပြည့်အဝရှာရန်</culture>
+    <culture name="ja-jp">ページ内検索</culture>
+  </menu>
+  <menu id="DMSDocLoanStatus">
+    <culture name="en-us">View Request Status</culture>
+    <culture name="zh-tw">調閱申請狀態</culture>
+    <culture name="zh-cn">调阅申请状态</culture>
+    <culture name="vi">Trạng thái xem xét ứng tuyển</culture>
+    <culture name="id">Status aplikasi pinjaman</culture>
+    <culture name="mt-mt">ကြည့်ရှုခွင့် တောင်းဆိုမှု အဆင့်</culture>
+    <culture name="ja-jp">申請状況一覧</culture>
+  </menu>
+  <menu id="DMSDocVoidStatus">
+    <culture name="en-us">Status of Void application</culture>
+    <culture name="zh-tw">作廢申請狀態</culture>
+    <culture name="zh-cn">作废申请状态</culture>
+    <culture name="vi">Vô hiệu trạng thái đăng ký</culture>
+    <culture name="id">作廢申請狀態</culture>
+    <culture name="mt-mt">作廢申請狀態</culture>
+    <culture name="ja-jp">無効申請の状態</culture>
+  </menu>
+  <menu id="DMSDocDeleteStatus">
+    <culture name="en-us">Status of Delete application</culture>
+    <culture name="zh-tw">銷毀申請狀態</culture>
+    <culture name="zh-cn">销毁申请状态</culture>
+    <culture name="vi">Hủy trạng thái ứng dụng</culture>
+    <culture name="id">銷毀申請狀態</culture>
+    <culture name="mt-mt">銷毀申請狀態</culture>
+    <culture name="ja-jp">廃止申請の状態</culture>
+  </menu>
+  <menu id="DMSLendHistory">
+    <culture name="en-us">View Request History</culture>
+    <culture name="zh-tw">調閱歷程</culture>
+    <culture name="zh-cn">调阅历程</culture>
+    <culture name="vi">Lịch sử xem</culture>
+    <culture name="id">Riwayat pinjaman</culture>
+    <culture name="mt-mt">ကြည့်ရှုခွင့် တောင်းဆိုမှု မှတ်တမ်း</culture>
+    <culture name="ja-jp">申請履歴一覧</culture>
+  </menu>
+  <menu id="DMSQueryLendDefault">
+    <culture name="en-us">View Request</culture>
+    <culture name="zh-tw">調閱文件</culture>
+    <culture name="zh-cn">调阅文件</culture>
+    <culture name="vi">Xem yêu cầu</culture>
+    <culture name="id">Melihat permintaan</culture>
+    <culture name="mt-mt">調閱文件</culture>
+    <culture name="ja-jp">ファイル一覧を表示させる</culture>
+  </menu>
+  <menu id="RevisedDocSearch">
+    <culture name="en-us">Documents in Updating</culture>
+    <culture name="zh-tw">改版中文件</culture>
+    <culture name="zh-cn">改版中文件</culture>
+    <culture name="vi">Tệp dưới bản sửa đổi</culture>
+    <culture name="id">改版中文件</culture>
+    <culture name="mt-mt">改版中文件</culture>
+    <culture name="ja-jp">改版中文書</culture>
+  </menu>
+  <menu id="DMSPerson">
+    <culture name="en-us">Personal</culture>
+    <culture name="zh-tw">個人</culture>
+    <culture name="zh-cn">个人</culture>
+    <culture name="vi">Cá nhân</culture>
+    <culture name="id">Pribadi</culture>
+    <culture name="mt-mt">ပုဂ္ဂိုလ်ရေးဆိုင်ရာ</culture>
+    <culture name="ja-jp">個人</culture>
+  </menu>
+  <menu id="DMSPersonBorrow">
+    <culture name="en-us">Loan Application Status</culture>
+    <culture name="zh-tw">調閱申請狀態</culture>
+    <culture name="zh-cn">调阅申请状态</culture>
+    <culture name="vi">Trạng thái xem xét ứng tuyển</culture>
+    <culture name="id">調閱申請狀態</culture>
+    <culture name="mt-mt">
+    </culture>
+    <culture name="ja-jp">申請状態一覧</culture>
+  </menu>
+  <menu id="DMSPersonSubList">
+    <culture name="en-us">Subscription List</culture>
+    <culture name="zh-tw">訂閱清單</culture>
+    <culture name="zh-cn">订阅列表</culture>
+    <culture name="vi">Danh sách đồng ý</culture>
+    <culture name="id">Daftar berlangganan</culture>
+    <culture name="mt-mt">သဘောတူညီမှုမှတ်တမ်းလက်မှတ်စာရင်း</culture>
+    <culture name="ja-jp">サブスクリプションリスト</culture>
+  </menu>
+  <menu id="DMSQuerySts">
+    <culture name="en-us">Search &amp; Statistic</culture>
+    <culture name="zh-tw">查詢及統計</culture>
+    <culture name="zh-cn">查询及统计</culture>
+    <culture name="vi">Tìm kiếm và thống kê</culture>
+    <culture name="id">Pencarian &amp; Statistik</culture>
+    <culture name="mt-mt">ရှာဖွေမှုနှင့်စာရင်းဇယား</culture>
+    <culture name="ja-jp">検索と集計</culture>
+  </menu>
+  <menu id="DMSSys">
+    <culture name="en-us">Mgt.</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">Manajemen/pengelolaan</culture>
+    <culture name="mt-mt">စီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="DMSSysClass">
+    <culture name="en-us">Maintain Category</culture>
+    <culture name="zh-tw">類別維護</culture>
+    <culture name="zh-cn">类别维护</culture>
+    <culture name="vi">Thể loại duy trì</culture>
+    <culture name="id">Kategori perbaikan</culture>
+    <culture name="mt-mt">အမျိုးအစားလိုက် ထိန်းသိမ်းခြင်း</culture>
+    <culture name="ja-jp">分類によってメンテナンス</culture>
+  </menu>
+  <menu id="DMSEventLog">
+    <culture name="en-us">Event Logs</culture>
+    <culture name="zh-tw">事件檢視</culture>
+    <culture name="zh-cn">事件查看</culture>
+    <culture name="vi">Sổ ghi sự kiện</culture>
+    <culture name="id">Event Log</culture>
+    <culture name="mt-mt">အဖြစ်အပျက် မှတ်တမ်း</culture>
+    <culture name="ja-jp">イベンドをチャックする</culture>
+  </menu>
+  <menu id="DMSSysDocMaint">
+    <culture name="en-us">Maintain Doc.</culture>
+    <culture name="zh-tw">文件維護</culture>
+    <culture name="zh-cn">文档维护</culture>
+    <culture name="vi">Duy trì tài liệu</culture>
+    <culture name="id">Dokumen perbaikan</culture>
+    <culture name="mt-mt">စာရွက်စာတမ်း ထိန်းသိမ်းခြင်း</culture>
+    <culture name="ja-jp">書類メンテナンス</culture>
+  </menu>
+  <menu id="DMSWaitApprove">
+    <culture name="en-us">Released Approval</culture>
+    <culture name="zh-tw">發佈審核</culture>
+    <culture name="zh-cn">发布审核</culture>
+    <culture name="vi">Công bố xác nhận</culture>
+    <culture name="id">Mengumunkan persetujuan</culture>
+    <culture name="mt-mt">အများသုံး ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">アップロード審査</culture>
+  </menu>
+  <menu id="DMSDocLoanApprove">
+    <culture name="en-us">View Request Approval</culture>
+    <culture name="zh-tw">調閱審核</culture>
+    <culture name="zh-cn">调阅审核</culture>
+    <culture name="vi">Xác nhận cho mượn</culture>
+    <culture name="id">Persetujuan pinjaman</culture>
+    <culture name="mt-mt">ကြည့်ရှုခွင့် တောင်းဆိုမှု ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">リクエスト審査</culture>
+  </menu>
+  <menu id="DMSDocVoidApprove">
+    <culture name="en-us">Void Approval</culture>
+    <culture name="zh-tw">作廢審核</culture>
+    <culture name="zh-cn">作废审核</culture>
+    <culture name="vi">Báo phế xét duyệt</culture>
+    <culture name="id">Void Approval</culture>
+    <culture name="mt-mt">ပျက်ပြယ်မှု ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">削除審査</culture>
+  </menu>
+  <menu id="DMSDocDeleteApprove">
+    <culture name="en-us">Delete Approval</culture>
+    <culture name="zh-tw">銷毀審核</culture>
+    <culture name="zh-cn">销毁审核</culture>
+    <culture name="vi">Kiểm tra tiêu hủy</culture>
+    <culture name="id">銷毀審核</culture>
+    <culture name="mt-mt">銷毀審核</culture>
+    <culture name="ja-jp">廃止審査</culture>
+  </menu>
+  <menu id="DMSWaitApplyStatus">
+    <culture name="en-us">Released Approval Status</culture>
+    <culture name="zh-tw">發佈申請狀態</culture>
+    <culture name="zh-cn">发布申请状态</culture>
+    <culture name="vi">Công bố trạng thái ứng tuyển</culture>
+    <culture name="id">Mengumumkan status aplikasi</culture>
+    <culture name="mt-mt">အများသုံးလျှောက်ထားမှု အဆင့်</culture>
+    <culture name="ja-jp">申請状態を発表する</culture>
+  </menu>
+  <menu id="DMSDocLendMaintain">
+    <culture name="en-us">View Request Mgt.</culture>
+    <culture name="zh-tw">文件調閱管理</culture>
+    <culture name="zh-cn">文档调阅管理</culture>
+    <culture name="vi">Quản lý xem xét tài liệu</culture>
+    <culture name="id">Mengelola pinjaman</culture>
+    <culture name="mt-mt">ကြည့်ရှုခွင့် တောင်းဆိုမှုစီမံခန့်ခွဲခြင်း</culture>
+    <culture name="ja-jp">ファイルを</culture>
+  </menu>
+  <menu id="DMSWKFMaintain">
+    <culture name="en-us">Maintain Flow</culture>
+    <culture name="zh-tw">文件簽核流程維護</culture>
+    <culture name="zh-cn">文档签核流程维护</culture>
+    <culture name="vi">Duy trì luồng tài liệu</culture>
+    <culture name="id">Alur perbaikan</culture>
+    <culture name="mt-mt">ထိန်းသိမ်းမှု လုပ်ငန်းစဉ်</culture>
+    <culture name="ja-jp">サインプロセスをメンテナンス</culture>
+  </menu>
+  <menu id="DMSWatermark">
+    <culture name="en-us">WaterMark Setting</culture>
+    <culture name="zh-tw">浮水印設定</culture>
+    <culture name="zh-cn">浮水印设定</culture>
+    <culture name="vi">Cài đặt hình mờ</culture>
+    <culture name="id">Pengaturan WaterMark</culture>
+    <culture name="mt-mt">အောက်ခံပုံရိပ် ချိန်ညှိခြင်း</culture>
+    <culture name="ja-jp">透かしを設定</culture>
+  </menu>
+  <menu id="DMSSysDocRemote">
+    <culture name="en-us">Status query of releasing to remote</culture>
+    <culture name="zh-tw">文件異地發佈狀態查詢</culture>
+    <culture name="zh-cn">文件异地发布状态查询</culture>
+    <culture name="vi">Tra trạng thái bản tin phát hành nơi khác</culture>
+    <culture name="id">mencari status data di tempat lain</culture>
+    <culture name="mt-mt">Status query of releasing to remote</culture>
+    <culture name="ja-jp">ファイルをアップするところ一覧</culture>
+  </menu>
+  <menu id="Forum">
+    <culture name="en-us">Forums</culture>
+    <culture name="zh-tw">討論區</culture>
+    <culture name="zh-cn">讨论区</culture>
+    <culture name="vi">Diễn đàn</culture>
+    <culture name="id">Forum</culture>
+    <culture name="mt-mt">ဆွေးနွေးမှု</culture>
+    <culture name="ja-jp">ネット フォーラム</culture>
+  </menu>
+  <menu id="ForumEssenceSetting">
+    <culture name="en-us">Digest  Setting</culture>
+    <culture name="zh-tw">精華區設定</culture>
+    <culture name="zh-cn">精华区设置</culture>
+    <culture name="vi">Cài đặt tinh túy</culture>
+    <culture name="id">Inti pengaturan</culture>
+    <culture name="mt-mt">စနစ်တကျဖွဲ့စည်းခြင်း</culture>
+    <culture name="ja-jp">ダイジェストを設定</culture>
+  </menu>
+  <menu id="ForumSetting">
+    <culture name="en-us">Setting</culture>
+    <culture name="zh-tw">設定</culture>
+    <culture name="zh-cn">设置</culture>
+    <culture name="vi">Cài đặt</culture>
+    <culture name="id">Setting</culture>
+    <culture name="mt-mt">設定</culture>
+    <culture name="ja-jp">設定</culture>
+  </menu>
+  <menu id="Homepage">
+    <culture name="en-us">Home</culture>
+    <culture name="zh-tw">我的首頁</culture>
+    <culture name="zh-cn">我的主页</culture>
+    <culture name="vi">Trang chủ</culture>
+    <culture name="id">Home</culture>
+    <culture name="mt-mt">Home</culture>
+    <culture name="ja-jp">個人ホームページ</culture>
+  </menu>
+  <menu id="ManagerSetting">
+    <culture name="en-us">Administrator Setup</culture>
+    <culture name="zh-tw">管理員設定</culture>
+    <culture name="zh-cn">管理员设置</culture>
+    <culture name="vi">Cài đặt quản trị viên</culture>
+    <culture name="id">Pengaturan administrator</culture>
+    <culture name="mt-mt">အုပ်ချုပ်သူ၏ လုပ်ဆောင်ချက်</culture>
+    <culture name="ja-jp">管理人設置</culture>
+  </menu>
+  <menu id="Organization">
+    <culture name="en-us">Organization</culture>
+    <culture name="zh-tw">組織維護</culture>
+    <culture name="zh-cn">组织维护</culture>
+    <culture name="vi">Tổ chức</culture>
+    <culture name="id">Organisasi</culture>
+    <culture name="mt-mt">အဖွဲ့အစည်း</culture>
+    <culture name="ja-jp">メンテナンス</culture>
+  </menu>
+  <menu id="OrganizationBaseData">
+    <culture name="en-us">Basic Data</culture>
+    <culture name="zh-tw">基礎資料維護</culture>
+    <culture name="zh-cn">基础数据维护</culture>
+    <culture name="vi">Dữ liệu cơ bản</culture>
+    <culture name="id">Data awal</culture>
+    <culture name="mt-mt">အခြေခံအချက်အလက်</culture>
+    <culture name="ja-jp">基幹データのメンテナンス</culture>
+  </menu>
+  <menu id="OrganizationCalendar">
+    <culture name="en-us">Organization Calendar</culture>
+    <culture name="zh-tw">組織行事曆</culture>
+    <culture name="zh-cn">组织工作日历</culture>
+    <culture name="vi">Tổ chức lịch</culture>
+    <culture name="id">Kalender organisasi</culture>
+    <culture name="mt-mt">အဖွဲ့အစည်း ပြက္ခဒိန်</culture>
+    <culture name="ja-jp">カレンダーを編集</culture>
+  </menu>
+  <menu id="OrganizationEmployee">
+    <culture name="en-us">Internal Staff</culture>
+    <culture name="zh-tw">內部員工維護</culture>
+    <culture name="zh-cn">内部员工维护</culture>
+    <culture name="vi">Nhân viên nội bộ</culture>
+    <culture name="id">Staf dalam</culture>
+    <culture name="mt-mt">အတွင်းပိုင်း၀န်ထမ်း</culture>
+    <culture name="ja-jp">従業員情報のメンテナンス</culture>
+  </menu>
+  <menu id="OrganizationHeirarchical">
+    <culture name="en-us">Department Staff</culture>
+    <culture name="zh-tw">部門人員管理</culture>
+    <culture name="zh-cn">部门人员管理</culture>
+    <culture name="vi">Phòng ban nhân viên</culture>
+    <culture name="id">Staf departemen</culture>
+    <culture name="mt-mt">ဌာနဆိုင်ရာ၀န်ထမ်း</culture>
+    <culture name="ja-jp">部門スタッフのメンテナンス</culture>
+  </menu>
+  <menu id="OrganizationMember">
+    <culture name="en-us">External Member</culture>
+    <culture name="zh-tw">外部會員維護</culture>
+    <culture name="zh-cn">外部会员维护</culture>
+    <culture name="vi">Thành viên bên ngoài</culture>
+    <culture name="id">Anggota luar</culture>
+    <culture name="mt-mt">ပြင်ပအဖွဲ့၀င်</culture>
+    <culture name="ja-jp">外部人員データメンテナンス</culture>
+  </menu>
+  <menu id="OrganizationUserColumn">
+    <culture name="en-us">Profile-field setup</culture>
+    <culture name="zh-tw">人員欄位設定</culture>
+    <culture name="zh-cn">人员字段设定</culture>
+    <culture name="vi">Cài đặt trường hồ sơ</culture>
+    <culture name="id">Pengaturan area-profil</culture>
+    <culture name="mt-mt">Profile-field setup</culture>
+    <culture name="ja-jp">従業員の資料設定</culture>
+  </menu>
+  <menu id="PersonalInformation">
+    <culture name="en-us">Profile</culture>
+    <culture name="zh-tw">個人設定</culture>
+    <culture name="zh-cn">个人设置</culture>
+    <culture name="vi">Tiểu sử</culture>
+    <culture name="id">Profil</culture>
+    <culture name="mt-mt">個人設定</culture>
+    <culture name="ja-jp">個人設定</culture>
+  </menu>
+  <menu id="Plant">
+    <culture name="en-us">Booking Mgt.</culture>
+    <culture name="zh-tw">場地設備管理</culture>
+    <culture name="zh-cn">场地设备管理</culture>
+    <culture name="vi">Quản lý thiết bị</culture>
+    <culture name="id">Pengelolaan pemesanan</culture>
+    <culture name="mt-mt">ပစ္စည်းကိရိယာများစီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">貸し付け管理</culture>
+  </menu>
+  <menu id="PlantManagement">
+    <culture name="en-us">Facility Mgt.</culture>
+    <culture name="zh-tw">設備管理</culture>
+    <culture name="zh-cn">设备管理</culture>
+    <culture name="vi">Quản lý thiết bị</culture>
+    <culture name="id">Pengelolaan sumber daya</culture>
+    <culture name="mt-mt">အထောက်အပံ့ပစ္စည်း စီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">設備管理</culture>
+  </menu>
+  <menu id="PlantManagementGroup">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">Pengelolaan</culture>
+    <culture name="mt-mt">管理</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="PlantReport">
+    <culture name="en-us">Query</culture>
+    <culture name="zh-tw">查詢</culture>
+    <culture name="zh-cn">查询</culture>
+    <culture name="vi">Tra tìm</culture>
+    <culture name="id">查詢</culture>
+    <culture name="mt-mt">查詢</culture>
+    <culture name="ja-jp">検索</culture>
+  </menu>
+  <menu id="PlantEquipmentManage">
+    <culture name="en-us">Accessory Maintain</culture>
+    <culture name="zh-tw">場地內配備主檔維護</culture>
+    <culture name="zh-cn">场地内配备主档维护</culture>
+    <culture name="vi">Bảo trì thiết bị</culture>
+    <culture name="id">Mengatur aksesori</culture>
+    <culture name="mt-mt">Accessory Maintain</culture>
+    <culture name="ja-jp">場所設備の管理</culture>
+  </menu>
+  <menu id="BorrowField">
+    <culture name="en-us">Booking</culture>
+    <culture name="zh-tw">場地借用</culture>
+    <culture name="zh-cn">场地借用</culture>
+    <culture name="vi">Địa điểm mượn dùng</culture>
+    <culture name="id">Pemesanana ruang</culture>
+    <culture name="mt-mt">Room Booking</culture>
+    <culture name="ja-jp">場所を借りる</culture>
+  </menu>
+  <menu id="Polling">
+    <culture name="en-us">Vote</culture>
+    <culture name="zh-tw">投票</culture>
+    <culture name="zh-cn">投票</culture>
+    <culture name="vi">Bỏ phiếu</culture>
+    <culture name="id">Memilih</culture>
+    <culture name="mt-mt">ဆန္ဒမဲပေးသည်</culture>
+    <culture name="ja-jp">表決</culture>
+  </menu>
+  <menu id="PrivateMessage">
+    <culture name="en-us">Message</culture>
+    <culture name="zh-tw">私人訊息</culture>
+    <culture name="zh-cn">私人信息</culture>
+    <culture name="vi">Tin nhắn</culture>
+    <culture name="id">Pesan</culture>
+    <culture name="mt-mt">私人訊息</culture>
+    <culture name="ja-jp">個人メッセージ</culture>
+  </menu>
+  <menu id="System">
+    <culture name="en-us">System</culture>
+    <culture name="zh-tw">系統管理</culture>
+    <culture name="zh-cn">系统管理</culture>
+    <culture name="vi">Hệ thống</culture>
+    <culture name="id">Sistem</culture>
+    <culture name="mt-mt">စနစ်</culture>
+    <culture name="ja-jp">システム管理</culture>
+  </menu>
+  <menu id="SystemADConfig">
+    <culture name="en-us">AD Setup</culture>
+    <culture name="zh-tw">AD設定</culture>
+    <culture name="zh-cn">AD设置</culture>
+    <culture name="vi">Cài đặt AD</culture>
+    <culture name="id">Pengaturan AD</culture>
+    <culture name="mt-mt">AD ချိန်ညှိခြင်း</culture>
+    <culture name="ja-jp">ADを設定</culture>
+  </menu>
+  <menu id="SystemAuthorizationInfo">
+    <culture name="en-us">Information</culture>
+    <culture name="zh-tw">授權資訊</culture>
+    <culture name="zh-cn">授权信息</culture>
+    <culture name="vi">Thông tin</culture>
+    <culture name="id">Informasi</culture>
+    <culture name="mt-mt">သတင်းအချက်အလက်</culture>
+    <culture name="ja-jp">権限情報</culture>
+  </menu>
+  <menu id="SystemAuthorize">
+    <culture name="en-us">License</culture>
+    <culture name="zh-tw">授權管理</culture>
+    <culture name="zh-cn">授权管理</culture>
+    <culture name="vi">Giấy phép</culture>
+    <culture name="id">Lisensi</culture>
+    <culture name="mt-mt">တရား၀င်ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">権限管理</culture>
+  </menu>
+  <menu id="SystemMobile">
+    <culture name="en-us">Mobile</culture>
+    <culture name="zh-tw">行動裝置</culture>
+    <culture name="zh-cn">行动装置</culture>
+    <culture name="vi">Thiết bị di động</culture>
+    <culture name="id">行動裝置</culture>
+    <culture name="mt-mt">行動裝置</culture>
+    <culture name="ja-jp">モバイル</culture>
+  </menu>
+  <menu id="SystemConfigration">
+    <culture name="en-us">Configuration</culture>
+    <culture name="zh-tw">系統組態</culture>
+    <culture name="zh-cn">系统配置</culture>
+    <culture name="vi">Cấu hình</culture>
+    <culture name="id">Konfigurasi</culture>
+    <culture name="mt-mt">အစီအစဉ်စနစ်</culture>
+    <culture name="ja-jp">システム設定</culture>
+  </menu>
+  <menu id="SystemConfigrationSetting">
+    <culture name="en-us">General Setup</culture>
+    <culture name="zh-tw">一般組態設定</culture>
+    <culture name="zh-cn">常规配置设置</culture>
+    <culture name="vi">Cài đặt chung</culture>
+    <culture name="id">Pengaturan umum</culture>
+    <culture name="mt-mt">ယေဘုယျလုပ်ဆောင်ချက်</culture>
+    <culture name="ja-jp">メニュー設定</culture>
+  </menu>
+  <menu id="SystemCustomMenu">
+    <culture name="en-us">Customized Menu</culture>
+    <culture name="zh-tw">自訂選單</culture>
+    <culture name="zh-cn">自定义菜单</culture>
+    <culture name="vi">Bảng chọn tùy chỉnh</culture>
+    <culture name="id">Menu Custom</culture>
+    <culture name="mt-mt">စိတ်ကြိုက် စာရင်း</culture>
+    <culture name="ja-jp">個人化メニュー</culture>
+  </menu>
+  <menu id="SystemExpressSetting">
+    <culture name="en-us">Express Setup</culture>
+    <culture name="zh-tw">系統快速設定</culture>
+    <culture name="zh-cn">系统快速设置</culture>
+    <culture name="vi">Cài đặt nhanh</culture>
+    <culture name="id">Pengaturan cepat</culture>
+    <culture name="mt-mt">အမြန်လုပ်ဆောင်ချက်</culture>
+    <culture name="ja-jp">ショートカットキーを設定</culture>
+  </menu>
+  <menu id="SystemLoginLogManage">
+    <culture name="en-us">Login Record Mgt.</culture>
+    <culture name="zh-tw">登入記錄管理</culture>
+    <culture name="zh-cn">登录记录管理</culture>
+    <culture name="vi">Quản lý hồ sơ đăng nhập</culture>
+    <culture name="id">Menfelola riwayat login</culture>
+    <culture name="mt-mt">အသုံးပြုမှု မှတ်တမ်း စီမံမှု</culture>
+    <culture name="ja-jp">登録履歴管理</culture>
+  </menu>
+  <menu id="SystemCustomPageRule">
+    <culture name="en-us">WebPart Mgt.</culture>
+    <culture name="zh-tw">首頁面板管理</culture>
+    <culture name="zh-cn">主页面板管理</culture>
+    <culture name="vi">Quản lý trang chủ</culture>
+    <culture name="id">Mengelola bagian web</culture>
+    <culture name="mt-mt">WebPart Mgt.</culture>
+    <culture name="ja-jp">ホームページ管理</culture>
+  </menu>
+  <menu id="OrganizationHeirarchicalSet">
+    <culture name="en-us">Dept. Admin. Setup</culture>
+    <culture name="zh-tw">設定部門管理人員</culture>
+    <culture name="zh-cn">设定部门管理人员</culture>
+    <culture name="vi">Cài đặt ban quản trị</culture>
+    <culture name="id">Pengaturan administrator departemen</culture>
+    <culture name="mt-mt">ဌာနဆိုင်ရာအုပ်ချုပ်ရေးမှုး လုပ်ဆောင်ချက်</culture>
+    <culture name="ja-jp">部門の管理人員を設定</culture>
+  </menu>
+  <menu id="OrganizationMemberGroupAuth">
+    <culture name="en-us">Setup Authorization of External Group Maintenance</culture>
+    <culture name="zh-tw">設定外部群組維護權限</culture>
+    <culture name="zh-cn">设置外部群组维护权限</culture>
+    <culture name="vi">Ủy quyền thiết lập  cài đặt nhóm bên ngoài</culture>
+    <culture name="id">Mengatur otorisasi Pemeliharaan grup eksternal</culture>
+    <culture name="mt-mt">ပြင်ပအဖွဲ့ထိန်းသိမ်းမှု၏ အခွင့်အာဏာတည်ဆောက်သည်</culture>
+    <culture name="ja-jp">外部人員権限を設定</culture>
+  </menu>
+  <menu id="OrganizationMemberManagerment">
+    <culture name="en-us">External Member Maintain</culture>
+    <culture name="zh-tw">外部會員人員管理</culture>
+    <culture name="zh-cn">外部会员人员管理</culture>
+    <culture name="vi">Thành viên bên ngoài của quản lý nhân sự</culture>
+    <culture name="id">Pemeliharaan anggota eksternal</culture>
+    <culture name="mt-mt">ပြင်ပအဖွဲ့ဝင် ထိန်းသိမ်းရေး</culture>
+    <culture name="ja-jp">外部人員を管理する</culture>
+  </menu>
+  <menu id="SystemLogViewer">
+    <culture name="en-us">View Logs</culture>
+    <culture name="zh-tw">檢視事件</culture>
+    <culture name="zh-cn">查看事件</culture>
+    <culture name="vi">Xem bản ghi</culture>
+    <culture name="id">Menampilkan Log</culture>
+    <culture name="mt-mt">မှတ်တမ်းကြည့်သည်</culture>
+    <culture name="ja-jp">ログを一覧</culture>
+  </menu>
+  <menu id="SystemOnlineUser">
+    <culture name="en-us">On-line User</culture>
+    <culture name="zh-tw">線上使用者管理</culture>
+    <culture name="zh-cn">在线用户管理</culture>
+    <culture name="vi">Người dùng trực tuyến</culture>
+    <culture name="id">User yang sedang</culture>
+    <culture name="mt-mt">အွန်လိုင်း အသုံးပြုသူ</culture>
+    <culture name="ja-jp">ユーザー管理</culture>
+  </menu>
+  <menu id="WKF">
+    <culture name="en-us">BPM</culture>
+    <culture name="zh-tw">電子簽核</culture>
+    <culture name="zh-cn">工作流</culture>
+    <culture name="vi">BPM</culture>
+    <culture name="id">Alur kerja</culture>
+    <culture name="mt-mt">လုပ်ငန်းစဉ်</culture>
+    <culture name="ja-jp">電子サイン</culture>
+  </menu>
+  <menu id="WKFAgentMT">
+    <culture name="en-us">Set Deputy</culture>
+    <culture name="zh-tw">設定代理人</culture>
+    <culture name="zh-cn">设置代理人</culture>
+    <culture name="vi">Cài đặt thay thế</culture>
+    <culture name="id">Mengatur penggantian</culture>
+    <culture name="mt-mt">ကိုယ်စားလှယ် ပြင်ဆင်မှု</culture>
+    <culture name="ja-jp">職務代理者を設定</culture>
+  </menu>
+  <menu id="WKFAuthSet">
+    <culture name="en-us">Authority</culture>
+    <culture name="zh-tw">權限設定</culture>
+    <culture name="zh-cn">权限设置</culture>
+    <culture name="vi">Quyền hạn</culture>
+    <culture name="id">Otoritas</culture>
+    <culture name="mt-mt">ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">権限を設定</culture>
+  </menu>
+  <menu id="WKFDesign">
+    <culture name="en-us">Design</culture>
+    <culture name="zh-tw">設計</culture>
+    <culture name="zh-cn">设计</culture>
+    <culture name="vi">Thiết kế</culture>
+    <culture name="id">Desain</culture>
+    <culture name="mt-mt">စီမံခန့်ခွဲခြင်း</culture>
+    <culture name="ja-jp">デザート</culture>
+  </menu>
+  <menu id="WKFFlowManagement">
+    <culture name="en-us">Sub-flow Design</culture>
+    <culture name="zh-tw">副流程設計</culture>
+    <culture name="zh-cn">副流程设计</culture>
+    <culture name="vi">Thiết kếluồng phụ</culture>
+    <culture name="id">Desain sub-alur</culture>
+    <culture name="mt-mt">အောက်ခြေစီးဆင်းမှု ပုံကြမ်း</culture>
+    <culture name="ja-jp">サブプロセスを設定</culture>
+  </menu>
+  <menu id="WKFEndCallSet">
+    <culture name="en-us">External WS Register</culture>
+    <culture name="zh-tw">外部WS註冊</culture>
+    <culture name="zh-cn">外部WS注册</culture>
+    <culture name="vi">Đăng ký WS bên ngoài</culture>
+    <culture name="id">Pendaftaran WS eksternal</culture>
+    <culture name="mt-mt">ပြင်ပ WS စာရင်း</culture>
+    <culture name="ja-jp">外部WSを登録する</culture>
+  </menu>
+  <menu id="WKFFormAdmin">
+    <culture name="en-us">Form Mgt.</culture>
+    <culture name="zh-tw">表單管理</culture>
+    <culture name="zh-cn">表单管理</culture>
+    <culture name="vi">Quản lý Form</culture>
+    <culture name="id">Pengelolaan form</culture>
+    <culture name="mt-mt">လျှောက်လွှာပုံစံ စီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">フォーム管理</culture>
+  </menu>
+  <menu id="WKFFormAlert">
+    <culture name="en-us">Notified Form</culture>
+    <culture name="zh-tw">被知會表單</culture>
+    <culture name="zh-cn">被通知表单</culture>
+    <culture name="vi">Form được thông báo</culture>
+    <culture name="id">Form yang diberitahukan</culture>
+    <culture name="mt-mt">လျှောက်လွှာပုံစံ အသိပေးချက်</culture>
+    <culture name="ja-jp">通知されたシート</culture>
+  </menu>
+  <menu id="WKFFormApplied">
+    <culture name="en-us">Applied Form</culture>
+    <culture name="zh-tw">已送審表單</culture>
+    <culture name="zh-cn">已送审表单</culture>
+    <culture name="vi">Form tự ứng tuyển</culture>
+    <culture name="id">Form yang telah di setujui</culture>
+    <culture name="mt-mt">အသုံးချ လျှောက်လွှာပုံစံ</culture>
+    <culture name="ja-jp">審査中シート</culture>
+  </menu>
+  <menu id="WKFFormSigned">
+    <culture name="en-us">Signed Form</culture>
+    <culture name="zh-tw">已簽核表單</culture>
+    <culture name="zh-cn">已签核表单</culture>
+    <culture name="vi">Form đã ký</culture>
+    <culture name="id">Form yang ditanda tangani</culture>
+    <culture name="mt-mt">လျှောက်လွှာပုံစံ လက်မှတ်ထိုးမှု</culture>
+    <culture name="ja-jp">署名済みフォーム</culture>
+  </menu>
+  <menu id="WKFForOpinion">
+    <culture name="en-us">Form being Inquired</culture>
+    <culture name="zh-tw">被徵詢表單</culture>
+    <culture name="zh-cn">被征询表单</culture>
+    <culture name="vi">Form bị chất vấn</culture>
+    <culture name="id">Form yang dikonsultasikan</culture>
+    <culture name="mt-mt">စတင်မေးမြန်းခြင်းပုံစံ</culture>
+    <culture name="ja-jp">アクセスされたフォーム</culture>
+  </menu>
+  <menu id="WKFFormAgent">
+    <culture name="en-us">Apply for Other</culture>
+    <culture name="zh-tw">代填寫表單</culture>
+    <culture name="zh-cn">代填写表单</culture>
+    <culture name="vi">Ứng tuyển cho người khác</culture>
+    <culture name="id">Form yang dikonsultasikan</culture>
+    <culture name="mt-mt">အခြားလျှောက်ထားခြင်း</culture>
+    <culture name="ja-jp">代理申請のシート</culture>
+  </menu>
+  <menu id="WKFFormReaderManager">
+    <culture name="en-us">Form Viewer Query</culture>
+    <culture name="zh-tw">表單查閱者查詢</culture>
+    <culture name="zh-cn">表单查询者查询</culture>
+    <culture name="vi">From truy vấn người xem</culture>
+    <culture name="id">Form yang menampilkan Query</culture>
+    <culture name="mt-mt">ကြည့်ရှုသူ၏ မေးမြန်းမှုပုံစံ</culture>
+    <culture name="ja-jp">シート閲覧者一覧</culture>
+  </menu>
+  <menu id="WKFFormFiling">
+    <culture name="en-us">Filing</culture>
+    <culture name="zh-tw">歸檔查詢</culture>
+    <culture name="zh-cn">归档查询</culture>
+    <culture name="vi">Truy vân tập tin</culture>
+    <culture name="id">Pengisian</culture>
+    <culture name="mt-mt">တင်ပြချက်</culture>
+    <culture name="ja-jp">ファイルを調べる</culture>
+  </menu>
+  <menu id="WKFPersonalForm">
+    <culture name="en-us">Personal Form</culture>
+    <culture name="zh-tw">個人表單</culture>
+    <culture name="zh-cn">个人表单</culture>
+    <culture name="vi">Form cá nhân</culture>
+    <culture name="id">Form pribadi</culture>
+    <culture name="mt-mt">ပုဂ္ဂိုလ်ရေးဆိုင်ရာ လျှောက်လွှာပုံစံ</culture>
+    <culture name="ja-jp">個人用フォーム</culture>
+  </menu>
+  <menu id="WKFFormLibrary">
+    <culture name="en-us">Apply</culture>
+    <culture name="zh-tw">表單申請</culture>
+    <culture name="zh-cn">表单申请</culture>
+    <culture name="vi">Đơn ứng tuyển</culture>
+    <culture name="id">Aplikasi form</culture>
+    <culture name="mt-mt">လျှောက်ထားသည်။</culture>
+    <culture name="ja-jp">フォームを申請</culture>
+  </menu>
+  <menu id="WKFCustFlow">
+    <culture name="en-us">Customized Flow</culture>
+    <culture name="zh-tw">定義自訂流程</culture>
+    <culture name="zh-cn">定义自定义流程</culture>
+    <culture name="vi">Dòng tùy chỉnh</culture>
+    <culture name="id">Penyesuaian alur</culture>
+    <culture name="mt-mt">စိတ်ကြိုက် အစီအစဉ်</culture>
+    <culture name="ja-jp">フロー定義を設定</culture>
+  </menu>
+  <menu id="CustSignCommentSet">
+    <culture name="en-us">My Standard Comments</culture>
+    <culture name="zh-tw">個人罐頭意見維護</culture>
+    <culture name="zh-cn">个人罐头意见维护</culture>
+    <culture name="vi">Duy trì</culture>
+    <culture name="id">Maintain personal standard comment</culture>
+    <culture name="mt-mt">မိမိ ကြိုတင်သွင်းထားသော ထင်မြင်ချက်များ</culture>
+    <culture name="ja-jp">制式化返事を管理</culture>
+  </menu>
+  <menu id="WKFFormManagement">
+    <culture name="en-us">Form Design</culture>
+    <culture name="zh-tw">表單設計</culture>
+    <culture name="zh-cn">表单设计</culture>
+    <culture name="vi">Thiết kếForm</culture>
+    <culture name="id">Desain form</culture>
+    <culture name="mt-mt">ပုံကြမ်း ပုံစံ</culture>
+    <culture name="ja-jp">フォーム設計</culture>
+  </menu>
+  <menu id="WKFFormQuery">
+    <culture name="en-us">Form Query</culture>
+    <culture name="zh-tw">表單查詢</culture>
+    <culture name="zh-cn">表单查询</culture>
+    <culture name="vi">Form truy vấn</culture>
+    <culture name="id">Form Query</culture>
+    <culture name="mt-mt">မေးမြန်းမှုပုံစံ</culture>
+    <culture name="ja-jp">フォーム一覧</culture>
+  </menu>
+  <menu id="WKFGetBack">
+    <culture name="en-us">Retrieve</culture>
+    <culture name="zh-tw">取回未簽核表單</culture>
+    <culture name="zh-cn">取回未签核表单</culture>
+    <culture name="vi">Lấy lại biểu Form chưa chấp thuận</culture>
+    <culture name="id">Pengembalian form yang tidak disetujui</culture>
+    <culture name="mt-mt">ပြန်လည်ထုတ်ယူသည်</culture>
+    <culture name="ja-jp">サインしてないシートを取り返す</culture>
+  </menu>
+  <menu id="WKFManagement">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">Pengelolaan</culture>
+    <culture name="mt-mt">စီမံခန့်ခွဲခြင်း</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="WKFQuery">
+    <culture name="en-us">Query</culture>
+    <culture name="zh-tw">查詢</culture>
+    <culture name="zh-cn">查询</culture>
+    <culture name="vi">Truy vấn</culture>
+    <culture name="id">Query</culture>
+    <culture name="mt-mt">မေးမြန်းခြင်း</culture>
+    <culture name="ja-jp">検索</culture>
+  </menu>
+  <menu id="WKFSign">
+    <culture name="en-us">Approving</culture>
+    <culture name="zh-tw">簽核</culture>
+    <culture name="zh-cn">签核</culture>
+    <culture name="vi">Xác nhận</culture>
+    <culture name="id">Persetujuan</culture>
+    <culture name="mt-mt">ခွင့်ပြုမှု</culture>
+    <culture name="ja-jp">サインして確認する</culture>
+  </menu>
+  <menu id="WKFToBeSignForm">
+    <culture name="en-us">Form  Approving</culture>
+    <culture name="zh-tw">待簽表單</culture>
+    <culture name="zh-cn">待签表单</culture>
+    <culture name="vi">Biểu Form chờ  chấp thuận</culture>
+    <culture name="id">Form untuk menunggu persetujuan</culture>
+    <culture name="mt-mt">လျှောက်လွှာပုံစံ ခွင့်ပြုမှု</culture>
+    <culture name="ja-jp">審査中のフォーム</culture>
+  </menu>
+  <menu id="WKFToBeSignForm_Agent">
+    <culture name="en-us">Approving (Deputy)</culture>
+    <culture name="zh-tw">代理簽核表單</culture>
+    <culture name="zh-cn">代理签核表单</culture>
+    <culture name="vi">Biểu Form xác nhận thay thế</culture>
+    <culture name="id">Pergantian form</culture>
+    <culture name="mt-mt">ခွင့်ပြုမှု (ကိုယ်စားလှယ်)</culture>
+    <culture name="ja-jp">代理確認</culture>
+  </menu>
+  <menu id="WKFCallbackFormList">
+    <culture name="en-us">Feedback Status Query</culture>
+    <culture name="zh-tw">回傳狀況查詢</culture>
+    <culture name="zh-cn">回传状况查询</culture>
+    <culture name="vi">Trạng thái truy vấn thông tin phản hồi</culture>
+    <culture name="id">Jawaban pencarian status</culture>
+    <culture name="mt-mt">မေးမြန်းမှုအခြေအနေ တုံ့ပြန်ချက်</culture>
+    <culture name="ja-jp">返事状態を調べる</culture>
+  </menu>
+  <menu id="WKFAdminSetAgent">
+    <culture name="en-us">Set User's Deputy</culture>
+    <culture name="zh-tw">設定他人代理人</culture>
+    <culture name="zh-cn">设定他人代理人</culture>
+    <culture name="vi">Cài đặt thay thếngười khác</culture>
+    <culture name="id">Mengatur penggantian user</culture>
+    <culture name="mt-mt">အသုံးပြုသူ၏ကိုယ်စားလှယ်သတ်မှတ်ခြင်း</culture>
+    <culture name="ja-jp">他人を職務代理者を設定する</culture>
+  </menu>
+  <menu id="WKFResponsibleManage">
+    <culture name="en-us">Form Manager Mgt.</culture>
+    <culture name="zh-tw">表單負責人管理</culture>
+    <culture name="zh-cn">表单负责人管理</culture>
+    <culture name="vi">Form quản lý người phụ trách</culture>
+    <culture name="id">Pengelolaan form manajer</culture>
+    <culture name="mt-mt">မန်နေဂျာ စီမံခန့်ခွဲမှုပုံစံ</culture>
+    <culture name="ja-jp">フォーム担当者の管理</culture>
+  </menu>
+  <menu id="WKFMailTemplate">
+    <culture name="en-us">Email Template</culture>
+    <culture name="zh-tw">郵件樣板維護</culture>
+    <culture name="zh-cn">邮件样板维护</culture>
+    <culture name="vi">Mail khuôn mẫu</culture>
+    <culture name="id">pemeliharaan template email</culture>
+    <culture name="mt-mt">အသင့်ပို့ရန်စာပုံစံ</culture>
+    <culture name="ja-jp">メールのテンプレート管理</culture>
+  </menu>
+  <menu id="WKFCallDllFormList">
+    <culture name="en-us">Query DLL Status</culture>
+    <culture name="zh-tw">呼叫DLL狀態查詢</culture>
+    <culture name="zh-cn">调用DLL状态查询</culture>
+    <culture name="vi">Truy vấn trạng thái DLL</culture>
+    <culture name="id">Status Query DLL</culture>
+    <culture name="mt-mt">DLL အခြေအနေ မေးမြန်းခြင်း</culture>
+    <culture name="ja-jp">DLL使用状況を一覧</culture>
+  </menu>
+  <menu id="WKFSignComment">
+    <culture name="en-us">Standard Comments</culture>
+    <culture name="zh-tw">罐頭意見維護</culture>
+    <culture name="zh-cn">罐头意见维护</culture>
+    <culture name="vi">Duy trì nhận xét cá nhân</culture>
+    <culture name="id">Maintain standard comment</culture>
+    <culture name="mt-mt">ကြိုတင်သတ်မှတ်ထားသော အမိန့်များ</culture>
+    <culture name="ja-jp">制式化返事を管理（システムメンテナンス）</culture>
+  </menu>
+  <menu id="WKFParallelManagement">
+    <culture name="en-us">Parallel Flow Design</culture>
+    <culture name="zh-tw">平行流程設計</culture>
+    <culture name="zh-cn">平行流程设计</culture>
+    <culture name="vi">Quản lý luồng song song</culture>
+    <culture name="id">Pengelolaan alur secara paralel</culture>
+    <culture name="mt-mt">အပြိုင်စီးဆင်းမှု ပုံကြမ်း</culture>
+    <culture name="ja-jp">フロー定義を設定</culture>
+  </menu>
+  <menu id="AnalysisWorkFlow">
+    <culture name="en-us">BPM</culture>
+    <culture name="zh-tw">電子簽核分析</culture>
+    <culture name="zh-cn">工作流分析</culture>
+    <culture name="vi">Luồng công việc</culture>
+    <culture name="id">Alur kerja</culture>
+    <culture name="mt-mt">အလုပ်လမ်းကြောင်း</culture>
+    <culture name="ja-jp">電子サインに分析</culture>
+  </menu>
+  <menu id="AnalysisCountApplyForm">
+    <culture name="en-us">Form Usage</culture>
+    <culture name="zh-tw">表單使用次數統計</culture>
+    <culture name="zh-cn">表单使用次数统计</culture>
+    <culture name="vi">Tống kê sử dụng biểu mẫu</culture>
+    <culture name="id">Penggunaan form</culture>
+    <culture name="mt-mt">အသုံးချပုံစံ</culture>
+    <culture name="ja-jp">フォームの使用量を集計</culture>
+  </menu>
+  <menu id="AnalysisAvgTimeOfEndForm">
+    <culture name="en-us">Averaged Closure Time</culture>
+    <culture name="zh-tw">表單平均結案時間</culture>
+    <culture name="zh-cn">表单平均结案时间</culture>
+    <culture name="vi">Thời gian đóng trung bình</culture>
+    <culture name="id">Rata-rata waktu penutupan</culture>
+    <culture name="mt-mt">ပျမ်းမျှပိတ်ချိန်</culture>
+    <culture name="ja-jp">フォームの平均終了時間</culture>
+  </menu>
+  <menu id="AnalysisAvgTimeOfProcessForm">
+    <culture name="en-us">Average Processing Time</culture>
+    <culture name="zh-tw">表單平均處理時間</culture>
+    <culture name="zh-cn">表单平均处理时间</culture>
+    <culture name="vi">Thời gian xử lý trung bình</culture>
+    <culture name="id">Rata-rata waktu proses</culture>
+    <culture name="mt-mt">Average Processing Time</culture>
+    <culture name="ja-jp">フォームの平均処理時間</culture>
+  </menu>
+  <menu id="AnalysisDMS">
+    <culture name="en-us">DMS</culture>
+    <culture name="zh-tw">文件管理分析</culture>
+    <culture name="zh-cn">文档管理分析</culture>
+    <culture name="vi">phân tích quản lý tệp</culture>
+    <culture name="id">DMS</culture>
+    <culture name="mt-mt">DMS</culture>
+    <culture name="ja-jp">フォーム管理に分析</culture>
+  </menu>
+  <menu id="AnalysisDmsDLNum">
+    <culture name="en-us">Download Statistic</culture>
+    <culture name="zh-tw">文件下載次數統計</culture>
+    <culture name="zh-cn">文档下载次数统计</culture>
+    <culture name="vi">Thống kê tải về</culture>
+    <culture name="id">Pengambilan data statistik</culture>
+    <culture name="mt-mt">ဒေါင်းလုပ်ပြုလုပ်ခြင်းကိန်းဂဏန်းအချက်အလက်</culture>
+    <culture name="ja-jp">フォームのダウンロード次数を集計</culture>
+  </menu>
+  <menu id="AnalysisDmsGrade">
+    <culture name="en-us">Evaluation Statistic</culture>
+    <culture name="zh-tw">文件評比統計</culture>
+    <culture name="zh-cn">文档评比统计</culture>
+    <culture name="vi">Thời gian đánh giá</culture>
+    <culture name="id">Penilaian statistik</culture>
+    <culture name="mt-mt">အကဲဖြတ်ခြင်းကိန်းဂဏန်းအချက်အလက်</culture>
+    <culture name="ja-jp">ファイルにコメント付けの集計</culture>
+  </menu>
+  <menu id="AnalysisDmsAuthorDocs">
+    <culture name="en-us">Numbers of Released DOC by Author</culture>
+    <culture name="zh-tw">作者發表文件數</culture>
+    <culture name="zh-cn">作者发表文档数</culture>
+    <culture name="vi">Số lần đăng tài liệu</culture>
+    <culture name="id">Nomor dokumen yang diterbitkan</culture>
+    <culture name="mt-mt">Numbers of Released DOC by Author</culture>
+    <culture name="ja-jp">作成者のファイル発布数</culture>
+  </menu>
+  <menu id="PMS">
+    <culture name="en-us">Teamwork Mgt.</culture>
+    <culture name="zh-tw">任務管理</culture>
+    <culture name="zh-cn">任务管理</culture>
+    <culture name="vi">Quản lý nhiệm vụ</culture>
+    <culture name="id">Pengelolaan kerjatim</culture>
+    <culture name="mt-mt">任務管理</culture>
+    <culture name="ja-jp">タスク管理</culture>
+  </menu>
+  <menu id="PMSManagement">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">Manajemen/pengelolaan</culture>
+    <culture name="mt-mt">စီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="PMSMaintain">
+    <culture name="en-us">Maintain</culture>
+    <culture name="zh-tw">專案維護</culture>
+    <culture name="zh-cn">项目维护</culture>
+    <culture name="vi">Duy trì</culture>
+    <culture name="id">Pemeliharaan</culture>
+    <culture name="mt-mt">ထိန်းသိမ်းနည်း</culture>
+    <culture name="ja-jp">項目のメンテナンス</culture>
+  </menu>
+  <menu id="PMSAudit">
+    <culture name="en-us">Review</culture>
+    <culture name="zh-tw">審核</culture>
+    <culture name="zh-cn">审核</culture>
+    <culture name="vi">Xem lại</culture>
+    <culture name="id">Meninjau</culture>
+    <culture name="mt-mt">ပြန်လည်ဆန်းစစ်ခြင်း</culture>
+    <culture name="ja-jp">審査</culture>
+  </menu>
+  <menu id="PMSSetting">
+    <culture name="en-us">Setting</culture>
+    <culture name="zh-tw">設定</culture>
+    <culture name="zh-cn">设置</culture>
+    <culture name="vi">Cài đặt</culture>
+    <culture name="id">Pengaturan</culture>
+    <culture name="mt-mt">ချိန်ညှိခြင်း</culture>
+    <culture name="ja-jp">設定</culture>
+  </menu>
+  <menu id="PMSLog">
+    <culture name="en-us">Logs</culture>
+    <culture name="zh-tw">日誌</culture>
+    <culture name="zh-cn">日志</culture>
+    <culture name="vi">Bản ghi</culture>
+    <culture name="id">Logs</culture>
+    <culture name="mt-mt">ဂျာနယ်</culture>
+    <culture name="ja-jp">ログ</culture>
+  </menu>
+  <menu id="PMSQuery">
+    <culture name="en-us">Query</culture>
+    <culture name="zh-tw">查詢</culture>
+    <culture name="zh-cn">查询</culture>
+    <culture name="vi">Truy vấn</culture>
+    <culture name="id">Query</culture>
+    <culture name="mt-mt">စုံစမ်းမေးမြန်းခြင်း</culture>
+    <culture name="ja-jp">検索</culture>
+  </menu>
+  <menu id="PMSQueryProject">
+    <culture name="en-us">By Project</culture>
+    <culture name="zh-tw">依專案</culture>
+    <culture name="zh-cn">依项目</culture>
+    <culture name="vi">Theo dự án</culture>
+    <culture name="id">Berdasarkan proyek</culture>
+    <culture name="mt-mt">စီမံကိန်းအားဖြင့်</culture>
+    <culture name="ja-jp">プロジェクトによる</culture>
+  </menu>
+  <menu id="PMSQueryTask">
+    <culture name="en-us">By Task</culture>
+    <culture name="zh-tw">依任務</culture>
+    <culture name="zh-cn">依任务</culture>
+    <culture name="vi">Theo nhiệm vụ</culture>
+    <culture name="id">Berdasarkan tugas</culture>
+    <culture name="mt-mt">လုပ်ဆောင်မှု အားဖြင့်</culture>
+    <culture name="ja-jp">タスクによる</culture>
+  </menu>
+  <menu id="CUS">
+    <culture name="en-us">CUS</culture>
+    <culture name="zh-tw">客戶資料庫</culture>
+    <culture name="zh-cn">客户数据库</culture>
+    <culture name="vi">CUS</culture>
+    <culture name="id">CUS</culture>
+    <culture name="mt-mt">CUS</culture>
+    <culture name="ja-jp">お客様のデータ</culture>
+  </menu>
+  <menu id="CUSSys">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">Manajemen/pengelolaan</culture>
+    <culture name="mt-mt">စီမံခန့်ခွဲမှု</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="CUSData">
+    <culture name="en-us">Customer Data</culture>
+    <culture name="zh-tw">客戶資料</culture>
+    <culture name="zh-cn">客户数据</culture>
+    <culture name="vi">Dữ liệu khách hàng</culture>
+    <culture name="id">Data pelanggan</culture>
+    <culture name="mt-mt">သုံးစွဲသူသတင်းအချက်အလက်</culture>
+    <culture name="ja-jp">お客様のデータ</culture>
+  </menu>
+  <menu id="CUSStatistics">
+    <culture name="en-us">Statistics</culture>
+    <culture name="zh-tw">統計</culture>
+    <culture name="zh-cn">统计</culture>
+    <culture name="vi">Thống kê</culture>
+    <culture name="id">Statistik</culture>
+    <culture name="mt-mt">စာရင်းအင်းများ</culture>
+    <culture name="ja-jp">集計</culture>
+  </menu>
+  <menu id="CUSCustomerDataMaintain">
+    <culture name="en-us">Maintain</culture>
+    <culture name="zh-tw">客戶資料維護</culture>
+    <culture name="zh-cn">客户数据维护</culture>
+    <culture name="vi">Duy trì</culture>
+    <culture name="id">Pemeliharaan</culture>
+    <culture name="mt-mt">ထိန်းသိမ်းနည်း</culture>
+    <culture name="ja-jp">お客様情報のメンテナ</culture>
+  </menu>
+  <menu id="CUSBaseDataMaintain">
+    <culture name="en-us">General Data</culture>
+    <culture name="zh-tw">主檔維護</culture>
+    <culture name="zh-cn">主档维护</culture>
+    <culture name="vi">Dữ liệu cơ bản</culture>
+    <culture name="id">Data master</culture>
+    <culture name="mt-mt">အထွေထွေအချက်အလက်</culture>
+    <culture name="ja-jp">データメンテナンス</culture>
+  </menu>
+  <menu id="CUSEventLogQuery">
+    <culture name="en-us">View Logs</culture>
+    <culture name="zh-tw">事件檢視</culture>
+    <culture name="zh-cn">事件检视</culture>
+    <culture name="vi">Xem bản ghi</culture>
+    <culture name="id">Menampilkan Log</culture>
+    <culture name="mt-mt">မှတ်တမ်းများကြည့်ရန်</culture>
+    <culture name="ja-jp">データログ一覧</culture>
+  </menu>
+  <menu id="CUSRoleManage">
+    <culture name="en-us">Authority Setup</culture>
+    <culture name="zh-tw">角色權限設定</culture>
+    <culture name="zh-cn">角色权限设定</culture>
+    <culture name="vi">Quyền hạn cài đặt</culture>
+    <culture name="id">Pengaturan otoritas</culture>
+    <culture name="mt-mt">တပ်ဆင်ခွင့်</culture>
+    <culture name="ja-jp">権限を設定</culture>
+  </menu>
+  <menu id="CUSAdvancedQuery">
+    <culture name="en-us">Advanced Query</culture>
+    <culture name="zh-tw">進階查詢</culture>
+    <culture name="zh-cn">进阶查询</culture>
+    <culture name="vi">Truy vấn nâng cao</culture>
+    <culture name="id">Pencarian tingkat mahir</culture>
+    <culture name="mt-mt">အဆင့်မြင့် ရှာဖွေရေး</culture>
+    <culture name="ja-jp">更に検索</culture>
+  </menu>
+  <menu id="CUSPublishCountChart">
+    <culture name="en-us">New Customers</culture>
+    <culture name="zh-tw">新增客戶數統計</culture>
+    <culture name="zh-cn">新增客户数统计</culture>
+    <culture name="vi">Khách hàng mới</culture>
+    <culture name="id">Pelanggan baru</culture>
+    <culture name="mt-mt">အသစ် သုံးစွဲသူများ</culture>
+    <culture name="ja-jp">お客先数を追加</culture>
+  </menu>
+  <menu id="CUSDataStatisticsChart">
+    <culture name="en-us">All Customers</culture>
+    <culture name="zh-tw">資料統計分析</culture>
+    <culture name="zh-cn">资料统计分析</culture>
+    <culture name="vi">Tất cả khách hàng</culture>
+    <culture name="id">Semua pelanggan</culture>
+    <culture name="mt-mt">သုံးစွဲသူအားလုံး</culture>
+    <culture name="ja-jp">資料集計した分析</culture>
+  </menu>
+  <menu id="Others">
+    <culture name="en-us">Others</culture>
+    <culture name="zh-tw">其它管理</culture>
+    <culture name="zh-cn">其它管理</culture>
+    <culture name="vi">Others</culture>
+    <culture name="id">Others</culture>
+    <culture name="mt-mt">其它管理</culture>
+    <culture name="ja-jp">その他</culture>
+  </menu>
+  <menu id="WKFSetTrigger">
+    <culture name="en-us">External DLL Register</culture>
+    <culture name="zh-tw">外部組件註冊</culture>
+    <culture name="zh-cn">外部组件注册</culture>
+    <culture name="vi">Đăng ký DLL bên ngoài</culture>
+    <culture name="id">Pendaftaran DLL eksternal</culture>
+    <culture name="mt-mt">ပြင်ပ DLL စာရင်း</culture>
+    <culture name="ja-jp">DLLを登録</culture>
+  </menu>
+  <menu id="QUE">
+    <culture name="en-us">Questionnaire</culture>
+    <culture name="zh-tw">問卷調查</culture>
+    <culture name="zh-cn">问卷调查</culture>
+    <culture name="vi">Bảng câu hỏi</culture>
+    <culture name="id">Daftar pertanyaan</culture>
+    <culture name="mt-mt">စစ်တမ်းမေးခွန်းလွှာ</culture>
+    <culture name="ja-jp">アンケート調査</culture>
+  </menu>
+  <menu id="QUEDesign">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">問卷管理</culture>
+    <culture name="zh-cn">问卷管理</culture>
+    <culture name="vi">Management</culture>
+    <culture name="id">Management</culture>
+    <culture name="mt-mt">問卷管理</culture>
+    <culture name="ja-jp">アンケート管理</culture>
+  </menu>
+  <menu id="QUEAuthority">
+    <culture name="en-us">Authorization</culture>
+    <culture name="zh-tw">權限設定</culture>
+    <culture name="zh-cn">权限设定</culture>
+    <culture name="vi">Quyền hạn</culture>
+    <culture name="id">Wewenang</culture>
+    <culture name="mt-mt">ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">権限設定</culture>
+  </menu>
+  <menu id="QUEProperty">
+    <culture name="en-us">Attribute</culture>
+    <culture name="zh-tw">填寫人屬性維護</culture>
+    <culture name="zh-cn">填写人属性维护</culture>
+    <culture name="vi">Thuộc tính</culture>
+    <culture name="id">Atribut</culture>
+    <culture name="mt-mt">ကိုယ်ပိုင်အရည်အသွေး</culture>
+    <culture name="ja-jp">アトリビュートメンテナンス</culture>
+  </menu>
+  <menu id="QUEDesignFunc">
+    <culture name="en-us">Maintain</culture>
+    <culture name="zh-tw">問卷維護</culture>
+    <culture name="zh-cn">问卷维护</culture>
+    <culture name="vi">Duy trì</culture>
+    <culture name="id">Pemeliharaan</culture>
+    <culture name="mt-mt">ထိန်းသိမ်းခြင်း</culture>
+    <culture name="ja-jp">アンケートのメンテナンス</culture>
+  </menu>
+  <menu id="QUEPersonal">
+    <culture name="en-us">Personal</culture>
+    <culture name="zh-tw">個人</culture>
+    <culture name="zh-cn">个人</culture>
+    <culture name="vi">Cá nhân</culture>
+    <culture name="id">Personal</culture>
+    <culture name="mt-mt">個人</culture>
+    <culture name="ja-jp">個人</culture>
+  </menu>
+  <menu id="QUEFillOut">
+    <culture name="en-us">List</culture>
+    <culture name="zh-tw">個人問卷清單</culture>
+    <culture name="zh-cn">个人问卷清单</culture>
+    <culture name="vi">Danh sách</culture>
+    <culture name="id">Daftar</culture>
+    <culture name="mt-mt">စာရင်း</culture>
+    <culture name="ja-jp">個人アンケートリスト</culture>
+  </menu>
+  <menu id="QUEReport">
+    <culture name="en-us">Statistics</culture>
+    <culture name="zh-tw">問卷統計</culture>
+    <culture name="zh-cn">问卷统计</culture>
+    <culture name="vi">Thống kê</culture>
+    <culture name="id">Statistik</culture>
+    <culture name="mt-mt">စာရင်းအင်း</culture>
+    <culture name="ja-jp">アンケート集計</culture>
+  </menu>
+  <menu id="SystemSlogan">
+    <culture name="en-us">Motto</culture>
+    <culture name="zh-tw">公司語錄</culture>
+    <culture name="zh-cn">公司语录</culture>
+    <culture name="vi">Phương châm</culture>
+    <culture name="id">Moto</culture>
+    <culture name="mt-mt">ဆောင်ပုဒ်</culture>
+    <culture name="ja-jp">社是</culture>
+  </menu>
+  <menu id="OMS">
+    <culture name="en-us">Video &amp; Album</culture>
+    <culture name="zh-tw">相簿影音</culture>
+    <culture name="zh-cn">相簿影音</culture>
+    <culture name="vi">Video</culture>
+    <culture name="id">Video</culture>
+    <culture name="mt-mt">ရုပ်မြင်သံကြား နှင့် မှတ်တမ်း စုစည်းခြင်း</culture>
+    <culture name="ja-jp">アルバム</culture>
+  </menu>
+  <menu id="OMSManagement">
+    <culture name="en-us">Maintain</culture>
+    <culture name="zh-tw">維護</culture>
+    <culture name="zh-cn">维护</culture>
+    <culture name="vi">Duy trì</culture>
+    <culture name="id">維護</culture>
+    <culture name="mt-mt">維護</culture>
+    <culture name="ja-jp">メンテナンス</culture>
+  </menu>
+  <menu id="OMSQuery">
+    <culture name="en-us">View</culture>
+    <culture name="zh-tw">觀看</culture>
+    <culture name="zh-cn">观看</culture>
+    <culture name="vi">Quan sát</culture>
+    <culture name="id">觀看</culture>
+    <culture name="mt-mt">觀看</culture>
+    <culture name="ja-jp">閲覧</culture>
+  </menu>
+  <menu id="OnlineLookMA">
+    <culture name="en-us">Maintain Video</culture>
+    <culture name="zh-tw">影音維護</culture>
+    <culture name="zh-cn">影音维护</culture>
+    <culture name="vi">Duy trì Video</culture>
+    <culture name="id">Perbaikan video</culture>
+    <culture name="mt-mt">ရုပ်မြင်သံကြား ထိန်းသိမ်းခြင်း</culture>
+    <culture name="ja-jp">ビデオ（システムメンテナンス）</culture>
+  </menu>
+  <menu id="QueryOnlineLook">
+    <culture name="en-us">Video</culture>
+    <culture name="zh-tw">影音專區</culture>
+    <culture name="zh-cn">影音专区</culture>
+    <culture name="vi">Khu vực Video</culture>
+    <culture name="id">Tampilan online</culture>
+    <culture name="mt-mt">ရုပ်မြင်သံကြား</culture>
+    <culture name="ja-jp">ビデオ</culture>
+  </menu>
+  <menu id="SMSService">
+    <culture name="en-us">SMS Service</culture>
+    <culture name="zh-tw">簡訊服務</culture>
+    <culture name="zh-cn">简讯服务</culture>
+    <culture name="vi">Dịch vụ tin nhắn</culture>
+    <culture name="id">Pelayanan SMS</culture>
+    <culture name="mt-mt">စာတို ဝန်ဆောင်မှု</culture>
+    <culture name="ja-jp">SMSサービス</culture>
+  </menu>
+  <menu id="SMSItem">
+    <culture name="en-us">SMS</culture>
+    <culture name="zh-tw">簡訊</culture>
+    <culture name="zh-cn">简讯</culture>
+    <culture name="vi">SMS</culture>
+    <culture name="id">SMS</culture>
+    <culture name="mt-mt">簡訊</culture>
+    <culture name="ja-jp">SMS</culture>
+  </menu>
+  <menu id="SMSSend">
+    <culture name="en-us">Send</culture>
+    <culture name="zh-tw">簡訊發送</culture>
+    <culture name="zh-cn">简讯发送</culture>
+    <culture name="vi">Gửi tin nhắn</culture>
+    <culture name="id">Mengirim SMS</culture>
+    <culture name="mt-mt">ပို့လွှတ်သည်</culture>
+    <culture name="ja-jp">メッセージ発送</culture>
+  </menu>
+  <menu id="SMSConfig">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">簡訊管理</culture>
+    <culture name="zh-cn">简讯管理</culture>
+    <culture name="vi">Quản lý tin nhắn</culture>
+    <culture name="id">Pengelolaan SMS</culture>
+    <culture name="mt-mt">စီမံခန့်ခွဲခြင်း</culture>
+    <culture name="ja-jp">メッセージ管理</culture>
+  </menu>
+  <menu id="SMSQuery">
+    <culture name="en-us">Query</culture>
+    <culture name="zh-tw">簡訊查詢</culture>
+    <culture name="zh-cn">简讯查询</culture>
+    <culture name="vi">Câu hỏi tin nhắn</culture>
+    <culture name="id">Query SMS</culture>
+    <culture name="mt-mt">စာတို မေးမြန်းခြင်း</culture>
+    <culture name="ja-jp">メッセージを検索</culture>
+  </menu>
+  <menu id="SMSBirthdaySend">
+    <culture name="en-us">SMS for Birthday</culture>
+    <culture name="zh-tw">生日簡訊</culture>
+    <culture name="zh-cn">生日简讯</culture>
+    <culture name="vi">Tin nhắn sinh nhật</culture>
+    <culture name="id">SMS untuk Ulang tahun</culture>
+    <culture name="mt-mt">မွေးနေ့အတွက် စာတို ဝန်ဆောင်မှု</culture>
+    <culture name="ja-jp">誕生日メッセージ</culture>
+  </menu>
+  <menu id="LiveMeeting">
+    <culture name="en-us">LiveMeeting</culture>
+    <culture name="zh-tw">線上會議</culture>
+    <culture name="zh-cn">在线会议</culture>
+    <culture name="vi">LiveMeeting</culture>
+    <culture name="id">LiveMeeting</culture>
+    <culture name="mt-mt">線上會議</culture>
+    <culture name="ja-jp">オンライン会議</culture>
+  </menu>
+  <menu id="AlbumMaintain">
+    <culture name="en-us">Maintain Album</culture>
+    <culture name="zh-tw">相簿維護</culture>
+    <culture name="zh-cn">相簿维护</culture>
+    <culture name="vi">Duy trì tập ảnh</culture>
+    <culture name="id">Perbaikan album</culture>
+    <culture name="mt-mt">မှတ်တမ်း စုစည်းမှု ထိန်းသိမ်းခြင်း</culture>
+    <culture name="ja-jp">アルバム（システムメンテナンス）</culture>
+  </menu>
+  <menu id="AlbumView">
+    <culture name="en-us">Album</culture>
+    <culture name="zh-tw">相簿專區</culture>
+    <culture name="zh-cn">相簿专区</culture>
+    <culture name="vi">Khu vực tập ảnh</culture>
+    <culture name="id">Tampilan album</culture>
+    <culture name="mt-mt">မှတ်တမ်း စုစည်းခြင်း</culture>
+    <culture name="ja-jp">アルバム</culture>
+  </menu>
+  <menu id="Portal">
+    <culture name="en-us">Portal</culture>
+    <culture name="zh-tw">入口網站</culture>
+    <culture name="zh-cn">入口网站</culture>
+    <culture name="vi">Cổng TT</culture>
+    <culture name="id">Portal</culture>
+    <culture name="mt-mt">အ၀င်၀</culture>
+    <culture name="ja-jp">ポータルサイト</culture>
+  </menu>
+  <menu id="BrowseBulletin">
+    <culture name="en-us">List</culture>
+    <culture name="zh-tw">公告</culture>
+    <culture name="zh-cn">公告</culture>
+    <culture name="vi">Bản tin</culture>
+    <culture name="id">Memasang pengumuman</culture>
+    <culture name="mt-mt">အသိပေးကြေငြာခြင်း</culture>
+    <culture name="ja-jp">お知らせ</culture>
+  </menu>
+  <menu id="ForumBrowseArticle">
+    <culture name="en-us">List</culture>
+    <culture name="zh-tw">瀏覽討論區</culture>
+    <culture name="zh-cn">浏览讨论区</culture>
+    <culture name="vi">Vào diễn đàn</culture>
+    <culture name="id">Masuk ke forum</culture>
+    <culture name="mt-mt">၀င်ရောက်ဆွေးနွေးရန်</culture>
+    <culture name="ja-jp">リスト</culture>
+  </menu>
+  <menu id="OthersManage">
+    <culture name="en-us">Other Managements</culture>
+    <culture name="zh-tw">其它管理</culture>
+    <culture name="zh-cn">其它管理</culture>
+    <culture name="vi">Quản lý khác</culture>
+    <culture name="id">Pengelolaan lainnya</culture>
+    <culture name="mt-mt">အခြား စီမံခန့်ခွဲမှုများ</culture>
+    <culture name="ja-jp">その他管理</culture>
+  </menu>
+  <menu id="WebPhone">
+    <culture name="en-us">WebPhone</culture>
+    <culture name="zh-tw">網路電話</culture>
+    <culture name="zh-cn">网络电话</culture>
+    <culture name="vi">Điện thoại mạng</culture>
+    <culture name="id">WebPhone</culture>
+    <culture name="mt-mt">အိုင်ပီဖုန်း</culture>
+    <culture name="ja-jp">ウェブ電話</culture>
+  </menu>
+  <menu id="WebPhoneAccountSetting">
+    <culture name="en-us">Account Setting</culture>
+    <culture name="zh-tw">內部帳號登錄</culture>
+    <culture name="zh-cn">内部账号登录</culture>
+    <culture name="vi">Thiết lập tài khoản</culture>
+    <culture name="id">Pengaturan akun</culture>
+    <culture name="mt-mt">အကောင့် ချိန်ညှိခြင်း</culture>
+    <culture name="ja-jp">アカウント設定</culture>
+  </menu>
+  <menu id="QueryUChatRoomDefault">
+    <culture name="en-us">U-Chat Management</culture>
+    <culture name="zh-tw">UChat管理</culture>
+    <culture name="zh-cn">UChat管理</culture>
+    <culture name="vi">Quản lý Uchat</culture>
+    <culture name="id">Pengelolaan U-chat</culture>
+    <culture name="mt-mt">UChat管理</culture>
+    <culture name="ja-jp">Uchat管理</culture>
+  </menu>
+  <menu id="DUTY">
+    <culture name="en-us">Leave</culture>
+    <culture name="zh-tw">差勤管理</culture>
+    <culture name="zh-cn">差勤管理</culture>
+    <culture name="vi">Ngày phép</culture>
+    <culture name="id">Cuti</culture>
+    <culture name="mt-mt">差勤管理</culture>
+    <culture name="ja-jp">勤怠管理</culture>
+  </menu>
+  <menu id="DutyBaseDataMaintain">
+    <culture name="en-us">Basic Data</culture>
+    <culture name="zh-tw">主檔維護</culture>
+    <culture name="zh-cn">主档维护</culture>
+    <culture name="vi">Dữ liệu cơ bản</culture>
+    <culture name="id">Data awal</culture>
+    <culture name="mt-mt">主檔維護</culture>
+    <culture name="ja-jp">マスターメンテナンス</culture>
+  </menu>
+  <menu id="DutyPunchImportData">
+    <culture name="en-us">Duty data import</culture>
+    <culture name="zh-tw">刷卡資料匯入</culture>
+    <culture name="zh-cn">刷卡数据导入</culture>
+    <culture name="vi">Nhập dữ kiệu bấm thể</culture>
+    <culture name="id">impor data swip card</culture>
+    <culture name="mt-mt">刷卡資料匯入</culture>
+    <culture name="ja-jp">勤怠データ一覧</culture>
+  </menu>
+  <menu id="DutyPunchSetting">
+    <culture name="en-us">Punch Setting</culture>
+    <culture name="zh-tw">刷卡設定</culture>
+    <culture name="zh-cn">刷卡设置</culture>
+    <culture name="vi">Cài đặt quẹt thẻ</culture>
+    <culture name="id">刷卡設定</culture>
+    <culture name="mt-mt">刷卡設定</culture>
+    <culture name="ja-jp">タイムカードの設定</culture>
+  </menu>
+  <menu id="DutyPunchIPMaintain">
+    <culture name="en-us">Punch IP Range</culture>
+    <culture name="zh-tw">刷卡IP範圍</culture>
+    <culture name="zh-cn">刷卡IP范围</culture>
+    <culture name="vi">pham vi quẹt thẻ IP</culture>
+    <culture name="id">刷卡IP範圍</culture>
+    <culture name="mt-mt">刷卡IP範圍</culture>
+    <culture name="ja-jp">タイムカードを押せるIP範囲</culture>
+  </menu>
+  <menu id="DutyPunchPositionMaintain">
+    <culture name="en-us">App punch area</culture>
+    <culture name="zh-tw">App刷卡範圍</culture>
+    <culture name="zh-cn">App刷卡范围</culture>
+    <culture name="vi">phạm vi quẹt thẻ App</culture>
+    <culture name="id">App刷卡範圍</culture>
+    <culture name="mt-mt">App刷卡範圍</culture>
+    <culture name="ja-jp">APPタイムカードを押せる範囲</culture>
+  </menu>
+  <menu id="DutyPunchAPPMaintain">
+    <culture name="en-us">App used only</culture>
+    <culture name="zh-tw">只可用App人員</culture>
+    <culture name="zh-cn">只可用App人员</culture>
+    <culture name="vi">chỉ có thể dùng app nhân viên</culture>
+    <culture name="id">只可用App人員</culture>
+    <culture name="mt-mt">只可用App人員</culture>
+    <culture name="ja-jp">Appのみ使用可能なユーザ</culture>
+  </menu>
+  <menu id="DutyPunchExcludeMaintain">
+    <culture name="en-us">Exceptions</culture>
+    <culture name="zh-tw">特殊人員</culture>
+    <culture name="zh-cn">特殊人员</culture>
+    <culture name="vi">Nhân viên đặc biệt</culture>
+    <culture name="id">特殊人員</culture>
+    <culture name="mt-mt">特殊人員</culture>
+    <culture name="ja-jp">特殊人員</culture>
+  </menu>
+  <menu id="ImportTimeOff">
+    <culture name="en-us">Hours of Compensatory Import</culture>
+    <culture name="zh-tw">補休時數匯入</culture>
+    <culture name="zh-cn">补休时数导入</culture>
+    <culture name="vi">Nhập Bù số giờ nghỉ vào</culture>
+    <culture name="id">補休時數匯入</culture>
+    <culture name="mt-mt">補休時數匯入</culture>
+    <culture name="ja-jp">振替日時数記入</culture>
+  </menu>
+  <menu id="DutyClassMaintain">
+    <culture name="en-us">Shift Setting</culture>
+    <culture name="zh-tw">班別主檔</culture>
+    <culture name="zh-cn">班别主档</culture>
+    <culture name="vi">Thiết lập ca</culture>
+    <culture name="id">Pengaturan shift</culture>
+    <culture name="mt-mt">班別主檔</culture>
+    <culture name="ja-jp">シフト設定</culture>
+  </menu>
+  <menu id="DutyTimeTableMaintain">
+    <culture name="en-us">Work Time Setting</culture>
+    <culture name="zh-tw">班表維護</culture>
+    <culture name="zh-cn">班表维护</culture>
+    <culture name="vi">Thiết lập thời gian làm việc</culture>
+    <culture name="id">Pengaturan waktu kerja</culture>
+    <culture name="mt-mt">班表維護</culture>
+    <culture name="ja-jp">シフト設定管理</culture>
+  </menu>
+  <menu id="DutyConfigurationMaintain">
+    <culture name="en-us">Configuration</culture>
+    <culture name="zh-tw">差勤參數維護</culture>
+    <culture name="zh-cn">差勤参数维护</culture>
+    <culture name="vi">Cấu hình</culture>
+    <culture name="id">Konfigurasi</culture>
+    <culture name="mt-mt">差勤參數維護</culture>
+    <culture name="ja-jp">出勤パラメータのメンテナンス</culture>
+  </menu>
+  <menu id="DutyMaintainLeaveInfo">
+    <culture name="en-us">Annual Leave Setting</culture>
+    <culture name="zh-tw">年休假維護</culture>
+    <culture name="zh-cn">年休假维护</culture>
+    <culture name="vi">Thiết lập phép năm</culture>
+    <culture name="id">Pengaturan cuti tahunan</culture>
+    <culture name="mt-mt">年休假維護</culture>
+    <culture name="ja-jp">年次有給休暇の管理</culture>
+  </menu>
+  <menu id="EmployeeLicenseMaintain">
+    <culture name="en-us">Personal License Mgt.</culture>
+    <culture name="zh-tw">人員證照維護</culture>
+    <culture name="zh-cn">人员证照维护</culture>
+    <culture name="vi">Quản lý giấy phép cá nhân</culture>
+    <culture name="id">Mengelola ijin pribadi</culture>
+    <culture name="mt-mt">人員證照維護</culture>
+    <culture name="ja-jp">従業員ライセンス管理</culture>
+  </menu>
+  <menu id="DutySettlement">
+    <culture name="en-us">Settlement</culture>
+    <culture name="zh-tw">差勤結算處理</culture>
+    <culture name="zh-cn">差勤结算处理</culture>
+    <culture name="vi">Thanh toán</culture>
+    <culture name="id">Penyelesaian</culture>
+    <culture name="mt-mt">差勤結算處理</culture>
+    <culture name="ja-jp">出勤状況の集計管理</culture>
+  </menu>
+  <menu id="DutyAgentSetting">
+    <culture name="en-us">Batch setup substitute</culture>
+    <culture name="zh-tw">批次設定代理人</culture>
+    <culture name="zh-cn">批次设定代理人</culture>
+    <culture name="vi">Cài đặt người đại diện hàng loạt</culture>
+    <culture name="id">批次設定代理人</culture>
+    <culture name="mt-mt">批次設定代理人</culture>
+    <culture name="ja-jp">バッチ処理（職務代理者を設定）</culture>
+  </menu>
+  <menu id="DutyCurrencyEdit">
+    <culture name="en-us">Currency maintain</culture>
+    <culture name="zh-tw">幣別主檔維護</culture>
+    <culture name="zh-cn">币别主档维护</culture>
+    <culture name="vi">Duy trì tập tin chính tiền tệ</culture>
+    <culture name="id">Pemeliharaan mata uang</culture>
+    <culture name="mt-mt">幣別主檔維護</culture>
+    <culture name="ja-jp">通貨別マスターメンテナンス</culture>
+  </menu>
+  <menu id="DutyCurrencyRateEdit">
+    <culture name="en-us">Exchange rate maintain</culture>
+    <culture name="zh-tw">幣別匯率主檔維護</culture>
+    <culture name="zh-cn">币别汇率主档维护</culture>
+    <culture name="vi">Duy trì tập tin chính tỉ giá hối đoái</culture>
+    <culture name="id">Pemeliharaan kurs mata uang</culture>
+    <culture name="mt-mt">幣別匯率主檔維護</culture>
+    <culture name="ja-jp">為替資料管理（システムメンテナンス）</culture>
+  </menu>
+  <menu id="DutyStatistics">
+    <culture name="en-us">Statistics</culture>
+    <culture name="zh-tw">統計查詢</culture>
+    <culture name="zh-cn">统计查询</culture>
+    <culture name="vi">Thống kê</culture>
+    <culture name="id">Statistik</culture>
+    <culture name="mt-mt">統計查詢</culture>
+    <culture name="ja-jp">集計状況一覧</culture>
+  </menu>
+  <menu id="DutyQueryMonthDataByManager">
+    <culture name="en-us">Leave Statistics by Month(Manager)</culture>
+    <culture name="zh-tw">每月休假/出缺勤統計(管理員)</culture>
+    <culture name="zh-cn">每月休假/出缺勤统计(管理员)</culture>
+    <culture name="vi">Thống kê phép theo tháng (người quản lý)</culture>
+    <culture name="id">Status cuti berdasarkan bulan (Manajer)</culture>
+    <culture name="mt-mt">每月休假/出缺勤統計(管理員)</culture>
+    <culture name="ja-jp">月次勤務状況まとめ（管理者向け）</culture>
+  </menu>
+  <menu id="DutyQueryDayRecordByManager">
+    <culture name="en-us">Leave Status by Period(Manager)</culture>
+    <culture name="zh-tw">出缺勤狀況查詢(管理員)</culture>
+    <culture name="zh-cn">出缺勤状况查询(管理员)</culture>
+    <culture name="vi">truy vấn tình hình nghỉ/đi làm (quản lý )</culture>
+    <culture name="id">出缺勤狀況查詢(管理員)</culture>
+    <culture name="mt-mt">出缺勤狀況查詢(管理員)</culture>
+    <culture name="ja-jp">出勤状況表示（管理者向け）</culture>
+  </menu>
+  <menu id="DutyQueryMonthDataByUser">
+    <culture name="en-us">Leave Statistics(Personal)</culture>
+    <culture name="zh-tw">休假/出缺勤統計(個人)</culture>
+    <culture name="zh-cn">休假/出缺勤统计(个人)</culture>
+    <culture name="vi">Thống kê phép (cá nhân)</culture>
+    <culture name="id">Statistik cuti (Pribadi)</culture>
+    <culture name="mt-mt">休假/出缺勤統計(個人)</culture>
+    <culture name="ja-jp">個人出勤状況まとめ</culture>
+  </menu>
+  <menu id="DutyQueryYearLeaveDays">
+    <culture name="en-us">Annual Leave(Personal)</culture>
+    <culture name="zh-tw">年休假查詢(個人)</culture>
+    <culture name="zh-cn">年休假查询(个人)</culture>
+    <culture name="vi">Phép năm (cá nhân)</culture>
+    <culture name="id">Cuti Tahunan (Pribadi)</culture>
+    <culture name="mt-mt">年休假查詢(個人)</culture>
+    <culture name="ja-jp">出勤状況表示（個人向け）</culture>
+  </menu>
+  <menu id="DutyQueryLeaveDays">
+    <culture name="en-us">Leave History</culture>
+    <culture name="zh-tw">請假記錄查詢</culture>
+    <culture name="zh-cn">请假记录查询</culture>
+    <culture name="vi">Tra cứu ghi nhận xin nghỉ phép</culture>
+    <culture name="id">Riwayat cuti</culture>
+    <culture name="mt-mt">請假記錄查詢</culture>
+    <culture name="ja-jp">休日履歴一覧</culture>
+  </menu>
+  <menu id="DutyQueryOverTime">
+    <culture name="en-us">Overtime History</culture>
+    <culture name="zh-tw">加班記錄查詢</culture>
+    <culture name="zh-cn">加班记录查询</culture>
+    <culture name="vi">Tra cứu ghi nhận tăng ca</culture>
+    <culture name="id">Riwayat lembur</culture>
+    <culture name="mt-mt">加班記錄查詢</culture>
+    <culture name="ja-jp">残業履歴一覧</culture>
+  </menu>
+  <menu id="DutyQueryRenewPunch">
+    <culture name="en-us">Make-up Punch Query</culture>
+    <culture name="zh-tw">補刷卡記錄查詢</culture>
+    <culture name="zh-cn">补刷卡记录查询</culture>
+    <culture name="vi">Kiểm tra ghi nhớ và bổ sung thẻ</culture>
+    <culture name="id">補刷卡記錄查詢</culture>
+    <culture name="mt-mt">補刷卡記錄查詢</culture>
+    <culture name="ja-jp">タイムカート再申請履歴</culture>
+  </menu>
+  <menu id="DutyQueryFormByManager">
+    <culture name="en-us">Approval Statistics(Manager)</culture>
+    <culture name="zh-tw">表單簽核統計(管理員)</culture>
+    <culture name="zh-cn">表单签核统计(管理员)</culture>
+    <culture name="vi">Thống kê xác nhận (người quản lý)</culture>
+    <culture name="id">Statistik persetujuan (Manajer)</culture>
+    <culture name="mt-mt">表單簽核統計(管理員)</culture>
+    <culture name="ja-jp">審査シート集計（管理員向け）</culture>
+  </menu>
+  <menu id="DutyQueryStageDataByManager">
+    <culture name="en-us">Leave Statistics by Period(Manager)</culture>
+    <culture name="zh-tw">出缺勤統計(管理員)</culture>
+    <culture name="zh-cn">出缺勤统计(管理员)</culture>
+    <culture name="vi">Thống kê phép theo kỳ (người quản lý)</culture>
+    <culture name="id">Status cuti berdasarkan periode (Manajer)</culture>
+    <culture name="mt-mt">出缺勤統計(管理員)</culture>
+    <culture name="ja-jp">勤務状況まとめ</culture>
+  </menu>
+  <menu id="OrganizationExpSusDefault">
+    <culture name="en-us">Suspense Account</culture>
+    <culture name="zh-tw">停用人員管理</culture>
+    <culture name="zh-cn">停用人员管理</culture>
+    <culture name="vi">Tài khoản hết hạn</culture>
+    <culture name="id">Akun-akun berakhir</culture>
+    <culture name="mt-mt">停用人員管理</culture>
+    <culture name="ja-jp">管理を無効にする</culture>
+  </menu>
+  <menu id="UOFAboutGroup">
+    <culture name="en-us">UOF About</culture>
+    <culture name="zh-tw">產品資訊</culture>
+    <culture name="zh-cn">产品资讯</culture>
+    <culture name="vi">UOF About</culture>
+    <culture name="id">UOF About</culture>
+    <culture name="mt-mt">產品資訊</culture>
+    <culture name="ja-jp">産品データ</culture>
+  </menu>
+  <menu id="UOFAbout">
+    <culture name="en-us">UOF About</culture>
+    <culture name="zh-tw">產品資訊</culture>
+    <culture name="zh-cn">产品资讯</culture>
+    <culture name="vi">UOF About</culture>
+    <culture name="id">產品資訊</culture>
+    <culture name="mt-mt">產品資訊</culture>
+    <culture name="ja-jp">産品データ</culture>
+  </menu>
+  <menu id="WKFExportForm">
+    <culture name="en-us">Import/Export</culture>
+    <culture name="zh-tw">表單匯入匯出</culture>
+    <culture name="zh-cn">表单汇入汇出</culture>
+    <culture name="vi">Nhập/Xuất</culture>
+    <culture name="id">Impor/ekspor</culture>
+    <culture name="mt-mt">表單匯入匯出</culture>
+    <culture name="ja-jp">データのインポートとエクスポート</culture>
+  </menu>
+  <menu id="WKFQueryFormBySuperior">
+    <culture name="en-us">Query for Superior</culture>
+    <culture name="zh-tw">主管查詢表單</culture>
+    <culture name="zh-cn">主管查询表单</culture>
+    <culture name="vi">Cấp trên truy vấn</culture>
+    <culture name="id">Query untuk superior</culture>
+    <culture name="mt-mt">主管查詢表單</culture>
+    <culture name="ja-jp">シート一覧（上司向け）</culture>
+  </menu>
+  <menu id="DutyQueryTimeTableByUser">
+    <culture name="en-us">Work Time Query (Personal)</culture>
+    <culture name="zh-tw">班表查詢(個人)</culture>
+    <culture name="zh-cn">班表查询（个人）</culture>
+    <culture name="vi">Truy vấn thời gian làm việc ( cá nhân )</culture>
+    <culture name="id">Pencarian waktu kerja (Pribadi)</culture>
+    <culture name="mt-mt">班表查詢(個人)</culture>
+    <culture name="ja-jp">勤務シフト表勤一覧（個人向け）</culture>
+  </menu>
+  <menu id="DutyQueryTimeTableByManager">
+    <culture name="en-us">Work Time Query (Manager)</culture>
+    <culture name="zh-tw">班表查詢(管理員)</culture>
+    <culture name="zh-cn">班表查询（管理员）</culture>
+    <culture name="vi">Truy vấn thời gian làm việc (người quản lý)</culture>
+    <culture name="id">Pencarian waktu kerja (Manajer)</culture>
+    <culture name="mt-mt">班表查詢(管理員)</culture>
+    <culture name="ja-jp">勤務シフト表勤一覧（管理員向け）</culture>
+  </menu>
+  <menu id="DutyQueryTimeOff">
+    <culture name="en-us">Compensatory Leave Query</culture>
+    <culture name="zh-tw">補休時數查詢</culture>
+    <culture name="zh-cn">补休时数查询</culture>
+    <culture name="vi">Kiểm tra số giờ bổ sung nghỉ</culture>
+    <culture name="id">Compensatory Leave Query</culture>
+    <culture name="mt-mt">補休時數查詢</culture>
+    <culture name="ja-jp">振替時数一覧</culture>
+  </menu>
+  <menu id="DutyQueryAllLeaHours">
+    <culture name="en-us">Leave Left Query(Manager)</culture>
+    <culture name="zh-tw">可休假查詢(管理員)</culture>
+    <culture name="zh-cn">可休假查询(管理员)</culture>
+    <culture name="vi">điều tra có thể xin nghỉ phép (nhân viên )</culture>
+    <culture name="id">Leave Left Query(Admin)</culture>
+    <culture name="mt-mt">可休假查詢(管理員)</culture>
+    <culture name="ja-jp">休暇一覧（管理者向け）</culture>
+  </menu>
+  <menu id="DutyQueryAllLeaHoursByUser">
+    <culture name="en-us">Leave Left Query</culture>
+    <culture name="zh-tw">可休假查詢</culture>
+    <culture name="zh-cn">可休假查询</culture>
+    <culture name="vi">Yêu cầu để lại có sẵn</culture>
+    <culture name="id">Leave Left Query</culture>
+    <culture name="mt-mt">可休假查詢</culture>
+    <culture name="ja-jp">休暇一覧（個人向け）</culture>
+  </menu>
+  <menu id="SystemMultiSitesMenu">
+    <culture name="en-us">Group Menu</culture>
+    <culture name="zh-tw">集團選單</culture>
+    <culture name="zh-cn">集团选单</culture>
+    <culture name="vi">Bảng chọn nhóm</culture>
+    <culture name="id">Menu Group</culture>
+    <culture name="mt-mt">အဖွဲ့စာရင်း</culture>
+    <culture name="ja-jp">グループメニュー</culture>
+  </menu>
+  <menu id="CalendarWorkClassMaintain">
+    <culture name="en-us">Maintain Task Type</culture>
+    <culture name="zh-tw">行事曆工作類別維護</culture>
+    <culture name="zh-cn">工作日历工作类别维护</culture>
+    <culture name="vi">Duy trì phân loại lịch trình công việc</culture>
+    <culture name="id">Jenis pekerjaan pemeliharaan</culture>
+    <culture name="mt-mt">လုပ်ငန်းအမျိုးအစားလိုက် ထိန်းသိမ်းခြင်း</culture>
+    <culture name="ja-jp">タスクタイプ（システムメンテナンス）</culture>
+  </menu>
+  <menu id="PersonalCollection">
+    <culture name="en-us">My Collection</culture>
+    <culture name="zh-tw">我的收藏</culture>
+    <culture name="zh-cn">我的收藏</culture>
+    <culture name="vi">Mục sưu tầm cá nhân</culture>
+    <culture name="id">Koleksi pribadi</culture>
+    <culture name="mt-mt">မိမိ ကောက်နှုတ်စုစည်းခြင်း</culture>
+    <culture name="ja-jp">お気に入り</culture>
+  </menu>
+  <menu id="WebMail">
+    <culture name="en-us">Mail service</culture>
+    <culture name="zh-tw">線上郵件服務</culture>
+    <culture name="zh-cn">在线邮件服务</culture>
+    <culture name="vi">Dịch vụ Mail</culture>
+    <culture name="id">Online Mail</culture>
+    <culture name="mt-mt">Mail service</culture>
+    <culture name="ja-jp">メール支援</culture>
+  </menu>
+  <menu id="Sharetech">
+    <culture name="en-us">ShareTec Webmail</culture>
+    <culture name="zh-tw">眾至WebMail</culture>
+    <culture name="zh-cn">众至WebMail</culture>
+    <culture name="vi">ShareTec Webmail</culture>
+    <culture name="id">ShareTec Webmail</culture>
+    <culture name="mt-mt">ShareTec Webmail</culture>
+    <culture name="ja-jp">Webmailでシェア</culture>
+  </menu>
+  <menu id="Openfind">
+    <culture name="en-us">Openfind Webmail</culture>
+    <culture name="zh-tw">網擎WebMail</culture>
+    <culture name="zh-cn">网擎WebMail</culture>
+    <culture name="vi">Openfind Webmail</culture>
+    <culture name="id">Openfind Webmail</culture>
+    <culture name="mt-mt">Openfind Webmail</culture>
+    <culture name="ja-jp">Webmailを</culture>
+  </menu>
+  <menu id="ProxyStateQuery">
+    <culture name="en-us">Proxy Status Query</culture>
+    <culture name="zh-tw">Proxy狀態查詢</culture>
+    <culture name="zh-cn">Proxy状态查询</culture>
+    <culture name="vi">Trạng thái tìm kiếm Proxy</culture>
+    <culture name="id">Inquiry Status Proxy</culture>
+    <culture name="mt-mt">Proxy အဆင့်အတန်း ကွာရီ</culture>
+    <culture name="ja-jp">Proxy状況一覧</culture>
+  </menu>
+  <menu id="DMSSysCollection">
+    <culture name="en-us">DMS Directory Forced Collection</culture>
+    <culture name="zh-tw">目錄強制收藏</culture>
+    <culture name="zh-cn">目录强制收藏</culture>
+    <culture name="vi">Thư mục bắt buộc thu thập</culture>
+    <culture name="id">目錄強制收藏</culture>
+    <culture name="mt-mt">目錄強制收藏</culture>
+    <culture name="ja-jp">書類管理システム内に保存する</culture>
+  </menu>
+  <menu id="OrganizationCostCenter">
+    <culture name="en-us">Cost Center Maintain</culture>
+    <culture name="zh-tw">成本中心維護</culture>
+    <culture name="zh-cn">工本中心维护</culture>
+    <culture name="vi">Trung tâm xác nhận giá thành</culture>
+    <culture name="id">Mengatur pusat biaya</culture>
+    <culture name="mt-mt">ဗဟို ထိန်းသိမ်းမှုကုန်ကျစရိတ်</culture>
+    <culture name="ja-jp">コストセンター</culture>
+  </menu>
+  <menu id="LocationTimeZone">
+    <culture name="en-us">Modify Belonging location</culture>
+    <culture name="zh-tw">歸屬地點維護</culture>
+    <culture name="zh-cn">归属地点维护</culture>
+    <culture name="vi">Bảo toàn về vị trí ban đầu</culture>
+    <culture name="id">歸屬地點維護</culture>
+    <culture name="mt-mt">歸屬地點維護</culture>
+    <culture name="ja-jp">ファイル保存ところ（システムメンテナンス）</culture>
+  </menu>
+  <menu id="DutyLeaveCollective">
+    <culture name="en-us">Batch Leave</culture>
+    <culture name="zh-tw">批次扣假</culture>
+    <culture name="zh-cn">批次扣假</culture>
+    <culture name="vi">mục này trừ phép</culture>
+    <culture name="id">批次扣假</culture>
+    <culture name="mt-mt">批次扣假</culture>
+    <culture name="ja-jp">バッチ処理（休日）</culture>
+  </menu>
+  <menu id="DutyCharityLeaveConfig">
+    <culture name="en-us">Community Service Maintain</culture>
+    <culture name="zh-tw">公益活動主檔維護</culture>
+    <culture name="zh-cn">公益活动主档维护</culture>
+    <culture name="vi">duy trì hồ sơ các hoạt động công ích</culture>
+    <culture name="id">公益活動主檔維護</culture>
+    <culture name="mt-mt">公益活動主檔維護</culture>
+    <culture name="ja-jp">メセナ支援（システムメンテナンス）</culture>
+  </menu>
+  <menu id="DutyScalableLeaveConfig">
+    <culture name="en-us">Floating Holiday Maintain</culture>
+    <culture name="zh-tw">彈休假主檔維護</culture>
+    <culture name="zh-cn">弹休假主档维护</culture>
+    <culture name="vi">Bảo trì tệp tổng thể kỳ nghỉ</culture>
+    <culture name="id">彈休假主檔維護</culture>
+    <culture name="mt-mt">彈休假主檔維護</culture>
+    <culture name="ja-jp">振替休日（システムメンテナンス）</culture>
+  </menu>
+  <menu id="DutyQueryTravel">
+    <culture name="en-us">Bussiness Travel Query</culture>
+    <culture name="zh-tw">出差記錄查詢</culture>
+    <culture name="zh-cn">出差记录查询</culture>
+    <culture name="vi">Truy vấn hồ sơ công tác</culture>
+    <culture name="id">出差記錄查詢</culture>
+    <culture name="mt-mt">出差記錄查詢</culture>
+    <culture name="ja-jp">出張記録一覧</culture>
+  </menu>
+  <menu id="DutyTourAllowanceMaintain">
+    <culture name="en-us">Travel Subsidy Maintain</culture>
+    <culture name="zh-tw">旅遊補助維護</culture>
+    <culture name="zh-cn">旅游补助维护</culture>
+    <culture name="vi">Bảo trì tài trợ du lịch</culture>
+    <culture name="id">旅遊補助維護</culture>
+    <culture name="mt-mt">旅遊補助維護</culture>
+    <culture name="ja-jp">旅行手当（メンテナンス）</culture>
+  </menu>
+  <menu id="DutyAllowanceMaintain">
+    <culture name="en-us">Allowance Maintain</culture>
+    <culture name="zh-tw">津貼主檔維護</culture>
+    <culture name="zh-cn">津贴主档维护</culture>
+    <culture name="vi">Bảo trì tổng thể phụ cấp</culture>
+    <culture name="id">津貼主檔維護</culture>
+    <culture name="mt-mt">津貼主檔維護</culture>
+    <culture name="ja-jp">手当システム（メンテナンス）</culture>
+  </menu>
+  <menu id="DutyOther">
+    <culture name="en-us">Other</culture>
+    <culture name="zh-tw">其他</culture>
+    <culture name="zh-cn">其他</culture>
+    <culture name="vi">Khác</culture>
+    <culture name="id">其他</culture>
+    <culture name="mt-mt">其他</culture>
+    <culture name="ja-jp">その他</culture>
+  </menu>
+  <menu id="SystemTaskManager">
+    <culture name="en-us">System Task Manager</culture>
+    <culture name="zh-tw">系統排程管理</culture>
+    <culture name="zh-cn">系统计划管理</culture>
+    <culture name="vi">Quản lý sắp xếp hệ thống</culture>
+    <culture name="id">sistem pengelolaan tugas</culture>
+    <culture name="mt-mt">စနစ်လုပ်ငန်း စီမံသူ</culture>
+    <culture name="ja-jp">システムタスク管理</culture>
+  </menu>
+  <menu id="WKFQueryElectronicDocument">
+    <culture name="en-us">Official Letter Query</culture>
+    <culture name="zh-tw">電子公文查詢</culture>
+    <culture name="zh-cn">电子公文查询</culture>
+    <culture name="vi">Kiểm tra công văn điện tử</culture>
+    <culture name="id">Query surat resmi</culture>
+    <culture name="mt-mt">အီလက်ထရောနစ် Document ဖိုင်စုံစမ်းရေးကော်မရှင်</culture>
+    <culture name="ja-jp">電子公文書一覧</culture>
+  </menu>
+  <menu id="WKFBatchReturnApplicant">
+    <culture name="en-us">Batch Return to Applicant</culture>
+    <culture name="zh-tw">批次退回申請者</culture>
+    <culture name="zh-cn">批次退回申请者</culture>
+    <culture name="vi">Số lần người xin trả về</culture>
+    <culture name="id">Batch kembali ke pemohon</culture>
+    <culture name="mt-mt">Batch Return to Applicant</culture>
+    <culture name="ja-jp">バッチ処理（申請者）</culture>
+  </menu>
+  <menu id="DMSPrintRecordSearch">
+    <culture name="en-us">Paper Doc. Distributed Query</culture>
+    <culture name="zh-tw">紙本分發查詢</culture>
+    <culture name="zh-cn">纸本分发查询</culture>
+    <culture name="vi">Kiểm tra việc phân phát</culture>
+    <culture name="id">Permintaan pembakian lembar dokument</culture>
+    <culture name="mt-mt">Paper Doc. Distributed Query</culture>
+    <culture name="ja-jp">書類コードを調べる</culture>
+  </menu>
+  <menu id="CUSProjectManager">
+    <culture name="en-us">Project No. Management</culture>
+    <culture name="zh-tw">專案編號管理</culture>
+    <culture name="zh-cn">项目编号管理</culture>
+    <culture name="vi">Quản lý mã số chuyên đề</culture>
+    <culture name="id">Nomor proyek manajemen/pengelolaan</culture>
+    <culture name="mt-mt">Project No. Management</culture>
+    <culture name="ja-jp">項目コード管理</culture>
+  </menu>
+  <menu id="SystemZoneSetting">
+    <culture name="en-us">Int. Homepage setup</culture>
+    <culture name="zh-tw">內部企業面板設定</culture>
+    <culture name="zh-cn">内部企业面板设定</culture>
+    <culture name="vi">Cài đặt trang chủ nội bộ</culture>
+    <culture name="id">Pengaturan Halaman beranda internal</culture>
+    <culture name="mt-mt">အတွင်းပိုင်း မူလစာမျက်နှာ တည်ဆောက်သည်</culture>
+    <culture name="ja-jp">社内ホームページの設定</culture>
+  </menu>
+  <menu id="SystemMemberZoneSetting">
+    <culture name="en-us">Ext. Homepage setup</culture>
+    <culture name="zh-tw">外部企業面板設定</culture>
+    <culture name="zh-cn">外部企业面板设定</culture>
+    <culture name="vi">Cài đặt trang chủ ngoại bộ</culture>
+    <culture name="id">Pengaturan Halaman beranda eksternal</culture>
+    <culture name="mt-mt">ပြင်ပ မူလစာမျက်နှာ တည်ဆောက်သည်</culture>
+    <culture name="ja-jp">社外ホームページの設定</culture>
+  </menu>
+  <menu id="QUEExamine">
+    <culture name="en-us">Release Approval</culture>
+    <culture name="zh-tw">發佈審核</culture>
+    <culture name="zh-cn">发布审核</culture>
+    <culture name="vi">Công bố xác nhận</culture>
+    <culture name="id">Mengumunkan persetujuan</culture>
+    <culture name="mt-mt">ထုတ်ပြန်မှု ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">アップ審査</culture>
+  </menu>
+  <menu id="SystemMobileMenuSetting">
+    <culture name="en-us">Menu setup for Mobile</culture>
+    <culture name="zh-tw">行動裝置選單設定</culture>
+    <culture name="zh-cn">行动装置菜单设置</culture>
+    <culture name="vi">Thiết lập menu cho điện thoại</culture>
+    <culture name="id">Pilihan pengaturan untuk mobile</culture>
+    <culture name="mt-mt">မိုဘိုင်းအတွက် Menu တည်ဆောက်သည်</culture>
+    <culture name="ja-jp">モバイル端末メニュー設定</culture>
+  </menu>
+  <menu id="SystemMNextMenuSetting">
+    <culture name="en-us">Setting</culture>
+    <culture name="zh-tw">功能設定</culture>
+    <culture name="zh-cn">功能设置</culture>
+    <culture name="vi">cài đặt chức năng</culture>
+    <culture name="id">功能設定</culture>
+    <culture name="mt-mt">功能設定</culture>
+    <culture name="ja-jp">機能設定</culture>
+  </menu>
+  <menu id="AppEventsboard">
+    <culture name="en-us">Activity Kanban Setting</culture>
+    <culture name="zh-tw">活動看板設定</culture>
+    <culture name="zh-cn">活动看板设置</culture>
+    <culture name="vi">Cài đặt dấu hiệu hoạt động</culture>
+    <culture name="id">活動看板設定</culture>
+    <culture name="mt-mt">活動看板設定</culture>
+    <culture name="ja-jp">看板を設置</culture>
+  </menu>
+  <menu id="DeviceInfo">
+    <culture name="en-us">Device Management</culture>
+    <culture name="zh-tw">裝置管理</culture>
+    <culture name="zh-cn">装置管理</culture>
+    <culture name="vi">Quản lý thiết bị</culture>
+    <culture name="id">裝置管理</culture>
+    <culture name="mt-mt">裝置管理</culture>
+    <culture name="ja-jp">裝置管理</culture>
+  </menu>
+  <menu id="QueryWorkList">
+    <culture name="en-us">To Do List</culture>
+    <culture name="zh-tw">待辦事項</culture>
+    <culture name="zh-cn">待办事项</culture>
+    <culture name="vi">Việc đang chờ</culture>
+    <culture name="id">Daftar yang harus dilakukan</culture>
+    <culture name="mt-mt">ဆောင်ရွက်ရန်စာရင်း</culture>
+    <culture name="ja-jp">交代事項</culture>
+  </menu>
+  <menu id="BM">
+    <culture name="en-us">Business Mgt.</culture>
+    <culture name="zh-tw">業務管理</culture>
+    <culture name="zh-cn">业务管理</culture>
+    <culture name="vi">Quản lý nghiệp vụ</culture>
+    <culture name="id">Pengelolaan bisnis</culture>
+    <culture name="mt-mt">業務管理</culture>
+    <culture name="ja-jp">業務別管理</culture>
+  </menu>
+  <menu id="QueryDevolveList">
+    <culture name="en-us">Notice of Assignment</culture>
+    <culture name="zh-tw">交辦知會</culture>
+    <culture name="zh-cn">交办通知</culture>
+    <culture name="vi">Giao nhiệm vụ</culture>
+    <culture name="id">Pemberitahuan tugas</culture>
+    <culture name="mt-mt">交辦知會</culture>
+    <culture name="ja-jp">交代事項のお知らせ</culture>
+  </menu>
+  <menu id="LogoSetting">
+    <culture name="en-us">Maintain Logo for Department</culture>
+    <culture name="zh-tw">部門Logo圖示維護</culture>
+    <culture name="zh-cn">部门Logo图示维护</culture>
+    <culture name="vi">Làm logo cho đơn vị</culture>
+    <culture name="id">Membuat logo untuk departemen</culture>
+    <culture name="mt-mt">部門Logo圖示維護</culture>
+    <culture name="ja-jp">マスターメンテナンス画面</culture>
+  </menu>
+  <menu id="VirtualDeptSettingDefault">
+    <culture name="en-us">Department Maintain of Big Data Module</culture>
+    <culture name="zh-tw">大數據部門維護</culture>
+    <culture name="zh-cn">大数据部门维护</culture>
+    <culture name="vi">Duy trì bộ phận dữ liệu lớn</culture>
+    <culture name="id">大數據部門維護</culture>
+    <culture name="mt-mt">大數據部門維護</culture>
+    <culture name="ja-jp">ビッグデータ部門メンテナンス</culture>
+  </menu>
+  <menu id="104HR">
+    <culture name="en-us">HR</culture>
+    <culture name="zh-tw">假勤管理</culture>
+    <culture name="zh-cn">假勤管理</culture>
+    <culture name="vi">HR</culture>
+    <culture name="id">HR</culture>
+    <culture name="mt-mt">HR</culture>
+    <culture name="ja-jp">HR</culture>
+  </menu>
+  <menu id="104HRSync">
+    <culture name="en-us">Synchronize</culture>
+    <culture name="zh-tw">同步作業</culture>
+    <culture name="zh-cn">同步作业</culture>
+    <culture name="vi">thao tác đồng bộ</culture>
+    <culture name="id">同步作業</culture>
+    <culture name="mt-mt">同步作業</culture>
+    <culture name="ja-jp">同期する</culture>
+  </menu>
+  <menu id="104HRSyncDefault">
+    <culture name="en-us">Synchronize Member &amp; Department</culture>
+    <culture name="zh-tw">部門與人員同步</culture>
+    <culture name="zh-cn">部门与人员同步</culture>
+    <culture name="vi">Đồng bộ hóa các phòng ban và nhân sự</culture>
+    <culture name="id">部門與人員同步</culture>
+    <culture name="mt-mt">部門與人員同步</culture>
+    <culture name="ja-jp">部門、スタッフを同期する</culture>
+  </menu>
+  <menu id="104HRExportPunchDefault">
+    <culture name="en-us">Export Punch Data</culture>
+    <culture name="zh-tw">刷卡資料匯出</culture>
+    <culture name="zh-cn">刷卡数据导出</culture>
+    <culture name="vi">Xuất dữ liệu thẻ tín dụng</culture>
+    <culture name="id">刷卡資料匯出</culture>
+    <culture name="mt-mt">刷卡資料匯出</culture>
+    <culture name="ja-jp">商品マスターメンテナンス</culture>
+  </menu>
+  <menu id="104HRMaintain">
+    <culture name="en-us">Punch Setting</culture>
+    <culture name="zh-tw">刷卡設定</culture>
+    <culture name="zh-cn">刷卡设置</culture>
+    <culture name="vi">Cài đặt quẹt thẻ</culture>
+    <culture name="id">刷卡設定</culture>
+    <culture name="mt-mt">刷卡設定</culture>
+    <culture name="ja-jp">タイムカード設定</culture>
+  </menu>
+  <menu id="104HRDutyPunchIPMaintain">
+    <culture name="en-us">Punch IP Range</culture>
+    <culture name="zh-tw">刷卡IP範圍</culture>
+    <culture name="zh-cn">刷卡IP范围</culture>
+    <culture name="vi">pham vi quẹt thẻ IP</culture>
+    <culture name="id">刷卡IP範圍</culture>
+    <culture name="mt-mt">刷卡IP範圍</culture>
+    <culture name="ja-jp">タイムカードを押せるIP範囲</culture>
+  </menu>
+  <menu id="104HRDutyPunchPositionMaintain">
+    <culture name="en-us">App punch area</culture>
+    <culture name="zh-tw">App刷卡範圍</culture>
+    <culture name="zh-cn">App刷卡范围</culture>
+    <culture name="vi">phạm vi quẹt thẻ APP</culture>
+    <culture name="id">App刷卡範圍</culture>
+    <culture name="mt-mt">App刷卡範圍</culture>
+    <culture name="ja-jp">APPタイムカードを押せる範囲</culture>
+  </menu>
+  <menu id="104HRDutyPunchAPPMaintain">
+    <culture name="en-us">App used only</culture>
+    <culture name="zh-tw">只可用App人員</culture>
+    <culture name="zh-cn">只可用App人员</culture>
+    <culture name="vi">chỉ có thể dùng app nhân viên</culture>
+    <culture name="id">只可用App人員</culture>
+    <culture name="mt-mt">只可用App人員</culture>
+    <culture name="ja-jp">Appのみ使用可能なユーザ</culture>
+  </menu>
+  <menu id="104HRDutyPunchExcludeMaintain">
+    <culture name="en-us">Exceptions</culture>
+    <culture name="zh-tw">特殊人員</culture>
+    <culture name="zh-cn">特殊人员</culture>
+    <culture name="vi">Nhân viên đặc biệt</culture>
+    <culture name="id">特殊人員</culture>
+    <culture name="mt-mt">特殊人員</culture>
+    <culture name="ja-jp">特殊人員</culture>
+  </menu>
+  <menu id="104HRDeptCodeMaintain">
+    <culture name="en-us">Department Code Setting</culture>
+    <culture name="zh-tw">維護部門代碼</culture>
+    <culture name="zh-cn">维护部门代码</culture>
+    <culture name="vi">Mã bộ phận bảo trì</culture>
+    <culture name="id">維護部門代碼</culture>
+    <culture name="mt-mt">維護部門代碼</culture>
+    <culture name="ja-jp">部門コードのメンテナンス</culture>
+  </menu>
+  <menu id="104QueryTravelDefault">
+    <culture name="en-us">Bussiness Travel Query</culture>
+    <culture name="zh-tw">出差記錄查詢</culture>
+    <culture name="zh-cn">出差记录查询</culture>
+    <culture name="vi">Truy vấn hồ sơ công tác</culture>
+    <culture name="id">出差記錄查詢</culture>
+    <culture name="mt-mt">出差記錄查詢</culture>
+    <culture name="ja-jp">出張記録一覧</culture>
+  </menu>
+  <menu id="104QueryLeaveDefault">
+    <culture name="en-us">Leave History</culture>
+    <culture name="zh-tw">請假記錄查詢</culture>
+    <culture name="zh-cn">请假记录查询</culture>
+    <culture name="vi">Tra cứu ghi nhận xin nghỉ phép</culture>
+    <culture name="id">Riwayat cuti</culture>
+    <culture name="mt-mt">請假記錄查詢</culture>
+    <culture name="ja-jp">休み記録一覧</culture>
+  </menu>
+  <menu id="104QueryYearLeaveDefault">
+    <culture name="en-us">Annual Leave Query</culture>
+    <culture name="zh-tw">特休記錄查詢</culture>
+    <culture name="zh-cn">特休记录查询</culture>
+    <culture name="vi">Truy vấn hồ sơ kỳ nghỉ đặc biệt</culture>
+    <culture name="id">特休記錄查詢</culture>
+    <culture name="mt-mt">特休記錄查詢</culture>
+    <culture name="ja-jp">有給休暇記録一覧</culture>
+  </menu>
+  <menu id="104QueryTimeOffDefault">
+    <culture name="en-us">Compensatory Leave Query</culture>
+    <culture name="zh-tw">補休記錄查詢</culture>
+    <culture name="zh-cn">补休记录查询</culture>
+    <culture name="vi">Kiểm tra ghi nhớ bổ sung ngày nghỉ</culture>
+    <culture name="id">補休記錄查詢</culture>
+    <culture name="mt-mt">補休記錄查詢</culture>
+    <culture name="ja-jp">振替休日記録一覧</culture>
+  </menu>
+  <menu id="104QueryBatchOvertimeDefault">
+    <culture name="en-us">OT Application(Batch apply) Query</culture>
+    <culture name="zh-tw">加班單(批次申請)查詢</culture>
+    <culture name="zh-cn">加班单(批次申请)查询</culture>
+    <culture name="vi">điều tra bảng tăng ca (những lần xin duyệt )</culture>
+    <culture name="id">加班單(批次申請)查詢</culture>
+    <culture name="mt-mt">加班單(批次申請)查詢</culture>
+    <culture name="ja-jp">残業申請書を検索する</culture>
+  </menu>
+  <menu id="104QueryDutyPunchSetting">
+    <culture name="en-us">Punch setting query</culture>
+    <culture name="zh-tw">人員刷卡設定查詢</culture>
+    <culture name="zh-cn">人員刷卡設定查詢</culture>
+    <culture name="vi">Truy vấn cài đặt thẻ nhân viên</culture>
+    <culture name="id">人員刷卡設定查詢</culture>
+    <culture name="mt-mt">人員刷卡設定查詢</culture>
+    <culture name="ja-jp">人員タイムカード設定クエリ</culture>
+  </menu>
+  <menu id="104QueryOvertimeDefault">
+    <culture name="en-us">Overtime History</culture>
+    <culture name="zh-tw">加班記錄查詢</culture>
+    <culture name="zh-cn">加班记录查询</culture>
+    <culture name="vi">Tra cứu ghi nhận tăng ca</culture>
+    <culture name="id">Riwayat lembur</culture>
+    <culture name="mt-mt">加班記錄查詢</culture>
+    <culture name="ja-jp">残業記録一覧</culture>
+  </menu>
+  <menu id="104QueryAttendanceDefault">
+    <culture name="en-us">Leave available Query</culture>
+    <culture name="zh-tw">可休假查詢</culture>
+    <culture name="zh-cn">可休假查询</culture>
+    <culture name="vi">Yêu cầu để lại có sẵn</culture>
+    <culture name="id">可休假查詢</culture>
+    <culture name="mt-mt">可休假查詢</culture>
+    <culture name="ja-jp">個人休暇一覧</culture>
+  </menu>
+  <menu id="104HRManage">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">管理</culture>
+    <culture name="mt-mt">管理</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="104HROverAttendManage">
+    <culture name="en-us">Extra Hours Report</culture>
+    <culture name="zh-tw">超時出勤回報作業</culture>
+    <culture name="zh-cn">超时出勤回报操作</culture>
+    <culture name="vi">Hồi báo công việc làm thêm ngoài giờ</culture>
+    <culture name="id">超時出勤回報作業</culture>
+    <culture name="mt-mt">超時出勤回報作業</culture>
+    <culture name="ja-jp">残業報告作業</culture>
+  </menu>
+  <menu id="104HRCallDllFormList">
+    <culture name="en-us">Query DLL Status</culture>
+    <culture name="zh-tw">呼叫DLL狀態查詢</culture>
+    <culture name="zh-cn">调用DLL状态查询</culture>
+    <culture name="vi">Truy vấn trạng thái DLL</culture>
+    <culture name="id">Status Query DLL</culture>
+    <culture name="mt-mt">DLL အခြေအနေ မေးမြန်းခြင်း</culture>
+    <culture name="ja-jp">DLL使用状況を一覧</culture>
+  </menu>
+  <menu id="DMSUdocSecurityManagement">
+    <culture name="en-us">UDoc Security Setting</culture>
+    <culture name="zh-tw">離線文件資訊管理</culture>
+    <culture name="zh-cn">离线文件信息管理</culture>
+    <culture name="vi">Quản lý an toàn thông tin Udoc</culture>
+    <culture name="id">UDoc preservation information management</culture>
+    <culture name="mt-mt">離線文件信息管理</culture>
+    <culture name="ja-jp">オフライン書類データ管理</culture>
+  </menu>
+  <menu id="WKFCustomWords">
+    <culture name="en-us">Approving Comment Setting</culture>
+    <culture name="zh-tw">簽核字詞設定</culture>
+    <culture name="zh-cn">签核字词设定</culture>
+    <culture name="vi">Cài đặt từ ngữ ký duyệt</culture>
+    <culture name="id">簽核字詞設定</culture>
+    <culture name="mt-mt">簽核字詞設定</culture>
+    <culture name="ja-jp">マスターメンテナンス画面</culture>
+  </menu>
+  <menu id="DutyQueryYearLeaveDaysByManager">
+    <culture name="en-us">Annual Leave(Manager)</culture>
+    <culture name="zh-tw">年休假查詢(管理員)</culture>
+    <culture name="zh-cn">年休假查询(管理员)</culture>
+    <culture name="vi">Phép năm (người quản lý)</culture>
+    <culture name="id">Cuti Tahunan (Manajer)</culture>
+    <culture name="mt-mt">年休假查詢(管理員)</culture>
+    <culture name="ja-jp">年休一覧（管理員向け）</culture>
+  </menu>
+  <menu id="104HRDutyStatistics">
+    <culture name="en-us">Statistics</culture>
+    <culture name="zh-tw">統計查詢</culture>
+    <culture name="zh-cn">统计查询</culture>
+    <culture name="vi">Thống kê</culture>
+    <culture name="id">Statistik</culture>
+    <culture name="mt-mt">統計查詢</culture>
+    <culture name="ja-jp">振替休日</culture>
+  </menu>
+  <menu id="104QueryPunchByUser">
+    <culture name="en-us">Punch Records Query</culture>
+    <culture name="zh-tw">出勤記錄查詢</culture>
+    <culture name="zh-cn">出勤记录查询</culture>
+    <culture name="vi">truy vấn bảng ghi chép đi làm</culture>
+    <culture name="id">出勤記錄查詢</culture>
+    <culture name="mt-mt">出勤記錄查詢</culture>
+    <culture name="ja-jp">出勤状況一覧</culture>
+  </menu>
+  <menu id="CustomMenuM">
+    <culture name="en-us">Customized Panel &amp; Notification</culture>
+    <culture name="zh-tw">自訂面板與通知</culture>
+    <culture name="zh-cn">自定义面板与通知</culture>
+    <culture name="vi">Tùy chỉnh bảng điều khiển và thông báo</culture>
+    <culture name="id">自訂面板與通知</culture>
+    <culture name="mt-mt">自訂面板與通知</culture>
+    <culture name="ja-jp">お知らせを設定する</culture>
+  </menu>
+  <menu id="104HRSystemSync">
+    <culture name="en-us">Synchronization</culture>
+    <culture name="zh-tw">同步作業</culture>
+    <culture name="zh-cn">同步作业</culture>
+    <culture name="vi">thao tác đồng bộ</culture>
+    <culture name="id">同步作業</culture>
+    <culture name="mt-mt">同步作業</culture>
+    <culture name="ja-jp">作業を同期する</culture>
+  </menu>
+  <menu id="IPRangeDefault">
+    <culture name="en-us">Login IP setting</culture>
+    <culture name="zh-tw">登入IP設定</culture>
+    <culture name="zh-cn">登录IP设置</culture>
+    <culture name="vi">Cài đặt đăng nhập IP</culture>
+    <culture name="id">登入IP設定</culture>
+    <culture name="mt-mt">登入IP設定</culture>
+    <culture name="ja-jp">IP登録設定</culture>
+  </menu>
+  <menu id="EventsBoard">
+    <culture name="en-us">Activity</culture>
+    <culture name="zh-tw">活動看板</culture>
+    <culture name="zh-cn">活动看板</culture>
+    <culture name="vi">Dấu hiệu hoạt động</culture>
+    <culture name="id">活動看板</culture>
+    <culture name="mt-mt">活動看板</culture>
+    <culture name="ja-jp">イベントのお知らせ</culture>
+  </menu>
+  <menu id="AnalysisAuth">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">管理</culture>
+    <culture name="mt-mt">管理</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="AuthoritySetting">
+    <culture name="en-us">Authority</culture>
+    <culture name="zh-tw">權限設定</culture>
+    <culture name="zh-cn">权限设置</culture>
+    <culture name="vi">Thiết lập quyền hạn</culture>
+    <culture name="id">權限設定</culture>
+    <culture name="mt-mt">權限設定</culture>
+    <culture name="ja-jp">権限を設定</culture>
+  </menu>
+  <menu id="LoginImgSetting">
+    <culture name="en-us">Customized Page</culture>
+    <culture name="zh-tw">自訂登入頁面</culture>
+    <culture name="zh-cn">自定登入页面</culture>
+    <culture name="vi">Tùy chỉnh trang đăng nhập</culture>
+    <culture name="id">自訂登入頁面</culture>
+    <culture name="mt-mt">自訂登入頁面</culture>
+    <culture name="ja-jp">カスタマイズページ</culture>
+  </menu>
+  <menu id="WKFFormPermission">
+    <culture name="en-us">Form Permission Query</culture>
+    <culture name="zh-tw">表單權限查詢</culture>
+    <culture name="zh-cn">表单权限查询</culture>
+    <culture name="vi">điều tra quyền hạn biểu mẫu</culture>
+    <culture name="id">表單權限查詢</culture>
+    <culture name="mt-mt">表單權限查詢</culture>
+    <culture name="ja-jp">フォーム権限を検索する</culture>
+  </menu>
+  <menu id="QueryRoleAuth">
+    <culture name="en-us">Account Privilege Query</culture>
+    <culture name="zh-tw">人員角色權限查詢</culture>
+    <culture name="zh-cn">人员角色权限查询</culture>
+    <culture name="vi">Truy vấn quyền hạn vai trò nhân sự</culture>
+    <culture name="id">人員角色權限查詢</culture>
+    <culture name="mt-mt">人員角色權限查詢</culture>
+    <culture name="ja-jp">メンバー権限を検索する</culture>
+  </menu>
+  <menu id="GroupHistory">
+    <culture name="en-us">Department Update Record</culture>
+    <culture name="zh-tw">部門異動記錄</culture>
+    <culture name="zh-cn">部门变动记录</culture>
+    <culture name="vi">Hồ sơ thay đổi phòng ban</culture>
+    <culture name="id">部門異動記錄</culture>
+    <culture name="mt-mt">部門異動記錄</culture>
+    <culture name="ja-jp">部門異動履歴</culture>
+  </menu>
+  <menu id="Punch">
+    <culture name="en-us">Punch</culture>
+    <culture name="zh-tw">刷卡管理</culture>
+    <culture name="zh-cn">刷卡管理</culture>
+    <culture name="vi">Quản lý quẹt thẻ</culture>
+    <culture name="id">刷卡管理</culture>
+    <culture name="mt-mt">刷卡管理</culture>
+    <culture name="ja-jp">タイムカード履歴管理</culture>
+  </menu>
+  <menu id="PunchMainTain">
+    <culture name="en-us">General Data</culture>
+    <culture name="zh-tw">主檔維護</culture>
+    <culture name="zh-cn">主档维护</culture>
+    <culture name="vi">Dữ liệu cơ bản</culture>
+    <culture name="id">Data master</culture>
+    <culture name="mt-mt">အထွေထွေအချက်အလက်</culture>
+    <culture name="ja-jp">メンテナンスする</culture>
+  </menu>
+  <menu id="PunchQuery">
+    <culture name="en-us">Query</culture>
+    <culture name="zh-tw">查詢</culture>
+    <culture name="zh-cn">查询</culture>
+    <culture name="vi">Tra tìm</culture>
+    <culture name="id">查詢</culture>
+    <culture name="mt-mt">查詢</culture>
+    <culture name="ja-jp">検索</culture>
+  </menu>
+  <menu id="QueryPunchDef">
+    <culture name="en-us">Punch Query</culture>
+    <culture name="zh-tw">刷卡記錄查詢</culture>
+    <culture name="zh-cn">刷卡记录查询</culture>
+    <culture name="vi">điều tra ghi chép quẹt thẻ</culture>
+    <culture name="id">刷卡記錄查詢</culture>
+    <culture name="mt-mt">刷卡記錄查詢</culture>
+    <culture name="ja-jp">タイムカード履歴を検索する</culture>
+  </menu>
+  <menu id="QueryDutyPunchSetting">
+    <culture name="en-us">Punch setting query</culture>
+    <culture name="zh-tw">人員刷卡設定查詢</culture>
+    <culture name="zh-cn">人员刷卡设置查询</culture>
+    <culture name="vi">Truy vấn cài đặt thẻ nhân viên</culture>
+    <culture name="id">人員刷卡設定查詢</culture>
+    <culture name="mt-mt">人員刷卡設定查詢</culture>
+    <culture name="ja-jp">人員タイムカード設定クエリ</culture>
+  </menu>
+  <menu id="WKFHandOver">
+    <culture name="en-us">Handover Forms</culture>
+    <culture name="zh-tw">表單交接</culture>
+    <culture name="zh-cn">表单交接</culture>
+    <culture name="vi">biểu mẫu bàn giao</culture>
+    <culture name="id">表單交接</culture>
+    <culture name="mt-mt">表單交接</culture>
+    <culture name="ja-jp">交代する</culture>
+  </menu>
+  <menu id="Edoc">
+    <culture name="en-us">eDoc</culture>
+    <culture name="zh-tw">電子公文</culture>
+    <culture name="zh-cn">电子公文</culture>
+    <culture name="vi">Công văn điện tử</culture>
+    <culture name="id">電子公文</culture>
+    <culture name="mt-mt">電子公文</culture>
+    <culture name="ja-jp">電子文書</culture>
+  </menu>
+  <menu id="EdocPersonal">
+    <culture name="en-us">Personal</culture>
+    <culture name="zh-tw">個人</culture>
+    <culture name="zh-cn">個人</culture>
+    <culture name="vi">Cá nhân</culture>
+    <culture name="id">個人</culture>
+    <culture name="mt-mt">個人</culture>
+    <culture name="ja-jp">個人</culture>
+  </menu>
+  <menu id="EdocContactPerson">
+    <culture name="en-us">Common Contacts Setup</culture>
+    <culture name="zh-tw">常用聯絡人設定</culture>
+    <culture name="zh-cn">常用联络人设定</culture>
+    <culture name="vi">Cài đặt liên hệ thường xuyên</culture>
+    <culture name="id">常用聯絡人設定</culture>
+    <culture name="mt-mt">常用聯絡人設定</culture>
+    <culture name="ja-jp">常用連絡先設定</culture>
+  </menu>
+  <menu id="EdocReceiveSend">
+    <culture name="en-us">Transmit and Receive</culture>
+    <culture name="zh-tw">收發文作業</culture>
+    <culture name="zh-cn">收发文作业</culture>
+    <culture name="vi">Gửi và nhận tài liệu</culture>
+    <culture name="id">收發文作業</culture>
+    <culture name="mt-mt">收發文作業</culture>
+    <culture name="ja-jp">ファイルの送受信</culture>
+  </menu>
+  <menu id="EdocReceive">
+    <culture name="en-us">Receipt and Apply</culture>
+    <culture name="zh-tw">收文起單</culture>
+    <culture name="zh-cn">收文起单</culture>
+    <culture name="vi">nhận thông báo lên đơn</culture>
+    <culture name="id">收文起單</culture>
+    <culture name="mt-mt">收文起單</culture>
+    <culture name="ja-jp">ファイルをもらってフォームを追加する</culture>
+  </menu>
+  <menu id="EdocSend">
+    <culture name="en-us">Electronic File Conversion</culture>
+    <culture name="zh-tw">公文檔製作</culture>
+    <culture name="zh-cn">公文档制作</culture>
+    <culture name="vi">sạn thảo tệp công văn</culture>
+    <culture name="id">公文檔製作</culture>
+    <culture name="mt-mt">公文檔製作</culture>
+    <culture name="ja-jp">文書作成</culture>
+  </menu>
+  <menu id="EdocManagement">
+    <culture name="en-us">Management</culture>
+    <culture name="zh-tw">管理</culture>
+    <culture name="zh-cn">管理</culture>
+    <culture name="vi">Quản lý</culture>
+    <culture name="id">管理</culture>
+    <culture name="mt-mt">管理</culture>
+    <culture name="ja-jp">管理</culture>
+  </menu>
+  <menu id="EdocAuthSet">
+    <culture name="en-us">Authority</culture>
+    <culture name="zh-tw">權限設定</culture>
+    <culture name="zh-cn">权限设置</culture>
+    <culture name="vi">Quyền hạn</culture>
+    <culture name="id">Otoritas</culture>
+    <culture name="mt-mt">ခွင့်ပြုချက်</culture>
+    <culture name="ja-jp">権限を設定</culture>
+  </menu>
+  <menu id="EdocBasicSetting">
+    <culture name="en-us">General Setup</culture>
+    <culture name="zh-tw">基本設定</culture>
+    <culture name="zh-cn">基本设定</culture>
+    <culture name="vi">Thiết lập cơ bản</culture>
+    <culture name="id">基本設定</culture>
+    <culture name="mt-mt">基本設定</culture>
+    <culture name="ja-jp">基本設定</culture>
+  </menu>
+  <menu id="EdocSendNumberStringMaintain">
+    <culture name="en-us">Category setup for Org.</culture>
+    <culture name="zh-tw">字號類別維護</culture>
+    <culture name="zh-cn">字号类别维护</culture>
+    <culture name="vi">Bảo trì danh mục kích thước phông chữ</culture>
+    <culture name="id">字號類別維護</culture>
+    <culture name="mt-mt">字號類別維護</culture>
+    <culture name="ja-jp">番号カテゴリのメンテナンス</culture>
+  </menu>
+  <menu id="EdocEditOrg">
+    <culture name="en-us">Address Book</culture>
+    <culture name="zh-tw">受文機關維護</culture>
+    <culture name="zh-cn">受文机关维护</culture>
+    <culture name="vi">cơ quan tài liệu duy trì</culture>
+    <culture name="id">受文機關維護</culture>
+    <culture name="mt-mt">受文機關維護</culture>
+    <culture name="ja-jp">受文機関の維持</culture>
+  </menu>
+  <menu id="EdocLogViewer">
+    <culture name="en-us">Event Logs</culture>
+    <culture name="zh-tw">事件檢視</culture>
+    <culture name="zh-cn">事件检视</culture>
+    <culture name="vi">Xem bản ghi</culture>
+    <culture name="id">事件檢視</culture>
+    <culture name="mt-mt">事件檢視</culture>
+    <culture name="ja-jp">事件検査</culture>
+  </menu>
+  <menu id="EdocPersonalEdoc">
+    <culture name="en-us">Personal Form</culture>
+    <culture name="zh-tw">我的公文</culture>
+    <culture name="zh-cn">我的公文</culture>
+    <culture name="vi">văn bản của tôi</culture>
+    <culture name="id">我的公文</culture>
+    <culture name="mt-mt">我的公文</culture>
+    <culture name="ja-jp">私の文書</culture>
+  </menu>
+  <menu id="SpaceLend">
+    <culture name="en-us">Stauts of Leasing Space</culture>
+    <culture name="zh-tw">租用空間使用狀況</culture>
+    <culture name="zh-cn">租用空间使用状况</culture>
+    <culture name="vi">Tình trạng cho thuê không gian mặt bằng</culture>
+    <culture name="id">租用空間使用狀況</culture>
+    <culture name="mt-mt">租用空間使用狀況</culture>
+    <culture name="ja-jp">スペース使用状況確認</culture>
+  </menu>
+  <menu id="WKFAdminFootprint">
+    <culture name="en-us">View form record of administrator</culture>
+    <culture name="zh-tw">管理員觀看表單記錄</culture>
+    <culture name="zh-cn">管理员观看表单记录</culture>
+    <culture name="vi">Nhân viên quản lý xem ghi chép biểu đơn</culture>
+    <culture name="id">管理員觀看表單記錄</culture>
+    <culture name="mt-mt">管理員觀看表單記錄</culture>
+    <culture name="ja-jp">管理者の閲覧記録</culture>
+  </menu>
+</Menus>

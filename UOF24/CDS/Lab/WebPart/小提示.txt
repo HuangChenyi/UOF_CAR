@@ -1,0 +1,12 @@
+﻿1.在~/CDS/Setting/Webpart.xml
+
+  <CustomControl ControlType="class名稱" ControlPath="相對路徑" DefaultTitle="WEBPART名稱" TitleStyle="i" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="WEBPART語系名稱" />
+    <Resource Name="zh-TW" Value="WEBPART語系名稱" />
+    <Resource Name="en-US" Value="WEBPART語系名稱" />
+    <Resource Name="vi" Value="WEBPART語系名稱" />
+    <Resource Name="id" Value="WEBPART語系名稱" />
+  </CustomControl>
+
+  2.新增資料庫TABLE TB_EB_WEBPART
+  只要INSERT WEBPART_ID欄位，其ID為WEBPART的  Class名稱

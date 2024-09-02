@@ -1,0 +1,95 @@
+{
+  "UOF1": {
+    "icon": "UB240/icon_UB.png",
+    "sticker": {
+      "V01": "UB240/ub01.png",
+      "V02": "UB240/ub02.png",
+      "V03": "UB240/ub03.png",
+      "V04": "UB240/ub04.png",
+      "V05": "UB240/ub05.png",
+      "V06": "UB240/ub06.png",
+      "V07": "UB240/ub07.png",
+      "V08": "UB240/ub08.png",
+      "V09": "UB240/ub09.png",
+      "V10": "UB240/ub10.png",
+      "V11": "UB240/ub11.png",
+      "V12": "UB240/ub12.png",
+      "V13": "UB240/ub13.png",
+      "V14": "UB240/ub14.png",
+      "V15": "UB240/ub15.png",
+      "V16": "UB240/ub16.png"
+    }
+  },
+  "UOF2": {
+    "icon": "UC240/icon_UC.png",
+    "sticker": {
+      "C01": "UC240/uc01.png",
+      "C02": "UC240/uc02.png",
+      "C03": "UC240/uc03.png",
+      "C04": "UC240/uc04.png",
+      "C05": "UC240/uc05.png",
+      "C06": "UC240/uc06.png",
+      "C07": "UC240/uc07.png",
+      "C08": "UC240/uc08.png",
+      "C09": "UC240/uc09.png",
+      "C10": "UC240/uc10.png",
+      "C11": "UC240/uc11.png",
+      "C12": "UC240/uc12.png",
+      "C13": "UC240/uc13.png",
+      "C14": "UC240/uc14.png",
+      "C15": "UC240/uc15.png",
+      "C16": "UC240/uc16.png"
+    }
+  },
+  "UOF3": {
+    "icon": "UD240/icon_UD.png",
+    "sticker": {
+      "D01": "UD240/ud01.png",
+      "D02": "UD240/ud02.png",
+      "D03": "UD240/ud03.png",
+      "D04": "UD240/ud04.png",
+      "D05": "UD240/ud05.png",
+      "D06": "UD240/ud06.png",
+      "D07": "UD240/ud07.png",
+      "D08": "UD240/ud08.png",
+      "D09": "UD240/ud09.png",
+      "D10": "UD240/ud10.png",
+      "D11": "UD240/ud11.png",
+      "D12": "UD240/ud12.png",
+      "D13": "UD240/ud13.png",
+      "D14": "UD240/ud14.png",
+      "D15": "UD240/ud15.png",
+      "D16": "UD240/ud16.png",
+      "D17": "UD240/ud17.png"
+    }
+  },
+  "UOF4": {
+    "icon": "UE240/icon_UE.png",
+    "sticker": {
+      "E01": "UE240/ue01.gif",
+      "E02": "UE240/ue02.gif",
+      "E03": "UE240/ue03.gif",
+      "E04": "UE240/ue04.gif",
+      "E05": "UE240/ue05.gif",
+      "E06": "UE240/ue06.gif",
+      "E07": "UE240/ue07.gif",
+      "E08": "UE240/ue08.gif",
+      "E09": "UE240/ue09.gif",
+      "E10": "UE240/ue10.gif",
+      "E11": "UE240/ue11.gif",
+      "E12": "UE240/ue12.gif",
+      "E13": "UE240/ue13.gif",
+      "E14": "UE240/ue14.gif",
+      "E15": "UE240/ue15.gif",
+      "E16": "UE240/ue16.gif",
+      "E17": "UE240/ue17.gif",
+      "E18": "UE240/ue18.gif",
+      "E19": "UE240/ue19.gif",
+      "E20": "UE240/ue20.gif",
+      "E21": "UE240/ue21.gif",
+      "E22": "UE240/ue22.gif",
+      "E23": "UE240/ue23.gif",
+      "E24": "UE240/ue24.gif"
+    }
+  }
+}

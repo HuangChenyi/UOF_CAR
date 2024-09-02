@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>審査開始時間：</value>
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>廃止理由</value>
+  </data>
+  <data name="Grid2Resource1.EmptyDataText" xml:space="preserve">
+    <value>データが見つかりません</value>
+  </data>
+  <data name="imgPDFViewerResource1.AlternateText" xml:space="preserve">
+    <value>閲覧</value>
+  </data>
+  <data name="labAlertResource1.Text" xml:space="preserve">
+    <value>ファイルを転換しているので、しばらくお待ちください。</value>
+  </data>
+  <data name="labDocDenyResource1.Text" xml:space="preserve">
+    <value>頒布不能</value>
+  </data>
+  <data name="labFileErrorResource1.Text" xml:space="preserve">
+    <value>エラーが発生しました。ファイルが存在しない！</value>
+  </data>
+  <data name="labPDFConvertERRORResource1.Text" xml:space="preserve">
+    <value>エラーが発生しました。ファイルが転換できない！</value>
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>審査中</value>
+  </data>
+  <data name="lblCheckinResource1.Text" xml:space="preserve">
+    <value>保存済み</value>
+  </data>
+  <data name="lblCheckOutResource1.Text" xml:space="preserve">
+    <value>ファイルを取り出し済み</value>
+  </data>
+  <data name="lblConfirmAcceptResource1.Text" xml:space="preserve">
+    <value>廃止申請を承認しますか。</value>
+  </data>
+  <data name="lblConfirmDeleteResource1.Text" xml:space="preserve">
+    <value>削除してもよろしいでしょうか</value>
+  </data>
+  <data name="lblConfirmRejectResource1.Text" xml:space="preserve">
+    <value>廃止否決することを確認しますか</value>
+  </data>
+  <data name="lblDocSerialResource1.Text" xml:space="preserve">
+    <value>書類番号：</value>
+  </data>
+  <data name="lblFileHasPasswordResource1.Text" xml:space="preserve">
+    <value>原始ファイルにはパスワードが設定してるので、ファイルの変更ができない</value>
+  </data>
+  <data name="lblFileNotTransferToUofResource1.Text" xml:space="preserve">
+    <value>ファイルはまだProxyサーバーにあってシステムによってファイルの転換を行うのでしばらくお待ちください。</value>
+  </data>
+  <data name="lblFilePageOutLimitMsgResource1.Text" xml:space="preserve">
+    <value>ファイルページ数はアップロードできるページ数制限数に超えるので、アップロードできません。</value>
+  </data>
+  <data name="lblFilePageOutLimitResource1.Text" xml:space="preserve">
+    <value>ページのファイル転換可能なページは{0}です</value>
+  </data>
+  <data name="lblInactiveResource1.Text" xml:space="preserve">
+    <value>無効になる</value>
+  </data>
+  <data name="lblManualVersionResource1.Text" xml:space="preserve">
+    <value>バージョン：</value>
+  </data>
+  <data name="lblNoPrivilegeResource1.Text" xml:space="preserve">
+    <value>審査権限が持っていないフォームを選択しましたので、権限が変更されていました</value>
+  </data>
+  <data name="lblNotsupportDocResource1.Text" xml:space="preserve">
+    <value>ファイルの転換する必要ですが、このファイルのタイプはサポートしていません。</value>
+  </data>
+  <data name="lblOldVerResource1.Text" xml:space="preserve">
+    <value>従来のバージョン</value>
+  </data>
+  <data name="lblPersonSendResource1.Text" xml:space="preserve">
+    <value>送信済みファイル</value>
+  </data>
+  <data name="lblPrintUserResource1.Text" xml:space="preserve">
+    <value>オペレーター</value>
+  </data>
+  <data name="lblProtectMsgResource1.Text" xml:space="preserve">
+    <value>保護されてるファイルなので、オンラインで閲覧することができません</value>
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>リリース済み</value>
+  </data>
+  <data name="lblReActResource1.Text" xml:space="preserve">
+    <value>棚上げ済み</value>
+  </data>
+  <data name="lblTempInactResource1.Text" xml:space="preserve">
+    <value>削除された</value>
+  </data>
+  <data name="lblVoidResource1.Text" xml:space="preserve">
+    <value>廃止済み</value>
+  </data>
+  <data name="lblWaitApproveResource1.Text" xml:space="preserve">
+    <value>審査待ちのドキュメント</value>
+  </data>
+  <data name="lbtnFlow2Resource1.Text" xml:space="preserve">
+    <value>流れ</value>
+  </data>
+  <data name="lbtnInfoResource1.Text" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>審査お願いを破棄</value>
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>s2</value>
+  </data>
+  <data name="TBarButtonResource1.Text" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="TBarButtonResource1.Value" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>否決</value>
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>書類コード</value>
+  </data>
+</root>

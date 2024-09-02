@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ALL.Text" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Attend" xml:space="preserve">
+    <value>參加</value>
+  </data>
+  <data name="bar2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bar3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Booking" xml:space="preserve">
+    <value>預約</value>
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>結束時間</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>召集人</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>結束時間</value>
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>地點</value>
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>人數</value>
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>徵詢截止時間</value>
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>徵詢截止時間</value>
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>地點</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>結束時間</value>
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>回覆人數</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>召集人</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>結束時間</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>地點</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>人數</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="btnViewMineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnViewMineResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnViewMineResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnViewMineResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnViewOtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnViewOtherResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="DisplayAsBusy" xml:space="preserve">
+    <value>忙碌</value>
+  </data>
+  <data name="DisplayAsInMeeting" xml:space="preserve">
+    <value>會議中</value>
+  </data>
+  <data name="DisplayAsOut" xml:space="preserve">
+    <value>不在辦公室</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>空閒</value>
+  </data>
+  <data name="grdMyInquiryResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdMyInquiryResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="grdMyInquiryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdMyInquiryResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdMyInquiryResource2.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="grdMyInquiryResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOtherInquiryResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOtherInquiryResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="grdOtherInquiryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOtherInquiryResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOtherInquiryResource2.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="grdOtherInquiryResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid5Resource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid5Resource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="Grid5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid5Resource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid5Resource2.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="Grid5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridOtherMeetingResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridOtherMeetingResource1.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="gridOtherMeetingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridOtherMeetingResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridOtherMeetingResource2.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="gridOtherMeetingResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridOtherMeetingResource3.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridOtherMeetingResource3.EmptyDataText" xml:space="preserve">
+    <value>沒有資料</value>
+  </data>
+  <data name="gridOtherMeetingResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCheckConnectionResource1.Text" xml:space="preserve">
+    <value>異動線上會議失敗。請檢查Meeting Server的連線資訊是否正確，包含位置、帳號及密碼！(請注意Meeting Server的帳號不能被停用)</value>
+  </data>
+  <data name="lblCheckConnectionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConveneResource1.Text" xml:space="preserve">
+    <value>已召開</value>
+  </data>
+  <data name="lblConveneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+	<data name="Label3Resource1.Text" xml:space="preserve">
+    <value>會議時間:</value>
+  </data>
+	<data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+	<data name="Label4Resource1.Text" xml:space="preserve">
+    <value>狀態:</value>
+  </data>
+	<data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteMeetingErrorResource1.Text" xml:space="preserve">
+    <value>刪除會議失敗!!</value>
+  </data>
+  <data name="lblDeleteMeetingErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJoinResource1.Text" xml:space="preserve">
+    <value>參加</value>
+  </data>
+  <data name="lblJoinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMeetingConnectionErrorResource1.Text" xml:space="preserve">
+    <value>呼叫WebService失敗。請檢查Meeting Server的連線資訊是否正確，包含位置、帳號及密碼！(請注意Meeting Server的帳號不能被停用)</value>
+  </data>
+  <data name="lblMeetingConnectionErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value>查詢</value>
+  </data>
+  <data name="btnSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMeetingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoConveneResource1.Text" xml:space="preserve">
+    <value>未召開</value>
+  </data>
+  <data name="lblNoConveneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoJoinResource1.Text" xml:space="preserve">
+    <value>不參加</value>
+  </data>
+  <data name="lblNoJoinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoReplyResource1.Text" xml:space="preserve">
+    <value>尚未回覆</value>
+  </data>
+  <data name="lblNoReplyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReplyInquiryResource1.Text" xml:space="preserve">
+    <value>回覆徵詢</value>
+  </data>
+  <data name="lblReplyInquiryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCreateUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbUserGuidResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Loaned" xml:space="preserve">
+    <value>已借出</value>
+  </data>
+  <data name="msgCancelconfirmResource1.Text" xml:space="preserve">
+    <value>確定要取消?</value>
+  </data>
+  <data name="msgCancelconfirmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgCancelconfirmResource2.Text" xml:space="preserve">
+    <value>確定要取消?</value>
+  </data>
+  <data name="msgCancelconfirmResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgExportResource1.Text" xml:space="preserve">
+    <value>請選擇要匯出的會議</value>
+  </data>
+  <data name="msgExportResource2.Text" xml:space="preserve">
+    <value>請選擇要匯出的會議</value>
+  </data>
+  <data name="msgExportResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NotAttend" xml:space="preserve">
+    <value>不參加</value>
+  </data>
+  <data name="NotReply" xml:space="preserve">
+    <value>尚未回覆</value>
+  </data>
+  <data name="NotYetBegin" xml:space="preserve">
+    <value>尚未開始</value>
+  </data>
+  <data name="Proceeding" xml:space="preserve">
+    <value>進行中</value>
+  </data>
+  <data name="Radpane10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPane16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radpane19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radpane1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radpane21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPane22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPane23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPane24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radpane25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radpane2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadPane5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadSplitbar1Resource1.AdjacentPanesNames.BottomPaneName" xml:space="preserve">
+    <value>bottom</value>
+  </data>
+  <data name="RadSplitbar1Resource1.AdjacentPanesNames.LeftPaneName" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="RadSplitbar1Resource1.AdjacentPanesNames.RightPaneName" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="RadSplitbar1Resource1.AdjacentPanesNames.TopPaneName" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="RadSplitbar1Resource1.CollapseExpandPaneText" xml:space="preserve">
+    <value>Collapse/expand the {0} pane</value>
+  </data>
+  <data name="RadSplitbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter90Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter91Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter92Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Radsplitter93Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Text" xml:space="preserve">
+    <value>被邀請</value>
+  </data>
+  <data name="RadTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource1.Value" xml:space="preserve">
+    <value>ShowOtherMeeting</value>
+  </data>
+  <data name="RadTabResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Text" xml:space="preserve">
+    <value>我召開</value>
+  </data>
+  <data name="RadTabResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource2.Value" xml:space="preserve">
+    <value>ShowMyMeeting</value>
+  </data>
+  <data name="RadTabResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Text" xml:space="preserve">
+    <value>被徵詢</value>
+  </data>
+  <data name="RadTabResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource3.Value" xml:space="preserve">
+    <value>ShowOtherInquiry</value>
+  </data>
+  <data name="RadTabResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.DisabledImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.HoveredImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.ImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.NavigateUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.SelectedImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Text" xml:space="preserve">
+    <value>徵詢</value>
+  </data>
+  <data name="RadTabResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabResource4.Value" xml:space="preserve">
+    <value>ShowMyInquiry</value>
+  </data>
+  <data name="RadToolBar2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>s2</value>
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value>匯出Excel</value>
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="RadToolBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Text" xml:space="preserve">
+    <value>新增徵詢</value>
+  </data>
+  <data name="RadToolBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Value" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="RadToolBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Text" xml:space="preserve">
+    <value>刪除徵詢</value>
+  </data>
+  <data name="RadToolBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Value" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>s2</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>s3</value>
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value>s4</value>
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>s1</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value>s2</value>
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value>新增會議</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value>新增週期會議</value>
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value>CreateMore</value>
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value>取消會議</value>
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>被拒絕</value>
+  </data>
+  <data name="Returned" xml:space="preserve">
+    <value>歸還</value>
+  </data>
+  <data name="rpm1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpv8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvShowMyInquiryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvShowMyMeetingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvShowOtherInquiryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rpvShowOtherMeetingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rts1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>主旨</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>主旨</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>主旨</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>主旨</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>主旨</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>召集人</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>會議狀態</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>主旨</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>會議狀態</value>
+  </data>
+  <data name="toolbarRmpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treeRmpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

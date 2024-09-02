@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetFirstPage" AllowAll="True" />
+  <Action Name="GetPersonalFolderList" AllowAll="True" />
+  <Action Name="GetBriefcaseSize" AllowAll="True" />
+  <Action Name="GetFileListByFolder" AllowAll="True" />
+  <Action Name="GetShareUserList" AllowAll="True" />
+  <Action Name="GetShareFolderList" AllowAll="True" />
+  <Action Name="CheckIsExistFolderName" AllowAll="True" />
+  <Action Name="CreateFolder" AllowAll="True" />
+  <Action Name="UpdateFolder" AllowAll="True" />
+  <Action Name="DeleteFolder" AllowAll="True" />
+  <Action Name="DeleteFile" AllowAll="True" />
+  <Action Name="GetFolderInfo" AllowAll="True" />
+  <Action Name="GetBriefcaseFilePermission" AllowAll="True" />
+  <Action Name="AddFile" AllowAll="True" />
+</Actions>

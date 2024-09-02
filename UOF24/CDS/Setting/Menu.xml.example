@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<Menus>
+  <menu id="Analysis">
+    <culture name="en-us">Statistic</culture>
+    <culture name="zh-tw">統計分析</culture>
+    <culture name="zh-cn">统计分析</culture>
+    <culture name="vi">Phân tích</culture>
+    <culture name="id">Analisa</culture>
+  </menu>
+</Menus>
+ 
+-->
+
+<Menus>
+  
+</Menus>

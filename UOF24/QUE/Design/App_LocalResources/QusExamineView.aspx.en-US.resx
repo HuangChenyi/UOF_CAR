@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Approval time</value>
+  </data>
+  <data name="cvDenyContentResource1.ErrorMessage" xml:space="preserve">
+    <value>Enter approval comments</value>
+  </data>
+  <data name="cvDenyContentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDenyContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Questionnaire member</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Basic setup</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Questionnaire Setup</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl15minResource1.Text" xml:space="preserve">
+    <value>15 minutes</value>
+  </data>
+  <data name="lbl15minResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1dayResource1.Text" xml:space="preserve">
+    <value>1day</value>
+  </data>
+  <data name="lbl1dayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1hrResource1.Text" xml:space="preserve">
+    <value>1hour</value>
+  </data>
+  <data name="lbl1hrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1weekResource1.Text" xml:space="preserve">
+    <value>1week</value>
+  </data>
+  <data name="lbl1weekResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2hrResource1.Text" xml:space="preserve">
+    <value>2 hours</value>
+  </data>
+  <data name="lbl2hrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl30minResource1.Text" xml:space="preserve">
+    <value>30 minutes</value>
+  </data>
+  <data name="lbl30minResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3dayResource1.Text" xml:space="preserve">
+    <value>3 days</value>
+  </data>
+  <data name="lbl3dayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowCopyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowCopyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowCopyTitleResource1.Text" xml:space="preserve">
+    <value>Allow copy to reuse</value>
+  </data>
+  <data name="lblAllowCopyTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowModifyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowModifyTitleResource1.Text" xml:space="preserve">
+    <value>Allow Modify/Delete</value>
+  </data>
+  <data name="lblAllowModifyTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowSaveTitleResource1.Text" xml:space="preserve">
+    <value>Allow save while filling up</value>
+  </data>
+  <data name="lblAllowSaveTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAnonymousResource1.Text" xml:space="preserve">
+    <value>anonymous</value>
+  </data>
+  <data name="lblAnonymousResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalResource1.Text" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="lblApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPStatusResource1.Text" xml:space="preserve">
+    <value>Approval in process</value>
+  </data>
+  <data name="lblAPStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBeforeStartResource1.Text" xml:space="preserve">
+    <value>Before start</value>
+  </data>
+  <data name="lblBeforeStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCatResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCatTitleResource1.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="lblCatTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCerateTimeTitleResource1.Text" xml:space="preserve">
+    <value>Time created</value>
+  </data>
+  <data name="lblCerateTimeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDenyResource1.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="lblDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesignerGuidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesignerGuidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesignerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesignerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesignerTitileResource1.Text" xml:space="preserve">
+    <value>Questionnaire issuer</value>
+  </data>
+  <data name="lblDesignerTitileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDSStatusResource1.Text" xml:space="preserve">
+    <value>Issuing</value>
+  </data>
+  <data name="lblDSStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExaminerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExaminerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpiredMsgResource1.Text" xml:space="preserve">
+    <value>You can only reject because the survey time is expired</value>
+  </data>
+  <data name="lblExpiredMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileTitleResource1.Text" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="lblFileTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInsertTargetUserMsgResource1.Text" xml:space="preserve">
+    <value>The survey has been enabled and will be put into the system schedule.</value>
+  </data>
+  <data name="lblisExamineResource1.Text" xml:space="preserve">
+    <value>The Survey is approved</value>
+  </data>
+  <data name="lblisExamineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLinkNameResource1.Text" xml:space="preserve">
+    <value>Click here to fill in questionnaire.</value>
+  </data>
+  <data name="lblLinkNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMemoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMemoTitleResource1.Text" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="lblMemoTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifyTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifyTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModifyTimeTitleResource1.Text" xml:space="preserve">
+    <value>Time of last modification </value>
+  </data>
+  <data name="lblModifyTimeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameTitleResource1.Text" xml:space="preserve">
+    <value>Survey</value>
+  </data>
+  <data name="lblNameTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAnonymousResource1.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="lblNoAnonymousResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoNoticeResource1.Text" xml:space="preserve">
+    <value>No Notice</value>
+  </data>
+  <data name="lblNoNoticeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoPublishResource1.Text" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="lblNoPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoResource1.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lblNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotExaminerResource1.Text" xml:space="preserve">
+    <value>You are not the approver, Survey link is invalid !</value>
+  </data>
+  <data name="lblNotExaminerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoticeAtOnceResource1.Text" xml:space="preserve">
+    <value>Immediate(Survey members will receive notice about 5 minutes after the survey is enabled)</value>
+  </data>
+  <data name="lblNoticeAtOnceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoticeSurveyStartResource1.Text" xml:space="preserve">
+    <value>Notify of Survey Time started</value>
+  </data>
+  <data name="lblNoticeSurveyStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPLStatusResource1.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="lblPLStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishResource1.Text" xml:space="preserve">
+    <value>Public</value>
+  </data>
+  <data name="lblPublishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRegisteredTitleResource1.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lblRegisteredTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRegistseredResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRegistseredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatSubmitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatSubmitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatSubmitTitleResource1.Text" xml:space="preserve">
+    <value>Allow to fill in many times</value>
+  </data>
+  <data name="lblRepeatSubmitTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendMessageTitleResource1.Text" xml:space="preserve">
+    <value>Send Notice of Survey</value>
+  </data>
+  <data name="lblSendMessageTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSetSendUsersResource1.Text" xml:space="preserve">
+    <value>Only allow to Reject the Survey because the Survey member is blank</value>
+  </data>
+  <data name="lblSetSendUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateTitleResource1.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblStateTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsExpiredResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsExpiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsExpiredTitleResource1.Text" xml:space="preserve">
+    <value>Statistical results off shelf date</value>
+  </data>
+  <data name="lblStatisticsExpiredTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsPulishResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsPulishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsPulishTitleResource1.Text" xml:space="preserve">
+    <value>Statistical result release time</value>
+  </data>
+  <data name="lblStatisticsPulishTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticsTitleResource1.Text" xml:space="preserve">
+    <value>Statistical result</value>
+  </data>
+  <data name="lblStatisticsTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeTitleResource1.Text" xml:space="preserve">
+    <value>Questionnaire time</value>
+  </data>
+  <data name="lblTimeTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeekResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYesResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="lblYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="logGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="logGridResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="logGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Survey Approval</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="txtExamineContentResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExamineContentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

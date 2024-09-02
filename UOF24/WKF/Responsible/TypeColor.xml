@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+  <type name="ViewForm" Color="#898951" />
+  <type name="ViewFlow" Color="#CC3333" />
+  <type name="PrintForm" Color="#336699" />
+  <type name="CancelForm" Color="#22AA99" />
+  <type name="EndForm" Color="#66AA00" />
+  <type name="ReturnForm" Color="#8C6D8C" />
+  <type name="unLockForm" Color="#DD5511" />
+  <type name="AssignNextSinger" Color="#DD4477" />
+  <type name="AssignSinger" Color="#B08B59" />
+  <type name="HurryForm" Color="#006600" />
+  <type name="ChangeResult" Color="#6600FF" />
+</Types>
+
+<!--ViewForm：觀看表單-->
+<!--ViewFlow：觀看流程-->
+<!--PrintForm：列印-->
+<!--CancelForm：作廢-->
+<!--EndForm：強制結案-->
+<!--ReturnForm：回覆為未結案狀態-->
+<!--unLuckForm：解除鎖定-->
+<!--AssignNextSinger：指定下一站簽核者(異常)-->
+<!--AssignSinger：指定簽核-->
+<!--HurryForm：跟催-->
+<!--ChangeResult：變更審核結果-->

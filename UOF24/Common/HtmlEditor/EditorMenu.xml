@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--<tools name="剪貼簿" tab="常用">
+        <tool name="PasteStrip" size="large"/>
+        <tool name="Cut" size="medium"/>
+        <tool name="Copy" size="medium" shortcut="CTRL+C"/>        
+    </tools>-->
+  <tools name="Font">
+    <tool name="Bold" strip="FontBasicTools" shortcut="CTRL+B"/>
+    <tool name="Italic" strip="FontBasicTools" shortcut="CTRL+I"/>
+    <tool name="Underline" strip="FontBasicTools" shortcut="CTRL+U"/>
+    <tool name="StrikeThrough" strip="FontBasicTools1"/>
+    <tool name="Superscript" strip="FontBasicTools1"/>
+    <tool name="Subscript" strip="FontBasicTools1"/>
+    <tool name="ForeColor"/>
+    <tool name="BackColor"/>
+    <tool name="FontName" shortcut="CTRL+SHIFT+F"/>
+    <tool name="FontSize" shortcut="CTRL+SHIFT+P"/>
+  </tools>
+  <tools name="Edit">
+    <tool name="Cut"/>
+    <tool name="Copy"/>
+    <tool name="Paste"/>
+    <tool name="Undo" shortcut="CTRL+Z"/>
+    <tool name="Redo" shortcut="CTRL+Y"/>
+    <!--<tool name="PasteHtml"/>-->
+    <tool name="PasteFromWord"/>
+    <tool name="PasteFromWordNoFontsNoSizes"/>
+  </tools>
+  <tools name="Style">
+    <tool name="InsertUnorderedList" strip="ListsAndIndention"/>
+    <tool name="InsertOrderedList" strip="ListsAndIndention"/>
+    <tool name="Indent" strip="ListsAndIndention"/>
+    <tool name="Outdent" strip="ListsAndIndention"/>
+    <tool name="InsertParagraph" strip="ListsAndIndention"/>
+    <tool name="JustifyLeft" strip="Align"/>
+    <tool name="JustifyCenter" strip="Align"/>
+    <tool name="JustifyRight" strip="Align"/>
+    <tool name="JustifyFull" strip="Align"/>
+    <tool name="JustifyNone" strip="Align"/>
+  </tools>
+  <tools name="Table">
+    <!--<tool name="InsertTableLight" size="large"/>-->
+    <tool name="InsertTable" />
+    <!--<tool name="ToggleTableBorder"/>-->
+  </tools>
+  <tools name="Media">
+    <!--<tool name="InsertImage" size="large" shortcut="CTRL+G"/>-->
+    <tool name="InsertExternalVideo"/>
+  </tools>
+  <tools name="Link">
+    <tool name="InsertLink" size="large" shortcut="CTRL+K"/>
+    <tool name="Unlink" strip="LinksStrip" shortcut="CTRL+SHIFT+K"/>
+  </tools>
+  <tools name="Content">
+    <tool name="InsertSymbol"/>
+    <tool name="InsertGroupbox" />
+    <tool name="InsertHorizontalRule" />
+    <tool name="InsertDate" />
+    <tool name="InsertTime" />
+    <tool name="FindAndReplace" shortcut="CTRL+F"/>
+    <tool name="SelectAll" shortcut="CTRL+A"/>
+  </tools>
+</root>

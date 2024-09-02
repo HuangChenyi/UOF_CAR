@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chk_PDFResource1.Text" xml:space="preserve">
+    <value>在欄位裡直接預覽</value>
+  </data>
+  <data name="chk_PDFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>請選取角色</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>請選取角色</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorFieldIdResource1.ErrorMessage" xml:space="preserve">
+    <value>同一表單版本的欄位代號不得重複</value>
+  </data>
+  <data name="CustomValidatorFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorModifyFieldTypeResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorModifyFieldTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorModifyFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_FieldModifyResource1.Text" xml:space="preserve">
+    <value>修改權限</value>
+  </data>
+  <data name="lbl_FieldModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContentControlResource1.Text" xml:space="preserve">
+    <value>內容控制</value>
+  </data>
+  <data name="lblContentControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayHeightResource1.Text" xml:space="preserve">
+    <value>顯示高度：</value>
+  </data>
+  <data name="lblDisplayHeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayLengthNotifyRecource1.Text" xml:space="preserve">
+    <value>(表單顯示的限制長度，設零由系統自行調整)</value>
+  </data>
+  <data name="lblDisplayLengthNotifyRecource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayLengthRecource1.Text" xml:space="preserve">
+    <value>顯示寬度</value>
+  </data>
+  <data name="lblDisplayLengthRecource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayWidthResource1.Text" xml:space="preserve">
+    <value>預覽大小：</value>
+  </data>
+  <data name="lblDisplayWidthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldControlResource1.Text" xml:space="preserve">
+    <value>欄位控制</value>
+  </data>
+  <data name="lblFieldControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldIdResource1.Text" xml:space="preserve">
+    <value>欄位代號</value>
+  </data>
+  <data name="lblFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldNameResource1.Text" xml:space="preserve">
+    <value>欄位名稱</value>
+  </data>
+  <data name="lblFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldRemarkResource1.Text" xml:space="preserve">
+    <value>欄位備註</value>
+  </data>
+  <data name="lblFieldRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSeqResource1.Text" xml:space="preserve">
+    <value>欄位順序</value>
+  </data>
+  <data name="lblFieldSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldTypeResource1.Text" xml:space="preserve">
+    <value>欄位格式</value>
+  </data>
+  <data name="lblFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileButtonDescResource1.Text" xml:space="preserve">
+    <value>(只有單選檔案)</value>
+  </data>
+  <data name="lblFileButtonDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileButtonResource1.Text" xml:space="preserve">
+    <value>檔案選取欄位</value>
+  </data>
+  <data name="lblFileButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeqResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>單行文字欄位</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>singleLineText</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>明細欄位</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>dataGrid</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>超連結</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>hyperLink</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>自動編號</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>autoNumber</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>表單計算欄位</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>calculateText</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>申請者</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>userProposer</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>申請者部門</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>userDept</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>申請者職級</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>userRank</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>所有部門</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>allDept</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>所有職級</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>allRank</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>所有職務</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>allFunction</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>多行文字欄位</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>multiLineText</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>所有人員</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>allUser</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>數值欄位</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>numberText</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>檔案選取欄位</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>fileButton</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>日期欄位</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>dateSelect</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>時間欄位</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>timeSelect</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>核選方塊</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>checkBox</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>單選鈕</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>radioButton</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>下拉式選單</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>dropDownList</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>新增欄位</value>
+  </data>
+  <data name="rbNoRankResource1.Text" xml:space="preserve">
+    <value>某角色必須輸入</value>
+  </data>
+  <data name="rbNoRankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNoResource1.Text" xml:space="preserve">
+    <value>申請者一定要輸入</value>
+  </data>
+  <data name="rbNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbYesRankResource1.Text" xml:space="preserve">
+    <value>某角色才可輸入</value>
+  </data>
+  <data name="rbYesRankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbYesResource1.Text" xml:space="preserve">
+    <value>申請者可不輸入</value>
+  </data>
+  <data name="rbYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>輸入內容只允許英文或數字</value>
+  </data>
+  <data name="RegularExpressionValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入欄位代號</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入欄位名稱</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxDisplayHeightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxDisplayWidthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldRemarkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebNumericEditFieldSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebNumericViewLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxDisplayFieldNameResource1.Text" xml:space="preserve">
+    <value>顯示欄位名稱</value>
+  </data>
+  <data name="lblDispalyFieldNameResource1.Text" xml:space="preserve">
+    <value>欄位顯示</value>
+  </data>
+  <data name="lblRestrict1Resource1.Text" xml:space="preserve">
+    <value>1.支援文件格式：doc, docx, txt, ppt, pptx, xls, xlsx, jpg, png, bmp, gif, pdf。</value>
+  </data>
+  <data name="lblRestrict1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrict2Resource1.Text" xml:space="preserve">
+    <value>2.文字檔(.txt)不能超過2MB，超過不會進行轉檔。</value>
+  </data>
+  <data name="lblRestrict2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrict3Resource1.Text" xml:space="preserve">
+    <value>3.圖形檔的長寬不能超過2048px，超過會進行等比例縮小。</value>
+  </data>
+  <data name="lblRestrict3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrict4Resource1.Text" xml:space="preserve">
+    <value>4.有設保全的檔案，不會進行轉檔。</value>
+  </data>
+  <data name="lblRestrict4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrict5Resource1.Text" xml:space="preserve">
+    <value>5.最多可上傳十個檔案。</value>
+  </data>
+  <data name="lblRestrict5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrict6Resource1.Text" xml:space="preserve">
+    <value>6.若未啟用DCS，只能預覽PDF檔。</value>
+  </data>
+  <data name="lblRestrict6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictsResource1.Text" xml:space="preserve">
+    <value>【使用限制】</value>
+  </data>
+  <data name="lblRestrictsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbViewerSizeA4hResource1.Text" xml:space="preserve">
+    <value>A4橫式</value>
+  </data>
+  <data name="rbViewerSizeA4vResource1.Text" xml:space="preserve">
+    <value>A4直式</value>
+  </data>
+  <data name="rbViewerSizeCusResource1.Text" xml:space="preserve">
+    <value>符合螢幕寬度</value>
+  </data>
+  <data name="lblMemoResource1.Text" xml:space="preserve">
+    <value>(若未購買文件轉檔服務時，只能預覽PDF檔案)</value>
+  </data>
+  <data name="lblDownloadControlResource1.Text" xml:space="preserve">
+    <value>下載控制：</value>
+  </data>
+  <data name="btnSettingResource1.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblWatermarkControlResource1.Text" xml:space="preserve">
+    <value>浮水印設定：</value>
+  </data>
+  <data name="lblWatermarkMemoResource1.Text" xml:space="preserve">
+    <value>(先儲存欄位才可設定浮水印)</value>
+  </data>
+  <data name="lblVisibleResource1.Text" xml:space="preserve">
+    <value>觀看權限控制</value>
+  </data>
+  <data name="cbThumbnailResource1.Text" xml:space="preserve">
+    <value>在欄位裡直接顯示縮圖</value>
+  </data>
+  <data name="lblThumbnailRestrict2Resource1.Text" xml:space="preserve">
+    <value>2.只能上傳一個檔案。</value>
+  </data>
+  <data name="lblFileRestrictResource1.Text" xml:space="preserve">
+    <value>檔案限制：</value>
+  </data>
+  <data name="rbMaxTenResource1.Text" xml:space="preserve">
+    <value>允許上傳十個檔案</value>
+  </data>
+  <data name="rbOnlyOneResource1.Text" xml:space="preserve">
+    <value>只可上傳一個檔案</value>
+  </data>
+  <data name="cbEnableDownloadResource1.Text" xml:space="preserve">
+    <value>可下載原始檔</value>
+  </data>
+  <data name="rbDownloadAllResource1.Text" xml:space="preserve">
+    <value>不限制</value>
+  </data>
+  <data name="rbDownloadSpecResource1.Text" xml:space="preserve">
+    <value>允許以下人員</value>
+  </data>
+  <data name="cbFillerResource1.Text" xml:space="preserve">
+    <value>填寫者</value>
+  </data>
+  <data name="cbOthersResource1.Text" xml:space="preserve">
+    <value>其他人員</value>
+  </data>
+  <data name="cbEnableSaveResource1.Text" xml:space="preserve">
+    <value>可另存預覽檔案</value>
+  </data>
+  <data name="rbSaveAllResource1.Text" xml:space="preserve">
+    <value>不限制</value>
+  </data>
+  <data name="rbSaveSpecResource1.Text" xml:space="preserve">
+    <value>允許以下人員</value>
+  </data>
+  <data name="cvSaveSpecResource1.ErrorMessage" xml:space="preserve">
+    <value>請選擇人員</value>
+  </data>
+  <data name="lblAttachLoadLimitResource1.Text" xml:space="preserve">
+    <value>單一附件上限</value>
+  </data>
+  <data name="lblAttachLoadLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAttachLoadLimitTipResource1.Text" xml:space="preserve">
+    <value>MB (1~2000MB，空白表示不限制檔案大小)</value>
+  </data>
+  <data name="lblAttachLoadLimitTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntAttachLoadLimitResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rntAttachLoadLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopiedResource1.Text" xml:space="preserve">
+    <value>已成功複製</value>
+  </data>
+</root>

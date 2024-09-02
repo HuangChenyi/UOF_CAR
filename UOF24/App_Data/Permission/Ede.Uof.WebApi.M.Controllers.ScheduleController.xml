@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False" >
+  <Action Name="GetMonthlyList" AllowAll="True" />
+  <Action Name="GetDayList" AllowAll="True" />
+  <Action Name="GetScheduleList" AllowAll="True" />  
+  <Action Name="GetWork" AllowAll="True" />
+  <Action Name="GetMemo" AllowAll="True" />
+  <Action Name="GetHoliday" AllowAll="True" />
+  <Action Name="GetMeeting" AllowAll="True" />
+  <Action Name="GetCompanyEvent" AllowAll="True" />
+  <Action Name="GetCompanyHoliday" AllowAll="True" />
+  <Action Name="GetBorrow" AllowAll="True" />
+  <Action Name="UpdateHoliday" AllowAll="True" />
+  <Action Name="UpdateMemo" AllowAll="True" />
+  <Action Name="DeleteHoliday" AllowAll="True" />
+  <Action Name="DeleteMemo" AllowAll="True" />
+  <Action Name="GetDevolveList" AllowAll="True" />
+  <Action Name="GetWorkList" AllowAll="True" />
+  <Action Name="CreateWork" AllowAll="True" />
+  <Action Name="UpdateWork" AllowAll="True" />
+  <Action Name="ReportWorkRecord" AllowAll="True" />
+  <Action Name="DeleteWork" AllowAll="True" />
+  <Action Name="CreateDevolve" AllowAll="True" />
+  <Action Name="CreateMemo" AllowAll="True" />
+  <Action Name="UpdateDevolve" AllowAll="True" />
+  <Action Name="DeleteDevolve" AllowAll="True" />
+  <Action Name="GetDevolve" AllowAll="True" />
+  <Action Name="AuditDevolve" AllowAll="True" />  
+</Actions>

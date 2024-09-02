@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetSignSelfForm" AllowAll="True" />
+  <Action Name="TrackForm" AllowAll="True" />
+  <Action Name="GetNotifyForm" AllowAll="True" />
+  <Action Name="ApplyForm" AllowAll="True" />
+  <Action Name="ScriptForm" AllowAll="True" />
+  <Action Name="DeleteScriptForm" AllowAll="True" />
+  <Action Name="GetCheckHasScriptForm" AllowAll="True" />
+</Actions>

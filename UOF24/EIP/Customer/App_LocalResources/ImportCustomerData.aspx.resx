@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cvMessageResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>選擇上傳EXCEL檔案</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbbreviationMsgResource1.Text" xml:space="preserve">
+    <value>客戶簡稱為</value>
+  </data>
+  <data name="lblAbbreviationMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblColumnFormatErrorResource1.Text" xml:space="preserve">
+    <value>匯入的檔案欄位不符合</value>
+  </data>
+  <data name="lblColumnFormatErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactDataMsgResource1.Text" xml:space="preserve">
+    <value>聯絡人資料第{0}筆</value>
+  </data>
+  <data name="lblContactDataMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustDataMsgResource1.Text" xml:space="preserve">
+    <value>客戶資料第{0}筆</value>
+  </data>
+  <data name="lblCustDataMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustMsgResource1.Text" xml:space="preserve">
+    <value>客戶代號為</value>
+  </data>
+  <data name="lblCustMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCustNameMsgResource1.Text" xml:space="preserve">
+    <value>客戶名稱為</value>
+  </data>
+  <data name="lblCustNameMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDownFailResource1.Text" xml:space="preserve">
+    <value>下載EXCEL範例檔案失敗</value>
+  </data>
+  <data name="lblDownFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelFormatErrorResource1.Text" xml:space="preserve">
+    <value>匯入的檔案格式錯誤</value>
+  </data>
+  <data name="lblExcelFormatErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelResource1.Text" xml:space="preserve">
+    <value>請選擇一個正確的EXCEL文件</value>
+  </data>
+  <data name="lblExcelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistResource1.Text" xml:space="preserve">
+    <value>已存在資料庫</value>
+  </data>
+  <data name="lblExistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImportDataSuccessResource1.Text" xml:space="preserve">
+    <value>匯入資料成功</value>
+  </data>
+  <data name="lblImportDataSuccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImportFailResource1.Text" xml:space="preserve">
+    <value>匯入客戶資料失敗</value>
+  </data>
+  <data name="lblImportFailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsg1Resource1.Text" xml:space="preserve">
+    <value>有*號欄位為必輸欄位, 不能為空值</value>
+  </data>
+  <data name="lblMsg1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsg2Resource1.Text" xml:space="preserve">
+    <value>性別欄位必須輸入F或M</value>
+  </data>
+  <data name="lblMsg2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgResource1.Text" xml:space="preserve">
+    <value>EXCEL資料重複，客戶代號 :</value>
+  </data>
+  <data name="lblMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectMsgResource1.Text" xml:space="preserve">
+    <value>請選擇上傳的EXCEL檔案</value>
+  </data>
+  <data name="lblSelectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnDownUSResource1.Text" xml:space="preserve">
+    <value>下載EXCEL範例檔案</value>
+  </data>
+  <data name="lbtnDownUSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>匯入客戶資料</value>
+  </data>
+  <data name="ValidationSummary1Resource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationSummary1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsg3Resource1.Text" xml:space="preserve">
+    <value>客戶代號並不存在在客戶資料中</value>
+  </data>
+  <data name="lbtnDownCHSResource1.Text" xml:space="preserve">
+    <value>下載EXCEL範例檔案</value>
+  </data>
+  <data name="lbtnDownCHSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnDownCHTResource1.Text" xml:space="preserve">
+    <value>下載EXCEL範例檔案</value>
+  </data>
+  <data name="lbtnDownCHTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailFormatErrorResource1.Text" xml:space="preserve">
+    <value>Email格式不正確</value>
+  </data>
+  <data name="lblOtherErrorResource1.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="lblFileNotParseResource1.Text" xml:space="preserve">
+    <value>匯入的檔案無法解析</value>
+  </data>
+</root>

@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<node id="Homepage">
+  <path>/WEB/Homepage.aspx</path>
+</node>
+
+id: 填寫 App_GlobalResources/Menu.resx 內的 key 值, 請依順序填寫, 並以'/'符號作區隔
+    ex.Homepage/System/OrganizationEmployee
+    
+path: 填寫相對應的 URL , 可填寫多個
+      ex./System/Organization/Member/Default.aspx
+      ex./System/Organization/Member/Modify.aspx
+      ex./System/Organization/Member/
+
+-->
+<sitemap>
+  <!--我的首頁-->
+  <node id="Homepage">
+    <path>/Homepage.aspx</path>
+    <path>/Homepage2.aspx</path>
+  </node>
+
+  <!--我的首頁>個人設定-->
+  <node id="Homepage/PersonalInformation">
+    <path>/Basic/Personal/Information/</path>
+  </node>
+
+  <!--我的首頁>私人訊息-->
+  <node id="Homepage/PrivateMessage">
+    <path>/Basic/Personal/PrivateMessage/</path>
+  </node>
+
+  <!--我的首頁>行事曆-->
+  <node id="Homepage/Calendar">
+    <path>/EIP/Calendar/</path>
+  </node>
+
+  <!--我的首頁>公事包-->
+  <node id="Homepage/Briefcase">
+    <path>/EIP/Personal/Briefcase/</path>
+  </node>
+
+  <!--我的首頁>通訊錄-->
+  <node id="Homepage/AddressBook">
+    <path>/Basic/Personal/AddressBook/</path>
+  </node>
+
+  <!--我的首頁>站內搜尋 -->
+  <node id="Homepage/SiteSearch">
+    <path>/Common/GlobalSearch.aspx</path>
+  </node>
+
+  <!--我的首頁>(我的自訂選單網頁) -->
+  <node id="Homepage">
+    <path>/System/CustomMenu/LinkUrl.aspx</path>
+  </node>
+
+  <!--我的首頁>(我的自訂選單網頁) -->
+  <node id="Homepage">
+    <path>/System/CustomMenu/PreviewHtmlContent.aspx</path>
+  </node>
+
+  <!--系統管理-->
+
+  <!--我的首頁>系統管理>組織維護>內部員工維護-->
+  <node id="Homepage/System/Organization/OrganizationEmployee">
+    <path>/System/Organization/Employee/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>外部員工維護-->
+  <node id="Homepage/System/Organization/OrganizationMember">
+    <path>/System/Organization/Member/Default.aspx</path>
+    <path>/System/Organization/Member/</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>部門人員管理-->
+  <node id="Homepage/System/Organization/OrganizationHeirarchical">
+    <path>/System/Organization/Employee/Hierarchical.aspx</path>
+    <path>/System/Organization/Employee/</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>人員欄位維護-->
+  <node id="Homepage/System/Organization/OrganizationUserColumn">
+    <path>/System/Config/UserColumn.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>基礎資料維護-->
+  <node id="Homepage/System/Organization/OrganizationBaseData">
+    <path>/System/Organization/BaseData/Default.aspx</path>
+    <path>/System/Organization/BaseData/</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>人員證照維護 -->
+  <node id="Homepage/System/Organization/EmployeeLicenseMaintain">
+    <path>/System/Organization/Employee/HR/MaintainLicenseType.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>設定部門管理人員 -->
+  <node id="Homepage/System/Organization/OrganizationHeirarchicalSet">
+    <path>/System/SetRoleAdmin/SetHierarchical.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>設定外部群組維護權限 -->
+  <node id="Homepage/System/Organization/OrganizationMemberGroupAuth">
+    <path>/System/Organization/Member/SetMemberAuthorityDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>外部會員人員管理 -->
+  <node id="Homepage/System/Organization/OrganizationMemberManagerment">
+    <path>/System/Organization/Member/MemberManagermentDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>授權管理>集團選單 -->
+  <node id="Homepage/System/SystemAuthorize/SystemMultiSitesMenu">
+    <path>/System/MulitSitesMenu/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>成本中心維護 -->
+  <node id="Homepage/System/Organization/OrganizationCostCenter">
+    <path>/EIP/CostCenter/CostCenterDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>辦公地點與時區設定 -->
+  <node id="Homepage/System/Organization/LocationTimeZone">
+    <path>/System/LocationTimeZone/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>停用人員管理-->
+  <node id="Homepage/System/Organization/OrganizationExpSusDefault">
+    <path>/System/Organization/Employee/ExpSusDefault.aspx</path>
+    <path>/System/Organization/Employee/</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>批次設定代理人 -->
+  <node id="Homepage/System/Organization/DutyAgentSetting">
+    <path>/EIP/Duty/Agent/AgentSettingDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>部門LOGO圖示維護-->
+  <node id="Homepage/System/Organization/LogoSetting">
+    <path>/System/Organization/Department/LogoSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>組織維護>維護部門代碼	-->
+  <node id="Homepage/System/Organization/104HRDeptCodeMaintain">
+    <path>/HR104/SyncHR/DeptCodeMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>登入IP設定 -->
+  <node id="Homepage/System/SystemConfigration/IPRangeDefault">
+    <path>/System/IPRange/IPRangeDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>其他管理>人員角色權限查詢 -->
+  <node id="Homepage/System/Others/QueryRoleAuth">
+    <path>/System/Organization/Auth/QueryRoleAuthDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>其他管理>部門異動記錄 -->
+  <node id="Homepage/System/Others/GroupHistory">
+    <path>/System/Organization/Department/History/DeptHistoryDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>其他管理>租用空間使用狀況 -->
+  <node id="Homepage/System/Others/SpaceLend">
+    <path>/System/SpaceLend/SpaceLend.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>其他管理>大數據部門維護-->
+  <node id="Homepage/System/Others/VirtualDeptSettingDefault">
+    <path>/Basic/Analysis/VirtualDeptSettingDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>自訂登入頁面 -->
+  <node id="Homepage/System/SystemConfigration/LoginImgSetting">
+    <path>/System/Config/LoginImageSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>管理員設定-->
+  <node id="Homepage/System/SystemConfigration/ManagerSetting">
+    <path>/System/SetRoleAdmin/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>一般組態設定 -->
+  <node id="Homepage/System/SystemConfigration/SystemConfigrationSetting">
+    <path>/System/Config/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>系統組態設定 -->
+  <node id="Homepage/System/SystemConfigration/SystemLogViewer">
+    <path>/System/LogViewer/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>AD設定 -->
+  <node id="Homepage/System/SystemConfigration/SystemADConfig">
+    <path>/System/AD/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>登入記錄管理 -->
+  <node id="Homepage/System/SystemConfigration/SystemLoginLogManage">
+    <path>/System/LoginLog/Default.aspx</path>
+    <path>/System/LoginLog/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>首頁面版管理 -->
+  <node id="Homepage/System/SystemConfigration/SystemCustomPageRule">
+    <path>/System/CustomPageRule/Default.aspx</path>
+    <path>/System/CustomPageRule/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>系統排程管理 -->
+  <node id="Homepage/System/SystemConfigration/SystemTaskManager">
+    <path>/System/Task/Default.aspx</path>
+    <path>/System/Task/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>企業面板設定 -->
+  <node id="Homepage/System/SystemConfigration/SystemZoneSetting">
+    <path>/System/SysZone/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>外部企業面板設定 -->
+  <node id="Homepage/System/SystemConfigration/SystemMemberZoneSetting">
+    <path>/System/SysZone/MemberDefault.aspx</path>
+    <path>/System/SysZone/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>自訂選單 -->
+  <node id="Homepage/System/SystemConfigration/SystemCustomMenu">
+    <path>/System/CustomMenu/</path>
+  </node>
+
+  <!--我的首頁>系統管理>系統組態>行動裝置選單設定 -->
+  <node id="Homepage/System/SystemConfigration/SystemMobileMenuSetting">
+    <path>/System/MobileMenu/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>行動裝置>行動裝置選單設定 -->
+  <node id="Homepage/System/SystemMobile/SystemMNextMenuSetting">
+    <path>/System/MNextMenu/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>行動裝置>行動裝置活動看板 -->
+  <node id="Homepage/System/SystemMobile/AppEventsboard">
+    <path>/System/MNextMenu/EventsboardDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>行動裝置>行動裝置活動看板 -->
+  <node id="Homepage/System/SystemMobile/DeviceInfo">
+    <path>/System/MNextMenu/DeviceInfoDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>授權管理>線上使用者管理 -->
+  <node id="Homepage/System/SystemAuthorize/SystemOnlineUser">
+    <path>/System/OnlineUser/</path>
+  </node>
+
+  <!--我的首頁>系統管理>授權管理>授權資訊 -->
+  <node id="Homepage/System/SystemAuthorize/SystemAuthorizationInfo">
+    <path>/System/Authorization/</path>
+  </node>
+
+  <!--我的首頁>系統管理>行動裝置>行動裝置自訂選單面板 -->
+  <node id="Homepage/System/SystemMobile/CustomMenuM">
+    <path>/System/CustomMenuM/</path>
+  </node>
+
+  <!--我的首頁>系統管理>網路電話>內部帳號登錄 -->
+  <node id="Homepage/System/WebPhone/WebPhoneAccountSetting">
+    <path>/EIP/WebPhone/SIPAccountSet.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>同步作業>人員組織同步-->
+  <node id="Homepage/System/104HRSystemSync/104HRSyncDefault">
+    <path>/HR104/SyncHR/SyncHRDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>系統管理>其它>關於我 -->
+  <node id="Homepage/System/Others/AboutCompany">
+    <path>/EIP/AboutCompany.htm</path>
+  </node>
+
+  <!--入口網站-->
+
+  <!--我的首頁>入口網站>公告>公告-->
+  <node id="Homepage/Portal/Bulletin/BrowseBulletin">
+    <path>/EIP/Bulletin/</path>
+  </node>
+
+  <!--我的首頁>入口網站>公告>瀏覽公告記錄-->
+  <node id="Homepage/Portal/Bulletin/UserReadBulletin">
+    <path>/EIP/Bulletin/UserReadBulletin.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>公告>發佈審核-->
+  <node id="Homepage/Portal/Bulletin/BulletinExamine">
+    <path>/EIP/Bulletin/BulletinExamine.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>討論區>討論區設定-->
+  <node id="Homepage/Portal/Forum/BoardSetting">
+    <path>/EIP/Forum/BoardSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>討論區>精華區設定-->
+  <node id="Homepage/Portal/Forum/ForumEssenceSetting">
+    <path>/EIP/Forum/EssenceSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>討論區>瀏覽討論區-->
+  <node id="Homepage/Portal/Forum/ForumBrowseArticle">
+    <path>/EIP/Forum/</path>
+  </node>
+
+  <!--我的首頁>入口網站>場地設備管理>借用管理-->
+  <node id="Homepage/Portal/Plant/BorrowManagement">
+    <path>/EIP/Plant/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>場地設備管理>設備管理-->
+  <node id="Homepage/Portal/Plant/PlantManagement">
+    <path>/EIP/Plant/PlantManagement.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>場地設備管理>借用記錄-->
+  <node id="Homepage/Portal/Plant/BorwseBorrowRecord">
+    <path>/EIP/Plant/BorrowRecord.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>場地設備管理>場地內配備主檔維護-->
+  <node id="Homepage/Portal/Plant/PlantEquipmentManage">
+    <path>/EIP/Plant/EquipManagement.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>場地設備管理>場地借用-->
+  <node id="Homepage/Portal/Plant/BorrowField">
+    <path>/EIP/Plant/BorrowField.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>問卷調查>權限設定 -->
+  <node id="Homepage/Portal/QUE/QUEAuthority">
+    <path>/QUE/Design/AuthoritySetting.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>問卷調查>填寫人屬性維護 -->
+  <node id="Homepage/Portal/QUE/QUEProperty">
+    <path>/QUE/Design/QusProperty.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>問卷調查>問卷維護 -->
+  <node id="Homepage/Portal/QUE/QUEDesignFunc">
+    <path>/QUE/Design/QusDesign.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>問卷調查>個人問卷清單 -->
+  <node id="Homepage/Portal/QUE/QUEFillOut">
+    <path>/QUE/FillOut/PersonalQusList.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>問卷調查>問卷統計 -->
+  <node id="Homepage/Portal/QUE/QUEReport">
+    <path>/QUE/FillOut/QusStatistics.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>問卷調查>發佈審核 -->
+  <node id="Homepage/Portal/QUE/QUEExamine">
+    <path>/QUE/Design/QusExamine.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>相簿影音>影音維護 -->
+  <node id="Homepage/Portal/OMS/OnlineLookMA">
+    <path>/EIP/OMS/OnlineLookMA.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>相簿影音>觀看>影音專區 -->
+  <node id="Homepage/Portal/OMS/QueryOnlineLook">
+    <path>/EIP/OMS/QueryOnlineLook.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>相簿影音>觀看>相簿專區 -->
+  <node id="Homepage/Portal/OMS/AlbumView">
+    <path>/EIP/Album/User/Default.aspx</path>
+    <path>/EIP/Album/User/BrowePhoto.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>相簿影音>管理>相簿維護 -->
+  <node id="Homepage/Portal/OMS/AlbumMaintain">
+    <path>/EIP/Album/Admin/Default.aspx</path>
+    <path>/EIP/Album/Admin/BrowePhoto.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>簡訊服務>簡訊發送 -->
+  <node id="Homepage/Portal/SMSService/SMSSend">
+    <path>/EIP/SMS/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>簡訊服務>簡訊管理 -->
+  <node id="Homepage/Portal/SMSService/SMSConfig">
+    <path>/EIP/SMS/SMSConfig.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>簡訊服務>簡訊查詢 -->
+  <node id="Homepage/Portal/SMSService/SMSQuery">
+    <path>/EIP/SMS/QueryMessage.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>簡訊服務>生日簡訊 -->
+  <node id="Homepage/Portal/SMSService/SMSBirthdaySend">
+    <path>/EIP/SMS/SendBirthdayDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其它管理>投票管理-->
+  <node id="Homepage/Portal/OthersManage/Polling">
+    <path>/EIP/Polling/</path>
+  </node>
+
+  <!--我的首頁>入口網站>其它管理>組織行事曆-->
+  <node id="Homepage/Portal/OthersManage/OrganizationCalendar">
+    <path>/EIP/OrganizationCalendar/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其它管理>公司語錄-->
+  <node id="Homepage/Portal/OthersManage/SystemSlogan">
+    <path>/EIP/Slogan/SloganMaster.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其它管理>UChat管理-->
+  <node id="Homepage/Portal/OthersManage/QueryUChatRoomDefault">
+    <path>/EIP/Chat/QueryUChatRoomDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其它管理>行事曆工作類別維護-->
+  <node id="Homepage/Portal/OthersManage/CalendarWorkClassMaintain">
+    <path>/EIP/Calendar/WorkClass/default.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其他管理>我的收藏 -->
+  <node id="Homepage/Portal/OthersManage/PersonalCollection">
+    <path>/Basic/Personal/PersonalCollection.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其他管理>Proxy傳送狀態查詢 -->
+  <node id="Homepage/Portal/OthersManage/ProxyStateQuery">
+    <path>/System/Config/ProxyTfrStatusQuery.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其他管理>活動看板-->
+  <node id="Homepage/Portal/OthersManage/EventsBoard">
+    <path>/EIP/EventsBoard/EventsBoardDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其他管理>待辦事項 -->
+  <node id="Homepage/Portal/OthersManage/QueryWorkList">
+    <path>/EIP/Calendar/Member/QueryWorkList.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>其他管理>交辦知會 -->
+  <node id="Homepage/Portal/OthersManage/QueryDevolveList">
+    <path>/EIP/Calendar/Member/QueryDevolveList.aspx</path>
+  </node>
+
+  <!--我的首頁>入口網站>產品資訊>產品資訊-->
+  <node id="Homepage/Portal/UOFAboutGroup/UOFAbout">
+    <path>/UOFAbout/Default.aspx</path>
+  </node>
+
+  <!--電子簽核-->
+
+  <!--我的首頁>電子簽核>設計>表單設計-->
+  <node id="Homepage/WKF/WKFDesign/WKFFormManagement">
+    <path>/WKF/FormManagement/</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>副流程設計-->
+  <node id="Homepage/WKF/WKFDesign/WKFFlowManagement">
+    <path>/WKF/FlowManagement/</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>表單結案回寫WS設定-->
+  <node id="Homepage/WKF/WKFDesign/WKFEndCallSet">
+    <path>/WKF/Admin/EndFormCallBack_MasterPage.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>郵件樣板維護-->
+  <node id="Homepage/WKF/WKFDesign/WKFMailTemplate">
+    <path>/WKF/FormManagement/CommonMailSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>表單異動設定維護-->
+  <node id="Homepage/WKF/WKFDesign/WKFSetTrigger">
+    <path>/WKF/Admin/SetTrigger.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>自訂加簽簽核字詞-->
+  <node id="Homepage/WKF/WKFDesign/WKFCustomWords">
+    <path>/WKF/CustomWords/CustomWords.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>權限設定-->
+  <node id="Homepage/WKF/WKFManagement/WKFAuthSet">
+    <path>/WKF/Auth/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>表單管理-->
+  <node id="Homepage/WKF/WKFManagement/WKFFormAdmin">
+    <path>/WKF/Admin/FormAdmin.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>回傳狀況查詢-->
+  <node id="Homepage/WKF/WKFManagement/WKFCallbackFormList">
+    <path>/WKF/Admin/CallbackFormList.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>歸檔查詢-->
+  <node id="Homepage/WKF/WKFManagement/WKFFormFiling">
+    <path>/WKF/Admin/FormFiling.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>設定他人代理人-->
+  <node id="Homepage/WKF/WKFManagement/WKFAdminSetAgent">
+    <path>/WKF/Admin/SetAgent.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>表單負責人管理-->
+  <node id="Homepage/WKF/WKFManagement/WKFResponsibleManage">
+    <path>/WKF/Responsible/FormAdministrator.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>表單負責人管理-->
+  <node id="Homepage/WKF/WKFManagement/WKFResponsibleManage">
+    <path>/WKF/Responsible/SetFormFieldDisplay.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>表單負責人管理-->
+  <node id="Homepage/WKF/WKFManagement/WKFHandOver">
+    <path>/WKF/FormManagement/HandOverManagement.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>表單欄位顯示設定-->
+  <!--
+    <node id="Homepage/WKF/WKFManagement/WKFResponsibleSet">
+      <path>/WKF/Responsible/FormFieldSet.aspx</path>
+    </node>-->
+
+  <!--我的首頁>電子簽核>管理>表單權限查詢-->
+  <node id="Homepage/WKF/WKFManagement/WKFFormPermission">
+    <path>/WKF/Permission/ViewPermission.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>簽核>個人表單-->
+  <!--
+  <node id="Homepage/WKF/WKFSign/WKFPersonalForm">
+    <path>/WKF/FormUse/PersonalBox/Default.aspx</path>
+    <path>/WKF/FormUse/PersonalBox/Default.aspx?selected=MyFormList</path>
+    <path>/WKF/FormUse/PersonalBox/default.aspx?selected=ApplyFormList</path>
+    <path>/WKF/FormUse/PersonalBox/Default.aspx?selected=GetbackList</path>
+    <path>/WKF/FormUse/PersonalBox/Default.aspx?selected=SetAgent</path>
+  </node>-->
+
+  <!--我的首頁>電子簽核>簽核>表單申請-->
+  <node id="Homepage/WKF/WKFSign/WKFFormLibrary">
+    <path>/WKF/FormUse/FormLibrary.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>簽核>待簽核表單-->
+  <node id="Homepage/WKF/WKFSign/WKFToBeSignForm">
+    <path>/WKF/FormUse/FormHandle/ToBeSignForm_Self.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>簽核>代理簽核表單-->
+  <node id="Homepage/WKF/WKFSign/WKFToBeSignForm_Agent">
+    <path>/WKF/FormUse/FormHandle/ToBeSignForm_Agent.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>簽核>取回未簽核表單-->
+  <node id="Homepage/WKF/WKFSign/WKFGetBack">
+    <path>/WKF/FormUse/FormRetrieve.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>簽核>設定代理人-->
+  <node id="Homepage/WKF/WKFSign/WKFAgentMT">
+    <path>/WKF/Agent/AgentMT.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>已送審表單-->
+  <node id="Homepage/WKF/WKFQuery/WKFFormApplied">
+    <path>/WKF/FormUse/FormHandle/FormExamined.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>被知會表單-->
+  <node id="Homepage/WKF/WKFQuery/WKFFormAlert">
+    <path>/WKF/FormUse/FormHandle/FormAlert.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>表單查詢-->
+  <node id="Homepage/WKF/WKFQuery/WKFFormQuery">
+    <path>/WKF/FormUse/FormHandle/FormQuery.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>被徵詢表單-->
+  <node id="Homepage/WKF/WKFQuery/WKFForOpinion">
+    <path>/WKF/FormUse/PersonalBox/MyFormList.aspx?item=FormForOpinion</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>代填寫表單-->
+  <node id="Homepage/WKF/WKFQuery/WKFFormAgent">
+    <path>/WKF/FormUse/PersonalBox/MyFormList.aspx?item=FormAgent</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>表單查閱者查詢-->
+  <node id="Homepage/WKF/WKFQuery/WKFFormReaderManager">
+    <path>/WKF/Reader/FormReaderManager.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>表單查閱者查詢-->
+  <node id="Homepage/WKF/WKFQuery/WKFFormReaderManager">
+    <path>/WKF/Reader/SetFormFieldDisplay.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>主管查詢表單-->
+  <node id="Homepage/WKF/WKFQuery/WKFQueryFormBySuperior">
+    <path>/WKF/FormUse/Superior/QueryFormBySuperior.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>管理員觀看表單記錄-->
+  <node id="Homepage/WKF/WKFQuery/WKFAdminFootprint">
+    <path>/WKF/Admin/AdminFootprint.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>個人表單-->
+  <node id ="Homepage/WKF/WKFPersonalForm">
+    <path>/WKF/FormUse/PersonalBox/MyFormList.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>表單申請-->
+  <node id ="Homepage/WKF/WKFFormLibrary">
+    <path>/WKF/FormUse/PersonalBox/ApplyFormList.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>表單取回-->
+  <node id ="Homepage/WKF/WKFGetBack">
+    <path>/WKF/FormUse/PersonalBox/GetbackFormList.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設定代理人-->
+  <node id ="Homepage/WKF/WKFAgentMT">
+    <path>/WKF/FormUse/PersonalBox/SetAgent.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>定義自訂流程-->
+  <node id ="Homepage/WKF/WKFCustFlow">
+    <path>/WKF/FormUse/PersonalBox/CustFlow.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>個人罐頭意見維護-->
+  <node id ="Homepage/WKF/CustSignCommentSet">
+    <path>/WKF/FormUse/DefaultSignComment.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>呼叫DLL狀態查詢-->
+  <node id ="Homepage/WKF/WKFManagement/WKFCallDllFormList">
+    <path>/WKF/Admin/CallDllFormList.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>罐頭意見維護-->
+  <node id ="Homepage/WKF/WKFDesign/WKFSignComment">
+    <path>/WKF/Admin/SignComment.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>平行流程設計-->
+  <node id ="Homepage/WKF/WKFDesign/WKFParallelManagement">
+    <path>/WKF/FlowManagement/ParallelDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>設計>表單匯入匯出-->
+  <node id="Homepage/WKF/WKFDesign/WKFExportForm">
+    <path>/WKF/FormManagement/ExportForm.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>表單權限查詢-->
+  <node id ="Homepage/WKF/WKFManagement/WKFFormPermission">
+    <path>/WKF/Permission/ViewPermission.aspx</path>
+  </node>
+
+  <!--統計分析-->
+
+  <!--我的首頁>統計分析>系統使用分析>最近一個月登入使用者統計-->
+  <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisLoginCount">
+    <path>/System/Report/LoginLog/LoginCount.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>系統使用分析>未登入使用者分析-->
+  <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisNotLoginUser">
+    <path>/System/Report/LoginLog/NotLoginUser.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>系統使用分析>公告張貼統計-->
+  <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUserPostCount">
+    <path>/System/Report/Bulletin/UserPostCount.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>系統使用分析>公事包使用容量統計-->
+  <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUseFileSizeCount">
+    <path>/System/Report/Briefcase/UseFileSizeCount.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>系統使用分析>最近一個月訊息統計-->
+  <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisMonthMessageCount">
+    <path>/System/Report/PrivateMessage/MonthMessageCount.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>人力資源分析>員工教育程度分析-->
+  <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplEducation">
+    <path>/System/Report/Organization/EmplEducation.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>人力資源分析>員工專長分析-->
+  <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplSkill">
+    <path>/System/Report/Organization/EmplSkill.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>人力資源分析>員工職級分析-->
+  <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplJobTitle">
+    <path>/System/Report/Organization/EmplJobTitle.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>討論區分析>討論區發表篇數分析-->
+  <node id="Homepage/Analysis/AnalysisForum/AnalysisAllForumPostArticles">
+    <path>/System/Report/Forum/AllForumPostArticles.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>討論區分析>最近一年發表篇數分析-->
+  <node id="Homepage/Analysis/AnalysisForum/AnalysisRecentYearPostArticles">
+    <path>/System/Report/Forum/RecentYearPostArticles.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>討論區分析>最近一個月討論區使用者資訊統計-->
+  <node id="Homepage/Analysis/AnalysisForum/AnalysisForumUserInfo">
+    <path>/System/Report/Forum/ForumUserInfo.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>討論區分析>最近一個月訂閱主題人數統計-->
+  <node id="Homepage/Analysis/AnalysisForum/AnalysisTopicSubUserCount">
+    <path>/System/Report/Forum/TopicSubUserCount.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>電子簽核分析>表單使用次數統計-->
+  <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisCountApplyForm">
+    <path>/WKF/Analysis/CountApplyForm.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>電子簽核分析>表單平均結案時間-->
+  <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisAvgTimeOfEndForm">
+    <path>/WKF/Analysis/AvgTimeOfEndForm.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>電子簽核分析>表單平均結案時間-->
+  <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisAvgTimeOfProcessForm">
+    <path>/WKF/Analysis/AvgTimeOfProcessForm.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>文件管理分析>文件評比統計-->
+  <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsGrade">
+    <path>/DMS/Query/StatisticsDocGrade.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>文件管理分析>文件下載次數統計-->
+  <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsDLNum">
+    <path>/DMS/Query/StatisticsDocDownloadRate.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>文件管理分析>作者發表文件數-->
+  <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsAuthorDocs">
+    <path>/DMS/Query/StatistcsDocAuthor.aspx</path>
+  </node>
+
+  <!--我的首頁>統計分析>管理>權限設定-->
+  <node id="Homepage/Analysis/AnalysisAuth/AuthoritySetting">
+    <path>/System/Report/AuthoritySetting.aspx</path>
+  </node>
+
+  <!--文件管理-->
+
+  <!--我的首頁>文件管理>文件>文件庫-->
+  <node id="Homepage/DMS/DMSDocStore">
+    <path>/DMS/DocStore/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>文件>文件清冊-->
+  <node id="Homepage/DMS/DMSDocList">
+    <path>/DMS/DocStore/DocList.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>文件>常用文件區-->
+  <node id="Homepage/DMS/DMSDocComm">
+    <path>/DMS/DocStore/CommonUseList.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>文件>最新資訊-->
+  <node id="Homepage/DMS/DMSDocNew">
+    <path>/DMS/DocStore/News.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>個人>發佈審核-->
+  <node id="Homepage/DMS/DMSPerson/DMSWaitApprove">
+    <path>/DMS/Person/WaitApprove.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>個人>調閱審核-->
+  <node id="Homepage/DMS/DMSPerson/DMSDocLoanApprove">
+    <path>/DMS/Person/DMSLoanApprove.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>個人>作廢審核-->
+  <node id="Homepage/DMS/DMSPerson/DMSDocVoidApprove">
+    <path>/DMS/Person/DMSVoidApprove.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>個人>銷毀審核-->
+  <node id="Homepage/DMS/DMSPerson/DMSDocDeleteApprove">
+    <path>/DMS/Person/DMSDeleteApprove.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>個人>訂閱清單-->
+  <node id="Homepage/DMS/DMSPersonSubList">
+    <path>/DMS/Person/SubscribeList.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>全文檢索-->
+  <node id="Homepage/DMS/DMSFullSearch">
+    <path>/DMS/Query/FullTextSearch.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>發佈申請狀態-->
+  <node id="Homepage/DMS/DMSWaitApplyStatus">
+    <path>/DMS/Query/WaitApplyStatus.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>調閱申請狀態-->
+  <node id="Homepage/DMS/DMSDocLoanStatus">
+    <path>/DMS/Query/LoanApplyStatus.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>作廢申請狀態-->
+  <node id="Homepage/DMS/DMSDocVoidStatus">
+    <path>/DMS/Query/VoidApplyStatus.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>銷毀申請狀態-->
+  <node id="Homepage/DMS/DMSDocDeleteStatus">
+    <path>/DMS/Query/DeleteApplyStatus.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>調閱歷程-->
+  <node id="Homepage/DMS/DMSLendHistory">
+    <path>/DMS/Query/LandHistory.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>調閱文件-->
+  <node id="Homepage/DMS/DMSQueryLendDefault">
+    <path>/DMS/Query/QueryLendDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>查詢及統計>改版中文件-->
+  <node id="Homepage/DMS/RevisedDocSearch">
+    <path>/DMS/Query/RevisedDocSearch.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>紙本分發查詢-->
+  <node id="Homepage/DMS/DMSPrintRecordSearch">
+    <path>/DMS/Query/PrintRecordSearch.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>事件檢視-->
+  <node id="Homepage/DMS/DMSEventLog">
+    <path>/DMS/Admin/DMSEventLog.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>類別維護-->
+  <node id="Homepage/DMS/DMSSysClass">
+    <path>/DMS/Admin/ClassModify.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>文件維護-->
+  <node id="Homepage/DMS/DMSSysDocMaint">
+    <path>/DMS/Admin/DocMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>文件調閱管理-->
+  <node id="Homepage/DMS/DMSDocLendMaintain">
+    <path>/DMS/Admin/DocLendMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>PDF設定-->
+  <node id="Homepage/DMS/DMSWatermark">
+    <path>/DMS/Admin/DMSWatermark.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>文件異地發佈狀態查詢-->
+  <node id="Homepage/DMS/DMSSysDocRemote">
+    <path>/DMS/Admin/QueryRemoteDoc.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>文管強制收藏 -->
+  <node id="Homepage/DMS/DMSSysCollection">
+    <path>/EIP/Collection/SysCollectionDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>電子簽核流程維護-->
+  <node id="Homepage/DMS/DMSWKFMaintain">
+    <path>/DMS/Admin/WKFFlowMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>文件管理>管理>離線文件資訊管理 -->
+  <node id="Homepage/DMS/DMSUdocSecurityManagement">
+    <path>/DMS/Admin/UDocSecurityMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>任務管理>管理>專案維護-->
+  <node id="Homepage/PMS/PMSManagement/PMSMaintain">
+    <path>/PMS/Maintain/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>任務管理>管理>審核-->
+  <node id="Homepage/PMS/PMSManagement/PMSAudit">
+    <path>/PMS/Audit/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>任務管理>管理>設定-->
+  <node id="Homepage/PMS/PMSManagement/PMSSetting">
+    <path>/PMS/Setting/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>專案管理>查詢>依專案-->
+  <node id="Homepage/PMS/PMSQuery/PMSQueryProject">
+    <path>/PMS/Query/QueryProject.aspx</path>
+  </node>
+
+  <!--我的首頁>專案管理>查詢>依任務-->
+  <node id="Homepage/PMS/PMSQuery/PMSQueryTask">
+    <path>/PMS/Query/QueryTask.aspx</path>
+  </node>
+
+  <!--我的首頁>專案管理>查詢>日誌-->
+  <node id="Homepage/PMS/PMSQuery/PMSLog">
+    <path>/PMS/Log/QueryLogs.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>管理>角色權限設定 -->
+  <node id="Homepage/CUS/CUSSys/CUSRoleManage">
+    <path>/EIP/Customer/AuthoritySetting.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>管理>主檔維護 -->
+  <node id="Homepage/CUS/CUSSys/CUSBaseDataMaintain">
+    <path>/EIP/Customer/BaseDataMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>管理>事件檢視 -->
+  <node id="Homepage/CUS/CUSSys/CUSEventLogQuery">
+    <path>/EIP/Customer/QueryEventLog.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>管理>專案管理-->
+  <node id="Homepage/CUS/CUSSys/CUSProjectManager">
+    <path>/EIP/Customer/ProjectManager/ProjectManager.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>客戶資料>客戶資料維護 -->
+  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain">
+    <path>/EIP/Customer/CustomerDataMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>客戶資料>進階查詢 -->
+  <node id="Homepage/CUS/CUSData/CUSAdvancedQuery">
+    <path>/EIP/Customer/AdvancedQuery.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>統計>新增客戶數統計 -->
+  <node id="Homepage/CUS/CUSStatistics/CUSPublishCountChart">
+    <path>/EIP/Customer/Charts/GlobalPublishCountChart.aspx</path>
+  </node>
+
+  <!--我的首頁>客戶資料庫>統計>資料統計分析 -->
+  <node id="Homepage/CUS/CUSStatistics/CUSDataStatisticsChart">
+    <path>/EIP/Customer/Charts/GlobalDataStatisticsChart.aspx</path>
+  </node>
+
+  <!--套裝差勤選單-->
+
+  <!--我的首頁>刷卡管理>查詢>刷卡記錄查詢 -->
+  <node id="Homepage/Punch/PunchQuery/QueryPunchDef">
+    <path>/EIP/Duty/Report/QueryPunchDef.aspx</path>
+  </node>
+
+  <!--分權刷卡設定因104、UOF為共用頁面，各頁面底下須再判斷是UOF OR 104模組，故只留下[我的首頁]-->
+  <!--我的首頁>刷卡管理(假勤管理)>主檔維護>刷卡設定-->
+  <node id="Homepage">
+    <path>/EIP/Duty/Punch/PunchIPRange.aspx</path>
+  </node>
+
+  <!--我的首頁>假勤管理>查詢>人員刷卡設定查詢-->
+  <node id="Homepage">
+    <path>/EIP/Duty/Report/QueryDutyPunchSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>假勤管理>刷卡設定>刷卡IP範圍設定-->
+  <node id="Homepage">
+    <path>/EIP/Duty/Punch/PunchIPSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>假勤管理>刷卡設定>App刷卡範圍設定-->
+  <node id="Homepage">
+    <path>/EIP/Duty/Punch/PunchPositionSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>假勤管理>刷卡設定>只可用App刷卡設定-->
+  <node id="Homepage">
+    <path>/EIP/Duty/Punch/PunchAPPSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>假勤管理>刷卡設定>特殊人員刷卡設定-->
+  <node id="Homepage">
+    <path>/EIP/Duty/Punch/PunchExcludeSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>刷卡資料匯入 -->
+  <node id="Homepage/Punch/PunchMainTain/DutyPunchImportData">
+    <path>/EIP/Duty/Punch/ImportPunchData.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>補休時數匯入 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/ImportTimeOff">
+    <path>/EIP/Duty/TimeOff/ImportTimeOffDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>班別主檔 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyClassMaintain">
+    <path>/EIP/Duty/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>班表維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyTimeTableMaintain">
+    <path>/EIP/Duty/TimeTable/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>差勤參數維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain">
+    <path>/EIP/Duty/Configuration/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>年休假維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyMaintainLeaveInfo">
+    <path>/EIP/Duty/YearLeaveDays/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>差勤結算處理 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutySettlement">
+    <path>/EIP/Duty/Settlement/Stage/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>幣別主檔維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyCurrencyEdit">
+    <path>/EIP/Duty/Currency/CurrencyMA.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>幣別匯率主檔維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyCurrencyRateEdit">
+    <path>/EIP/Duty/Currency/CurrencyRateMA.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>旅遊補助維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyTourAllowanceMaintain">
+    <path>/EIP/Duty/TourAllowance/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>津貼主檔維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyAllowanceMaintain">
+    <path>/EIP/Duty/Allowance/Default.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>休假/出缺勤統計(管理員) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryMonthDataByManager">
+    <path>/EIP/Duty/Report/QueryMonthDataByManager.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>出缺勤狀況查詢(管理員) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryDayRecordByManager">
+    <path>/EIP/Duty/Report/QueryDayRecordByManager.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>休假/出缺勤統計(個人) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryMonthDataByUser">
+    <path>/EIP/Duty/Report/QueryMonthDataByUser.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>年休假查詢(管理員) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryYearLeaveDaysByManager">
+    <path>/EIP/Duty/YearLeaveDays/QueryYearLeaveDaysByManager.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>年休假查詢(個人) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryYearLeaveDays">
+    <path>/EIP/Duty/YearLeaveDays/QueryPersonalYearLeaveDays.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>班表查詢(個人) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeTableByUser">
+    <path>/EIP/Duty/Report/QueryTimeTableByUser.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>班表查詢(管理員) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeTableByManager">
+    <path>/EIP/Duty/Report/QueryTimeTableByManager.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>可補休時數查詢)-->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeOff">
+    <path>/EIP/Duty/Report/QueryTimeOffData.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>可休假別時數查詢(管理員)-->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryAllLeaHours">
+    <path>/EIP/Duty/Report/QueryAllLeaDetailByManager.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>可休假別時數查詢(個人)-->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryAllLeaHoursByUser">
+    <path>/EIP/Duty/Report/QueryAllLeaDetailByUser.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>加班紀錄查詢 -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryOverTime">
+    <path>/EIP/Duty/Report/QueryOvertimeDef.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>請假記錄查詢 -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryLeaveDays">
+    <path>/EIP/Duty/Report/QueryLeaveDef.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>補刷卡記錄查詢 -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryRenewPunch">
+    <path>/EIP/Duty/Report/QueryRenewPunchDef.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>表單簽核統計(管理員) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryFormByManager">
+    <path>/EIP/Duty/Report/QueryFormByManager.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>出缺勤統計(管理員) -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryStageDataByManager">
+    <path>/EIP/Duty/Report/QueryStageDataByManager.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>其他>批次扣假 -->
+  <node id="Homepage/DUTY/DutyOther/DutyLeaveCollective">
+    <path>/EIP/Duty/Leave/Collective/LeaveCollectiveDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>公益活動主檔維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyCharityLeaveConfig">
+    <path>/EIP/Duty/Leave/CharityLeave/CharityLeaveConfig.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>主檔維護>彈休假主檔維護 -->
+  <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyScalableLeaveConfig">
+    <path>/EIP/Duty/Leave/ScalableLeave/ScalableLeaveConfig.aspx</path>
+  </node>
+
+  <!--我的首頁>差勤管理>統計查詢>出差記錄查詢 -->
+  <node id="Homepage/DUTY/DutyStatistics/DutyQueryTravel">
+    <path>/EIP/Duty/Report/QueryTravelDef.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>查詢>電子公文查詢-->
+  <node id="Homepage/WKF/WKFQuery/WKFQueryElectronicDocument">
+    <path>/WKF/ElectronicDocument/QueryEDoc.aspx</path>
+  </node>
+
+  <!--我的首頁>電子簽核>管理>批次退回申請者-->
+  <node id="Homepage/WKF/WKFManagement/WKFBatchReturnApplicant">
+    <path>/WKF/FormUse/ReturnSign/BatchReturnApplicant.aspx</path>
+  </node>
+
+  <!--我的首頁>龍捲風搜尋-->
+  <node id="Homepage/SiteSearchTSP">
+    <path>/Common/TspSearchMain.aspx</path>
+  </node>
+
+  <!--我的首頁>龍捲風搜尋-->
+  <node id="Homepage/SiteSearchTSP">
+    <path>/Common/TspIndexSearch.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>同步作業>刷卡資料匯出-->
+  <node id="Homepage/104HR/104HRSync/104HRExportPunchDefault">
+    <path>/HR104/Punch/ExportPunchDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>出差記錄查詢 -->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryTravelDefault">
+    <path>/HR104/Duty/Report/QueryTravelDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>請假記錄查詢 -->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryLeaveDefault">
+    <path>/HR104/Duty/Report/QueryLeaveDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>可休假查詢-->
+  <node id ="Homepage/104HR/104HRDutyStatistics/104QueryAttendanceDefault">
+    <path>/HR104/Duty/Report/QueryAttendanceDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>加班記錄查詢 -->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryOvertimeDefault">
+    <path>/HR104/Duty/Report/QueryOvertimeDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>出勤記錄查詢(個人)-->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryPunchByUser">
+    <path>/HR104/Duty/Report/QueryPunchByUser.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>特休記錄查詢-->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryYearLeaveDefault">
+    <path>/HR104/Duty/Report/QueryYearLeaveDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>補休假記錄查詢-->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryTimeOffDefault">
+    <path>/HR104/Duty/Report/QueryTimeOffDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>加班單(批次申請)查詢-->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryBatchOvertimeDefault">
+    <path>/HR104/Duty/Report/QueryBatchOvertimeDefault.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>統計查詢>人員刷卡設定查詢-->
+  <node id="Homepage/104HR/104HRDutyStatistics/104QueryDutyPunchSetting">
+    <path>/HR104/Duty/Report/QueryDutyPunchSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>管理>超時出勤回報作業-->
+  <node id="Homepage/104HR/104HRManage/104HROverAttendManage">
+    <path>/HR104/Duty/Manage/OverAttendManage.aspx</path>
+  </node>
+
+  <!--我的首頁>104HR>管理>呼叫DLL狀態查詢-->
+  <node id="Homepage/104HR/104HRManage/104HRCallDllFormList">
+	<path>/HR104/Duty/Manage/CallDllFormListFor104.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>個人>常用聯絡人資訊 -->
+  <node id="Homepage/Edoc/EdocPersonal/EdocContactPerson">
+    <path>/Edoc/Personal/ContactPerson.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>個人>我的公文 -->
+  <node id="Homepage/Edoc/EdocPersonal/EdocPersonalEdoc">
+    <path>/Edoc/Personal/PersonalEdoc.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>收發文作業>收文 -->
+  <node id="Homepage/Edoc/EdocReceiveSend/EdocReceive">
+    <path>/Edoc/ReceiveDoc/ReceiveEdoc.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>收發文作業>發文 -->
+  <node id="Homepage/Edoc/EdocReceiveSend/EdocSend">
+    <path>/Edoc/SendDoc/SendEdoc.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>管理>權限設定 -->
+  <node id="Homepage/Edoc/EdocManagement/EdocAuthSet">
+    <path>/Edoc/Management/SetAuthManager.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>管理>基本設定 -->
+  <node id="Homepage/Edoc/EdocManagement/EdocBasicSetting">
+    <path>/Edoc/Management/BasicSetting.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>管理>字號類別維護 -->
+  <node id="Homepage/Edoc/EdocManagement/EdocSendNumberStringMaintain">
+    <path>/Edoc/Management/SendNumberStringMaintain.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>管理>受文機關維護 -->
+  <node id="Homepage/Edoc/EdocManagement/EdocEditOrg">
+    <path>/Edoc/Management/EditOrg.aspx</path>
+  </node>
+
+  <!--我的首頁>電子公文>管理>事件檢視 -->
+  <node id="Homepage/Edoc/EdocManagement/EdocLogViewer">
+    <path>/Edoc/Management/LogViewer.aspx</path>
+  </node>
+
+</sitemap>

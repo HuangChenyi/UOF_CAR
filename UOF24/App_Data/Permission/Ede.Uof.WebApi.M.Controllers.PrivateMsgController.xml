@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actions AllowAll="False">
+  <Action Name="GetMessageList" AllowAll="True" />
+  <Action Name="GetMessage" AllowAll="True" />
+  <Action Name="DeleteMessage" AllowAll="True" />
+  <Action Name="CreateMessage" AllowAll="True" />
+  <Action Name="ReplyMessage" AllowAll="True" />
+  <Action Name="ForwardMessage" AllowAll="True" />
+  <Action Name="GetUserAuth" AllowAll="True" />
+  <Action Name="SetAllMessageReaded" AllowAll="True" />
+</Actions>

@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" MasterPageFile="DefaultMasterPage.master" AutoEventWireup="true" Inherits="Master_OneColumn" Codebehind="OneColumn.master.cs" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <style>
+        body {overflow: hidden;}
+    </style>
+    <script type="text/javascript">
+
+       
+
+        function OneColumnMasterPageRadsplitter1_load(sender) {
+            var splitter = $find("<%= MasterRadSplitter1.ClientID %>");
+
+            if ("<%=OnClientResize%>" != "" && typeof window["<%=OnClientResize%>"] == "function") {
+
+                OneColumnMasterPageRadsplitterResized();
+                splitter.add_resized(OneColumnMasterPageRadsplitterResized);
+            }
+
+            var hfIsResize = $('#<%=hfIsResize.ClientID%>');
+
+            if (hfIsResize.val() == 'false') {
+                hfIsResize.val('true');
+                splitter.set_height(0);
+                hfIsResize.val('true');
+                splitter.set_height($('#MasterContent').height());
+                return;
+            }
+
+            hfIsResize.val('false');
+           
+        }
+
+        function OneColumnMasterPageRadsplitterResized() {
+            var splitter = $find("<%= MasterRadSplitter1.ClientID %>");
+            var height = $(window).height() - $('#MasterHeader').height();
+            splitter.set_height(height);
+            var width = $(window).width() ;
+            splitter.set_width(width);
+            var pane = splitter.getPaneById('<%=MasterRadPane1.ClientID%>');
+            <%=OnClientResize%>(pane.get_width(), pane.get_height());
+        }
+    </script>
+    <telerik:RadSplitter ID="MasterRadSplitter1" runat="server" Width="100%" Height="100%" BorderSize="0"
+       ResizeWithBrowserWindow="True" LiveResize="true" OnClientLoad="OneColumnMasterPageRadsplitter1_load">
+        <telerik:RadPane ID="MasterRadPane1" runat="server" Scrolling="Both">
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </telerik:RadPane>
+    </telerik:RadSplitter>
+
+        <asp:ContentPlaceHolder ID="ScriptContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+    <asp:HiddenField ID="hfIsResize" runat="server" Value="false" />
+</asp:Content>

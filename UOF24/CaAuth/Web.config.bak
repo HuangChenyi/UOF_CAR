@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings/>
+
+  <connectionStrings/>
+  <system.web>
+    <authentication mode="Windows"/>
+    <authorization>
+      <allow users="?,*"/>
+    </authorization>
+
+    <healthMonitoring enabled="false" />
+
+    <httpHandlers>
+      <remove verb="*" path="*.asmx" />
+      <remove verb="*" path="*_AppService.axd" />
+      <remove verb="GET,HEAD" path="ScriptResource.axd" />
+      <remove verb="POST,GET" path="ajaxpro/*.ashx" />
+    </httpHandlers>
+
+
+    <httpModules>
+      <remove name="CompressionModule" />
+      <remove name="ScriptModule" />
+      <remove name="OnlineManagement" />
+      <remove name="UploadHttpModule" />
+      <remove name="DMSMapPath" />
+    </httpModules>
+
+    <roleManager enabled="false">
+      <providers>
+        <clear/>
+      </providers>
+    </roleManager>
+
+    <compilation debug="true">
+      <assemblies>
+        <clear/>
+      </assemblies>
+    </compilation>
+
+    <machineKey validationKey='54C370EDA5429F55EF9C0FBFF38CDCD9147DD442CC15C062D6D2EAA8B84E4B784C818DA1AB09B035DB5D58DAD8A54345E55303A8F7EB4D6B5FE4247BE16F14B2' decryptionKey='4BCDEE7949EEC3DB891C7C0DBEF7A34389525B6479F02EB2' validation='SHA1'/>
+  </system.web>
+</configuration>

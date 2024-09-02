@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtFieldNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDispalyFieldNameResource1.Text" xml:space="preserve">
+    <value>字段显示</value>
+  </data>
+  <data name="lblSetupResource1.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="CustomValidatorModifyFieldTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldRemarkResource1.Text" xml:space="preserve">
+    <value>字段备注</value>
+  </data>
+  <data name="CustomValidatorFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>输入内容只允许英文或数字</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>核选方块</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.ErrorMessage" xml:space="preserve">
+    <value>请键入字段代号</value>
+  </data>
+  <data name="txtwsURLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisibleResource1.Text" xml:space="preserve">
+    <value>观看权限控制</value>
+  </data>
+  <data name="lblItemListDescResource1.Text" xml:space="preserve">
+    <value>(如果打勾选定即为默认)</value>
+  </data>
+  <data name="pnlexternalDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotifyMsgAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblItemListResource1.Text" xml:space="preserve">
+    <value>字段选项</value>
+  </data>
+  <data name="rbAptoticFieldResource1.Text" xml:space="preserve">
+    <value>固定字段选项</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>dataGrid</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>所有人员</value>
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldRemarkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>allDept</value>
+  </data>
+  <data name="lblwsExportDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbYesRankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwsURLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldNameResource1.Text" xml:space="preserve">
+    <value>字段名称</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldControlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>hyperLink</value>
+  </data>
+  <data name="lblTestMsg404Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopiedResource1.Text" xml:space="preserve">
+    <value>已成功复制</value>
+  </data>
+  <data name="lblTestMsg404Resource1.Text" xml:space="preserve">
+    <value>无法调用asmx文件</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.ErrorMessage" xml:space="preserve">
+    <value>请键入字段名称</value>
+  </data>
+  <data name="lblwsAccountResource1.Text" xml:space="preserve">
+    <value>WebService帐号:</value>
+  </data>
+  <data name="cbxDisplayFieldNameResource1.Text" xml:space="preserve">
+    <value>显示字段名称</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkAuthResource1.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="btnTestConnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSeqResource1.Text" xml:space="preserve">
+    <value>字段顺序</value>
+  </data>
+  <data name="CustomValidatorFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkexternalDataCheckResource1.Text" xml:space="preserve">
+    <value>使用外部数据源</value>
+  </data>
+  <data name="lblTestMsg401Resource1.Text" xml:space="preserve">
+    <value>无法凭证通过</value>
+  </data>
+  <data name="lbl_FieldModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>multiLineText</value>
+  </data>
+  <data name="rblFieldModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>所有职务</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>文件选定字段</value>
+  </data>
+  <data name="lblTestMsg99Resource1.Text" xml:space="preserve">
+    <value>无法连接Web Service主机</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>申请者职级</value>
+  </data>
+  <data name="txtFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>申请者</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>日期字段</value>
+  </data>
+  <data name="rbYesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>自动编号</value>
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>请选定角色</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>单选钮</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>明细字段</value>
+  </data>
+  <data name="lblSeqResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>singleLineText</value>
+  </data>
+  <data name="lblDisplayLengthRecource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkVariationResource1.Text" xml:space="preserve">
+    <value>字段内容是否需每个网站更新 (如果勾选，每次签核时，会再次取得内容)</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>timeSelect</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwsURLResource1.Text" xml:space="preserve">
+    <value>WebService URL:</value>
+  </data>
+  <data name="chkSystemValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotifyMsgBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwsPasswordResource1.Text" xml:space="preserve">
+    <value>WebService密码:</value>
+  </data>
+  <data name="lblwsPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>allRank</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>numberText</value>
+  </data>
+  <data name="txtwsAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkgetBeforeTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>userDept</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>时间字段</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>新建字段</value>
+  </data>
+  <data name="lblNormalNotifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="rbAptoticFieldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNormalNotifyResource1.Text" xml:space="preserve">
+    <value>只测试连接，此阶段无法验证数据的正确性与否</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>dateSelect</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtwsMethodResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>allFunction</value>
+  </data>
+  <data name="lblSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebImageButton1Resource1.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="CustomValidatorDDLResource1.ErrorMessage" xml:space="preserve">
+    <value>字段选项不得为空</value>
+  </data>
+  <data name="lblTestMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayLengthNotifyRecource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTestConnResource1.Text" xml:space="preserve">
+    <value>测试连接</value>
+  </data>
+  <data name="chkFormValueResource1.Text" xml:space="preserve">
+    <value>表单数据</value>
+  </data>
+  <data name="WebNumericViewLengthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtwsPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSourceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAuthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsgResource1.Text" xml:space="preserve">
+    <value>测试成功!!</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>checkBox</value>
+  </data>
+  <data name="lblwsExportDataResource1.Text" xml:space="preserve">
+    <value>传出数据:</value>
+  </data>
+  <data name="lblNotifyMsgAResource1.Text" xml:space="preserve">
+    <value>请填写WebService URL及WebService Method</value>
+  </data>
+  <data name="txtwsAccountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="CustomValidatorFieldIdResource1.ErrorMessage" xml:space="preserve">
+    <value>同一表单版本的字段代号不得重复</value>
+  </data>
+  <data name="lblwsAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>dropDownList</value>
+  </data>
+  <data name="lblItemListDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>数值字段</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>userProposer</value>
+  </data>
+  <data name="lblFieldControlResource1.Text" xml:space="preserve">
+    <value>字段控制</value>
+  </data>
+  <data name="CustomValidatorModifyFieldTypeResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorDDLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>申请者部门</value>
+  </data>
+  <data name="rbNoRankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>userRank</value>
+  </data>
+  <data name="chk_useDefaultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtwsMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwsMethodResource1.Text" xml:space="preserve">
+    <value>WebService Method:</value>
+  </data>
+  <data name="rbYesRankResource1.Text" xml:space="preserve">
+    <value>某角色才可输入</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>超链接</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>下拉式菜单</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>allUser</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>autoNumber</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>所有部门</value>
+  </data>
+  <data name="lblTestMsg500Resource1.Text" xml:space="preserve">
+    <value>调用Web Method错误</value>
+  </data>
+  <data name="RequiredFieldValidatorFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WebNumericEditFieldSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSourceResource1.Text" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>表单计算字段</value>
+  </data>
+  <data name="txtwsPasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsg500Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDropDownListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>fileButton</value>
+  </data>
+  <data name="DropDownList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblItemListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="rbNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblexternalDataResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldSeqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorModifyFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>单行文字字段</value>
+  </data>
+  <data name="lblAuthResource1.Text" xml:space="preserve">
+    <value>是否需要验证:</value>
+  </data>
+  <data name="txtFieldRemarkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>radioButton</value>
+  </data>
+  <data name="lblFieldModifyResource1.Text" xml:space="preserve">
+    <value>允许修改默认</value>
+  </data>
+  <data name="ddlFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNoRankResource1.Text" xml:space="preserve">
+    <value>某角色必须输入</value>
+  </data>
+  <data name="WebImageButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsg401Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayLengthRecource1.Text" xml:space="preserve">
+    <value>显示宽度</value>
+  </data>
+  <data name="chkVariationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>calculateText</value>
+  </data>
+  <data name="chkexternalDataCheckResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkFormValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtwsURLResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkgetBeforeTimeResource1.Text" xml:space="preserve">
+    <value>是否表单填写前先取得数据 (如不勾选，用户需点选定得数据才可取得)</value>
+  </data>
+  <data name="lblFieldTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestMsg99Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidatorFieldNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="lblDropDownListResource1.Text" xml:space="preserve">
+    <value>下拉式菜单</value>
+  </data>
+  <data name="lblFieldTypeResource1.Text" xml:space="preserve">
+    <value>字段格式</value>
+  </data>
+  <data name="lbl_FieldModifyResource1.Text" xml:space="preserve">
+    <value>修改权限</value>
+  </data>
+  <data name="lblDisplayLengthNotifyRecource1.Text" xml:space="preserve">
+    <value>(表单显示的限制长度，设零由系统自行调整)</value>
+  </data>
+  <data name="CustomValidatorDDLResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotifyMsgBResource1.Text" xml:space="preserve">
+    <value>请填写WebService主机帐号</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>多行文字字段</value>
+  </data>
+  <data name="rbYesResource1.Text" xml:space="preserve">
+    <value>申请者可不输入</value>
+  </data>
+  <data name="txtFieldIdResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwsMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFieldIdResource1.Text" xml:space="preserve">
+    <value>字段代号</value>
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>请选定角色</value>
+  </data>
+  <data name="pnlexternalDataResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblexternalDataResource1.Text" xml:space="preserve">
+    <value>外部数据</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>所有职级</value>
+  </data>
+  <data name="chkSystemValueResource1.Text" xml:space="preserve">
+    <value>系统数据</value>
+  </data>
+  <data name="chk_useDefaultResource1.Text" xml:space="preserve">
+    <value>将所选项目设置为默认</value>
+  </data>
+  <data name="rbNoResource1.Text" xml:space="preserve">
+    <value>申请者一定要输入</value>
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFieldIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOptionDefaultValueResource1.Text" xml:space="preserve">
+    <value>選項預設值</value>
+  </data>
+</root>

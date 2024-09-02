@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblCloseStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisableMSDTCMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有中止该项目的权限！</value>
+  </data>
+  <data name="lblStartResource1.Text" xml:space="preserve">
+    <value>起动</value>
+  </data>
+  <data name="RadToolBarButtonResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartNoTaskMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProceedingStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource22.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDraftStatusResource1.Text" xml:space="preserve">
+    <value>草稿</value>
+  </data>
+  <data name="lblCloseNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartProjIncompleteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseUnCompleteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoProjectMsgResource1.Text" xml:space="preserve">
+    <value>请选择项目</value>
+  </data>
+  <data name="RadToolBarButtonResource20.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjStartMsgResource1.Text" xml:space="preserve">
+    <value>项目起动</value>
+  </data>
+  <data name="lblSuspendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProceedingStatusResource1.Text" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="RadToolBarButtonResource11.Text" xml:space="preserve">
+    <value>项目中止</value>
+  </data>
+  <data name="RadToolBarButtonResource19.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditNoTaskMsgResource1.Text" xml:space="preserve">
+    <value>该项目至少需包含一个以上的任务，否则不允许送审</value>
+  </data>
+  <data name="RadToolBarButtonResource19.Text" xml:space="preserve">
+    <value>审核历程</value>
+  </data>
+  <data name="RadToolBarButtonResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}状态的项目不允许被删除！</value>
+  </data>
+  <data name="RadToolBarButtonResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource9.Text" xml:space="preserve">
+    <value>项目起动</value>
+  </data>
+  <data name="RadToolBarButtonResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}状态的项目不允许被结案！</value>
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.Text" xml:space="preserve">
+    <value>项目删除</value>
+  </data>
+  <data name="lblAuditProjIncompleteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource16.Value" xml:space="preserve">
+    <value>sep7</value>
+  </data>
+  <data name="lblDisableMSDTCMsgResource1.Text" xml:space="preserve">
+    <value> 已禁用分布式交易管理员 (MSDTC) 的网络访问，&lt;br/&gt;请通知系统管理员修正。</value>
+  </data>
+  <data name="lblProjMsgResource1.Text" xml:space="preserve">
+    <value>项目信息</value>
+  </data>
+  <data name="lblCloseStatusResource1.Text" xml:space="preserve">
+    <value>已结案</value>
+  </data>
+  <data name="RadToolBarButtonResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjAuditMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDraftStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource17.Value" xml:space="preserve">
+    <value>btnProjectSetting</value>
+  </data>
+  <data name="lblAuditProjIncompleteMsgResource1.Text" xml:space="preserve">
+    <value>该项目没有预计时程，不允许被送审！</value>
+  </data>
+  <data name="RadToolBarButtonResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.Text" xml:space="preserve">
+    <value>Excel导出</value>
+  </data>
+  <data name="RadToolBarButtonResource15.Value" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="RadToolBarButtonResource15.Text" xml:space="preserve">
+    <value>项目结案</value>
+  </data>
+  <data name="RadToolBarButtonResource7.Value" xml:space="preserve">
+    <value>btnAudit</value>
+  </data>
+  <data name="RadToolBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartMsgResource1.Text" xml:space="preserve">
+    <value>选择确定后该项目将立即启动，请问您是否确实要继续？</value>
+  </data>
+  <data name="RadToolBarButtonResource16.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendMsgResource1.Text" xml:space="preserve">
+    <value>选择确定后该项目将立即中止，请问您是否确实要继续？</value>
+  </data>
+  <data name="RadToolBarButtonResource7.Text" xml:space="preserve">
+    <value>项目送审</value>
+  </data>
+  <data name="lblAuditNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有送审该项目的权限！</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendAuditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartNoTaskMsgResource1.Text" xml:space="preserve">
+    <value>该项目至少需包含一个以上的任务，否则不允许起动</value>
+  </data>
+  <data name="lblSuspendNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditorNotStartMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource16.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}状态的项目不允许被中止！</value>
+  </data>
+  <data name="RadToolBarButtonResource22.Value" xml:space="preserve">
+    <value>sep5</value>
+  </data>
+  <data name="lblActionAlertMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource18.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource22.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有起动该项目的权限！</value>
+  </data>
+  <data name="RadToolBarButtonResource17.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource17.Text" xml:space="preserve">
+    <value>项目设置</value>
+  </data>
+  <data name="RadToolBarButtonResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblActionAlertMsgResource1.Text" xml:space="preserve">
+    <value>[{0}]项目已经{1}</value>
+  </data>
+  <data name="RadToolBarButtonResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>新建项目</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoProjectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource20.Value" xml:space="preserve">
+    <value>sep9</value>
+  </data>
+  <data name="lblSuspendStatusResource1.Text" xml:space="preserve">
+    <value>已中止</value>
+  </data>
+  <data name="RadToolBarButtonResource19.Value" xml:space="preserve">
+    <value>btnAuditTrack</value>
+  </data>
+  <data name="lblDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendResource1.Text" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="RadToolBarButtonResource5.Value" xml:space="preserve">
+    <value>btnExportExcel</value>
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value>审核</value>
+  </data>
+  <data name="RadToolBarButtonResource4.Value" xml:space="preserve">
+    <value>sep10</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource21.Text" xml:space="preserve">
+    <value>项目甘特图</value>
+  </data>
+  <data name="RadToolBarButtonResource20.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTaskNoDateMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有删除该项目的权限！</value>
+  </data>
+  <data name="RadToolBarButtonResource21.Value" xml:space="preserve">
+    <value>btnGanttChart</value>
+  </data>
+  <data name="barProjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}状态的项目不允许被起动！</value>
+  </data>
+  <data name="lblSendAuditResource1.Text" xml:space="preserve">
+    <value>送审</value>
+  </data>
+  <data name="lblMSDTCErrMsgResource1.Text" xml:space="preserve">
+    <value> 分布式交易管理员 (MSDTC) 的网络访问发生错误，&lt;br/&gt;请通知系统管理员修正。</value>
+  </data>
+  <data name="RadToolBarButtonResource21.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuditorNotAuditMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMSDTCErrMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseResource1.Text" xml:space="preserve">
+    <value>结案</value>
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>btnAuditProj</value>
+  </data>
+  <data name="RadToolBarButtonResource9.Value" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="lblAuditMsgResource1.Text" xml:space="preserve">
+    <value>选择确定后该项目将立即送审，请问您是否确实要继续？</value>
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>sep6</value>
+  </data>
+  <data name="RadToolBarButtonResource8.Value" xml:space="preserve">
+    <value>sep8</value>
+  </data>
+  <data name="lblStartTaskNoDateMsgResource1.Text" xml:space="preserve">
+    <value>该项目有未设置日期的任务，不允许起动！</value>
+  </data>
+  <data name="lblStartNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.Value" xml:space="preserve">
+    <value>sep3</value>
+  </data>
+  <data name="lblAuditNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditorNotStartMsgResource1.Text" xml:space="preserve">
+    <value>该项目已设置审核者，不允许直接起动！</value>
+  </data>
+  <data name="lblDeleteMsgResource1.Text" xml:space="preserve">
+    <value>选择确定后该项目将立即删除，包含该项目的所有相关数据将一并被删除，请问您是否确实要继续？</value>
+  </data>
+  <data name="RadToolBarButtonResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTaskNoDateMsgResource1.Text" xml:space="preserve">
+    <value>该项目有未设置日期的任务，不允许送审！</value>
+  </data>
+  <data name="lblAuditNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>{0}状态的项目不允许被送审！</value>
+  </data>
+  <data name="lblAuditStatusResource1.Text" xml:space="preserve">
+    <value>审核中</value>
+  </data>
+  <data name="lblStartMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseUnCompleteMsgResource1.Text" xml:space="preserve">
+    <value>该项目的任务项目尚未全部完成，不允许被结案！</value>
+  </data>
+  <data name="lblNoAuditorNotAuditMsgResource1.Text" xml:space="preserve">
+    <value>该项目没有设置审核者，不允许送审！</value>
+  </data>
+  <data name="lblNotYetBeginStatusResource1.Text" xml:space="preserve">
+    <value>尚未开始</value>
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTaskNoDateMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjStartMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditNoTaskMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource12.Value" xml:space="preserve">
+    <value>sep2</value>
+  </data>
+  <data name="RadToolBarButtonResource12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteResource1.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RadToolBarButtonResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource8.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource18.Value" xml:space="preserve">
+    <value>sep4</value>
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>btnCreate</value>
+  </data>
+  <data name="RadToolBarButtonResource13.Value" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="RadToolBarButtonResource10.Value" xml:space="preserve">
+    <value>sep1</value>
+  </data>
+  <data name="RadToolBarButtonResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartProjIncompleteMsgResource1.Text" xml:space="preserve">
+    <value>该项目没有预计时程，不允许被起动！</value>
+  </data>
+  <data name="RadToolBarButtonResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotYetBeginStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有退出该项目的权限！</value>
+  </data>
+  <data name="lblAuditMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseMsgResource1.Text" xml:space="preserve">
+    <value>选择确定后该项目将立即结案，请问您是否确实要继续？</value>
+  </data>
+  <data name="RadToolBarButtonResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCloseMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjAuditMsgResource1.Text" xml:space="preserve">
+    <value>项目送审</value>
+  </data>
+  <data name="RadToolBarButtonResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource18.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource11.Value" xml:space="preserve">
+    <value>btnSuspend</value>
+  </data>
+</root>

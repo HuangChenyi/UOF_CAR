@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CustomValidatorCustSiteResource1.ErrorMessage" xml:space="preserve">
+    <value>Next stop is a Customized Stop.  Please define Customized Flow first.</value>
+  </data>
+  <data name="CustomValidatorCustSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorCustSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.ErrorMessage" xml:space="preserve">
+    <value>Next stop is a Selection Stop.  Please define Selection Flow first.</value>
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidatorGroupSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Interval of approval notice</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Send to next Stop automatically</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbeAgentMsgResource1.Text" xml:space="preserve">
+    <value>下列人員有啟動代理設定，但系統找不到他的代理人，表單將只會送給原簽核者!</value>
+  </data>
+  <data name="lbeAgentMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertHeadResource1.Text" xml:space="preserve">
+    <value>Notify</value>
+  </data>
+  <data name="lblAlertHeadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlertSendByExceptResource1.Text" xml:space="preserve">
+    <value>"Abnormal send" selected, form will be send to administrator for conversion to free flow sending.  Please confirm.</value>
+  </data>
+  <data name="lblAlertSendByExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAndResource1.Text" xml:space="preserve">
+    <value>Multi-and approval</value>
+  </data>
+  <data name="lblAndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAssignAbleSiteResource1.Text" xml:space="preserve">
+    <value>Next stop is [specified stop].  Please set up stop information and send!&lt;br&gt;</value>
+  </data>
+  <data name="lblAssignAbleSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoSignMemoResource1.Text" xml:space="preserve">
+    <value>(0 for null)</value>
+  </data>
+  <data name="lblAutoSignMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleAlertMemoResource1.Text" xml:space="preserve">
+    <value>(0 for null)</value>
+  </data>
+  <data name="lblCycleAlertMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndSiteMsgResource1.Text" xml:space="preserve">
+    <value>Can’t find next stop!  This member is the last stop, click SEND to closure!</value>
+  </data>
+  <data name="lblEndSiteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEroMsgCondExecResource1.Text" xml:space="preserve">
+    <value>Abnormal conditions</value>
+  </data>
+  <data name="lblEroMsgCondExecResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptionResource1.Text" xml:space="preserve">
+    <value>Abnormal sent</value>
+  </data>
+  <data name="lblExceptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExternalAccountNotExistMsgResource1.Text" xml:space="preserve">
+    <value>Next stop is [App stop], ID in returned XML file is not existed in UOF system, please contact administrator!&lt;br&gt;</value>
+  </data>
+  <data name="lblExternalAccountNotExistMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExternalDllFormatErrorMsgResource1.Text" xml:space="preserve">
+    <value>Next stop is [App stop], returned XML file format error, please contact administrator!&lt;br&gt;</value>
+  </data>
+  <data name="lblExternalDllFormatErrorMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormNumResource1.Text" xml:space="preserve">
+    <value>Form No. is:</value>
+  </data>
+  <data name="lblFormNumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFreeSiteResource1.Text" xml:space="preserve">
+    <value>Next stop is [free flow stop].  Please setup stop information and send!&lt;br&gt;</value>
+  </data>
+  <data name="lblFreeSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralResource1.Text" xml:space="preserve">
+    <value>ပုံမှန်</value>
+  </data>
+  <data name="lblGeneralResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGeneralSiteResource1.Text" xml:space="preserve">
+    <value>ပုံမှန် ရပ်တန့်ခြင်း</value>
+  </data>
+  <data name="lblGeneralSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHourResource1.Text" xml:space="preserve">
+    <value>နာရီ (အချိန်)</value>
+  </data>
+  <data name="lblHourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsEndSiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsEndSiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsModifyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsModifyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJobTitleMsgResource1.Text" xml:space="preserve">
+    <value>No Position set, cannot find node!</value>
+  </data>
+  <data name="lblJobTitleMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJumpResource1.Text" xml:space="preserve">
+    <value>Skip stop</value>
+  </data>
+  <data name="lblJumpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgConditionExceptResource1.Text" xml:space="preserve">
+    <value>Abnormal flow conditions, cannot retrieve next stop’s correct information.  Please modify form or click on "abnormal send" for administrator to convert the form for free flow sending!  &lt;br&gt;</value>
+  </data>
+  <data name="lblMsgConditionExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNextSiteInfoResource1.Text" xml:space="preserve">
+    <value>Next stop information</value>
+  </data>
+  <data name="lblNextSiteInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthResource1.Text" xml:space="preserve">
+    <value>無權限處理或觀看此表單</value>
+  </data>
+  <data name="lblNoSignerMsgResource1.Text" xml:space="preserve">
+    <value>Must have at least 1 approver to proceed to next stop.</value>
+  </data>
+  <data name="lblNoSignerMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotifyAdminResource1.Text" xml:space="preserve">
+    <value>Notify administrator</value>
+  </data>
+  <data name="lblNotifyAdminResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrResource1.Text" xml:space="preserve">
+    <value>Multi-or approval</value>
+  </data>
+  <data name="lblOrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReturnTxtResource1.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblReturnTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendMsgResource1.Text" xml:space="preserve">
+    <value>The form {0} has been created</value>
+  </data>
+  <data name="lblSendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSendResource1.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="lblSendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignerHeadResource1.Text" xml:space="preserve">
+    <value>Approval</value>
+  </data>
+  <data name="lblSignerHeadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignerSuspendedResource1.Text" xml:space="preserve">
+    <value>下一站簽核者帳號已被停用，表單送出後系統會同步通知管理員進行表單指定簽核，以避免影響簽核時效性。</value>
+  </data>
+  <data name="lblSignTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSignTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteExceptMsg1Resource1.Text" xml:space="preserve">
+    <value>Stop abnormality:  Normal approval can only have one approver.</value>
+  </data>
+  <data name="lblSiteExceptMsg1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteExceptMsg2Resource1.Text" xml:space="preserve">
+    <value>Stop abnormality:  Cannot find any approver.</value>
+  </data>
+  <data name="lblSiteExceptMsg2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteGeneralMsgResource1.Text" xml:space="preserve">
+    <value>Normal stop does not allow for multi approval.  Please modify next stop’s information or contact administrator to modify flow!&lt;br&gt;</value>
+  </data>
+  <data name="lblSiteGeneralMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteKindResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteKindResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubmitTxtResource1.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="lblSubmitTxtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeOutCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeOutCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeoutMemoResource1.Text" xml:space="preserve">
+    <value>(0 for null)</value>
+  </data>
+  <data name="lblTimeoutMemoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleSignKingResource1.Text" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="lblTitleSignKingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleTimeOutCountResource1.Text" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="lblTitleTimeOutCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>ပုံမှန်</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Multi-or approval</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>Multi-and approval</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value>sShowFlow</value>
+  </data>
+  <data name="RadToolBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource2.Value" xml:space="preserve">
+    <value>sCustSite</value>
+  </data>
+  <data name="RadToolBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource3.Value" xml:space="preserve">
+    <value>sGroupSite</value>
+  </data>
+  <data name="RangeValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Integer must be between 0-1000</value>
+  </data>
+  <data name="RangeValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblSignTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Text" xml:space="preserve">
+    <value>လုပ်ငန်းစဉ် မြင်ကွင်း</value>
+  </data>
+  <data name="TBarButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource2.Value" xml:space="preserve">
+    <value>ShowFlow</value>
+  </data>
+  <data name="TBarButtonResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Text" xml:space="preserve">
+    <value>Define Customized Flow</value>
+  </data>
+  <data name="TBarButtonResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource3.Value" xml:space="preserve">
+    <value>CustSite</value>
+  </data>
+  <data name="TBarButtonResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Text" xml:space="preserve">
+    <value>Define Selection Flow</value>
+  </data>
+  <data name="TBarButtonResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBarButtonResource4.Value" xml:space="preserve">
+    <value>GroupSite</value>
+  </data>
+  <data name="tbTimeoutCountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbTimeoutCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTimeoutCountResource2.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTimeoutCountResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAutoSignResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAutoSignResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleAlertResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycleAlertResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UltraWebToolbar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

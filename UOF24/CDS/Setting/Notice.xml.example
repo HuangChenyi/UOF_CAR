@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+使用說明:
+<Notices>
+  <notice id="DMSDocAction">
+    <culture name="en-us">ActionCDS</culture>
+    <culture name="zh-tw">動作CDS</culture>
+    <culture name="zh-cn">动作CDS</culture>
+    <culture name="vi">Hoạt động</culture>
+  </notice>
+</Notices>
+
+id : ResourceLibrary 的Key值
+
+-->
+
+<Notices>
+  
+</Notices>

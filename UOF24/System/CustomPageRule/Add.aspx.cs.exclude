@@ -1,0 +1,208 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using Ede.Uof.EIP.SystemInfo;
+using Ede.Uof.Utility.Page.Common;
+using Ede.Uof.Utility.Provider;
+
+public partial class System_CustomHomepage_Add : Ede.Uof.Utility.Page.BasePage
+{
+    CustomPageRule _pageRule = new CustomPageRule();
+    CustomPageRuleDataSet _pageRuleDs;
+    CustomPageRuleDataSet.CustomPageControlDataTable _pageControlDt;
+    CustomControls _controls = new CustomControls();
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        ((Master_DialogMasterPage)Master).Button1OnClick += new Master_DialogMasterPage.ButtonOnClickHandler(System_CustomHomepage_Add_Button1OnClick);
+        ((Master_DialogMasterPage)Master).Button2OnClick += new Master_DialogMasterPage.ButtonOnClickHandler(System_CustomHomepage_Add_Button2OnClick);
+        if (!IsPostBack)
+        {
+            InitControlGrid();
+            if (!string.IsNullOrEmpty(Request.QueryString["ruleGUID"]))
+            {
+                ((Master_DialogMasterPage)Master).Button2Text = string.Empty;
+                string ruleID = (string)Request.QueryString["ruleGUID"];
+                BindRuleData(ruleID);
+            }
+            else
+            { InitFormData(); }
+
+
+        }
+    }
+
+    /// <summary>
+    /// 取得所有可用面版資料
+    /// </summary>
+    private void InitControlGrid()
+    {
+        if (!string.IsNullOrEmpty(Request.QueryString["ruleGUID"]))
+            _pageControlDt = _pageRule.GetRuleControl((string)Request.QueryString["ruleGUID"]);
+
+        string culture = Current.Culture;
+        DataTable dt = new DataTable();
+        dt.Columns.Add("ControlPath", typeof(string));
+        dt.Columns.Add("Title", typeof(string));
+        DataColumn[] keys = { dt.Columns[0]};
+        dt.PrimaryKey = keys;
+        for (int i = 0; i < _controls.Count; i++)
+        {
+            DataRow dr = dt.NewRow();
+            dr[0] = _controls[i].ControlPath;
+            if (_controls[i].Resources[culture] != null)
+                dr[1] = _controls[i].Resources[culture].Value;
+            else
+                dr[1] = _controls[i].DefaultTitle;
+            dt.Rows.Add(dr);
+        }
+        Grid1.DataSource = dt;
+        Grid1.DataBind();
+    }
+
+    /// <summary>
+    /// 確定後繼續
+    /// </summary>
+    void System_CustomHomepage_Add_Button2OnClick()
+    {
+        System_CustomHomepage_Add_Button1OnClick();
+        InitFormData();
+    }
+
+    /// <summary>
+    /// 初始化表格資料
+    /// </summary>
+    private void InitFormData()
+    {
+        txtName.Text = "";
+        UC_ChoiceList1.Clear();
+    }
+
+    /// <summary>
+    /// 確定
+    /// </summary>
+    void System_CustomHomepage_Add_Button1OnClick()
+    {
+        bool update = false;
+        if (string.IsNullOrEmpty(Request.QueryString["ruleGUID"]))
+        {//新增
+            _pageRuleDs = new CustomPageRuleDataSet();
+            CustomPageRuleDataSet.CustomPageRuleRow ruleRow = _pageRuleDs.CustomPageRule.NewCustomPageRuleRow();
+            string ruleID = Guid.NewGuid().ToString();
+            ruleRow.RULE_GUID = ruleID;
+            SetCustomPageRuleDataRow(ref ruleRow);
+            _pageRuleDs.CustomPageRule.AddCustomPageRuleRow(ruleRow);
+
+            foreach (GridViewRow gRow in Grid1.Rows)
+            {
+                CheckBox cbAllowAccess = (CheckBox)gRow.Cells[2].FindControl("cbAllowAccess");
+                CheckBox cbAllowClose = (CheckBox)gRow.Cells[3].FindControl("cbAllowClose");
+
+                if (cbAllowAccess !=null && cbAllowClose !=null && cbAllowAccess.Checked)
+                {
+                    CustomPageRuleDataSet.CustomPageControlRow controlRow = _pageRuleDs.CustomPageControl.NewCustomPageControlRow();
+                    controlRow.RULE_GUID = ruleID;
+                    controlRow.CONTROL_PATH = (string)Grid1.DataKeys[gRow.DataItemIndex].Value;
+                    controlRow.ALLOW_CLOSE = cbAllowClose.Checked;
+                    _pageRuleDs.CustomPageControl.AddCustomPageControlRow(controlRow);
+                }
+            }
+            _pageRule.CreateCustomPageRule(_pageRuleDs);
+            update = true;
+        }
+        else
+        {//修改
+            _pageRuleDs = _pageRule.GetSingleCustomPageRule((string)Request.QueryString["ruleGUID"]);
+            CustomPageRuleDataSet.CustomPageRuleRow ruleRow = _pageRuleDs.CustomPageRule.FindByRULE_GUID((string)Request.QueryString["ruleGUID"]);
+            if(ruleRow != null)
+            {
+                SetCustomPageRuleDataRow(ref ruleRow);
+
+                foreach (GridViewRow gRow in Grid1.Rows)
+                {
+                    string controlPath = (string)Grid1.DataKeys[gRow.DataItemIndex].Value;
+                    CustomPageRuleDataSet.CustomPageControlRow controlRow =
+                        _pageRuleDs.CustomPageControl.FindByRULE_GUIDCONTROL_PATH(ruleRow.RULE_GUID, controlPath);
+
+                    CheckBox cbAllowAccess = (CheckBox)gRow.Cells[2].FindControl("cbAllowAccess");
+                    CheckBox cbAllowClose = (CheckBox)gRow.Cells[3].FindControl("cbAllowClose");
+
+                    if (cbAllowAccess.Checked && controlRow == null)
+                    {
+                        controlRow = _pageRuleDs.CustomPageControl.NewCustomPageControlRow();
+                        controlRow.RULE_GUID = ruleRow.RULE_GUID;
+                        controlRow.CONTROL_PATH = controlPath;
+                        controlRow.ALLOW_CLOSE = cbAllowClose.Checked;
+                        _pageRuleDs.CustomPageControl.AddCustomPageControlRow(controlRow);
+                    }
+                    else if (!cbAllowAccess.Checked && controlRow != null)
+                    {
+                        controlRow.Delete();
+                    }
+                    else if (cbAllowAccess.Checked && controlRow != null)
+                    {
+                        controlRow.ALLOW_CLOSE = cbAllowClose.Checked;
+                    }
+                }
+            }
+            _pageRule.ChangeCustomPageRule(_pageRuleDs);
+            update = true;
+        }
+
+        if (update)
+            Dialog.SetReturnValue("NeedPostBack");
+    }
+
+    /// <summary>
+    /// 設定自訂規則DataRow
+    /// </summary>
+    /// <param name="ruleRow"></param>
+    private void SetCustomPageRuleDataRow(ref CustomPageRuleDataSet.CustomPageRuleRow ruleRow)
+    {
+        ruleRow.RULE_NAME = txtName.Text;
+        ruleRow.USER_SET = UC_ChoiceList1.XML;
+        ruleRow.LAST_UPDATE_USER = User.Identity.Name;
+        ruleRow.LAST_UPDATE_TIME = DateTime.Now;
+    }
+
+    private void BindRuleData(string ruleID)
+    {
+        _pageRuleDs = _pageRule.GetSingleCustomPageRule(ruleID);
+        CustomPageRuleDataSet.CustomPageRuleRow pageRuleDr = _pageRuleDs.CustomPageRule.FindByRULE_GUID(ruleID);
+        if (pageRuleDr != null)
+        {
+            txtName.Text = pageRuleDr.RULE_NAME;
+            UC_ChoiceList1.XML = pageRuleDr.USER_SET;
+            UC_ChoiceList1.treeList_Bind();
+        }
+    }
+    protected void Grid1_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if (string.IsNullOrEmpty(Request.QueryString["ruleGUID"]) || _pageControlDt == null)
+            return;
+
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            DataRowView gRow = (DataRowView)e.Row.DataItem;
+            string controlPath = (string)Grid1.DataKeys[e.Row.RowIndex].Value;
+            CustomPageRuleDataSet.CustomPageControlRow ctrRow =
+                _pageControlDt.FindByRULE_GUIDCONTROL_PATH((string)Request.QueryString["ruleGUID"], controlPath);
+            if (ctrRow != null)
+            {
+                CheckBox cbAllowAccess = (CheckBox)e.Row.Cells[2].FindControl("cbAllowAccess");
+                if(cbAllowAccess!=null) cbAllowAccess.Checked = true;
+
+                CheckBox cbAllowClose = (CheckBox)e.Row.Cells[3].FindControl("cbAllowClose");
+                if (cbAllowClose != null ) cbAllowClose.Checked = ctrRow.ALLOW_CLOSE;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nodes>
+  <node id="" title="Personal information" url="en-Us/pip_00.htm">
+    <node id="Homepage" title="My home page" url="en-Us/pip_01.htm" />
+    <node id="Homepage/PersonalInformation" title="Personal setup" url="en-Us/pip_02.htm" />
+    <node id="Homepage/PrivateMessage" title="Private message" url="en-Us/pip_03.htm" />
+    <node id="" title="Calendar" url="en-Us/calendar_00.htm" >
+      <node id="Homepage/Calendar" title="How to set up and modify work items" url="en-Us/calendar_01.htm" />
+      <node id="Homepage/Calendar" title="Report history on task progress" url="en-Us/calendar_02.htm" />
+      <node id="Homepage/Calendar" title="Set up personal memo" url="en-Us/calendar_03.htm" />
+      <node id="Homepage/Calendar" title="How to call for a meeting" url="en-Us/calendar_04.htm" />
+      <node id="Homepage/Calendar" title="Meeting minutes: And transfer the meeting results into assigned task" url="en-Us/calendar_05.htm" />
+      <node id="Homepage/Calendar" title="Routine Meeting" url="en-Us/calendar_14.htm" />
+      <node id="Homepage/Calendar" title="Reply to participate in the meeting or not" url="en-Us/calendar_06.htm" />
+      <node id="Homepage/Calendar" title="Set up personal holiday" url="en-Us/calendar_07.htm" />
+      <node id="Homepage/Calendar" title="Loan the facility from the company" url="en-Us/calendar_08.htm" />
+      <node id="Homepage/Calendar" title="How to assign task to subordinate or colleague" url="en-Us/calendar_09.htm" />
+      <node id="Homepage/Calendar" title="Organization Calendar" url="en-Us/calendar_10.htm" />
+      <node id="Homepage/Calendar" title="Progress search of task request" url="en-Us/calendar_11.htm" />
+      <node id="Homepage/Calendar" title="Maintain category" url="en-Us/calendar_12.htm" />
+      <node id="Homepage/Calendar" title="Examine other’s schedule" url="en-Us/calendar_13.htm" />
+    </node>
+    <node id="Homepage/Briefcase" title="Briefcase" url="en-Us/pip_04.htm" />
+    <node id="Homepage/AddressBook" title="Address book" url="en-Us/pip_05.htm" />
+    <node id="Homepage/SiteSearch" title="Search within the site in UOF" url="en-Us/pip_07.htm" />
+
+  </node>
+
+  <node id="" title="Portal">
+    <node id="" title="Bulletin" url="en-Us/bulletin_00.htm">
+      <node id="Homepage/Portal/Bulletin/BrowseBulletin" title="How to browse and subscribe the notification " url="en-Us/bulletin_01.htm" />
+      <node id="Homepage/Portal/Bulletin/BrowseBulletin" title="Notification management" url="en-Us/bulletin_03.htm" />
+      <node id="Homepage/Portal/Bulletin/BrowseBulletin" title="How to release notification" url="en-Us/bulletin_02.htm" />
+      <node id="Homepage/Portal/Bulletin/UserReadBulletin" title="How to search the view record of the bulletin" url="en-Us/bulletin_04.htm" />
+      <node id="Homepage/Portal/Bulletin/BulletinExamine" title="How to release the notification which need audit" url="en-Us/bulletin_05.htm" />
+    </node>
+    
+    <node id="" title="Forums" url="en-Us/qa_00.htm" >
+      <node id="" title="Enter forum" url="en-Us/qa_00_1.htm">
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="Method for the user to read the discussion subjects" url="en-Us/qa_08.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="Add and modify discussion topic article" url="en-Us/qa_02.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="Replying discussion subject" url="en-Us/qa_03.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="Recommend discussion subject or article" url="en-Us/qa_04.htm" />
+        <node id="Homepage/Portal/Forum/ForumBrowseArticle" title="Method for searching discussion subject" url="en-Us/qa_05.htm" />
+      </node>
+      
+      <node id="" title="Management on forum: Forum setting" url="en-Us/qa_00_2.htm">
+        <node id="Homepage/Portal/Forum/BoardSetting" title="Management on forum" url="en-Us/qa_01.htm" />
+        <node id="Homepage/Portal/Forum/BoardSetting" title="What kinds of authorities owned by section manager?" url="en-Us/qa_06.htm" />
+        <node id="Homepage/Portal/Forum/BoardSetting" title="What are the authorities owned by board manager?" url="en-Us/qa_07.htm" />
+      </node>
+      
+      <node id="Homepage/Portal/Forum/ForumEssenceSetting" title="Setting method for “digest” area" url="en-Us/qa_09.htm" />      
+    </node>
+
+    <node id="" title="Booking management" url="en-Us/plant_00.htm" >
+      <node id="Homepage/Portal/Plant/BorrowManagement" title="Loan management" url="en-Us/plant_02.htm" />
+      <node id="Homepage/Portal/Plant/PlantManagement" title="Resource management" url="en-Us/plant_01.htm" />
+      <node id="Homepage/Portal/Plant/BorwseBorrowRecord" title="Search the Loan Records" url="en-Us/plant_03.htm" />
+    </node>
+
+    <node id="" title="Questionnaire survey" url="en-Us/que_00.htm">
+      <node id="" title="Questionnaire survey">
+        <node id="Homepage/Portal/QUE/QUEAuthority" title="How to set authorizations of different roles" url="en-Us/QUE_A00.htm" />
+        <node id="Homepage/Portal/QUE/QUEProperty" title="Attribute maintenance" url="en-Us/QUE_B00.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="Questionnaire category maintenance" url="en-Us/QUE_C00.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="How to search questionnaire" url="en-Us/QUE_D00.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="How to set up questionnaire" url="en-Us/QUE_D01.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="How to modify the questionnaire" url="en-Us/QUE_D04.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="How to activate, stop and end questionnaire survey" url="en-Us/QUE_D02.htm" />
+        <node id="Homepage/Portal/QUE/QUEDesignFunc" title="How to delete questionnaire" url="en-Us/QUE_D03.htm" />
+      </node>
+      <node id="" title="Personal">
+        <node id="Homepage/Portal/QUE/QUEFillOut" title="Personal questionnaire list" url="en-Us/QUE_E00.htm" />
+        <node id="Homepage/Portal/QUE/QUEReport" title="Statistics" url="en-Us/QUE_E01.htm" />
+      </node>
+    </node>
+
+    <node id="" title="Album and video"  url="en-Us/onlinelook.htm" >
+      <node id="Homepage/Portal/OMS/QueryOnlineLook"   title="Online View"  url="en-Us/onlinelook03.htm" />
+      <node id="Homepage/Portal/OMS/AlbumView" title="Album view" url="en-Us/album_02.htm" />
+      <node id="Homepage/Portal/OMS/OnlineLookMA" title="Maintain video" url="en-Us/onlinelook01.htm" />
+      <node id="Homepage/Portal/OMS/OnlineLookMA" title="New and delete video" url="en-Us/onlinelook02.htm" />
+      <node id="Homepage/Portal/OMS/AlbumMaintain" title="Maintain album" url="en-Us/album_01.htm" />
+    </node>
+
+    <node id="" title="SMS" url="en-Us/message_00.htm">
+      <node id="Homepage/Portal/SMSService/SMSConfig" title="SMS management" url="en-Us/message_01.htm" />
+      <node id="Homepage/Portal/SMSService/SMSSend" title="Send SMS" url="en-Us/message_02.htm" />
+      <node id="Homepage/Portal/SMSService/SMSQuery" title="SMS query" url="en-Us/message_03.htm" />
+      <node id="Homepage/Portal/SMSService/SMSBirthdaySend" title="SMS for Birthday" url="en-Us/message_04.htm" />
+    </node>
+
+    <node id="" title="Other Managements" >
+      <node id="Homepage/Portal/OthersManage/OrganizationCalendar" title="Organization calendar" url="en-Us/sys_04.htm" />
+      <node id="Homepage/Portal/OthersManage/SystemSlogan" title="Maintain Motto" url="en-Us/quo_01.htm" />
+      <node id="Homepage/Portal/OthersManage/ChatRecordQuery" title="Chat history" url="en-Us/chatrecord_01.htm" />
+      <node id="Homepage/Portal/OthersManage/CalendarWorkClassMaintain" title="Maintain task type" url="en-Us/calendar_15.htm" />
+      <node id="Homepage/Portal/OthersManage/PersonalCollection" title="Personal collection" url="en-Us/collection_01.htm" />
+      <node id="Homepage/Portal/OthersManage/ProxyStateQuery" title="Proxy state search" url="en-Us/proxy_01.htm" />
+    </node>
+    
+  </node>
+
+  <node id="" title="BPM" url="en-Us/wkf_00.htm" > 
+
+    <node id="" title="Design" >
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="How to manage form category" url="en-Us/wkf_a01.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Set up a new form" url="en-Us/wkf_a02.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Import and export the form" url="en-Us/wkf_a12.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Use form template to set up new form" url="en-Us/wkf_a13.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Form field design" url="en-Us/wkf_a03.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Condition Setup" url="en-Us/wkf_a04.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Form start up and closure notice setup" url="en-Us/wkf_a09.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Flow setup" url="en-Us/wkf_a05.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Set up the release time" url="en-Us/wkf_a06.htm" />
+      <node id="Homepage/WKF/WKFDesign/WKFFormManagement" title="Mail template setup" url="en-Us/wkf_a11.htm" />
+    </node>
+    <node id="Homepage/WKF/WKFDesign/WKFFlowManagement" title="Sub-flow design" url="en-Us/wkf_b01.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFEndCallSet" title="External WS register" url="en-Us/wkf_b02.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFMailTemplate" title="Mail Template" url="en-Us/wkf_b03.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFSetTrigger" title="External DLL register" url="en-Us/wkf_b04.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFSignComment" title="Setup of standard comments" url="en-Us/wkf_c08.htm" />
+    <node id="Homepage/WKF/WKFDesign/WKFParallelManagement" title="Parallel flow design" url="en-Us/wkf_b05.htm" />
+    
+
+    <node id="" title="Approval" >
+      <node id ="Homepage/WKF/WKFPersonalForm" title="Personal form" url="en-Us/wkf_c00.htm" />
+      <node id="Homepage/WKF/WKFFormLibrary" title="Form application" url="en-Us/wkf_c01.htm" />...
+      <node id="Homepage/WKF/WKFSign/WKFToBeSignForm" title="Form waiting for approval" url="en-Us/wkf_c02.htm" />
+      <node id="Homepage/WKF/WKFSign/WKFToBeSignForm_Agent" title="Substitute of form to be approved" url="en-Us/wkf_c05.htm" />
+      <node id="Homepage/WKF/WKFGetBack" title="Retrieve unapproved form" url="en-Us/wkf_c03.htm" />
+      <node id="Homepage/WKF/WKFAgentMT" title="Setup substitute" url="en-Us/wkf_c04.htm" />...
+      <node id="Homepage/WKF/WKFSign/WKFFormLibrary" title="Set up selection flow" url="en-Us/wkf_a08.htm" />
+      <node id="Homepage/WKF/WKFCustFlow" title="Set up customized flow" url="en-Us/wkf_a07.htm" />
+      <node id="Homepage/WKF/CustSignCommentSet" title="Setup of standard comments" url="en-Us/wkf_c08.htm" />
+    </node>
+    <node id="" title="Query" >
+      <node id="Homepage/WKF/WKFQuery/WKFFormApplied" title="Applied Form" url="en-Us/wkf_d01.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormAlert" title="Search method of notified forms" url="en-Us/wkf_d02.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormQuery" title="Query on forms" url="en-Us/wkf_d03.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormSigned" title="Approval Form" url="en-Us/wkf_d03a.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFForOpinion" title="Form being inquired" url="en-Us/wkf_d04.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormAgent" title="Fill in form by others" url="en-Us/wkf_d05.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFQueryFormBySuperior" title="Query by supervisor" url="en-Us/wkf_d06.htm" />
+    </node>
+    <node id="" title="Management" >
+      <node id="Homepage/WKF/WKFManagement/WKFAuthSet" title="Authority setup" url="en-Us/wkf_e01.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFFormAdmin" title="Form Mgt." url="en-Us/wkf_e02.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFFormFiling" title="Filing query and processing" url="en-Us/wkf_e03.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFCallbackFormList" title="Feedback status query" url="en-Us/wkf_e05.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFAdminSetAgent" title="Set user's substitute" url="en-Us/wkf_e04.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFResponsibleManage" title="Form manager management" url="en-Us/wkf_e06.htm" />
+      <node id="Homepage/WKF/WKFQuery/WKFFormReaderManager" title="Form viewer query" url="en-Us/wkf_e07.htm" />
+      <node id="Homepage/WKF/WKFManagement/WKFCallDllFormList" title="Query DLL status" url="en-Us/wkf_e08.htm" />
+    </node>
+
+  </node>
+  
+  <node id="" title="System" url="en-Us/sys_00.htm">
+    <node id="" title="Organization" >       
+      <node id="Homepage/System/Organization/OrganizationBaseData" title="Basic data" url="en-Us/sys_09.htm" />
+      <node id="Homepage/System/Organization/OrganizationEmployee" title="Internal staff" url="en-Us/sys_01.htm" />
+      <node id="Homepage/System/Organization/OrganizationMember" title="External member" url="en-Us/sys_08.htm" /> 
+      <node id="Homepage/System/Organization/OrganizationUserColumn" title="Profile-field setup" url="en-Us/sys_14.htm" /> 
+      <node id="Homepage/System/Organization/OrganizationHeirarchical" title="Department staff" url="en-Us/sys_15.htm" />
+      <node id="Homepage/System/Organization/OrganizationHeirarchicalSet" title="Department administrator setup" url="en-Us/sys_16.htm" />
+      <node id="Homepage/System/Organization/OrganizationExpSusDefault" title="Expire Accounts" url="en-Us/sys_17.htm" />
+      <node id="Homepage/System/Organization/EmployeeLicenseMaintain" title="How to make personal license maintenance" url="en-Us/Duty/duty_08.htm" />
+    </node>
+    
+    <node id="" title="Configuration" >
+      <!-- <node id="Homepage/System/" title="一般快速設定" url="en-Us/.htm" />-->
+       <node id="Homepage/System/SystemConfigration/SystemConfigrationSetting" title="General setup" url="en-Us/sys_10.htm" />
+       <node id="Homepage/System/SystemConfigration/ManagerSetting" title="Administrator setup" url="en-Us/sys_02.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemLogViewer" title="View logs" url="en-Us/sys_07.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemADConfig" title="AD setup" url="en-Us/sys_05.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemCustomPageRule" title="WebPart Mgt." url="en-Us/sys_13.htm" />
+      <node id="Homepage/System/SystemConfigration/SystemZoneSetting" title="Common Homepage Setup" url="en-US/sys_19.htm" />
+       <node id="Homepage/System/SystemConfigration/SystemLoginLogManage" title="Login record management" url="en-Us/sys_06.htm" />
+     </node>
+    
+    <node id="" title="License" >
+       <node id="Homepage/System/SystemAuthorize/SystemOnlineUser" title="Check and forced logout of the online user" url="en-Us/sys_11.htm" />
+       <node id="Homepage/System/SystemAuthorize/SystemAuthorizationInfo" title="License" url="en-Us/sys_03.htm" />
+       <node id="Homepage/System/SystemAuthorize/SystemCustomMenu" title="Custom menu" url="en-Us/sys_12.htm" />
+      <node id="Homepage/System/SystemAuthorize/SystemMultiSitesMenu" title="Group menu" url="en-Us/sys_18.htm" />
+     </node>
+
+    <node id="" title="WebPhone" >
+      <node id="Homepage/System/WebPhone/WebPhoneAccountSetting" title="Account Setting" url="en-Us/webphone_01.htm" />
+    </node> 
+      
+  </node>
+
+  <node id="" title="Analysis" url="en-Us/analyze_00.htm" >
+    <node id="" title="System" >
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisLoginCount" title="The last month login statistic" url="en-Us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisNotLoginUser" title="Logout user search" url="en-Us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUserPostCount" title="Announcement Publish Statistic" url="en-Us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisUseFileSizeCount" title="Briefcase capacity statistic" url="en-Us/analyze_01.htm" />
+      <node id="Homepage/Analysis/AnalysisSystemUse/AnalysisMonthMessageCount" title="Message statistics within a month" url="en-Us/analyze_01.htm" />
+    </node>
+    <node id="" title="HR analysis" >
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplEducation" title="By academic" url="en-Us/analyze_02.htm" />
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplSkill" title="By specialty" url="en-Us/analyze_02.htm" />
+      <node id="Homepage/Analysis/AnalysisHumanResource/AnalysisEmplJobTitle" title="By title" url="en-Us/analyze_02.htm" />
+    </node>   
+    <node id="" title="Forum" >
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisAllForumPostArticles" title="Thread statistic" url="en-Us/analyze_03.htm" />
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisRecentYearPostArticles" title="Thread statistic within a year" url="en-Us/analyze_03.htm" />
+      <node id="Homepage/Analysis/AnalysisForum/AnalysisForumUserInfo" title="User statistic within a month" url="en-Us/analyze_03.htm" />          
+    </node>   
+    <node id="" title="BPM" >
+      <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisCountApplyForm" title="Forum usage" url="en-Us/analyze_04.htm" />
+      <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisAvgTimeOfEndForm" title="Average closure time" url="en-Us/analyze_04.htm" />
+      <node id="Homepage/Analysis/AnalysisWorkFlow/AnalysisAvgTimeOfProcessForm" title="Average processing time" url="en-Us/analyze_04.htm" />          
+    </node>   
+    <node id="" title="DMS" >
+      <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsGrade" title="Evaluation Statistics" url="en-Us/analyze_05.htm" />
+      <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsDLNum" title="Download Statistics" url="en-Us/analyze_05.htm" />
+      <node id="Homepage/Analysis/AnalysisDMS/AnalysisDmsAuthorDocs" title="Published Doc Number" url="en-Us/analyze_05.htm" />          
+    </node>  	
+  </node>
+
+  <node id="" title="DMS">
+    <node id="" title="Document" >
+      <node id="Homepage/DMS/DMSDocStore" title="How to make directory setup and management" url="en-Us/dms_a01.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="Directory authorization level setup" url="en-Us/dms_a011.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="Approval flow setup" url="en-Us/dms_a012.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="Check the information and content of the directory" url="en-Us/dms_a013.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="Method to add new and upload document (store)" url="en-Us/dms_a02.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="How to download and score the document" url="en-Us/dms_a03.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="How to release document" url="en-Us/dms_a04.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="Query Revision history" url="en-Us/dms_a18.htm" />
+      <node id="Homepage/DMS/DMSDocStore" title="Subscribe directory or document" url="en-Us/dms_a05.htm" />
+      <node id="Homepage/DMS/DMSDocNew" title="Latest information" url="en-Us/dms_a06.htm" />
+      <node id="Homepage/DMS/DMSDocComm" title="Use and manage commonly used documents" url="en-Us/dms_a08.htm" />
+      <node id="Homepage/DMS/DMSFullSearch" title="How to find document and make full text search" url="en-Us/dms_a09.htm" />
+      <node id="Homepage/DMS/DMSDocList" title="Document detailed list" url="en-Us/dms_a07.htm" />
+    </node>
+    <node id="" title="Personal" >
+      <node id="Homepage/DMS/DMSWaitApprove" title="How to approve documents" url="en-Us/dms_b01.htm" />
+      <node id="Homepage/DMS/DMSDocLoanApprove" title="How to approve a View Request" url="en-Us/dms_b05.htm" />
+      <node id="Homepage/DMS/DMSPersonSubList" title="Subscription list management" url="en-Us/dms_b02.htm" />
+    </node>
+    <node id="" title="Search and Statistic" >
+      <node id="Homepage/DMS/DMSFullSearch" title="How to find document and make full text search" url="en-Us/dms_a09.htm" />
+      <node id="Homepage/DMS/DMSWaitApplyStatus" title="How to check publish document review progress" url="en-Us/dms_b03.htm" />
+      <node id="Homepage/DMS/DMSDocLoanStatus" title="How to check loan document review progress" url="en-Us/dms_b03.htm" />
+      <node id="Homepage/DMS/DMSLendHistory" title="How to search and check the record" url="en-Us/dms_b04.htm" />
+    </node>
+    <node id="" title="Mgt." >
+      <node id="Homepage/DMS/DMSEventLog" title="Event Logs" url="en-Us/dms_c02.htm" />
+      <node id="Homepage/DMS/DMSSysClass" title="Maintain Category" url="en-Us/dms_c01.htm" />
+      <node id="Homepage/DMS/DMSSysDocMaint" title="Maintain Document" url="en-Us/dms_c04.htm" />
+      <node id="Homepage/DMS/DMSDocLendMaintain" title="Loan Management" url="en-Us/dms_c03.htm" />
+      <node id="Homepage/DMS/DMSWKFMaintain" title="Maintain Flow" url="en-Us/dms_c07.htm" />
+      <node id="Homepage/DMS/DMSWatermark" title="PDF setup" url="en-Us/dms_c05.htm" />
+      <node id="Homepage/DMS/DMSSysDocMain" title="Import files in batch" url="en-Us/dms_c06.htm" />
+      <node id="Homepage/DMS/DMSSysCollection" title="Document forced collection" url="en-Us/dms_c08.htm" />
+      <node id="Homepage/DMS/DMSSysDocRemote" title="Query of Publishing Status to Other Server" url="en-Us/dms_c09.htm" />
+      <node id="Homepage/DMS/DMSPrintRecordSearch" title="紙本分發管制及查詢" url="en-Us/dms_c10.htm" />
+    </node>
+
+  </node>
+
+  <node id="" title="Leave" url="en-Us/Duty/duty_00.htm" >
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyPunchIPMaintain" title="How to do online Sign-in / out Mgt." url="en-Us/Duty/duty_01.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyPunchImportData" title="How to import the duty data" url="en-Us/Duty/duty_19.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyClassMaintain" title="How to do maintenance of the shift setting" url="en-Us/Duty/duty_02.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyTimeTableMaintain" title="How to maintain the work time setting" url="en-Us/Duty/duty_03.htm" />
+    <node id="" title="Configuration">
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="the leave of configuration" url="en-Us/Duty/duty_04.htm" />
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="annual leave (days) of configuration" url="en-Us/Duty/duty_05.htm" />
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="Travel Subsidy" url="en-Us/Duty/duty_25.htm" />
+      <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyConfigurationMaintain" title="parameters of configuration" url="en-Us/Duty/duty_06.htm" />
+    </node>
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyMaintainLeaveInfo" title="How to generate annual leave" url="en-Us/Duty/duty_07.htm" />    
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutySettlement" title="How to do settlement" url="en-Us/Duty/duty_09.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyAgentSetting" title="Batch Setup Substitute " url="en-Us/Duty/duty_20.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyCharityLeaveConfig" title="Community Service Event Maintain" url="en-Us/Duty/duty_22.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyScalableLeaveConfig" title="Floating Holiday Maintain" url="en-Us/Duty/duty_23.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyTourAllowanceMaintain" title="Travel Subsidy Maintain" url="en-Us/Duty/duty_24.htm" />
+    <node id="Homepage/DUTY/DutyBaseDataMaintain/DutyAllowanceMaintain" title="Allowance Maintain" url="en-Us/Duty/duty_26.htm" />
+    <node id="" title="Statistic">
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryDayRecordByManager" title="Search method of leave status by day" url="en-Us/Duty/duty_10.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryMonthDataByManager" title="Search method of leave statistics by month" url="en-Us/Duty/duty_11.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryStageDataByManager" title="Search method of leave statistics by period" url="en-Us/Duty/duty_17.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryFormByManager" title="Search method of approval statistics" url="en-Us/Duty/duty_12.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryMonthDataByUser" title="Search method of leave statistics (personal)" url="en-Us/Duty/duty_13.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryYearLeaveDays" title="Search method of annual leave (personal)" url="en-Us/Duty/duty_14.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryLeaveDays" title="Search method of leave history" url="en-Us/Duty/duty_15.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryOverTime" title="Search method of overtime history" url="en-Us/Duty/duty_16.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTravel" title="Business Travel Query" url="en-Us/Duty/duty_29.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeTableByUser" title="Work time query (personal)" url="en-Us/Duty/duty_18.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeTableByManager" title="Work time query (manager)" url="en-Us/Duty/duty_18.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryTimeOff" title="Compensatory Leave Query" url="en-Us/Duty/duty_30.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryAllLeaHours" title="Leave left Query(Admin)" url="en-Us/Duty/duty_27.htm" />
+      <node id="Homepage/DUTY/DutyStatistics/DutyQueryAllLeaHoursByUser" title="Leave left Query(Personal)" url="en-Us/Duty/duty_28.htm" />
+    </node>
+    <node id="" title="Other">
+      <node id="Homepage/DUTY/DutyOther/DutyLeaveCollective" title="Batch Leave" url="en-Us/Duty/duty_21.htm" />
+    </node>
+  </node>
+  
+  <node id="" title="Project" url="en-Us/pms_00.htm">
+    <node id="Homepage/PMS/PMSManagement/PMSMaintain" title="Project modification" url="en-Us/pms_01.htm" />
+    <node id="Homepage/PMS/PMSManagement/PMSAudit" title="Search" url="en-Us/pms_02.htm" />
+    <node id="Homepage/PMS/PMSManagement/PMSSetting" title="Setting" url="en-Us/pms_05.htm" />      
+    <node id="Homepage/PMS/PMSQuery/PMSQueryProject" title="Query" url="en-Us/pms_04.htm" />
+    <node id="Homepage/PMS/PMSQuery/PMSQueryTask" title="Query" url="en-Us/pms_04.htm" />
+    <node id="Homepage/PMS/PMSQuery/PMSLog" title="Logs" url="en-Us/pms_03.htm" />
+  </node>
+  
+  <node id="" title="Customer database" url="en-Us/customer_00.htm">
+	  <node id="" title="Management" >
+		  <node id="Homepage/CUS/CUSSys/CUSRoleManage" title="Authority setu" url="en-Us/customer_A00.htm" />
+		  <node id="Homepage/CUS/CUSSys/CUSBaseDataMaintain" title="Base data" url="en-Us/customer_B00.htm" />
+		  <node id="Homepage/CUS/CUSSys/CUSEventLogQuery" title="View logs" url="en-Us/customer_C00.htm" />
+	  </node>
+	  <node id="" title="Customer Data" >
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to add new customer data" url="en-Us/customer_E00.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to modify customer data" url="en-Us/customer_E01.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to delete customer data" url="en-Us/customer_E02.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to release customer data" url="en-Us/customer_E03.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to browse customer data" url="en-Us/customer_E08.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to set up data belonging in batch" url="en-Us/customer_E04.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to import and export customer data" url="en-Us/customer_E06.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSCustomerDataMaintain" title="How to add in and cancel common used customer" url="en-Us/customer_E05.htm" />
+	  </node>
+	  <node id="" title="Statistic" >
+		  <node id="Homepage/CUS/CUSData/CUSAdvancedQuery" title="Query customer data" url="en-Us/customer_E07.htm" />
+		  <node id="Homepage/CUS/CUSData/CUSAdvancedQuery" title="Advanced query" url="en-Us/customer_F00.htm" />
+		  <node id="Homepage/CUS/CUSStatistics/CUSDataStatisticsChart" title="Statistics" url="en-Us/customer_D00.htm" />
+		  <node id="Homepage/CUS/CUSStatistics/CUSPublishCountChart" title="Statistics" url="en-Us/customer_D00.htm" />
+	  </node>
+  </node>
+  
+</Nodes>

@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonAddDockResource1.Text" xml:space="preserve">
+    <value>Mengaktifkan</value>
+  </data>
+  <data name="ButtonAddDockResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonClearResource1.Text" xml:space="preserve">
+    <value>Memasang lagi</value>
+  </data>
+  <data name="ButtonClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CatalogZone1Resource1.AddVerb.Description" xml:space="preserve">
+    <value>Tambahkan Departemen web kedalam area</value>
+  </data>
+  <data name="CatalogZone1Resource1.AddVerb.Text" xml:space="preserve">
+    <value>Tambahkan kedalam</value>
+  </data>
+  <data name="CatalogZone1Resource1.CloseVerb.Description" xml:space="preserve">
+    <value>Tutup Direktori</value>
+  </data>
+  <data name="CatalogZone1Resource1.CloseVerb.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="CatalogZone1Resource1.EmptyZoneText" xml:space="preserve">
+    <value>Area direktori tidak memasukkan suatu bagian direktori</value>
+  </data>
+  <data name="CatalogZone1Resource1.HeaderCloseVerb.Description" xml:space="preserve">
+    <value>Tutup Bagian</value>
+  </data>
+  <data name="CatalogZone1Resource1.HeaderCloseVerb.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="CatalogZone1Resource1.HeaderText" xml:space="preserve">
+    <value>Direktori Papan Pedoman (dasbor)</value>
+  </data>
+  <data name="CatalogZone1Resource1.InstructionText" xml:space="preserve">
+    <value>Pilih direktori untuk dilihat</value>
+  </data>
+  <data name="CatalogZone1Resource1.SelectTargetZoneText" xml:space="preserve">
+    <value>Tambahkan ke:</value>
+  </data>
+  <data name="CatalogZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="centerZoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>Tugas mendatang</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>Formulir menunggu untuk disetujui</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Pengelolaan dokumen - keluaran baru</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Pengelolaan dokumen - menunggu persetujuan</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Diskusi baru</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource2.Text" xml:space="preserve">
+    <value>Daftar non-aktif</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Pemberitahuan yang tidak terbaca</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource2.Text" xml:space="preserve">
+    <value>diaktifkan ke:</value>
+  </data>
+  <data name="Label2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Suara baru</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource2.Text" xml:space="preserve">
+    <value>Gaya:</value>
+  </data>
+  <data name="Label3Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Pegawai baru</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Ini adalah ulang bulan anggota</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Rapat yang belum dijawab</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Permintaan pekerjan</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Formulir yang ditangguhkan</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>jadwal hari ini</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelPersonResource1.Text" xml:space="preserve">
+    <value>Halaman beranda pribadi</value>
+  </data>
+  <data name="LabelPersonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbConfirmResource1.Text" xml:space="preserve">
+    <value>Memasang lagi kesalahan denah?</value>
+  </data>
+  <data name="lbConfirmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesResource1.Text" xml:space="preserve">
+    <value>Tarik dan gambar untuk mengatur urutan kiri dan kanan Panel Kontrol.</value>
+  </data>
+  <data name="lblSysPanelResource1.Text" xml:space="preserve">
+    <value>Halaman beranda umum</value>
+  </data>
+  <data name="lblSysPanelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnBrowseResource1.Text" xml:space="preserve">
+    <value>Lihat-lihat</value>
+  </data>
+  <data name="lbtnBrowseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnCatalogResource1.Text" xml:space="preserve">
+    <value>Desain</value>
+  </data>
+  <data name="lbtnCatalogResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbWebPartsResource1.Localization.AllToBottom" xml:space="preserve">
+    <value>All to Bottom</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.AllToLeft" xml:space="preserve">
+    <value>All to Left</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.AllToRight" xml:space="preserve">
+    <value>All to Right</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.AllToTop" xml:space="preserve">
+    <value>All to Top</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.CheckAll" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.MoveDown" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.MoveUp" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.ToBottom" xml:space="preserve">
+    <value>To Bottom</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.ToLeft" xml:space="preserve">
+    <value>To Left</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.ToRight" xml:space="preserve">
+    <value>To Right</value>
+  </data>
+  <data name="lbWebPartsResource1.Localization.ToTop" xml:space="preserve">
+    <value>To Top</value>
+  </data>
+  <data name="lbWebPartsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="leftZoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>2 Kolom</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>3 Kolom</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Kiri</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>leftZone</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Pertengahan </value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>centerZone</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Kanan</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>rightZone</value>
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value>Denah</value>
+  </data>
+  <data name="Literal2Resource1.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="PageCatalogPart1Resource1.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageCatalogPart1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageCatalogPart1Resource1.Title" xml:space="preserve">
+    <value>Direktori</value>
+  </data>
+  <data name="PageCatalogPart1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbZoneListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbZonesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rightZoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wpZoneLeftResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Tutup '{0}'</value>
+  </data>
+  <data name="wpZoneLeftResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="wpZoneLeftResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Mengedit tautan ‘{0}’</value>
+  </data>
+  <data name="wpZoneLeftResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Tautan</value>
+  </data>
+  <data name="wpZoneLeftResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Hapus '{0}'</value>
+  </data>
+  <data name="wpZoneLeftResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="wpZoneLeftResource1.EditVerb.Description" xml:space="preserve">
+    <value>Edit ‘{0}’</value>
+  </data>
+  <data name="wpZoneLeftResource1.EditVerb.Text" xml:space="preserve">
+    <value>Mengedit</value>
+  </data>
+  <data name="wpZoneLeftResource1.EmptyZoneText" xml:space="preserve">
+    <value>Letakkan bagian dari Web disini untuk ditambahkan kedalam area ini</value>
+  </data>
+  <data name="wpZoneLeftResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Mengekspor ‘{0}’ data ke berkas XML</value>
+  </data>
+  <data name="wpZoneLeftResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Waktu kadaluarsa</value>
+  </data>
+  <data name="wpZoneLeftResource1.HeaderText" xml:space="preserve">
+    <value>Kiri</value>
+  </data>
+  <data name="wpZoneLeftResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Perlihatkan deskripsi '{0}'</value>
+  </data>
+  <data name="wpZoneLeftResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Gambaran</value>
+  </data>
+  <data name="wpZoneLeftResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wpZoneLeftResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Mengecilkan ‘{0}’</value>
+  </data>
+  <data name="wpZoneLeftResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Mengecilkan </value>
+  </data>
+  <data name="wpZoneLeftResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Simpan kembali '{0}'</value>
+  </data>
+  <data name="wpZoneLeftResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Simpan kembali</value>
+  </data>
+  <data name="wpZoneLeftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wpZoneRightResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Tutup '{0}'</value>
+  </data>
+  <data name="wpZoneRightResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="wpZoneRightResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Mengedit tautan ‘{0}’</value>
+  </data>
+  <data name="wpZoneRightResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Tautan</value>
+  </data>
+  <data name="wpZoneRightResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Hapus '{0}'</value>
+  </data>
+  <data name="wpZoneRightResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="wpZoneRightResource1.EditVerb.Description" xml:space="preserve">
+    <value>Edit ‘{0}’</value>
+  </data>
+  <data name="wpZoneRightResource1.EditVerb.Text" xml:space="preserve">
+    <value>Mengedit</value>
+  </data>
+  <data name="wpZoneRightResource1.EmptyZoneText" xml:space="preserve">
+    <value>Letakkan bagian dari Web disini untuk ditambahkan kedalam area ini</value>
+  </data>
+  <data name="wpZoneRightResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Mengekspor ‘{0}’ data ke berkas XML</value>
+  </data>
+  <data name="wpZoneRightResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Waktu kadaluarsa</value>
+  </data>
+  <data name="wpZoneRightResource1.HeaderText" xml:space="preserve">
+    <value>Kanan </value>
+  </data>
+  <data name="wpZoneRightResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Perlihatkan deskripsi '{0}'</value>
+  </data>
+  <data name="wpZoneRightResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Gambaran</value>
+  </data>
+  <data name="wpZoneRightResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wpZoneRightResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Mengecilkan ‘{0}’</value>
+  </data>
+  <data name="wpZoneRightResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Mengecilkan </value>
+  </data>
+  <data name="wpZoneRightResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Simpan kembali '{0}'</value>
+  </data>
+  <data name="wpZoneRightResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Simpan kembali</value>
+  </data>
+  <data name="wpZoneRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

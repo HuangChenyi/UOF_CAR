@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cvPMResource1.ErrorMessage" xml:space="preserve">
+    <value>请选择项目负责人</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpEndResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjNotSetMsgResource1.Text" xml:space="preserve">
+    <value>父阶段尚未设置！</value>
+  </data>
+  <data name="rdpStartResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMessageResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProceedingMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhyEndResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProjDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNoAuthorityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTrackMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvProjNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="lblExcelSeriesMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>起案日</value>
+  </data>
+  <data name="rdpStartResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>预计退出日</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="cvDateErrResource1.ErrorMessage" xml:space="preserve">
+    <value>结案日早于起案日，请重新输入</value>
+  </data>
+  <data name="lblPMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="cvNameDuplicateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTrackMsgResource1.Text" xml:space="preserve">
+    <value>查看审核历程</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>项目状态</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="lblPreMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvPMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>新建项目</value>
+  </data>
+  <data name="lblDraftMsgResource1.Text" xml:space="preserve">
+    <value>草稿</value>
+  </data>
+  <data name="lblDraftMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpStartResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelAuditorGUIDEmptyMsgResource1.Text" xml:space="preserve">
+    <value>项目审核人员帐号不存在</value>
+  </data>
+  <data name="cvPMResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvProjNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLineNumMsgResource1.Text" xml:space="preserve">
+    <value>第{0}行</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="cvNameDuplicateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisableMSDTCMsgResource1.Text" xml:space="preserve">
+    <value> 已禁用分布式交易管理员 (MSDTC) 的网络访问，&lt;br/&gt;请通知系统管理员修正。</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wdcEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="lblNoAuthorityMsgResource1.Text" xml:space="preserve">
+    <value>您没有设置该项目的权限！</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelDirectorEmptyMsgResource1.Text" xml:space="preserve">
+    <value>阶段或任务人员帐号不存在</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>创建者</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="rdpStartResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="rdpStartResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjNotSetMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>项目名称</value>
+  </data>
+  <data name="lblPhyStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>项目负责人</value>
+  </data>
+  <data name="cvMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelSeriesMsgResource1.Text" xml:space="preserve">
+    <value>未找到该任务的父阶段</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="txtProjNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="lblSuspendMsgResource1.Text" xml:space="preserve">
+    <value>已中止</value>
+  </data>
+  <data name="rdpStartResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPMResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>结案日</value>
+  </data>
+  <data name="lblFileOpenErrorMsgResource1.Text" xml:space="preserve">
+    <value>文档无法打开！</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>预计开始日</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpEndResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="lblSaveResource1.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowedStatusMsgResource1.Text" xml:space="preserve">
+    <value>该项目的状态不能被设置！</value>
+  </data>
+  <data name="txtProjDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>实际退出日</value>
+  </data>
+  <data name="rdpStartResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="lblAuditorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPreMsgResource1.Text" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="rdpStartResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="lblSelectMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvProjNameResource1.ErrorMessage" xml:space="preserve">
+    <value>请键入项目名称</value>
+  </data>
+  <data name="lblAccountErrResource1.Text" xml:space="preserve">
+    <value>(用户帐号已无效)</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="cvMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Label16Resource1.Text" xml:space="preserve">
+    <value>实际开始日</value>
+  </data>
+  <data name="lblExcelDirectorEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowedStatusMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelAuditorGUIDEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpStartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>审核者</value>
+  </data>
+  <data name="cvDateErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMSDTCErrMsgResource1.Text" xml:space="preserve">
+    <value> 分布式交易管理员 (MSDTC) 的网络访问发生错误，&lt;br/&gt;请通知系统管理员修正。</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="rdpStartResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="cvNoAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectMsgResource1.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="lblMSDTCErrMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="txtProjNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="lblCreatorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditMsgResource1.Text" xml:space="preserve">
+    <value>审核中</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProceedingMsgResource1.Text" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="lblAuditMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotYetBeginMsgResource1.Text" xml:space="preserve">
+    <value>尚未开始</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="lblLineNumMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDateErrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="rdpStartResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="rdpStartResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>项目说明</value>
+  </data>
+  <data name="lblFileOpenErrorMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotYetBeginMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNoAuthorityResource1.ErrorMessage" xml:space="preserve">
+    <value>您没有权限浏览此项目</value>
+  </data>
+  <data name="lblPhyStartResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="lblAuditorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>附件</value>
+  </data>
+  <data name="rdpEndResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="lblFileNotFoundMsgResource1.Text" xml:space="preserve">
+    <value>文档无法加载！</value>
+  </data>
+  <data name="lblExpEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>创建时间</value>
+  </data>
+  <data name="lblFileNotFoundMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelPMGUIDEmptyMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>通知类别</value>
+  </data>
+  <data name="lblCreatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNameDuplicateResource1.ErrorMessage" xml:space="preserve">
+    <value>该项目名称已经存在！</value>
+  </data>
+  <data name="rdpEndResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="lblDisableMSDTCMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="rdpStartResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="lblCloseMsgResource1.Text" xml:space="preserve">
+    <value>已结案</value>
+  </data>
+  <data name="lblCloseMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="rdpStartResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="Label16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="rdpEndResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAuthorityMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcelPMGUIDEmptyMsgResource1.Text" xml:space="preserve">
+    <value>项目负责人员帐号不存在</value>
+  </data>
+  <data name="rdpEndResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpEndResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhyEndResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdpStartResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+</root>

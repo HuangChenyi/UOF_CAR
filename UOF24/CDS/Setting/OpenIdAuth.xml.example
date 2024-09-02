@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 注意:如資料內有&符號請記得先改為&amp; -->
+<OpenIdAuth>
+  <item id ="ClientId" value=""></item>
+  <item id ="ClientSecret" value=""></item>
+  <item id ="Domain" value=""></item>
+  <item id ="TenantId" value=""></item>
+</OpenIdAuth>

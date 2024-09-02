@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <title>批次扣假</title>
+    <link href="../help.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <p><span class="title">批次扣假</span></p>
+    <p>提供管理者(系统管理者与差勤管理员)为员工进行"集体请假"，无表单，不需进行签核流程，扣假完成后员工可自行于请假记录中查询。</p>
+    <blockquote>
+        <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+            <tr>
+                <td>
+                    <img border="0" src="../images/no1.gif" width="32" height="32"></td>
+                <td>选择欲扣假的起讫时间、假别，输入扣假时(天)数与事由，并选定人员后，点按【产生扣假明细】，若验证无误，即产生一笔扣假记录，反之，会显示产生失败原因；系统会验证的规则如下：</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <table class="HelpTable"><colgroup class="HelpTableLeftTD"></colgroup>
+                        <tr>
+                            <td style="width:32px">
+                                <img src="../images/item.gif" width="32" height="32">
+                            </td>
+                            <td>必填字段不可空白</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/item.gif" width="32" height="32">
+                            </td>
+                            <td>扣假时间(讫)不能早于扣假时间(起)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/item.gif" width="32" height="32">
+                            </td>
+                            <td>无启用该假别</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/item.gif" width="32" height="32">
+                            </td>
+                            <td>XX假余额不足</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/item.gif" width="32" height="32">
+                            </td>
+                            <td>已产生过扣假信息</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/item.gif" width="32" height="32">
+                            </td>
+                            <td>扣假时间与请假/加班时间重叠</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/item.gif" width="32" height="32">
+                            </td>
+                            <td>注：当前该扣假起讫时间和时数当前仅作为记录用，运行时不与人员班表比对。</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="../images/no2.gif" width="32" height="31"></td>
+                <td>产生扣假明细后并不代表已真正扣假成功，需点按【查看明细】，于此窗口中搜索并修改人员的假别和扣假时(天)数，或勾选人员进行删除，亦可点按[Export]钮导出Excel档的批次扣假数据明细。在确认扣假数据皆正确后，按下【确定扣假】，系统验证无误，才是真正完成批次扣假。</td>
+            </tr>
+            <tr>
+                <td>
+                    <img border="0" src="../images/no3.gif" width="32" height="31"></td>
+                <td>修改后按下【确定】及【确定扣假】钮时，皆会进行批次扣假相关验证。</td>
+            </tr>
+             <tr>
+                <td>
+                    <img border="0" src="../images/no4.gif" width="32" height="31"></td>
+                <td>此处人员的勾选是用在【删除】，不是【确定扣假】，按下【确定扣假】后是"所有人员"皆同步扣假，不论是否勾选。</td>
+            </tr>
+             <tr>
+                <td>
+                    <img border="0" src="../images/no5.gif" width="32" height="31"></td>
+                <td>确定扣假后，无法再修改数据，若管理者发现数据有误，仍可删除再重新产生；删除后，用户请假记录查询中该笔的单据状态会显示"作废"。</td>
+            </tr>
+        </table>
+    </blockquote>
+
+
+
+    <hr>
+</body>
+
+</html>

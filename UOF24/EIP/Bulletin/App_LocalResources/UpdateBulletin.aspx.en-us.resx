@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Approval time</value>
+  </data>
+  <data name="btnSetupResource1.Text" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="btnSetupResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbDeleteExternalResource1.Text" xml:space="preserve">
+    <value>Delete Notification Copy simultaneously</value>
+  </data>
+  <data name="cbOuterBulletinReaderResource1.Text" xml:space="preserve">
+    <value>Display in internal Bulletin simultaneously</value>
+  </data>
+  <data name="cbPrintResource1.Text" xml:space="preserve">
+    <value>Members who can print</value>
+  </data>
+  <data name="cbPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbPublishExternalResource1.Text" xml:space="preserve">
+    <value>Copy Notification to External Bulletin</value>
+  </data>
+  <data name="cbShowExternalReaderResource1.Text" xml:space="preserve">
+    <value>Display on Announcement</value>
+  </data>
+  <data name="cbShowExternalReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbShowReaderResource1.Text" xml:space="preserve">
+    <value>Display on Announcement</value>
+  </data>
+  <data name="cbShowReaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chbUndisplayAttachmentResource1.Text" xml:space="preserve">
+    <value>Hide attachment</value>
+  </data>
+  <data name="chbUndisplayAttachmentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ckMarkqueeResource1.Text" xml:space="preserve">
+    <value>Display on News Ticker</value>
+  </data>
+  <data name="ckMarkqueeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>No authority to modify</value>
+  </data>
+  <data name="CustomValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter date</value>
+  </data>
+  <data name="CustomValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>Select released to</value>
+  </data>
+  <data name="CustomValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>No authority to browse</value>
+  </data>
+  <data name="CustomValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>Select member</value>
+  </data>
+  <data name="CustomValidator5Resource2.ErrorMessage" xml:space="preserve">
+    <value>Select members who can print out</value>
+  </data>
+  <data name="CustomValidator5Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator5Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CustomValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>Select External Category</value>
+  </data>
+  <data name="cvExternalIsNotAuthResource1.ErrorMessage" xml:space="preserve">
+    <value>Not authorized to modify External Category</value>
+  </data>
+  <data name="cvExternalNoAuthResource1.ErrorMessage" xml:space="preserve">
+    <value>Not authorized in selected External Category, please select others</value>
+  </data>
+  <data name="cvNotLaterThenPublishResource1.ErrorMessage" xml:space="preserve">
+    <value>Off-shelf Time should be later than On-shelf</value>
+  </data>
+  <data name="cvSameDateResource1.ErrorMessage" xml:space="preserve">
+    <value>On-shelf date should not  be earlier than today</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>Messages in Bulletin will follow the rules in &lt;General Setup&gt; if this items is not checked.</value>
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>(All members can print out if this item is not selected)</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12Resource1.Text" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="Label12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>Released Department</value>
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>Release of External Bulletin</value>
+  </data>
+  <data name="Label15Resource2.Text" xml:space="preserve">
+    <value>Print setup of External Bulletin</value>
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>External Member</value>
+  </data>
+  <data name="Label19Resource1.Text" xml:space="preserve">
+    <value>On-shelf</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Posted by</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Topic</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Off-shelf</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Released to</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Printing control</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLannouncerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLannouncerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbIsDeleteOuterResource1.Text" xml:space="preserve">
+    <value>Delete External Notification simultaneously</value>
+  </data>
+  <data name="lblBtnTitleResource1.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="lblBtnTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLclassResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LBLclassResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExternalMsgResource1.Text" xml:space="preserve">
+    <value>Notice of External Notification Released</value>
+  </data>
+  <data name="lblExternalMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsApproveResource1.Text" xml:space="preserve">
+    <value>External Notification is in approval, it will only update Internal Notification</value>
+  </data>
+  <data name="lblMarqueeResource1.Text" xml:space="preserve">
+    <value>News Ticker</value>
+  </data>
+  <data name="lblMarqueeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgDenyResource1.Text" xml:space="preserve">
+    <value>Release Reject</value>
+  </data>
+  <data name="lblMsgDenyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgModifyResource1.Text" xml:space="preserve">
+    <value>※sending when changing class,topic, content, attachments</value>
+  </data>
+  <data name="lblMsgProcessResource1.Text" xml:space="preserve">
+    <value>Approval in process</value>
+  </data>
+  <data name="lblMsgProcessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgPulishResource1.Text" xml:space="preserve">
+    <value>Release Agree</value>
+  </data>
+  <data name="lblMsgPulishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPublishMsgResource1.Text" xml:space="preserve">
+    <value>Release after audit</value>
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyncMSGResource1.Text" xml:space="preserve">
+    <value>Released Notice</value>
+  </data>
+  <data name="lblSyncMSGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSystemMsgResource1.Text" xml:space="preserve">
+    <value>Direct release by system</value>
+  </data>
+  <data name="lblTitlaDeleteAndExternalResource1.Text" xml:space="preserve">
+    <value>Delete(Including external notification)</value>
+  </data>
+  <data name="lblUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtnExternalLinKResource1.Text" xml:space="preserve">
+    <value>View External Bulletin</value>
+  </data>
+  <data name="logGridResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="logGridResource1.EmptyDataText" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="logGridResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgDelconfirmResource1.Text" xml:space="preserve">
+    <value>Confirm to delete?</value>
+  </data>
+  <data name="msgDelconfirmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msnDeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="msnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Modify notification</value>
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton1Resource1.Text" xml:space="preserve">
+    <value>Never off shelf</value>
+  </data>
+  <data name="RadioButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioButton2Resource1.Text" xml:space="preserve">
+    <value>Off-shelf Time</value>
+  </data>
+  <data name="RadioButton2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadTabStrip1Tab1Resource1.Text" xml:space="preserve">
+    <value>Basic setup</value>
+  </data>
+  <data name="RadTabStrip1Tab2Resource1.Text" xml:space="preserve">
+    <value>Advanced setup</value>
+  </data>
+  <data name="RadTabStrip1Tab3Resource1.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="rbExternalMSG1Resource1.Text" xml:space="preserve">
+    <value>All published members</value>
+  </data>
+  <data name="rbExternalMSG1Resource2.Text" xml:space="preserve">
+    <value>Subscribers in Published members</value>
+  </data>
+  <data name="rbExternalMSG1Resource3.Text" xml:space="preserve">
+    <value>Not Notify</value>
+  </data>
+  <data name="rbPublishLaterResource1.Text" xml:space="preserve">
+    <value>On-shelf Time</value>
+  </data>
+  <data name="rbPublishNowResource1.Text" xml:space="preserve">
+    <value>On-shelf</value>
+  </data>
+  <data name="rdbtnSyncMSG1Resource1.Text" xml:space="preserve">
+    <value>All published members</value>
+  </data>
+  <data name="rdbtnSyncMSG2Resource1.Text" xml:space="preserve">
+    <value>Subscribers in Published members</value>
+  </data>
+  <data name="rdbtnSyncMSG3Resource1.Text" xml:space="preserve">
+    <value>Not Notify</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Enter topic</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBtopicResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TBtopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TextBox1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextBox2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wbtnExternalResource1.Text" xml:space="preserve">
+    <value>External Category</value>
+  </data>
+</root>

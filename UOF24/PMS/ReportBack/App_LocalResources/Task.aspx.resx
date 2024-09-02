@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cvDataSetNoRowsResource1.ErrorMessage" xml:space="preserve">
+    <value>該任務不存在或已被刪除</value>
+  </data>
+  <data name="cvDataSetNoRowsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDataSetNoRowsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDisableMSDTCResource1.ErrorMessage" xml:space="preserve">
+    <value> 已停用分散式交易管理員 (MSDTC) 的網路存取，&lt;br/&gt;請通知系統管理員修正。</value>
+  </data>
+  <data name="cvDisableMSDTCResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDisableMSDTCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMSDTCErrResource1.ErrorMessage" xml:space="preserve">
+    <value> 分散式交易管理員 (MSDTC) 的網路存取發生錯誤，&lt;br/&gt;請通知系統管理員修正。</value>
+  </data>
+  <data name="cvMSDTCErrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvMSDTCErrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNoAuthorityResource1.ErrorMessage" xml:space="preserve">
+    <value>您沒有回報任務的權限</value>
+  </data>
+  <data name="cvNoAuthorityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvNoAuthorityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvProjectNotSetResource1.ErrorMessage" xml:space="preserve">
+    <value>該任務所屬專案不存在或已被刪除</value>
+  </data>
+  <data name="cvProjectNotSetResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvProjectNotSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>回報狀態</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17Resource1.Text" xml:space="preserve">
+    <value>回報說明</value>
+  </data>
+  <data name="Label17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>私人</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20Resource1.Text" xml:space="preserve">
+    <value>回報進度</value>
+  </data>
+  <data name="Label20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23Resource1.Text" xml:space="preserve">
+    <value>任務開始前提醒時間</value>
+  </data>
+  <data name="Label23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32Resource1.Text" xml:space="preserve">
+    <value>回報附件</value>
+  </data>
+  <data name="Label32Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37Resource1.Text" xml:space="preserve">
+    <value>回報者</value>
+  </data>
+  <data name="Label37Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuditTrackResource1.Text" xml:space="preserve">
+    <value>審核歷程</value>
+  </data>
+  <data name="lblAuditTrackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDataSetNoRowsMsgResource1.Text" xml:space="preserve">
+    <value>該任務不存在或已被刪除。</value>
+  </data>
+  <data name="lblDataSetNoRowsMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteMsgResource1.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="lblDeleteMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDirectorChangeMsgResource1.Text" xml:space="preserve">
+    <value>該任務負責人已被更換。</value>
+  </data>
+  <data name="lblDirectorChangeMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDirectorNotFoundResource1.Text" xml:space="preserve">
+    <value>無法回報任務!! 可能是審核者帳號已失效,請洽系統管理員.</value>
+  </data>
+  <data name="lblDirectorNotFoundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReporterResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReporterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportTrackResource1.Text" xml:space="preserve">
+    <value>回報歷程</value>
+  </data>
+  <data name="lblReportTrackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusNotReportResource1.Text" xml:space="preserve">
+    <value>審核中或已完成的任務不可做回報</value>
+  </data>
+  <data name="lblStatusNotReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSuspendProjMsgResource1.Text" xml:space="preserve">
+    <value>該專案已中止，其任務不可回報</value>
+  </data>
+  <data name="lblSuspendProjMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>尚未開始</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>NotYetBegin</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>進行中</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Proceeding</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>任務回報</value>
+  </data>
+  <data name="panReportTaskResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panReportTaskResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvStatusResource1.ErrorMessage" xml:space="preserve">
+    <value>請選擇回報狀態</value>
+  </data>
+  <data name="rfvStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvRateResource1.ErrorMessage" xml:space="preserve">
+    <value>請輸入0~100的整數</value>
+  </data>
+  <data name="rvRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompleteRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompleteRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReportDescResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReportDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvProjectStatuErrorResource1.ErrorMessage" xml:space="preserve">
+    <value>該專案狀態已被修改,請重新查看專案狀態</value>
+  </data>
+  <data name="cvStastuTaskResource1.ErrorMessage" xml:space="preserve">
+    <value>該任務已被修改,請重新查看任務狀態</value>
+  </data>
+</root>
