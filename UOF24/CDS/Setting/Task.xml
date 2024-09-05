@@ -82,6 +82,10 @@ mode:執行的類型,共4種
     <trigger type="Ede.Uof.WKF.CreateTaskByExternalDt" 
              file="Ede.Uof.WKF" 
              mode="OnStarts" />
+
+    <trigger type="Training.Task"
+         file="Training"
+         mode="OnStarts" />
   </triggers>
   <Tasks>
   </Tasks>

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ConsoleApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConsoleApp1_Auth_Authentication" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF_CAR/PublicAPI/System/Authentication.asmx</Value>
+    </Setting>
+    <Setting Name="ConsoleApp1_WKF_Wkf" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF_CAR/PublicAPI/WKF/Wkf.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

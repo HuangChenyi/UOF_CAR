@@ -1,0 +1,15 @@
+﻿<Event eventID="dae26f72-2959-49e8-8541-004bbb9066bd" LogTime="2024/09/05 15:25:32" User="" Url="/UOF_CAR/PublicAPI/System/Authentication.asmx" Assembly="Ede.Uof.EIP.Security, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Application:ERP, Account:admin, IP:::1 authentication success
+</Event>
+<Event eventID="d227fd6f-8c9c-4682-84d0-b8aaa3091246" LogTime="2024/09/05 15:30:39" User="" Url="/UOF_CAR/PublicAPI/System/Authentication.asmx" Assembly="Ede.Uof.EIP.Security, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Application:ERP, Account:admin, IP:::1 authentication success
+</Event>
+<Event eventID="4bbbd979-3713-4992-9483-2b1f0d368bc0" LogTime="2024/09/05 15:31:31" User="" Url="/UOF_CAR/PublicAPI/System/Authentication.asmx" Assembly="Ede.Uof.EIP.Security, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Application:ERP, Account:admin, IP:::1 authentication success
+</Event>
+<Event eventID="71033b42-9686-44d3-b421-53342de056d8" LogTime="2024/09/05 15:41:45" User="" Url="/UOF_CAR/PublicAPI/System/Authentication.asmx" Assembly="Ede.Uof.EIP.Security, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Application:ERP, Account:admin, IP:::1 authentication success
+</Event>
+<Event eventID="6744c23f-8c83-4b29-97ce-c855a61696ad" LogTime="2024/09/05 15:42:41" User="" Url="/UOF_CAR/PublicAPI/System/Authentication.asmx" Assembly="Ede.Uof.EIP.Security, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Application:ERP, Account:admin, IP:::1 authentication success
+</Event>

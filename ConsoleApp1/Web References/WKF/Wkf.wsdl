@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendForm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xmlFormInfo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendFormResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendFormResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignNext">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="siteId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nodeSeq" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="signerGuid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignNextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SignNextResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignNext2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="siteId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nodeSeq" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="signerGuid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignNext2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SignNext2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFormListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExternalFormList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExternalFormListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetExternalFormListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormStructure">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="formVersionId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormStructureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFormStructureResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormStructureByFormId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="formId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormStructureByFormIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFormStructureByFormIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTaskData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTaskDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTaskDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetRelayFormData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="relayFormData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetRelayFormDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetRelayFormDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TerminateTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="result" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="reason" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TerminateTaskResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TerminateTaskResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTaskResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="taskId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isContainFormData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTaskResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTaskResultResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SimulationFlowByScript">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SimulationFlowByScriptResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SimulationFlowByScriptResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendFormSoapIn">
+    <wsdl:part name="parameters" element="tns:SendForm" />
+  </wsdl:message>
+  <wsdl:message name="SendFormSoapOut">
+    <wsdl:part name="parameters" element="tns:SendFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="SignNextSoapIn">
+    <wsdl:part name="parameters" element="tns:SignNext" />
+  </wsdl:message>
+  <wsdl:message name="SignNextSoapOut">
+    <wsdl:part name="parameters" element="tns:SignNextResponse" />
+  </wsdl:message>
+  <wsdl:message name="SignNext2SoapIn">
+    <wsdl:part name="parameters" element="tns:SignNext2" />
+  </wsdl:message>
+  <wsdl:message name="SignNext2SoapOut">
+    <wsdl:part name="parameters" element="tns:SignNext2Response" />
+  </wsdl:message>
+  <wsdl:message name="GetFormListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFormList" />
+  </wsdl:message>
+  <wsdl:message name="GetFormListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFormListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalFormListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetExternalFormList" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalFormListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetExternalFormListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFormStructure" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFormStructureResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureByFormIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFormStructureByFormId" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureByFormIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFormStructureByFormIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTaskData" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTaskDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetRelayFormDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SetRelayFormData" />
+  </wsdl:message>
+  <wsdl:message name="SetRelayFormDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SetRelayFormDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="TerminateTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:TerminateTask" />
+  </wsdl:message>
+  <wsdl:message name="TerminateTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:TerminateTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskResultSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTaskResult" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskResultSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTaskResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimulationFlowByScriptSoapIn">
+    <wsdl:part name="parameters" element="tns:SimulationFlowByScript" />
+  </wsdl:message>
+  <wsdl:message name="SimulationFlowByScriptSoapOut">
+    <wsdl:part name="parameters" element="tns:SimulationFlowByScriptResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendFormHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="xmlFormInfo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendFormHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNextHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="siteId" type="s:string" />
+    <wsdl:part name="nodeSeq" type="s:string" />
+    <wsdl:part name="signerGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNextHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNext2HttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="siteId" type="s:string" />
+    <wsdl:part name="nodeSeq" type="s:string" />
+    <wsdl:part name="signerGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNext2HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormListHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalFormListHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalFormListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="formVersionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureByFormIdHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="formId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureByFormIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskDataHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetRelayFormDataHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="relayFormData" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetRelayFormDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TerminateTaskHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="account" type="s:string" />
+    <wsdl:part name="result" type="s:string" />
+    <wsdl:part name="reason" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TerminateTaskHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskResultHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="isContainFormData" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskResultHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SimulationFlowByScriptHttpGetIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SimulationFlowByScriptHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendFormHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="xmlFormInfo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendFormHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNextHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="siteId" type="s:string" />
+    <wsdl:part name="nodeSeq" type="s:string" />
+    <wsdl:part name="signerGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNextHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNext2HttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="siteId" type="s:string" />
+    <wsdl:part name="nodeSeq" type="s:string" />
+    <wsdl:part name="signerGuid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SignNext2HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormListHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalFormListHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetExternalFormListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="formVersionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureByFormIdHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="formId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetFormStructureByFormIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskDataHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetRelayFormDataHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="relayFormData" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetRelayFormDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TerminateTaskHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="account" type="s:string" />
+    <wsdl:part name="result" type="s:string" />
+    <wsdl:part name="reason" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TerminateTaskHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskResultHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="taskId" type="s:string" />
+    <wsdl:part name="isContainFormData" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTaskResultHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SimulationFlowByScriptHttpPostIn">
+    <wsdl:part name="token" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SimulationFlowByScriptHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WkfSoap">
+    <wsdl:operation name="SendForm">
+      <wsdl:input message="tns:SendFormSoapIn" />
+      <wsdl:output message="tns:SendFormSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignNext">
+      <wsdl:input message="tns:SignNextSoapIn" />
+      <wsdl:output message="tns:SignNextSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignNext2">
+      <wsdl:input message="tns:SignNext2SoapIn" />
+      <wsdl:output message="tns:SignNext2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormList">
+      <wsdl:input message="tns:GetFormListSoapIn" />
+      <wsdl:output message="tns:GetFormListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalFormList">
+      <wsdl:input message="tns:GetExternalFormListSoapIn" />
+      <wsdl:output message="tns:GetExternalFormListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructure">
+      <wsdl:input message="tns:GetFormStructureSoapIn" />
+      <wsdl:output message="tns:GetFormStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructureByFormId">
+      <wsdl:input message="tns:GetFormStructureByFormIdSoapIn" />
+      <wsdl:output message="tns:GetFormStructureByFormIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskData">
+      <wsdl:input message="tns:GetTaskDataSoapIn" />
+      <wsdl:output message="tns:GetTaskDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetRelayFormData">
+      <wsdl:input message="tns:SetRelayFormDataSoapIn" />
+      <wsdl:output message="tns:SetRelayFormDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TerminateTask">
+      <wsdl:input message="tns:TerminateTaskSoapIn" />
+      <wsdl:output message="tns:TerminateTaskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskResult">
+      <wsdl:input message="tns:GetTaskResultSoapIn" />
+      <wsdl:output message="tns:GetTaskResultSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SimulationFlowByScript">
+      <wsdl:input message="tns:SimulationFlowByScriptSoapIn" />
+      <wsdl:output message="tns:SimulationFlowByScriptSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WkfHttpGet">
+    <wsdl:operation name="SendForm">
+      <wsdl:input message="tns:SendFormHttpGetIn" />
+      <wsdl:output message="tns:SendFormHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignNext">
+      <wsdl:input message="tns:SignNextHttpGetIn" />
+      <wsdl:output message="tns:SignNextHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignNext2">
+      <wsdl:input message="tns:SignNext2HttpGetIn" />
+      <wsdl:output message="tns:SignNext2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormList">
+      <wsdl:input message="tns:GetFormListHttpGetIn" />
+      <wsdl:output message="tns:GetFormListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalFormList">
+      <wsdl:input message="tns:GetExternalFormListHttpGetIn" />
+      <wsdl:output message="tns:GetExternalFormListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructure">
+      <wsdl:input message="tns:GetFormStructureHttpGetIn" />
+      <wsdl:output message="tns:GetFormStructureHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructureByFormId">
+      <wsdl:input message="tns:GetFormStructureByFormIdHttpGetIn" />
+      <wsdl:output message="tns:GetFormStructureByFormIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskData">
+      <wsdl:input message="tns:GetTaskDataHttpGetIn" />
+      <wsdl:output message="tns:GetTaskDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetRelayFormData">
+      <wsdl:input message="tns:SetRelayFormDataHttpGetIn" />
+      <wsdl:output message="tns:SetRelayFormDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TerminateTask">
+      <wsdl:input message="tns:TerminateTaskHttpGetIn" />
+      <wsdl:output message="tns:TerminateTaskHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskResult">
+      <wsdl:input message="tns:GetTaskResultHttpGetIn" />
+      <wsdl:output message="tns:GetTaskResultHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SimulationFlowByScript">
+      <wsdl:input message="tns:SimulationFlowByScriptHttpGetIn" />
+      <wsdl:output message="tns:SimulationFlowByScriptHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WkfHttpPost">
+    <wsdl:operation name="SendForm">
+      <wsdl:input message="tns:SendFormHttpPostIn" />
+      <wsdl:output message="tns:SendFormHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignNext">
+      <wsdl:input message="tns:SignNextHttpPostIn" />
+      <wsdl:output message="tns:SignNextHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignNext2">
+      <wsdl:input message="tns:SignNext2HttpPostIn" />
+      <wsdl:output message="tns:SignNext2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormList">
+      <wsdl:input message="tns:GetFormListHttpPostIn" />
+      <wsdl:output message="tns:GetFormListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalFormList">
+      <wsdl:input message="tns:GetExternalFormListHttpPostIn" />
+      <wsdl:output message="tns:GetExternalFormListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructure">
+      <wsdl:input message="tns:GetFormStructureHttpPostIn" />
+      <wsdl:output message="tns:GetFormStructureHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructureByFormId">
+      <wsdl:input message="tns:GetFormStructureByFormIdHttpPostIn" />
+      <wsdl:output message="tns:GetFormStructureByFormIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskData">
+      <wsdl:input message="tns:GetTaskDataHttpPostIn" />
+      <wsdl:output message="tns:GetTaskDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetRelayFormData">
+      <wsdl:input message="tns:SetRelayFormDataHttpPostIn" />
+      <wsdl:output message="tns:SetRelayFormDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TerminateTask">
+      <wsdl:input message="tns:TerminateTaskHttpPostIn" />
+      <wsdl:output message="tns:TerminateTaskHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskResult">
+      <wsdl:input message="tns:GetTaskResultHttpPostIn" />
+      <wsdl:output message="tns:GetTaskResultHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SimulationFlowByScript">
+      <wsdl:input message="tns:SimulationFlowByScriptHttpPostIn" />
+      <wsdl:output message="tns:SimulationFlowByScriptHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WkfSoap" type="tns:WkfSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendForm">
+      <soap:operation soapAction="http://tempuri.org/SendForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext">
+      <soap:operation soapAction="http://tempuri.org/SignNext" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext2">
+      <soap:operation soapAction="http://tempuri.org/SignNext2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormList">
+      <soap:operation soapAction="http://tempuri.org/GetFormList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalFormList">
+      <soap:operation soapAction="http://tempuri.org/GetExternalFormList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructure">
+      <soap:operation soapAction="http://tempuri.org/GetFormStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructureByFormId">
+      <soap:operation soapAction="http://tempuri.org/GetFormStructureByFormId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskData">
+      <soap:operation soapAction="http://tempuri.org/GetTaskData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRelayFormData">
+      <soap:operation soapAction="http://tempuri.org/SetRelayFormData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TerminateTask">
+      <soap:operation soapAction="http://tempuri.org/TerminateTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskResult">
+      <soap:operation soapAction="http://tempuri.org/GetTaskResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimulationFlowByScript">
+      <soap:operation soapAction="http://tempuri.org/SimulationFlowByScript" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WkfSoap12" type="tns:WkfSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendForm">
+      <soap12:operation soapAction="http://tempuri.org/SendForm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext">
+      <soap12:operation soapAction="http://tempuri.org/SignNext" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext2">
+      <soap12:operation soapAction="http://tempuri.org/SignNext2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormList">
+      <soap12:operation soapAction="http://tempuri.org/GetFormList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalFormList">
+      <soap12:operation soapAction="http://tempuri.org/GetExternalFormList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructure">
+      <soap12:operation soapAction="http://tempuri.org/GetFormStructure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructureByFormId">
+      <soap12:operation soapAction="http://tempuri.org/GetFormStructureByFormId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskData">
+      <soap12:operation soapAction="http://tempuri.org/GetTaskData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRelayFormData">
+      <soap12:operation soapAction="http://tempuri.org/SetRelayFormData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TerminateTask">
+      <soap12:operation soapAction="http://tempuri.org/TerminateTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskResult">
+      <soap12:operation soapAction="http://tempuri.org/GetTaskResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimulationFlowByScript">
+      <soap12:operation soapAction="http://tempuri.org/SimulationFlowByScript" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WkfHttpGet" type="tns:WkfHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="SendForm">
+      <http:operation location="/SendForm" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext">
+      <http:operation location="/SignNext" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext2">
+      <http:operation location="/SignNext2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormList">
+      <http:operation location="/GetFormList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalFormList">
+      <http:operation location="/GetExternalFormList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructure">
+      <http:operation location="/GetFormStructure" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructureByFormId">
+      <http:operation location="/GetFormStructureByFormId" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskData">
+      <http:operation location="/GetTaskData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRelayFormData">
+      <http:operation location="/SetRelayFormData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TerminateTask">
+      <http:operation location="/TerminateTask" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskResult">
+      <http:operation location="/GetTaskResult" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimulationFlowByScript">
+      <http:operation location="/SimulationFlowByScript" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WkfHttpPost" type="tns:WkfHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="SendForm">
+      <http:operation location="/SendForm" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext">
+      <http:operation location="/SignNext" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignNext2">
+      <http:operation location="/SignNext2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormList">
+      <http:operation location="/GetFormList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExternalFormList">
+      <http:operation location="/GetExternalFormList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructure">
+      <http:operation location="/GetFormStructure" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormStructureByFormId">
+      <http:operation location="/GetFormStructureByFormId" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskData">
+      <http:operation location="/GetTaskData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRelayFormData">
+      <http:operation location="/SetRelayFormData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TerminateTask">
+      <http:operation location="/TerminateTask" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaskResult">
+      <http:operation location="/GetTaskResult" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimulationFlowByScript">
+      <http:operation location="/SimulationFlowByScript" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Wkf">
+    <wsdl:port name="WkfSoap" binding="tns:WkfSoap">
+      <soap:address location="http://localhost/UOF_CAR/PublicAPI/WKF/Wkf.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WkfSoap12" binding="tns:WkfSoap12">
+      <soap12:address location="http://localhost/UOF_CAR/PublicAPI/WKF/Wkf.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WkfHttpGet" binding="tns:WkfHttpGet">
+      <http:address location="http://localhost/UOF_CAR/PublicAPI/WKF/Wkf.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WkfHttpPost" binding="tns:WkfHttpPost">
+      <http:address location="http://localhost/UOF_CAR/PublicAPI/WKF/Wkf.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
