@@ -4,7 +4,10 @@
   <WKF>
     <Field>
       <OptionalField>
-        <FieldItem DesignUI="~/WKF/FormManagement/WKF_OptionalFields/SetupField_FormChooseField.aspx" WriteUI="~/WKF/FormManagement/WKF_OptionalFields/FormChooseFieldUC.ascx" FieldName="FormChooseField">
+        <FieldItem
+          DesignUI="~/WKF/FormManagement/WKF_OptionalFields/SetupField_FormChooseField.aspx" 
+          WriteUI="~/WKF/FormManagement/WKF_OptionalFields/FormChooseFieldUC.ascx"
+          FieldName="FormChooseField">
           <Display>
             <Value Culture="zh-TW" Name="表單參考欄位" />
             <Value Culture="zh-CN" Name="表单参考区域" />

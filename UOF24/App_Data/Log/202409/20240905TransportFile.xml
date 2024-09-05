@@ -1,0 +1,162 @@
+﻿<Event eventID="ce0b8052-1bd4-4acd-a5fc-c1dc02c09801" LogTime="2024/09/05 14:20:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="ec95f835-6b33-4133-9553-17d4b19a22ce" LogTime="2024/09/05 14:20:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="f137aad7-f35a-4b52-9ab8-3297e384e118" LogTime="2024/09/05 14:20:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="43f7cc50-43ec-4376-98bc-d2837a2f2e37" LogTime="2024/09/05 14:20:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="c2233f75-9b13-443b-8f30-1a9b00619f0e" LogTime="2024/09/05 14:21:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="2e61f571-ef2b-4f2e-b604-dddff5f3312f" LogTime="2024/09/05 14:21:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="6798446e-de22-4531-9885-301c8ac780e8" LogTime="2024/09/05 14:25:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="68b176b0-b57a-48f8-8b07-8ce6b23731f6" LogTime="2024/09/05 14:25:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="33524c9c-c182-4a82-9c45-104eda81431a" LogTime="2024/09/05 14:25:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="8afdf1b0-099f-4565-b1b6-79b5c065c556" LogTime="2024/09/05 14:25:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="90d25158-b14d-41cb-8a77-06656e95e773" LogTime="2024/09/05 14:26:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="a6a1e04b-326e-4582-bb99-02c9bb8e8044" LogTime="2024/09/05 14:26:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="bfe4dec7-b7f0-4b5e-9384-b3df3d4a5192" LogTime="2024/09/05 14:30:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="e4aa300c-0115-4a6c-aea6-51b3b80309a7" LogTime="2024/09/05 14:30:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="d2ba54eb-ffda-40e1-9d94-ebe2d19aabc4" LogTime="2024/09/05 14:30:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="f42ab439-2229-4e6d-af59-b4ecd57c93c4" LogTime="2024/09/05 14:30:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="d7d8836e-c09e-44a2-8307-80a7e72cace9" LogTime="2024/09/05 14:31:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="91fcba99-ab4b-4c26-b60f-4f89dbac2995" LogTime="2024/09/05 14:31:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="19c88d59-2d10-495b-8a8c-7a14806897c8" LogTime="2024/09/05 14:35:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="58c45154-f8cc-4be0-9024-c5db2800cc5b" LogTime="2024/09/05 14:35:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="aebb80c1-cafb-49cb-a8a0-f091d82aa043" LogTime="2024/09/05 14:35:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="ee69b0ea-dc93-4cc8-8690-17a5981e2df1" LogTime="2024/09/05 14:35:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="1973e3d8-98fe-4d60-80e2-b9b39a3bc4ad" LogTime="2024/09/05 14:36:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="df989fb0-d1f7-4ce9-8300-4840ff549fef" LogTime="2024/09/05 14:36:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="0161e489-8d2e-4e3b-88c0-0deda09db616" LogTime="2024/09/05 14:40:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="83f34cc1-f1c2-44b6-aaaf-195d4c9c6f64" LogTime="2024/09/05 14:40:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="d3f32d3d-f5e0-455d-a679-1e83a55b22bf" LogTime="2024/09/05 14:40:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="5fa7f285-f52c-440a-802b-8339699275ec" LogTime="2024/09/05 14:40:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="89b286e7-216e-45cb-8c83-72b3035e7e11" LogTime="2024/09/05 14:41:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="d309521d-e142-4b1b-b808-f67e54576fd2" LogTime="2024/09/05 14:41:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="8bf49b02-ad70-40ed-a755-643f7a40ee3b" LogTime="2024/09/05 14:45:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="124b6723-3240-4a9a-8548-4c2ded6b1f8e" LogTime="2024/09/05 14:45:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="8ce4c470-cb7e-41ec-9212-d140d0b29e39" LogTime="2024/09/05 14:45:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="e2a88560-1987-4016-8d47-092fbcfb6fc9" LogTime="2024/09/05 14:45:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="067bb960-bbc8-4f81-9fad-7031bb43c653" LogTime="2024/09/05 14:46:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="02d2bfc4-18ae-450f-bd46-b11b36ef2c66" LogTime="2024/09/05 14:46:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="0b0d73d5-c6da-4209-8aa7-d0e03cc18f54" LogTime="2024/09/05 14:50:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="2f191db0-6191-4cf9-a2ff-9788674cc954" LogTime="2024/09/05 14:50:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="eb9ae4b8-5486-414f-9f06-9a260545588c" LogTime="2024/09/05 14:50:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="9476407d-9934-4ae4-ad99-a6bdd04926bf" LogTime="2024/09/05 14:50:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="71949d65-3ce4-4098-a92b-e880e01c71d1" LogTime="2024/09/05 14:51:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="6d845cb6-9227-4a14-ba7c-4a78cf354df9" LogTime="2024/09/05 14:51:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="e61ec0b2-b056-49f0-91c2-1c0d2574e499" LogTime="2024/09/05 14:55:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="a6e39e0b-618b-45b7-b9bd-a0519d2a07e3" LogTime="2024/09/05 14:55:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="7de053be-00d5-4ff8-86f6-3b582f7597fb" LogTime="2024/09/05 14:55:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="335d933a-f04e-42bf-896f-ca4b475f701f" LogTime="2024/09/05 14:55:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="ad69de33-a30f-463c-8fb5-c777872c6624" LogTime="2024/09/05 14:56:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="1d0275ab-421d-48c5-8040-c9db1d15c2df" LogTime="2024/09/05 14:56:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="0eb52eb2-088b-46ce-a384-30f130ba6a47" LogTime="2024/09/05 15:00:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="6396e07e-3b74-4d11-88e9-d3786249c267" LogTime="2024/09/05 15:00:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="cbf7bbf9-fbd9-4149-b82f-8d036ec60fb6" LogTime="2024/09/05 15:00:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="b1d1adb2-cab4-432b-8d95-9484a1d5474f" LogTime="2024/09/05 15:00:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="ab5b9d6c-0f4b-4034-a0f5-aba82ffe6452" LogTime="2024/09/05 15:01:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="bf98c8ec-1f33-4ad5-9941-74f06594b476" LogTime="2024/09/05 15:01:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>

@@ -79,7 +79,9 @@ mode:執行的類型,共4種
   <triggers>
     <!--BPM外部資料庫起單用，有使用者再行解除註解，但需注意產品排程那邊是否也有開啟，不可同時啟用-->
     <!-- 2021/04/16 此次修改後，產品與客製兩邊已可重複啟用(排程啟動&多國語當重複時都會以客製優先)，但同一個地方還是不能有複數一樣名稱的排程-->
-    <!--<trigger type="Ede.Uof.WKF.CreateTaskByExternalDt" file="Ede.Uof.WKF" mode="EveryDay" hours="*" minutes="0/5" />-->
+    <trigger type="Ede.Uof.WKF.CreateTaskByExternalDt" 
+             file="Ede.Uof.WKF" 
+             mode="OnStarts" />
   </triggers>
   <Tasks>
   </Tasks>

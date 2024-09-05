@@ -5,3 +5,8 @@ System.NullReferenceException: 並未將物件參考設定為物件的執行個�
    於 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
    於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 </Event>
+<Event eventID="699cc4d6-86c3-4b1d-9ea7-8a22149085ee" LogTime="2024/09/05 14:19:44" User="" Url="" Assembly="Ede.Uof.WKF, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Applicant: File [AA/plugin.xml]  not found; 
+   於 Ede.Uof.WKF.Utility.TransferAttachFile.Transfer(String mode, XmlNode xmlNode, String userGuid) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\WKF\Ede.Uof.WKF\Utility\TransferAttachFile.cs: 行 201
+   於 Ede.Uof.WKF.Utility.TaskUtilityUCO.WebService_CreateTask(String xmlApplyFormInfo) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\WKF\Ede.Uof.WKF\Utility\TaskUtilityUCO2.cs: 行 7198
+</Event>
