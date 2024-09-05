@@ -10,3 +10,8 @@ Applicant: File [AA/plugin.xml]  not found;
    於 Ede.Uof.WKF.Utility.TransferAttachFile.Transfer(String mode, XmlNode xmlNode, String userGuid) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\WKF\Ede.Uof.WKF\Utility\TransferAttachFile.cs: 行 201
    於 Ede.Uof.WKF.Utility.TaskUtilityUCO.WebService_CreateTask(String xmlApplyFormInfo) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\WKF\Ede.Uof.WKF\Utility\TaskUtilityUCO2.cs: 行 7198
 </Event>
+<Event eventID="cc708332-26f8-45b5-b895-91dcc1a6b0a4" LogTime="2024/09/05 15:51:13" User="admin" Url="/UOF_CAR/PublicAPI/WKF/Wkf.asmx" Assembly="Ede.Uof.WKF, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Applicant: has no valid AttachItem tag 
+   於 Ede.Uof.WKF.Utility.TransferAttachFile.Transfer(String mode, XmlNode xmlNode, String userGuid) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\WKF\Ede.Uof.WKF\Utility\TransferAttachFile.cs: 行 201
+   於 Ede.Uof.WKF.Utility.TaskUtilityUCO.WebService_CreateTask(String xmlApplyFormInfo) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\WKF\Ede.Uof.WKF\Utility\TaskUtilityUCO2.cs: 行 7198
+</Event>
