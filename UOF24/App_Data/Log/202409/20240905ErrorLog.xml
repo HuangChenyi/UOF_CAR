@@ -1,0 +1,7 @@
+﻿<Event eventID="b5d7b406-8bef-4d97-bcdf-f60ab9a1938a" LogTime="2024/09/05 11:03:41" User="admin" Url="/UOF_CAR/CDS/XML/Default.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 CDS_XML_Default.btnGetValue_Click(Object sender, EventArgs e) 於 D:\技轉教學\CAR\UOF_Training\UOF24\CDS\XML\Default.aspx.cs: 行 97
+   於 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   於 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Event>
