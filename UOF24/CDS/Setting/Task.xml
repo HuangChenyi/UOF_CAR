@@ -83,9 +83,9 @@ mode:執行的類型,共4種
              file="Ede.Uof.WKF" 
              mode="OnStarts" />
 
-    <trigger type="Training.Task"
+    <trigger type="Training.Task.CreateFormTask"
          file="Training"
-         mode="OnStarts" />
+         mode="DaysOfMonth" days="L" hours="8" minutes="0"  />
   </triggers>
   <Tasks>
   </Tasks>

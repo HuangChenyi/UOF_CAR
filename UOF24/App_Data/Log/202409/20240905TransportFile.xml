@@ -172,3 +172,51 @@ _freeClients count(有空的執行序):4
 <Event eventID="329ab23b-44de-427f-be70-166d4b65d3bf" LogTime="2024/09/05 15:05:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
 SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
 </Event>
+<Event eventID="9e916ab3-07b7-4bee-ae3a-e8340a071f65" LogTime="2024/09/05 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="d2fdefbc-e28c-4f9a-81bc-73dfb989cf78" LogTime="2024/09/05 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="46932c67-18a7-494e-b89a-f1a28fcb35bc" LogTime="2024/09/05 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="fd2df37f-8930-41f5-9345-d5ef26bd6d19" LogTime="2024/09/05 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="007a93ae-dc63-4f38-81f5-e28e9d27f9f1" LogTime="2024/09/05 16:10:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="ea91c915-8b0d-4852-8af9-2849ab8392c2" LogTime="2024/09/05 16:10:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="92f32816-f356-4f13-bb48-c65eb26bc117" LogTime="2024/09/05 16:10:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="b5f71715-8067-4e42-8d81-c43418b82c02" LogTime="2024/09/05 16:10:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="b6fee9b7-318d-48f8-99ee-627b16448e0a" LogTime="2024/09/05 16:11:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="9eb6fd47-d726-4a4a-87ba-80d257022088" LogTime="2024/09/05 16:11:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>
+<Event eventID="51ea1625-490b-415e-a47f-3e3e4429ecfa" LogTime="2024/09/05 16:15:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing start.
+</Event>
+<Event eventID="ccffd6ef-0139-4ccf-ba8b-c0bcc9e8fe9c" LogTime="2024/09/05 16:15:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+把待傳輸的工作放到WorkQueue裡面，數量:0
+</Event>
+<Event eventID="f144c53c-73f3-43d9-99a5-88f487041f85" LogTime="2024/09/05 16:15:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+_freeClients count(有空的執行序):4
+</Event>
+<Event eventID="7643315d-ac1e-4e0d-89c4-8134798f1524" LogTime="2024/09/05 16:15:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+SetJob =&gt; 空的執行序:4 以及 目前待處理工作數量:0
+</Event>
+<Event eventID="aafaed7f-c3e2-4802-a79e-9ef19f1b42c7" LogTime="2024/09/05 16:16:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+list中嘗試次數大於3的工作數量:0
+</Event>
+<Event eventID="70fa06fc-99cb-4478-bf08-2ce975a33273" LogTime="2024/09/05 16:16:45" User="" Url="" Assembly="Ede.Uof.Utility.FileCenter, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Executing end, break while loop.
+</Event>

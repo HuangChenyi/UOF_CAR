@@ -103,7 +103,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Task.cs" />
+    <Compile Include="Task\CreateFormTask.cs" />
     <Compile Include="Trigger\DemoForm\EndFormTrigger.cs" />
     <Compile Include="Trigger\DemoForm\OnFlowFormTrigger.cs" />
     <Compile Include="Trigger\DemoForm\StartFormTrigger.cs" />
