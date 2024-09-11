@@ -1,5 +1,12 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Lab.Lib.Properties" GeneratedClassName="Settings">
   <Profiles />
-  <Settings />
+  <Settings>
+    <Setting Name="Lab_Lib_Auth_Authentication" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF_CAR/PublicAPI/System/Authentication.asmx</Value>
+    </Setting>
+    <Setting Name="Lab_Lib_DMS_Dms" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF_CAR/PublicAPI/DMS/Dms.asmx</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

@@ -1,0 +1,14 @@
+﻿<Event eventID="ac8b4822-3785-43f9-a1fc-bf2c2bb9092c" LogTime="2024/09/11 13:30:16" User="admin" Url="/UOF_CAR/PublicAPI/DMS/DMS.asmx" Assembly="Ede.Uof.Utility.Task, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Can&#39;t connect to TaskEngineSerivce
+System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---&gt; System.Net.WebException: 無法連接至遠端伺服器 ---&gt; System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:6789
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 Ede.Uof.Utility.Task.Dynamic.DynamicTask.&lt;Add&gt;d__3.MoveNext() 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Task\Dynamic\DynamicTask.cs: 行 84
+</Event>

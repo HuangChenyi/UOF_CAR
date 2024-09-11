@@ -1,9 +1,12 @@
-﻿using Ede.Uof.WKF.ExternalUtility;
+﻿using Ede.Uof.Utility.Configuration;
+using Ede.Uof.Utility.FileCenter.V3;
+using Ede.Uof.WKF.ExternalUtility;
 using Lab.Lib.Data;
 using Lab.Lib.UCO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
@@ -45,10 +48,31 @@ namespace Lab.Lib.Tigger.LabForm
             //dr.TASK_ID = ;
 
             LabUCO uco = new LabUCO();
-            uco.InsertLabFormData(dr);
+            //   uco.InsertLabFormData(dr);
+            string publicKey = "PFJTQUtleVZhbHVlPjxNb2R1bHVzPnlLVFpYTVhZa29MTStYVkpmU2YvWnNOZ0F1NVJ6STZPbXZiMkZ2UElCTmx1U0ZCdDN0U2hmaElpcWFCVFNTSzByRzBQRXhTc2JxZXhoZFVJUkh6TG5sK0lMN1ZCVWVRSDkvdVhBdk9kRCtlSC9BQlV3SXNqS0dWblZEcmIvUHJWVkMvV2dlSytzZ1J4VzJiMUFvanVNOExRRStYeGtoVE45NWZGY0wwMVlMVT08L01vZHVsdXM+PEV4cG9uZW50PkFRQUI8L0V4cG9uZW50PjwvUlNBS2V5VmFsdWU+";
 
-          
+            Setting setting = new Setting();
+            Auth.Authentication auth = new Auth.Authentication();
+            auth.Url = setting["SiteUrl"] + "/PublicAPI/System/Authentication.asmx";
 
+            //如果是附件欄位的話就fields["fieldid"].FieldValue
+            string fileGroupId = applyTask.Task.AttachId;
+            string newFileGroupId= FileCenter.Clone(fileGroupId, Module.DMS, "DMS_SOURCE");
+            string token = auth.GetToken("ERP",
+                RSAEncrypt(publicKey,"admin"),
+                RSAEncrypt(publicKey,"123456"));
+
+            var fg = FileCenter.GetFileGroup(newFileGroupId);
+
+
+            DMS.Dms dms = new DMS.Dms();
+            dms.Url = setting["SiteUrl"] + "/PublicAPI/DMS/DMS.asmx";
+
+            string docid = dms.AddNewDoc(token,
+                "a2302ec3-c262-480a-900b-aa848255208e",
+                fg[0].Name, fg[0].Name, true,
+                newFileGroupId);
+               
             return "";
             // throw new NotImplementedException();
         }
@@ -264,7 +288,28 @@ namespace Lab.Lib.Tigger.LabForm
         }
         #endregion
 
-       
+        /// <summary>
+        /// RSA 加密
+        /// </summary>
+        /// <param name="privateKey"></param>
+        /// <param name="crTexturlparam>
+        /// <returns></returns>
+        private static string RSAEncrypt(string publicKey, string crText)
+        {
+
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
+
+            byte[] base64PublicKey = Convert.FromBase64String(publicKey);
+            rsa.FromXmlString(System.Text.Encoding.UTF8.GetString(base64PublicKey));
+
+
+            byte[] ctTextArray = Encoding.UTF8.GetBytes(crText);
+
+
+            byte[] decodeBs = rsa.Encrypt(ctTextArray, false);
+
+            return Convert.ToBase64String(decodeBs);
+        }
     }
 
 

@@ -6,7 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using Ede.Uof.Utility.Log;
+using Ede.Uof.WKF.Design;
 using Ede.Uof.WKF.ExternalUtility;
+using Training.Data;
 using Training.PO;
 using Training.UCO;
 
@@ -36,6 +39,36 @@ namespace Training.Trigger.DemoForm
             DemoUCO uco = new DemoUCO();
             string docNbr = applyTask.FormNumber;
             string signStatus = applyTask.FormResult.ToString();
+
+
+            var gridField = (FieldDataGrid)applyTask.Task.CurrentDocument.Fields["AAA"];
+            DemoDataSet ds = new DemoDataSet();
+            foreach (var row in gridField.FieldDataGridValue.RowValueList)
+            {
+                DemoDataSet.TB_DEMO_DLL_FORMRow dr = ds.TB_DEMO_DLL_FORM.NewTB_DEMO_DLL_FORMRow();
+       
+
+                foreach(FieldDataGrid.GridCellValue cv in row.CellValueList)
+                {
+                    if(cv.fieldId=="A01")
+                    {
+                        dr.ITEM = cv.fieldValue;
+                    }
+                    else if (cv.fieldId == "A02")
+                    {
+                        dr.ITEM_PRICE = int.Parse(cv.fieldValue);
+                    }
+                    else if (cv.fieldId == "A03")
+                    {
+                        dr.ITEM_QTY = int.Parse(cv.fieldValue);
+                    }
+                    else if (cv.fieldId == "A04")
+                    {
+                        dr.REMARK = cv.fieldValue;
+                    }
+                }
+
+            }
 
             uco.UpdateFormResult(docNbr, signStatus);
 
@@ -129,6 +162,9 @@ namespace Training.Trigger.DemoForm
 
                 Ede.Uof.WKF.Utility.TaskUtilityUCO taskUtilityUCO = new Ede.Uof.WKF.Utility.TaskUtilityUCO();
                 string result = taskUtilityUCO.WebService_CreateTask(formXE.ToString());
+
+                Logger.Write("CarFormInfo",
+                    formXE.ToString());
 
                 XElement xElement = XElement.Parse(result);
 
