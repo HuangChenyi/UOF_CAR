@@ -1,6 +1,7 @@
 ﻿using Ede.Uof.Utility.Task;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -15,10 +16,13 @@ namespace Training.Task
         public override void Run(params string[] args)
         {
 
+        //    Ede.Uof.Utility.
 
             //抓取附件 先複製到C:\UOF_Temp\WKF_TempFile
             FileInfo fileInfo = new FileInfo("D:\\採購資訊.pdf");
-            fileInfo.CopyTo("C:\\UOF_Temp\\WKF_TempFile\\" + fileInfo.Name, true);
+            fileInfo.CopyTo(
+                ConfigurationManager.AppSettings["wkfFileTransferTemp"]
+                + fileInfo.Name, true);
 
 
             XElement formXE = new XElement("Form");
