@@ -73,10 +73,23 @@
                 <td norwap>
     <asp:Label ID="Label4" runat="server" Text="負責人"></asp:Label></td>
     <td>
-        <uc1:UC_ChoiceList runat="server" ID="uc_Owner" />
+        <uc1:UC_ChoiceList runat="server" ID="uc_Owner"
+            OnEditButtonOnClick="uc_Owner_EditButtonOnClick"
+            />
         
     </td>
+
 </tr>
+    <tr runat="server" id="cust" visible="false" >
+                    <td norwap>
+<asp:Label ID="Label6" runat="server" Text="自訂負責人"></asp:Label></td>
+<td>
+    <uc1:UC_ChoiceList runat="server" ID="UC_ChoiceList1"
+       
+        />
+    
+</td>
+    </tr>
             <tr>
                 <td norwap>
     <asp:Label ID="Label5" runat="server" Text="執行內容回覆"></asp:Label></td>

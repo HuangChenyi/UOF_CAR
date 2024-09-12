@@ -12,3 +12,17 @@ System.Web.HttpCompileException (0x80004005): D:\技轉教學\CAR\UOF_Training\U
    於 System.Web.UI.Control.LoadRecursive()
    於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 </Event>
+<Event eventID="c42e8c6c-52c4-431c-8384-e89762889ddb" LogTime="2024/09/11 15:01:50" User="c496e32b-0968-4de5-95fc-acf7e5a561c0" Url="/UOF_CAR/WKF/FormUse/FreeTask/SignNodeForm.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 WKF_OptionalFields_optionField2.get_RealValue() 於 D:\技轉教學\CAR\UOF_Training\UOF24\CDS\WKF_Fields\optionField2.ascx.cs: 行 128
+   於 WKF_FormManagement_VersionFieldUserControl_VersionFieldCollectionUsingUC.SaveFieldValue(Document doc) 於 Z:\Builds\20\UofAgile\3.Setup\src\Web\Ede.Uof.Web\WKF\FormManagement\VersionFieldUserControl\VersionFieldCollectionUsingUC.ascx.cs: 行 2350
+   於 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   於 WKF_FormUse_FreeTask_SignNodeForm.SaveFormDraft() 於 Z:\Builds\20\UofAgile\3.Setup\src\Web\Ede.Uof.Web\WKF\FormUse\FreeTask\SignNodeForm.aspx.cs: 行 987
+   於 WKF_FormUse_FreeTask_SignNodeForm.SendForm(SignResult signResult, Boolean speedSign) 於 Z:\Builds\20\UofAgile\3.Setup\src\Web\Ede.Uof.Web\WKF\FormUse\FreeTask\SignNodeForm.aspx.cs: 行 1113
+   於 Master_DialogMasterPage.MasterPageRadButton3_Click(Object sender, EventArgs e) 於 Z:\Builds\20\UofAgile\3.Setup\src\Web\Ede.Uof.Web\Master\DialogMasterPage.master.cs: 行 652
+   於 Telerik.Web.UI.RadButton.OnClick(ButtonClickEventArgs e)
+   於 Telerik.Web.UI.RadButton.RaisePostBackEvent(String eventArgument)
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+</Event>

@@ -18,6 +18,7 @@ using System.Xml;
 using System.Linq;
 using Ede.Uof.EIP.SystemInfo;
 using System.Xml.Linq;
+using Ede.Uof.EIP.Organization;
 
 public partial class WKF_OptionalFields_optionField2 : WKF_FormManagement_VersionFieldUserControl_VersionFieldUC
 {
@@ -122,13 +123,72 @@ public partial class WKF_OptionalFields_optionField2 : WKF_FormManagement_Versio
             //回傳字串
             //取得表單欄位簽核者的UsetSet字串
             //內容必須符合EB UserSet的格式
-            return uc_Owner.XML;
+            if (FindSuperior() != "")
+                return FindSuperior();
+            else
+                return UC_ChoiceList1.XML;
+
+
+
+
         }
         set
         {
 			//這個屬性不用修改
             base.m_fieldValue = value;
         }
+    }
+
+    private string FindSuperior()
+    {
+        UserSet user
+               = new UserSet();
+        user.SetXML(uc_Owner.XML);
+        string userGuid = user.GetUsers().Rows[0]["USER_GUID"].ToString();
+        UserUCO userUCO = new UserUCO();
+        EBUser ebUser = userUCO.GetEBUser(userGuid);
+        string groupId= ebUser.GroupID;
+        BaseGroup bg = new BaseGroup(groupId);
+        if( ebUser.HasJobFunction("Superior"))
+        {
+            if(bg.ParnetGroup==null)
+            {
+                return "";
+            }
+            return GetSuperiorUserSet(bg.ParnetGroup.GroupId);
+        }
+        else
+        {
+            return GetSuperiorUserSet(groupId);
+        }
+    }
+
+    private string GetSuperiorUserSet(string groupId)
+    {
+        UserSet usetSet = new UserSet();
+        UserSetFunctionOfGroup usetSetFunctionOfGroup = new UserSetFunctionOfGroup();
+        usetSetFunctionOfGroup.GROUP_ID = groupId;
+        usetSetFunctionOfGroup.FUNC_ID = "Superior";
+
+        usetSet.Items.Add(usetSetFunctionOfGroup);
+
+        if(usetSet.GetUsers().Rows.Count>0)
+        {
+            return usetSet.GetXML();
+        }
+        else
+        {
+            BaseGroup baseGroup = new BaseGroup(groupId);
+            if(baseGroup.ParnetGroup==null)
+            {
+                return "";
+            }
+            else
+            {
+                return GetSuperiorUserSet(baseGroup.ParnetGroup.GroupId);
+            }    
+        }
+
     }
 
 
@@ -201,6 +261,8 @@ public partial class WKF_OptionalFields_optionField2 : WKF_FormManagement_Versio
             return "品項為空白，金額不得大於200";
         }
         return "";
+
+  
     }
 
     /// <summary>
@@ -247,12 +309,14 @@ public partial class WKF_OptionalFields_optionField2 : WKF_FormManagement_Versio
                 UserSet userSet = new UserSet();
                 userSet.SetXML(uc_Owner.XML);
                 txtContent.Enabled = userSet.Contains(Current.UserGUID);
+                
             }
             else
             {
                 txtContent.Enabled = false;
             }
-           
+            RequiredFieldValidator1.Enabled = txtContent.Enabled;
+
 
 
 
@@ -284,6 +348,18 @@ public partial class WKF_OptionalFields_optionField2 : WKF_FormManagement_Versio
                 lblModifier.Text = System.Web.Security.AntiXss.AntiXssEncoder.HtmlEncode(fieldOptional.Modifier.Name, true);
             } 
             #endregion
+        }
+    }
+
+    protected void uc_Owner_EditButtonOnClick(UserSet userSet)
+    {
+        if(FindSuperior() == "")
+        {
+            cust.Visible = true;
+        }
+        else
+        {
+            cust.Visible = false;
         }
     }
 }
